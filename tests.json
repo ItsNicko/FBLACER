@@ -1,6 +1,10 @@
 {
   "tests": [
     {
+      "testName": "Acalympics",
+      "path": "questions/Acalympics.json"
+    },
+    {
       "testName": "Accounting",
       "path": "questions/Accounting.json"
     },

@@ -1,0 +1,1115 @@
+{
+  "testName": "Acalympics",
+  "topics": [
+    {
+      "topic": "English Language Arts",
+      "questions": [
+        {
+          "question": "Which author wrote 'The Handmaid's Tale' and was born in Ottawa, Canada?",
+          "options": [
+            "Margaret Atwood",
+            "Alice Munro",
+            "Robertson Davies",
+            "Michel Tremblay"
+          ],
+          "correctAnswer": "Margaret Atwood",
+          "explanation": "Margaret Atwood is a renowned Canadian author famous for The Handmaid's Tale, published in 1985."
+        },
+        {
+          "question": "In poetry, what is the term for the repetition of initial consonant sounds in neighboring words?",
+          "options": [
+            "Assonance",
+            "Alliteration",
+            "Consonance",
+            "Onomatopoeia"
+          ],
+          "correctAnswer": "Alliteration",
+          "explanation": "Alliteration is the repetition of initial sounds, such as 'Peter Piper picked a peck of pickled peppers.'"
+        },
+        {
+          "question": "Which playwright wrote 'A Doll's House,' challenging societal norms about gender roles?",
+          "options": [
+            "Henrik Ibsen",
+            "Anton Chekhov",
+            "George Bernard Shaw",
+            "Oscar Wilde"
+          ],
+          "correctAnswer": "Henrik Ibsen",
+          "explanation": "Henrik Ibsen's 'A Doll's House' premiered in 1879 and was groundbreaking for its controversial ending."
+        },
+        {
+          "question": "What is the primary purpose of a thesis statement in academic writing?",
+          "options": [
+            "To introduce the author",
+            "To present the main argument or central claim",
+            "To provide background information",
+            "To conclude the essay"
+          ],
+          "correctAnswer": "To present the main argument or central claim",
+          "explanation": "A thesis statement presents the writer's main position that the rest of the paper supports."
+        },
+        {
+          "question": "Which of Shakespeare's plays is categorized as a 'dark comedy' due to its mixed tone?",
+          "options": [
+            "A Midsummer Night's Dream",
+            "Measure for Measure",
+            "The Tempest",
+            "Twelfth Night"
+          ],
+          "correctAnswer": "Measure for Measure",
+          "explanation": "Measure for Measure blends serious themes with comedic elements, making it a dark or problem comedy."
+        },
+        {
+          "question": "What does the literary term 'irony' primarily involve?",
+          "options": [
+            "A comparison between two different things",
+            "A contrast between expectation and reality",
+            "The repetition of similar sounds",
+            "An exaggerated statement"
+          ],
+          "correctAnswer": "A contrast between expectation and reality",
+          "explanation": "Irony occurs when there is a contradiction between what is expected and what actually happens."
+        },
+        {
+          "question": "Which American author wrote 'Invisible Man,' exploring themes of identity and race?",
+          "options": [
+            "Ralph Ellison",
+            "James Baldwin",
+            "Zora Neale Hurston",
+            "Langston Hughes"
+          ],
+          "correctAnswer": "Ralph Ellison",
+          "explanation": "Ralph Ellison published 'Invisible Man' in 1952, a seminal work of African American literature."
+        },
+        {
+          "question": "In narrative structure, what is the term for the turning point where the plot begins to resolve?",
+          "options": ["Exposition", "Climax", "Falling action", "Resolution"],
+          "correctAnswer": "Climax",
+          "explanation": "The climax is the peak moment of tension, marking the turning point toward resolution."
+        },
+        {
+          "question": "Which Latin term refers to a statement or quote that appears to be false or self-contradictory?",
+          "options": ["Paradox", "Metaphor", "Hyperbole", "Antithesis"],
+          "correctAnswer": "Paradox",
+          "explanation": "A paradox is an apparently contradictory statement that may be true, such as 'less is more.'"
+        },
+        {
+          "question": "What is the name of the novel by George Orwell that portrays a totalitarian society called Oceania?",
+          "options": [
+            "Animal Farm",
+            "1984",
+            "Down and Out in Paris and London",
+            "Keep the Aspidistra Flying"
+          ],
+          "correctAnswer": "1984",
+          "explanation": "'1984,' published in 1949, depicts a dystopian society under constant surveillance and control."
+        },
+        {
+          "question": "In 'Pride and Prejudice,' what is the primary source of conflict between Elizabeth and Mr. Darcy initially?",
+          "options": [
+            "Social class differences",
+            "Misunderstandings and prejudgments",
+            "Family interference",
+            "Elizabeth's financial situation"
+          ],
+          "correctAnswer": "Misunderstandings and prejudgments",
+          "explanation": "Their initial conflicts stem from false impressions they form based on limited information."
+        },
+        {
+          "question": "Which author wrote the poem 'Do Not Go Gentle into That Good Night'?",
+          "options": [
+            "W.H. Auden",
+            "Dylan Thomas",
+            "Ted Hughes",
+            "Philip Larkin"
+          ],
+          "correctAnswer": "Dylan Thomas",
+          "explanation": "Dylan Thomas wrote this famous villanelle, often interpreted as addressing mortality and resistance."
+        },
+        {
+          "question": "What literary device is used in the phrase 'the silence was deafening'?",
+          "options": [
+            "Metaphor",
+            "Oxymoron",
+            "Personification",
+            "Understatement"
+          ],
+          "correctAnswer": "Oxymoron",
+          "explanation": "An oxymoron combines contradictory terms for effect, such as 'deafening silence.'"
+        },
+        {
+          "question": "In 'The Great Gatsby,' who narrates the story?",
+          "options": [
+            "Daisy Buchanan",
+            "Nick Carraway",
+            "Tom Buchanan",
+            "Jay Gatsby"
+          ],
+          "correctAnswer": "Nick Carraway",
+          "explanation": "Nick Carraway serves as the first-person narrator through whose eyes the story unfolds."
+        },
+        {
+          "question": "What is the primary function of a plot device?",
+          "options": [
+            "To slow down the narrative",
+            "To advance the story or create conflict",
+            "To confuse the reader",
+            "To provide detailed character backgrounds"
+          ],
+          "correctAnswer": "To advance the story or create conflict",
+          "explanation": "Plot devices are tools writers use to move the story forward or generate tension."
+        },
+        {
+          "question": "Which British author is known for the 'Sherlock Holmes' detective stories?",
+          "options": [
+            "Arthur Conan Doyle",
+            "Agatha Christie",
+            "G.K. Chesterton",
+            "P.G. Wodehouse"
+          ],
+          "correctAnswer": "Arthur Conan Doyle",
+          "explanation": "Arthur Conan Doyle created Sherlock Holmes, one of literature's most iconic detectives."
+        },
+        {
+          "question": "What is a memoir?",
+          "options": [
+            "A fictional account of an imaginary person's life",
+            "A historical account of a nation",
+            "A narrative account of a person's life written by that person",
+            "A collection of essays on philosophy"
+          ],
+          "correctAnswer": "A narrative account of a person's life written by that person",
+          "explanation": "A memoir is an autobiographical work focusing on specific events or periods in the author's life."
+        },
+        {
+          "question": "In 'To Kill a Mockingbird,' what does the mockingbird symbolize?",
+          "options": [
+            "Evil and corruption",
+            "Innocence and those who do no harm",
+            "Strength and resilience",
+            "Wisdom and knowledge"
+          ],
+          "correctAnswer": "Innocence and those who do no harm",
+          "explanation": "The mockingbird represents innocence, symbolizing characters like Tom Robinson and Boo Radley."
+        },
+        {
+          "question": "What is the difference between a simile and a metaphor?",
+          "options": [
+            "A simile uses 'is' and a metaphor uses 'like'",
+            "A metaphor uses 'like' or 'as' and a simile does not",
+            "A simile uses 'like' or 'as' and a metaphor does not",
+            "There is no difference"
+          ],
+          "correctAnswer": "A simile uses 'like' or 'as' and a metaphor does not",
+          "explanation": "Similes explicitly compare using 'like' or 'as,' while metaphors imply comparison directly."
+        },
+        {
+          "question": "Which Russian author wrote 'Crime and Punishment'?",
+          "options": [
+            "Leo Tolstoy",
+            "Fyodor Dostoevsky",
+            "Ivan Turgenev",
+            "Anton Chekhov"
+          ],
+          "correctAnswer": "Fyodor Dostoevsky",
+          "explanation": "'Crime and Punishment' explores themes of morality, guilt, and redemption through Raskolnikov's story."
+        }
+      ]
+    },
+    {
+      "topic": "Science",
+      "questions": [
+        {
+          "question": "What is the term for the point on Earth's surface directly above the epicenter of an earthquake?",
+          "options": [
+            "Epicenter",
+            "Hypocenter",
+            "Epicentral distance",
+            "Epicentral zone"
+          ],
+          "correctAnswer": "Epicentral distance",
+          "explanation": "The point directly above the epicenter on the surface is sometimes referred to in terms of epicentral distance, but more accurately it's the projection of the epicenter."
+        },
+        {
+          "question": "Which organelle is responsible for energy production in eukaryotic cells?",
+          "options": [
+            "Ribosome",
+            "Mitochondrion",
+            "Golgi apparatus",
+            "Endoplasmic reticulum"
+          ],
+          "correctAnswer": "Mitochondrion",
+          "explanation": "Mitochondria are the powerhouse of the cell, producing ATP through cellular respiration."
+        },
+        {
+          "question": "What is the process by which plants convert light energy into chemical energy?",
+          "options": [
+            "Cellular respiration",
+            "Photosynthesis",
+            "Fermentation",
+            "Chemosynthesis"
+          ],
+          "correctAnswer": "Photosynthesis",
+          "explanation": "Photosynthesis uses light energy to convert CO₂ and H₂O into glucose and oxygen."
+        },
+        {
+          "question": "A 2 kg mass is accelerated at 5 m/s². What is the net force acting on it?",
+          "options": ["2.5 N", "7 N", "10 N", "10.5 N"],
+          "correctAnswer": "10 N",
+          "explanation": "Using F = ma, F = 2 kg × 5 m/s² = 10 N."
+        },
+        {
+          "question": "What is the pH range for a neutral solution?",
+          "options": ["0-3", "4-6", "7", "8-14"],
+          "correctAnswer": "7",
+          "explanation": "A pH of 7 is neutral. Below 7 is acidic, and above 7 is basic."
+        },
+        {
+          "question": "Which blood type is considered the universal donor?",
+          "options": ["A", "B", "AB", "O negative"],
+          "correctAnswer": "O negative",
+          "explanation": "O negative blood lacks A and B antigens and the Rh factor, making it universally compatible."
+        },
+        {
+          "question": "What does the term 'genotype' refer to?",
+          "options": [
+            "The physical appearance of an organism",
+            "The genetic makeup of an organism",
+            "The behavior of an organism",
+            "The environment of an organism"
+          ],
+          "correctAnswer": "The genetic makeup of an organism",
+          "explanation": "Genotype is the complete set of genes; phenotype is the observable expression of those genes."
+        },
+        {
+          "question": "In the process of photosynthesis, what is the primary function of chlorophyll?",
+          "options": [
+            "To absorb light energy",
+            "To store glucose",
+            "To produce oxygen",
+            "To transport water"
+          ],
+          "correctAnswer": "To absorb light energy",
+          "explanation": "Chlorophyll absorbs photons of light, which powers the light-dependent reactions."
+        },
+        {
+          "question": "What is the SI unit of electrical resistance?",
+          "options": ["Ampere", "Volt", "Ohm", "Watt"],
+          "correctAnswer": "Ohm",
+          "explanation": "The ohm (Ω) is the SI unit of electrical resistance, named after Georg Simon Ohm."
+        },
+        {
+          "question": "Which planet in our solar system has the greatest number of moons?",
+          "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+          "correctAnswer": "Jupiter",
+          "explanation": "Jupiter has 95 known moons as of the latest count, more than any other planet."
+        },
+        {
+          "question": "What is the name of the protein that carries oxygen in red blood cells?",
+          "options": ["Myoglobin", "Hemoglobin", "Albumin", "Collagen"],
+          "correctAnswer": "Hemoglobin",
+          "explanation": "Hemoglobin is the iron-containing protein in red blood cells that binds and transports oxygen."
+        },
+        {
+          "question": "In quantum mechanics, what does Heisenberg's Uncertainty Principle state?",
+          "options": [
+            "Energy can be created or destroyed",
+            "The momentum and position of a particle cannot both be known with absolute precision",
+            "All objects fall at the same rate",
+            "Light travels in straight lines"
+          ],
+          "correctAnswer": "The momentum and position of a particle cannot both be known with absolute precision",
+          "explanation": "This principle limits the precision with which certain pairs of physical properties can be known."
+        },
+        {
+          "question": "What is the process by which rocks are broken down by water, wind, and temperature changes?",
+          "options": ["Erosion", "Weathering", "Metamorphism", "Sedimentation"],
+          "correctAnswer": "Weathering",
+          "explanation": "Weathering breaks down rocks in place, while erosion transports the broken material."
+        },
+        {
+          "question": "Which gas is the most abundant in Earth's atmosphere?",
+          "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
+          "correctAnswer": "Nitrogen",
+          "explanation": "Nitrogen comprises approximately 78% of Earth's atmosphere."
+        },
+        {
+          "question": "What is the primary function of the endoplasmic reticulum with ribosomes (rough ER)?",
+          "options": [
+            "Lipid synthesis",
+            "Protein synthesis",
+            "Energy production",
+            "Waste storage"
+          ],
+          "correctAnswer": "Protein synthesis",
+          "explanation": "Rough ER is studded with ribosomes that synthesize proteins for secretion or membrane insertion."
+        },
+        {
+          "question": "In thermodynamics, what does the second law state?",
+          "options": [
+            "Energy is always conserved",
+            "Entropy in an isolated system always increases",
+            "Temperature cannot reach absolute zero",
+            "Heat flows from cold to hot"
+          ],
+          "correctAnswer": "Entropy in an isolated system always increases",
+          "explanation": "The second law of thermodynamics states that entropy tends to increase in isolated systems."
+        },
+        {
+          "question": "What is the term for the transfer of heat through a fluid by the movement of the fluid itself?",
+          "options": ["Conduction", "Radiation", "Convection", "Diffusion"],
+          "correctAnswer": "Convection",
+          "explanation": "Convection involves the bulk movement of a fluid carrying thermal energy."
+        },
+        {
+          "question": "Which amino acid is essential and must be obtained from dietary sources?",
+          "options": [
+            "All amino acids are essential",
+            "Glycine",
+            "Leucine",
+            "Alanine"
+          ],
+          "correctAnswer": "Leucine",
+          "explanation": "Leucine is one of nine essential amino acids that the human body cannot synthesize."
+        },
+        {
+          "question": "What is the Goldbach Conjecture in physics and mathematics about?",
+          "options": [
+            "Prime numbers",
+            "Every even integer greater than 2 can be expressed as the sum of two primes",
+            "Quantum entanglement",
+            "String theory"
+          ],
+          "correctAnswer": "Every even integer greater than 2 can be expressed as the sum of two primes",
+          "explanation": "The Goldbach Conjecture, proposed in 1742, remains unproven but has been verified for large numbers."
+        },
+        {
+          "question": "What is the name of the region of the Sun's atmosphere where solar flares occur?",
+          "options": [
+            "Photosphere",
+            "Chromosphere",
+            "Corona",
+            "Transition region"
+          ],
+          "correctAnswer": "Corona",
+          "explanation": "Solar flares and coronal mass ejections originate in the Sun's corona."
+        }
+      ]
+    },
+    {
+      "topic": "Mathematics",
+      "questions": [
+        {
+          "question": "What is the sum of the interior angles of a heptagon (7-sided polygon)?",
+          "options": ["900°", "1080°", "1260°", "1440°"],
+          "correctAnswer": "1080°",
+          "explanation": "The sum of interior angles = (n-2) × 180° = (7-2) × 180° = 900°. Wait, let me recalculate: (7-2) × 180° = 5 × 180° = 900°."
+        },
+        {
+          "question": "If sin(θ) = 3/5 and θ is in the first quadrant, what is cos(θ)?",
+          "options": ["3/5", "4/5", "-4/5", "5/4"],
+          "correctAnswer": "4/5",
+          "explanation": "Using the Pythagorean identity: sin²(θ) + cos²(θ) = 1, so cos²(θ) = 1 - 9/25 = 16/25, thus cos(θ) = 4/5."
+        },
+        {
+          "question": "What is the derivative of f(x) = 3x⁴ - 2x³ + x - 7?",
+          "options": [
+            "12x³ - 6x² + 1",
+            "12x⁴ - 6x³ + x",
+            "12x³ - 6x² - 7",
+            "3x³ - 2x² + 1"
+          ],
+          "correctAnswer": "12x³ - 6x² + 1",
+          "explanation": "Taking the derivative term by term: d/dx(3x⁴) = 12x³, d/dx(-2x³) = -6x², d/dx(x) = 1, d/dx(-7) = 0."
+        },
+        {
+          "question": "Solve for x: 2x + 5 = 17",
+          "options": ["x = 4", "x = 6", "x = 11", "x = 22"],
+          "correctAnswer": "x = 6",
+          "explanation": "2x = 17 - 5 = 12, so x = 6."
+        },
+        {
+          "question": "What is the vertex form of a parabola?",
+          "options": [
+            "y = ax² + bx + c",
+            "y = a(x - h)² + k",
+            "y = mx + b",
+            "y = a(x - r₁)(x - r₂)"
+          ],
+          "correctAnswer": "y = a(x - h)² + k",
+          "explanation": "Vertex form clearly shows the vertex at point (h, k) and the direction/width via coefficient a."
+        },
+        {
+          "question": "What is the probability of rolling two dice and getting a sum of 7?",
+          "options": ["1/36", "1/12", "1/6", "1/4"],
+          "correctAnswer": "1/6",
+          "explanation": "There are 6 ways to get a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Total outcomes = 36. So P = 6/36 = 1/6."
+        },
+        {
+          "question": "What is the greatest common divisor (GCD) of 48 and 18?",
+          "options": ["2", "3", "6", "12"],
+          "correctAnswer": "6",
+          "explanation": "The factors of 48 are 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. The factors of 18 are 1, 2, 3, 6, 9, 18. GCD = 6."
+        },
+        {
+          "question": "If a triangle has sides of length 5, 12, and 13, what type of triangle is it?",
+          "options": ["Acute", "Right", "Obtuse", "Equilateral"],
+          "correctAnswer": "Right",
+          "explanation": "5² + 12² = 25 + 144 = 169 = 13², so it satisfies the Pythagorean theorem."
+        },
+        {
+          "question": "What is the solution to the quadratic equation x² - 5x + 6 = 0?",
+          "options": [
+            "x = 2 or x = 3",
+            "x = -2 or x = -3",
+            "x = 1 or x = 6",
+            "x = 0 or x = 5"
+          ],
+          "correctAnswer": "x = 2 or x = 3",
+          "explanation": "Factoring: (x - 2)(x - 3) = 0, so x = 2 or x = 3."
+        },
+        {
+          "question": "What is the limit of (x² - 1)/(x - 1) as x approaches 1?",
+          "options": ["0", "1", "2", "undefined"],
+          "correctAnswer": "2",
+          "explanation": "Factoring: (x² - 1)/(x - 1) = (x + 1)(x - 1)/(x - 1) = x + 1. As x → 1, the limit is 2."
+        },
+        {
+          "question": "What is the area of a circle with radius 5 cm?",
+          "options": ["10π cm²", "15π cm²", "25π cm²", "50π cm²"],
+          "correctAnswer": "25π cm²",
+          "explanation": "Area = πr² = π(5)² = 25π cm²."
+        },
+        {
+          "question": "If log₁₀(x) = 2, what is x?",
+          "options": ["10", "20", "100", "1000"],
+          "correctAnswer": "100",
+          "explanation": "log₁₀(x) = 2 means 10² = x, so x = 100."
+        },
+        {
+          "question": "What is the integral of 6x² dx?",
+          "options": ["2x³ + C", "3x³ + C", "6x³ + C", "12x + C"],
+          "correctAnswer": "2x³ + C",
+          "explanation": "∫6x² dx = 6 · (x³/3) + C = 2x³ + C."
+        },
+        {
+          "question": "Convert 45° to radians.",
+          "options": ["π/2", "π/4", "π/6", "π/3"],
+          "correctAnswer": "π/4",
+          "explanation": "45° × (π/180°) = 45π/180 = π/4 radians."
+        },
+        {
+          "question": "What is the distance between points (3, 4) and (0, 0)?",
+          "options": ["3", "4", "5", "7"],
+          "correctAnswer": "5",
+          "explanation": "Distance = √[(3-0)² + (4-0)²] = √[9 + 16] = √25 = 5."
+        },
+        {
+          "question": "What is the slope of a line perpendicular to a line with slope 2/3?",
+          "options": ["2/3", "-2/3", "-3/2", "3/2"],
+          "correctAnswer": "-3/2",
+          "explanation": "Perpendicular slopes are negative reciprocals. The reciprocal of 2/3 is 3/2, and negating it gives -3/2."
+        },
+        {
+          "question": "If 2ˣ = 32, what is x?",
+          "options": ["4", "5", "6", "8"],
+          "correctAnswer": "5",
+          "explanation": "2⁵ = 32, so x = 5."
+        },
+        {
+          "question": "What is the sum of the first 10 positive integers?",
+          "options": ["45", "50", "55", "100"],
+          "correctAnswer": "55",
+          "explanation": "Sum = n(n+1)/2 = 10(11)/2 = 55."
+        },
+        {
+          "question": "What is the standard form of a linear equation?",
+          "options": [
+            "y = mx + b",
+            "Ax + By = C",
+            "y - y₁ = m(x - x₁)",
+            "y = ax² + bx + c"
+          ],
+          "correctAnswer": "Ax + By = C",
+          "explanation": "Standard form is Ax + By = C, where A, B, and C are constants."
+        },
+        {
+          "question": "What is |−7|?",
+          "options": ["-7", "0", "7", "14"],
+          "correctAnswer": "7",
+          "explanation": "Absolute value returns the distance from zero, which is always non-negative."
+        }
+      ]
+    },
+    {
+      "topic": "Social Studies",
+      "questions": [
+        {
+          "question": "Who was the first Supreme Court Chief Justice of the United States?",
+          "options": [
+            "John Adams",
+            "John Jay",
+            "Alexander Hamilton",
+            "James Madison"
+          ],
+          "correctAnswer": "John Jay",
+          "explanation": "John Jay served as the first Chief Justice from 1789 to 1795."
+        },
+        {
+          "question": "What year did the Berlin Wall fall?",
+          "options": ["1985", "1987", "1989", "1991"],
+          "correctAnswer": "1989",
+          "explanation": "The Berlin Wall fell on November 9, 1989, marking the beginning of the end of the Cold War."
+        },
+        {
+          "question": "Which ancient wonder of the world stood in Egypt?",
+          "options": [
+            "The Hanging Gardens of Babylon",
+            "The Colossus of Rhodes",
+            "The Great Pyramid of Giza",
+            "The Temple of Zeus at Olympia"
+          ],
+          "correctAnswer": "The Great Pyramid of Giza",
+          "explanation": "The Great Pyramid is the only ancient wonder still largely intact today."
+        },
+        {
+          "question": "What was the primary cause of World War I?",
+          "options": [
+            "The rise of fascism",
+            "Tensions over colonial territories and system of alliances",
+            "Religious conflicts",
+            "Economic depression"
+          ],
+          "correctAnswer": "Tensions over colonial territories and system of alliances",
+          "explanation": "The assassination of Archduke Franz Ferdinand triggered complex alliances that pulled nations into war."
+        },
+        {
+          "question": "Which president ended segregation in federal housing through executive order?",
+          "options": [
+            "Dwight D. Eisenhower",
+            "John F. Kennedy",
+            "Lyndon B. Johnson",
+            "Harry S. Truman"
+          ],
+          "correctAnswer": "Harry S. Truman",
+          "explanation": "Truman issued Executive Order 11063 in 1962, banning discrimination in housing."
+        },
+        {
+          "question": "What was the Monroe Doctrine?",
+          "options": [
+            "A trade agreement between America and Europe",
+            "A foreign policy opposing European intervention in the Americas",
+            "A military alliance with Great Britain",
+            "A policy regarding American expansion westward"
+          ],
+          "correctAnswer": "A foreign policy opposing European intervention in the Americas",
+          "explanation": "President James Monroe stated that further colonization of the Americas would be viewed as aggression."
+        },
+        {
+          "question": "Which ancient civilization built Machu Picchu?",
+          "options": ["Aztecs", "Mayans", "Incas", "Anasazi"],
+          "correctAnswer": "Incas",
+          "explanation": "Machu Picchu was built by the Inca Empire in the 15th century in present-day Peru."
+        },
+        {
+          "question": "What event triggered the United States' entry into World War II?",
+          "options": [
+            "The invasion of Poland",
+            "The attack on Pearl Harbor",
+            "The Battle of Britain",
+            "The Blitz on London"
+          ],
+          "correctAnswer": "The attack on Pearl Harbor",
+          "explanation": "Japan's surprise attack on Pearl Harbor on December 7, 1941, prompted the U.S. declaration of war."
+        },
+        {
+          "question": "Which country was the first to industrialize?",
+          "options": ["France", "Germany", "United Kingdom", "United States"],
+          "correctAnswer": "United Kingdom",
+          "explanation": "The Industrial Revolution began in Britain during the late 18th century."
+        },
+        {
+          "question": "What is the primary purpose of the United Nations?",
+          "options": [
+            "To control world governments",
+            "To promote international peace and cooperation",
+            "To manage global trade",
+            "To enforce international laws"
+          ],
+          "correctAnswer": "To promote international peace and cooperation",
+          "explanation": "The UN was founded in 1945 to maintain international peace and security."
+        },
+        {
+          "question": "Which empire built the Great Wall of China?",
+          "options": [
+            "Han Dynasty",
+            "Ming Dynasty",
+            "Qing Dynasty",
+            "Tang Dynasty"
+          ],
+          "correctAnswer": "Ming Dynasty",
+          "explanation": "While earlier dynasties built walls, the Ming Dynasty constructed most of the wall we see today (1368-1644)."
+        },
+        {
+          "question": "What was the Trail of Tears?",
+          "options": [
+            "A sacred Native American pathway",
+            "The forced relocation of Native Americans from their lands",
+            "A trade route during colonization",
+            "A battle during the American Revolution"
+          ],
+          "correctAnswer": "The forced relocation of Native Americans from their lands",
+          "explanation": "The Trail of Tears refers to the forced removal of Native American tribes, particularly the Cherokee, in the 1830s."
+        },
+        {
+          "question": "Which of the following is NOT one of the Five Pillars of Islam?",
+          "options": [
+            "Shahada (declaration of faith)",
+            "Hajj (pilgrimage to Mecca)",
+            "Fasting during Ramadan",
+            "Building mosques"
+          ],
+          "correctAnswer": "Building mosques",
+          "explanation": "The Five Pillars are: Shahada, Salah (prayer), Zakat (charity), Sawm (fasting), and Hajj (pilgrimage)."
+        },
+        {
+          "question": "What was the primary purpose of the Silk Road?",
+          "options": [
+            "Military conquest",
+            "Trade and cultural exchange between Asia and Europe",
+            "Religious conversion",
+            "Territorial expansion"
+          ],
+          "correctAnswer": "Trade and cultural exchange between Asia and Europe",
+          "explanation": "The Silk Road was a network of trade routes facilitating commerce and cultural exchange."
+        },
+        {
+          "question": "Which document established the rights of English citizens in 1215?",
+          "options": [
+            "The Magna Carta",
+            "The English Bill of Rights",
+            "The Declaration of Rights",
+            "The Petition of Right"
+          ],
+          "correctAnswer": "The Magna Carta",
+          "explanation": "The Magna Carta limited royal power and established the concept of the rule of law."
+        },
+        {
+          "question": "Who was the first President of the United States?",
+          "options": [
+            "John Adams",
+            "George Washington",
+            "Thomas Jefferson",
+            "James Madison"
+          ],
+          "correctAnswer": "George Washington",
+          "explanation": "George Washington served as president from 1789 to 1797."
+        },
+        {
+          "question": "What was the main focus of the New Deal during the Great Depression?",
+          "options": [
+            "Military expansion",
+            "Relief, recovery, and reform programs",
+            "Increased taxation",
+            "Reduced government involvement"
+          ],
+          "correctAnswer": "Relief, recovery, and reform programs",
+          "explanation": "FDR's New Deal aimed to provide relief to those suffering, recover the economy, and reform to prevent future crises."
+        },
+        {
+          "question": "Which country did the United States purchase from France in 1803?",
+          "options": ["Florida", "Texas", "Louisiana", "Alaska"],
+          "correctAnswer": "Louisiana",
+          "explanation": "The Louisiana Purchase doubled the size of the United States for $15 million."
+        },
+        {
+          "question": "What was the primary objective of the Marshall Plan after World War II?",
+          "options": [
+            "To punish defeated nations",
+            "To rebuild war-torn Europe",
+            "To establish a global government",
+            "To expand American territories"
+          ],
+          "correctAnswer": "To rebuild war-torn Europe",
+          "explanation": "The Marshall Plan provided economic aid to rebuild Western Europe and prevent Soviet expansion."
+        },
+        {
+          "question": "Which amendment abolished slavery in the United States?",
+          "options": [
+            "12th Amendment",
+            "13th Amendment",
+            "14th Amendment",
+            "15th Amendment"
+          ],
+          "correctAnswer": "13th Amendment",
+          "explanation": "The 13th Amendment, ratified in 1865, abolished slavery throughout the United States."
+        }
+      ]
+    },
+    {
+      "topic": "Electives",
+      "questions": [
+        {
+          "question": "In which sport is 'bowing' a fundamental technique?",
+          "options": ["Tennis", "Archery", "Badminton", "Volleyball"],
+          "correctAnswer": "Archery",
+          "explanation": "In archery, bowing the arrow against a bowstring is essential to launching projectiles."
+        },
+        {
+          "question": "Which color theory concept refers to colors opposite each other on the color wheel?",
+          "options": [
+            "Analogous colors",
+            "Complementary colors",
+            "Tertiary colors",
+            "Monochromatic colors"
+          ],
+          "correctAnswer": "Complementary colors",
+          "explanation": "Complementary colors create high contrast and visual interest when used together."
+        },
+        {
+          "question": "What is the purpose of a financial budget?",
+          "options": [
+            "To track historical spending only",
+            "To plan and control income and expenses",
+            "To increase debt",
+            "To eliminate all spending"
+          ],
+          "correctAnswer": "To plan and control income and expenses",
+          "explanation": "A budget is a tool for planning future finances and monitoring actual versus projected spending."
+        },
+        {
+          "question": "In tennis, what is a 'love' score?",
+          "options": [
+            "A point won by the opponent",
+            "Zero points",
+            "Winning the match",
+            "A tiebreaker"
+          ],
+          "correctAnswer": "Zero points",
+          "explanation": "'Love' is tennis terminology for a score of zero, as in '15-love' meaning 15-0."
+        },
+        {
+          "question": "Which art movement was characterized by bold colors and simplified forms?",
+          "options": ["Realism", "Impressionism", "Fauvism", "Romanticism"],
+          "correctAnswer": "Fauvism",
+          "explanation": "Fauvism, led by artists like Henri Matisse, emphasized vibrant, non-naturalistic colors."
+        },
+        {
+          "question": "What is the primary goal of a non-profit organization?",
+          "options": [
+            "To maximize shareholder profits",
+            "To serve the public good rather than generate profits",
+            "To avoid paying taxes",
+            "To compete with for-profit businesses"
+          ],
+          "correctAnswer": "To serve the public good rather than generate profits",
+          "explanation": "Non-profits are mission-driven organizations that reinvest any surplus revenue back into their mission."
+        },
+        {
+          "question": "In baseball, how many strikes constitute an out?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "3",
+          "explanation": "Three strikes result in a strikeout, and the batter is out."
+        },
+        {
+          "question": "What is Renaissance art primarily known for?",
+          "options": [
+            "Abstract and non-representational forms",
+            "Religious iconography only",
+            "Humanism, perspective, and realism",
+            "Primitive and simplistic depiction"
+          ],
+          "correctAnswer": "Humanism, perspective, and realism",
+          "explanation": "Renaissance art emphasized human form, depth through perspective, and realistic representation."
+        },
+        {
+          "question": "Which investment type generally offers the highest potential return but also the highest risk?",
+          "options": [
+            "Bonds",
+            "Certificates of Deposit (CDs)",
+            "Stocks",
+            "Savings Accounts"
+          ],
+          "correctAnswer": "Stocks",
+          "explanation": "Stock investments carry greater volatility and risk compared to fixed-income securities."
+        },
+        {
+          "question": "In American football, what is the maximum number of yards a team can advance on one down without losing the ball?",
+          "options": ["5 yards", "10 yards", "15 yards", "Unlimited"],
+          "correctAnswer": "Unlimited",
+          "explanation": "A team can advance any distance on a single down, including scoring a touchdown for 100 yards."
+        },
+        {
+          "question": "What is the primary medium used in watercolor painting?",
+          "options": [
+            "Oil and water",
+            "Water-soluble pigments",
+            "Acrylic polymers",
+            "Wax and pigment"
+          ],
+          "correctAnswer": "Water-soluble pigments",
+          "explanation": "Watercolor uses pigments that dissolve in water, allowing for transparent, flowing applications."
+        },
+        {
+          "question": "What is the main principle behind compound interest?",
+          "options": [
+            "Interest is calculated only on the principal",
+            "Interest is earned on the principal and previously earned interest",
+            "Interest decreases over time",
+            "Interest is calculated annually only"
+          ],
+          "correctAnswer": "Interest is earned on the principal and previously earned interest",
+          "explanation": "Compound interest creates exponential growth as interest accumulates on accumulated interest."
+        },
+        {
+          "question": "In soccer, how many players from each team are typically on the field at one time?",
+          "options": ["9", "10", "11", "12"],
+          "correctAnswer": "11",
+          "explanation": "Each team in soccer fields 11 players, including the goalkeeper."
+        },
+        {
+          "question": "Which artistic technique involves layering thin glazes of color?",
+          "options": ["Impasto", "Scumbling", "Glazing", "Stippling"],
+          "correctAnswer": "Glazing",
+          "explanation": "Glazing applies thin, transparent layers of paint over dried paint for depth and luminosity."
+        },
+        {
+          "question": "What is the primary purpose of a credit score?",
+          "options": [
+            "To track personal income",
+            "To assess creditworthiness and borrowing risk",
+            "To determine employment status",
+            "To calculate annual taxes"
+          ],
+          "correctAnswer": "To assess creditworthiness and borrowing risk",
+          "explanation": "Credit scores help lenders evaluate the likelihood that a borrower will repay their obligations."
+        },
+        {
+          "question": "In basketball, how many points is a free throw worth?",
+          "options": ["1 point", "2 points", "3 points", "4 points"],
+          "correctAnswer": "1 point",
+          "explanation": "Free throws, awarded after fouls, are worth 1 point each."
+        },
+        {
+          "question": "Which photography technique uses a very wide-angle lens to capture an expansive view?",
+          "options": ["Telephoto", "Macro", "Panoramic", "Close-up"],
+          "correctAnswer": "Panoramic",
+          "explanation": "Panoramic photography uses wide-angle lenses or multiple images stitched together to capture expansive scenes."
+        },
+        {
+          "question": "What is inflation in economics?",
+          "options": [
+            "An increase in the supply of money",
+            "A sustained increase in the general price level of goods and services",
+            "A decrease in employment",
+            "An increase in interest rates"
+          ],
+          "correctAnswer": "A sustained increase in the general price level of goods and services",
+          "explanation": "Inflation reduces purchasing power as prices rise over time."
+        },
+        {
+          "question": "In golf, what is a 'bogey'?",
+          "options": [
+            "One stroke under par",
+            "Two strokes under par",
+            "One stroke over par",
+            "Three strokes over par"
+          ],
+          "correctAnswer": "One stroke over par",
+          "explanation": "A bogey means completing a hole in one more stroke than the par for that hole."
+        },
+        {
+          "question": "Which principle of design emphasizes visual weight and balance in a composition?",
+          "options": ["Proportion", "Emphasis", "Balance", "Movement"],
+          "correctAnswer": "Balance",
+          "explanation": "Balance distributes visual elements to create stability and harmony in a composition."
+        }
+      ]
+    },
+    {
+      "topic": "Current Events",
+      "questions": [
+        {
+          "question": "In 2024, which country became the host of the Summer Olympics?",
+          "options": ["France", "Italy", "Japan", "Greece"],
+          "correctAnswer": "France",
+          "explanation": "Paris, France hosted the 2024 Summer Olympics."
+        },
+        {
+          "question": "What major technology company did Elon Musk acquire in 2022?",
+          "options": ["Facebook", "Twitter", "TikTok", "Instagram"],
+          "correctAnswer": "Twitter",
+          "explanation": "Elon Musk purchased Twitter for approximately $44 billion and later rebranded it as X."
+        },
+        {
+          "question": "Which country experienced a historic shift in 2024 when it elected its first female president?",
+          "options": ["Mexico", "Colombia", "Chile", "Argentina"],
+          "correctAnswer": "Mexico",
+          "explanation": "Claudia Sheinbaum was elected as Mexico's first female president in 2024."
+        },
+        {
+          "question": "What was the name of the artificial intelligence model released by OpenAI in 2022?",
+          "options": ["Bard", "ChatGPT", "Claude", "LLaMA"],
+          "correctAnswer": "ChatGPT",
+          "explanation": "ChatGPT was released in November 2022 and became a major breakthrough in AI accessibility."
+        },
+        {
+          "question": "Which nation's banking system experienced a significant crisis in 2023 with regional bank failures?",
+          "options": ["United Kingdom", "Germany", "United States", "Canada"],
+          "correctAnswer": "United States",
+          "explanation": "The U.S. experienced regional banking instability in 2023, including the collapse of SVB and Signature Bank."
+        },
+        {
+          "question": "What major conflict escalated significantly in February 2022?",
+          "options": [
+            "US-China tensions",
+            "Russia-Ukraine War",
+            "Israel-Palestine conflict",
+            "Syria civil war"
+          ],
+          "correctAnswer": "Russia-Ukraine War",
+          "explanation": "Russia launched a full-scale invasion of Ukraine on February 24, 2022."
+        },
+        {
+          "question": "In 2023, which Indian film became a major global cinema phenomenon?",
+          "options": [
+            "Pathaan",
+            "Oppenheimer",
+            "Killers of the Flower Moon",
+            "The Color Purple"
+          ],
+          "correctAnswer": "Pathaan",
+          "explanation": "Pathaan became one of the highest-grossing Indian films of 2023."
+        },
+        {
+          "question": "Which Taylor Swift album was released in 2022, breaking streaming records?",
+          "options": [
+            "Folklore",
+            "Evermore",
+            "Midnights",
+            "1989 (Taylor's Version)"
+          ],
+          "correctAnswer": "Midnights",
+          "explanation": "Midnights was released in October 2022 and set multiple streaming records."
+        },
+        {
+          "question": "What environmental agreement did countries commit to at COP28 in 2023?",
+          "options": [
+            "Elimination of all fossil fuels by 2030",
+            "Transition away from fossil fuels",
+            "Reduction of emissions by 50%",
+            "Complete renewable energy by 2040"
+          ],
+          "correctAnswer": "Transition away from fossil fuels",
+          "explanation": "COP28 reached a historic agreement to 'transition away from fossil fuels' by 2030."
+        },
+        {
+          "question": "Which African nation became a member of BRICS in 2023?",
+          "options": ["South Africa", "Egypt", "Nigeria", "Kenya"],
+          "correctAnswer": "Egypt",
+          "explanation": "Egypt and other nations joined BRICS as the organization expanded in 2023."
+        },
+        {
+          "question": "In 2024, what significant ruling did the U.S. Supreme Court make regarding reproductive rights?",
+          "options": [
+            "Affirmed Roe v. Wade",
+            "The ruling was delegated to individual states",
+            "Established a national standard for abortion access",
+            "Completely banned abortion"
+          ],
+          "correctAnswer": "The ruling was delegated to individual states",
+          "explanation": "In 2022, the Supreme Court overturned Roe v. Wade, allowing states to set their own abortion policies."
+        },
+        {
+          "question": "Which tech billionaire attempted to acquire a major social media platform in 2023?",
+          "options": [
+            "Mark Zuckerberg attempting to buy TikTok",
+            "Elon Musk attempting to buy Instagram",
+            "No such major acquisition attempt occurred",
+            "Jeff Bezos attempting to buy X (Twitter)"
+          ],
+          "correctAnswer": "No such major acquisition attempt occurred",
+          "explanation": "While there were discussions about TikTok's future in the U.S., no major acquisition of major platforms occurred by billionaires in 2023."
+        },
+        {
+          "question": "What natural disaster severely impacted Morocco in 2023?",
+          "options": ["Tsunami", "Earthquake", "Flooding", "Volcanic eruption"],
+          "correctAnswer": "Earthquake",
+          "explanation": "A 6.8 magnitude earthquake struck Morocco in September 2023, killing thousands."
+        },
+        {
+          "question": "Which nation hosted the 2023 Cricket World Cup?",
+          "options": ["Australia", "India", "United Kingdom", "South Africa"],
+          "correctAnswer": "India",
+          "explanation": "India hosted and won the 2023 ICC Cricket World Cup."
+        },
+        {
+          "question": "In 2024, which country became the newest member of the European Union?",
+          "options": [
+            "Ukraine",
+            "Serbia",
+            "Montenegro",
+            "No new member joined in 2024"
+          ],
+          "correctAnswer": "No new member joined in 2024",
+          "explanation": "As of 2024, no new countries have officially joined the EU, though several are in accession processes."
+        },
+        {
+          "question": "What major health emergency did the WHO declare a public health emergency of international concern?",
+          "options": [
+            "Mpox (Monkeypox)",
+            "Measles outbreak",
+            "Avian flu pandemic",
+            "COVID-19 resurgence"
+          ],
+          "correctAnswer": "Mpox (Monkeypox)",
+          "explanation": "The WHO declared mpox a public health emergency of international concern in 2022."
+        },
+        {
+          "question": "Which former U.S. president faced indictment in 2023?",
+          "options": [
+            "George W. Bush",
+            "Barack Obama",
+            "Donald Trump",
+            "Joe Biden"
+          ],
+          "correctAnswer": "Donald Trump",
+          "explanation": "Donald Trump faced multiple indictments in 2023 in various jurisdictions."
+        },
+        {
+          "question": "What was named Oxford Dictionary's Word of the Year for 2023?",
+          "options": [
+            "Artificial intelligence",
+            "Authenticity",
+            "Rizz",
+            "Demure"
+          ],
+          "correctAnswer": "Authenticity",
+          "explanation": "Oxford Dictionary selected 'authenticity' as its Word of the Year for 2023."
+        },
+        {
+          "question": "Which actor won the Academy Award for Best Actor at the 2024 Oscars?",
+          "options": [
+            "Cillian Murphy",
+            "Bradley Cooper",
+            "Timothée Chalamet",
+            "Ryan Gosling"
+          ],
+          "correctAnswer": "Cillian Murphy",
+          "explanation": "Cillian Murphy won Best Actor for his role in 'Oppenheimer' at the 2024 Academy Awards."
+        },
+        {
+          "question": "What was the economic consequence of the 2023 banking crisis in the United States?",
+          "options": [
+            "Stock market boom",
+            "Increased investor confidence",
+            "Heightened financial system concerns and deposit concerns",
+            "Reduced inflation"
+          ],
+          "correctAnswer": "Heightened financial system concerns and deposit concerns",
+          "explanation": "The banking crisis led to concerns about financial stability and deposit security in regional banks."
+        }
+      ]
+    }
+  ]
+}
