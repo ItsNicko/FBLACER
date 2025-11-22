@@ -76,7 +76,7 @@
       } catch (e) {
         // ignore
       }
-      // expose wrappers for the non-module script so it can create/sign-in users and access Firestore
+      // Expose Firestore utilities for script.js
       window.db = db;
       window.auth = auth;
       window.authCreate = (email, password) =>
@@ -97,7 +97,7 @@
       window.limit = limit;
       window.where = where;
 
-      // 🔧 Dynamic profanity filter loader
+      // Load dynamic profanity filter from Firestore
       window.bannedWords = [];
 
       window.loadBannedWords = async () => {
@@ -112,74 +112,38 @@
       };
 
       // Promise to indicate when auth is ready
-      let _authReadyResolve;
+      let authReadyResolve;
       window.leaderboardAuthReady = new Promise((res) => {
-        _authReadyResolve = res;
+        authReadyResolve = res;
       });
 
       signInAnonymously(auth)
         .then(() => {
-          console.info("Requested anonymous sign-in");
+          console.info("Anonymous sign-in requested");
         })
         .catch((err) => {
           console.warn("Anonymous sign-in failed:", err);
-          // still resolve so UI doesn't hang; submissions may still fail depending on rules
-          if (_authReadyResolve) _authReadyResolve();
+          if (authReadyResolve) authReadyResolve();
         });
+
       onAuthStateChanged(auth, (user) => {
-        if (user) {
-          console.info("Signed in uid=", user.uid);
-        } else {
-          console.info("Not signed in");
-          // if nobody is signed in, attempt anonymous sign-in so rules that require auth pass.
-          try {
-            signInAnonymously(auth)
-              .then(() => {
-                console.info("Requested anonymous sign-in");
-              })
-              .catch((err) => {
-                console.warn("Anonymous sign-in failed:", err);
-              });
-          } catch (e) {}
-        }
-        if (_authReadyResolve) {
-          _authReadyResolve();
-          _authReadyResolve = null;
+        console.info(user ? `Signed in uid=${user.uid}` : "Not signed in");
+        if (authReadyResolve) {
+          authReadyResolve();
+          authReadyResolve = null;
         }
       });
 
-      onAuthStateChanged(auth, (user) => {
-        if (user) {
-          console.info("Signed in (anonymous) uid=", user.uid);
-        } else {
-          console.info("Not signed in");
-        }
-        if (_authReadyResolve) {
-          _authReadyResolve();
-          _authReadyResolve = null;
-        }
-      });
+      // Once auth is ready, load the dynamic banned-words list
+      window.leaderboardAuthReady
+        .then(() => {
+          window
+            .loadBannedWords?.()
+            .catch((err) => console.warn("loadBannedWords failed", err));
+        })
+        .catch(() => {});
 
-      // Once auth is ready, attempt to load the dynamic banned-words list from Firestore.
-      // We wait for `leaderboardAuthReady` so the anonymous sign-in (if needed) completes first.
-      if (window.leaderboardAuthReady) {
-        window.leaderboardAuthReady
-          .then(() => {
-            try {
-              if (typeof window.loadBannedWords === "function") {
-                window
-                  .loadBannedWords()
-                  .catch((err) => console.warn("loadBannedWords failed", err));
-              }
-            } catch (e) {
-              console.warn("Error invoking loadBannedWords", e);
-            }
-          })
-          .catch(() => {});
-      }
-
-      // leaderboardApi: submitScore(testId, name, points) -> Promise<docRef>
-      // fetchTopScores(testId, limitNum, offsetDoc?) -> Promise<array of scores>
+      // Leaderboard API: submit and fetch scores from Firestore
       window.leaderboardApi = {
         async submitScore(testId, name, points) {
           if (!testId) throw new Error("missing testId");
@@ -200,7 +164,6 @@
           snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
           return out;
         },
-        // fetch all scores submitted by a given player name for a test
         async fetchScoresByName(testId, name) {
           if (!testId) throw new Error("missing testId");
           if (!name) throw new Error("missing name");
@@ -211,58 +174,42 @@
           snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
           return out;
         },
-        // set a document with a specific id: useful for the provided compatibility snippet
         async setScoreDoc(testId, docId, data) {
           if (!testId) throw new Error("missing testId");
           if (!docId) throw new Error("missing docId");
-          const path = `leaderboards/${testId}/scores/${docId}`;
-          // create doc ref and set
-          const dref = doc(db, "leaderboards", testId, "scores", docId);
-          // Ensure uid is present when possible so downstream clients can resolve profiles.
-          const finalData = Object.assign({}, data || {});
-          if (!finalData.uid) {
-            try {
-              const cur =
-                auth && auth.currentUser ? auth.currentUser.uid : null;
-              if (cur) finalData.uid = cur;
-            } catch (e) {
-              /* ignore */
-            }
-          }
-          await setDoc(dref, finalData);
+          const finalData = { ...data, uid: data.uid || auth.currentUser?.uid };
+          await setDoc(
+            doc(db, "leaderboards", testId, "scores", docId),
+            finalData
+          );
           return true;
         },
       };
 
-      // reportApi: sendIssue({ message, email, page }) -> Promise
+      // Report submission API
       window.reportApi = {
         async sendIssue({ message, email, page }) {
           if (!message) throw new Error("missing message");
-          // ensure auth ready
           if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
-          try {
-            const col = collection(db, "reports");
-            const docRef = await addDoc(col, {
-              message: String(message).slice(0, 2000),
-              email: email ? String(email).slice(0, 256) : null,
-              page: page || location.pathname || "unknown",
-              userAgent: navigator.userAgent || null,
-              createdAt: serverTimestamp(),
-            });
-            return docRef;
-          } catch (err) {
-            throw err;
-          }
+
+          const col = collection(db, "reports");
+          const docRef = await addDoc(col, {
+            message: String(message).slice(0, 2000),
+            email: email ? String(email).slice(0, 256) : null,
+            page: page || location.pathname || "unknown",
+            userAgent: navigator.userAgent || null,
+            createdAt: serverTimestamp(),
+          });
+          return docRef;
         },
       };
 
-      // accounts helper: read/write accounts/{uid}
+      // Account helpers: read/write accounts/{uid}
       window.accounts = {
         async get(uid) {
           if (!uid) throw new Error("missing uid");
-          const dref = doc(db, "accounts", uid);
-          const snap = await getDoc(dref);
-          return snap && snap.exists() ? snap.data() : null;
+          const snap = await getDoc(doc(db, "accounts", uid));
+          return snap?.exists() ? snap.data() : null;
         },
         async set(uid, data, options = { merge: true }) {
           if (!uid) throw new Error("missing uid");
@@ -270,13 +217,13 @@
           await setDoc(
             dref,
             data,
-            options && options.merge ? { merge: true } : undefined
+            options?.merge ? { merge: true } : undefined
           );
           return true;
         },
       };
 
-      // writeLog wrapper for convenience
+      // Convenience logging helper
       window.writeLog = async function (action, context) {
         if (!action) throw new Error("missing action");
         const id = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
@@ -299,7 +246,21 @@
       title="Settings"
       class="settings-btn"
     >
-      ⚙️
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <circle cx="12" cy="12" r="3"></circle>
+        <path
+          d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24"
+        ></path>
+      </svg>
     </button>
 
     <!-- Settings modal (hidden by default) -->
@@ -322,11 +283,13 @@
         style="
           background: var(--surface, #fff);
           color: var(--text-color, #102027);
-          padding: 40px;
+          padding: 18px;
           border-radius: 12px;
-          min-width: 320px;
-          max-width: 720px;
-          width: 90%;
+          min-width: 280px;
+          max-width: 520px;
+          width: 92%;
+          max-height: 90vh;
+          overflow-y: auto;
           box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
           position: relative;
         "

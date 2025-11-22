@@ -86,11 +86,23 @@ body {
   background-color: var(--body-fallback);
   color: var(--text-color);
   text-align: center;
-  padding: 32px;
+  padding: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: background-color 260ms ease, background-image 260ms ease,
     color 180ms ease;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 32px;
+  }
 }
 
 /* Typographic tweaks */
@@ -106,19 +118,15 @@ h5 {
 h1 {
   font-weight: 800;
   font-size: 1.9rem;
-}
-button,
-select,
-.custom-select-display {
-  font-weight: 700;
-}
-body {
-  font-weight: 400;
-}
-
-h1 {
   margin-bottom: 18px;
   letter-spacing: 0.4px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+  }
 }
 
 /* Card / flashcard */
@@ -132,6 +140,14 @@ h1 {
     -8px -8px 20px var(--shadow-light);
   transition: transform var(--transition-fast),
     box-shadow var(--transition-fast);
+}
+
+.question {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 16px 0;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
 }
 
 /* Charts / containers */
@@ -426,6 +442,8 @@ button {
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
   color: var(--text-color);
+  font-weight: 700;
+  font-size: 14px;
 }
 button:hover {
   transform: translateY(-2px);
@@ -454,11 +472,36 @@ select:focus {
 
 @media (max-width: 520px) {
   .flashcard {
-    margin: 12px 10px;
-    padding: 16px;
+    margin: 10px 6px;
+    padding: 14px;
   }
   #chart-container {
-    height: 320px;
+    height: 280px;
+    margin: 12px auto;
+  }
+  h1 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+  }
+  .question {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .options li {
+    padding: 12px 12px;
+    margin: 8px 6px;
+    font-size: 15px;
+  }
+  button {
+    padding: 12px 14px;
+    margin-left: 4px;
+    font-size: 14px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  select#testSelect {
+    padding: 12px 40px 12px 12px;
+    font-size: 14px;
   }
 }
 
@@ -466,19 +509,20 @@ select:focus {
 @media (max-width: 991px) {
   /* Make main containers full-width and centered */
   .flashcard {
-    margin: 12px 10px;
-    padding: 16px;
-    width: calc(100% - 28px);
+    margin: 10px 6px;
+    padding: 14px;
+    width: calc(100% - 20px);
     max-width: none;
-    box-shadow: 6px 6px 16px var(--shadow-dark),
-      -4px -4px 10px var(--shadow-light);
+    box-shadow: 4px 4px 12px var(--shadow-dark),
+      -3px -3px 8px var(--shadow-light);
   }
 
   /* Chart and legend should fit and not require hover */
   #chart-container {
-    height: 360px;
+    height: 300px;
     width: 100%;
     max-width: none;
+    margin: 12px auto;
   }
   #topicChart {
     height: 100% !important;
@@ -496,8 +540,9 @@ select:focus {
     width: 100%;
     max-width: none;
     box-sizing: border-box;
-    padding: 14px 16px;
-    font-size: 16px;
+    padding: 12px 14px;
+    font-size: 14px;
+    min-height: 44px;
   }
 
   /* Custom select menu should be full width and positioned statically for mobile */
@@ -517,16 +562,20 @@ select:focus {
 
   /* Increase tappable area for custom select items */
   .custom-select-item {
-    padding: 14px 12px;
-    font-size: 15px;
+    padding: 12px 12px;
+    font-size: 14px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
 
   /* Ensure the search field in the custom select is full width and easy to tap */
   .custom-select-search {
     width: 100%;
     padding: 12px;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 10px;
+    min-height: 44px;
   }
 
   /* Make native select and custom select display consistent and full width */
@@ -538,9 +587,12 @@ select:focus {
 
   /* Options list: larger touch targets and remove hover-dependent styles */
   .options li {
-    padding: 14px 16px;
-    margin: 10px 8px;
-    font-size: 16px;
+    padding: 12px 14px;
+    margin: 8px 6px;
+    font-size: 14px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
 
   /* Remove hover transform effects for mobile/touch - handled by pointer media queries above */
@@ -554,19 +606,19 @@ select:focus {
   /* Make leaderboard responsive: stack columns and enlarge inputs */
   .lb-panel {
     width: 96%;
-    max-height: 92vh;
+    max-height: 90vh;
     padding: 12px;
   }
   .lb-list {
-    max-height: 48vh;
+    max-height: 50vh;
     padding: 10px;
   }
   .lb-item {
     padding: 12px;
-    gap: 6px;
+    gap: 8px;
   }
   .lb-bottom {
-    gap: 8px;
+    gap: 10px;
   }
   .lb-submit {
     flex-direction: column;
@@ -575,13 +627,15 @@ select:focus {
   .lb-submit input {
     width: 100%;
     padding: 12px;
+    font-size: 14px;
   }
   .lb-submit button {
     width: 100%;
     min-width: auto;
+    min-height: 44px;
   }
   .lb-close {
-    right: 12px;
+    right: 10px;
     top: 8px;
     font-size: 22px;
   }
@@ -649,19 +703,32 @@ select:focus {
 /* Theme toggle (top-right) */
 .settings-btn {
   position: fixed;
-  right: 18px;
-  top: 18px;
+  right: 10px;
+  top: 10px;
   z-index: 1200;
   background: var(--surface, #ffffff);
   border: none;
   border-radius: 8px;
-  padding: 8px 10px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-  font-size: 16px;
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 140ms ease, transform 120ms ease;
+}
+.settings-btn:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+  transform: translateY(-1px);
+}
+.settings-btn:active {
+  transform: translateY(0);
 }
 .settings-btn:focus {
-  outline: 2px solid rgba(0, 0, 0, 0.12);
+  outline: 2px solid rgba(50, 150, 230, 0.3);
+  outline-offset: 2px;
 }
 
 .settings-modal .settings-panel {
@@ -685,12 +752,26 @@ select:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 .settings-section #settingsThemeLabel {
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 .settings-section small {
-  font-size: 12px;
+  font-size: 11px;
+}
+
+@media (max-width: 600px) {
+  .settings-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .settings-section small {
+    display: none;
+  }
 }
 
 /* Report section layout inside settings modal */
@@ -700,19 +781,39 @@ select:focus {
 .report-input {
   width: 100%;
   box-sizing: border-box;
-  padding: 8px;
+  padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.report-input:focus {
+  outline: 2px solid rgba(50, 150, 230, 0.4);
+  outline-offset: -1px;
 }
 .report-actions {
   display: flex;
-  gap: 8px;
-  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
 }
 .report-status {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-color, #102027);
+  text-align: center;
+  margin-top: 4px;
+}
+
+@media (min-width: 480px) {
+  .report-actions {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .report-actions button {
+    flex: 0 0 auto;
+  }
 }
 .settings-panel .theme-switch .slider {
   width: 46px;
