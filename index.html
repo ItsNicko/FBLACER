@@ -184,17 +184,10 @@
         async submitScore(testId, name, points) {
           if (!testId) throw new Error("missing testId");
           const col = collection(db, "leaderboards", testId, "scores");
-          // include the current auth UID when available so clients can link leaderboard
-          // entries to public profiles without relying on name->uid lookups.
-          const uid =
-            auth && auth.currentUser && auth.currentUser.uid
-              ? auth.currentUser.uid
-              : null;
           const docRef = await addDoc(col, {
             name: name || "Anonymous",
-            points: Number(points) || 0,
-            uid: uid,
-            createdAt: serverTimestamp(),
+            score: Number(points) || 0,
+            timestamp: serverTimestamp(),
           });
           return docRef;
         },
