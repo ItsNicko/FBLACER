@@ -1094,7 +1094,7 @@ function generateFlashcard() {
         console.warn("record metric failed", e);
       }
 
-      if (option === q.correctAnswer) {
+      if (option === question.correctAnswer) {
         handleCorrect(question.topic);
         li.classList.add("correct");
         answeredCorrectly = true;

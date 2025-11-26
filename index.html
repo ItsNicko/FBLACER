@@ -158,7 +158,7 @@
         async fetchTopScores(testId, limitNum = 15) {
           if (!testId) throw new Error("missing testId");
           const col = collection(db, "leaderboards", testId, "scores");
-          const q = query(col, orderBy("points", "desc"), limit(limitNum));
+          const q = query(col, orderBy("score", "desc"), limit(limitNum));
           const snap = await getDocs(q);
           const out = [];
           snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
