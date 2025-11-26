@@ -1,26 +1,31 @@
-# Learn FBLACER: a simple guide for beginners (age ~14)
+# Learn FBLACER: a simple guide for beginners
 
-This guide explains how FBLACER works in a friendly, step-by-step way. No prior experience required, I'll explain terms, show what each part does, and give simple exercises you can try.
+This is a simple guide to how FBLACER works and how you can minrove it or add on to it
 
-Who this is for
+Who is this for
 
-- If you're like me and curious about making interactive websites, this is for you.
-- By the end you'll understand: how the quiz app works, what each file does, and how to make simple changes.
+- If your like me and like to make interactive apps and experinces
+- By the end you will learn the ins and outs of this web app mainly the JavaScript and how to make minor tweaks
 
 What you'll learn (short)
 
-- How HTML, CSS, and JavaScript work together to make a web app.
-- How this app shows questions, checks answers, and keeps score.
-- How the app can connect to Firebase (a backend) to save scores and show leaderboards.
-- Hands-on exercises to try in the code.
+- How HTML, CSS, and JavaScript work together.
+- How this shows questions, checks answers, and keeps score.
+- How it can connect to Firebase (a backend) to save scores and show leaderboards.
 
-Easy explanations
+Friendly glossary
 
-- HTML — the structure. Think of it like the bones of a page. `index.html` holds the buttons, the place where questions show up, and links to the code and styles.
-- CSS — the looks. `style.css` decides colors, fonts, spacing, and how things look on phones and computers.
-- JavaScript — the behavior. `script.js` makes the app interactive: it chooses questions, listens for clicks, checks answers, updates scores, and shows charts.
+- Fetch: a way to load files (like reading a text file) from the web folder.
+- DOM: the Document Object Model - the browser's representation of the page. JavaScript changes the DOM to show questions.
+- Event listener: code that waits for something (like a click) and then runs.
+- Local storage: a small place in your browser where the app can save settings like your username.
+- Firebase: a service that can store data on the internet. This app can use it to save scores and profiles.
 
-Project overview (what happens when you open the app)
+- HTML - the structure. Think of it like the bones of a page. `index.html` holds the buttons, the place where questions show up, and links to the code and styles.
+- CSS - the looks. `style.css` decides colors, fonts, spacing, and how things look on phones and computers lots like clothes the website look obsean with out it (you can test it by removing it from <head> in `index.html`).
+- JavaScript - the behavior. `script.js` makes the app interactive: it chooses questions, listens for clicks, checks answers, updates scores, and shows charts more like a nervous sytyem dictacts where eveything goes and how it does it.
+
+What happens when you open the app?
 
 1. Your browser loads `index.html`.
 2. `index.html` loads `style.css` (so everything looks nice) and `script.js` (so it works).
@@ -30,16 +35,16 @@ Project overview (what happens when you open the app)
 6. The app checks your answer, updates points and streaks, and moves to the next question.
 7. At the end, the app shows your score and a chart of topic performance. You can submit your score to a leaderboard if configured.
 
-Files you should know (short)
+Files you should know
 
-- `index.html` — main page. Look here to see where the quiz area and buttons live.
-- `style.css` — all the styles. Change colors here to customize the look.
-- `script.js` — the app logic. This is the brain: loading tests, handling clicks, scoring.
-- `tests.json` — tells the app which tests exist and where to find them.
-- `questions/*.json` — the actual tests. Each file contains topics, questions, options, and the correct answer.
-- `firebase.rules` — rules for saving/read data in Firebase (if you use it). You don't need this to run the quiz locally.
+- `index.html` - main page. Look here to see where the quiz area and buttons live.
+- `style.css` - all the styles. Change colors here to customize the look.
+- `script.js` - the app logic. This is the brain: loading tests, handling clicks, scoring.
+- `tests.json` - tells the app which tests exist and where to find them.
+- `questions/*.json` - the actual tests. Each file contains topics, questions, options, and the correct answer.
+- `firebase.rules` - rules if you'd like to try and hack me.
 
-Important parts of `script.js` (explained simply)
+Important parts of `script.js`
 
 - Loading tests: the script calls `fetch('tests.json')` to learn which quizzes exist.
 - Starting a test: `startTest()` fetches the selected quiz file and builds a `questions` list.
@@ -48,20 +53,12 @@ Important parts of `script.js` (explained simply)
 - Scoring: `handleCorrect()` and `handleWrong()` update points and streaks. Points increase more if you are on a streak.
 - End of test: `endTest()` shows a summary, draws a topic chart, and offers to send the score to the leaderboard.
 
-Friendly glossary
-
-- Fetch: a way to load files (like reading a text file) from the web folder.
-- DOM: the Document Object Model — the browser's representation of the page. JavaScript changes the DOM to show questions.
-- Event listener: code that waits for something (like a click) and then runs.
-- Local storage: a small place in your browser where the app can save settings like your username.
-- Firebase: a service that can store data on the internet. This app can use it to save scores and profiles.
-
-Simple exercises (start here)
+Simple edits
 
 1. Change the title shown on the page
 
 - Open `index.html` and find `<h1>FBLACER</h1>`.
-- Change `FBLACER` to your name or to something fun like `Nick's Quiz Lab`.
+- Change `FBLACER` to your name or to something fun like `i dont like math`.
 - Save and refresh the page. You should see the new title.
 
 2. Change button colors
@@ -72,25 +69,25 @@ Simple exercises (start here)
 3. Add a new question to a test
 
 - Open `questions/<some-test>.json` (pick a file listed in `tests.json`).
-- Add a new question object in the `topics` area with these fields:
+- Add a new question in the `topics` area with these fields:
   - `question`: the question text
-  - `options`: an array of 3–5 answer strings
-  - `correctAnswer`: exactly the answer string that is correct
+  - `options`: 3–5 answers
+  - `correctAnswer`: exactly the answer that is correct
   - `explanation`: (optional) text shown after a wrong answer
 - Save, reload the app, pick the test, and start.
 
-4. Make the app read keyboard presses for answers (already included)
+4. Make the app read keyboard presses for answers
 
 - Tip: pressing keys `1`, `2`, `3`, `4` will choose that option while a card is visible. Try it out.
 
 Build a tiny challenge (project)
 
-Goal: Create a mini quiz with 5 questions about anything you like (movies, math facts, animals).
+Goal: Create a mini test with 5 questions about anything you like (movies, math facts, animals).
 
 Steps:
 
 1. Create a copy of an existing file inside `questions/` and name it `my-first-quiz.json`.
-2. Edit `tests.json` to add your quiz so it appears in the menu. Example entry:
+2. Edit `tests.json` to add your quiz so it appears in the menu. Example:
 
 ```json
 {
@@ -100,17 +97,16 @@ Steps:
 ```
 
 3. Fill `my-first-quiz.json` with topics and 5 questions (look at other question files for structure).
-4. Open the app, pick "My First Quiz" and try it!
+4. Open the app, pick "My First Quiz" and try it
 
-Extra ideas (if you're curious)
+Extra ideas (easy to super hard)
 
+- Add images to questions: modify `generateFlashcard()` to create an `<img>` element if the question object has an `image` field.
 - Add a timer to questions: let the player see a countdown for each card. You'll need to add a little `setInterval()` in `generateFlashcard()`.
 - Save high scores to a local file: for offline fun, store top scores in `localStorage` and show a local leaderboard.
-- Add images to questions: modify `generateFlashcard()` to create an `<img>` element if the question object has an `image` field.
+  Safety and sharing tips
 
-Safety and sharing tips
-
-- If you add Firebase or any online backend, be careful sharing API keys publicly. For this app the Firebase config is in `index.html` for convenience; on a real project you'd keep secrets out of source files.
+- If you add your own FireBase, be careful sharing API keys publicly. For this app the Firebase config is in `index.html` for convenience; on a real project you'd keep secrets out of source files.
 
 What I recommend doing first
 
@@ -118,13 +114,13 @@ What I recommend doing first
 2. Follow exercise #1 and change the title.
 3. Follow exercise #3 and add one new question to a test.
 
-Congratulations — you're on your way to building interactive web apps! If you want, I can create a step-by-step video script or a checklist so you can learn while coding.
+Congratulations - you're on your way to building interactive web apps!
 
 ## Deep dive: read and understand `script.js`
 
-This section walks through the important parts of `script.js` so you can follow the code while you look at it. I kept the language simple and added pointers to the exact functions you can open in the file.
+This section walks through the important parts of `script.js` so you can follow the code while you look at it.
 
-Overview (one-sentence): script.js is the brain of the app — it loads quizzes, shows flashcards, handles clicks and keyboard answers, keeps scores and stats, and talks to Firebase when available.
+Overview (one-sentence): script.js is the brain of the app - it loads quizzes, shows flashcards, handles clicks and keyboard answers, keeps scores and stats, and talks to Firebase when available.
 
 1. Global state (top of the file)
 
@@ -136,9 +132,9 @@ Why this matters: Think of these as the app's memory while a test runs. If you c
 
 2. Username checks and helpers
 
-- `isCleanUsername(name)` — checks a name against a `bannedWords` list (if present). It blocks obvious bad words and simple obfuscations.
-- `isValidFormat(name)` — enforces that usernames are 3–20 chars long and only letters/numbers/underscore.
-- `isUsernameTaken(name)` — optionally checks Firestore to see if a name is already used (only works when Firebase helpers are available).
+- `isCleanUsername(name)` - checks a name against a `bannedWords` list (if present). It blocks obvious bad words and simple obfuscations.
+- `isValidFormat(name)` - enforces that usernames are 3–20 chars long and only letters/numbers/underscore.
+- `isUsernameTaken(name)` - optionally checks Firestore to see if a name is already used (only works when Firebase helpers are available).
 
 Why this matters: These functions make name submission safe and polite. You can change the regex in `isValidFormat` to allow different characters.
 
@@ -148,7 +144,7 @@ Why this matters: These functions make name submission safe and polite. You can 
 - `applyAuthUsername(username)` writes the username into input boxes and makes them read-only when signed in.
 - `refreshAuthUi()` reads cached username and Firebase user data to keep the UI in sync.
 
-Try it: find `setAuthStatus` in the file and add a console.log at the top (for learning): `console.log('setAuthStatus called', msg, showLogout);` — save and refresh to see logs when signing in/out.
+Try it: find `setAuthStatus` in the file and add a console.log at the top (for learning): `console.log('setAuthStatus called', msg, showLogout);` - save and refresh to see logs when signing in/out.
 
 4. Logging and profile resolution
 
@@ -245,7 +241,7 @@ Beginner-friendly small projects you can try (concrete)
 2. Save a local-history of top 5 scores using `localStorage` (without Firebase). Do this in `endTest()` before showing the chart.
 3. Make questions show an image: add `"image": "questions/cats.jpg"` to a question and modify the flashcard DOM to include an `<img src="...">` under the question text.
 
-One tiny code example — add image support (copy/paste into `generateFlashcard()` after `questionDiv` is created):
+One tiny code example - add image support (copy/paste into `generateFlashcard()` after `questionDiv` is created):
 
 ```javascript
 if (q.image) {
@@ -261,5 +257,5 @@ if (q.image) {
 
 Final tips
 
-- Use console.log() a lot while you learn — it helps you see what's happening. For example, add `console.log('questions length', questions.length)` inside `startTest()` to check how many questions loaded.
+- Use console.log() a lot while you learn - it helps you see what's happening. For example, add `console.log('questions length', questions.length)` inside `startTest()` to check how many questions loaded.
 - Make small edits and refresh often. If something breaks, use your browser DevTools (Console tab) to read errors and ask me about them.

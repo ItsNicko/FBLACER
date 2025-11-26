@@ -9,16 +9,16 @@ let streak = 0;
 let loseStreak = 0;
 let firstAttempt = true;
 let topicChart = null;
-let _lastChartLabels = null;
-let _lastChartData = null;
+let lastChartLabels = null;
+let lastChartData = null;
 let testRunning = false;
-let _nextFlashcardTimer = null;
-let _endedEarly = false;
+let nextFlashcardTimer = null;
+let endedEarly = false;
 
-// per-test runtime metrics collected during a test (times in ms, accuracy)
-let testMetrics = { topics: {}, questions: [] };
+// Record runtime details (times, accuracy) for this session.
+let sessionMetrics = { topics: {}, questions: [] };
 
-// cached current username (populated on auth state changes)
+// Cached current username (used by UI)
 window.currentUsername = null;
 
 function isCleanUsername(name) {
@@ -55,7 +55,7 @@ function isValidFormat(name) {
 async function isUsernameTaken(name) {
   if (!name) return true;
   try {
-    // use Firestore usernames collection (document id = username)
+    // Try username -> uid map first
     if (!window.db || !window.doc || !window.getDoc) return false;
     const dref = window.doc(window.db, "usernames", name);
     const snap = await window.getDoc(dref);
@@ -65,20 +65,19 @@ async function isUsernameTaken(name) {
     return false;
   }
 
-  // Ensure UI reflects persisted auth state after Firebase restores session on refresh.
-  // We wait for the leaderboardAuthReady promise (resolved by index.html when auth is ready)
-  // then update the visible auth controls using setAuthStatus and applyAuthUsername.
+  // After Firebase restores a session I update the UI to match.
+  // Wait for auth readiness and apply persisted name
   try {
     (async function restoreAuthUi() {
       try {
-        // immediate UI update from cached localStorage to avoid flash
+        // Show cached values to avoid signed-out flash
         try {
           const cachedName =
             localStorage.getItem && localStorage.getItem("fblacer_username");
           const cachedUid =
             localStorage.getItem && localStorage.getItem("fblacer_uid");
           if (cachedName && cachedUid) {
-            // ensure DOM is ready so setAuthStatus can find and toggle elements
+            // Wait until the DOM is ready so UI functions can safely run.
             if (document.readyState === "loading") {
               await new Promise((res) =>
                 document.addEventListener("DOMContentLoaded", res, {
@@ -96,7 +95,7 @@ async function isUsernameTaken(name) {
           }
         } catch (e) {}
 
-        // then reconcile with real auth state when Firebase restores
+        // Later I reconcile with the real auth state to stay accurate.
         if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
         if (document.readyState === "loading") {
           await new Promise((res) =>
@@ -108,7 +107,7 @@ async function isUsernameTaken(name) {
             ? window.auth.currentUser
             : null;
         if (user) {
-          // attempt to read username from users/{uid} if possible (overwrite cached if available)
+          // Attempt to fetch persisted username from server
           let name =
             (localStorage.getItem &&
               localStorage.getItem("fblacer_username")) ||
@@ -254,7 +253,7 @@ async function resolveProfileUid(clickedName) {
     return uid || null;
   };
 
-  // Try usernames/{username}
+  // Try username->uid mapping (fast path)
   try {
     const snap = await window.getDoc(
       window.doc(window.db, "usernames", clickedName)
@@ -264,7 +263,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: username lookup failed", err);
   }
 
-  // Try if it looks like a UID
+  // If the input looks like a UID, I try treating it as one directly.
   try {
     if (/^[A-Za-z0-9_-]{12,64}$/.test(clickedName)) {
       const snap = await window.getDoc(
@@ -276,7 +275,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: UID lookup failed", err);
   }
 
-  // Query users collection
+  // As a last resort I query users for a matching username.
   try {
     const q = window.query(
       window.collection(window.db, "users"),
@@ -289,7 +288,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: users query failed", err);
   }
 
-  // Query accounts collection
+  // Fallback: query accounts collection
   try {
     const q = window.query(
       window.collection(window.db, "accounts"),
@@ -311,7 +310,7 @@ async function resolveProfileUid(clickedName) {
   return null;
 }
 
-// wire up auth UI when DOM ready
+// When the page is ready I wire the auth buttons so they behave naturally.
 document.addEventListener("DOMContentLoaded", () => {
   const signupBtn = document.getElementById("signupBtn");
   const loginBtn = document.getElementById("loginBtn");
@@ -413,20 +412,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Wire up End Test button confirmation
+  // Attach confirmation for ending tests
   const endBtn = document.getElementById("endBtn");
   endBtn?.addEventListener("click", () => {
     if (testRunning) confirmEndTest();
   });
 });
 
-// observe auth state to update UI
+// Listen for auth state changes and update UI
 try {
   if (window.auth) {
     window.auth.onAuthStateChanged?.(async (user) => {
       try {
         if (user) {
-          // fetch username if exists
+          // Try reading username from users/{uid}
           let name = "Anonymous";
           try {
             const udoc = window.doc(window.db, "users", user.uid);
@@ -453,16 +452,16 @@ try {
   }
 } catch (e) {}
 
-// Chart.js removed: concaveInnerShadow plugin and Chart.register removed. Using aleks-chart.js
+// Use ALEKS canvas renderer for topic visuals
 
-// Settings modal + dark mode toggle + report submission
+// The settings panel holds theme toggles and a place to send feedback.
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.documentElement;
-  // Initialize saved theme state
+  // Restore saved dark-mode preference
   const saved = localStorage.getItem("fblacer-dark");
   if (saved === "1") root.classList.add("dark");
 
-  // Elements
+  // Grab UI elements I will interact with in the settings modal.
   const settingsBtn = document.getElementById("settingsBtn");
   const settingsModal = document.getElementById("settingsModal");
   const settingsClose = document.getElementById("settingsClose");
@@ -473,7 +472,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const reportStatus = document.getElementById("reportStatus");
   const viewProfileBtn = document.getElementById("viewProfileBtn");
 
-  // Sync toggle initial state
+  // Make sure the toggle reflects the current theme state.
   if (darkToggle) darkToggle.checked = root.classList.contains("dark");
 
   function setDarkMode(on) {
@@ -489,7 +488,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (e) {}
   }
 
-  // Open/close modal
+  // Opening the modal populates quick info and ties the controls together.
   if (settingsBtn)
     settingsBtn.addEventListener("click", () => {
       if (settingsModal) {
@@ -497,7 +496,7 @@ document.addEventListener("DOMContentLoaded", () => {
         settingsModal.setAttribute("aria-hidden", "false");
       }
       try {
-        // fast path: immediately show cached username or current auth user to avoid modal showing signed-out
+        // Fast path: show cached username so the modal doesn't briefly show signed-out.
         const cachedName =
           (localStorage.getItem && localStorage.getItem("fblacer_username")) ||
           null;
@@ -531,13 +530,13 @@ document.addEventListener("DOMContentLoaded", () => {
       } catch (e) {
         console.warn("refreshAuthUi failed", e);
       }
-      // sync toggle
+      // Keep the toggle visual synced with the active theme.
       if (darkToggle) darkToggle.checked = root.classList.contains("dark");
     });
 
   if (viewProfileBtn)
     viewProfileBtn.addEventListener("click", async () => {
-      // open profile for current user if known, otherwise prompt for username
+      // If I know the current user, open their profile; otherwise ask for a name.
       const uid =
         (window.auth &&
           window.auth.currentUser &&
@@ -549,7 +548,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         const who = prompt("Enter username to view public profile:");
         if (who) {
-          // try to resolve username -> uid via usernames collection
+          // Prefer username->uid map for profile lookup
           try {
             if (window.doc && window.getDoc && window.db) {
               const uref = window.doc(window.db, "usernames", who);
@@ -566,7 +565,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
-  // Insert "View scores" button next to View profile in settings modal
+  // Add "View scores" helper to settings
   try {
     const existing = document.getElementById("viewScoresBtn");
     if (!existing) {
@@ -600,7 +599,7 @@ document.addEventListener("DOMContentLoaded", () => {
         settingsModal.setAttribute("aria-hidden", "true");
       }
     });
-  // allow ESC to close
+  // Let Esc close the modal for a small, expected convenience.
   document.addEventListener("keydown", (e) => {
     if (
       e.key === "Escape" &&
@@ -617,7 +616,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setDarkMode(Boolean(e.target.checked));
     });
 
-  // Report submission
+  // The report form sends issues and optionally logs the attempt.
   if (sendIssueBtn) {
     sendIssueBtn.addEventListener("click", async () => {
       const msg = issueText ? issueText.value.trim() : "";
@@ -641,7 +640,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (reportStatus) reportStatus.textContent = "Report sent — thank you.";
         if (issueText) issueText.value = "";
         if (issueEmail) issueEmail.value = "";
-        // auto-close after short delay
+        // Auto-close modal after sending
         setTimeout(() => {
           if (settingsModal) {
             settingsModal.style.display = "none";
@@ -664,7 +663,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-  // Wire legal buttons to open policy pages in an overlay modal
+  // Legal pages open in a simple overlay so users can read policies without leaving the app.
   try {
     const openPrivacy = document.getElementById("openPrivacyBtn");
     const openTos = document.getElementById("openTosBtn");
@@ -709,21 +708,21 @@ try {
 } catch (e) {}
 
 function createTopicChart(ctxEl, labels, data) {
-  // Replace Chart.js-based rendering with the ALEKS canvas renderer.
+  // Render topic visuals with ALEKS canvas renderer
   try {
-    // destroy prior chart instance if present
+    // If a previous visual exists, remove it so the next render is clean.
     try {
       if (topicChart && typeof topicChart.destroy === "function")
         topicChart.destroy();
     } catch (e) {}
     topicChart = null;
 
-    // Prepare a scores-like object (renderAleksChart expects scores.topics structure)
+    // Build a compact scores object so the ALEKS renderer gets what it expects.
     const scoresObj = { topics: {} };
-    // labels[] and data[] are expected to correspond; data currently contains weighted values per topic
+    // Labels and data should match; data holds weighted values used to size slices.
     for (let i = 0; i < labels.length; i++) {
       const lab = labels[i];
-      // We attempt to find actual counts in the global scores.topics if available
+      // Prefer real per-topic counts when present to keep the chart honest.
       const src =
         scores && scores.topics && scores.topics[lab]
           ? scores.topics[lab]
@@ -734,7 +733,7 @@ function createTopicChart(ctxEl, labels, data) {
           total: src.total || 0,
         };
       } else {
-        // Fall back: derive from provided data (data[i]) - set total equal to Math.round(data value)
+        // Otherwise fall back to the provided weights and round them for display.
         const val = Number(data[i]) || 0;
         scoresObj.topics[lab] = {
           firstAttemptCorrect: Math.round(val),
@@ -743,12 +742,12 @@ function createTopicChart(ctxEl, labels, data) {
       }
     }
 
-    // renderAleksChart is provided by aleks-chart.js and returns { update, destroy }
+    // renderAleksChart returns simple helpers I can call to update or destroy the view.
     if (typeof window.renderAleksChart === "function") {
       topicChart = window.renderAleksChart(ctxEl, scoresObj);
       try {
-        _lastChartLabels = labels.slice();
-        _lastChartData = data.slice();
+        lastChartLabels = labels.slice();
+        lastChartData = data.slice();
       } catch (e) {}
     } else {
       console.warn("renderAleksChart not loaded");
@@ -784,8 +783,8 @@ function updateChartTheme() {
       }
     } catch (e) {}
 
-    if (_lastChartLabels && _lastChartData) {
-      createTopicChart(canvas, _lastChartLabels, _lastChartData);
+    if (lastChartLabels && lastChartData) {
+      createTopicChart(canvas, lastChartLabels, lastChartData);
       try {
         const legendEl = document.getElementById("topicLegend");
         if (legendEl) {
@@ -979,7 +978,7 @@ function startTest() {
       dropdown.style.display = "none";
       startBtn.style.display = "none";
       endBtn.style.display = "inline-block";
-      _endedEarly = false;
+      endedEarly = false;
 
       testRunning = true;
       generateFlashcard();
@@ -1003,17 +1002,17 @@ function generateFlashcard() {
     return;
   }
 
-  const q = questions.shift();
+  const question = questions.shift();
   // Shuffle options and track new correct answer
-  const shuffledOptions = [...q.options];
+  const shuffledOptions = [...question.options];
   shuffleArray(shuffledOptions);
 
-  const correctAnswer = q.correctAnswer;
+  const correctAnswer = question.correctAnswer;
   const newCorrectAnswer = shuffledOptions.find((opt) => opt === correctAnswer);
 
-  // Replace q.options and q.correctAnswer with shuffled versions
-  q.options = shuffledOptions;
-  q.correctAnswer = newCorrectAnswer;
+  // Replace question.options and question.correctAnswer with shuffled versions
+  question.options = shuffledOptions;
+  question.correctAnswer = newCorrectAnswer;
 
   progress.done++;
   firstAttempt = true;
@@ -1043,7 +1042,7 @@ function generateFlashcard() {
 
   const questionDiv = document.createElement("div");
   questionDiv.className = "question";
-  questionDiv.textContent = q.question;
+  questionDiv.textContent = question.question;
   questionDiv.style.userSelect = "none";
   questionDiv.style.webkitUserSelect = "none";
   questionDiv.style.msUserSelect = "none";
@@ -1055,12 +1054,12 @@ function generateFlashcard() {
   const explanationDiv = document.createElement("div");
   explanationDiv.className = "explanation";
   explanationDiv.style.display = "none";
-  explanationDiv.textContent = `Explanation: ${q.explanation}`;
+  explanationDiv.textContent = `Explanation: ${question.explanation}`;
   card.appendChild(explanationDiv);
 
   let answeredCorrectly = false;
 
-  q.options.forEach((option) => {
+  question.options.forEach((option) => {
     const li = document.createElement("li");
     li.textContent = option;
     li.dataset.clicked = "false";
@@ -1074,45 +1073,50 @@ function generateFlashcard() {
 
       // record question metric
       try {
-        testMetrics.questions.push({
-          question: q.question,
-          topic: q.topic,
+        sessionMetrics.questions.push({
+          question: question.question,
+          topic: question.topic,
           elapsedMs: elapsed,
-          correct: option === q.correctAnswer,
+          correct: option === question.correctAnswer,
           firstAttempt: firstAttempt,
         });
-        if (!testMetrics.topics[q.topic])
-          testMetrics.topics[q.topic] = { times: [], correct: 0, attempts: 0 };
-        testMetrics.topics[q.topic].times.push(elapsed);
-        testMetrics.topics[q.topic].attempts += 1;
-        if (option === q.correctAnswer)
-          testMetrics.topics[q.topic].correct += 1;
+        if (!sessionMetrics.topics[question.topic])
+          sessionMetrics.topics[question.topic] = {
+            times: [],
+            correct: 0,
+            attempts: 0,
+          };
+        sessionMetrics.topics[question.topic].times.push(elapsed);
+        sessionMetrics.topics[question.topic].attempts += 1;
+        if (option === question.correctAnswer)
+          sessionMetrics.topics[question.topic].correct += 1;
       } catch (e) {
         console.warn("record metric failed", e);
       }
 
       if (option === q.correctAnswer) {
-        handleCorrect(q.topic);
+        handleCorrect(question.topic);
         li.classList.add("correct");
         answeredCorrectly = true;
 
         Array.from(optionsList.children).forEach((opt) =>
           opt.classList.add("answered")
         );
-        if (_nextFlashcardTimer) {
-          clearTimeout(_nextFlashcardTimer);
-          _nextFlashcardTimer = null;
+        if (nextFlashcardTimer) {
+          clearTimeout(nextFlashcardTimer);
+          nextFlashcardTimer = null;
         }
-        _nextFlashcardTimer = setTimeout(() => {
+        nextFlashcardTimer = setTimeout(() => {
           if (testRunning) generateFlashcard();
         }, 800);
       } else {
         li.classList.add("incorrect");
         explanationDiv.style.display = "block";
-        handleWrong(q.topic);
+        handleWrong(question.topic);
       }
 
-      if (firstAttempt && option !== q.correctAnswer) firstAttempt = false;
+      if (firstAttempt && option !== question.correctAnswer)
+        firstAttempt = false;
       updateStats();
     };
 
@@ -1207,11 +1211,11 @@ function updateStats() {
 }
 
 function endTest() {
-  // mark complete; if user clicked the 'End Test Now' button we set _endedEarly earlier
+  // mark complete; if user clicked the 'End Test Now' button we set endedEarly earlier
   testRunning = false;
-  if (_nextFlashcardTimer) {
-    clearTimeout(_nextFlashcardTimer);
-    _nextFlashcardTimer = null;
+  if (nextFlashcardTimer) {
+    clearTimeout(nextFlashcardTimer);
+    nextFlashcardTimer = null;
   }
   const container = document.getElementById("flashcard-container");
   container.innerHTML = `
@@ -1316,7 +1320,7 @@ function endTest() {
             progress.total) *
           100
         : 0;
-    if (uid && completed && !_endedEarly && overallPct >= 90) {
+    if (uid && completed && !endedEarly && overallPct >= 90) {
       const testId =
         currentTest && currentTest.testName
           ? currentTest.testName
@@ -1331,7 +1335,7 @@ function endTest() {
 // Called when user clicks "End Test Now" to mark the test as ended early
 function endEarly() {
   try {
-    _endedEarly = true;
+    endedEarly = true;
   } catch (e) {}
   try {
     endTest();
@@ -1434,7 +1438,7 @@ function confirmEndTest() {
   overlay.appendChild(panel);
 }
 
-// Show the signed-in user's saved scores and let them open analytics per test
+// Show signed-in user's saved tests
 async function showUserScoresOverlay(uid) {
   try {
     if (!uid) return;
@@ -1466,7 +1470,7 @@ async function showUserScoresOverlay(uid) {
     panel.appendChild(list);
     overlay.appendChild(panel);
 
-    // Read users/{uid}/scores docs
+    // Read users/{uid}/scores documents
     try {
       if (window.collection && window.getDocs && window.db) {
         const scoresCol = window.collection(window.db, "users", uid, "scores");
@@ -1530,7 +1534,7 @@ async function showUserScoresOverlay(uid) {
   }
 }
 
-// Save score + topic breakdowns to Firestore under users/{uid}/scores and users/{uid}/topics
+// When saving, I write a new historical score and a topic snapshot so nothing is lost.
 async function saveScoreToFirestore() {
   try {
     const uid =
@@ -1545,26 +1549,27 @@ async function saveScoreToFirestore() {
     const timestamp = new Date().toISOString();
     let topicScores = {};
 
-    // Save total points (scores/{testId})
+    // Create a timestamped score document (append-only)
+    let historyId = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
     try {
-      const scoreRef = window.doc(window.db, "users", uid, "scores", testId);
-      await window.setDoc(scoreRef, { totalPoints, timestamp });
+      const scoreRef = window.doc(window.db, "users", uid, "scores", historyId);
+      await window.setDoc(scoreRef, { testId, totalPoints, timestamp });
       try {
-        writeLog("save_score", { testId, totalPoints });
+        writeLog("save_score", { testId, totalPoints, historyId });
       } catch {}
     } catch (e) {
       console.warn("save score failed", e);
       return false; // <-- CRITICAL FAILURE
     }
 
-    // Save topic breakdown (topics/{testId})
+    // Save compact topic breakdown snapshot
     try {
       topicScores = {};
       Object.keys(scores.topics || {}).forEach((topic) => {
         const s = scores.topics[topic] || {};
         const firstAttemptCorrect = Number(s.firstAttemptCorrect || 0);
         const total = Number(s.total || 0);
-        const tmetrics = testMetrics?.topics?.[topic] || null;
+        const tmetrics = sessionMetrics?.topics?.[topic] || null;
 
         let avgTimeMs = null;
         if (tmetrics?.times?.length) {
@@ -1574,14 +1579,21 @@ async function saveScoreToFirestore() {
         topicScores[topic] = { firstAttemptCorrect, total, avgTimeMs };
       });
 
-      // Include sample questions
-      const qsample = Array.isArray(testMetrics?.questions)
-        ? testMetrics.questions.slice(-25)
+      // Include small sample of question-level data
+      const qsample = Array.isArray(sessionMetrics?.questions)
+        ? sessionMetrics.questions.slice(-25)
         : [];
-      if (qsample.length) topicScores.__sampleQuestions = qsample;
+      if (qsample.length) topicScores.sampleQuestions = qsample;
 
-      const topicsRef = window.doc(window.db, "users", uid, "topics", testId);
-      await window.setDoc(topicsRef, topicScores);
+      // The topic snapshot uses the same history id so the pieces stay linked.
+      const topicsRef = window.doc(
+        window.db,
+        "users",
+        uid,
+        "topics",
+        historyId
+      );
+      await window.setDoc(topicsRef, { testId, ...topicScores, timestamp });
       try {
         writeLog("save_topics", {
           testId,
@@ -1593,15 +1605,16 @@ async function saveScoreToFirestore() {
       return false; // <-- CRITICAL FAILURE
     }
 
-    // Persist full analytics (NON-FATAL FAIL)
+    // Persist detailed analytics (optional)
     try {
-      await persistFullAnalytics(uid, testId, testMetrics);
+      // Detailed analytics are saved as a separate historical doc for deep inspection.
+      await persistFullAnalytics(uid, testId, sessionMetrics);
     } catch (e) {
       console.warn("persistFullAnalytics failed", e);
-      // DO NOT RETURN FALSE — analytics is optional
+      // Analytics failures shouldn't block the user from finishing the save flow.
     }
 
-    // Mirror to /accounts/{uid} (NON-FATAL FAIL)
+    // Mirror summary to /accounts/{uid} (compat)
     try {
       const accountsRef = window.doc(window.db, "accounts", uid);
       let cachedName = null;
@@ -1648,7 +1661,7 @@ async function saveScoreToFirestore() {
       } catch {}
     } catch (e) {
       console.warn("mirror accounts error", e);
-      // NO RETURN FALSE — not critical
+      // If the mirror fails, the app still worked; I don't treat it as fatal.
     }
 
     showToast("Saved score to your account", "success");
@@ -1659,7 +1672,7 @@ async function saveScoreToFirestore() {
   }
 }
 
-let _leaderboardState = { limit: 15, lastLoaded: null };
+let leaderboardState = { limit: 15, lastLoaded: null };
 
 function showLeaderboardOverlay(testId) {
   let overlay = document.getElementById("lbOverlay");
@@ -1692,7 +1705,7 @@ function showLeaderboardOverlay(testId) {
     overlay
       .querySelector("#lbShowMore")
       .addEventListener("click", async (e) => {
-        _leaderboardState.limit += 15;
+        leaderboardState.limit += 15;
         await fetchAndRenderLeaderboard(testId);
       });
     overlay
@@ -1700,7 +1713,7 @@ function showLeaderboardOverlay(testId) {
       .addEventListener("click", async () => {
         const nameInput = document.getElementById("lbName");
         const name = (nameInput || {}).value ? nameInput.value.trim() : "";
-        // Disallow empty names in leaderboard submissions
+        // Disallow empty leaderboard names
         if (!name) {
           showToast("Please enter your name to submit a score.", "error");
           try {
@@ -1710,7 +1723,7 @@ function showLeaderboardOverlay(testId) {
           } catch (e) {}
           return;
         }
-        // Enforce username quality: format and banned words
+        // Validate leaderboard name (format, banned words)
         try {
           if (!isValidFormat(name)) {
             showToast(
@@ -1751,7 +1764,7 @@ function showLeaderboardOverlay(testId) {
             return;
           }
           await window.leaderboardApi.submitScore(testId, name, totalPoints);
-          // Log leaderboard submit
+          // Log leaderboard submission
           try {
             writeLog("leaderboard_submit", {
               testId,
@@ -1761,7 +1774,7 @@ function showLeaderboardOverlay(testId) {
           } catch (e) {
             console.warn("leaderboard_submit log failed", e);
           }
-          // also persist to user's private record if authenticated
+          // Persist score to user's private history when possible
           try {
             await saveScoreToFirestore();
           } catch (e) {
@@ -1802,7 +1815,7 @@ function showLeaderboardOverlay(testId) {
 
   const testNameEl = document.getElementById("lb-test-name");
   if (testNameEl) testNameEl.textContent = testId;
-  // Autofill lbName: prefer cached username, then localStorage; avoid Firestore reads (permissions often block client reads)
+  // Prefill leaderboard name from cached username when available
   (function () {
     try {
       const nameInput = document.getElementById("lbName");
@@ -1843,12 +1856,12 @@ function showLeaderboardOverlay(testId) {
     listEl.style.maxHeight = "56vh";
   }
   document.body.style.overflow = "hidden";
-  _leaderboardState.limit = 15;
-  // (previously attempted Firestore fetch here — removed to avoid permission errors)
+  leaderboardState.limit = 15;
+  // Note: a previous Firestore fetch was removed to avoid client permission issues.
   fetchAndRenderLeaderboard(testId);
 }
 
-// Generic legal overlay: loads an HTML file and displays it as a modal above other UI
+// The legal overlay loads a local HTML file so users can read policies inline.
 async function showLegalOverlay(path, title) {
   try {
     let overlay = document.getElementById("legalOverlay");
@@ -1882,12 +1895,12 @@ async function showLegalOverlay(path, title) {
     content.style = "margin-top:8px;";
     panel.appendChild(content);
 
-    // Try to fetch the HTML file and inject its body content; fall back to iframe if fetch blocked
+    // Try to fetch policy HTML; fallback to iframe if blocked
     try {
       const res = await fetch(path);
       if (res.ok) {
         const txt = await res.text();
-        // Extract body inner HTML if present
+        // If the response contains a body tag, I extract its inner HTML for cleaner display.
         const m = txt.match(/<body[^>]*>([\s\S]*)<\/body>/i);
         const inner = m ? m[1] : txt;
         content.innerHTML = inner;
@@ -1895,7 +1908,7 @@ async function showLegalOverlay(path, title) {
         throw new Error("fetch failed");
       }
     } catch (e) {
-      // Fallback: use an iframe so the file is still viewable
+      // The iframe fallback keeps the legal content accessible even when fetch is blocked.
       const iframe = document.createElement("iframe");
       iframe.src = path;
       iframe.style = "width:100%;height:70vh;border:none;border-radius:8px;";
@@ -1910,10 +1923,10 @@ async function showLegalOverlay(path, title) {
   }
 }
 
-// Show analytics overlay for the currently signed-in user for a specific test
+// Open analytics overlay for a specific test
 async function showAnalyticsOverlay(testId) {
   try {
-    // Require login
+    // This view is personal — sign in so it shows your saved history.
     const uid =
       (window.auth && window.auth.currentUser && window.auth.currentUser.uid) ||
       null;
@@ -1952,53 +1965,135 @@ async function showAnalyticsOverlay(testId) {
     info.textContent = "Loading analytics...";
     panel.appendChild(info);
 
-    // Container for charts and stats
+    // Create container for charts and summary
     const container = document.createElement("div");
     container.style =
       "display:flex;flex-direction:column;gap:12px;margin-top:8px;";
     panel.appendChild(container);
     overlay.appendChild(panel);
 
-    // Try to fetch user's historical scores for this test if leaderboardApi is available
-    // Otherwise best-effort: empty
+    // Read user's saved scores for this test (preserve history)
+    let savedHistory = [];
+    try {
+      if (
+        window.collection &&
+        window.getDocs &&
+        window.query &&
+        window.where &&
+        window.db
+      ) {
+        try {
+          let q;
+          try {
+            // Order query by timestamp when available
+            q = window.query(
+              window.collection(window.db, "users", uid, "scores"),
+              window.where("testId", "==", testId),
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+            );
+          } catch (e) {
+            // If ordering isn't available, I still query by test id and sort locally.
+            q = window.query(
+              window.collection(window.db, "users", uid, "scores"),
+              window.where("testId", "==", testId)
+            );
+          }
+          const snap = await window.getDocs(q);
+          if (snap && typeof snap.forEach === "function") {
+            snap.forEach((d) => {
+              try {
+                const data = d.data ? d.data() : d._data || {};
+                savedHistory.push({ id: d.id, ...data });
+              } catch (e) {}
+            });
+          }
+        } catch (e) {
+          console.warn("query saved scores failed", e);
+          savedHistory = [];
+        }
+      }
+    } catch (e) {
+      console.warn("fetch savedHistory failed", e);
+      savedHistory = [];
+    }
+
+    // Fetch public leaderboard history (best-effort)
     let historical = [];
     try {
       if (
         window.leaderboardApi &&
         typeof window.leaderboardApi.fetchUserScoresForTest === "function"
       ) {
-        historical =
+        const pub =
           (await window.leaderboardApi.fetchUserScoresForTest(testId, uid)) ||
           [];
+        historical = pub.slice();
       }
     } catch (e) {
       console.warn("fetch historical scores failed", e);
       historical = [];
     }
 
-    // Fetch latest saved score for this test from users/{uid}/scores/{testId} if Firestore helpers exist
-    let latestScore = null;
-    try {
-      if (window.doc && window.getDoc && window.db) {
-        const ref = window.doc(window.db, "users", uid, "scores", testId);
-        const snap = await window.getDoc(ref);
-        if (snap && snap.exists && snap.exists()) {
-          latestScore = snap.data ? snap.data() : snap._data || null;
-        }
-      }
-    } catch (e) {
-      console.warn("fetch latest score failed", e);
-      latestScore = null;
-    }
+    // When merging I prefer the user's saved entries so private data stays authoritative.
+    const combined = [];
+    const seen = new Set();
+    (savedHistory || []).forEach((h) => {
+      const key = (h.id || "") + "|" + (h.timestamp || h.createdAt || "");
+      seen.add(key);
+      combined.push(h);
+    });
+    (historical || []).forEach((h) => {
+      const key = (h.id || "") + "|" + (h.timestamp || h.createdAt || "");
+      if (!seen.has(key)) combined.push(h);
+    });
+    // Sort combined entries by timestamp (desc)
+    combined.sort((a, b) => {
+      const ta = new Date(a.timestamp || a.createdAt || 0).getTime() || 0;
+      const tb = new Date(b.timestamp || b.createdAt || 0).getTime() || 0;
+      return tb - ta;
+    });
+    historical = combined;
 
-    // Fetch topic breakdown for this test from users/{uid}/topics/{testId}
+    // The latest score shown prefers the user's saved record, falling back to public data.
+    let latestScore = null;
+    if (savedHistory && savedHistory.length) latestScore = savedHistory[0];
+    else if (historical && historical.length) latestScore = historical[0];
+
+    // For per-topic detail I prefer the user's most recent topic breakdown document.
     let topicData = {};
     try {
-      if (window.doc && window.getDoc && window.db) {
-        const tref = window.doc(window.db, "users", uid, "topics", testId);
-        const tsnap = await window.getDoc(tref);
-        if (tsnap && tsnap.exists && tsnap.exists()) {
-          topicData = tsnap.data ? tsnap.data() : tsnap._data || {};
+      if (
+        window.collection &&
+        window.getDocs &&
+        window.query &&
+        window.where &&
+        window.db
+      ) {
+        try {
+          let tq;
+          try {
+            tq = window.query(
+              window.collection(window.db, "users", uid, "topics"),
+              window.where("testId", "==", testId),
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+            );
+          } catch (e) {
+            tq = window.query(
+              window.collection(window.db, "users", uid, "topics"),
+              window.where("testId", "==", testId)
+            );
+          }
+          const tsnap = await window.getDocs(tq);
+          let first = null;
+          if (tsnap && typeof tsnap.forEach === "function") {
+            tsnap.forEach((d) => {
+              if (!first) first = d;
+            });
+          }
+          if (first) topicData = first.data ? first.data() : first._data || {};
+        } catch (e) {
+          console.warn("query topics failed", e);
+          topicData = {};
         }
       }
     } catch (e) {
@@ -2006,7 +2101,7 @@ async function showAnalyticsOverlay(testId) {
       topicData = {};
     }
 
-    // Fetch global aggregates (best-effort). We'll try different helper paths.
+    // Best-effort fetch for global averages
     let globalAvgPoints = null; // number
     let globalTopicAverages = null; // { topicName: percent }
     try {
@@ -2019,7 +2114,7 @@ async function showAnalyticsOverlay(testId) {
             globalTopicAverages = ga.topicAverages || null;
           }
         } else if (typeof window.leaderboardApi.fetchTopScores === "function") {
-          // best-effort: fetch many entries and compute average points and per-topic averages when entries include topic breakdowns
+          // Compute averages from available entries
           try {
             const entries = await window.leaderboardApi.fetchTopScores(
               testId,
@@ -2032,7 +2127,7 @@ async function showAnalyticsOverlay(testId) {
               );
               globalAvgPoints = Math.round(sum / entries.length);
 
-              // try to derive per-topic averages if entries contain a topics-like field
+              // If entries include topic details, I try to aggregate them into per-topic averages.
               const sums = {};
               const counts = {};
               for (const ent of entries) {
@@ -2092,7 +2187,7 @@ async function showAnalyticsOverlay(testId) {
       console.warn("fetch global aggregates failed", e);
     }
 
-    // Compute user's average across all saved scores (users/{uid}/scores/*) if Firestore helpers exist
+    // Compute user's average from saved scores
     let userAverageAcrossTests = null;
     let userAllScoresList = [];
     try {
@@ -2118,7 +2213,7 @@ async function showAnalyticsOverlay(testId) {
       console.warn("compute user average across tests failed", e);
     }
 
-    // If we have no data at all, show a friendly message
+    // If no history exists, I show a helpful message instead of a blank chart.
     const hasTopics = topicData && Object.keys(topicData).length > 0;
     const hasLatest = !!(
       latestScore && typeof latestScore.totalPoints !== "undefined"
@@ -2129,13 +2224,13 @@ async function showAnalyticsOverlay(testId) {
       return overlay;
     }
 
-    // Clear loading text
+    // Remove the loading hint once I have data (or a friendly message).
     info.style.display = "none";
 
-    // Summary stats row
+    // A small summary row shows last score, average, and attempt count.
     const statsRow = document.createElement("div");
     statsRow.style = "display:flex;gap:12px;flex-wrap:wrap;align-items:center;";
-    // Last score
+    // Show most recent score
     const lastScoreEl = document.createElement("div");
     lastScoreEl.style =
       "min-width:160px;padding:10px;border-radius:8px;background:var(--surface,#f6f9fb);";
@@ -2147,7 +2242,7 @@ async function showAnalyticsOverlay(testId) {
     lastScoreEl.innerHTML = `<div style="font-weight:700;font-size:18px;">Last: ${lastPts} pts</div><div style="font-size:12px;color:var(--muted,#666);">Most recent submission</div>`;
     statsRow.appendChild(lastScoreEl);
 
-    // Average score (from historical if available)
+    // Show user's historical average
     let avg = 0;
     if (historical && historical.length) {
       avg = Math.round(
@@ -2164,7 +2259,7 @@ async function showAnalyticsOverlay(testId) {
     } attempts</div>`;
     statsRow.appendChild(avgEl);
 
-    // Attempts
+    // Show attempt count
     const attemptsEl = document.createElement("div");
     attemptsEl.style =
       "min-width:120px;padding:10px;border-radius:8px;background:var(--surface,#f6f9fb);";
@@ -2173,7 +2268,7 @@ async function showAnalyticsOverlay(testId) {
     }</div><div style="font-size:12px;color:var(--muted,#666);">Saved submissions</div>`;
     statsRow.appendChild(attemptsEl);
 
-    // Compute overall average time across topics if available
+    // Where timing exists I compute an overall average to show pacing.
     let overallAvgTime = null;
     try {
       const times = [];
@@ -2198,7 +2293,7 @@ async function showAnalyticsOverlay(testId) {
     }
     container.appendChild(statsRow);
 
-    // Topic breakdown bars
+    // Render topic breakdown list
     const topicSection = document.createElement("div");
     topicSection.innerHTML = `<h4>Topic breakdown</h4>`;
     container.appendChild(topicSection);
@@ -2206,7 +2301,7 @@ async function showAnalyticsOverlay(testId) {
     const topicList = document.createElement("div");
     topicList.style = "display:flex;flex-direction:column;gap:10px;";
 
-    // Build a topic list — prefer user's saved topic keys, else fallback to currentTest topics
+    // Prefer topic keys from saved data; otherwise fall back to the test definition.
     let testTopics = [];
     try {
       if (currentTest && Array.isArray(currentTest.topics))
@@ -2262,7 +2357,7 @@ async function showAnalyticsOverlay(testId) {
           bar.style = `height:100%;width:${pct}%;background:linear-gradient(90deg,#4CAF50,#2196F3);border-radius:8px;transition:width 600ms ease;`;
           barWrap.appendChild(bar);
 
-          // show a thin overlay line indicating global average if available
+          // A thin line marks the global average so you can compare yourself.
           if (globalPct !== null) {
             const overlayLine = document.createElement("div");
             overlayLine.style = `position:relative;pointer-events:none;height:0;margin-top:-14px;`;
@@ -2282,13 +2377,13 @@ async function showAnalyticsOverlay(testId) {
     }
     container.appendChild(topicList);
 
-    // Sample question timing (if present)
+    // If we captured sample timings I present them so you can study response speed.
     try {
       const sample =
-        topicData && topicData.__sampleQuestions
-          ? topicData.__sampleQuestions
-          : testMetrics && testMetrics.questions
-          ? testMetrics.questions.slice(-10)
+        topicData && topicData.sampleQuestions
+          ? topicData.sampleQuestions
+          : sessionMetrics && sessionMetrics.questions
+          ? sessionMetrics.questions.slice(-10)
           : [];
       if (sample && sample.length) {
         const sampleWrap = document.createElement("div");
@@ -2321,14 +2416,42 @@ async function showAnalyticsOverlay(testId) {
       }
     } catch (e) {}
 
-    // Fetch detailed analytics doc (question-level) if available
+    // Fetch latest question-level analytics doc
     let analyticsDoc = null;
     try {
-      if (window.doc && window.getDoc && window.db) {
-        const aref = window.doc(window.db, "users", uid, "analytics", testId);
-        const asnap = await window.getDoc(aref);
-        if (asnap && asnap.exists && asnap.exists()) {
-          analyticsDoc = asnap.data ? asnap.data() : asnap._data || null;
+      if (
+        window.collection &&
+        window.getDocs &&
+        window.query &&
+        window.where &&
+        window.db
+      ) {
+        try {
+          let aq;
+          try {
+            aq = window.query(
+              window.collection(window.db, "users", uid, "analytics"),
+              window.where("testId", "==", testId),
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+            );
+          } catch (e) {
+            aq = window.query(
+              window.collection(window.db, "users", uid, "analytics"),
+              window.where("testId", "==", testId)
+            );
+          }
+          const aSnap = await window.getDocs(aq);
+          let first = null;
+          if (aSnap && typeof aSnap.forEach === "function") {
+            aSnap.forEach((d) => {
+              if (!first) first = d;
+            });
+          }
+          if (first)
+            analyticsDoc = first.data ? first.data() : first._data || null;
+        } catch (e) {
+          console.warn("query analytics failed", e);
+          analyticsDoc = null;
         }
       }
     } catch (e) {
@@ -2336,7 +2459,7 @@ async function showAnalyticsOverlay(testId) {
       analyticsDoc = null;
     }
 
-    // Render per-topic histograms if analyticsDoc present
+    // From the analytics doc I build simple histograms that show timing distributions.
     try {
       const ad = analyticsDoc || null;
       const topicHistWrap = document.createElement("div");
@@ -2344,7 +2467,7 @@ async function showAnalyticsOverlay(testId) {
         "margin-top:12px;display:flex;flex-wrap:wrap;gap:12px;";
       let histCount = 0;
       if (ad && Array.isArray(ad.questions) && ad.questions.length) {
-        // group times by topic
+        // Group recorded times by topic
         const groups = {};
         ad.questions.forEach((q) => {
           try {
@@ -2356,7 +2479,7 @@ async function showAnalyticsOverlay(testId) {
         for (const topicName of Object.keys(groups)) {
           const times = groups[topicName];
           if (!times.length) continue;
-          // create canvas
+          // Create canvas for histogram
           const wrap = document.createElement("div");
           wrap.style = "width:220px;min-width:220px;max-width:33%;";
           const htitle = document.createElement("div");
@@ -2369,7 +2492,7 @@ async function showAnalyticsOverlay(testId) {
           wrap.appendChild(cc);
           topicHistWrap.appendChild(wrap);
 
-          // bin times into histogram buckets (in seconds)
+          // Times are binned into second-based buckets for readable bars.
           const secs = times.map((t) => Math.round(t / 1000));
           const max = Math.max(...secs);
           const bins = Math.min(6, Math.max(3, Math.ceil(max / 5)));
@@ -2385,11 +2508,11 @@ async function showAnalyticsOverlay(testId) {
 
           const ctx = cc.getContext("2d");
           try {
-            if (window._histCharts === undefined) window._histCharts = [];
+            if (window.histCharts === undefined) window.histCharts = [];
           } catch (e) {}
           try {
-            // destroy previous if any
-            const old = window._histCharts && window._histCharts[histCount];
+            // Clean up any previous chart before drawing a new histogram.
+            const old = window.histCharts && window.histCharts[histCount];
             if (old && old.destroy) old.destroy();
           } catch (e) {}
           const ch = new window.Chart(ctx, {
@@ -2407,7 +2530,7 @@ async function showAnalyticsOverlay(testId) {
               scales: { y: { beginAtZero: true } },
             },
           });
-          window._histCharts[histCount] = ch;
+          window.histCharts[histCount] = ch;
           histCount++;
         }
       }
@@ -2416,8 +2539,8 @@ async function showAnalyticsOverlay(testId) {
       console.warn("render histograms failed", e);
     }
 
-    // Chart area: show multiline Chart.js plot: "average user", "your average score", "current score"
-    // Ensure Chart.js is loaded (best-effort dynamic load)
+    // Render multi-line score chart with averages
+    // Load Chart.js dynamically (best-effort)
     async function loadChartJs() {
       if (window.Chart) return window.Chart;
       return new Promise((resolve, reject) => {
@@ -2438,7 +2561,7 @@ async function showAnalyticsOverlay(testId) {
     chartWrap.style =
       "margin-top:10px;display:flex;flex-direction:column;gap:8px;";
     chartWrap.innerHTML = `<h4 style="margin:0">Score comparison</h4>`;
-    // fixed-height Chart container to prevent it from growing indefinitely
+    // Keep the chart container a fixed height so layout stays stable.
     const chartHolder = document.createElement("div");
     chartHolder.style =
       "width:100%;height:220px;max-height:240px;overflow:hidden;border-radius:8px;background:transparent;padding:6px 0;";
@@ -2451,7 +2574,7 @@ async function showAnalyticsOverlay(testId) {
 
     try {
       await loadChartJs();
-      // Prepare data series
+      // Prepare data series: history, user average, global average
       const userPts =
         historical && historical.length
           ? historical
@@ -2461,7 +2584,7 @@ async function showAnalyticsOverlay(testId) {
           : latestScore
           ? [Number(latestScore.totalPoints || 0)]
           : [];
-      // labels: numeric sequence or timestamps
+      // Labels can be simple indices or timestamps depending on available data.
       let labels = [];
       if (historical && historical.length) {
         labels = historical
@@ -2494,7 +2617,7 @@ async function showAnalyticsOverlay(testId) {
           : null;
 
       const datasets = [];
-      // current score series (if any)
+      // Include the latest score as a series point if present.
       if (userPts && userPts.length) {
         datasets.push({
           label: "Current score",
@@ -2506,7 +2629,7 @@ async function showAnalyticsOverlay(testId) {
           fill: false,
         });
       }
-      // your average (horizontal)
+      // Draw your average as a straight horizontal line so it's easy to compare.
       if (yourAvg !== null) {
         datasets.push({
           label: "Your average score",
@@ -2518,7 +2641,7 @@ async function showAnalyticsOverlay(testId) {
           fill: false,
         });
       }
-      // average user (horizontal)
+      // Draw the global average similarly so you see the broader context.
       if (avgUser !== null) {
         datasets.push({
           label: "Average user",
@@ -2531,13 +2654,13 @@ async function showAnalyticsOverlay(testId) {
         });
       }
 
-      // Create/destroy existing chart if present
+      // Replace any existing chart instance to keep the display correct.
       try {
-        if (window._analyticsChart && window._analyticsChart.destroy)
-          window._analyticsChart.destroy();
+        if (window.analyticsChart && window.analyticsChart.destroy)
+          window.analyticsChart.destroy();
       } catch (e) {}
       const ctx = chartCanvas.getContext("2d");
-      window._analyticsChart = new window.Chart(ctx, {
+      window.analyticsChart = new window.Chart(ctx, {
         type: "line",
         data: { labels: labels, datasets: datasets },
         options: {
@@ -2580,7 +2703,7 @@ async function fetchAndRenderLeaderboard(testId) {
       throw new Error("Leaderboard API not available");
     const entries = await window.leaderboardApi.fetchTopScores(
       testId,
-      _leaderboardState.limit
+      leaderboardState.limit
     );
     renderLeaderboardEntries(entries);
   } catch (err) {
@@ -2690,7 +2813,7 @@ function ensureToastContainer() {
   return wrap;
 }
 
-// Grant a named achievement to a user's accounts/{uid}.achievements map
+// Award named achievement to user's account
 async function grantAchievement(uid, achievementName) {
   try {
     if (!uid) return;
@@ -2745,8 +2868,11 @@ async function persistFullAnalytics(uid, testId, metrics) {
   try {
     if (!uid || !testId || !metrics) return false;
     if (window.doc && window.setDoc && window.db) {
-      const ref = window.doc(window.db, "users", uid, "analytics", testId);
+      // write analytics as a new historical document so previous analytics are preserved
+      const id = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+      const ref = window.doc(window.db, "users", uid, "analytics", id);
       const payload = {
+        testId,
         questions: metrics.questions || [],
         topics: metrics.topics || {},
         timestamp: new Date().toISOString(),
@@ -2767,10 +2893,7 @@ async function persistFullAnalytics(uid, testId, metrics) {
   return false;
 }
 
-// Render a public profile overlay for the given uid or username
-// Accepts either a UID or a username string. If a username is provided, the function
-// will read `usernames/{username}` to resolve the uid (the common mapping where the
-// doc id is the username and the document contains a `uid` field).
+// Show public profile overlay for a uid or username
 async function showProfileOverlay(idOrName) {
   try {
     // Normalize param: if a username was passed, resolve it to uid via usernames/{username}
@@ -3356,10 +3479,10 @@ async function submitScore(name, test, score) {
       const baseRadius = Math.min(w, h) * 0.18; // minimal inner radius from center
       const maxOuterRadius = Math.min(w, h) * 0.48; // farthest a sector can reach
 
-      // Clear
+      // Clear canvas each frame before drawing
       ctx.clearRect(0, 0, w, h);
 
-      // Background surface (subtle center circle)
+      // A subtle center circle gives the chart some visual grounding.
       ctx.save();
       ctx.fillStyle = readCSSVar("--surface", "#ffffff");
       ctx.beginPath();
@@ -3367,7 +3490,7 @@ async function submitScore(name, test, score) {
       ctx.fill();
       ctx.restore();
 
-      // if no data, draw faint circle
+      // If there is no data I draw a faint hint so the chart doesn't look empty.
       if (!entries.length || totalValue <= 0) {
         ctx.save();
         ctx.strokeStyle = "rgba(0,0,0,0.06)";
@@ -3379,28 +3502,28 @@ async function submitScore(name, test, score) {
         return;
       }
 
-      // Draw sectors: each slice's outer radius grows with correctness
-      let angle = -Math.PI / 2; // start at top
+      // Each sector grows outward with correctness to make strengths obvious.
+      let angle = -Math.PI / 2; // start drawing at the top
       for (let i = 0; i < entries.length; i++) {
         const e = entries[i];
         const sliceAngle = (e.value / totalValue) * Math.PI * 2;
         const start = angle;
         const end = angle + sliceAngle;
 
-        // correctness ratio 0..1
+        // Correctness is a ratio between 0 and 1; I use it to size the slice.
         const corrRatio = e.total > 0 ? e.correct / e.total : 0;
-        // compute outer radius for this sector
+        // Compute outer radius based on correctness
         const targetOuter =
           baseRadius + (maxOuterRadius - baseRadius) * corrRatio;
 
-        // hover emphasis increases outer radius slightly
+        // When hovered I nudge the outer radius to emphasize the slice.
         const isHover = i === highlightIndex;
         const hoverExtra = isHover
           ? Math.min(12, (maxOuterRadius - baseRadius) * 0.08)
           : 0;
         const outerR = targetOuter + hoverExtra;
 
-        // Draw filled sector from center to outerR over angle [start,end]
+        // Draw filled sector from center to outer radius
         ctx.beginPath();
         ctx.moveTo(cx, cy);
         ctx.arc(cx, cy, outerR, start, end);
@@ -3411,7 +3534,7 @@ async function submitScore(name, test, score) {
         ctx.fillStyle = fillColor;
         ctx.fill();
 
-        // carve out the inner circle to make it a ring segment
+        // Carve inner circle to create ring segment
         ctx.save();
         ctx.globalCompositeOperation = "destination-out";
         ctx.beginPath();
@@ -3421,7 +3544,7 @@ async function submitScore(name, test, score) {
         ctx.fill();
         ctx.restore();
 
-        // stroke outer edge for separation
+        // A thin stroke separates neighboring slices for clarity.
         ctx.strokeStyle = "rgba(0,0,0,0.06)";
         ctx.lineWidth = 1;
         ctx.beginPath();
@@ -3431,7 +3554,7 @@ async function submitScore(name, test, score) {
         angle = end;
       }
 
-      // Center label (optional) - show total questions
+      // The center label optionally shows the total number of questions.
       ctx.save();
       ctx.fillStyle = readCSSVar("--text-color", "#102027");
       ctx.font = `600 ${Math.max(
@@ -3440,14 +3563,13 @@ async function submitScore(name, test, score) {
       )}px Inter, system-ui, sans-serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
-      // Display total correct / total across topics
+      // Display total-correct / total in center
       const totalCorrect = entries.reduce((s, e) => s + (e.correct || 0), 0);
       const totalQuestions = entries.reduce((s, e) => s + (e.total || 0), 0);
       ctx.fillText(`${totalCorrect}/${totalQuestions}`, cx, cy);
       ctx.restore();
 
-      // Render legend (small list) in the container's sibling or absolute overlay
-      // We'll populate a legend if there's an element with id topicLegend
+      // If a legend area exists I populate it so labels are clear.
       try {
         const legendEl = document.getElementById("topicLegend");
         if (legendEl) {
@@ -3472,7 +3594,7 @@ async function submitScore(name, test, score) {
           legendEl.style.color = readCSSVar("--text-color", "#102027");
         }
       } catch (e) {
-        // ignore
+        // Ignore legend errors silently
       }
     }
 
@@ -3491,16 +3613,15 @@ async function submitScore(name, test, score) {
       const maxOuterRadius = Math.min(rect.width, rect.height) * 0.48;
 
       if (dist < baseRadius || dist > maxOuterRadius) {
-        // not over a slice
+        // If the mouse is outside any slice I clear the hover state.
         tooltip.style.display = "none";
         draw(-1);
         return;
       }
 
-      // compute angle normalized from -PI/2 start
+      // Compute angle relative to top for hit-testing
       let ang = Math.atan2(dy, dx);
-      // normalize range 0..2PI with top being -PI/2
-      // shift so 0 at top
+      // normalize into 0..2PI and treat the top as the starting point
       ang += Math.PI / 2;
       if (ang < 0) ang += Math.PI * 2;
 
@@ -3524,11 +3645,11 @@ async function submitScore(name, test, score) {
         return;
       }
 
-      // show tooltip near mouse; content: Topic: label\n12 / 15 correct (80%)
+      // Show tooltip with topic name and performance
       const e = entries[found];
       const pct = e.total > 0 ? Math.round((e.correct / e.total) * 100) : 0;
       tooltip.textContent = `${e.label}\n${e.correct} / ${e.total} correct (${pct}%)`;
-      // position near mouse, avoid going off-screen
+      // Position tooltip near cursor, clamp inside viewport
       const left = Math.min(
         window.innerWidth - 8 - tooltip.offsetWidth,
         ev.clientX + 12
@@ -3541,7 +3662,7 @@ async function submitScore(name, test, score) {
       tooltip.style.top = top + "px";
       tooltip.style.display = "block";
 
-      // redraw with highlight
+      // Redraw the chart with the hovered slice highlighted.
       draw(found);
     }
 
@@ -3555,7 +3676,7 @@ async function submitScore(name, test, score) {
       handlers.leave = handleMouseLeave;
       canvas.addEventListener("mousemove", handlers.move);
       canvas.addEventListener("mouseleave", handlers.leave);
-      // observe resize to redraw
+      // If the canvas or container resizes I redraw so the visuals remain crisp.
       handlers.resize = () => draw(-1);
       window.addEventListener("resize", handlers.resize);
     }

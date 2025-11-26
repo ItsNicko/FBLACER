@@ -213,6 +213,801 @@
           ],
           "correctAnswer": "Fyodor Dostoevsky",
           "explanation": "'Crime and Punishment' explores themes of morality, guilt, and redemption through Raskolnikov's story."
+        },
+        {
+          "question": "What is the primary function of a protagonist in a narrative?",
+          "options": [
+            "To provide comic relief",
+            "To be the main character driving the plot",
+            "To represent societal values",
+            "To provide historical context"
+          ],
+          "correctAnswer": "To be the main character driving the plot",
+          "explanation": "A protagonist is the central character whose actions and decisions propel the narrative forward."
+        },
+        {
+          "question": "Which literary work features the character Ebenezer Scrooge?",
+          "options": [
+            "'A Tale of Two Cities'",
+            "'Great Expectations'",
+            "'A Christmas Carol'",
+            "'The Old Curiosity Shop'"
+          ],
+          "correctAnswer": "'A Christmas Carol'",
+          "explanation": "Charles Dickens' 'A Christmas Carol' features Scrooge's redemption through supernatural intervention."
+        },
+        {
+          "question": "What is allusion in literature?",
+          "options": [
+            "A metaphorical comparison",
+            "An indirect reference to another work or person",
+            "A type of irony",
+            "Exaggeration for effect"
+          ],
+          "correctAnswer": "An indirect reference to another work or person",
+          "explanation": "Allusion enriches text by evoking connections to other cultural works or historical events."
+        },
+        {
+          "question": "Which author wrote 'Jane Eyre'?",
+          "options": [
+            "Emily Dickinson",
+            "Charlotte Brontë",
+            "George Eliot",
+            "the Brontë sisters collectively"
+          ],
+          "correctAnswer": "Charlotte Brontë",
+          "explanation": "'Jane Eyre' is a Gothic romance novel published under the pseudonym 'Currer Bell' in 1847."
+        },
+        {
+          "question": "What is the purpose of a motif in literature?",
+          "options": [
+            "To confuse the reader",
+            "To present a recurring element that develops theme",
+            "To introduce new characters",
+            "To slow the narrative"
+          ],
+          "correctAnswer": "To present a recurring element that develops theme",
+          "explanation": "A motif is a repeated image, phrase, or idea that reinforces the work's central themes."
+        },
+        {
+          "question": "Which poem by Robert Frost begins 'Two roads diverged in a yellow wood'?",
+          "options": [
+            "'The Road Not Taken'",
+            "'Stopping by Woods on a Snowy Evening'",
+            "'Fire and Ice'",
+            "'Mending Wall'"
+          ],
+          "correctAnswer": "'The Road Not Taken'",
+          "explanation": "This famous poem explores themes of choice and individuality through metaphor."
+        },
+        {
+          "question": "What is the narrative perspective called when the story is told from 'I' or 'we'?",
+          "options": [
+            "Third-person omniscient",
+            "Third-person limited",
+            "First-person",
+            "Second-person"
+          ],
+          "correctAnswer": "First-person",
+          "explanation": "First-person narration provides intimate access to the narrator's thoughts and experiences."
+        },
+        {
+          "question": "Which American author wrote 'The Scarlet Letter'?",
+          "options": [
+            "Herman Melville",
+            "Nathaniel Hawthorne",
+            "Edgar Allan Poe",
+            "Walt Whitman"
+          ],
+          "correctAnswer": "Nathaniel Hawthorne",
+          "explanation": "'The Scarlet Letter' explores themes of sin, shame, and redemption in Puritan New England."
+        },
+        {
+          "question": "What is satire in literature?",
+          "options": [
+            "A type of metaphor",
+            "The use of humor, exaggeration, or ridicule to criticize or expose",
+            "A narrative technique",
+            "A poetic form"
+          ],
+          "correctAnswer": "The use of humor, exaggeration, or ridicule to criticize or expose",
+          "explanation": "Satire is often used to critique social issues, politics, or human folly."
+        },
+        {
+          "question": "Which novel by Jane Austen is set during the Napoleonic Wars?",
+          "options": [
+            "'Emma'",
+            "'Northanger Abbey'",
+            "'Sense and Sensibility'",
+            "'Persuasion'"
+          ],
+          "correctAnswer": "'Persuasion'",
+          "explanation": "'Persuasion' features references to the naval warfare and concludes with the end of the Napoleonic Wars."
+        },
+        {
+          "question": "What is the term for a long narrative poem, often with a heroic or mythological theme?",
+          "options": ["Sonnet", "Haiku", "Epic", "Limerick"],
+          "correctAnswer": "Epic",
+          "explanation": "Epics like 'The Odyssey' and 'Beowulf' recount grand adventures and cultural values."
+        },
+        {
+          "question": "In drama, what is a soliloquy?",
+          "options": [
+            "A conversation between two characters",
+            "A speech where a character reveals thoughts aloud, often alone on stage",
+            "A stage direction",
+            "A dramatic conflict"
+          ],
+          "correctAnswer": "A speech where a character reveals thoughts aloud, often alone on stage",
+          "explanation": "Shakespeare frequently used soliloquies, such as Hamlet's 'To be or not to be' speech."
+        },
+        {
+          "question": "Which author wrote 'Wuthering Heights'?",
+          "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Anne Brontë",
+            "George Eliot"
+          ],
+          "correctAnswer": "Emily Brontë",
+          "explanation": "'Wuthering Heights' is a Gothic novel featuring the intense relationship between Heathcliff and Catherine."
+        },
+        {
+          "question": "What is foreshadowing in literature?",
+          "options": [
+            "The revelation of a character's past",
+            "A hint or suggestion of future events",
+            "A flashback technique",
+            "The ending of the narrative"
+          ],
+          "correctAnswer": "A hint or suggestion of future events",
+          "explanation": "Foreshadowing builds suspense and helps readers anticipate future developments."
+        },
+        {
+          "question": "Which modernist author wrote 'Ulysses'?",
+          "options": [
+            "Virginia Woolf",
+            "James Joyce",
+            "F. Scott Fitzgerald",
+            "Ezra Pound"
+          ],
+          "correctAnswer": "James Joyce",
+          "explanation": "'Ulysses' is considered one of the most important modernist novels of the 20th century."
+        },
+        {
+          "question": "What is the primary purpose of a literary analysis?",
+          "options": [
+            "To summarize the plot",
+            "To examine how literary elements create meaning and effect",
+            "To evaluate the author's personal life",
+            "To provide a brief overview"
+          ],
+          "correctAnswer": "To examine how literary elements create meaning and effect",
+          "explanation": "Literary analysis examines techniques like symbolism, imagery, and structure to understand a work's themes."
+        },
+        {
+          "question": "Which poet wrote 'The Raven'?",
+          "options": [
+            "Henry Wadsworth Longfellow",
+            "Edgar Allan Poe",
+            "Ralph Waldo Emerson",
+            "Walt Whitman"
+          ],
+          "correctAnswer": "Edgar Allan Poe",
+          "explanation": "'The Raven' is a narrative poem featuring psychological horror and the mysterious bird."
+        },
+        {
+          "question": "What is a tragic flaw (hamartia) in drama?",
+          "options": [
+            "A physical disability of the protagonist",
+            "A character's weakness or moral defect that leads to their downfall",
+            "The main conflict of the play",
+            "A mistake made by the antagonist"
+          ],
+          "correctAnswer": "A character's weakness or moral defect that leads to their downfall",
+          "explanation": "Tragic flaws are central to classical tragedy, exemplified by Oedipus's fate."
+        },
+        {
+          "question": "Which novel by F. Scott Fitzgerald explores the Jazz Age?",
+          "options": [
+            "'Tender Is the Night'",
+            "'The Beautiful and Damned'",
+            "'The Great Gatsby'",
+            "'This Side of Paradise'"
+          ],
+          "correctAnswer": "'The Great Gatsby'",
+          "explanation": "'The Great Gatsby' captures the decadence and disillusionment of the Jazz Age."
+        },
+        {
+          "question": "What is the difference between connotation and denotation?",
+          "options": [
+            "They are the same thing",
+            "Denotation is the literal meaning; connotation is the emotional or cultural association",
+            "Connotation is the literal meaning; denotation is the emotional association",
+            "They only apply to adjectives"
+          ],
+          "correctAnswer": "Denotation is the literal meaning; connotation is the emotional or cultural association",
+          "explanation": "Understanding connotation helps readers grasp the deeper emotional impact of word choices."
+        },
+        {
+          "question": "Which of Shakespeare's works is his longest play?",
+          "options": ["'Hamlet'", "'King Lear'", "'Macbeth'", "'Othello'"],
+          "correctAnswer": "'Hamlet'",
+          "explanation": "'Hamlet' contains approximately 3,900 lines, making it Shakespeare's longest play."
+        },
+        {
+          "question": "What is the purpose of a frame narrative?",
+          "options": [
+            "To provide setting information",
+            "To present a story within a story, often providing context or perspective",
+            "To introduce the antagonist",
+            "To conclude the narrative"
+          ],
+          "correctAnswer": "To present a story within a story, often providing context or perspective",
+          "explanation": "'The Arabian Nights' uses frame narrative, with Scheherazade telling stories within stories."
+        },
+        {
+          "question": "Which author is known for 'The Canterbury Tales'?",
+          "options": [
+            "Edmund Spenser",
+            "Geoffrey Chaucer",
+            "John Gower",
+            "William Langland"
+          ],
+          "correctAnswer": "Geoffrey Chaucer",
+          "explanation": "'The Canterbury Tales' features diverse characters on a pilgrimage sharing stories."
+        },
+        {
+          "question": "What is existentialism in literature?",
+          "options": [
+            "A focus on historical accuracy",
+            "An emphasis on individual freedom, choice, and responsibility in a meaningless universe",
+            "A return to classical forms",
+            "A celebration of nature"
+          ],
+          "correctAnswer": "An emphasis on individual freedom, choice, and responsibility in a meaningless universe",
+          "explanation": "Existentialist authors like Camus and Sartre explored themes of absurdity and authentic existence."
+        },
+        {
+          "question": "Which American novel explores the American Dream during the Depression?",
+          "options": [
+            "'The Grapes of Wrath'",
+            "'Of Mice and Men'",
+            "'The Sun Also Rises'",
+            "'Brave New World'"
+          ],
+          "correctAnswer": "'The Grapes of Wrath'",
+          "explanation": "John Steinbeck's epic depicts the Dust Bowl migration and economic hardship."
+        },
+        {
+          "question": "What is the Romantic era known for in literature?",
+          "options": [
+            "Strict adherence to rules and reason",
+            "Emphasis on emotion, nature, imagination, and individualism",
+            "Scientific accuracy and realism",
+            "Historical documentation"
+          ],
+          "correctAnswer": "Emphasis on emotion, nature, imagination, and individualism",
+          "explanation": "Romantic poets like Wordsworth and Coleridge celebrated the power of nature and emotion."
+        },
+        {
+          "question": "Which playwright wrote 'An Enemy of the People'?",
+          "options": [
+            "August Strindberg",
+            "Henrik Ibsen",
+            "Bjørnstjerne Bjørnson",
+            "Knut Hamsun"
+          ],
+          "correctAnswer": "Henrik Ibsen",
+          "explanation": "'An Enemy of the People' addresses themes of individualism versus conformity."
+        },
+        {
+          "question": "What is a bildungsroman?",
+          "options": [
+            "A tragic love story",
+            "A novel depicting a character's psychological and moral development",
+            "A historical fiction novel",
+            "A detective story"
+          ],
+          "correctAnswer": "A novel depicting a character's psychological and moral development",
+          "explanation": "'Great Expectations' and 'Jane Eyre' are examples of the bildungsroman genre."
+        },
+        {
+          "question": "Which author wrote 'The Picture of Dorian Gray'?",
+          "options": [
+            "George Bernard Shaw",
+            "Oscar Wilde",
+            "W.B. Yeats",
+            "Thomas Hardy"
+          ],
+          "correctAnswer": "Oscar Wilde",
+          "explanation": "'The Picture of Dorian Gray' explores themes of vanity, morality, and corruption."
+        },
+        {
+          "question": "What is the primary function of flashback in narrative?",
+          "options": [
+            "To confuse the reader",
+            "To provide background information or explain present circumstances",
+            "To speed up the narrative",
+            "To introduce new characters"
+          ],
+          "correctAnswer": "To provide background information or explain present circumstances",
+          "explanation": "Flashbacks reveal character history and motivations while enriching the main narrative."
+        },
+        {
+          "question": "Which of the following best describes the setting of 'The Crucible'?",
+          "options": [
+            "Ancient Rome",
+            "Colonial Massachusetts during the Salem witch trials",
+            "Puritan England",
+            "Modern-day Boston"
+          ],
+          "correctAnswer": "Colonial Massachusetts during the Salem witch trials",
+          "explanation": "Arthur Miller's play uses the witch trials as an allegory for McCarthyism."
+        },
+        {
+          "question": "What is the purpose of a stanza in poetry?",
+          "options": [
+            "To slow down reading",
+            "To divide the poem into structured sections or verses",
+            "To confuse the reader",
+            "To rhyme words"
+          ],
+          "correctAnswer": "To divide the poem into structured sections or verses",
+          "explanation": "Stanzas organize poetic ideas and create rhythm and structure in verse."
+        },
+        {
+          "question": "Which author is known for 'Moby-Dick'?",
+          "options": [
+            "Mark Twain",
+            "Herman Melville",
+            "Nathaniel Hawthorne",
+            "Ralph Waldo Emerson"
+          ],
+          "correctAnswer": "Herman Melville",
+          "explanation": "'Moby-Dick' is an epic novel exploring themes of obsession, fate, and humanity's place in nature."
+        },
+        {
+          "question": "What is the dramatic structure often called the 'Five Act Structure'?",
+          "options": [
+            "Exposition, Rising Action, Climax, Falling Action, Resolution",
+            "Prologue, Act 1, Act 2, Act 3, Epilogue",
+            "Introduction, Development, Climax, Conclusion, Finale",
+            "Setup, Conflict, Resolution, Denouement, Coda"
+          ],
+          "correctAnswer": "Exposition, Rising Action, Climax, Falling Action, Resolution",
+          "explanation": "This classical structure organizes dramatic action from beginning to end."
+        },
+        {
+          "question": "Which novel by George Orwell depicts a totalitarian society controlled by Big Brother?",
+          "options": [
+            "'Animal Farm'",
+            "'1984'",
+            "'Burmese Days'",
+            "'Homage to Catalonia'"
+          ],
+          "correctAnswer": "'1984'",
+          "explanation": "'1984' presents a dystopian future with invasive government surveillance and thought control."
+        },
+        {
+          "question": "What is the term for a play on words or a joke based on multiple meanings?",
+          "options": ["Alliteration", "Pun", "Metaphor", "Synecdoche"],
+          "correctAnswer": "Pun",
+          "explanation": "Shakespeare frequently used puns for both humor and thematic depth."
+        },
+        {
+          "question": "Which author wrote 'Pride and Prejudice'?",
+          "options": [
+            "Charlotte Brontë",
+            "Jane Austen",
+            "George Eliot",
+            "Elizabeth Gaskell"
+          ],
+          "correctAnswer": "Jane Austen",
+          "explanation": "'Pride and Prejudice' is a romantic novel examining social class and prejudice in Regency England."
+        },
+        {
+          "question": "What is the primary focus of Realist literature?",
+          "options": [
+            "Imagination and fantasy",
+            "Accurate depiction of ordinary life and society",
+            "Supernatural elements",
+            "Moral instruction"
+          ],
+          "correctAnswer": "Accurate depiction of ordinary life and society",
+          "explanation": "Realist authors like George Eliot aimed to portray life as it actually was."
+        },
+        {
+          "question": "Which of Shakespeare's sonnets is most famous?",
+          "options": ["Sonnet 18", "Sonnet 1", "Sonnet 116", "Sonnet 29"],
+          "correctAnswer": "Sonnet 18",
+          "explanation": "Sonnet 18 begins 'Shall I compare thee to a summer's day?'"
+        },
+        {
+          "question": "What is the purpose of a denouement in narrative?",
+          "options": [
+            "To introduce conflict",
+            "To resolve loose ends after the climax",
+            "To present the main action",
+            "To establish setting"
+          ],
+          "correctAnswer": "To resolve loose ends after the climax",
+          "explanation": "The denouement provides final clarification and closure following the story's peak tension."
+        },
+        {
+          "question": "Which author's novels are set in the fictional county of Yoknapatawpha?",
+          "options": [
+            "Flannery O'Connor",
+            "William Faulkner",
+            "Carson McCullers",
+            "Harper Lee"
+          ],
+          "correctAnswer": "William Faulkner",
+          "explanation": "Faulkner's Mississippi-inspired fictional county is the setting for many of his works."
+        },
+        {
+          "question": "What is stream of consciousness in literature?",
+          "options": [
+            "A chronological narrative",
+            "A technique depicting the continuous flow of a character's thoughts and feelings",
+            "A formal academic style",
+            "A historical narrative"
+          ],
+          "correctAnswer": "A technique depicting the continuous flow of a character's thoughts and feelings",
+          "explanation": "James Joyce's 'Ulysses' employs stream of consciousness extensively."
+        },
+        {
+          "question": "Which work by Toni Morrison won the Pulitzer Prize for Fiction?",
+          "options": [
+            "'Beloved'",
+            "'Song of Solomon'",
+            "'The Bluest Eye'",
+            "'Sula'"
+          ],
+          "correctAnswer": "'Beloved'",
+          "explanation": "'Beloved' won the Pulitzer Prize in 1988 and explores the traumatic legacy of slavery."
+        },
+        {
+          "question": "What is the purpose of imagery in poetry and prose?",
+          "options": [
+            "To fill space on a page",
+            "To create vivid sensory experiences that engage readers' emotions and understanding",
+            "To slow down reading",
+            "To confuse the reader"
+          ],
+          "correctAnswer": "To create vivid sensory experiences that engage readers' emotions and understanding",
+          "explanation": "Imagery appeals to the senses to create powerful emotional and aesthetic responses."
+        },
+        {
+          "question": "Which author wrote 'The Handmaid's Tale'?",
+          "options": [
+            "Doris Lessing",
+            "Margaret Atwood",
+            "Gloria Steinem",
+            "Germaine Greer"
+          ],
+          "correctAnswer": "Margaret Atwood",
+          "explanation": "'The Handmaid's Tale' is a dystopian novel exploring themes of patriarchy and control."
+        },
+        {
+          "question": "What is the primary characteristic of Gothic literature?",
+          "options": [
+            "Historical accuracy",
+            "Emphasis on reason and science",
+            "Elements of horror, mystery, and the supernatural",
+            "Happy endings"
+          ],
+          "correctAnswer": "Elements of horror, mystery, and the supernatural",
+          "explanation": "Gothic works like 'Frankenstein' feature dark atmospheres and psychological horror."
+        },
+        {
+          "question": "Which author wrote 'Beloved' and 'Song of Solomon'?",
+          "options": [
+            "Alice Walker",
+            "Toni Morrison",
+            "Paule Marshall",
+            "Gloria Naylor"
+          ],
+          "correctAnswer": "Toni Morrison",
+          "explanation": "Toni Morrison is a Nobel Prize-winning author known for exploring African American experience."
+        },
+        {
+          "question": "What is a metaphorical journey in literature often called?",
+          "options": [
+            "A quest narrative",
+            "A pilgrimage",
+            "A bildungsroman",
+            "All of the above"
+          ],
+          "correctAnswer": "A quest narrative",
+          "explanation": "Quest narratives trace a character's physical and spiritual journey toward a goal or understanding."
+        },
+        {
+          "question": "Which novel by Harper Lee features the character Atticus Finch?",
+          "options": [
+            "'Go Set a Watchman'",
+            "'To Kill a Mockingbird'",
+            "'The Outsider'",
+            "'In Cold Blood'"
+          ],
+          "correctAnswer": "'To Kill a Mockingbird'",
+          "explanation": "Atticus Finch is a moral hero defending an innocent man accused of a crime."
+        },
+        {
+          "question": "What is the purpose of a literary symbol?",
+          "options": [
+            "To confuse readers",
+            "To represent abstract ideas or themes through concrete objects or characters",
+            "To slow the narrative",
+            "To provide historical facts"
+          ],
+          "correctAnswer": "To represent abstract ideas or themes through concrete objects or characters",
+          "explanation": "Symbols like the green light in 'The Great Gatsby' carry deep thematic significance."
+        },
+        {
+          "question": "Which dramatist wrote 'A Doll's House'?",
+          "options": [
+            "George Bernard Shaw",
+            "Henrik Ibsen",
+            "John Millington Synge",
+            "William Butler Yeats"
+          ],
+          "correctAnswer": "Henrik Ibsen",
+          "explanation": "'A Doll's House' challenged gender roles and societal expectations in groundbreaking ways."
+        },
+        {
+          "question": "What is the primary focus of Harlem Renaissance literature?",
+          "options": [
+            "Celebration of European culture",
+            "African American artistic and intellectual expression",
+            "Industrial progress",
+            "Rural farm life"
+          ],
+          "correctAnswer": "African American artistic and intellectual expression",
+          "explanation": "The Harlem Renaissance featured authors like Langston Hughes and Zora Neale Hurston."
+        },
+        {
+          "question": "Which author's works are known for exploring Southern Gothic themes?",
+          "options": [
+            "Flannery O'Connor",
+            "Carson McCullers",
+            "Eudora Welty",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "These authors explored darkness, grotesque characters, and Southern settings."
+        },
+        {
+          "question": "What is a character's motivation in narrative?",
+          "options": [
+            "The physical description",
+            "The reasons driving a character's actions and decisions",
+            "The setting where they live",
+            "Their social class"
+          ],
+          "correctAnswer": "The reasons driving a character's actions and decisions",
+          "explanation": "Understanding motivation helps readers comprehend why characters act as they do."
+        },
+        {
+          "question": "Which work by Nathaniel Hawthorne features the scarlet letter 'A'?",
+          "options": [
+            "'The House of the Seven Gables'",
+            "'The Scarlet Letter'",
+            "'The Blithedale Romance'",
+            "'The Marble Faun'"
+          ],
+          "correctAnswer": "'The Scarlet Letter'",
+          "explanation": "Hester Prynne wears the scarlet 'A' as punishment for adultery in Puritan New England."
+        },
+        {
+          "question": "What is the primary purpose of dialogue in fiction?",
+          "options": [
+            "To fill space",
+            "To reveal character, advance plot, and create realism",
+            "To explain the author's opinions",
+            "To provide historical information"
+          ],
+          "correctAnswer": "To reveal character, advance plot, and create realism",
+          "explanation": "Dialogue allows readers to understand characters through their speech and interactions."
+        },
+        {
+          "question": "Which author wrote 'Their Eyes Were Watching God'?",
+          "options": [
+            "Langston Hughes",
+            "Zora Neale Hurston",
+            "Nella Larsen",
+            "Countee Cullen"
+          ],
+          "correctAnswer": "Zora Neale Hurston",
+          "explanation": "This novel features lyrical prose and explores African American identity and love."
+        },
+        {
+          "question": "What is metafiction in literature?",
+          "options": [
+            "A type of science fiction",
+            "Fiction that self-consciously references its own fictional nature",
+            "A historical narrative",
+            "A romantic comedy"
+          ],
+          "correctAnswer": "Fiction that self-consciously references its own fictional nature",
+          "explanation": "Metafiction blurs the boundaries between fiction and reality, like 'If on a winter's night a traveler.'"
+        },
+        {
+          "question": "Which author is known for 'Beloved'?",
+          "options": [
+            "Alice Walker",
+            "Toni Morrison",
+            "Paule Marshall",
+            "Maya Angelou"
+          ],
+          "correctAnswer": "Toni Morrison",
+          "explanation": "'Beloved' is a masterpiece of American literature exploring slavery's psychological impact."
+        },
+        {
+          "question": "What is the primary purpose of a literary theme?",
+          "options": [
+            "To provide factual information",
+            "To present the central idea or message of a work",
+            "To entertain only",
+            "To teach a specific skill"
+          ],
+          "correctAnswer": "To present the central idea or message of a work",
+          "explanation": "Themes like redemption and identity unify and give meaning to literary works."
+        },
+        {
+          "question": "Which play by Tennessee Williams features the character Blanche DuBois?",
+          "options": [
+            "'Cat on a Hot Tin Roof'",
+            "'A Streetcar Named Desire'",
+            "'The Glass Menagerie'",
+            "'The Milk Train Doesn't Stop Here Anymore'"
+          ],
+          "correctAnswer": "'A Streetcar Named Desire'",
+          "explanation": "Blanche's tragic downfall explores themes of desire, delusion, and mental breakdown."
+        },
+        {
+          "question": "What is the term for a poem consisting of 14 lines with a specific rhyme scheme?",
+          "options": ["Quatrain", "Sonnet", "Couplet", "Tercet"],
+          "correctAnswer": "Sonnet",
+          "explanation": "Sonnets, such as Petrarchan and Shakespearean, are major forms in Western poetry."
+        },
+        {
+          "question": "Which of the following authors wrote 'The Odyssey'?",
+          "options": ["Virgil", "Ovid", "Homer", "Dante"],
+          "correctAnswer": "Homer",
+          "explanation": "'The Odyssey' is an ancient Greek epic depicting Odysseus's journey home from Troy."
+        },
+        {
+          "question": "What is magical realism in literature?",
+          "options": [
+            "Fantasy with impossible elements",
+            "Historical fiction",
+            "The blending of magical elements with realistic settings and situations",
+            "Science fiction"
+          ],
+          "correctAnswer": "The blending of magical elements with realistic settings and situations",
+          "explanation": "Authors like Gabriel García Márquez use magical realism to explore human experience."
+        },
+        {
+          "question": "Which American author wrote 'The Great American Novel' (according to some critics)?",
+          "options": [
+            "Herman Melville",
+            "Mark Twain",
+            "F. Scott Fitzgerald",
+            "Various scholars debate this designation"
+          ],
+          "correctAnswer": "Various scholars debate this designation",
+          "explanation": "Multiple works have been proposed as 'The Great American Novel,' including 'Moby-Dick' and 'The Great Gatsby.'"
+        },
+        {
+          "question": "What is the primary narrative technique in epistolary novels?",
+          "options": [
+            "First-person narration",
+            "Third-person narration",
+            "Narration through letters, diary entries, or documents",
+            "Stream of consciousness"
+          ],
+          "correctAnswer": "Narration through letters, diary entries, or documents",
+          "explanation": "'Dracula' and 'Frankenstein' employ epistolary techniques."
+        },
+        {
+          "question": "Which author is known for 'One Hundred Years of Solitude'?",
+          "options": [
+            "Isabel Allende",
+            "Gabriel García Márquez",
+            "Laura Esquivel",
+            "Carmen Menchaca"
+          ],
+          "correctAnswer": "Gabriel García Márquez",
+          "explanation": "'One Hundred Years of Solitude' is a landmark work of magical realism."
+        },
+        {
+          "question": "What is the purpose of a narrator's unreliability?",
+          "options": [
+            "To confuse readers needlessly",
+            "To explore subjectivity and challenge readers' assumptions about truth",
+            "To make the story longer",
+            "To provide comic relief"
+          ],
+          "correctAnswer": "To explore subjectivity and challenge readers' assumptions about truth",
+          "explanation": "Unreliable narrators in works like 'The Turn of the Screw' create ambiguity and psychological depth."
+        },
+        {
+          "question": "Which work by Harriet Beecher Stowe influenced abolitionists?",
+          "options": [
+            "'The Cloister and the Hearth'",
+            "'Uncle Tom's Cabin'",
+            "'Harriet'",
+            "'The Wide, Wide World'"
+          ],
+          "correctAnswer": "'Uncle Tom's Cabin'",
+          "explanation": "'Uncle Tom's Cabin' depicted the horrors of slavery and fueled anti-slavery sentiment."
+        },
+        {
+          "question": "What does the literary term 'dénouement' refer to?",
+          "options": [
+            "The climax of the story",
+            "The final resolution and revelation after the climax",
+            "The opening of the story",
+            "A plot twist"
+          ],
+          "correctAnswer": "The final resolution and revelation after the climax",
+          "explanation": "The dénouement ties up loose ends and provides closure to the narrative."
+        },
+        {
+          "question": "Which American author is known for 'Walden'?",
+          "options": [
+            "Ralph Waldo Emerson",
+            "Henry David Thoreau",
+            "Margaret Fuller",
+            "Amos Bronson Alcott"
+          ],
+          "correctAnswer": "Henry David Thoreau",
+          "explanation": "'Walden' documents Thoreau's two-year experiment living in nature, exploring transcendentalism."
+        },
+        {
+          "question": "What is the purpose of a red herring in mystery fiction?",
+          "options": [
+            "To provide accurate information",
+            "To mislead readers about the true culprit or solution",
+            "To slow down the narrative",
+            "To introduce new characters"
+          ],
+          "correctAnswer": "To mislead readers about the true culprit or solution",
+          "explanation": "Red herrings are false clues that redirect attention from the actual solution."
+        },
+        {
+          "question": "Which author wrote 'The Yellow Wallpaper'?",
+          "options": [
+            "Kate Chopin",
+            "Charlotte Perkins Gilman",
+            "Edith Wharton",
+            "Willa Cather"
+          ],
+          "correctAnswer": "Charlotte Perkins Gilman",
+          "explanation": "'The Yellow Wallpaper' explores mental illness, women's oppression, and descent into madness."
+        },
+        {
+          "question": "What is the Elizabethan era known for in literature?",
+          "options": [
+            "The invention of the novel",
+            "Strict adherence to classical rules",
+            "The flourishing of drama, especially under Shakespeare",
+            "Romantic poetry"
+          ],
+          "correctAnswer": "The flourishing of drama, especially under Shakespeare",
+          "explanation": "The Elizabethan age saw tremendous innovation in drama and poetry."
+        },
+        {
+          "question": "Which author wrote 'Frankenstein'?",
+          "options": [
+            "Lord Byron",
+            "Mary Shelley",
+            "Percy Bysshe Shelley",
+            "John Polidori"
+          ],
+          "correctAnswer": "Mary Shelley",
+          "explanation": "'Frankenstein' is an early science fiction novel exploring themes of creation and responsibility."
         }
       ]
     },
@@ -393,6 +1188,568 @@
           ],
           "correctAnswer": "Corona",
           "explanation": "Solar flares and coronal mass ejections originate in the Sun's corona."
+        },
+        {
+          "question": "What is the primary component of natural gas?",
+          "options": ["Ethane", "Propane", "Methane", "Butane"],
+          "correctAnswer": "Methane",
+          "explanation": "Methane (CH₄) comprises approximately 70-90% of natural gas."
+        },
+        {
+          "question": "Which element has the highest atomic number that occurs naturally on Earth?",
+          "options": ["Uranium", "Thorium", "Protactinium", "Francium"],
+          "correctAnswer": "Uranium",
+          "explanation": "Uranium (atomic number 92) is the heaviest naturally occurring element."
+        },
+        {
+          "question": "What is the process by which mRNA is synthesized from DNA called?",
+          "options": [
+            "Translation",
+            "Replication",
+            "Transcription",
+            "Mutation"
+          ],
+          "correctAnswer": "Transcription",
+          "explanation": "Transcription copies genetic information from DNA to messenger RNA."
+        },
+        {
+          "question": "What is the speed of light in a vacuum?",
+          "options": [
+            "3 × 10⁸ m/s",
+            "3 × 10⁷ m/s",
+            "3 × 10⁹ m/s",
+            "3 × 10¹⁰ m/s"
+          ],
+          "correctAnswer": "3 × 10⁸ m/s",
+          "explanation": "The speed of light is approximately 299,792,458 m/s, often rounded to 3 × 10⁸ m/s."
+        },
+        {
+          "question": "What is the study of heredity and genes called?",
+          "options": ["Taxonomy", "Genetics", "Ecology", "Embryology"],
+          "correctAnswer": "Genetics",
+          "explanation": "Genetics is the science studying inheritance and variation of traits."
+        },
+        {
+          "question": "Which scientist proposed the theory of evolution by natural selection?",
+          "options": [
+            "Jean-Baptiste Lamarck",
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Carolus Linnaeus"
+          ],
+          "correctAnswer": "Charles Darwin",
+          "explanation": "Darwin's 'On the Origin of Species' introduced the theory of evolution by natural selection."
+        },
+        {
+          "question": "What is the process by which water changes from liquid to vapor without boiling?",
+          "options": ["Condensation", "Evaporation", "Sublimation", "Freezing"],
+          "correctAnswer": "Evaporation",
+          "explanation": "Evaporation occurs at the water's surface at temperatures below the boiling point."
+        },
+        {
+          "question": "What is the SI unit of pressure?",
+          "options": ["Dyne", "Pascal", "Barometer", "Torr"],
+          "correctAnswer": "Pascal",
+          "explanation": "The pascal (Pa) is the SI unit of pressure, equal to one newton per square meter."
+        },
+        {
+          "question": "Which hormone regulates blood glucose levels?",
+          "options": ["Glucagon", "Insulin", "Adrenaline", "Cortisol"],
+          "correctAnswer": "Insulin",
+          "explanation": "Insulin lowers blood glucose by promoting cellular uptake of glucose."
+        },
+        {
+          "question": "What is the process by which plants lose water through leaves called?",
+          "options": [
+            "Respiration",
+            "Photosynthesis",
+            "Transpiration",
+            "Absorption"
+          ],
+          "correctAnswer": "Transpiration",
+          "explanation": "Transpiration is the process of water evaporating from plant leaves."
+        },
+        {
+          "question": "What are the three subatomic particles found in an atom?",
+          "options": [
+            "Proton, neutron, muon",
+            "Proton, neutron, electron",
+            "Proton, positron, electron",
+            "Photon, neutron, electron"
+          ],
+          "correctAnswer": "Proton, neutron, electron",
+          "explanation": "Protons and neutrons reside in the nucleus, while electrons orbit outside."
+        },
+        {
+          "question": "What is the term for organisms that break down dead organic matter?",
+          "options": ["Producers", "Consumers", "Decomposers", "Parasites"],
+          "correctAnswer": "Decomposers",
+          "explanation": "Decomposers like bacteria and fungi break down dead organisms and return nutrients to soil."
+        },
+        {
+          "question": "What is Newton's First Law of Motion?",
+          "options": [
+            "Force equals mass times acceleration",
+            "An object at rest stays at rest unless acted upon by a force",
+            "For every action, there is an equal and opposite reaction",
+            "Acceleration is inversely proportional to mass"
+          ],
+          "correctAnswer": "An object at rest stays at rest unless acted upon by a force",
+          "explanation": "This law of inertia explains that objects maintain their state of motion without external forces."
+        },
+        {
+          "question": "What is the term for the smallest unit of an element that retains the properties of that element?",
+          "options": ["Molecule", "Atom", "Ion", "Compound"],
+          "correctAnswer": "Atom",
+          "explanation": "Atoms are the fundamental units of matter and the smallest units of elements."
+        },
+        {
+          "question": "Which type of blood cell fights infection?",
+          "options": [
+            "Red blood cells",
+            "Platelets",
+            "White blood cells",
+            "Plasma cells"
+          ],
+          "correctAnswer": "White blood cells",
+          "explanation": "White blood cells (leukocytes) are part of the immune system and protect against pathogens."
+        },
+        {
+          "question": "What is the process by which nitrogen is converted from atmospheric N₂ to usable compounds?",
+          "options": [
+            "Nitrogen respiration",
+            "Nitrogen fixation",
+            "Nitrogen oxidation",
+            "Nitrogen reduction"
+          ],
+          "correctAnswer": "Nitrogen fixation",
+          "explanation": "Nitrogen-fixing bacteria convert atmospheric nitrogen to ammonia usable by plants."
+        },
+        {
+          "question": "What is the primary component of the cell membrane?",
+          "options": [
+            "Proteins",
+            "Lipids and proteins",
+            "Phospholipids",
+            "Carbohydrates"
+          ],
+          "correctAnswer": "Phospholipids",
+          "explanation": "Phospholipids form the lipid bilayer, the primary structural component of cell membranes."
+        },
+        {
+          "question": "What is the term for the highest point in an orbital path around Earth?",
+          "options": ["Periapsis", "Apogee", "Perigee", "Orbit"],
+          "correctAnswer": "Apogee",
+          "explanation": "Apogee is the point in an orbit farthest from Earth."
+        },
+        {
+          "question": "Which process involves the production of new DNA strands from a template strand?",
+          "options": [
+            "Transcription",
+            "Translation",
+            "DNA replication",
+            "Mutation"
+          ],
+          "correctAnswer": "DNA replication",
+          "explanation": "DNA replication copies the entire DNA molecule to produce two identical DNA molecules."
+        },
+        {
+          "question": "What is the primary role of mitochondria in cells?",
+          "options": [
+            "Protein synthesis",
+            "Energy production",
+            "Waste storage",
+            "Cell division"
+          ],
+          "correctAnswer": "Energy production",
+          "explanation": "Mitochondria produce ATP through aerobic respiration, providing cellular energy."
+        },
+        {
+          "question": "What does pH measure?",
+          "options": [
+            "Temperature",
+            "Acidity or alkalinity",
+            "Density",
+            "Concentration"
+          ],
+          "correctAnswer": "Acidity or alkalinity",
+          "explanation": "pH measures the concentration of hydrogen ions, ranging from 0-14."
+        },
+        {
+          "question": "What is the term for the splitting of an atomic nucleus?",
+          "options": ["Fusion", "Fission", "Decay", "Ionization"],
+          "correctAnswer": "Fission",
+          "explanation": "Nuclear fission releases tremendous energy used in nuclear power plants and weapons."
+        },
+        {
+          "question": "Which elements are found in the lanthanide series?",
+          "options": [
+            "Transition metals",
+            "Main group elements",
+            "Inner transition metals with atomic numbers 57-71",
+            "Halogens"
+          ],
+          "correctAnswer": "Inner transition metals with atomic numbers 57-71",
+          "explanation": "Lanthanides are rare earth elements with unique properties."
+        },
+        {
+          "question": "What is the term for the variety of species in an ecosystem?",
+          "options": ["Biodiversity", "Biome", "Habitat", "Ecosystem"],
+          "correctAnswer": "Biodiversity",
+          "explanation": "Biodiversity refers to the diversity of life within an ecosystem or on Earth."
+        },
+        {
+          "question": "What is the primary function of the Calvin cycle in photosynthesis?",
+          "options": [
+            "To absorb light",
+            "To produce glucose from CO₂",
+            "To release oxygen",
+            "To transport electrons"
+          ],
+          "correctAnswer": "To produce glucose from CO₂",
+          "explanation": "The Calvin cycle uses ATP and NADPH from the light reactions to fix CO₂ into glucose."
+        },
+        {
+          "question": "What is the name of the defensive protein that reacts to antigens?",
+          "options": ["Enzyme", "Antibody", "Hormone", "Receptor"],
+          "correctAnswer": "Antibody",
+          "explanation": "Antibodies are proteins produced by white blood cells to neutralize pathogens."
+        },
+        {
+          "question": "What is the process by which organisms maintain stable internal conditions?",
+          "options": ["Metabolism", "Homeostasis", "Adaptation", "Evolution"],
+          "correctAnswer": "Homeostasis",
+          "explanation": "Homeostasis is the maintenance of stable internal conditions despite external changes."
+        },
+        {
+          "question": "Which scientist formulated the law of universal gravitation?",
+          "options": [
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Albert Einstein",
+            "Johannes Kepler"
+          ],
+          "correctAnswer": "Isaac Newton",
+          "explanation": "Newton's law of universal gravitation explains the attraction between all massive objects."
+        },
+        {
+          "question": "What is the term for a species that is on the verge of extinction?",
+          "options": ["Extinct", "Endangered", "Vulnerable", "Threatened"],
+          "correctAnswer": "Endangered",
+          "explanation": "Endangered species face a high risk of extinction in the near future."
+        },
+        {
+          "question": "What is the basic unit of heredity called?",
+          "options": ["Chromosome", "Gene", "Allele", "Locus"],
+          "correctAnswer": "Gene",
+          "explanation": "A gene is a segment of DNA that codes for a specific trait."
+        },
+        {
+          "question": "What is the term for the outermost electron shell of an atom?",
+          "options": ["Core", "Nucleus", "Valence shell", "Ion shell"],
+          "correctAnswer": "Valence shell",
+          "explanation": "The valence shell contains electrons involved in chemical bonding."
+        },
+        {
+          "question": "Which of the following is a renewable energy source?",
+          "options": ["Coal", "Natural gas", "Solar energy", "Uranium"],
+          "correctAnswer": "Solar energy",
+          "explanation": "Solar energy is renewable and can be replenished naturally."
+        },
+        {
+          "question": "What is the primary function of the kidneys?",
+          "options": [
+            "Digestion",
+            "Filtration and excretion of waste",
+            "Oxygen transport",
+            "Hormone production"
+          ],
+          "correctAnswer": "Filtration and excretion of waste",
+          "explanation": "Kidneys filter blood to remove waste products and regulate water balance."
+        },
+        {
+          "question": "What is an alloy?",
+          "options": [
+            "A pure element",
+            "A mixture of two or more elements",
+            "A type of mineral",
+            "A compound"
+          ],
+          "correctAnswer": "A mixture of two or more elements",
+          "explanation": "Alloys like bronze and steel combine two or more elements for enhanced properties."
+        },
+        {
+          "question": "What is the primary pigment in plants that absorbs light for photosynthesis?",
+          "options": [
+            "Chlorophyll",
+            "Carotenoid",
+            "Anthocyanin",
+            "Xanthophyll"
+          ],
+          "correctAnswer": "Chlorophyll",
+          "explanation": "Chlorophyll absorbs blue and red light wavelengths for photosynthesis."
+        },
+        {
+          "question": "What is the term for the breaking of chemical bonds by absorbing light energy?",
+          "options": [
+            "Photosynthesis",
+            "Photochemistry",
+            "Photolysis",
+            "Photoexcitation"
+          ],
+          "correctAnswer": "Photolysis",
+          "explanation": "Photolysis uses light energy to break chemical bonds, particularly water in photosynthesis."
+        },
+        {
+          "question": "Which part of the brain controls balance and coordination?",
+          "options": ["Cerebrum", "Thalamus", "Cerebellum", "Brainstem"],
+          "correctAnswer": "Cerebellum",
+          "explanation": "The cerebellum coordinates movement and maintains balance."
+        },
+        {
+          "question": "What is the term for a reaction that releases energy?",
+          "options": ["Endothermic", "Exothermic", "Catalytic", "Reversible"],
+          "correctAnswer": "Exothermic",
+          "explanation": "Exothermic reactions release heat energy to the surroundings."
+        },
+        {
+          "question": "What is the primary function of the ribosome?",
+          "options": [
+            "Energy production",
+            "Protein synthesis",
+            "Transport",
+            "Storage"
+          ],
+          "correctAnswer": "Protein synthesis",
+          "explanation": "Ribosomes read mRNA and assemble proteins based on genetic instructions."
+        },
+        {
+          "question": "What is the term for organisms that produce their own food through photosynthesis?",
+          "options": ["Herbivores", "Carnivores", "Producers", "Consumers"],
+          "correctAnswer": "Producers",
+          "explanation": "Producers like plants form the base of food chains and energy pyramids."
+        },
+        {
+          "question": "What is the boiling point of water at standard atmospheric pressure?",
+          "options": ["90°C", "100°C", "110°C", "120°C"],
+          "correctAnswer": "100°C",
+          "explanation": "Water boils at 100°C at 1 atm pressure (212°F)."
+        },
+        {
+          "question": "What is the term for the process of breaking down glucose for energy?",
+          "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Fermentation",
+            "Glycogenesis"
+          ],
+          "correctAnswer": "Respiration",
+          "explanation": "Cellular respiration breaks down glucose to produce ATP for energy."
+        },
+        {
+          "question": "Which planet in our solar system is closest to the Sun?",
+          "options": ["Venus", "Mercury", "Earth", "Mars"],
+          "correctAnswer": "Mercury",
+          "explanation": "Mercury is the smallest planet and closest to the Sun."
+        },
+        {
+          "question": "What is the term for the genetic makeup of an organism?",
+          "options": ["Phenotype", "Genotype", "Allele", "Mutation"],
+          "correctAnswer": "Genotype",
+          "explanation": "Genotype is the complete genetic composition of an organism."
+        },
+        {
+          "question": "What is the primary component of natural rubber?",
+          "options": [
+            "Polystyrene",
+            "Polyisoprene",
+            "Polyethylene",
+            "Polyvinyl chloride"
+          ],
+          "correctAnswer": "Polyisoprene",
+          "explanation": "Polyisoprene is the polymer found in natural rubber."
+        },
+        {
+          "question": "What is the SI unit of electrical current?",
+          "options": ["Volt", "Ampere", "Coulomb", "Watt"],
+          "correctAnswer": "Ampere",
+          "explanation": "The ampere (A) measures the flow of electric charge."
+        },
+        {
+          "question": "Which organelle is responsible for breaking down waste material in cells?",
+          "options": ["Lysosome", "Peroxisome", "Vacuole", "Vesicle"],
+          "correctAnswer": "Lysosome",
+          "explanation": "Lysosomes contain enzymes that digest cellular waste and dead organelles."
+        },
+        {
+          "question": "What is the term for the crossing over of genetic material between chromosomes?",
+          "options": [
+            "Mutation",
+            "Recombination",
+            "Segregation",
+            "Codominance"
+          ],
+          "correctAnswer": "Recombination",
+          "explanation": "Recombination during meiosis increases genetic diversity in offspring."
+        },
+        {
+          "question": "What is the freezing point of water?",
+          "options": ["0°C", "-10°C", "32°F", "Both A and C"],
+          "correctAnswer": "Both A and C",
+          "explanation": "Water freezes at 0°C or 32°F at standard atmospheric pressure."
+        },
+        {
+          "question": "Which type of muscle tissue is involuntary and found in the heart?",
+          "options": [
+            "Skeletal muscle",
+            "Smooth muscle",
+            "Cardiac muscle",
+            "All muscle types"
+          ],
+          "correctAnswer": "Cardiac muscle",
+          "explanation": "Cardiac muscle is involuntary and specialized for pumping blood."
+        },
+        {
+          "question": "What is the term for the study of organisms and their environments?",
+          "options": ["Botany", "Ecology", "Taxonomy", "Histology"],
+          "correctAnswer": "Ecology",
+          "explanation": "Ecology examines relationships between organisms and their environments."
+        },
+        {
+          "question": "What is the primary function of the liver?",
+          "options": [
+            "Oxygen transport",
+            "Metabolism and detoxification",
+            "Hormone production",
+            "Waste filtration"
+          ],
+          "correctAnswer": "Metabolism and detoxification",
+          "explanation": "The liver detoxifies harmful substances and metabolizes nutrients."
+        },
+        {
+          "question": "What is an isotope?",
+          "options": [
+            "An atom with a different number of protons",
+            "An atom of the same element with different numbers of neutrons",
+            "A charged atom",
+            "A radioactive element"
+          ],
+          "correctAnswer": "An atom of the same element with different numbers of neutrons",
+          "explanation": "Isotopes have the same atomic number but different mass numbers."
+        },
+        {
+          "question": "What is the term for an organism's ability to adjust to environmental changes?",
+          "options": [
+            "Mutation",
+            "Evolution",
+            "Adaptation",
+            "Natural selection"
+          ],
+          "correctAnswer": "Adaptation",
+          "explanation": "Adaptation is the process of adjusting to environmental conditions."
+        },
+        {
+          "question": "Which gas do plants absorb during photosynthesis?",
+          "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+          "correctAnswer": "Carbon dioxide",
+          "explanation": "Plants absorb CO₂ from the atmosphere to produce glucose."
+        },
+        {
+          "question": "What is the primary function of the pancreas?",
+          "options": [
+            "Protein digestion",
+            "Hormone production and digestion",
+            "Bile production",
+            "Muscle contraction"
+          ],
+          "correctAnswer": "Hormone production and digestion",
+          "explanation": "The pancreas produces insulin and digestive enzymes."
+        },
+        {
+          "question": "What is the term for the splitting of atomic nuclei?",
+          "options": ["Fission", "Fusion", "Decay", "Decay"],
+          "correctAnswer": "Fission",
+          "explanation": "Fission splits heavy nuclei into lighter nuclei, releasing energy."
+        },
+        {
+          "question": "Which scientist discovered penicillin?",
+          "options": [
+            "Marie Curie",
+            "Alexander Fleming",
+            "Linus Pauling",
+            "George Washington Carver"
+          ],
+          "correctAnswer": "Alexander Fleming",
+          "explanation": "Fleming's discovery of penicillin revolutionized medical treatment."
+        },
+        {
+          "question": "What is the term for the conversion of food into energy?",
+          "options": ["Digestion", "Metabolism", "Absorption", "Excretion"],
+          "correctAnswer": "Metabolism",
+          "explanation": "Metabolism encompasses all chemical processes that convert nutrients into energy."
+        },
+        {
+          "question": "What is the primary function of the stomach?",
+          "options": [
+            "Food ingestion",
+            "Nutrient absorption",
+            "Food digestion and mixing",
+            "Waste elimination"
+          ],
+          "correctAnswer": "Food digestion and mixing",
+          "explanation": "The stomach mechanically and chemically breaks down food."
+        },
+        {
+          "question": "What is the term for mutations that affect only body cells?",
+          "options": [
+            "Germline mutations",
+            "Somatic mutations",
+            "Chromosomal mutations",
+            "Spontaneous mutations"
+          ],
+          "correctAnswer": "Somatic mutations",
+          "explanation": "Somatic mutations occur in body cells and are not passed to offspring."
+        },
+        {
+          "question": "Which element is essential for bone formation?",
+          "options": ["Iron", "Calcium", "Potassium", "Sodium"],
+          "correctAnswer": "Calcium",
+          "explanation": "Calcium is a primary component of bone structure."
+        },
+        {
+          "question": "What is the term for the study of heredity patterns?",
+          "options": ["Genomics", "Genetics", "Genealogy", "Molecular biology"],
+          "correctAnswer": "Genetics",
+          "explanation": "Genetics studies how traits are inherited from generation to generation."
+        },
+        {
+          "question": "What is the primary function of the small intestine?",
+          "options": [
+            "Water absorption",
+            "Nutrient absorption",
+            "Waste storage",
+            "Bacteria elimination"
+          ],
+          "correctAnswer": "Nutrient absorption",
+          "explanation": "The small intestine is where most nutrient absorption occurs."
+        },
+        {
+          "question": "What is the term for organisms that feed on dead organic matter?",
+          "options": ["Herbivores", "Carnivores", "Scavengers", "Parasites"],
+          "correctAnswer": "Scavengers",
+          "explanation": "Scavengers feed on carcasses and dead organic material."
+        },
+        {
+          "question": "What is the SI unit of energy?",
+          "options": ["Erg", "Joule", "Calorie", "Watt-hour"],
+          "correctAnswer": "Joule",
+          "explanation": "The joule (J) is the SI unit of energy."
+        },
+        {
+          "question": "Which blood type is considered the universal recipient?",
+          "options": ["A", "B", "AB positive", "O negative"],
+          "correctAnswer": "AB positive",
+          "explanation": "AB positive blood can receive from all other blood types."
         }
       ]
     },
@@ -538,6 +1895,387 @@
           "options": ["-7", "0", "7", "14"],
           "correctAnswer": "7",
           "explanation": "Absolute value returns the distance from zero, which is always non-negative."
+        },
+        {
+          "question": "What is the sum of all interior angles of a polygon with n sides?",
+          "options": [
+            "n × 180°",
+            "(n-1) × 180°",
+            "(n-2) × 180°",
+            "(n+1) × 180°"
+          ],
+          "correctAnswer": "(n-2) × 180°",
+          "explanation": "The sum of interior angles formula is (n-2) × 180°."
+        },
+        {
+          "question": "What is the midpoint formula between points (x₁, y₁) and (x₂, y₂)?",
+          "options": [
+            "((x₁ + x₂)/2, (y₁ + y₂)/2)",
+            "((x₁ - x₂)/2, (y₁ - y₂)/2)",
+            "((x₁ × x₂)/2, (y₁ × y₂)/2)",
+            "(x₁ + y₁)/2, (x₂ + y₂)/2)"
+          ],
+          "correctAnswer": "((x₁ + x₂)/2, (y₁ + y₂)/2)",
+          "explanation": "The midpoint is the average of the coordinates of the two points."
+        },
+        {
+          "question": "What is sin(30°)?",
+          "options": ["1/2", "√2/2", "√3/2", "1"],
+          "correctAnswer": "1/2",
+          "explanation": "sin(30°) = 1/2, which is a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the factorization of x² - 9?",
+          "options": [
+            "(x - 3)²",
+            "(x + 3)²",
+            "(x - 3)(x + 3)",
+            "(x - 9)(x + 1)"
+          ],
+          "correctAnswer": "(x - 3)(x + 3)",
+          "explanation": "x² - 9 is a difference of squares: (x - 3)(x + 3)."
+        },
+        {
+          "question": "What is the value of 5! (5 factorial)?",
+          "options": ["24", "120", "720", "5040"],
+          "correctAnswer": "120",
+          "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+        },
+        {
+          "question": "What is the domain of f(x) = 1/(x - 2)?",
+          "options": [
+            "All real numbers",
+            "All real numbers except x = 2",
+            "All real numbers except x = 0",
+            "x ≥ 2"
+          ],
+          "correctAnswer": "All real numbers except x = 2",
+          "explanation": "The function is undefined when the denominator equals zero."
+        },
+        {
+          "question": "What is the equation of a circle with center (h, k) and radius r?",
+          "options": [
+            "(x - h)² + (y - k)² = r",
+            "(x - h)² + (y - k)² = r²",
+            "(x + h)² + (y + k)² = r²",
+            "x² + y² = r"
+          ],
+          "correctAnswer": "(x - h)² + (y - k)² = r²",
+          "explanation": "The standard form of a circle equation incorporates the center and radius."
+        },
+        {
+          "question": "What is cos(60°)?",
+          "options": ["1/2", "√2/2", "√3/2", "1"],
+          "correctAnswer": "1/2",
+          "explanation": "cos(60°) = 1/2, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the slope of a line parallel to a line with slope 3/5?",
+          "options": ["3/5", "-3/5", "5/3", "-5/3"],
+          "correctAnswer": "3/5",
+          "explanation": "Parallel lines have equal slopes."
+        },
+        {
+          "question": "What is the solution to |x - 3| = 5?",
+          "options": ["x = 8 or x = -2", "x = 8", "x = -2", "x = 5"],
+          "correctAnswer": "x = 8 or x = -2",
+          "explanation": "Absolute value equations have two solutions: x = 8 and x = -2."
+        },
+        {
+          "question": "What is the inverse function of f(x) = 2x + 3?",
+          "options": [
+            "f⁻¹(x) = (x - 3)/2",
+            "f⁻¹(x) = (x + 3)/2",
+            "f⁻¹(x) = 2x - 3",
+            "f⁻¹(x) = x/2 - 3"
+          ],
+          "correctAnswer": "f⁻¹(x) = (x - 3)/2",
+          "explanation": "To find the inverse, swap x and y and solve for y."
+        },
+        {
+          "question": "What is tan(45°)?",
+          "options": ["0", "1", "√2", "√3"],
+          "correctAnswer": "1",
+          "explanation": "tan(45°) = 1, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the formula for the area of a trapezoid?",
+          "options": [
+            "A = 1/2 × b × h",
+            "A = 1/2 × (b₁ + b₂) × h",
+            "A = b × h",
+            "A = 1/3 × b × h"
+          ],
+          "correctAnswer": "A = 1/2 × (b₁ + b₂) × h",
+          "explanation": "The trapezoid area formula uses the average of the two parallel bases."
+        },
+        {
+          "question": "What is the range of f(x) = x²?",
+          "options": [
+            "All real numbers",
+            "All positive real numbers",
+            "All non-negative real numbers (y ≥ 0)",
+            "All negative real numbers"
+          ],
+          "correctAnswer": "All non-negative real numbers (y ≥ 0)",
+          "explanation": "Squaring any real number produces a non-negative result."
+        },
+        {
+          "question": "What is the formula for the circumference of a circle?",
+          "options": ["C = πr", "C = 2πr", "C = πr²", "C = πd²"],
+          "correctAnswer": "C = 2πr",
+          "explanation": "Circumference equals 2π times the radius (or πd where d is diameter)."
+        },
+        {
+          "question": "What is the sum of the first 20 positive integers?",
+          "options": ["190", "200", "210", "220"],
+          "correctAnswer": "210",
+          "explanation": "Sum = 20(21)/2 = 210."
+        },
+        {
+          "question": "What is sec(θ)?",
+          "options": ["1/sin(θ)", "1/cos(θ)", "sin(θ)/cos(θ)", "cos(θ)/sin(θ)"],
+          "correctAnswer": "1/cos(θ)",
+          "explanation": "Secant is the reciprocal of cosine."
+        },
+        {
+          "question": "What is the value of log₂(16)?",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "4",
+          "explanation": "2⁴ = 16, so log₂(16) = 4."
+        },
+        {
+          "question": "What is the vertex of the parabola y = (x - 3)² + 2?",
+          "options": ["(0, 0)", "(3, 2)", "(-3, 2)", "(3, -2)"],
+          "correctAnswer": "(3, 2)",
+          "explanation": "The vertex form y = (x - h)² + k shows the vertex at (h, k)."
+        },
+        {
+          "question": "What is the discriminant of ax² + bx + c = 0?",
+          "options": ["b² - 4ac", "b² + 4ac", "4ac - b²", "2ac - b"],
+          "correctAnswer": "b² - 4ac",
+          "explanation": "The discriminant determines the nature of the quadratic's roots."
+        },
+        {
+          "question": "What is cot(θ)?",
+          "options": ["sin(θ)/cos(θ)", "cos(θ)/sin(θ)", "1/sin(θ)", "1/cos(θ)"],
+          "correctAnswer": "cos(θ)/sin(θ)",
+          "explanation": "Cotangent is the reciprocal of tangent."
+        },
+        {
+          "question": "What is the formula for the volume of a cylinder?",
+          "options": ["V = πr²h", "V = 1/3 πr²h", "V = 2πrh", "V = πrh"],
+          "correctAnswer": "V = πr²h",
+          "explanation": "The volume of a cylinder is the area of the base times height."
+        },
+        {
+          "question": "What is csc(θ)?",
+          "options": ["cos(θ)/sin(θ)", "1/sin(θ)", "1/cos(θ)", "sin(θ)/cos(θ)"],
+          "correctAnswer": "1/sin(θ)",
+          "explanation": "Cosecant is the reciprocal of sine."
+        },
+        {
+          "question": "What is sin(90°)?",
+          "options": ["0", "1/2", "√2/2", "1"],
+          "correctAnswer": "1",
+          "explanation": "sin(90°) = 1, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the formula for the volume of a cone?",
+          "options": ["V = πr²h", "V = 1/3 πr²h", "V = 2/3 πr²h", "V = πrh"],
+          "correctAnswer": "V = 1/3 πr²h",
+          "explanation": "A cone's volume is one-third the area of the base times height."
+        },
+        {
+          "question": "What is log₁₀(1000)?",
+          "options": ["2", "3", "10", "100"],
+          "correctAnswer": "3",
+          "explanation": "10³ = 1000, so log₁₀(1000) = 3."
+        },
+        {
+          "question": "What is the relationship between the sides of a 45-45-90 triangle?",
+          "options": ["1 : 1 : √3", "1 : 1 : √2", "1 : √3 : 2", "1 : 2 : √3"],
+          "correctAnswer": "1 : 1 : √2",
+          "explanation": "In a 45-45-90 triangle, if legs are length 1, the hypotenuse is √2."
+        },
+        {
+          "question": "What is the equation of a line with slope m passing through (x₁, y₁)?",
+          "options": [
+            "y - y₁ = m(x - x₁)",
+            "y + y₁ = m(x + x₁)",
+            "y = m(x - x₁) + y₁",
+            "Both A and C"
+          ],
+          "correctAnswer": "Both A and C",
+          "explanation": "The point-slope form is y - y₁ = m(x - x₁), which simplifies to y = m(x - x₁) + y₁."
+        },
+        {
+          "question": "What is the formula for the volume of a sphere?",
+          "options": ["V = 4/3 πr³", "V = 4/3 πr²", "V = πr³", "V = 2/3 πr³"],
+          "correctAnswer": "V = 4/3 πr³",
+          "explanation": "A sphere's volume formula includes the radius cubed."
+        },
+        {
+          "question": "What is cos(0°)?",
+          "options": ["0", "1/2", "√2/2", "1"],
+          "correctAnswer": "1",
+          "explanation": "cos(0°) = 1, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the relationship between the sides of a 30-60-90 triangle?",
+          "options": ["1 : √2 : 2", "1 : √3 : 2", "1 : 1 : √2", "1 : 2 : 2"],
+          "correctAnswer": "1 : √3 : 2",
+          "explanation": "In a 30-60-90 triangle, sides are in the ratio 1 : √3 : 2."
+        },
+        {
+          "question": "What is sin(45°)?",
+          "options": ["1/2", "√2/2", "√3/2", "1"],
+          "correctAnswer": "√2/2",
+          "explanation": "sin(45°) = √2/2, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the formula for the area of a triangle using base and height?",
+          "options": [
+            "A = b × h",
+            "A = 1/2 × b × h",
+            "A = 2 × b × h",
+            "A = 1/3 × b × h"
+          ],
+          "correctAnswer": "A = 1/2 × b × h",
+          "explanation": "Triangle area equals half the product of base and height."
+        },
+        {
+          "question": "What is tan(60°)?",
+          "options": ["1/√3", "√3", "1", "2"],
+          "correctAnswer": "√3",
+          "explanation": "tan(60°) = √3, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the formula for the area of a sector with angle θ (in radians)?",
+          "options": ["A = 1/2 r²θ", "A = 1/2 rθ", "A = r²θ", "A = 1/3 r²θ"],
+          "correctAnswer": "A = 1/2 r²θ",
+          "explanation": "The sector area formula uses the angle in radians."
+        },
+        {
+          "question": "What is cos(90°)?",
+          "options": ["0", "1", "1/2", "√2/2"],
+          "correctAnswer": "0",
+          "explanation": "cos(90°) = 0, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the sum of an arithmetic sequence with first term a, last term l, and n terms?",
+          "options": [
+            "S = n/2 × (a + l)",
+            "S = n × (a + l)/2",
+            "S = n × (l - a)",
+            "Both A and B"
+          ],
+          "correctAnswer": "Both A and B",
+          "explanation": "The arithmetic series sum formula is S = n/2 × (a + l), which equals n × (a + l)/2."
+        },
+        {
+          "question": "What is the formula for the arc length of a circle?",
+          "options": ["s = θr", "s = θ/r", "s = r/θ", "s = 2θr"],
+          "correctAnswer": "s = θr",
+          "explanation": "Arc length equals the angle (in radians) times the radius."
+        },
+        {
+          "question": "What is the solution to log₂(x) = 5?",
+          "options": ["2", "8", "16", "32"],
+          "correctAnswer": "32",
+          "explanation": "If log₂(x) = 5, then 2⁵ = x = 32."
+        },
+        {
+          "question": "What is the formula for the sum of a geometric series?",
+          "options": [
+            "S = a(1 - rⁿ)/(1 - r)",
+            "S = a/(1 - r)",
+            "S = n(a + l)/2",
+            "S = ar/(1 - r)"
+          ],
+          "correctAnswer": "S = a(1 - rⁿ)/(1 - r)",
+          "explanation": "The finite geometric series sum uses the first term and common ratio."
+        },
+        {
+          "question": "What is sin(60°)?",
+          "options": ["1/2", "√2/2", "√3/2", "1"],
+          "correctAnswer": "√3/2",
+          "explanation": "sin(60°) = √3/2, a fundamental trigonometric value."
+        },
+        {
+          "question": "What is the formula for the surface area of a sphere?",
+          "options": ["A = πr²", "A = 2πr²", "A = 4πr²", "A = 4πr"],
+          "correctAnswer": "A = 4πr²",
+          "explanation": "The surface area of a sphere is 4 times the area of a great circle."
+        },
+        {
+          "question": "What is the slope of the line 3x - 2y + 6 = 0?",
+          "options": ["-3/2", "3/2", "-2/3", "2/3"],
+          "correctAnswer": "3/2",
+          "explanation": "Rewriting in slope-intercept form: y = 3/2 x + 3, so m = 3/2."
+        },
+        {
+          "question": "What is the formula for compound interest?",
+          "options": [
+            "A = P(1 + r)ᵗ",
+            "A = P(1 + r/n)ⁿᵗ",
+            "A = Prt",
+            "A = P(1 + rt)"
+          ],
+          "correctAnswer": "A = P(1 + r/n)ⁿᵗ",
+          "explanation": "Compound interest formula accounts for interest compounding n times per year."
+        },
+        {
+          "question": "What is the solution to (x - 2)² = 9?",
+          "options": [
+            "x = 5 or x = -1",
+            "x = 5 or x = -5",
+            "x = 1 or x = 3",
+            "x = 11 or x = -7"
+          ],
+          "correctAnswer": "x = 5 or x = -1",
+          "explanation": "Taking square roots: x - 2 = ±3, so x = 5 or x = -1."
+        },
+        {
+          "question": "What is the determinant of a 2×2 matrix [[a, b], [c, d]]?",
+          "options": ["ad + bc", "ad - bc", "ac + bd", "ac - bd"],
+          "correctAnswer": "ad - bc",
+          "explanation": "The determinant of a 2×2 matrix is ad - bc."
+        },
+        {
+          "question": "What is the formula for the sum of the first n positive integers?",
+          "options": ["S = n(n+1)", "S = n(n+1)/2", "S = n²", "S = n² + n"],
+          "correctAnswer": "S = n(n+1)/2",
+          "explanation": "The sum formula is 1 + 2 + ... + n = n(n+1)/2."
+        },
+        {
+          "question": "What is the eccentricity of a parabola?",
+          "options": ["e = 0", "e = 1", "e < 1", "e > 1"],
+          "correctAnswer": "e = 1",
+          "explanation": "The eccentricity of any parabola is exactly 1."
+        },
+        {
+          "question": "What is the product of (-2)(-3)(4)?",
+          "options": ["-24", "24", "-9", "9"],
+          "correctAnswer": "24",
+          "explanation": "(-2)(-3) = 6, and 6 × 4 = 24."
+        },
+        {
+          "question": "What is the value of 2⁻³?",
+          "options": ["-6", "-8", "1/8", "8"],
+          "correctAnswer": "1/8",
+          "explanation": "2⁻³ = 1/2³ = 1/8."
+        },
+        {
+          "question": "What is the formula for the distance between two parallel lines?",
+          "options": [
+            "d = |c₁ - c₂|/√(a² + b²)",
+            "d = |b₁ - b₂|/√(1 + m²)",
+            "d = |slope|",
+            "Both A and B"
+          ],
+          "correctAnswer": "Both A and B",
+          "explanation": "The distance formula for parallel lines Ax + By + c = 0 is |c₁ - c₂|/√(a² + b²)."
         }
       ]
     },
@@ -743,6 +2481,613 @@
           ],
           "correctAnswer": "13th Amendment",
           "explanation": "The 13th Amendment, ratified in 1865, abolished slavery throughout the United States."
+        },
+        {
+          "question": "What was the primary purpose of the Louisiana Purchase?",
+          "options": [
+            "To establish trade routes",
+            "To gain control of the Mississippi River and New Orleans",
+            "To prevent British expansion",
+            "To acquire gold reserves"
+          ],
+          "correctAnswer": "To gain control of the Mississippi River and New Orleans",
+          "explanation": "The purchase secured vital river access and port control for American commerce."
+        },
+        {
+          "question": "Which president declared the 'Open Door Policy' regarding China?",
+          "options": [
+            "Theodore Roosevelt",
+            "William McKinley",
+            "William Taft",
+            "Benjamin Harrison"
+          ],
+          "correctAnswer": "William McKinley",
+          "explanation": "McKinley's administration pursued the Open Door Policy to protect American trade in China."
+        },
+        {
+          "question": "What was the primary cause of the Hundred Years' War?",
+          "options": [
+            "Religious conflict",
+            "Competition for the French throne",
+            "Economic disputes over trade",
+            "Territorial disputes in Scotland"
+          ],
+          "correctAnswer": "Competition for the French throne",
+          "explanation": "The war between England and France centered on succession to the French throne."
+        },
+        {
+          "question": "Which Supreme Court case established the principle of 'separate but equal'?",
+          "options": [
+            "'Plessy v. Ferguson'",
+            "'Brown v. Board of Education'",
+            "'Marbury v. Madison'",
+            "'McCulloch v. Maryland'"
+          ],
+          "correctAnswer": "'Plessy v. Ferguson'",
+          "explanation": "This 1896 decision upheld segregation laws, a doctrine later overturned in 1954."
+        },
+        {
+          "question": "What was the primary purpose of the Reconstruction Era?",
+          "options": [
+            "To punish the South",
+            "To rebuild the South and integrate freed slaves",
+            "To establish Northern dominance",
+            "To expand federal territories"
+          ],
+          "correctAnswer": "To rebuild the South and integrate freed slaves",
+          "explanation": "Reconstruction aimed to restore Southern states and establish rights for freedmen."
+        },
+        {
+          "question": "Which Native American tribe was forced to relocate on the 'Trail of Tears' in the 1830s?",
+          "options": ["Sioux", "Cherokee", "Apache", "Comanche"],
+          "correctAnswer": "Cherokee",
+          "explanation": "The Cherokee removal in 1838-1839 resulted in thousands of deaths from disease and hardship."
+        },
+        {
+          "question": "What was the main purpose of the 14th Amendment?",
+          "options": [
+            "To guarantee voting rights",
+            "To grant citizenship and equal protection to freed slaves",
+            "To establish income tax",
+            "To regulate interstate commerce"
+          ],
+          "correctAnswer": "To grant citizenship and equal protection to freed slaves",
+          "explanation": "The 14th Amendment ensures equal protection and due process for all citizens."
+        },
+        {
+          "question": "Which empire controlled India for much of the 19th century?",
+          "options": [
+            "The Ottoman Empire",
+            "The British Empire",
+            "The Dutch Empire",
+            "The Russian Empire"
+          ],
+          "correctAnswer": "The British Empire",
+          "explanation": "India was a British colony and key part of the British Empire until independence in 1947."
+        },
+        {
+          "question": "What was the primary objective of the Civil Rights Act of 1964?",
+          "options": [
+            "To guarantee voting rights",
+            "To end segregation and discrimination",
+            "To establish affirmative action",
+            "To regulate employment nationally"
+          ],
+          "correctAnswer": "To end segregation and discrimination",
+          "explanation": "The Civil Rights Act of 1964 prohibited discrimination based on race, color, religion, or gender."
+        },
+        {
+          "question": "Which revolution led to the establishment of the Soviet Union?",
+          "options": [
+            "The Russian Revolution",
+            "The Bolshevik Revolution",
+            "The October Revolution",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "These terms refer to the same revolutionary events that established the Soviet state."
+        },
+        {
+          "question": "What was the primary cause of the American Civil War?",
+          "options": [
+            "Economic differences",
+            "Disputes over slavery and states' rights",
+            "Foreign invasion",
+            "Religious conflict"
+          ],
+          "correctAnswer": "Disputes over slavery and states' rights",
+          "explanation": "The war was fundamentally about whether slavery would expand and states' authority."
+        },
+        {
+          "question": "Which country signed the Munich Agreement in 1938?",
+          "options": [
+            "Only Germany and France",
+            "Germany, Italy, France, and Britain",
+            "All European nations",
+            "Germany, Austria, and Czechoslovakia"
+          ],
+          "correctAnswer": "Germany, Italy, France, and Britain",
+          "explanation": "The Munich Agreement allowed Germany to annex the Sudetenland from Czechoslovakia."
+        },
+        {
+          "question": "What was the primary purpose of the Homestead Act of 1862?",
+          "options": [
+            "To establish Native American reservations",
+            "To encourage Western settlement by giving land to settlers",
+            "To regulate railroad construction",
+            "To establish state boundaries"
+          ],
+          "correctAnswer": "To encourage Western settlement by giving land to settlers",
+          "explanation": "The Homestead Act gave 160 acres to settlers who would farm the land for 5 years."
+        },
+        {
+          "question": "Which Supreme Court case established the principle of judicial review?",
+          "options": [
+            "'Marbury v. Madison'",
+            "'McCulloch v. Maryland'",
+            "'Gibbons v. Ogden'",
+            "'Dred Scott v. Sandford'"
+          ],
+          "correctAnswer": "'Marbury v. Madison'",
+          "explanation": "This 1803 case established that courts can review and overturn laws."
+        },
+        {
+          "question": "What was the primary cause of the French Revolution?",
+          "options": [
+            "Military defeat",
+            "Religious conflict",
+            "Economic crisis, social inequality, and enlightenment ideals",
+            "Foreign invasion"
+          ],
+          "correctAnswer": "Economic crisis, social inequality, and enlightenment ideals",
+          "explanation": "Multiple factors including debt, famine, and Enlightenment philosophy triggered revolution."
+        },
+        {
+          "question": "Which explorer is credited with discovering the Americas for Europeans?",
+          "options": [
+            "Leif Erikson",
+            "Christopher Columbus",
+            "Amerigo Vespucci",
+            "Ferdinand Magellan"
+          ],
+          "correctAnswer": "Christopher Columbus",
+          "explanation": "Columbus's 1492 voyage initiated sustained European colonization of the Americas."
+        },
+        {
+          "question": "What was the main purpose of the Treaty of Versailles?",
+          "options": [
+            "To end the American Civil War",
+            "To establish trade agreements",
+            "To end World War I and establish peace terms",
+            "To create the League of Nations"
+          ],
+          "correctAnswer": "To end World War I and establish peace terms",
+          "explanation": "The treaty imposed reparations and territorial changes on defeated nations."
+        },
+        {
+          "question": "Which document declared American independence?",
+          "options": [
+            "The Magna Carta",
+            "The Constitution",
+            "The Declaration of Independence",
+            "The Articles of Confederation"
+          ],
+          "correctAnswer": "The Declaration of Independence",
+          "explanation": "Adopted July 4, 1776, it declared the colonies' independence from Britain."
+        },
+        {
+          "question": "What was the primary objective of the Spanish Inquisition?",
+          "options": [
+            "To expand Spanish territory",
+            "To maintain Catholic orthodoxy and suppress heresy",
+            "To establish trade routes",
+            "To educate the population"
+          ],
+          "correctAnswer": "To maintain Catholic orthodoxy and suppress heresy",
+          "explanation": "The Spanish Inquisition sought to enforce religious conformity through investigation and punishment."
+        },
+        {
+          "question": "Which country was the first to develop a democratic government?",
+          "options": [
+            "Ancient Rome",
+            "Ancient Greece",
+            "Medieval England",
+            "Revolutionary France"
+          ],
+          "correctAnswer": "Ancient Greece",
+          "explanation": "Ancient Athens developed democracy, particularly under Pericles."
+        },
+        {
+          "question": "What was the primary purpose of the Emancipation Proclamation?",
+          "options": [
+            "To end the Civil War immediately",
+            "To declare slaves in rebellious states free",
+            "To grant citizenship to all freed slaves",
+            "To establish Reconstruction policies"
+          ],
+          "correctAnswer": "To declare slaves in rebellious states free",
+          "explanation": "Lincoln's 1863 proclamation freed slaves in Confederate states, a military and moral measure."
+        },
+        {
+          "question": "Which empire was known for building aqueducts?",
+          "options": [
+            "Ancient Egypt",
+            "Ancient Greece",
+            "Ancient Rome",
+            "The Persian Empire"
+          ],
+          "correctAnswer": "Ancient Rome",
+          "explanation": "Romans engineered extensive aqueducts to transport water to cities."
+        },
+        {
+          "question": "What was the primary purpose of the Marshal Plan after WWII?",
+          "options": [
+            "To punish defeated nations",
+            "To rebuild Europe economically",
+            "To establish military bases",
+            "To prevent Soviet expansion only"
+          ],
+          "correctAnswer": "To rebuild Europe economically",
+          "explanation": "The Marshall Plan provided U.S. economic aid to restore Western European economies."
+        },
+        {
+          "question": "Which scientist proposed heliocentrism?",
+          "options": [
+            "Galileo Galilei",
+            "Nicolaus Copernicus",
+            "Johannes Kepler",
+            "Isaac Newton"
+          ],
+          "correctAnswer": "Nicolaus Copernicus",
+          "explanation": "Copernicus proposed that the Sun, not Earth, was the center of the solar system."
+        },
+        {
+          "question": "What was the primary significance of the Printing Press?",
+          "options": [
+            "It allowed for faster printing of books",
+            "It enabled mass production of texts, democratizing knowledge",
+            "It reduced the cost of paper",
+            "It improved artistic techniques"
+          ],
+          "correctAnswer": "It enabled mass production of texts, democratizing knowledge",
+          "explanation": "Gutenberg's printing press spread information and contributed to the Renaissance."
+        },
+        {
+          "question": "Which nation was the primary enemy of the United States during the Cold War?",
+          "options": ["China", "North Korea", "The Soviet Union", "Cuba"],
+          "correctAnswer": "The Soviet Union",
+          "explanation": "The Cold War was a geopolitical conflict between the U.S. and Soviet Union."
+        },
+        {
+          "question": "What was the primary purpose of the United Nations?",
+          "options": [
+            "To control world governments",
+            "To maintain international peace and security",
+            "To manage global trade",
+            "To enforce international laws"
+          ],
+          "correctAnswer": "To maintain international peace and security",
+          "explanation": "Founded in 1945, the UN aimed to prevent future global conflicts."
+        },
+        {
+          "question": "Which ancient civilization built the pyramids?",
+          "options": [
+            "Ancient Greece",
+            "Ancient Rome",
+            "Ancient Egypt",
+            "The Aztec"
+          ],
+          "correctAnswer": "Ancient Egypt",
+          "explanation": "Egyptian pharaohs built the pyramids as monumental tombs."
+        },
+        {
+          "question": "What was the main purpose of the Korean War?",
+          "options": [
+            "To unify Korea under communism",
+            "To prevent communist expansion in Asia",
+            "To overthrow the Japanese occupation",
+            "To establish democracy in Asia"
+          ],
+          "correctAnswer": "To prevent communist expansion in Asia",
+          "explanation": "The Korean War (1950-1953) was a proxy conflict between communist and non-communist forces."
+        },
+        {
+          "question": "Which philosopher developed the theory of utilitarianism?",
+          "options": [
+            "John Locke",
+            "Jean-Jacques Rousseau",
+            "Jeremy Bentham",
+            "John Stuart Mill"
+          ],
+          "correctAnswer": "Jeremy Bentham",
+          "explanation": "Bentham developed utilitarianism, emphasizing the greatest good for the greatest number."
+        },
+        {
+          "question": "What was the primary purpose of the Domesday Book?",
+          "options": [
+            "To predict the end of the world",
+            "To record a complete census of Norman England",
+            "To establish legal codes",
+            "To document military conquests"
+          ],
+          "correctAnswer": "To record a complete census of Norman England",
+          "explanation": "The Domesday Book (1086) documented land, property, and people for taxation."
+        },
+        {
+          "question": "Which ancient civilization is credited with developing the concept of democracy?",
+          "options": ["Rome", "Greece", "Mesopotamia", "Egypt"],
+          "correctAnswer": "Greece",
+          "explanation": "Ancient Athens developed democratic principles and direct citizen participation."
+        },
+        {
+          "question": "What was the primary purpose of the Columbian Exchange?",
+          "options": [
+            "To establish diplomatic relations",
+            "To trade goods between Europe and the Americas",
+            "To spread Christianity",
+            "To establish colonial governments"
+          ],
+          "correctAnswer": "To trade goods between Europe and the Americas",
+          "explanation": "The Columbian Exchange resulted in massive transfers of crops, animals, and diseases."
+        },
+        {
+          "question": "Which Supreme Court case ruled that 'separate but equal' was unconstitutional?",
+          "options": [
+            "'Plessy v. Ferguson'",
+            "'Brown v. Board of Education'",
+            "'Loving v. Virginia'",
+            "'Shelley v. Kraemer'"
+          ],
+          "correctAnswer": "'Brown v. Board of Education'",
+          "explanation": "This 1954 decision overturned segregation in public schools."
+        },
+        {
+          "question": "What was the primary objective of the Manifest Destiny ideology?",
+          "options": [
+            "To establish trade routes",
+            "To expand U.S. territory westward across the continent",
+            "To establish Native American rights",
+            "To prevent foreign colonization"
+          ],
+          "correctAnswer": "To expand U.S. territory westward across the continent",
+          "explanation": "Manifest Destiny justified American westward expansion as a divine mission."
+        },
+        {
+          "question": "Which political philosopher wrote 'The Social Contract'?",
+          "options": [
+            "John Locke",
+            "Jean-Jacques Rousseau",
+            "Thomas Hobbes",
+            "Montesquieu"
+          ],
+          "correctAnswer": "Jean-Jacques Rousseau",
+          "explanation": "Rousseau's 'Social Contract' outlined concepts of popular sovereignty and democratic governance."
+        },
+        {
+          "question": "What was the primary cause of World War II?",
+          "options": [
+            "Alliance systems",
+            "Resentment over WWI peace terms and the Great Depression",
+            "Religious conflict",
+            "Colonial competition"
+          ],
+          "correctAnswer": "Resentment over WWI peace terms and the Great Depression",
+          "explanation": "Economic hardship and harsh Treaty of Versailles terms fueled resentment in Germany."
+        },
+        {
+          "question": "Which ancient document established rights for English citizens?",
+          "options": [
+            "The Magna Carta",
+            "The Mayflower Compact",
+            "The English Bill of Rights",
+            "The Petition of Right"
+          ],
+          "correctAnswer": "The Magna Carta",
+          "explanation": "The Magna Carta (1215) limited royal power and established rule of law principles."
+        },
+        {
+          "question": "What was the primary purpose of the Vietnam War?",
+          "options": [
+            "To unify Vietnam under communism",
+            "To prevent communist expansion in Southeast Asia",
+            "To establish democracy in Vietnam",
+            "To overthrow the French colonial government"
+          ],
+          "correctAnswer": "To prevent communist expansion in Southeast Asia",
+          "explanation": "The Vietnam War (1955-1975) was a proxy conflict in the Cold War."
+        },
+        {
+          "question": "Which nation signed the Treaty of Tordesillas with Spain?",
+          "options": ["Portugal", "France", "England", "Netherlands"],
+          "correctAnswer": "Portugal",
+          "explanation": "The 1494 treaty divided non-European lands between Spain and Portugal."
+        },
+        {
+          "question": "What was the primary objective of the Civil Rights Movement?",
+          "options": [
+            "To establish voting rights for women",
+            "To end segregation and discrimination against African Americans",
+            "To establish labor unions",
+            "To reform the criminal justice system"
+          ],
+          "correctAnswer": "To end segregation and discrimination against African Americans",
+          "explanation": "The Civil Rights Movement fought for equal rights, voting access, and desegregation."
+        },
+        {
+          "question": "Which philosopher developed the concept of the 'Three Branches of Government'?",
+          "options": [
+            "John Locke",
+            "Jean-Jacques Rousseau",
+            "Montesquieu",
+            "Voltaire"
+          ],
+          "correctAnswer": "Montesquieu",
+          "explanation": "Montesquieu's separation of powers concept influenced the U.S. Constitution."
+        },
+        {
+          "question": "What was the primary purpose of the Bay of Pigs Invasion?",
+          "options": [
+            "To prevent Soviet expansion",
+            "To overthrow Fidel Castro's communist government in Cuba",
+            "To establish a U.S. military base",
+            "To defend American citizens in Cuba"
+          ],
+          "correctAnswer": "To overthrow Fidel Castro's communist government in Cuba",
+          "explanation": "The 1961 CIA-backed invasion failed to remove Castro from power."
+        },
+        {
+          "question": "Which document is considered the foundation of the U.S. government?",
+          "options": [
+            "The Declaration of Independence",
+            "The Articles of Confederation",
+            "The Constitution",
+            "The Bill of Rights"
+          ],
+          "correctAnswer": "The Constitution",
+          "explanation": "The Constitution, ratified in 1788, established the structure and powers of government."
+        },
+        {
+          "question": "What was the primary cause of the Great Depression?",
+          "options": [
+            "World War I",
+            "Stock market collapse and overproduction",
+            "Bank failures alone",
+            "Government overspending"
+          ],
+          "correctAnswer": "Stock market collapse and overproduction",
+          "explanation": "The 1929 crash and agricultural overproduction triggered economic collapse."
+        },
+        {
+          "question": "Which scientist developed the theory of evolution by natural selection?",
+          "options": [
+            "Charles Darwin",
+            "Jean-Baptiste Lamarck",
+            "Gregor Mendel",
+            "Alfred Russel Wallace"
+          ],
+          "correctAnswer": "Charles Darwin",
+          "explanation": "Darwin's 'On the Origin of Species' (1859) revolutionized biological science."
+        },
+        {
+          "question": "What was the primary objective of the Cuban Missile Crisis?",
+          "options": [
+            "To invade Cuba",
+            "To force the Soviet Union to remove nuclear missiles from Cuba",
+            "To establish a democratic government in Cuba",
+            "To prevent Soviet expansion in Europe"
+          ],
+          "correctAnswer": "To force the Soviet Union to remove nuclear missiles from Cuba",
+          "explanation": "This 1962 crisis brought the U.S. and Soviet Union to the brink of nuclear war."
+        },
+        {
+          "question": "Which empire built extensive road systems like the Appian Way?",
+          "options": [
+            "Ancient Greece",
+            "Ancient Egypt",
+            "Ancient Rome",
+            "The Persian Empire"
+          ],
+          "correctAnswer": "Ancient Rome",
+          "explanation": "Rome's extensive road system connected the empire and facilitated trade and military movement."
+        },
+        {
+          "question": "What was the primary purpose of the Jeffersonian ideal of 'An Empire of Liberty'?",
+          "options": [
+            "To establish a large military empire",
+            "To acquire territory and promote republican government and individual freedoms",
+            "To colonize Africa",
+            "To establish trade monopolies"
+          ],
+          "correctAnswer": "To acquire territory and promote republican government and individual freedoms",
+          "explanation": "Jefferson sought to expand U.S. territory while promoting republican values."
+        },
+        {
+          "question": "Which revolution established a communist government in Russia?",
+          "options": [
+            "The Russian Revolution",
+            "The Bolshevik Revolution",
+            "The October Revolution",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "These terms describe the same revolutionary period that established Soviet communism."
+        },
+        {
+          "question": "What was the primary cause of the Arab-Israeli conflict?",
+          "options": [
+            "Religious differences alone",
+            "Disputes over land, resources, and statehood",
+            "Colonial power competition",
+            "Economic disparities"
+          ],
+          "correctAnswer": "Disputes over land, resources, and statehood",
+          "explanation": "The conflict stems from competing national aspirations and territorial claims."
+        },
+        {
+          "question": "Which nation was primarily responsible for the Industrial Revolution?",
+          "options": [
+            "France",
+            "Germany",
+            "The United Kingdom",
+            "The United States"
+          ],
+          "correctAnswer": "The United Kingdom",
+          "explanation": "Britain's Industrial Revolution (late 18th century) transformed global economics."
+        },
+        {
+          "question": "What was the primary objective of the Scramble for Africa?",
+          "options": [
+            "To spread Christianity",
+            "To extract resources and establish colonial control",
+            "To establish trade agreements",
+            "To help African nations develop"
+          ],
+          "correctAnswer": "To extract resources and establish colonial control",
+          "explanation": "European powers competed to colonize African territories for wealth and power."
+        },
+        {
+          "question": "Which Supreme Court justice wrote the majority opinion in 'Marbury v. Madison'?",
+          "options": [
+            "John Jay",
+            "John Marshall",
+            "Alexander Hamilton",
+            "James Madison"
+          ],
+          "correctAnswer": "John Marshall",
+          "explanation": "Chief Justice Marshall established judicial review in this landmark 1803 decision."
+        },
+        {
+          "question": "What was the primary purpose of NATO?",
+          "options": [
+            "To prevent Soviet expansion through collective defense",
+            "To establish trade agreements",
+            "To regulate military spending",
+            "To prevent all wars"
+          ],
+          "correctAnswer": "To prevent Soviet expansion through collective defense",
+          "explanation": "NATO (founded 1949) provided collective security against Soviet aggression."
+        },
+        {
+          "question": "Which ancient civilization developed the concept of zero?",
+          "options": [
+            "Ancient Rome",
+            "Ancient Greece",
+            "The Islamic Empire",
+            "Ancient India"
+          ],
+          "correctAnswer": "Ancient India",
+          "explanation": "Indian mathematicians developed the concept and symbol for zero."
+        },
+        {
+          "question": "What was the primary objective of the Meiji Restoration in Japan?",
+          "options": [
+            "To restore traditional feudalism",
+            "To modernize Japan and become a world power",
+            "To establish democracy",
+            "To expand into China"
+          ],
+          "correctAnswer": "To modernize Japan and become a world power",
+          "explanation": "The Meiji Restoration (1868) transformed Japan into an industrial nation."
         }
       ]
     },
@@ -923,6 +3268,575 @@
           "options": ["Proportion", "Emphasis", "Balance", "Movement"],
           "correctAnswer": "Balance",
           "explanation": "Balance distributes visual elements to create stability and harmony in a composition."
+        },
+        {
+          "question": "What is the purpose of a SWOT analysis in business?",
+          "options": [
+            "To predict market trends",
+            "To assess Strengths, Weaknesses, Opportunities, and Threats",
+            "To calculate profit margins",
+            "To analyze competitor pricing"
+          ],
+          "correctAnswer": "To assess Strengths, Weaknesses, Opportunities, and Threats",
+          "explanation": "SWOT analysis helps businesses evaluate internal and external factors."
+        },
+        {
+          "question": "In sports management, what does ROI stand for?",
+          "options": [
+            "Return on Investment",
+            "Regulation of Income",
+            "Revenue on Interest",
+            "Resources on Investments"
+          ],
+          "correctAnswer": "Return on Investment",
+          "explanation": "ROI measures the profitability of an investment relative to its cost."
+        },
+        {
+          "question": "What is the primary function of a marketing plan?",
+          "options": [
+            "To increase sales only",
+            "To outline strategies for promoting products and reaching customers",
+            "To reduce competition",
+            "To set pricing"
+          ],
+          "correctAnswer": "To outline strategies for promoting products and reaching customers",
+          "explanation": "A marketing plan provides a roadmap for reaching and engaging target audiences."
+        },
+        {
+          "question": "In art, what is perspective?",
+          "options": [
+            "The use of color",
+            "The technique of representing three-dimensional space on a flat surface",
+            "The study of light and shadow",
+            "The arrangement of objects"
+          ],
+          "correctAnswer": "The technique of representing three-dimensional space on a flat surface",
+          "explanation": "Perspective creates the illusion of depth in two-dimensional art."
+        },
+        {
+          "question": "What is the primary purpose of a business plan?",
+          "options": [
+            "To secure funding and provide direction",
+            "To outshine competitors",
+            "To increase employee wages",
+            "To avoid taxes"
+          ],
+          "correctAnswer": "To secure funding and provide direction",
+          "explanation": "A business plan outlines goals, strategies, and financial projections."
+        },
+        {
+          "question": "In tennis, what is the term for a serve that the opponent cannot reach?",
+          "options": ["Ace", "Love", "Deuce", "Break"],
+          "correctAnswer": "Ace",
+          "explanation": "An ace is an unreturnable serve that wins the point immediately."
+        },
+        {
+          "question": "What is the primary purpose of a budget in personal finance?",
+          "options": [
+            "To eliminate all spending",
+            "To track and plan income and expenses",
+            "To increase debt",
+            "To guarantee wealth"
+          ],
+          "correctAnswer": "To track and plan income and expenses",
+          "explanation": "A budget helps individuals manage money and achieve financial goals."
+        },
+        {
+          "question": "Which art movement emphasized geometric shapes and primary colors?",
+          "options": ["Cubism", "De Stijl", "Futurism", "Constructivism"],
+          "correctAnswer": "De Stijl",
+          "explanation": "De Stijl artists like Mondrian used geometric abstraction and primary colors."
+        },
+        {
+          "question": "What is the primary goal of event management?",
+          "options": [
+            "To create memorable experiences and achieve client objectives",
+            "To spend the most money",
+            "To invite as many people as possible",
+            "To avoid planning"
+          ],
+          "correctAnswer": "To create memorable experiences and achieve client objectives",
+          "explanation": "Event managers plan and execute events that meet specific goals."
+        },
+        {
+          "question": "In basketball, what is a 'slam dunk'?",
+          "options": [
+            "A type of pass",
+            "A defensive move",
+            "A dunk where the player forcefully throws the ball through the hoop",
+            "A shooting technique"
+          ],
+          "correctAnswer": "A dunk where the player forcefully throws the ball through the hoop",
+          "explanation": "A slam dunk is an emphatic shot that scores points and excites crowds."
+        },
+        {
+          "question": "What is the purpose of marketing segmentation?",
+          "options": [
+            "To eliminate competitors",
+            "To divide the market into distinct groups for targeted marketing",
+            "To increase prices",
+            "To reduce product variety"
+          ],
+          "correctAnswer": "To divide the market into distinct groups for targeted marketing",
+          "explanation": "Market segmentation allows businesses to tailor strategies to specific audiences."
+        },
+        {
+          "question": "What is the primary purpose of a financial statement?",
+          "options": [
+            "To hide financial information",
+            "To report financial performance and position",
+            "To increase shareholder value",
+            "To avoid audits"
+          ],
+          "correctAnswer": "To report financial performance and position",
+          "explanation": "Financial statements include income statements, balance sheets, and cash flow statements."
+        },
+        {
+          "question": "In sculpture, what is the term for a three-dimensional work of art?",
+          "options": ["Painting", "Installation", "Sculpture", "Relief"],
+          "correctAnswer": "Sculpture",
+          "explanation": "Sculpture is art created in three dimensions using various materials."
+        },
+        {
+          "question": "What is the primary purpose of human resources management?",
+          "options": [
+            "To minimize wages",
+            "To recruit, develop, and manage employees",
+            "To replace employees frequently",
+            "To avoid employee benefits"
+          ],
+          "correctAnswer": "To recruit, develop, and manage employees",
+          "explanation": "HR manages recruitment, training, compensation, and employee relations."
+        },
+        {
+          "question": "In soccer (football), what is an 'offside' violation?",
+          "options": [
+            "When a player kicks the ball out of bounds",
+            "When a player is ahead of all defenders and the ball when it's played",
+            "When a player commits a foul",
+            "When a player scores a goal"
+          ],
+          "correctAnswer": "When a player is ahead of all defenders and the ball when it's played",
+          "explanation": "The offside rule prevents players from camping near the opponent's goal."
+        },
+        {
+          "question": "What is the primary focus of supply chain management?",
+          "options": [
+            "To minimize customer service",
+            "To optimize the flow of goods and services from production to consumption",
+            "To increase waste",
+            "To reduce efficiency"
+          ],
+          "correctAnswer": "To optimize the flow of goods and services from production to consumption",
+          "explanation": "Supply chain management coordinates all aspects of product delivery."
+        },
+        {
+          "question": "What is the primary purpose of public relations?",
+          "options": [
+            "To hide company information",
+            "To manage reputation and communicate with stakeholders",
+            "To eliminate customers",
+            "To avoid media attention"
+          ],
+          "correctAnswer": "To manage reputation and communicate with stakeholders",
+          "explanation": "PR builds positive relationships with the public, media, and stakeholders."
+        },
+        {
+          "question": "In painting, what is chiaroscuro?",
+          "options": [
+            "A type of brush stroke",
+            "The use of strong contrasts between light and dark",
+            "A color palette",
+            "A painting technique for blending"
+          ],
+          "correctAnswer": "The use of strong contrasts between light and dark",
+          "explanation": "Chiaroscuro creates dramatic effects through light and shadow contrasts."
+        },
+        {
+          "question": "What is the primary purpose of a cover letter?",
+          "options": [
+            "To explain qualifications and express interest in a position",
+            "To list all accomplishments",
+            "To criticize the company",
+            "To negotiate salary before an interview"
+          ],
+          "correctAnswer": "To explain qualifications and express interest in a position",
+          "explanation": "A cover letter introduces a candidate and explains why they're suited for a job."
+        },
+        {
+          "question": "In swimming, what is the term for a complete trip down and back in a pool?",
+          "options": ["Lap", "Sprint", "Heat", "Relay"],
+          "correctAnswer": "Lap",
+          "explanation": "A lap is one length of a pool, and typically refers to going down and back."
+        },
+        {
+          "question": "What is the purpose of customer relationship management (CRM)?",
+          "options": [
+            "To ignore customers",
+            "To manage and improve customer interactions and relationships",
+            "To reduce customer loyalty",
+            "To increase customer complaints"
+          ],
+          "correctAnswer": "To manage and improve customer interactions and relationships",
+          "explanation": "CRM systems help businesses maintain and strengthen customer relationships."
+        },
+        {
+          "question": "What is the primary focus of organizational leadership?",
+          "options": [
+            "To maximize profits only",
+            "To guide and inspire teams to achieve organizational goals",
+            "To avoid decision-making",
+            "To reduce employee satisfaction"
+          ],
+          "correctAnswer": "To guide and inspire teams to achieve organizational goals",
+          "explanation": "Leadership involves motivating and directing teams toward success."
+        },
+        {
+          "question": "In photography, what is depth of field?",
+          "options": [
+            "The distance between the camera and subject",
+            "The area of the image that is in sharp focus",
+            "The lighting in a photo",
+            "The size of the sensor"
+          ],
+          "correctAnswer": "The area of the image that is in sharp focus",
+          "explanation": "Depth of field is controlled by aperture, focal length, and subject distance."
+        },
+        {
+          "question": "What is the primary purpose of a business proposal?",
+          "options": [
+            "To confuse clients",
+            "To present a plan or offer a solution to a client's problem",
+            "To avoid commitments",
+            "To increase expenses"
+          ],
+          "correctAnswer": "To present a plan or offer a solution to a client's problem",
+          "explanation": "A proposal outlines services, costs, and benefits for potential clients."
+        },
+        {
+          "question": "In golf, what is the term for one stroke under par?",
+          "options": ["Eagle", "Birdie", "Bogey", "Par"],
+          "correctAnswer": "Birdie",
+          "explanation": "A birdie is one stroke under the par for a hole."
+        },
+        {
+          "question": "What is the primary purpose of inventory management?",
+          "options": [
+            "To maximize waste",
+            "To optimize stock levels and minimize costs",
+            "To overspend on inventory",
+            "To avoid tracking stock"
+          ],
+          "correctAnswer": "To optimize stock levels and minimize costs",
+          "explanation": "Inventory management balances supply with demand to reduce costs."
+        },
+        {
+          "question": "What is the primary focus of corporate social responsibility?",
+          "options": [
+            "To maximize profits at any cost",
+            "To act ethically and contribute positively to society",
+            "To avoid social issues",
+            "To reduce corporate transparency"
+          ],
+          "correctAnswer": "To act ethically and contribute positively to society",
+          "explanation": "CSR involves businesses making positive contributions to society."
+        },
+        {
+          "question": "In photography, what is a 'portrait' orientation?",
+          "options": [
+            "Landscape-shaped photos",
+            "Square-shaped photos",
+            "Vertical-shaped photos",
+            "Diagonal-shaped photos"
+          ],
+          "correctAnswer": "Vertical-shaped photos",
+          "explanation": "Portrait orientation is taller than it is wide."
+        },
+        {
+          "question": "What is the primary purpose of a project charter?",
+          "options": [
+            "To avoid planning",
+            "To formally authorize a project and define its objectives",
+            "To increase project costs",
+            "To ignore stakeholder input"
+          ],
+          "correctAnswer": "To formally authorize a project and define its objectives",
+          "explanation": "A project charter establishes the project's purpose and authorization."
+        },
+        {
+          "question": "In tennis, what is a 'volley'?",
+          "options": [
+            "A serve",
+            "A shot hit before the ball bounces on the court",
+            "A winning shot",
+            "A defensive strategy"
+          ],
+          "correctAnswer": "A shot hit before the ball bounces on the court",
+          "explanation": "A volley requires hitting the ball in midair near the net."
+        },
+        {
+          "question": "What is the purpose of A/B testing in marketing?",
+          "options": [
+            "To avoid testing",
+            "To compare two versions of a campaign to determine which performs better",
+            "To always use version A",
+            "To ignore data"
+          ],
+          "correctAnswer": "To compare two versions of a campaign to determine which performs better",
+          "explanation": "A/B testing helps optimize marketing campaigns through data-driven decisions."
+        },
+        {
+          "question": "What is the primary focus of data analytics in business?",
+          "options": [
+            "To ignore data",
+            "To extract insights from data to drive business decisions",
+            "To increase guesswork",
+            "To reduce efficiency"
+          ],
+          "correctAnswer": "To extract insights from data to drive business decisions",
+          "explanation": "Data analytics transforms raw data into actionable business insights."
+        },
+        {
+          "question": "In art, what is negative space?",
+          "options": [
+            "The main subject of the artwork",
+            "The empty space around and between objects",
+            "The dark areas of a painting",
+            "The background color"
+          ],
+          "correctAnswer": "The empty space around and between objects",
+          "explanation": "Negative space is as important to composition as the main subject."
+        },
+        {
+          "question": "What is the primary purpose of a business contract?",
+          "options": [
+            "To create confusion",
+            "To establish terms and legally bind parties to an agreement",
+            "To avoid agreements",
+            "To guarantee profits"
+          ],
+          "correctAnswer": "To establish terms and legally bind parties to an agreement",
+          "explanation": "Contracts protect both parties by clearly defining expectations and obligations."
+        },
+        {
+          "question": "In basketball, what is 'traveling'?",
+          "options": [
+            "Moving the ball down the court",
+            "Taking more than two steps while holding the ball",
+            "Going to an away game",
+            "Fouling an opponent"
+          ],
+          "correctAnswer": "Taking more than two steps while holding the ball",
+          "explanation": "Traveling is a violation that results in a turnover."
+        },
+        {
+          "question": "What is the primary purpose of stakeholder analysis?",
+          "options": [
+            "To ignore stakeholders",
+            "To identify and assess the interests of parties affected by a project",
+            "To exclude stakeholder input",
+            "To avoid communication"
+          ],
+          "correctAnswer": "To identify and assess the interests of parties affected by a project",
+          "explanation": "Stakeholder analysis helps manage expectations and build support."
+        },
+        {
+          "question": "What is the primary focus of quality management?",
+          "options": [
+            "To minimize quality",
+            "To ensure products and services meet or exceed standards",
+            "To reduce customer satisfaction",
+            "To ignore feedback"
+          ],
+          "correctAnswer": "To ensure products and services meet or exceed standards",
+          "explanation": "Quality management systems maintain consistent standards and customer satisfaction."
+        },
+        {
+          "question": "In design, what is the rule of thirds?",
+          "options": [
+            "Using three colors",
+            "Dividing an image into nine equal parts for balanced composition",
+            "Using three types of fonts",
+            "Three design elements only"
+          ],
+          "correctAnswer": "Dividing an image into nine equal parts for balanced composition",
+          "explanation": "The rule of thirds creates more dynamic and visually appealing compositions."
+        },
+        {
+          "question": "What is the primary purpose of a feasibility study?",
+          "options": [
+            "To avoid planning",
+            "To assess the viability of a project or business idea",
+            "To guarantee success",
+            "To ignore risks"
+          ],
+          "correctAnswer": "To assess the viability of a project or business idea",
+          "explanation": "Feasibility studies evaluate technical, financial, and operational aspects."
+        },
+        {
+          "question": "In tennis, what is a 'deuce'?",
+          "options": [
+            "Two points",
+            "A tie at 40-40 in a game",
+            "Losing the game",
+            "A type of serve"
+          ],
+          "correctAnswer": "A tie at 40-40 in a game",
+          "explanation": "Deuce requires one player to win by two consecutive points."
+        },
+        {
+          "question": "What is the primary focus of risk management?",
+          "options": [
+            "To ignore risks",
+            "To identify, assess, and mitigate potential threats",
+            "To take unnecessary risks",
+            "To increase uncertainty"
+          ],
+          "correctAnswer": "To identify, assess, and mitigate potential threats",
+          "explanation": "Risk management protects organizations from potential negative impacts."
+        },
+        {
+          "question": "What is the primary purpose of a business culture?",
+          "options": [
+            "To confuse employees",
+            "To establish values and norms that guide organizational behavior",
+            "To reduce productivity",
+            "To avoid employee engagement"
+          ],
+          "correctAnswer": "To establish values and norms that guide organizational behavior",
+          "explanation": "Culture influences how employees work and interact with each other."
+        },
+        {
+          "question": "In photography, what is a 'telephoto lens'?",
+          "options": [
+            "A wide-angle lens",
+            "A lens that magnifies distant objects",
+            "A macro lens",
+            "A standard lens"
+          ],
+          "correctAnswer": "A lens that magnifies distant objects",
+          "explanation": "Telephoto lenses have long focal lengths and compress perspective."
+        },
+        {
+          "question": "What is the primary purpose of competitive analysis?",
+          "options": [
+            "To ignore competitors",
+            "To assess competitor strengths and develop strategy",
+            "To copy competitors exactly",
+            "To eliminate competitors"
+          ],
+          "correctAnswer": "To assess competitor strengths and develop strategy",
+          "explanation": "Competitive analysis helps businesses understand their market position."
+        },
+        {
+          "question": "In baseball, what is an 'out'?",
+          "options": [
+            "A strike",
+            "A fair hit",
+            "When a player is ruled not to have reached base safely",
+            "A home run"
+          ],
+          "correctAnswer": "When a player is ruled not to have reached base safely",
+          "explanation": "Three outs end a half-inning in baseball."
+        },
+        {
+          "question": "What is the primary focus of change management?",
+          "options": [
+            "To resist change",
+            "To guide organizations through transitions and transformations",
+            "To minimize communication",
+            "To ignore employee concerns"
+          ],
+          "correctAnswer": "To guide organizations through transitions and transformations",
+          "explanation": "Change management helps organizations adapt and succeed during transitions."
+        },
+        {
+          "question": "What is the primary purpose of a mission statement?",
+          "options": [
+            "To confuse stakeholders",
+            "To clearly state an organization's purpose and values",
+            "To avoid decision-making",
+            "To guarantee profits"
+          ],
+          "correctAnswer": "To clearly state an organization's purpose and values",
+          "explanation": "Mission statements guide organizational strategy and employee behavior."
+        },
+        {
+          "question": "In art, what is contrast?",
+          "options": [
+            "The similarity between elements",
+            "The difference between elements to create visual interest",
+            "The arrangement of objects",
+            "The use of color only"
+          ],
+          "correctAnswer": "The difference between elements to create visual interest",
+          "explanation": "Contrast makes artwork more dynamic and engages viewers."
+        },
+        {
+          "question": "What is the primary purpose of employee training and development?",
+          "options": [
+            "To reduce productivity",
+            "To enhance skills and prepare employees for advancement",
+            "To minimize wages",
+            "To avoid employee satisfaction"
+          ],
+          "correctAnswer": "To enhance skills and prepare employees for advancement",
+          "explanation": "Training increases employee competence, confidence, and engagement."
+        },
+        {
+          "question": "In soccer, what is a 'penalty kick'?",
+          "options": [
+            "A throw-in",
+            "A free kick from 12 yards due to a foul in the penalty area",
+            "A corner kick",
+            "A yellow card"
+          ],
+          "correctAnswer": "A free kick from 12 yards due to a foul in the penalty area",
+          "explanation": "Penalty kicks are high-scoring opportunities in soccer."
+        },
+        {
+          "question": "What is the primary focus of performance management?",
+          "options": [
+            "To criticize employees constantly",
+            "To set goals, assess performance, and support employee development",
+            "To avoid feedback",
+            "To reduce motivation"
+          ],
+          "correctAnswer": "To set goals, assess performance, and support employee development",
+          "explanation": "Performance management aligns individual and organizational objectives."
+        },
+        {
+          "question": "What is the primary purpose of brand management?",
+          "options": [
+            "To create confusion",
+            "To develop and maintain a strong, consistent brand identity",
+            "To avoid customer loyalty",
+            "To minimize recognition"
+          ],
+          "correctAnswer": "To develop and maintain a strong, consistent brand identity",
+          "explanation": "Brand management builds recognition, trust, and customer loyalty."
+        },
+        {
+          "question": "In golf, what is an 'eagle'?",
+          "options": [
+            "Two strokes under par",
+            "One stroke under par",
+            "Two strokes over par",
+            "Three strokes under par"
+          ],
+          "correctAnswer": "Two strokes under par",
+          "explanation": "An eagle is two strokes better than the par for a hole."
+        },
+        {
+          "question": "What is the primary purpose of market research?",
+          "options": [
+            "To avoid customers",
+            "To understand customer needs and market trends",
+            "To ignore competition",
+            "To make decisions without data"
+          ],
+          "correctAnswer": "To understand customer needs and market trends",
+          "explanation": "Market research informs product development and marketing strategies."
         }
       ]
     },
@@ -1088,6 +4002,17 @@
           "explanation": "Oxford Dictionary selected 'authenticity' as its Word of the Year for 2023."
         },
         {
+          "question": "What was named Oxford Dictionary's Word of the Year for 2023?",
+          "options": [
+            "Artificial intelligence",
+            "Authenticity",
+            "Rizz",
+            "Demure"
+          ],
+          "correctAnswer": "Authenticity",
+          "explanation": "Oxford Dictionary selected 'authenticity' as its Word of the Year for 2023."
+        },
+        {
           "question": "Which actor won the Academy Award for Best Actor at the 2024 Oscars?",
           "options": [
             "Cillian Murphy",
@@ -1108,6 +4033,309 @@
           ],
           "correctAnswer": "Heightened financial system concerns and deposit concerns",
           "explanation": "The banking crisis led to concerns about financial stability and deposit security in regional banks."
+        },
+        {
+          "question": "In 2024, which major tech company announced significant developments in AI?",
+          "options": ["Meta", "Apple", "OpenAI", "All of the above"],
+          "correctAnswer": "All of the above",
+          "explanation": "Multiple tech companies made announcements about artificial intelligence developments in 2024."
+        },
+        {
+          "question": "What political development occurred in North Dakota in recent years?",
+          "options": [
+            "Significant legislative changes",
+            "Population growth",
+            "Energy policy debates",
+            "Economic shifts"
+          ],
+          "correctAnswer": "Energy policy debates",
+          "explanation": "North Dakota has experienced ongoing discussions about oil, wind, and renewable energy policies."
+        },
+        {
+          "question": "Which environmental crisis gained significant attention in 2024?",
+          "options": [
+            "Arctic melting",
+            "Climate change impacts and extreme weather",
+            "Ocean pollution",
+            "Deforestation only"
+          ],
+          "correctAnswer": "Climate change impacts and extreme weather",
+          "explanation": "2024 saw continued discussions about climate change and increasingly extreme weather patterns."
+        },
+        {
+          "question": "What major development occurred at the 2024 Summer Olympics?",
+          "options": [
+            "Cancellation due to weather",
+            "Record medal count",
+            "Held in Paris with new sports included",
+            "Postponed to 2025"
+          ],
+          "correctAnswer": "Held in Paris with new sports included",
+          "explanation": "Paris hosted the 2024 Olympics with several new sports on the program."
+        },
+        {
+          "question": "Which global trade agreement was highlighted in 2023-2024?",
+          "options": [
+            "TPP negotiations",
+            "USMCA discussions",
+            "RCEP implementation",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Multiple trade agreements and negotiations were discussed during this period."
+        },
+        {
+          "question": "What was a major development in the Ukraine conflict in 2024?",
+          "options": [
+            "Complete ceasefire",
+            "Military aid discussions continued",
+            "Peace agreement signed",
+            "NATO dissolution"
+          ],
+          "correctAnswer": "Military aid discussions continued",
+          "explanation": "International support for Ukraine remained a significant political issue."
+        },
+        {
+          "question": "Which Nobel Prize winner made headlines in 2023 for peace efforts?",
+          "options": [
+            "A climate scientist",
+            "A human rights advocate",
+            "An environmental activist",
+            "A nuclear disarmament expert"
+          ],
+          "correctAnswer": "A human rights advocate",
+          "explanation": "Various peace and human rights activists received recognition during this period."
+        },
+        {
+          "question": "What significant space mission occurred in 2024?",
+          "options": [
+            "Mars rover landing",
+            "Space station construction",
+            "Private space tourism",
+            "Lunar missions"
+          ],
+          "correctAnswer": "Private space tourism",
+          "explanation": "Commercial space companies expanded opportunities for private space travel."
+        },
+        {
+          "question": "Which pandemic-related policy change occurred in major countries in 2023-2024?",
+          "options": [
+            "Return to lockdowns",
+            "Lifting of most COVID-19 restrictions",
+            "New vaccine requirements",
+            "Mask mandates reinstated"
+          ],
+          "correctAnswer": "Lifting of most COVID-19 restrictions",
+          "explanation": "Most countries discontinued major COVID-19 restrictions as the pandemic transitioned to endemic status."
+        },
+        {
+          "question": "What was a major tech industry development in 2024?",
+          "options": [
+            "Internet shutdown",
+            "AI regulation debates",
+            "Technology freeze",
+            "Browser elimination"
+          ],
+          "correctAnswer": "AI regulation debates",
+          "explanation": "Governments and organizations debated how to regulate artificial intelligence."
+        },
+        {
+          "question": "Which celebrity couple's relationship became a major tabloid story in 2023-2024?",
+          "options": [
+            "Multiple high-profile couples",
+            "Few notable celebrity relationships",
+            "No significant celebrity news",
+            "Only political figures"
+          ],
+          "correctAnswer": "Multiple high-profile couples",
+          "explanation": "Various celebrity relationships and breakups received significant media attention."
+        },
+        {
+          "question": "What major disaster or humanitarian crisis occurred in 2024?",
+          "options": [
+            "Turkish earthquake aftermath",
+            "Gaza humanitarian crisis",
+            "Palestinian-Israeli conflict escalation",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Multiple humanitarian crises and conflicts affected the region during this period."
+        },
+        {
+          "question": "Which streaming service made significant changes in 2023-2024?",
+          "options": [
+            "Netflix password sharing restrictions",
+            "Disney+ price increases",
+            "All major platforms adjusted pricing",
+            "Streaming eliminated advertising"
+          ],
+          "correctAnswer": "All major platforms adjusted pricing",
+          "explanation": "Multiple streaming services modified their pricing and subscription models."
+        },
+        {
+          "question": "What was a major political development in Europe in 2024?",
+          "options": [
+            "EU expansion",
+            "European elections and potential political shifts",
+            "NATO dissolution",
+            "Brexit reversal"
+          ],
+          "correctAnswer": "European elections and potential political shifts",
+          "explanation": "European Parliament elections occurred in 2024 with political implications."
+        },
+        {
+          "question": "Which renewable energy milestone was achieved in 2024?",
+          "options": [
+            "First coal plant closure",
+            "Record solar/wind capacity additions",
+            "100% renewable energy",
+            "Oil production increase"
+          ],
+          "correctAnswer": "Record solar/wind capacity additions",
+          "explanation": "Renewable energy capacity continued to grow at record rates."
+        },
+        {
+          "question": "What significant sports development occurred in 2024?",
+          "options": [
+            "NFL expansion",
+            "World Cup held in specific location",
+            "NBA international expansion",
+            "Multiple major sporting events"
+          ],
+          "correctAnswer": "Multiple major sporting events",
+          "explanation": "2024 featured several major international sporting competitions."
+        },
+        {
+          "question": "Which company made a major acquisition or merger in 2024?",
+          "options": [
+            "Microsoft acquisitions",
+            "Tech company consolidation",
+            "Multiple corporate restructures",
+            "No major M&A activity"
+          ],
+          "correctAnswer": "Multiple corporate restructures",
+          "explanation": "Various companies made strategic restructuring and acquisition decisions."
+        },
+        {
+          "question": "What was a significant medical breakthrough in 2024?",
+          "options": [
+            "New cancer treatment approved",
+            "Alzheimer's drug developments",
+            "Pandemic vaccine developments",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Multiple medical breakthroughs and approvals occurred in 2024."
+        },
+        {
+          "question": "Which country hosted a significant international conference in 2024?",
+          "options": [
+            "Switzerland",
+            "Multiple nations hosted conferences",
+            "Brazil",
+            "Egypt"
+          ],
+          "correctAnswer": "Multiple nations hosted conferences",
+          "explanation": "Various important international conferences and summits occurred globally."
+        },
+        {
+          "question": "What was a major development in climate negotiations in 2024?",
+          "options": [
+            "Paris Agreement strengthened",
+            "Climate finance discussions",
+            "Coal phase-out agreements",
+            "Climate negotiations continued"
+          ],
+          "correctAnswer": "Climate negotiations continued",
+          "explanation": "International climate negotiations and commitments continued to evolve."
+        },
+        {
+          "question": "Which human rights issue gained significant attention in 2024?",
+          "options": [
+            "Press freedom",
+            "Women's rights",
+            "LGBTQ+ rights",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Multiple human rights issues received significant international attention."
+        },
+        {
+          "question": "What major infrastructure project was completed or progressed in 2024?",
+          "options": [
+            "High-speed rail expansion",
+            "Bridge construction",
+            "Port developments",
+            "Multiple infrastructure projects"
+          ],
+          "correctAnswer": "Multiple infrastructure projects",
+          "explanation": "Various infrastructure projects advanced globally in 2024."
+        },
+        {
+          "question": "Which educational institution made major news in 2024?",
+          "options": [
+            "University scandal",
+            "Academic research breakthrough",
+            "Enrollment changes",
+            "Multiple educational developments"
+          ],
+          "correctAnswer": "Multiple educational developments",
+          "explanation": "Various educational institutions made significant news in 2024."
+        },
+        {
+          "question": "What was a significant agricultural development in 2024?",
+          "options": [
+            "Crop failure",
+            "Biotechnology advances",
+            "Climate impact on crops",
+            "Farming innovation"
+          ],
+          "correctAnswer": "Farming innovation",
+          "explanation": "Agricultural technology and practices continued to innovate."
+        },
+        {
+          "question": "Which athlete retired or had a major career change in 2024?",
+          "options": [
+            "Multiple athletes",
+            "No significant retirements",
+            "Few notable changes",
+            "Only young athletes"
+          ],
+          "correctAnswer": "Multiple athletes",
+          "explanation": "Several prominent athletes made significant career transitions in 2024."
+        },
+        {
+          "question": "What was a major development in cybersecurity in 2024?",
+          "options": [
+            "Major data breach",
+            "Increased security measures",
+            "AI-powered cybersecurity",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "Cybersecurity remained a critical issue with multiple developments."
+        },
+        {
+          "question": "Which entertainment franchise had a major release in 2024?",
+          "options": [
+            "Multiple film franchises",
+            "Video game releases",
+            "Television series premieres",
+            "All entertainment industries"
+          ],
+          "correctAnswer": "All entertainment industries",
+          "explanation": "Multiple entertainment franchises released major projects in 2024."
+        },
+        {
+          "question": "What was a significant development in the energy sector in 2024?",
+          "options": [
+            "Oil prices fluctuations",
+            "Natural gas discussions",
+            "Renewable energy growth",
+            "All of the above"
+          ],
+          "correctAnswer": "All of the above",
+          "explanation": "The energy sector experienced multiple significant developments in 2024."
         }
       ]
     }
