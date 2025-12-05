@@ -22,9 +22,9 @@
   --option-bg-end: rgba(0, 0, 0, 0.02);
 
   /* accents */
-  --accent: #2e8b57; /* green */
-  --accent-2: #1e88e5; /* blue */
-  --danger: #c94444; /* red */
+  --accent: #1a73e8; /* primary Google-like blue */
+  --accent-2: #4285f4; /* secondary blue accent */
+  --danger: #c94444; /* red for errors/wrong answers — this makes it red */
 
   /* floating badges */
   --floating-contrast: #04231a; /* dark text when on bright gradient */
@@ -44,21 +44,27 @@
   --body-fallback: #eef3f7;
 }
 
-/* Dark mode overrides: attached to the root element as the 'dark' class */
+/* NOTE: removed extra "modal" variable — keeping styles simple and explicit as requested */
+
+/* Human notes: move the settings cog to a comfortable thumb position on phones;
+  place the X button on the left so it doesn't overlap with the cog on desktop. */
+
+/* Dark theme variables. Put these in a dedicated :root.dark block so they are
+   only applied when the root element has the `dark` class. */
 :root.dark {
-  --bg: #071921; /* deep teal/near-black */
+  --bg: #071921; /* dark page background */
   --bg-2: #0b2830;
   --surface: #0f2a33; /* panels in dark */
-  --text-color: #d7f2eb; /* warm off-white for high contrast (not pure white) */
-  --muted: #9fb7bd; /* muted but readable */
+  --text-color: #d7f2eb; /* warm off-white for high contrast */
+  --muted: #9fb7bd;
   --option-bg-start: rgba(12, 36, 45, 0.78);
   --option-bg-end: rgba(8, 28, 36, 0.78);
 
-  --accent: #4cd08a; /* brighter green in dark */
-  --accent-2: #3bb0ff; /* brighter blue in dark */
-  --danger: #ff7b7b; /* soft red for dark */
+  --accent: #4cd08a;
+  --accent-2: #5aa0ff;
+  --danger: #ff7b7b;
 
-  --floating-contrast: #0c1b17; /* dark text color used for badge labels */
+  --floating-contrast: #0c1b17;
 
   --toggle-knob: #0f2a33;
   --toggle-track-checked: linear-gradient(90deg, #4cd08a, #3bb0ff);
@@ -67,6 +73,8 @@
   --shadow-dark: rgba(0, 0, 0, 0.6);
   --body-fallback: #071921;
 }
+
+/* avoid making the settings cog full-width — handled by media rules below */
 
 /* Base layout */
 html,
@@ -125,21 +133,25 @@ h1 {
 @media (max-width: 600px) {
   h1 {
     font-size: 1.5rem;
-    margin-bottom: 14px;
+    margin: 12px 12px;
+    padding: 18px;
+    width: calc(100% - 24px);
+    max-width: none;
+    box-shadow: 0 8px 24px rgba(16, 32, 40, 0.06);
+    background: var(--surface);
+    padding: 22px;
+    margin: 20px auto;
+    max-width: 760px;
+    border-radius: var(--radius);
+    /* subtler material-like shadow (Google/Gemini style) */
+    box-shadow: 0 6px 18px rgba(16, 32, 40, 0.06);
+    transition: transform var(--transition-fast),
+      box-shadow var(--transition-fast);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
-}
-
-/* Card / flashcard */
-.flashcard {
-  background: var(--surface);
-  padding: 22px;
-  margin: 20px auto;
-  max-width: 760px;
-  border-radius: var(--radius);
-  box-shadow: 10px 10px 20px var(--shadow-dark),
-    -8px -8px 20px var(--shadow-light);
-  transition: transform var(--transition-fast),
-    box-shadow var(--transition-fast);
 }
 
 .question {
@@ -154,7 +166,8 @@ h1 {
 #chart-container {
   width: 100%;
   max-width: 780px;
-  height: 420px;
+  /* adapt height to viewport on small screens while keeping a sensible max */
+  height: min(46vh, 420px);
   margin: 18px auto;
   padding: 0; /* let the canvas fill the container */
   border-radius: 0;
@@ -228,7 +241,7 @@ h1 {
   cursor: pointer;
   text-align: left;
   box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.04),
-    6px 6px 12px rgba(0, 0, 0, 0.04), -4px -4px 8px rgba(255, 255, 255, 0.06);
+    0 6px 14px rgba(16, 32, 40, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.02);
   transition: transform 120ms ease, box-shadow 120ms ease,
     background-color 160ms ease;
 }
@@ -248,8 +261,8 @@ select#testSelect {
     var(--option-bg-end)
   );
   color: var(--text-color);
-  box-shadow: 6px 6px 12px var(--shadow-dark),
-    -6px -6px 12px var(--shadow-light);
+  /* flatter shadow for a modern material look */
+  box-shadow: 0 6px 14px rgba(16, 32, 40, 0.06);
   cursor: pointer;
   font-weight: 600;
   transition: box-shadow 140ms ease, transform 120ms ease, background 160ms ease;
@@ -337,8 +350,7 @@ select#testSelect {
   .custom-select-item:hover,
   button:hover {
     transform: translateY(-2px);
-    box-shadow: 8px 8px 18px var(--shadow-dark),
-      -6px -6px 14px var(--shadow-light);
+    box-shadow: 0 8px 22px rgba(16, 32, 40, 0.08);
   }
   .custom-select-item:hover {
     background: linear-gradient(
@@ -352,7 +364,7 @@ select#testSelect {
 select#testSelect:focus {
   outline: none;
   box-shadow: 0 0 0 4px rgba(50, 150, 230, 0.08),
-    6px 6px 12px var(--shadow-dark);
+    0 8px 20px rgba(16, 32, 40, 0.06);
 }
 
 /* Disabled state */
@@ -437,8 +449,8 @@ button {
   padding: 10px 14px;
   margin-left: 8px;
   border-radius: 10px;
-  box-shadow: 6px 6px 12px var(--shadow-dark),
-    -6px -6px 12px var(--shadow-light);
+  /* subtle material elevation */
+  box-shadow: 0 2px 6px rgba(16, 32, 40, 0.08);
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
   color: var(--text-color);
@@ -450,7 +462,7 @@ button:hover {
 }
 button:active {
   transform: translateY(1px);
-  box-shadow: 3px 3px 6px var(--shadow-dark), -3px -3px 6px var(--shadow-light);
+  box-shadow: 0 1px 3px rgba(16, 32, 40, 0.06);
 }
 
 /* duplicate simple select rule removed; improved select styles are defined earlier */
@@ -472,32 +484,37 @@ select:focus {
 
 @media (max-width: 520px) {
   .flashcard {
-    margin: 10px 6px;
-    padding: 14px;
+    margin: 10px 10px;
+    padding: 18px;
+    width: calc(100% - 20px);
+    max-width: none;
   }
   #chart-container {
-    height: 280px;
-    margin: 12px auto;
+    height: min(44vh, 360px);
+    margin: 12px auto 18px;
   }
   h1 {
     font-size: 1.4rem;
     margin-bottom: 12px;
   }
   .question {
-    font-size: 15px;
-    line-height: 1.4;
+    font-size: 16px;
+    line-height: 1.45;
   }
   .options li {
-    padding: 12px 12px;
-    margin: 8px 6px;
-    font-size: 15px;
+    padding: 14px 14px;
+    margin: 10px 8px;
+    font-size: 16px;
+    min-height: 48px;
   }
-  button {
+  /* keep the settings cog small — don't make it full width */
+  button:not(.settings-btn) {
     padding: 12px 14px;
-    margin-left: 4px;
-    font-size: 14px;
-    min-width: 44px;
-    min-height: 44px;
+    margin-left: 0;
+    font-size: 15px;
+    min-width: 100%;
+    min-height: 48px;
+    box-sizing: border-box;
   }
   select#testSelect {
     padding: 12px 40px 12px 12px;
@@ -514,7 +531,7 @@ select:focus {
     width: calc(100% - 20px);
     max-width: none;
     box-shadow: 4px 4px 12px var(--shadow-dark),
-      -3px -3px 8px var(--shadow-light);
+      -6px -6px 12px var(--shadow-light);
   }
 
   /* Chart and legend should fit and not require hover */
@@ -701,6 +718,7 @@ select:focus {
 }
 
 /* Theme toggle (top-right) */
+/* settings cog: small round button that opens settings. keep it compact. */
 .settings-btn {
   position: fixed;
   right: 10px;
@@ -708,9 +726,9 @@ select:focus {
   z-index: 1200;
   background: var(--surface, #ffffff);
   border: none;
-  border-radius: 8px;
-  padding: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(16, 32, 40, 0.06);
   cursor: pointer;
   min-width: 48px;
   min-height: 48px;
@@ -720,7 +738,7 @@ select:focus {
   transition: box-shadow 140ms ease, transform 120ms ease;
 }
 .settings-btn:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 8px 22px rgba(16, 32, 40, 0.08);
   transform: translateY(-1px);
 }
 .settings-btn:active {
@@ -739,8 +757,21 @@ select:focus {
   -webkit-backdrop-filter: blur(8px);
   border-radius: 12px;
 }
+/* settings panel: the box that appears when you click the cog. keep spacing tidy. */
 .settings-close {
+  /* Put the X on the left so it doesn't overlap the top-right cog/button.
+     Use !important to override inline styles coming from the HTML. */
+  position: absolute !important;
+  left: 12px !important;
+  right: auto !important;
+  top: 12px !important;
+  background: rgba(0, 0, 0, 0.04);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 18px;
   cursor: pointer;
+  z-index: 1401;
 }
 
 /* Ensure theme-switch label aligns nicely in the settings panel */
@@ -939,8 +970,7 @@ select:focus {
   background: var(--surface);
   border-radius: 10px;
   padding: 10px 14px;
-  box-shadow: 6px 6px 12px var(--shadow-dark),
-    -6px -6px 12px var(--shadow-light);
+  box-shadow: 0 6px 14px rgba(16, 32, 40, 0.06);
   border: none;
   cursor: pointer;
   color: var(--text-color);
@@ -1180,6 +1210,105 @@ select:focus {
   box-shadow: 10px 18px 36px rgba(0, 0, 0, 0.72),
     -8px -8px 18px rgba(255, 255, 255, 0.02);
   color: var(--text-color);
+}
+/* removed modal-specific variable per user preference */
+
+/* Mobile-specific tweaks for settings modal and button */
+@media (max-width: 600px) {
+  /* Move the settings button to bottom-right for easier thumb reach */
+  .settings-btn {
+    right: 12px !important;
+    left: auto !important;
+    bottom: 12px !important;
+    top: auto !important;
+    padding: 10px !important;
+    border-radius: 12px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    box-shadow: 0 6px 18px rgba(16, 32, 40, 0.08) !important;
+  }
+
+  /* Make the modal behave like a bottom-sheet on small screens */
+  .settings-modal {
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+    padding: 0 !important;
+  }
+
+  .settings-panel {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    border-radius: 12px 12px 0 0 !important;
+    padding: 16px !important;
+    box-shadow: 0 -12px 40px rgba(10, 20, 30, 0.28) !important;
+    max-height: 92vh !important;
+    overflow-y: auto !important;
+    position: relative !important;
+  }
+
+  /* Make the X a bit larger on phones and keep it on the left for consistency */
+  .settings-close {
+    left: 12px !important;
+    right: auto !important;
+    top: 10px !important;
+    font-size: 20px !important;
+    padding: 8px 10px !important;
+    background: rgba(0, 0, 0, 0.06) !important;
+    color: var(--text-color) !important;
+    border-radius: 10px !important;
+  }
+
+  /* Stack theme controls and increase spacing inside sections */
+  .settings-section {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+  }
+
+  .settings-section > div:first-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .theme-switch {
+    margin-left: auto;
+  }
+
+  /* Make inputs and buttons full-width and easier to tap */
+  .report-input,
+  .report-actions button,
+  .auth-section input,
+  .auth-section button,
+  .lb-submit input,
+  .lb-submit button {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .report-actions {
+    flex-direction: column !important;
+    gap: 8px !important;
+    align-items: stretch !important;
+  }
+
+  /* Ensure buttons in auth-section stack vertically and are full width */
+  .auth-section > div[style*="display: flex"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  /* Slightly larger text inside modal for readability */
+  .settings-panel,
+  .settings-panel input,
+  .settings-panel textarea,
+  .settings-panel button {
+    font-size: 15px !important;
+  }
 }
 :root.dark .lb-list {
   background: linear-gradient(
