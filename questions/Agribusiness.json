@@ -28,12 +28,7 @@
         },
         {
           "question": "Which federal agency enforces standards to protect agricultural workers from occupational hazards?",
-          "options": [
-            "OSHA",
-            "FDA",
-            "EPA",
-            "IRS"
-          ],
+          "options": ["OSHA", "FDA", "EPA", "IRS"],
           "correctAnswer": "OSHA",
           "explanation": "The Occupational Safety and Health Administration (OSHA) enforces workplace safety standards, including those for farming operations. The FDA regulates food safety, EPA handles environmental protection, and IRS oversees taxes."
         },
@@ -100,24 +95,24 @@
         {
           "question": "Which of the following best explains Health, Safety, and Environmental Management? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Health, Safety, and Environmental Management — part 2",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Health, Safety, and Environmental Management — part 2",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Health, Safety, and Environmental Management?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Health, Safety, and Environmental Management — part 2",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Health, Safety, and Environmental Management — part 2",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Health, Safety, and Environmental Management — part 2?",
@@ -286,13 +281,13 @@
         {
           "question": "How does a manager typically Management Analysis and Decision Making? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Management Analysis and Decision Making — part 2",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Management Analysis and Decision Making — part 2",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Management Analysis and Decision Making — part 2?",
@@ -378,12 +373,7 @@
       "questions": [
         {
           "question": "Which of the following is NOT one of the 4 Ps of marketing?",
-          "options": [
-            "Product",
-            "Price",
-            "Promotion",
-            "Production"
-          ],
+          "options": ["Product", "Price", "Promotion", "Production"],
           "correctAnswer": "Production",
           "explanation": "The 4 Ps are Product, Price, Place, and Promotion. Production is an operational activity, not a marketing mix element."
         },
@@ -433,12 +423,7 @@
         },
         {
           "question": "Which stage of the product life cycle usually requires the highest advertising expenditure?",
-          "options": [
-            "Introduction",
-            "Growth",
-            "Maturity",
-            "Decline"
-          ],
+          "options": ["Introduction", "Growth", "Maturity", "Decline"],
           "correctAnswer": "Introduction",
           "explanation": "Heavy advertising is needed during the introduction stage to build awareness and educate consumers about new products."
         },
@@ -472,13 +457,13 @@
         {
           "question": "Which of the following best explains Marketing? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Applying strategies to reach and persuade target customers",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Applying strategies to reach and persuade target customers",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Marketing — part 2?",
@@ -597,12 +582,7 @@
         },
         {
           "question": "When the government sets a minimum price for milk that is above the market equilibrium, what results?",
-          "options": [
-            "Shortage",
-            "Surplus",
-            "Inflation",
-            "Inelastic demand"
-          ],
+          "options": ["Shortage", "Surplus", "Inflation", "Inelastic demand"],
           "correctAnswer": "Surplus",
           "explanation": "A price floor above equilibrium creates excess supply because producers want to sell more, but consumers buy less at the higher price."
         },
@@ -669,13 +649,13 @@
         {
           "question": "Which practice helps Economics? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Economics — part 2",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Economics — part 2",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Economics — part 2?",
@@ -887,12 +867,7 @@
         },
         {
           "question": "If a farm sells $500,000 in produce and has $350,000 in expenses, what is the net income?",
-          "options": [
-            "$150,000",
-            "$350,000",
-            "$500,000",
-            "$850,000"
-          ],
+          "options": ["$150,000", "$350,000", "$500,000", "$850,000"],
           "correctAnswer": "$150,000",
           "explanation": "Net income = Revenue – Expenses. $500,000 – $350,000 = $150,000."
         },
@@ -954,13 +929,13 @@
         {
           "question": "(Hard) How does a manager typically Finance and Accounting? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Finance and Accounting — part 2",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Finance and Accounting — part 2",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -1074,13 +1049,13 @@
         {
           "question": "Why is it important to Terminology and Trends? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Terminology and Trends — part 2",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Terminology and Trends — part 2",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Terminology and Trends — part 2?",

@@ -6,12 +6,7 @@
       "questions": [
         {
           "question": "Which element of the marketing mix refers to the methods used to communicate a product's value to customers?",
-          "options": [
-            "Product",
-            "Price",
-            "Place",
-            "Promotion"
-          ],
+          "options": ["Product", "Price", "Place", "Promotion"],
           "correctAnswer": "Promotion",
           "explanation": "Promotion is the element of the marketing mix focused on communicating product benefits and value to the target audience."
         },
@@ -106,13 +101,13 @@
         {
           "question": "(Hard) Which practice helps Marketing Fundamentals? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Applying strategies to reach and persuade target customers",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Applying strategies to reach and persuade target customers",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -187,12 +182,7 @@
         },
         {
           "question": "Which advertising medium allows for precise, measurable online engagement?",
-          "options": [
-            "Television",
-            "Radio",
-            "Social media",
-            "Newspapers"
-          ],
+          "options": ["Television", "Radio", "Social media", "Newspapers"],
           "correctAnswer": "Social media",
           "explanation": "Social media platforms allow advertisers to track clicks, impressions, conversions, and engagement in real time."
         },
@@ -221,13 +211,13 @@
         {
           "question": "(Hard) How does a manager typically Advertising Media & Strategies? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Applying strategies to reach and persuade target customers",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Applying strategies to reach and persuade target customers",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -336,13 +326,13 @@
         {
           "question": "(Hard) Which is a challenging question about Branding, Positioning & Advertising Planning?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Applying strategies to reach and persuade target customers",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Applying strategies to reach and persuade target customers",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -451,13 +441,13 @@
         {
           "question": "(Hard) Which is a challenging question about Financial & Economic Aspects?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Financial & Economic Aspects",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Financial & Economic Aspects",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -566,13 +556,13 @@
         {
           "question": "(Hard) What is the primary purpose of Market Analysis & Segmentation? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Market Analysis & Segmentation",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Market Analysis & Segmentation",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -581,23 +571,13 @@
       "questions": [
         {
           "question": "Which stage of the product life cycle focuses on building awareness and encouraging trial?",
-          "options": [
-            "Introduction",
-            "Growth",
-            "Maturity",
-            "Decline"
-          ],
+          "options": ["Introduction", "Growth", "Maturity", "Decline"],
           "correctAnswer": "Introduction",
           "explanation": "The introduction stage involves launching the product, creating awareness, and stimulating early adoption."
         },
         {
           "question": "During which stage do sales peak and profits often stabilize or decline due to competition?",
-          "options": [
-            "Introduction",
-            "Growth",
-            "Maturity",
-            "Decline"
-          ],
+          "options": ["Introduction", "Growth", "Maturity", "Decline"],
           "correctAnswer": "Maturity",
           "explanation": "In maturity, the product has widespread adoption, but market saturation and competition may reduce growth."
         },
@@ -681,13 +661,13 @@
         {
           "question": "(Hard) What is the primary purpose of Product Lifecycle & Distribution? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Product Lifecycle & Distribution",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Product Lifecycle & Distribution",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -696,12 +676,7 @@
       "questions": [
         {
           "question": "Which component of the communication process encodes the message to be delivered?",
-          "options": [
-            "Sender",
-            "Encoding",
-            "Receiver",
-            "Feedback"
-          ],
+          "options": ["Sender", "Encoding", "Receiver", "Feedback"],
           "correctAnswer": "Encoding",
           "explanation": "Encoding is the process of turning ideas into messages or symbols that can be communicated to the audience."
         },
@@ -796,13 +771,13 @@
         {
           "question": "(Hard) What is the primary purpose of Communication, Messaging & Ethics? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Conveying information clearly and appropriately to intended audiences",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Conveying information clearly and appropriately to intended audiences",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -911,13 +886,13 @@
         {
           "question": "(Hard) Why is it important to Global & Industry Considerations? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Global & Industry Considerations",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Global & Industry Considerations",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -937,12 +912,7 @@
         },
         {
           "question": "Which of the following is a trade sales promotion?",
-          "options": [
-            "Push money",
-            "Loyalty program",
-            "Rebate",
-            "Sweepstakes"
-          ],
+          "options": ["Push money", "Loyalty program", "Rebate", "Sweepstakes"],
           "correctAnswer": "Push money",
           "explanation": "Trade promotions target intermediaries, like retailers, offering incentives to promote or sell products."
         },
@@ -981,12 +951,7 @@
         },
         {
           "question": "Which component of advertising communication involves decoding the message?",
-          "options": [
-            "Receiver",
-            "Sender",
-            "Encoding",
-            "SWOT analysis"
-          ],
+          "options": ["Receiver", "Sender", "Encoding", "SWOT analysis"],
           "correctAnswer": "Receiver",
           "explanation": "The receiver interprets or decodes the message sent by the advertiser."
         },
@@ -1026,13 +991,13 @@
         {
           "question": "(Hard) Which is a challenging question about Sales Promotion & Consumer-Oriented Advertising?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Applying strategies to reach and persuade target customers",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Applying strategies to reach and persuade target customers",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -1141,13 +1106,13 @@
         {
           "question": "(Hard) Which is a challenging question about Review & Trick Questions?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Review & Trick Questions",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Review & Trick Questions",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     }

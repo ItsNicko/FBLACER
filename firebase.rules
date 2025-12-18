@@ -2,30 +2,34 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // === Public (no login) configuration (read-only) ===
+    // public config (no login) read-only
     match /config/{docId} {
       allow read: if true;
       allow write: if false;
     }
 
-    // === Public accounts (view only, owners can edit) ===
+    // public accounts view only, owners can edit
     match /accounts/{uid} {
       allow read: if true;
       allow write: if request.auth != null && request.auth.uid == uid;
     }
 
-    // === Public username lookup ===
+    // public username lookup
     match /usernames/{username} {
       allow read: if true;
       allow write: if request.auth != null;
     }
 
-    // === Leaderboards (public) ===
+    // leaderboards (public)
     match /leaderboards/{testId}/scores/{scoreId} {
       allow read: if true;
 
-      allow create: if 
-        request.resource.data.keys().hasOnly(['name', 'score', 'timestamp']) &&
+      // allow creating leaderboard entries, accept name+score or name+score+timestamp
+      // if timestamp given it must be a timestamp, otherwise server will set it
+      allow create: if (
+        request.resource.data.keys().hasOnly(['name', 'score']) ||
+        request.resource.data.keys().hasOnly(['name', 'score', 'timestamp'])
+      ) &&
         request.resource.data.name is string &&
         request.resource.data.name.size() > 0 &&
         request.resource.data.name.size() <= 20 &&
@@ -33,25 +37,46 @@ service cloud.firestore {
         request.resource.data.score is int &&
         request.resource.data.score >= 0 &&
         request.resource.data.score <= 1000000 &&
-        request.time - request.resource.data.timestamp < duration.value(10, 'seconds') &&
-        request.resource.data.timestamp - request.time < duration.value(1, 'm');
+        (!('timestamp' in request.resource.data) || request.resource.data.timestamp is timestamp);
 
       allow update, delete: if false;
     }
 
 
 
-    // === Logs (non-sensitive telemetry) ===
+    // logs (non-sensitive telemetry)
     match /logs/{logId} {
-      allow create: if request.resource.data.keys().hasOnly(['event', 'timestamp']) &&
-                    request.resource.data.event is string &&
-                    request.resource.data.event.size() <= 200 &&
-                    request.time - request.resource.data.timestamp < duration.value(5, 'seconds');
+      // allow creating logs with optional timestamp
+      // support legacy event format and newer action+context format
+      allow create: if (
+        // legacy event format
+        (
+          (request.resource.data.keys().hasOnly(['event']) ||
+           request.resource.data.keys().hasOnly(['event', 'timestamp']))
+          && request.resource.data.event is string
+        )
+        ||
+        // new action/context format used by client writeLog
+        (
+          (
+            request.resource.data.keys().hasOnly(['action']) ||
+            request.resource.data.keys().hasOnly(['action', 'timestamp']) ||
+            request.resource.data.keys().hasOnly(['action', 'context']) ||
+            request.resource.data.keys().hasOnly(['action', 'context', 'timestamp'])
+          )
+          && request.resource.data.action is string
+        )
+      ) &&
+        // optional timestamp must be a timestamp
+        (!('timestamp' in request.resource.data) || request.resource.data.timestamp is timestamp) &&
+        // limit text sizes when provided
+        (!('event' in request.resource.data) || request.resource.data.event.size() <= 200) &&
+        (!('action' in request.resource.data) || request.resource.data.action.size() <= 200);
       allow read: if true;
       allow update, delete: if false;
     }
 
-    // === Reports (write-only anonymous feedback) ===
+    // reports (write-only anonymous feedback)
     match /reports/{reportId} {
       allow create: if request.resource.data.keys().hasAll(['message', 'page']) 
                     && request.resource.data.message is string
@@ -62,12 +87,12 @@ service cloud.firestore {
       allow read, update, delete: if false;
     }
 
-    // === ALL Private User Data (scores, topics, analytics, etc.) ===
+    // all private user data (scores, topics, analytics, etc.)
     match /users/{userId} {
-      // Access to user root doc
+      // access to user root doc (only owner)
       allow read, write: if request.auth != null && request.auth.uid == userId;
 
-      // Subcollections (scores, topics, analytics, future additions)
+      // subcollections (scores, topics, analytics)
       match /{subCollection}/{docId} {
         allow read, write: if request.auth != null && request.auth.uid == userId;
       }

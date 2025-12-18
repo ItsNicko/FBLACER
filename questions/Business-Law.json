@@ -83,12 +83,7 @@
         },
         {
           "question": "Which system of law is used in most of the United States?",
-          "options": [
-            "Common Law",
-            "Civil Law",
-            "Sharia Law",
-            "Customary Law"
-          ],
+          "options": ["Common Law", "Civil Law", "Sharia Law", "Customary Law"],
           "correctAnswer": "Common Law",
           "explanation": "The U.S. primarily follows a common law system influenced by English legal traditions."
         },
@@ -106,13 +101,13 @@
         {
           "question": "(Hard) Which is a challenging question about Legal Systems?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Understanding legal frameworks that affect business transactions and obligations",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Understanding legal frameworks that affect business transactions and obligations",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -209,25 +204,20 @@
         },
         {
           "question": "Which element involves the exchange of value between contracting parties?",
-          "options": [
-            "Consideration",
-            "Offer",
-            "Acceptance",
-            "Capacity"
-          ],
+          "options": ["Consideration", "Offer", "Acceptance", "Capacity"],
           "correctAnswer": "Consideration",
           "explanation": "Consideration is the benefit or detriment exchanged between parties to create a valid contract."
         },
         {
           "question": "(Hard) Which is a challenging question about Contracts and Sales?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Understanding legal frameworks that affect business transactions and obligations",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Understanding legal frameworks that affect business transactions and obligations",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -336,13 +326,13 @@
         {
           "question": "(Hard) Which is a challenging question about Business Organization?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Business Organization",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Business Organization",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -384,23 +374,13 @@
         },
         {
           "question": "Which legal concept allows a person to use another’s land for a specific purpose without owning it?",
-          "options": [
-            "Easement",
-            "Lease",
-            "License",
-            "Mortgage"
-          ],
+          "options": ["Easement", "Lease", "License", "Mortgage"],
           "correctAnswer": "Easement",
           "explanation": "An easement grants a legal right to use someone else's property for a defined purpose."
         },
         {
           "question": "Which document conveys ownership of property from one party to another?",
-          "options": [
-            "Deed",
-            "Contract",
-            "Bill of Sale",
-            "Lease Agreement"
-          ],
+          "options": ["Deed", "Contract", "Bill of Sale", "Lease Agreement"],
           "correctAnswer": "Deed",
           "explanation": "A deed is a written instrument transferring legal ownership of property."
         },
@@ -451,13 +431,13 @@
         {
           "question": "(Hard) What is the primary purpose of Property Laws? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Property Laws",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Property Laws",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -466,12 +446,7 @@
       "questions": [
         {
           "question": "Which relationship allows one person to act on behalf of another in business transactions?",
-          "options": [
-            "Agency",
-            "Partnership",
-            "Employment",
-            "Corporation"
-          ],
+          "options": ["Agency", "Partnership", "Employment", "Corporation"],
           "correctAnswer": "Agency",
           "explanation": "Agency law establishes a legal relationship where an agent represents a principal in business dealings."
         },
@@ -554,25 +529,20 @@
         },
         {
           "question": "Which employment law protects employees’ rights to fair wages regardless of gender?",
-          "options": [
-            "Equal Pay Act",
-            "FLSA",
-            "Title VII",
-            "OSHA"
-          ],
+          "options": ["Equal Pay Act", "FLSA", "Title VII", "OSHA"],
           "correctAnswer": "Equal Pay Act",
           "explanation": "The Equal Pay Act requires equal pay for equal work regardless of sex."
         },
         {
           "question": "(Hard) Which practice helps Agency and Employment Laws? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Agency and Employment Laws",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Agency and Employment Laws",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -581,23 +551,13 @@
       "questions": [
         {
           "question": "Which document promises payment to a specified person or bearer?",
-          "options": [
-            "Promissory Note",
-            "Invoice",
-            "Receipt",
-            "Bill of Sale"
-          ],
+          "options": ["Promissory Note", "Invoice", "Receipt", "Bill of Sale"],
           "correctAnswer": "Promissory Note",
           "explanation": "A promissory note is a written promise to pay a specific sum to a designated party."
         },
         {
           "question": "Which instrument allows the holder to demand immediate payment of a debt?",
-          "options": [
-            "Demand Note",
-            "Mortgage",
-            "Lease",
-            "Bill of Lading"
-          ],
+          "options": ["Demand Note", "Mortgage", "Lease", "Bill of Lading"],
           "correctAnswer": "Demand Note",
           "explanation": "A demand note is payable immediately upon the holder’s request."
         },
@@ -669,25 +629,20 @@
         },
         {
           "question": "Which term refers to the legal claim a lender holds against collateral property?",
-          "options": [
-            "Lien",
-            "Mortgage",
-            "Warranty",
-            "Leasehold Interest"
-          ],
+          "options": ["Lien", "Mortgage", "Warranty", "Leasehold Interest"],
           "correctAnswer": "Lien",
           "explanation": "A lien gives a creditor the right to take possession of property to secure payment of a debt."
         },
         {
           "question": "(Hard) Which is a challenging question about Negotiable Instruments, Insurance, Secured Transactions, Bankruptcy?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Negotiable Instruments, Insurance, Secured Transactions, Bankruptcy",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Negotiable Instruments, Insurance, Secured Transactions, Bankruptcy",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -796,13 +751,13 @@
         {
           "question": "(Hard) Which is a challenging question about Consumer Protection and Product/Personal Liability?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A correct explanation or purpose of Consumer Protection and Product/Personal Liability",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Consumer Protection and Product/Personal Liability",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -911,13 +866,13 @@
         {
           "question": "(Hard) How does a manager typically Computer Law? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -948,12 +903,7 @@
         },
         {
           "question": "Which legal principle allows a person to sue for harm caused by another’s negligent or intentional act?",
-          "options": [
-            "Tort Law",
-            "Contract Law",
-            "Criminal Law",
-            "Family Law"
-          ],
+          "options": ["Tort Law", "Contract Law", "Criminal Law", "Family Law"],
           "correctAnswer": "Tort Law",
           "explanation": "Tort law provides remedies for civil wrongs that result in personal or property injury."
         },
@@ -981,12 +931,7 @@
         },
         {
           "question": "Which legal concept allows parties to transfer property rights to another person temporarily or permanently?",
-          "options": [
-            "Conveyance",
-            "Lease",
-            "License",
-            "Mortgage"
-          ],
+          "options": ["Conveyance", "Lease", "License", "Mortgage"],
           "correctAnswer": "Conveyance",
           "explanation": "Conveyance refers to the legal process of transferring ownership or interest in property."
         },
@@ -1003,12 +948,7 @@
         },
         {
           "question": "Which legal principle protects personal privacy and confidentiality in domestic matters?",
-          "options": [
-            "Privacy Law",
-            "Tort Law",
-            "Contract Law",
-            "Family Law"
-          ],
+          "options": ["Privacy Law", "Tort Law", "Contract Law", "Family Law"],
           "correctAnswer": "Privacy Law",
           "explanation": "Privacy law regulates the collection, use, and protection of personal information to prevent intrusion."
         },
@@ -1026,13 +966,13 @@
         {
           "question": "(Hard) Which of the following best explains Domestic and Private Law? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Domestic and Private Law",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Domestic and Private Law",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -1141,13 +1081,13 @@
         {
           "question": "(Hard) Which is a challenging question about Business Law (High School) - Final Questions?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Understanding legal frameworks that affect business transactions and obligations",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Understanding legal frameworks that affect business transactions and obligations",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     }

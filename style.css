@@ -44,12 +44,12 @@
   --body-fallback: #eef3f7;
 }
 
-/* NOTE: removed extra "modal" variable — keeping styles simple and explicit as requested */
+/* note: removed extra "modal" variable - keeping styles simple and explicit */
 
-/* Human notes: move the settings cog to a comfortable thumb position on phones;
+/* human notes: move the settings cog to a comfortable thumb position on phones;
   place the X button on the left so it doesn't overlap with the cog on desktop. */
 
-/* Dark theme variables. Put these in a dedicated :root.dark block so they are
+/* dark theme variables. put these in :root.dark so they are
    only applied when the root element has the `dark` class. */
 :root.dark {
   --bg: #071921; /* dark page background */
@@ -76,7 +76,7 @@
 
 /* avoid making the settings cog full-width — handled by media rules below */
 
-/* Base layout */
+/* base layout */
 html,
 body,
 html {
@@ -86,7 +86,7 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-  /* Use CSS variables for gradient stops so theme can override --bg/--bg-2 */
+  /* use css variables for gradient stops so theme can override --bg/--bg-2 */
   background-image: linear-gradient(180deg, var(--bg), var(--bg-2));
   background-attachment: fixed; /* prevents gradient from shifting with content */
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ body {
   }
 }
 
-/* Typographic tweaks */
+/* typographic tweaks */
 h1,
 h2,
 h3,
@@ -143,7 +143,7 @@ h1 {
     margin: 20px auto;
     max-width: 760px;
     border-radius: var(--radius);
-    /* subtler material-like shadow (Google/Gemini style) */
+    /* subtler material-like shadow (google/gemini style) */
     box-shadow: 0 6px 18px rgba(16, 32, 40, 0.06);
     transition: transform var(--transition-fast),
       box-shadow var(--transition-fast);
@@ -162,7 +162,7 @@ h1 {
   letter-spacing: 0.3px;
 }
 
-/* Charts / containers */
+/* charts / containers */
 #chart-container {
   width: 100%;
   max-width: 780px;
@@ -183,7 +183,7 @@ h1 {
   border-radius: 8px;
 }
 
-/* HTML legend placed under the canvas so its colors update immediately via CSS variables */
+/* html legend placed under the canvas so its colors update immediately via css variables */
 .chart-legend {
   display: flex;
   flex-wrap: wrap;
@@ -208,7 +208,7 @@ h1 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06) inset;
 }
 
-/* Chart container chrome removed: the doughnut canvas renders concave inner shadows via a plugin. */
+/* chart container chrome removed: doughnut canvas renders concave inner shadows via plugin */
 
 .stats-row {
   display: flex;
@@ -218,7 +218,7 @@ h1 {
   margin-top: 8px;
 }
 
-/* Options list (neumorphic buttons) */
+/* options list (neumorphic buttons) */
 .options {
   list-style: none;
   padding: 0;
@@ -246,7 +246,7 @@ h1 {
     background-color 160ms ease;
 }
 
-/* Improved select/dropdown styling with neumorphism and dark-mode aware variables */
+/* improved select/dropdown styling with neumorphism and dark-mode aware variables */
 select#testSelect {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -278,7 +278,7 @@ select#testSelect {
   background-size: 8px 8px, 8px 8px;
 }
 
-/* Custom select wrapper styles */
+/* custom select wrapper styles */
 .custom-select-wrapper {
   display: inline-block;
 }
@@ -342,8 +342,8 @@ select#testSelect {
   background: transparent;
 }
 
-/* Hover and focus states */
-/* Only apply hover transforms for devices that support hovering (mouse/trackpad) */
+/* hover and focus states */
+/* only apply hover transforms for devices that support hovering (mouse/trackpad) */
 @media (hover: hover) and (pointer: fine) {
   select#testSelect:hover,
   .custom-select-display:hover,

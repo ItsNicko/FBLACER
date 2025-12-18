@@ -15,10 +15,10 @@ let testRunning = false;
 let nextFlashcardTimer = null;
 let endedEarly = false;
 
-// Record runtime details (times, accuracy) for this session.
+// record runtime details (times, accuracy) for this session
 let sessionMetrics = { topics: {}, questions: [] };
 
-// Cached current username (used by UI)
+// cached current username (used by ui)
 window.currentUsername = null;
 
 function isCleanUsername(name) {
@@ -55,7 +55,7 @@ function isValidFormat(name) {
 async function isUsernameTaken(name) {
   if (!name) return true;
   try {
-    // Try username -> uid map first
+    // try username -> uid map first
     if (!window.db || !window.doc || !window.getDoc) return false;
     const dref = window.doc(window.db, "usernames", name);
     const snap = await window.getDoc(dref);
@@ -65,19 +65,19 @@ async function isUsernameTaken(name) {
     return false;
   }
 
-  // After Firebase restores a session I update the UI to match.
-  // Wait for auth readiness and apply persisted name
+  // after firebase restores a session update the ui
+  // wait for auth readiness and apply saved name
   try {
     (async function restoreAuthUi() {
       try {
-        // Show cached values to avoid signed-out flash
+        // show cached values to avoid signed-out flash
         try {
           const cachedName =
             localStorage.getItem && localStorage.getItem("fblacer_username");
           const cachedUid =
             localStorage.getItem && localStorage.getItem("fblacer_uid");
           if (cachedName && cachedUid) {
-            // Wait until the DOM is ready so UI functions can safely run.
+            // wait until dom ready so ui functions can run
             if (document.readyState === "loading") {
               await new Promise((res) =>
                 document.addEventListener("DOMContentLoaded", res, {
@@ -95,7 +95,7 @@ async function isUsernameTaken(name) {
           }
         } catch (e) {}
 
-        // Later I reconcile with the real auth state to stay accurate.
+        // later reconcile with real auth state
         if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
         if (document.readyState === "loading") {
           await new Promise((res) =>
@@ -107,7 +107,7 @@ async function isUsernameTaken(name) {
             ? window.auth.currentUser
             : null;
         if (user) {
-          // Attempt to fetch persisted username from server
+          // try to fetch persisted username from server
           let name =
             (localStorage.getItem &&
               localStorage.getItem("fblacer_username")) ||
@@ -253,7 +253,7 @@ async function resolveProfileUid(clickedName) {
     return uid || null;
   };
 
-  // Try username->uid mapping (fast path)
+  // try username->uid mapping (fast path)
   try {
     const snap = await window.getDoc(
       window.doc(window.db, "usernames", clickedName)
@@ -263,7 +263,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: username lookup failed", err);
   }
 
-  // If the input looks like a UID, I try treating it as one directly.
+  // if the input looks like a uid, try treating it as one
   try {
     if (/^[A-Za-z0-9_-]{12,64}$/.test(clickedName)) {
       const snap = await window.getDoc(
@@ -275,7 +275,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: UID lookup failed", err);
   }
 
-  // As a last resort I query users for a matching username.
+  // as a last resort query users collection for a matching username
   try {
     const q = window.query(
       window.collection(window.db, "users"),
@@ -288,7 +288,7 @@ async function resolveProfileUid(clickedName) {
     console.warn("resolveProfileUid: users query failed", err);
   }
 
-  // Fallback: query accounts collection
+  // fallback: query accounts collection
   try {
     const q = window.query(
       window.collection(window.db, "accounts"),
@@ -310,7 +310,7 @@ async function resolveProfileUid(clickedName) {
   return null;
 }
 
-// When the page is ready I wire the auth buttons so they behave naturally.
+// when the page is ready wire auth buttons so they work
 document.addEventListener("DOMContentLoaded", () => {
   const signupBtn = document.getElementById("signupBtn");
   const loginBtn = document.getElementById("loginBtn");
@@ -412,20 +412,20 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Attach confirmation for ending tests
+  // attach confirmation for ending tests
   const endBtn = document.getElementById("endBtn");
   endBtn?.addEventListener("click", () => {
     if (testRunning) confirmEndTest();
   });
 });
 
-// Listen for auth state changes and update UI
+// listen for auth state changes and update ui
 try {
   if (window.auth) {
     window.auth.onAuthStateChanged?.(async (user) => {
       try {
         if (user) {
-          // Try reading username from users/{uid}
+          // try reading username from users/{uid}
           let name = "Anonymous";
           try {
             const udoc = window.doc(window.db, "users", user.uid);
@@ -452,16 +452,16 @@ try {
   }
 } catch (e) {}
 
-// Use ALEKS canvas renderer for topic visuals
+// use aleks canvas renderer for topic visuals
 
-// The settings panel holds theme toggles and a place to send feedback.
+// settings panel has theme toggle and feedback form
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.documentElement;
-  // Restore saved dark-mode preference
+  // restore saved dark-mode preference
   const saved = localStorage.getItem("fblacer-dark");
   if (saved === "1") root.classList.add("dark");
 
-  // Grab UI elements I will interact with in the settings modal.
+  // grab ui elements used by settings modal
   const settingsBtn = document.getElementById("settingsBtn");
   const settingsModal = document.getElementById("settingsModal");
   const settingsClose = document.getElementById("settingsClose");
@@ -472,7 +472,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const reportStatus = document.getElementById("reportStatus");
   const viewProfileBtn = document.getElementById("viewProfileBtn");
 
-  // Make sure the toggle reflects the current theme state.
+  // make sure the toggle matches theme state
   if (darkToggle) darkToggle.checked = root.classList.contains("dark");
 
   function setDarkMode(on) {
@@ -488,7 +488,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (e) {}
   }
 
-  // Opening the modal populates quick info and ties the controls together.
+  // opening modal fills quick info and wires controls
   if (settingsBtn)
     settingsBtn.addEventListener("click", () => {
       if (settingsModal) {
@@ -496,7 +496,7 @@ document.addEventListener("DOMContentLoaded", () => {
         settingsModal.setAttribute("aria-hidden", "false");
       }
       try {
-        // Fast path: show cached username so the modal doesn't briefly show signed-out.
+        // fast path: show cached username so modal doesn't flash signed-out
         const cachedName =
           (localStorage.getItem && localStorage.getItem("fblacer_username")) ||
           null;
@@ -530,13 +530,13 @@ document.addEventListener("DOMContentLoaded", () => {
       } catch (e) {
         console.warn("refreshAuthUi failed", e);
       }
-      // Keep the toggle visual synced with the active theme.
+      // keep the toggle synced with active theme
       if (darkToggle) darkToggle.checked = root.classList.contains("dark");
     });
 
   if (viewProfileBtn)
     viewProfileBtn.addEventListener("click", async () => {
-      // If I know the current user, open their profile; otherwise ask for a name.
+      // if we know current user open their profile, otherwise ask for name
       const uid =
         (window.auth &&
           window.auth.currentUser &&
@@ -548,7 +548,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         const who = prompt("Enter username to view public profile:");
         if (who) {
-          // Prefer username->uid map for profile lookup
+          // prefer username->uid map for profile lookup
           try {
             if (window.doc && window.getDoc && window.db) {
               const uref = window.doc(window.db, "usernames", who);
@@ -565,7 +565,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
-  // Add "View scores" helper to settings
+  // add view scores helper to settings
   try {
     const existing = document.getElementById("viewScoresBtn");
     if (!existing) {
@@ -599,7 +599,7 @@ document.addEventListener("DOMContentLoaded", () => {
         settingsModal.setAttribute("aria-hidden", "true");
       }
     });
-  // Let Esc close the modal for a small, expected convenience.
+  // let esc close the modal for convenience
   document.addEventListener("keydown", (e) => {
     if (
       e.key === "Escape" &&
@@ -616,7 +616,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setDarkMode(Boolean(e.target.checked));
     });
 
-  // The report form sends issues and optionally logs the attempt.
+  // report form sends issues and logs attempt
   if (sendIssueBtn) {
     sendIssueBtn.addEventListener("click", async () => {
       const msg = issueText ? issueText.value.trim() : "";
@@ -640,14 +640,14 @@ document.addEventListener("DOMContentLoaded", () => {
         if (reportStatus) reportStatus.textContent = "Report sent — thank you.";
         if (issueText) issueText.value = "";
         if (issueEmail) issueEmail.value = "";
-        // Auto-close modal after sending
+        // auto-close modal after sending
         setTimeout(() => {
           if (settingsModal) {
             settingsModal.style.display = "none";
             settingsModal.setAttribute("aria-hidden", "true");
           }
         }, 900);
-        // Log report submission
+        // log report submission
         try {
           writeLog("report", {
             message: msg.slice(0, 500),
@@ -663,7 +663,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-  // Legal pages open in a simple overlay so users can read policies without leaving the app.
+  // legal pages open in an overlay so users can read them without leaving
   try {
     const openPrivacy = document.getElementById("openPrivacyBtn");
     const openTos = document.getElementById("openTosBtn");
@@ -708,21 +708,21 @@ try {
 } catch (e) {}
 
 function createTopicChart(ctxEl, labels, data) {
-  // Render topic visuals with ALEKS canvas renderer
+  // render topic visuals with aleks canvas renderer
   try {
-    // If a previous visual exists, remove it so the next render is clean.
+    // if a previous visual exists, remove it so next render is clean
     try {
       if (topicChart && typeof topicChart.destroy === "function")
         topicChart.destroy();
     } catch (e) {}
     topicChart = null;
 
-    // Build a compact scores object so the ALEKS renderer gets what it expects.
+    // build a compact scores object for aleks renderer
     const scoresObj = { topics: {} };
-    // Labels and data should match; data holds weighted values used to size slices.
+    // labels and data should match; data holds weighted values for slices
     for (let i = 0; i < labels.length; i++) {
       const lab = labels[i];
-      // Prefer real per-topic counts when present to keep the chart honest.
+      // prefer real per-topic counts when present
       const src =
         scores && scores.topics && scores.topics[lab]
           ? scores.topics[lab]
@@ -733,7 +733,7 @@ function createTopicChart(ctxEl, labels, data) {
           total: src.total || 0,
         };
       } else {
-        // Otherwise fall back to the provided weights and round them for display.
+        // otherwise fall back to provided weights and round for display
         const val = Number(data[i]) || 0;
         scoresObj.topics[lab] = {
           firstAttemptCorrect: Math.round(val),
@@ -742,7 +742,7 @@ function createTopicChart(ctxEl, labels, data) {
       }
     }
 
-    // renderAleksChart returns simple helpers I can call to update or destroy the view.
+    // renderAleksChart returns helpers to update or destroy the view
     if (typeof window.renderAleksChart === "function") {
       topicChart = window.renderAleksChart(ctxEl, scoresObj);
       try {
@@ -775,7 +775,7 @@ function updateChartTheme() {
     const rimColor =
       cssRim2 || (isDark ? "rgba(255,255,255,0.10)" : "rgba(255,255,255,0.6)");
 
-    // Chart.js removed: simply destroy existing aleks chart instance (if any) and re-create
+    // chart.js removed; destroy existing aleks chart instance and re-create
     try {
       if (topicChart && typeof topicChart.destroy === "function") {
         topicChart.destroy();
@@ -806,7 +806,7 @@ fetch("tests.json")
 
 function populateTestDropdown() {
   const dropdown = document.getElementById("testSelect");
-  // add a placeholder option at the top so the custom display shows "Select test"
+  // add a placeholder option at the top so the custom display shows "select test"
   const placeholder = document.createElement("option");
   placeholder.value = "";
   placeholder.textContent = "Select test";
@@ -851,12 +851,12 @@ function initCustomSelect() {
   menu.style.left = "0";
   menu.style.minWidth = "220px";
   menu.style.display = "none";
-  // make menu scrollable and not grow beyond viewport
+  // make menu scrollable and limit height to viewport
   menu.style.maxHeight = "320px";
   menu.style.overflowY = "auto";
   menu.style.boxSizing = "border-box";
 
-  // add a search input at the top of the menu for filtering options
+  // add a search input at top of menu for filtering
   const search = document.createElement("input");
   search.type = "search";
   search.className = "custom-select-search";
@@ -874,7 +874,7 @@ function initCustomSelect() {
   menu.appendChild(search);
 
   Array.from(native.options).forEach((opt, i) => {
-    // skip placeholder option (empty value) when building the clickable menu
+    // skip placeholder option (empty value) when building menu
     if (opt.value === "") return;
     const item = document.createElement("div");
     item.className = "custom-select-item";
@@ -892,14 +892,14 @@ function initCustomSelect() {
       native.selectedIndex = i;
       display.textContent = opt.textContent;
       menu.style.display = "none";
-      // menu was closed by selecting an item
+      // menu closed by selecting an item
       display.setAttribute("aria-expanded", "false");
       native.dispatchEvent(new Event("change", { bubbles: true }));
     };
     menu.appendChild(item);
   });
 
-  // filter function used by the search box
+  // filter function used by search box
   function filterMenu(q) {
     const items = menu.querySelectorAll(".custom-select-item");
     const needle = (q || "").trim().toLowerCase();
@@ -1003,14 +1003,14 @@ function generateFlashcard() {
   }
 
   const question = questions.shift();
-  // Shuffle options and track new correct answer
+  // shuffle options and track new correct answer
   const shuffledOptions = [...question.options];
   shuffleArray(shuffledOptions);
 
   const correctAnswer = question.correctAnswer;
   const newCorrectAnswer = shuffledOptions.find((opt) => opt === correctAnswer);
 
-  // Replace question.options and question.correctAnswer with shuffled versions
+  // replace question.options and correctAnswer with shuffled versions
   question.options = shuffledOptions;
   question.correctAnswer = newCorrectAnswer;
 
@@ -1211,7 +1211,7 @@ function updateStats() {
 }
 
 function endTest() {
-  // mark complete; if user clicked the 'End Test Now' button we set endedEarly earlier
+  // mark complete; if user clicked 'end test now' we set endedEarly earlier
   testRunning = false;
   if (nextFlashcardTimer) {
     clearTimeout(nextFlashcardTimer);
@@ -1286,7 +1286,7 @@ function endTest() {
     container.appendChild(sendBtn);
   }
 
-  // View analytics button (only for signed-in users)
+  // view analytics button (only for signed-in users)
   let analyticsBtn = document.getElementById("viewAnalyticsBtn");
   if (!analyticsBtn) {
     analyticsBtn = document.createElement("button");
@@ -1304,7 +1304,7 @@ function endTest() {
     container.appendChild(analyticsBtn);
   }
 
-  // Award mastery achievement if fully completed and >=90%
+  // award mastery achievement if fully completed and >=90%
   try {
     const uid =
       (window.auth && window.auth.currentUser && window.auth.currentUser.uid) ||
@@ -1332,7 +1332,7 @@ function endTest() {
   }
 }
 
-// Called when user clicks "End Test Now" to mark the test as ended early
+// called when user clicks "end test now" to mark test ended early
 function endEarly() {
   try {
     endedEarly = true;
@@ -1342,7 +1342,7 @@ function endEarly() {
   } catch (e) {}
 }
 
-// Confirmation prompt when user clicks End Test Now
+// confirmation prompt when user clicks end test now
 function confirmEndTest() {
   // modal overlay
   let overlay = document.getElementById("endConfirmOverlay");
@@ -1380,8 +1380,8 @@ function confirmEndTest() {
 
   yesBtn.addEventListener("click", async () => {
     try {
-      // If the user is signed in, attempt to save to Firestore under users/{uid}/scores and users/{uid}/topics.
-      // If the user is not signed in, allow ending the test without saving.
+      // if signed in, try to save to firestore under users/{uid}/scores and users/{uid}/topics
+      // if not signed in, allow ending test without saving
       const uid =
         (window.auth &&
           window.auth.currentUser &&
@@ -1390,14 +1390,14 @@ function confirmEndTest() {
       if (uid) {
         const ok = await saveScoreToFirestore();
         if (!ok) {
-          // Preserve prior behavior for signed-in users: notify and do not end the test on critical save failure
+          // preserve prior behavior for signed-in users: notify and don't end test on critical save failure
           showPopup(
             "Failed to save your score. Please try again or check your connection."
           );
           return;
         }
       } else {
-        // Not signed in: inform the user their score won't be saved to an account, but allow ending
+        // not signed in: inform user their score won't be saved, but allow ending
         try {
           showToast &&
             showToast(
@@ -1438,7 +1438,7 @@ function confirmEndTest() {
   overlay.appendChild(panel);
 }
 
-// Show signed-in user's saved tests
+// show signed-in user's saved tests
 async function showUserScoresOverlay(uid) {
   try {
     if (!uid) return;
@@ -1470,7 +1470,7 @@ async function showUserScoresOverlay(uid) {
     panel.appendChild(list);
     overlay.appendChild(panel);
 
-    // Read users/{uid}/scores documents
+    // read users/{uid}/scores documents
     try {
       if (window.collection && window.getDocs && window.db) {
         const scoresCol = window.collection(window.db, "users", uid, "scores");
@@ -1534,7 +1534,7 @@ async function showUserScoresOverlay(uid) {
   }
 }
 
-// When saving, I write a new historical score and a topic snapshot so nothing is lost.
+// when saving, write a new historical score and a topic snapshot so nothing is lost
 async function saveScoreToFirestore() {
   try {
     const uid =
@@ -1549,7 +1549,7 @@ async function saveScoreToFirestore() {
     const timestamp = new Date().toISOString();
     let topicScores = {};
 
-    // Create a timestamped score document (append-only)
+    // create a timestamped score document (append-only)
     let historyId = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
     try {
       const scoreRef = window.doc(window.db, "users", uid, "scores", historyId);
@@ -1562,7 +1562,7 @@ async function saveScoreToFirestore() {
       return false; // <-- CRITICAL FAILURE
     }
 
-    // Save compact topic breakdown snapshot
+    // save compact topic breakdown snapshot
     try {
       topicScores = {};
       Object.keys(scores.topics || {}).forEach((topic) => {
@@ -1579,13 +1579,13 @@ async function saveScoreToFirestore() {
         topicScores[topic] = { firstAttemptCorrect, total, avgTimeMs };
       });
 
-      // Include small sample of question-level data
+      // include small sample of question-level data
       const qsample = Array.isArray(sessionMetrics?.questions)
         ? sessionMetrics.questions.slice(-25)
         : [];
       if (qsample.length) topicScores.sampleQuestions = qsample;
 
-      // The topic snapshot uses the same history id so the pieces stay linked.
+      // the topic snapshot uses same history id so pieces stay linked
       const topicsRef = window.doc(
         window.db,
         "users",
@@ -1605,16 +1605,16 @@ async function saveScoreToFirestore() {
       return false; // <-- CRITICAL FAILURE
     }
 
-    // Persist detailed analytics (optional)
+    // persist detailed analytics (optional)
     try {
-      // Detailed analytics are saved as a separate historical doc for deep inspection.
+      // detailed analytics saved as separate historical doc for inspection
       await persistFullAnalytics(uid, testId, sessionMetrics);
     } catch (e) {
       console.warn("persistFullAnalytics failed", e);
-      // Analytics failures shouldn't block the user from finishing the save flow.
+      // analytics failures shouldn't block user from finishing save
     }
 
-    // Mirror summary to /accounts/{uid} (compat)
+    // mirror summary to /accounts/{uid} (compat)
     try {
       const accountsRef = window.doc(window.db, "accounts", uid);
       let cachedName = null;
@@ -1661,7 +1661,7 @@ async function saveScoreToFirestore() {
       } catch {}
     } catch (e) {
       console.warn("mirror accounts error", e);
-      // If the mirror fails, the app still worked; I don't treat it as fatal.
+      // if mirror fails, app still worked; don't treat as fatal
     }
 
     showToast("Saved score to your account", "success");
@@ -1713,7 +1713,7 @@ function showLeaderboardOverlay(testId) {
       .addEventListener("click", async () => {
         const nameInput = document.getElementById("lbName");
         const name = (nameInput || {}).value ? nameInput.value.trim() : "";
-        // Disallow empty leaderboard names
+        // disallow empty leaderboard names
         if (!name) {
           showToast("Please enter your name to submit a score.", "error");
           try {
@@ -1723,7 +1723,7 @@ function showLeaderboardOverlay(testId) {
           } catch (e) {}
           return;
         }
-        // Validate leaderboard name (format, banned words)
+        // validate leaderboard name (format, banned words)
         try {
           if (!isValidFormat(name)) {
             showToast(
@@ -1764,7 +1764,7 @@ function showLeaderboardOverlay(testId) {
             return;
           }
           await window.leaderboardApi.submitScore(testId, name, totalPoints);
-          // Log leaderboard submission
+          // log leaderboard submission
           try {
             writeLog("leaderboard_submit", {
               testId,
@@ -1774,7 +1774,7 @@ function showLeaderboardOverlay(testId) {
           } catch (e) {
             console.warn("leaderboard_submit log failed", e);
           }
-          // Persist score to user's private history when possible
+          // persist score to user's private history when possible
           try {
             await saveScoreToFirestore();
           } catch (e) {
@@ -1815,7 +1815,7 @@ function showLeaderboardOverlay(testId) {
 
   const testNameEl = document.getElementById("lb-test-name");
   if (testNameEl) testNameEl.textContent = testId;
-  // Prefill leaderboard name from cached username when available
+  // prefill leaderboard name from cached username when available
   (function () {
     try {
       const nameInput = document.getElementById("lbName");
@@ -1857,11 +1857,11 @@ function showLeaderboardOverlay(testId) {
   }
   document.body.style.overflow = "hidden";
   leaderboardState.limit = 15;
-  // Note: a previous Firestore fetch was removed to avoid client permission issues.
+  // note: previous firestore fetch removed to avoid client permission issues
   fetchAndRenderLeaderboard(testId);
 }
 
-// The legal overlay loads a local HTML file so users can read policies inline.
+// legal overlay loads a local html file so users can read policies inline
 async function showLegalOverlay(path, title) {
   try {
     let overlay = document.getElementById("legalOverlay");
@@ -1895,12 +1895,12 @@ async function showLegalOverlay(path, title) {
     content.style = "margin-top:8px;";
     panel.appendChild(content);
 
-    // Try to fetch policy HTML; fallback to iframe if blocked
+    // try to fetch policy html; fallback to iframe if blocked
     try {
       const res = await fetch(path);
       if (res.ok) {
         const txt = await res.text();
-        // If the response contains a body tag, I extract its inner HTML for cleaner display.
+        // if the response contains a body tag, extract inner html for cleaner display
         const m = txt.match(/<body[^>]*>([\s\S]*)<\/body>/i);
         const inner = m ? m[1] : txt;
         content.innerHTML = inner;
@@ -1908,7 +1908,7 @@ async function showLegalOverlay(path, title) {
         throw new Error("fetch failed");
       }
     } catch (e) {
-      // The iframe fallback keeps the legal content accessible even when fetch is blocked.
+      // iframe fallback keeps legal content accessible when fetch blocked
       const iframe = document.createElement("iframe");
       iframe.src = path;
       iframe.style = "width:100%;height:70vh;border:none;border-radius:8px;";
@@ -1923,10 +1923,10 @@ async function showLegalOverlay(path, title) {
   }
 }
 
-// Open analytics overlay for a specific test
+// open analytics overlay for a specific test
 async function showAnalyticsOverlay(testId) {
   try {
-    // This view is personal — sign in so it shows your saved history.
+    // this view is personal — sign in so it shows your saved history
     const uid =
       (window.auth && window.auth.currentUser && window.auth.currentUser.uid) ||
       null;
@@ -1965,14 +1965,14 @@ async function showAnalyticsOverlay(testId) {
     info.textContent = "Loading analytics...";
     panel.appendChild(info);
 
-    // Create container for charts and summary
+    // create container for charts and summary
     const container = document.createElement("div");
     container.style =
       "display:flex;flex-direction:column;gap:12px;margin-top:8px;";
     panel.appendChild(container);
     overlay.appendChild(panel);
 
-    // Read user's saved scores for this test (preserve history)
+    // read user's saved scores for this test (preserve history)
     let savedHistory = [];
     try {
       if (
@@ -1985,14 +1985,14 @@ async function showAnalyticsOverlay(testId) {
         try {
           let q;
           try {
-            // Order query by timestamp when available
+            // order query by timestamp when available
             q = window.query(
               window.collection(window.db, "users", uid, "scores"),
               window.where("testId", "==", testId),
               window.orderBy ? window.orderBy("timestamp", "desc") : undefined
             );
           } catch (e) {
-            // If ordering isn't available, I still query by test id and sort locally.
+            // if ordering not available, query by test id and sort locally
             q = window.query(
               window.collection(window.db, "users", uid, "scores"),
               window.where("testId", "==", testId)
@@ -2017,7 +2017,7 @@ async function showAnalyticsOverlay(testId) {
       savedHistory = [];
     }
 
-    // Fetch public leaderboard history (best-effort)
+    // fetch public leaderboard history (best-effort)
     let historical = [];
     try {
       if (
@@ -2034,7 +2034,7 @@ async function showAnalyticsOverlay(testId) {
       historical = [];
     }
 
-    // When merging I prefer the user's saved entries so private data stays authoritative.
+    // when merging prefer user's saved entries so private data stays authoritative
     const combined = [];
     const seen = new Set();
     (savedHistory || []).forEach((h) => {
@@ -2046,7 +2046,7 @@ async function showAnalyticsOverlay(testId) {
       const key = (h.id || "") + "|" + (h.timestamp || h.createdAt || "");
       if (!seen.has(key)) combined.push(h);
     });
-    // Sort combined entries by timestamp (desc)
+    // sort combined entries by timestamp (desc)
     combined.sort((a, b) => {
       const ta = new Date(a.timestamp || a.createdAt || 0).getTime() || 0;
       const tb = new Date(b.timestamp || b.createdAt || 0).getTime() || 0;
@@ -2054,12 +2054,12 @@ async function showAnalyticsOverlay(testId) {
     });
     historical = combined;
 
-    // The latest score shown prefers the user's saved record, falling back to public data.
+    // latest score prefers user's saved record, fallback to public data
     let latestScore = null;
     if (savedHistory && savedHistory.length) latestScore = savedHistory[0];
     else if (historical && historical.length) latestScore = historical[0];
 
-    // For per-topic detail I prefer the user's most recent topic breakdown document.
+    // for per-topic detail prefer user's most recent topic breakdown
     let topicData = {};
     try {
       if (
@@ -2101,7 +2101,7 @@ async function showAnalyticsOverlay(testId) {
       topicData = {};
     }
 
-    // Best-effort fetch for global averages
+    // best-effort fetch for global averages
     let globalAvgPoints = null; // number
     let globalTopicAverages = null; // { topicName: percent }
     try {
@@ -2114,7 +2114,7 @@ async function showAnalyticsOverlay(testId) {
             globalTopicAverages = ga.topicAverages || null;
           }
         } else if (typeof window.leaderboardApi.fetchTopScores === "function") {
-          // Compute averages from available entries
+          // compute averages from available entries
           try {
             const entries = await window.leaderboardApi.fetchTopScores(
               testId,
@@ -2127,7 +2127,7 @@ async function showAnalyticsOverlay(testId) {
               );
               globalAvgPoints = Math.round(sum / entries.length);
 
-              // If entries include topic details, I try to aggregate them into per-topic averages.
+              // if entries include topic details, aggregate into per-topic averages
               const sums = {};
               const counts = {};
               for (const ent of entries) {
@@ -2187,7 +2187,7 @@ async function showAnalyticsOverlay(testId) {
       console.warn("fetch global aggregates failed", e);
     }
 
-    // Compute user's average from saved scores
+    // compute user's average from saved scores
     let userAverageAcrossTests = null;
     let userAllScoresList = [];
     try {
@@ -2213,7 +2213,7 @@ async function showAnalyticsOverlay(testId) {
       console.warn("compute user average across tests failed", e);
     }
 
-    // If no history exists, I show a helpful message instead of a blank chart.
+    // if no history exists, show a helpful message instead of a blank chart
     const hasTopics = topicData && Object.keys(topicData).length > 0;
     const hasLatest = !!(
       latestScore && typeof latestScore.totalPoints !== "undefined"
@@ -2224,13 +2224,13 @@ async function showAnalyticsOverlay(testId) {
       return overlay;
     }
 
-    // Remove the loading hint once I have data (or a friendly message).
+    // remove the loading hint once data or a friendly message available
     info.style.display = "none";
 
-    // A small summary row shows last score, average, and attempt count.
+    // a small summary row shows last score, average, and attempt count
     const statsRow = document.createElement("div");
     statsRow.style = "display:flex;gap:12px;flex-wrap:wrap;align-items:center;";
-    // Show most recent score
+    // show most recent score
     const lastScoreEl = document.createElement("div");
     lastScoreEl.style =
       "min-width:160px;padding:10px;border-radius:8px;background:var(--surface,#f6f9fb);";
@@ -2242,7 +2242,7 @@ async function showAnalyticsOverlay(testId) {
     lastScoreEl.innerHTML = `<div style="font-weight:700;font-size:18px;">Last: ${lastPts} pts</div><div style="font-size:12px;color:var(--muted,#666);">Most recent submission</div>`;
     statsRow.appendChild(lastScoreEl);
 
-    // Show user's historical average
+    // show user's historical average
     let avg = 0;
     if (historical && historical.length) {
       avg = Math.round(
@@ -2259,7 +2259,7 @@ async function showAnalyticsOverlay(testId) {
     } attempts</div>`;
     statsRow.appendChild(avgEl);
 
-    // Show attempt count
+    // show attempt count
     const attemptsEl = document.createElement("div");
     attemptsEl.style =
       "min-width:120px;padding:10px;border-radius:8px;background:var(--surface,#f6f9fb);";
@@ -2268,7 +2268,7 @@ async function showAnalyticsOverlay(testId) {
     }</div><div style="font-size:12px;color:var(--muted,#666);">Saved submissions</div>`;
     statsRow.appendChild(attemptsEl);
 
-    // Where timing exists I compute an overall average to show pacing.
+    // where timing exists compute overall average to show pacing
     let overallAvgTime = null;
     try {
       const times = [];
@@ -2293,7 +2293,7 @@ async function showAnalyticsOverlay(testId) {
     }
     container.appendChild(statsRow);
 
-    // Render topic breakdown list
+    // render topic breakdown list
     const topicSection = document.createElement("div");
     topicSection.innerHTML = `<h4>Topic breakdown</h4>`;
     container.appendChild(topicSection);
@@ -2301,7 +2301,7 @@ async function showAnalyticsOverlay(testId) {
     const topicList = document.createElement("div");
     topicList.style = "display:flex;flex-direction:column;gap:10px;";
 
-    // Prefer topic keys from saved data; otherwise fall back to the test definition.
+    // prefer topic keys from saved data; otherwise fall back to test definition
     let testTopics = [];
     try {
       if (currentTest && Array.isArray(currentTest.topics))
@@ -2357,7 +2357,7 @@ async function showAnalyticsOverlay(testId) {
           bar.style = `height:100%;width:${pct}%;background:linear-gradient(90deg,#4CAF50,#2196F3);border-radius:8px;transition:width 600ms ease;`;
           barWrap.appendChild(bar);
 
-          // A thin line marks the global average so you can compare yourself.
+          // thin line marks global average for comparison
           if (globalPct !== null) {
             const overlayLine = document.createElement("div");
             overlayLine.style = `position:relative;pointer-events:none;height:0;margin-top:-14px;`;
@@ -2377,7 +2377,7 @@ async function showAnalyticsOverlay(testId) {
     }
     container.appendChild(topicList);
 
-    // If we captured sample timings I present them so you can study response speed.
+    // if sample timings captured present them so user can study response speed
     try {
       const sample =
         topicData && topicData.sampleQuestions
@@ -2416,7 +2416,7 @@ async function showAnalyticsOverlay(testId) {
       }
     } catch (e) {}
 
-    // Fetch latest question-level analytics doc
+    // fetch latest question-level analytics doc
     let analyticsDoc = null;
     try {
       if (
@@ -2459,7 +2459,7 @@ async function showAnalyticsOverlay(testId) {
       analyticsDoc = null;
     }
 
-    // From the analytics doc I build simple histograms that show timing distributions.
+    // from analytics doc build simple histograms showing timing distributions
     try {
       const ad = analyticsDoc || null;
       const topicHistWrap = document.createElement("div");
@@ -2467,7 +2467,7 @@ async function showAnalyticsOverlay(testId) {
         "margin-top:12px;display:flex;flex-wrap:wrap;gap:12px;";
       let histCount = 0;
       if (ad && Array.isArray(ad.questions) && ad.questions.length) {
-        // Group recorded times by topic
+        // group recorded times by topic
         const groups = {};
         ad.questions.forEach((q) => {
           try {
@@ -2479,7 +2479,7 @@ async function showAnalyticsOverlay(testId) {
         for (const topicName of Object.keys(groups)) {
           const times = groups[topicName];
           if (!times.length) continue;
-          // Create canvas for histogram
+          // create canvas for histogram
           const wrap = document.createElement("div");
           wrap.style = "width:220px;min-width:220px;max-width:33%;";
           const htitle = document.createElement("div");
@@ -2492,7 +2492,7 @@ async function showAnalyticsOverlay(testId) {
           wrap.appendChild(cc);
           topicHistWrap.appendChild(wrap);
 
-          // Times are binned into second-based buckets for readable bars.
+          // times are binned into second-based buckets for readable bars
           const secs = times.map((t) => Math.round(t / 1000));
           const max = Math.max(...secs);
           const bins = Math.min(6, Math.max(3, Math.ceil(max / 5)));
@@ -2511,7 +2511,7 @@ async function showAnalyticsOverlay(testId) {
             if (window.histCharts === undefined) window.histCharts = [];
           } catch (e) {}
           try {
-            // Clean up any previous chart before drawing a new histogram.
+            // clean up previous chart before drawing new histogram
             const old = window.histCharts && window.histCharts[histCount];
             if (old && old.destroy) old.destroy();
           } catch (e) {}
@@ -2539,8 +2539,8 @@ async function showAnalyticsOverlay(testId) {
       console.warn("render histograms failed", e);
     }
 
-    // Render multi-line score chart with averages
-    // Load Chart.js dynamically (best-effort)
+    // render multi-line score chart with averages
+    // load chart.js dynamically (best-effort)
     async function loadChartJs() {
       if (window.Chart) return window.Chart;
       return new Promise((resolve, reject) => {
@@ -2561,7 +2561,7 @@ async function showAnalyticsOverlay(testId) {
     chartWrap.style =
       "margin-top:10px;display:flex;flex-direction:column;gap:8px;";
     chartWrap.innerHTML = `<h4 style="margin:0">Score comparison</h4>`;
-    // Keep the chart container a fixed height so layout stays stable.
+    // keep chart container a fixed height so layout stays stable
     const chartHolder = document.createElement("div");
     chartHolder.style =
       "width:100%;height:220px;max-height:240px;overflow:hidden;border-radius:8px;background:transparent;padding:6px 0;";
@@ -2574,7 +2574,7 @@ async function showAnalyticsOverlay(testId) {
 
     try {
       await loadChartJs();
-      // Prepare data series: history, user average, global average
+      // prepare data series: history, user average, global average
       const userPts =
         historical && historical.length
           ? historical
@@ -2584,7 +2584,7 @@ async function showAnalyticsOverlay(testId) {
           : latestScore
           ? [Number(latestScore.totalPoints || 0)]
           : [];
-      // Labels can be simple indices or timestamps depending on available data.
+      // labels can be simple indices or timestamps depending on data
       let labels = [];
       if (historical && historical.length) {
         labels = historical
@@ -2617,7 +2617,7 @@ async function showAnalyticsOverlay(testId) {
           : null;
 
       const datasets = [];
-      // Include the latest score as a series point if present.
+      // include latest score as series point if present
       if (userPts && userPts.length) {
         datasets.push({
           label: "Current score",
@@ -2629,7 +2629,7 @@ async function showAnalyticsOverlay(testId) {
           fill: false,
         });
       }
-      // Draw your average as a straight horizontal line so it's easy to compare.
+      // draw your average as a straight horizontal line
       if (yourAvg !== null) {
         datasets.push({
           label: "Your average score",
@@ -2641,7 +2641,7 @@ async function showAnalyticsOverlay(testId) {
           fill: false,
         });
       }
-      // Draw the global average similarly so you see the broader context.
+      // draw the global average similarly
       if (avgUser !== null) {
         datasets.push({
           label: "Average user",
@@ -2654,7 +2654,7 @@ async function showAnalyticsOverlay(testId) {
         });
       }
 
-      // Replace any existing chart instance to keep the display correct.
+      // replace any existing chart instance to keep display correct
       try {
         if (window.analyticsChart && window.analyticsChart.destroy)
           window.analyticsChart.destroy();
@@ -2677,7 +2677,7 @@ async function showAnalyticsOverlay(testId) {
       console.warn("Chart.js failed to load or render", e);
     }
 
-    // ensure topic section is after the chart and scrollable if content long
+    // ensure topic section is after chart and scrollable if content long
     try {
       topicSection.scrollIntoView({ behavior: "smooth" });
     } catch (e) {}
@@ -2750,7 +2750,7 @@ function renderLeaderboardEntries(entries) {
       const clickedName = (e.name || "").trim();
       try {
         if (!clickedName) return;
-        // If the leaderboard entry already includes a uid, prefer it (avoids extra lookups and permission issues)
+        // if leaderboard entry already includes a uid, prefer it (avoids extra lookups)
         if (e.uid) {
           showProfileOverlay(e.uid);
           return;
@@ -2813,7 +2813,7 @@ function ensureToastContainer() {
   return wrap;
 }
 
-// Award named achievement to user's account
+// award named achievement to user's account
 async function grantAchievement(uid, achievementName) {
   try {
     if (!uid) return;
@@ -2863,12 +2863,12 @@ async function grantAchievement(uid, achievementName) {
   }
 }
 
-// --- Persist full analytics document when saving score ---
+// --- persist full analytics document when saving score ---
 async function persistFullAnalytics(uid, testId, metrics) {
   try {
     if (!uid || !testId || !metrics) return false;
     if (window.doc && window.setDoc && window.db) {
-      // write analytics as a new historical document so previous analytics are preserved
+      // write analytics as new historical doc so previous analytics preserved
       const id = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
       const ref = window.doc(window.db, "users", uid, "analytics", id);
       const payload = {
@@ -2893,10 +2893,10 @@ async function persistFullAnalytics(uid, testId, metrics) {
   return false;
 }
 
-// Show public profile overlay for a uid or username
+// show public profile overlay for a uid or username
 async function showProfileOverlay(idOrName) {
   try {
-    // Normalize param: if a username was passed, resolve it to uid via usernames/{username}
+    // normalize param: if username passed, resolve to uid via usernames/{username}
     let uid = idOrName;
     try {
       // simple heuristic: uid-like strings are alphanumeric with -/_ and length >= 12
@@ -2916,7 +2916,7 @@ async function showProfileOverlay(idOrName) {
             /* ignore and fallback to other methods below */
           }
         }
-        // If still not resolved, fall back to best-effort resolver
+        // if still not resolved, fall back to best-effort resolver
         if (!uid || String(uid).trim() === "") {
           try {
             uid = await resolveProfileUid(maybeUid);
@@ -2929,7 +2929,7 @@ async function showProfileOverlay(idOrName) {
       /* ignore normalization errors */
     }
 
-    // if after attempts we don't have a uid, bail out
+    // if after attempts no uid, bail out
     if (!uid) return null;
     let overlay = document.getElementById("profileOverlay");
     if (!overlay) {
@@ -2978,13 +2978,23 @@ async function showProfileOverlay(idOrName) {
     avatar.style =
       "width:96px;height:96px;border-radius:50%;object-fit:cover;margin-right:12px;";
     avatar.alt = "avatar";
+    // fallback image (data-url svg) used when gravatar or remote avatar blocked
+    const AVATAR_FALLBACK =
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23102727'/%3E%3Ctext x='8' y='11' font-size='10' text-anchor='middle' fill='%23fff' font-family='Arial,Helvetica,sans-serif'%3EFB%3C/text%3E%3C/svg%3E";
+    avatar.onerror = function () {
+      try {
+        if (avatar.src !== AVATAR_FALLBACK) avatar.src = AVATAR_FALLBACK;
+      } catch (e) {
+        avatar.src = "";
+      }
+    };
     const header = document.createElement("div");
     header.style.display = "flex";
     header.style.alignItems = "center";
     const nameEl = document.createElement("div");
     nameEl.style.fontWeight = 700;
     nameEl.style.fontSize = "18px";
-    // show a temporary loading label while we resolve the public username
+    // show a temporary loading label while resolving public username
     nameEl.textContent = "Loading...";
     avatar.src =
       acct && acct.avatarUrl
@@ -2994,14 +3004,13 @@ async function showProfileOverlay(idOrName) {
     header.appendChild(nameEl);
     content.appendChild(header);
 
-    // Resolve a public username for this uid when possible. Prefer a dedicated
-    // `publicProfiles/{uid}` document that contains only public fields (username, avatarUrl, summary).
-    // This keeps private data under `accounts`/`users` protected, while allowing unauthenticated reads.
+    // resolve a public username for this uid when possible, prefer publicProfiles/{uid}
+    // this keeps private data under accounts/users protected while allowing public reads
     (async function resolvePublicName() {
       try {
         let publicName = acct && acct.username ? acct.username : null;
         try {
-          // 1) Try publicProfiles/{uid} (preferred—designed for public read)
+          // 1) try publicProfiles/{uid} (preferred for public read)
           if (!publicName && window.doc && window.getDoc && window.db) {
             try {
               const pdoc = window.doc(window.db, "publicProfiles", uid);
@@ -3018,7 +3027,7 @@ async function showProfileOverlay(idOrName) {
             }
           }
 
-          // 2) If not present, try users/{uid} document which may contain a username
+          // 2) if not present, try users/{uid} which may contain a username
           if (!publicName && window.doc && window.getDoc && window.db) {
             try {
               const udoc = window.doc(window.db, "users", uid);
@@ -3032,7 +3041,7 @@ async function showProfileOverlay(idOrName) {
             }
           }
 
-          // 3) Best-effort: query usernames collection for username -> uid mapping
+          // 3) best-effort: query usernames collection for username -> uid mapping
           if (
             !publicName &&
             window.getDocs &&
@@ -3074,7 +3083,7 @@ async function showProfileOverlay(idOrName) {
       }
     })();
 
-    // If viewing own profile, allow changing avatar
+    // if viewing own profile, allow changing avatar
     try {
       const currentUid =
         (window.auth &&
@@ -3141,7 +3150,7 @@ async function showProfileOverlay(idOrName) {
             return showToast("Please select an image file", "error");
           statusEl.textContent = "Processing...";
           try {
-            // read file into Image then resize to max 512px using canvas to limit size
+            // read file into image then resize to max 512px using canvas
             const dataUrl = await new Promise((resolve, reject) => {
               const reader = new FileReader();
               reader.onerror = () => reject(new Error("Failed to read file"));
@@ -3251,7 +3260,7 @@ async function showProfileOverlay(idOrName) {
         const tsRaw = rec.timestamp || "";
         let tsText = "";
         try {
-          // handle Firestore Timestamp objects or ISO strings
+          // handle firestore timestamp objects or iso strings
           let d = null;
           if (
             tsRaw &&
@@ -3266,7 +3275,7 @@ async function showProfileOverlay(idOrName) {
           tsText = String(tsRaw || "");
         }
 
-        // Example render: "Advanced Accounting — 115 pts • Oct 7, 2025, 10:36 PM"
+        // example render: "Advanced Accounting — 115 pts • Oct 7, 2025, 10:36 PM"
         r.innerHTML =
           "<strong>" +
           escapeHtml(tn) +
@@ -3324,7 +3333,7 @@ async function submitScore(name, test, score) {
       points: score,
       createdAt,
     });
-    // Log submitScore action
+    // log submitScore action
     try {
       writeLog("submitScore", { test, name, points: score, createdAt });
     } catch (e) {
@@ -3339,7 +3348,7 @@ async function submitScore(name, test, score) {
 (function () {
   "use strict";
 
-  // Default color palette (used cyclically)
+  // default color palette (used cyclically)
   const DEFAULT_COLORS = [
     "#4CAF50", // green
     "#2196F3", // blue
@@ -3381,7 +3390,7 @@ async function submitScore(name, test, score) {
     return tip;
   }
 
-  // Brighten a hex color by a factor (0..1) - simple approach
+  // brighten a hex color by a factor (0..1) - simple approach
   function brightenHex(hex, amt) {
     // hex like #rrggbb
     try {
@@ -3401,9 +3410,9 @@ async function submitScore(name, test, score) {
     }
   }
 
-  // Main render function factory
+  // main render function factory
   function renderAleksChart(canvasOrId, scores) {
-    // Resolve canvas element
+    // resolve canvas element
     let canvas;
     if (typeof canvasOrId === "string")
       canvas = document.getElementById(canvasOrId);
@@ -3417,23 +3426,23 @@ async function submitScore(name, test, score) {
     const ctx = canvas.getContext("2d");
     if (!ctx) throw new Error("2D context not available");
 
-    // Read theme colors
+    // read theme colors
     const textColor = readCSSVar("--text-color", "#102027");
     const surface = readCSSVar("--surface", "#ffffff");
 
-    // Tooltip
+    // tooltip
     let tooltip = document.getElementById("aleksTooltip");
     if (!tooltip) {
       tooltip = createTooltipElement(surface, textColor);
       document.body.appendChild(tooltip);
     }
 
-    // Chart state
+    // chart state
     let entries = []; // {label, correct, total, value}
     let totalValue = 0;
     let colors = DEFAULT_COLORS.slice();
 
-    // Event handlers references for cleanup
+    // event handler refs for cleanup
     const handlers = { move: null, leave: null, resize: null };
 
     // compute entries from scores.topics
@@ -3444,8 +3453,7 @@ async function submitScore(name, test, score) {
         const t = topics[label] || { firstAttemptCorrect: 0, total: 0 };
         const first = Number(t.firstAttemptCorrect) || 0;
         const tot = Number(t.total) || 0;
-        // sliceValue as requested: (firstAttemptCorrect / total) * total
-        // which simplifies to firstAttemptCorrect mathematically; implement the formula exactly
+        // sliceValue: (firstAttemptCorrect / total) * total -> simplifies to firstAttemptCorrect
         const ratio = tot > 0 ? first / tot : 0;
         const value = ratio * tot; // equals 'first' when tot>0
         out.push({ label, correct: first, total: tot, value });

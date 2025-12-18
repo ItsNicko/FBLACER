@@ -128,7 +128,7 @@
             "margin"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Technology is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of technology is to apply scientific knowledge for practical purposes to improve processes and products."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -265,7 +265,7 @@
             "ROI"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Introduction is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -407,7 +407,7 @@
             "asset"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Human Resources is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "(Hard) What is a key consideration when creating a budget?",
@@ -489,7 +489,7 @@
             "asset"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Customer Service is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of customer service is to support customers and ensure satisfaction and retention."
         },
         {
           "question": "Scenario: A local company faces a problem with declining employee retention. As a project manager, what would be the best next step?",
@@ -544,7 +544,7 @@
             "procedure"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Customer Service is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of customer service is to support customers and ensure satisfaction and retention."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -615,7 +615,7 @@
             "budget"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Operations is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of operations is to transform inputs into goods or services efficiently to meet customer needs."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -708,7 +708,7 @@
             "leader"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Finance is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of finance is to manage money and financial resources to support organizational goals."
         },
         {
           "question": "(Hard) Scenario: A local company faces a problem with declining customer satisfaction. As a HR director, what would be the best next step?",
@@ -823,7 +823,7 @@
             "asset"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Ethics is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -954,7 +954,7 @@
             "margin"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Management is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         },
         {
           "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a project manager, what would be the best next step?",

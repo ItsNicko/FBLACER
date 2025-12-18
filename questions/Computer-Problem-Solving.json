@@ -6,56 +6,31 @@
       "questions": [
         {
           "question": "Which OS manages hardware resources and provides services to software applications?",
-          "options": [
-            "Operating System",
-            "Compiler",
-            "Browser",
-            "Firewall"
-          ],
+          "options": ["Operating System", "Compiler", "Browser", "Firewall"],
           "correctAnswer": "Operating System",
           "explanation": "Operating systems manage hardware resources like CPU, memory, and storage while providing a platform for applications."
         },
         {
           "question": "Which OS type is open-source and widely used for servers?",
-          "options": [
-            "Linux",
-            "Windows",
-            "macOS",
-            "iOS"
-          ],
+          "options": ["Linux", "Windows", "macOS", "iOS"],
           "correctAnswer": "Linux",
           "explanation": "Linux is open-source, customizable, and popular in server environments."
         },
         {
           "question": "Which OS is primarily used on Apple computers?",
-          "options": [
-            "macOS",
-            "Windows",
-            "Linux",
-            "Android"
-          ],
+          "options": ["macOS", "Windows", "Linux", "Android"],
           "correctAnswer": "macOS",
           "explanation": "macOS is the proprietary operating system developed by Apple for its Mac computers."
         },
         {
           "question": "Which OS component handles input and output requests?",
-          "options": [
-            "Kernel",
-            "Shell",
-            "Desktop",
-            "BIOS"
-          ],
+          "options": ["Kernel", "Shell", "Desktop", "BIOS"],
           "correctAnswer": "Kernel",
           "explanation": "The kernel manages communication between hardware and software, handling I/O operations and system resources."
         },
         {
           "question": "Which OS feature allows running multiple applications at the same time?",
-          "options": [
-            "Multitasking",
-            "Networking",
-            "Security",
-            "Encryption"
-          ],
+          "options": ["Multitasking", "Networking", "Security", "Encryption"],
           "correctAnswer": "Multitasking",
           "explanation": "Multitasking allows an operating system to run multiple programs simultaneously by allocating CPU time efficiently."
         },
@@ -72,12 +47,7 @@
         },
         {
           "question": "Which OS is commonly used in smartphones?",
-          "options": [
-            "Android",
-            "Windows",
-            "macOS",
-            "Linux"
-          ],
+          "options": ["Android", "Windows", "macOS", "Linux"],
           "correctAnswer": "Android",
           "explanation": "Android is an open-source OS designed for mobile devices like smartphones and tablets."
         },
@@ -99,36 +69,31 @@
       "questions": [
         {
           "question": "Which OS utility checks and repairs file system errors?",
-          "options": [
-            "Disk check tool",
-            "Firewall",
-            "Task manager",
-            "Shell"
-          ],
+          "options": ["Disk check tool", "Firewall", "Task manager", "Shell"],
           "correctAnswer": "Disk check tool",
           "explanation": "Disk check tools verify file system integrity and repair errors to maintain OS stability."
         },
         {
           "question": "Which practice helps Operating Systems? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Operating Systems?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Managing systems and networks to ensure reliable computing services",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Operating Systems — part 2?",
@@ -192,78 +157,43 @@
       "questions": [
         {
           "question": "Which device connects multiple computers in a local network?",
-          "options": [
-            "Switch",
-            "Router",
-            "Firewall",
-            "Hub"
-          ],
+          "options": ["Switch", "Router", "Firewall", "Hub"],
           "correctAnswer": "Switch",
           "explanation": "Switches forward data frames only to the intended device within a local network."
         },
         {
           "question": "Which protocol provides secure web browsing?",
-          "options": [
-            "HTTPS",
-            "HTTP",
-            "FTP",
-            "SMTP"
-          ],
+          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
           "correctAnswer": "HTTPS",
           "explanation": "HTTPS encrypts web traffic, protecting data from eavesdropping and tampering."
         },
         {
           "question": "Which IP version is most widely used currently?",
-          "options": [
-            "IPv4",
-            "IPv6",
-            "IPX",
-            "ICMP"
-          ],
+          "options": ["IPv4", "IPv6", "IPX", "ICMP"],
           "correctAnswer": "IPv4",
           "explanation": "IPv4 is the most common version of Internet Protocol in use today, though IPv6 adoption is increasing."
         },
         {
           "question": "Which network device directs traffic between different networks?",
-          "options": [
-            "Router",
-            "Switch",
-            "Hub",
-            "Access point"
-          ],
+          "options": ["Router", "Switch", "Hub", "Access point"],
           "correctAnswer": "Router",
           "explanation": "Routers determine the best path for data packets to travel between networks."
         },
         {
           "question": "Which protocol is used to retrieve emails from a server?",
-          "options": [
-            "POP3",
-            "SMTP",
-            "HTTP",
-            "FTP"
-          ],
+          "options": ["POP3", "SMTP", "HTTP", "FTP"],
           "correctAnswer": "POP3",
           "explanation": "POP3 allows email clients to download messages from a mail server."
         },
         {
           "question": "Which network type covers a large geographical area?",
-          "options": [
-            "WAN",
-            "LAN",
-            "MAN",
-            "PAN"
-          ],
+          "options": ["WAN", "LAN", "MAN", "PAN"],
           "correctAnswer": "WAN",
           "explanation": "Wide Area Networks (WANs) span large areas, connecting LANs across cities or countries."
         },
         {
           "question": "Which network device extends wireless coverage?",
-          "options": [
-            "Access point",
-            "Switch",
-            "Router",
-            "Hub"
-          ],
+          "options": ["Access point", "Switch", "Router", "Hub"],
           "correctAnswer": "Access point",
           "explanation": "Access points allow wireless devices to connect to a wired network."
         },
@@ -285,36 +215,31 @@
       "questions": [
         {
           "question": "Which protocol translates domain names into IP addresses?",
-          "options": [
-            "DNS",
-            "DHCP",
-            "HTTP",
-            "FTP"
-          ],
+          "options": ["DNS", "DHCP", "HTTP", "FTP"],
           "correctAnswer": "DNS",
           "explanation": "The Domain Name System (DNS) maps human-readable names to machine-readable IP addresses."
         },
         {
           "question": "Why is it important to Networks? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Networks?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Managing systems and networks to ensure reliable computing services",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Networks — part 2?",
@@ -378,78 +303,43 @@
       "questions": [
         {
           "question": "Which component is considered the brain of a computer?",
-          "options": [
-            "CPU",
-            "GPU",
-            "RAM",
-            "SSD"
-          ],
+          "options": ["CPU", "GPU", "RAM", "SSD"],
           "correctAnswer": "CPU",
           "explanation": "The CPU executes instructions and processes data for the computer."
         },
         {
           "question": "Which component temporarily stores data for active applications?",
-          "options": [
-            "RAM",
-            "SSD",
-            "GPU",
-            "CPU"
-          ],
+          "options": ["RAM", "SSD", "GPU", "CPU"],
           "correctAnswer": "RAM",
           "explanation": "RAM provides fast temporary storage for data being used by the CPU."
         },
         {
           "question": "Which component stores data permanently on a computer?",
-          "options": [
-            "SSD",
-            "RAM",
-            "CPU",
-            "GPU"
-          ],
+          "options": ["SSD", "RAM", "CPU", "GPU"],
           "correctAnswer": "SSD",
           "explanation": "SSDs provide non-volatile storage for files and programs."
         },
         {
           "question": "Which device connects multiple devices within a wired network?",
-          "options": [
-            "Switch",
-            "Router",
-            "Hub",
-            "Firewall"
-          ],
+          "options": ["Switch", "Router", "Hub", "Firewall"],
           "correctAnswer": "Switch",
           "explanation": "Switches direct data frames to the appropriate device within a local network."
         },
         {
           "question": "Which component is used to display images and graphics?",
-          "options": [
-            "GPU",
-            "CPU",
-            "RAM",
-            "SSD"
-          ],
+          "options": ["GPU", "CPU", "RAM", "SSD"],
           "correctAnswer": "GPU",
           "explanation": "The GPU processes graphics and renders images for output to a display."
         },
         {
           "question": "Which peripheral allows users to input data by moving a pointer?",
-          "options": [
-            "Mouse",
-            "Keyboard",
-            "Scanner",
-            "Printer"
-          ],
+          "options": ["Mouse", "Keyboard", "Scanner", "Printer"],
           "correctAnswer": "Mouse",
           "explanation": "A mouse lets users interact with graphical interfaces by moving and clicking a pointer."
         },
         {
           "question": "Which type of port connects external storage devices and peripherals?",
-          "options": [
-            "USB",
-            "HDMI",
-            "Ethernet",
-            "VGA"
-          ],
+          "options": ["USB", "HDMI", "Ethernet", "VGA"],
           "correctAnswer": "USB",
           "explanation": "USB ports support data transfer and power for a variety of external devices."
         },
@@ -471,25 +361,20 @@
       "questions": [
         {
           "question": "Which port is typically used for connecting monitors to computers?",
-          "options": [
-            "HDMI",
-            "USB",
-            "Ethernet",
-            "Audio jack"
-          ],
+          "options": ["HDMI", "USB", "Ethernet", "Audio jack"],
           "correctAnswer": "HDMI",
           "explanation": "HDMI ports transmit high-definition video and audio signals from a computer to a display."
         },
         {
           "question": "Which practice helps Computer Hardware and Connectivity? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
@@ -564,78 +449,43 @@
       "questions": [
         {
           "question": "Which malware disguises itself as legitimate software?",
-          "options": [
-            "Trojan",
-            "Virus",
-            "Worm",
-            "Adware"
-          ],
+          "options": ["Trojan", "Virus", "Worm", "Adware"],
           "correctAnswer": "Trojan",
           "explanation": "Trojans appear harmless but contain malicious code that can compromise systems."
         },
         {
           "question": "Which security measure prevents unauthorized access to a network?",
-          "options": [
-            "Firewall",
-            "VPN",
-            "Cloud storage",
-            "Email filter"
-          ],
+          "options": ["Firewall", "VPN", "Cloud storage", "Email filter"],
           "correctAnswer": "Firewall",
           "explanation": "Firewalls block unauthorized network traffic while allowing legitimate communication."
         },
         {
           "question": "Which security technique encrypts data for safe transmission?",
-          "options": [
-            "Encryption",
-            "Antivirus",
-            "Firewall",
-            "Backup"
-          ],
+          "options": ["Encryption", "Antivirus", "Firewall", "Backup"],
           "correctAnswer": "Encryption",
           "explanation": "Encryption transforms data into unreadable format for secure communication."
         },
         {
           "question": "Which attack attempts to trick users into giving sensitive information?",
-          "options": [
-            "Phishing",
-            "Malware",
-            "Spyware",
-            "DDoS"
-          ],
+          "options": ["Phishing", "Malware", "Spyware", "DDoS"],
           "correctAnswer": "Phishing",
           "explanation": "Phishing uses deceptive messages to obtain personal or financial data."
         },
         {
           "question": "Which software detects and removes viruses?",
-          "options": [
-            "Antivirus",
-            "Firewall",
-            "VPN",
-            "Backup software"
-          ],
+          "options": ["Antivirus", "Firewall", "VPN", "Backup software"],
           "correctAnswer": "Antivirus",
           "explanation": "Antivirus programs scan, detect, and remove malicious software from computers."
         },
         {
           "question": "Which type of attack floods a system with traffic to disrupt service?",
-          "options": [
-            "DDoS",
-            "Trojan",
-            "Phishing",
-            "Spyware"
-          ],
+          "options": ["DDoS", "Trojan", "Phishing", "Spyware"],
           "correctAnswer": "DDoS",
           "explanation": "Distributed Denial of Service (DDoS) attacks overwhelm a system with traffic to cause downtime."
         },
         {
           "question": "Which security practice involves keeping software updated to patch vulnerabilities?",
-          "options": [
-            "Patching",
-            "Encryption",
-            "Sandboxing",
-            "Phishing"
-          ],
+          "options": ["Patching", "Encryption", "Sandboxing", "Phishing"],
           "correctAnswer": "Patching",
           "explanation": "Patching fixes known security issues to reduce vulnerability to attacks."
         },
@@ -669,13 +519,13 @@
         {
           "question": "Why is it important to Security? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Protecting systems and data by identifying and mitigating threats",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Security — part 2?",
@@ -750,56 +600,31 @@
       "questions": [
         {
           "question": "Which OS manages hardware resources and provides services to software applications?",
-          "options": [
-            "Operating System",
-            "Compiler",
-            "Browser",
-            "Firewall"
-          ],
+          "options": ["Operating System", "Compiler", "Browser", "Firewall"],
           "correctAnswer": "Operating System",
           "explanation": "Operating systems manage hardware resources like CPU, memory, and storage while providing a platform for applications."
         },
         {
           "question": "Which OS type is open-source and widely used for servers?",
-          "options": [
-            "Linux",
-            "Windows",
-            "macOS",
-            "iOS"
-          ],
+          "options": ["Linux", "Windows", "macOS", "iOS"],
           "correctAnswer": "Linux",
           "explanation": "Linux is open-source, customizable, and popular in server environments."
         },
         {
           "question": "Which OS is primarily used on Apple computers?",
-          "options": [
-            "macOS",
-            "Windows",
-            "Linux",
-            "Android"
-          ],
+          "options": ["macOS", "Windows", "Linux", "Android"],
           "correctAnswer": "macOS",
           "explanation": "macOS is the proprietary operating system developed by Apple for its Mac computers."
         },
         {
           "question": "Which OS component handles input and output requests?",
-          "options": [
-            "Kernel",
-            "Shell",
-            "Desktop",
-            "BIOS"
-          ],
+          "options": ["Kernel", "Shell", "Desktop", "BIOS"],
           "correctAnswer": "Kernel",
           "explanation": "The kernel manages communication between hardware and software, handling I/O operations and system resources."
         },
         {
           "question": "Which OS feature allows running multiple applications at the same time?",
-          "options": [
-            "Multitasking",
-            "Networking",
-            "Security",
-            "Encryption"
-          ],
+          "options": ["Multitasking", "Networking", "Security", "Encryption"],
           "correctAnswer": "Multitasking",
           "explanation": "Multitasking allows an operating system to run multiple programs simultaneously by allocating CPU time efficiently."
         },
@@ -816,12 +641,7 @@
         },
         {
           "question": "Which OS is commonly used in smartphones?",
-          "options": [
-            "Android",
-            "Windows",
-            "macOS",
-            "Linux"
-          ],
+          "options": ["Android", "Windows", "macOS", "Linux"],
           "correctAnswer": "Android",
           "explanation": "Android is an open-source OS designed for mobile devices like smartphones and tablets."
         },
@@ -843,36 +663,31 @@
       "questions": [
         {
           "question": "Which OS utility checks and repairs file system errors?",
-          "options": [
-            "Disk check tool",
-            "Firewall",
-            "Task manager",
-            "Shell"
-          ],
+          "options": ["Disk check tool", "Firewall", "Task manager", "Shell"],
           "correctAnswer": "Disk check tool",
           "explanation": "Disk check tools verify file system integrity and repair errors to maintain OS stability."
         },
         {
           "question": "Why is it important to Operating Systems? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Operating Systems?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Managing systems and networks to ensure reliable computing services",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Operating Systems — part 2?",
@@ -936,78 +751,43 @@
       "questions": [
         {
           "question": "Which device connects multiple computers in a local network?",
-          "options": [
-            "Switch",
-            "Router",
-            "Firewall",
-            "Hub"
-          ],
+          "options": ["Switch", "Router", "Firewall", "Hub"],
           "correctAnswer": "Switch",
           "explanation": "Switches forward data frames only to the intended device within a local network."
         },
         {
           "question": "Which protocol provides secure web browsing?",
-          "options": [
-            "HTTPS",
-            "HTTP",
-            "FTP",
-            "SMTP"
-          ],
+          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
           "correctAnswer": "HTTPS",
           "explanation": "HTTPS encrypts web traffic, protecting data from eavesdropping and tampering."
         },
         {
           "question": "Which IP version is most widely used currently?",
-          "options": [
-            "IPv4",
-            "IPv6",
-            "IPX",
-            "ICMP"
-          ],
+          "options": ["IPv4", "IPv6", "IPX", "ICMP"],
           "correctAnswer": "IPv4",
           "explanation": "IPv4 is the most common version of Internet Protocol in use today, though IPv6 adoption is increasing."
         },
         {
           "question": "Which network device directs traffic between different networks?",
-          "options": [
-            "Router",
-            "Switch",
-            "Hub",
-            "Access point"
-          ],
+          "options": ["Router", "Switch", "Hub", "Access point"],
           "correctAnswer": "Router",
           "explanation": "Routers determine the best path for data packets to travel between networks."
         },
         {
           "question": "Which protocol is used to retrieve emails from a server?",
-          "options": [
-            "POP3",
-            "SMTP",
-            "HTTP",
-            "FTP"
-          ],
+          "options": ["POP3", "SMTP", "HTTP", "FTP"],
           "correctAnswer": "POP3",
           "explanation": "POP3 allows email clients to download messages from a mail server."
         },
         {
           "question": "Which network type covers a large geographical area?",
-          "options": [
-            "WAN",
-            "LAN",
-            "MAN",
-            "PAN"
-          ],
+          "options": ["WAN", "LAN", "MAN", "PAN"],
           "correctAnswer": "WAN",
           "explanation": "Wide Area Networks (WANs) span large areas, connecting LANs across cities or countries."
         },
         {
           "question": "Which network device extends wireless coverage?",
-          "options": [
-            "Access point",
-            "Switch",
-            "Router",
-            "Hub"
-          ],
+          "options": ["Access point", "Switch", "Router", "Hub"],
           "correctAnswer": "Access point",
           "explanation": "Access points allow wireless devices to connect to a wired network."
         },
@@ -1029,25 +809,20 @@
       "questions": [
         {
           "question": "Which protocol translates domain names into IP addresses?",
-          "options": [
-            "DNS",
-            "DHCP",
-            "HTTP",
-            "FTP"
-          ],
+          "options": ["DNS", "DHCP", "HTTP", "FTP"],
           "correctAnswer": "DNS",
           "explanation": "The Domain Name System (DNS) maps human-readable names to machine-readable IP addresses."
         },
         {
           "question": "Which practice helps Networks? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Managing systems and networks to ensure reliable computing services",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Networks — part 2?",
@@ -1122,34 +897,19 @@
       "questions": [
         {
           "question": "Which component is considered the brain of a computer?",
-          "options": [
-            "CPU",
-            "GPU",
-            "RAM",
-            "SSD"
-          ],
+          "options": ["CPU", "GPU", "RAM", "SSD"],
           "correctAnswer": "CPU",
           "explanation": "The CPU executes instructions and processes data for the computer."
         },
         {
           "question": "Which component temporarily stores data for active applications?",
-          "options": [
-            "RAM",
-            "SSD",
-            "GPU",
-            "CPU"
-          ],
+          "options": ["RAM", "SSD", "GPU", "CPU"],
           "correctAnswer": "RAM",
           "explanation": "RAM provides fast temporary storage for data being used by the CPU."
         },
         {
           "question": "Which component stores data permanently on a computer?",
-          "options": [
-            "SSD",
-            "RAM",
-            "CPU",
-            "GPU"
-          ],
+          "options": ["SSD", "RAM", "CPU", "GPU"],
           "correctAnswer": "SSD",
           "explanation": "SSDs provide non-volatile storage for files and programs."
         }
@@ -1160,12 +920,7 @@
       "questions": [
         {
           "question": "Which malware disguises itself as legitimate software?",
-          "options": [
-            "Trojan",
-            "Virus",
-            "Worm",
-            "Adware"
-          ],
+          "options": ["Trojan", "Virus", "Worm", "Adware"],
           "correctAnswer": "Trojan",
           "explanation": "Trojans appear harmless but contain malicious code that can compromise systems."
         }

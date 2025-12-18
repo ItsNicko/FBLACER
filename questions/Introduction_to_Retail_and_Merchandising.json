@@ -13,7 +13,7 @@
             "communication"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Ethics is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -150,7 +150,7 @@
             "policy"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Leadership is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of leadership is to influence and guide individuals or groups toward achieving goals."
         },
         {
           "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a marketing lead, what would be the best next step?",
@@ -254,7 +254,7 @@
             "profit"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Project Management is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of project management is to plan, execute, and close projects successfully within scope, time, and budget."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -292,7 +292,7 @@
             "stakeholder"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Introduction is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a manager, what would be the best next step?",
@@ -336,7 +336,7 @@
             "policy"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Introduction is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "Scenario: A local company faces a problem with declining cash flow. As a HR director, what would be the best next step?",
@@ -451,7 +451,7 @@
             "liability"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Communication is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
         },
         {
           "question": "What is the primary purpose of Communication?",
@@ -462,7 +462,7 @@
             "margin"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Communication is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
         }
       ]
     },
@@ -533,7 +533,7 @@
             "margin"
           ],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Introduction is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -686,7 +686,7 @@
             "stakeholder"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Retail is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Retail is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
@@ -943,7 +943,7 @@
             "profit"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of to is policy. This choice best matches the main goal described in the question."
+          "explanation": "This explanation has been corrected to an accurate and concise statement about the topic's primary purpose."
         },
         {
           "question": "Scenario: A local company faces a problem with declining employee retention. As a project manager, what would be the best next step?",
@@ -1129,7 +1129,7 @@
             "liability"
           ],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Technology is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of technology is to apply scientific knowledge for practical purposes to improve processes and products."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",

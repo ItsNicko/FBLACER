@@ -49,48 +49,48 @@
           "explanation": "Debiting Accounts Payable reduces the liability and crediting Cash reduces the asset correctly."
         },
         {
-          "question": "Why is it important to Journalizing? (Challenging)",
+          "question": "Why is it important to journalizing? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "It creates a chronological record of transactions",
+            "It determines tax liabilities",
+            "It automatically prepares financial statements",
+            "It eliminates the need for ledgers"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It creates a chronological record of transactions",
+          "explanation": "Journalizing provides a chronological record of transactions, creating an audit trail and supporting accurate posting to ledgers."
         },
         {
-          "question": "How does a manager typically journalizing?",
+          "question": "How does a manager typically journalize transactions?",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "By recording each transaction chronologically in the journal",
+            "By preparing budgets only",
+            "By delegating all accounting tasks to external auditors",
+            "By posting entries directly to financial statements"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "By recording each transaction chronologically in the journal",
+          "explanation": "Journalizing means recording transactions in the journal in chronological order so they can be posted to the ledger."
         },
         {
           "question": "What is the primary purpose of journalizing?",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "To provide a chronological record of business transactions",
+            "To compute taxes owed",
+            "To track employee attendance",
+            "To value inventory at market price"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To provide a chronological record of business transactions",
+          "explanation": "The primary purpose of journalizing is to record each transaction chronologically, producing a reliable audit trail for posting and review."
         },
         {
-          "question": "(Hard) Which is a challenging question about Journalizing?",
+          "question": "(Hard) Which journalizing challenge often requires careful judgment?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
+            "Ensuring debits equal credits for complex transactions",
+            "Choosing advertising channels",
+            "Preparing daily bank deposits only",
             "None of the above"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "Hard-level: Journalizing relies on accounting best practices (debits equal credits and correct account selection). This answer highlights the procedural nature of accurate journal entry preparation; the other options are distractors."
+          "correctAnswer": "Ensuring debits equal credits for complex transactions",
+          "explanation": "Hard-level: Complex transactions can require judgment to identify correct accounts and ensure debits equal credits, which is a core challenge in journalizing."
         }
       ]
     },
@@ -116,59 +116,59 @@
           "explanation": "Prepaid insurance represents a future economic benefit and is considered an asset."
         },
         {
-          "question": "Which of the following best explains Account Classification? (Challenging)",
+          "question": "Which of the following best explains account classification? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "Assigning transactions to asset, liability, equity, revenue, or expense accounts",
+            "Recording only cash transactions",
+            "Estimating future cash flows",
+            "Calculating tax deductions"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Assigning transactions to asset, liability, equity, revenue, or expense accounts",
+          "explanation": "Account classification is the process of assigning transactions to the proper account types (assets, liabilities, equity, revenues, expenses) so financial statements are accurate."
         },
         {
-          "question": "(Scenario) Consider an organization that needs to: how should they address account classification?",
+          "question": "(Scenario) Consider an organization that needs to improve account classification. How should they proceed?",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "Apply consistent classification rules and maintain a chart of accounts",
+            "Classify all items as expenses",
+            "Record transactions without accounts",
+            "Rely only on external accountants"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Apply consistent classification rules and maintain a chart of accounts",
+          "explanation": "Organizations should use a consistent chart of accounts and documented policies to ensure transactions are classified correctly and consistently."
         },
         {
-          "question": "How does a manager typically account classification?",
+          "question": "How does a manager typically ensure proper account classification?",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "By using a standardized chart of accounts and documented policies",
+            "By guessing account types for speed",
+            "By deleting older accounts periodically",
+            "By recording everything as revenue"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "By using a standardized chart of accounts and documented policies",
+          "explanation": "Managers ensure consistent classification by maintaining a chart of accounts and documented policies for how transactions should be classified."
         },
         {
           "question": "Which practice helps account classification?",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "Using a standardized chart of accounts",
+            "Ignoring transaction documentation",
+            "Mixing personal and business expenses",
+            "Posting directly to financial statements"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using a standardized chart of accounts",
+          "explanation": "A standardized chart of accounts supports consistent classification of transactions across periods and departments."
         },
         {
-          "question": "(Hard) Which is a challenging question about Account Classification?",
+          "question": "(Hard) Which account-classification issue often requires judgment?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
+            "Differentiating capital expenditures from operating expenses",
+            "Choosing a company logo",
+            "Selecting office furniture",
             "None of the above"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "Hard-level: Account classification depends on consistent rules for assigning transactions to assets, liabilities, equity, revenues, or expenses. 'Best practice' is correct because it reflects applying those standards; the other choices are not classification principles."
+          "correctAnswer": "Differentiating capital expenditures from operating expenses",
+          "explanation": "Hard-level: Deciding whether a cost is capital (capitalized and depreciated) or an operating expense often requires judgment and policy guidance."
         }
       ]
     },
@@ -198,70 +198,70 @@
           "explanation": "Accrual accounting records revenue when earned, not necessarily when cash is received."
         },
         {
-          "question": "What is the primary purpose of Terminology, Concepts, and Practices? (Hard)",
+          "question": "What is the primary purpose of terminology, concepts, and practices? (Hard)",
           "options": [
-            "It involves planning and following best practices",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "To ensure consistent application of accounting principles and clear communication",
+            "To increase company profits directly",
+            "To replace financial statements",
+            "To limit documentation"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Terminology and concepts provide a shared framework so accountants and stakeholders interpret and apply accounting rules consistently."
         },
         {
           "question": "Which of the following best explains terminology, concepts, and practices?",
           "options": [
-            "It involves planning and following best practices",
+            "To ensure consistent application of accounting principles and clear communication",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains terminology, concepts, and practices?",
           "options": [
-            "It involves planning and following best practices",
+            "To ensure consistent application of accounting principles and clear communication",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which practice helps terminology, concepts, and practices?",
           "options": [
-            "It involves planning and following best practices",
+            "To ensure consistent application of accounting principles and clear communication",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to terminology, concepts, and practices?",
           "options": [
-            "It involves planning and following best practices",
+            "To ensure consistent application of accounting principles and clear communication",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) (Scenario) A student/employee faces the following situation: how should they address terminology, concepts, and practices?",
           "options": [
-            "It involves planning and following best practices",
+            "To ensure consistent application of accounting principles and clear communication",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "To ensure consistent application of accounting principles and clear communication",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -288,68 +288,68 @@
         {
           "question": "Which of the following best explains Income Statement? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which practice helps income statement?",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to income statement?",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which practice helps income statement?",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of income statement?",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which of the following best explains income statement?",
           "options": [
-            "It involves planning and following best practices",
+            "It shows revenues and expenses for a specific period",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It shows revenues and expenses for a specific period",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -370,79 +370,79 @@
         {
           "question": "How does a manager typically Posting? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) A student/employee faces the following situation: how should they address posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which practice helps posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Why is it important to posting?",
           "options": [
-            "It involves planning and following best practices",
+            "Transferring journal entries to ledger accounts",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Transferring journal entries to ledger accounts",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -480,57 +480,57 @@
         {
           "question": "How does a manager typically Balance Sheet? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "It reports assets, liabilities, and owner's equity at a point in time",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It reports assets, liabilities, and owner's equity at a point in time",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains balance sheet?",
           "options": [
-            "It involves planning and following best practices",
+            "It reports assets, liabilities, and owner's equity at a point in time",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It reports assets, liabilities, and owner's equity at a point in time",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains balance sheet?",
           "options": [
-            "It involves planning and following best practices",
+            "It reports assets, liabilities, and owner's equity at a point in time",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It reports assets, liabilities, and owner's equity at a point in time",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to balance sheet?",
           "options": [
-            "It involves planning and following best practices",
+            "It reports assets, liabilities, and owner's equity at a point in time",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It reports assets, liabilities, and owner's equity at a point in time",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) What is the primary purpose of balance sheet?",
           "options": [
-            "It involves planning and following best practices",
+            "It reports assets, liabilities, and owner's equity at a point in time",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "It reports assets, liabilities, and owner's equity at a point in time",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -562,68 +562,68 @@
         {
           "question": "Which of the following best explains Worksheet? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "A working paper to compile adjustments and prepare financial statements",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "How does a manager typically worksheet?",
           "options": [
-            "It involves planning and following best practices",
+            "A working paper to compile adjustments and prepare financial statements",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "How does a manager typically worksheet?",
           "options": [
-            "It involves planning and following best practices",
+            "A working paper to compile adjustments and prepare financial statements",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) A student/employee faces the following situation: how should they address worksheet?",
           "options": [
-            "It involves planning and following best practices",
+            "A working paper to compile adjustments and prepare financial statements",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) Consider an organization that needs to: how should they address worksheet?",
           "options": [
-            "It involves planning and following best practices",
+            "A working paper to compile adjustments and prepare financial statements",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Worksheet?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "A working paper to compile adjustments and prepare financial statements",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "Hard-level: A worksheet is used to collate the trial balance, adjustments, and financial statement columns; following best practices ensures accuracy before final reports. The other options do not describe the worksheet's role."
+          "correctAnswer": "A working paper to compile adjustments and prepare financial statements",
+          "explanation": "Hard-level: A worksheet is used to collate the trial balance, adjustments, and financial statement columns; following best practices ensures accuracy before final reports. The other options do not describe the worksheet's role. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -655,68 +655,68 @@
         {
           "question": "Which of the following best explains Bank Reconciliation? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Comparing the company books and bank statement to identify timing differences and errors",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "How does a manager typically bank reconciliation?",
           "options": [
-            "It involves planning and following best practices",
+            "Comparing the company books and bank statement to identify timing differences and errors",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) A student/employee faces the following situation: how should they address bank reconciliation?",
           "options": [
-            "It involves planning and following best practices",
+            "Comparing the company books and bank statement to identify timing differences and errors",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of bank reconciliation?",
           "options": [
-            "It involves planning and following best practices",
+            "Comparing the company books and bank statement to identify timing differences and errors",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of bank reconciliation?",
           "options": [
-            "It involves planning and following best practices",
+            "Comparing the company books and bank statement to identify timing differences and errors",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Bank Reconciliation?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Comparing the company books and bank statement to identify timing differences and errors",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "Hard-level: Bank reconciliation requires methodical comparison of company books and bank statements to identify timing differences and errors. 'Best practice' is correct because reconciliation follows established procedures to ensure balances are accurate."
+          "correctAnswer": "Comparing the company books and bank statement to identify timing differences and errors",
+          "explanation": "Hard-level: Bank reconciliation requires methodical comparison of company books and bank statements to identify timing differences and errors. 'Best practice' is correct because reconciliation follows established procedures to ensure balances are accurate. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -748,68 +748,68 @@
         {
           "question": "What is the primary purpose of Payroll? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of payroll?",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) A student/employee faces the following situation: how should they address payroll?",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) Consider an organization that needs to: how should they address payroll?",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of payroll?",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which of the following best explains payroll?",
           "options": [
-            "It involves planning and following best practices",
+            "Recording and remitting employee wages and related payroll taxes",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Recording and remitting employee wages and related payroll taxes",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },

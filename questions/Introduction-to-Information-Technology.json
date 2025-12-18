@@ -9,100 +9,55 @@
           "questions": [
             {
               "question": "Which type of computer is best suited for large-scale scientific simulations?",
-              "options": [
-                "Tablet",
-                "Personal computer",
-                "Mainframe",
-                "Laptop"
-              ],
+              "options": ["Tablet", "Personal computer", "Mainframe", "Laptop"],
               "correctAnswer": "Mainframe",
               "explanation": "Mainframes are designed for high-performance computing and large-scale simulations."
             },
             {
               "question": "What component temporarily stores data for quick access by the CPU?",
-              "options": [
-                "RAM",
-                "Hard drive",
-                "SSD",
-                "GPU"
-              ],
+              "options": ["RAM", "Hard drive", "SSD", "GPU"],
               "correctAnswer": "RAM",
               "explanation": "RAM stores data temporarily for fast access by the CPU."
             },
             {
               "question": "Which storage device is faster and more durable?",
-              "options": [
-                "HDD",
-                "SSD",
-                "CD-ROM",
-                "Floppy disk"
-              ],
+              "options": ["HDD", "SSD", "CD-ROM", "Floppy disk"],
               "correctAnswer": "SSD",
               "explanation": "Solid State Drives are faster and more durable than traditional hard drives."
             },
             {
               "question": "Which component processes instructions from programs?",
-              "options": [
-                "GPU",
-                "CPU",
-                "RAM",
-                "Motherboard"
-              ],
+              "options": ["GPU", "CPU", "RAM", "Motherboard"],
               "correctAnswer": "CPU",
               "explanation": "The CPU (Central Processing Unit) executes program instructions."
             },
             {
               "question": "Which peripheral is used to scan physical documents into digital format?",
-              "options": [
-                "Printer",
-                "Scanner",
-                "Monitor",
-                "Keyboard"
-              ],
+              "options": ["Printer", "Scanner", "Monitor", "Keyboard"],
               "correctAnswer": "Scanner",
               "explanation": "Scanners convert physical documents into digital files."
             },
             {
               "question": "Which device connects a computer to a network?",
-              "options": [
-                "Router",
-                "Monitor",
-                "Network adapter",
-                "Hard drive"
-              ],
+              "options": ["Router", "Monitor", "Network adapter", "Hard drive"],
               "correctAnswer": "Network adapter",
               "explanation": "A network adapter allows a computer to connect to a network."
             },
             {
               "question": "What type of memory is non-volatile and stores firmware?",
-              "options": [
-                "RAM",
-                "ROM",
-                "Cache",
-                "Virtual Memory"
-              ],
+              "options": ["RAM", "ROM", "Cache", "Virtual Memory"],
               "correctAnswer": "ROM",
               "explanation": "ROM (Read-Only Memory) retains firmware even when power is off."
             },
             {
               "question": "Which component is essential for displaying images on a monitor?",
-              "options": [
-                "GPU",
-                "CPU",
-                "RAM",
-                "Hard Drive"
-              ],
+              "options": ["GPU", "CPU", "RAM", "Hard Drive"],
               "correctAnswer": "GPU",
               "explanation": "The GPU (Graphics Processing Unit) renders images to display."
             },
             {
               "question": "Which device is used to output sound from a computer?",
-              "options": [
-                "Speakers",
-                "Microphone",
-                "Monitor",
-                "Keyboard"
-              ],
+              "options": ["Speakers", "Microphone", "Monitor", "Keyboard"],
               "correctAnswer": "Speakers",
               "explanation": "Speakers convert audio signals from a computer into sound."
             },
@@ -119,111 +74,61 @@
             },
             {
               "question": "Which component stores permanent data and programs?",
-              "options": [
-                "RAM",
-                "ROM",
-                "Hard drive",
-                "Cache"
-              ],
+              "options": ["RAM", "ROM", "Hard drive", "Cache"],
               "correctAnswer": "Hard drive",
               "explanation": "Hard drives store data and programs permanently."
             },
             {
               "question": "What device converts digital signals into analog for transmission?",
-              "options": [
-                "Router",
-                "Modem",
-                "Switch",
-                "Hub"
-              ],
+              "options": ["Router", "Modem", "Switch", "Hub"],
               "correctAnswer": "Modem",
               "explanation": "Modems convert digital data into analog signals and vice versa for network communication."
             },
             {
               "question": "Which component controls communication between all computer parts?",
-              "options": [
-                "Motherboard",
-                "CPU",
-                "GPU",
-                "Power supply"
-              ],
+              "options": ["Motherboard", "CPU", "GPU", "Power supply"],
               "correctAnswer": "Motherboard",
               "explanation": "The motherboard connects and allows communication between all computer components."
             },
             {
               "question": "Which peripheral allows input of text data?",
-              "options": [
-                "Keyboard",
-                "Mouse",
-                "Scanner",
-                "Printer"
-              ],
+              "options": ["Keyboard", "Mouse", "Scanner", "Printer"],
               "correctAnswer": "Keyboard",
               "explanation": "Keyboards are the primary input device for text."
             },
             {
               "question": "Which type of storage uses magnetic disks?",
-              "options": [
-                "SSD",
-                "HDD",
-                "Flash drive",
-                "ROM"
-              ],
+              "options": ["SSD", "HDD", "Flash drive", "ROM"],
               "correctAnswer": "HDD",
               "explanation": "HDDs use magnetic disks to store data."
             },
             {
               "question": "What provides electrical power to all computer components?",
-              "options": [
-                "Power supply",
-                "CPU",
-                "Motherboard",
-                "GPU"
-              ],
+              "options": ["Power supply", "CPU", "Motherboard", "GPU"],
               "correctAnswer": "Power supply",
               "explanation": "The power supply converts electricity from an outlet to usable power for components."
             },
             {
               "question": "Which peripheral allows you to select items on a screen?",
-              "options": [
-                "Keyboard",
-                "Mouse",
-                "Printer",
-                "Scanner"
-              ],
+              "options": ["Keyboard", "Mouse", "Printer", "Scanner"],
               "correctAnswer": "Mouse",
               "explanation": "The mouse controls the pointer and enables selection of items on a screen."
             },
             {
               "question": "Which hardware component is used for short-term storage of CPU instructions?",
-              "options": [
-                "ROM",
-                "RAM",
-                "Cache",
-                "Hard drive"
-              ],
+              "options": ["ROM", "RAM", "Cache", "Hard drive"],
               "correctAnswer": "Cache",
               "explanation": "Cache memory stores frequently used instructions for quick CPU access."
             },
             {
               "question": "Which device prints documents from a computer?",
-              "options": [
-                "Scanner",
-                "Monitor",
-                "Printer",
-                "Keyboard"
-              ],
+              "options": ["Scanner", "Monitor", "Printer", "Keyboard"],
               "correctAnswer": "Printer",
               "explanation": "Printers produce physical copies of digital documents."
             },
             {
               "question": "Which type of computer is designed for personal daily use?",
-              "options": [
-                "Supercomputer",
-                "Mainframe",
-                "Desktop PC",
-                "Server"
-              ],
+              "options": ["Supercomputer", "Mainframe", "Desktop PC", "Server"],
               "correctAnswer": "Desktop PC",
               "explanation": "Desktop PCs are designed for personal use and general computing tasks."
             }
@@ -376,12 +281,7 @@
             },
             {
               "question": "Which OS is commonly used in mobile devices?",
-              "options": [
-                "Windows",
-                "Linux",
-                "Android",
-                "macOS"
-              ],
+              "options": ["Windows", "Linux", "Android", "macOS"],
               "correctAnswer": "Android",
               "explanation": "Android is widely used in smartphones and tablets."
             },
@@ -420,12 +320,7 @@
             },
             {
               "question": "Which OS is open-source and widely used for servers?",
-              "options": [
-                "Windows Server",
-                "Linux",
-                "macOS",
-                "Android"
-              ],
+              "options": ["Windows Server", "Linux", "macOS", "Android"],
               "correctAnswer": "Linux",
               "explanation": "Linux is free, open-source, and commonly used in server environments."
             },
@@ -464,12 +359,7 @@
             },
             {
               "question": "Which OS is primarily used on Apple desktops and laptops?",
-              "options": [
-                "Linux",
-                "Windows",
-                "macOS",
-                "Android"
-              ],
+              "options": ["Linux", "Windows", "macOS", "Android"],
               "correctAnswer": "macOS",
               "explanation": "macOS is the operating system for Apple computers."
             },
@@ -486,23 +376,13 @@
             },
             {
               "question": "Which OS command-line utility displays network configuration?",
-              "options": [
-                "ipconfig",
-                "notepad",
-                "tasklist",
-                "msconfig"
-              ],
+              "options": ["ipconfig", "notepad", "tasklist", "msconfig"],
               "correctAnswer": "ipconfig",
               "explanation": "ipconfig shows network configuration and IP addresses."
             },
             {
               "question": "Which OS provides graphical icons and menus for user interaction?",
-              "options": [
-                "CLI",
-                "GUI",
-                "Firmware",
-                "Spreadsheet"
-              ],
+              "options": ["CLI", "GUI", "Firmware", "Spreadsheet"],
               "correctAnswer": "GUI",
               "explanation": "GUI (Graphical User Interface) allows users to interact with visual elements."
             },
@@ -789,34 +669,19 @@
           "questions": [
             {
               "question": "Which type of network covers a small geographic area like a home or office?",
-              "options": [
-                "LAN",
-                "WAN",
-                "MAN",
-                "VPN"
-              ],
+              "options": ["LAN", "WAN", "MAN", "VPN"],
               "correctAnswer": "LAN",
               "explanation": "A Local Area Network (LAN) connects devices within a small area such as a home or office."
             },
             {
               "question": "Which type of network covers a large geographic area, such as multiple cities or countries?",
-              "options": [
-                "LAN",
-                "WAN",
-                "MAN",
-                "PAN"
-              ],
+              "options": ["LAN", "WAN", "MAN", "PAN"],
               "correctAnswer": "WAN",
               "explanation": "A Wide Area Network (WAN) spans large geographic areas and can connect multiple LANs."
             },
             {
               "question": "Which device connects multiple devices on a network and directs data between them?",
-              "options": [
-                "Router",
-                "Printer",
-                "Keyboard",
-                "Monitor"
-              ],
+              "options": ["Router", "Printer", "Keyboard", "Monitor"],
               "correctAnswer": "Router",
               "explanation": "Routers manage traffic between different networks and direct data packets to their destination."
             },
@@ -844,23 +709,13 @@
             },
             {
               "question": "Which of the following is a common network security threat?",
-              "options": [
-                "Virus",
-                "Spreadsheet",
-                "Printer",
-                "Monitor"
-              ],
+              "options": ["Virus", "Spreadsheet", "Printer", "Monitor"],
               "correctAnswer": "Virus",
               "explanation": "Viruses are malicious software programs that can harm computers and networks."
             },
             {
               "question": "Which protocol is used to assign IP addresses automatically on a network?",
-              "options": [
-                "DHCP",
-                "HTTP",
-                "FTP",
-                "SMTP"
-              ],
+              "options": ["DHCP", "HTTP", "FTP", "SMTP"],
               "correctAnswer": "DHCP",
               "explanation": "The Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses to devices on a network."
             },
@@ -899,23 +754,13 @@
             },
             {
               "question": "Which network topology has all devices connected to a central hub or switch?",
-              "options": [
-                "Star",
-                "Bus",
-                "Ring",
-                "Mesh"
-              ],
+              "options": ["Star", "Bus", "Ring", "Mesh"],
               "correctAnswer": "Star",
               "explanation": "In a star topology, all devices connect to a central hub or switch for data transmission."
             },
             {
               "question": "Which network topology connects devices in a closed loop where each device is connected to two others?",
-              "options": [
-                "Ring",
-                "Star",
-                "Bus",
-                "Mesh"
-              ],
+              "options": ["Ring", "Star", "Bus", "Mesh"],
               "correctAnswer": "Ring",
               "explanation": "Ring topology connects devices in a loop, with each device having two neighbors."
             },
@@ -932,45 +777,25 @@
             },
             {
               "question": "Which device converts digital data into a signal suitable for transmission over telephone lines?",
-              "options": [
-                "Modem",
-                "Router",
-                "Switch",
-                "Hub"
-              ],
+              "options": ["Modem", "Router", "Switch", "Hub"],
               "correctAnswer": "Modem",
               "explanation": "A modem modulates and demodulates digital signals for transmission over telephone lines."
             },
             {
               "question": "Which type of network environment connects all devices equally without a central server?",
-              "options": [
-                "Peer-to-Peer",
-                "Client-Server",
-                "LAN",
-                "WAN"
-              ],
+              "options": ["Peer-to-Peer", "Client-Server", "LAN", "WAN"],
               "correctAnswer": "Peer-to-Peer",
               "explanation": "In peer-to-peer networks, devices share resources without a central server."
             },
             {
               "question": "Which device is primarily used to extend network coverage wirelessly?",
-              "options": [
-                "Access Point",
-                "Router",
-                "Modem",
-                "Switch"
-              ],
+              "options": ["Access Point", "Router", "Modem", "Switch"],
               "correctAnswer": "Access Point",
               "explanation": "Access points allow wireless devices to connect to a wired network."
             },
             {
               "question": "Which protocol is used to securely transfer files over the internet?",
-              "options": [
-                "SFTP",
-                "HTTP",
-                "SMTP",
-                "FTP"
-              ],
+              "options": ["SFTP", "HTTP", "SMTP", "FTP"],
               "correctAnswer": "SFTP",
               "explanation": "SFTP (Secure File Transfer Protocol) encrypts file transfers for security."
             },
@@ -998,12 +823,7 @@
             },
             {
               "question": "Which type of network cable is commonly used for Ethernet connections?",
-              "options": [
-                "Twisted Pair",
-                "Coaxial",
-                "Fiber Optic",
-                "USB"
-              ],
+              "options": ["Twisted Pair", "Coaxial", "Fiber Optic", "USB"],
               "correctAnswer": "Twisted Pair",
               "explanation": "Twisted pair cables, such as Cat5e and Cat6, are widely used for Ethernet networks."
             }
@@ -1088,12 +908,7 @@
             },
             {
               "question": "Which law or regulation protects intellectual property?",
-              "options": [
-                "Copyright law",
-                "OSHA",
-                "ADA",
-                "HIPAA"
-              ],
+              "options": ["Copyright law", "OSHA", "ADA", "HIPAA"],
               "correctAnswer": "Copyright law",
               "explanation": "Copyright law protects creators’ works and their intellectual property rights."
             },
@@ -1154,12 +969,7 @@
             },
             {
               "question": "Which technology converts physical documents into digital formats for storage?",
-              "options": [
-                "Scanning",
-                "Printing",
-                "Faxing",
-                "Networking"
-              ],
+              "options": ["Scanning", "Printing", "Faxing", "Networking"],
               "correctAnswer": "Scanning",
               "explanation": "Scanning converts paper documents into digital files for storage and retrieval."
             },

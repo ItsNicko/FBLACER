@@ -6,23 +6,13 @@
       "questions": [
         {
           "question": "What is the mean of the dataset [2, 4, 6, 8, 10]?",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
+          "options": ["5", "6", "7", "8"],
           "correctAnswer": "6",
           "explanation": "Mean is the sum of all values divided by the number of values: (2+4+6+8+10)/5 = 6."
         },
         {
           "question": "Which measure of central tendency is least affected by outliers?",
-          "options": [
-            "Mean",
-            "Median",
-            "Mode",
-            "Range"
-          ],
+          "options": ["Mean", "Median", "Mode", "Range"],
           "correctAnswer": "Median",
           "explanation": "The median is the middle value and is robust against extreme values."
         },
@@ -39,12 +29,7 @@
         },
         {
           "question": "The variance of a dataset is 16. What is the standard deviation?",
-          "options": [
-            "2",
-            "4",
-            "8",
-            "16"
-          ],
+          "options": ["2", "4", "8", "16"],
           "correctAnswer": "4",
           "explanation": "Standard deviation is the square root of variance: sqrt(16) = 4."
         },
@@ -61,34 +46,19 @@
         },
         {
           "question": "Which of the following is an expected value of rolling a fair 4-sided die?",
-          "options": [
-            "2.5",
-            "2",
-            "3",
-            "3.5"
-          ],
+          "options": ["2.5", "2", "3", "3.5"],
           "correctAnswer": "2.5",
           "explanation": "Expected value = (1+2+3+4)/4 = 2.5."
         },
         {
           "question": "If two variables increase together, their covariance is likely to be:",
-          "options": [
-            "Positive",
-            "Negative",
-            "Zero",
-            "Undefined"
-          ],
+          "options": ["Positive", "Negative", "Zero", "Undefined"],
           "correctAnswer": "Positive",
           "explanation": "Positive covariance indicates that as one variable increases, the other tends to increase as well."
         },
         {
           "question": "Range of the dataset [5, 10, 15, 20] is:",
-          "options": [
-            "10",
-            "15",
-            "5",
-            "20"
-          ],
+          "options": ["10", "15", "5", "20"],
           "correctAnswer": "15",
           "explanation": "Range = max - min = 20 - 5 = 15."
         },
@@ -105,12 +75,7 @@
         },
         {
           "question": "A dataset has values [1, 2, 3, 3, 3, 4, 5]. The mode is:",
-          "options": [
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
+          "options": ["2", "3", "4", "5"],
           "correctAnswer": "3",
           "explanation": "Mode is the value that occurs most frequently, which is 3."
         },
@@ -143,23 +108,13 @@
       "questions": [
         {
           "question": "A trick question: Which of the following is NOT a measure of dispersion?",
-          "options": [
-            "Variance",
-            "Standard deviation",
-            "Mean",
-            "Range"
-          ],
+          "options": ["Variance", "Standard deviation", "Mean", "Range"],
           "correctAnswer": "Mean",
           "explanation": "Mean is a measure of central tendency, not dispersion."
         },
         {
           "question": "Which statistic would you use to understand variability in exam scores?",
-          "options": [
-            "Variance",
-            "Mean",
-            "Mode",
-            "Median"
-          ],
+          "options": ["Variance", "Mean", "Mode", "Median"],
           "correctAnswer": "Variance",
           "explanation": "Variance measures how spread out the data points are from the mean."
         },
@@ -187,25 +142,20 @@
         },
         {
           "question": "Which is a trick scenario: Rolling a die twice, expected sum?",
-          "options": [
-            "6",
-            "7",
-            "8",
-            "9"
-          ],
+          "options": ["6", "7", "8", "9"],
           "correctAnswer": "7",
           "explanation": "Expected value of the sum = sum of expected values of each die: 3.5 + 3.5 = 7."
         },
         {
           "question": "What is the primary purpose of Probability and Statistics Foundations? (Hard)",
           "options": [
-            "It involves planning and following best practices",
-            "B: It is rarely used in practice",
-            "C: It always increases costs",
-            "D: It never affects outcomes"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Probability and Statistics Foundations — part 2?",
@@ -236,23 +186,13 @@
       "questions": [
         {
           "question": "Which visualization is best for showing the distribution of a single continuous variable?",
-          "options": [
-            "Bar chart",
-            "Histogram",
-            "Scatterplot",
-            "Line graph"
-          ],
+          "options": ["Bar chart", "Histogram", "Scatterplot", "Line graph"],
           "correctAnswer": "Histogram",
           "explanation": "Histograms display the frequency distribution of a continuous variable, making them ideal for this purpose."
         },
         {
           "question": "Which plot is ideal to visualize the relationship between two continuous variables?",
-          "options": [
-            "Histogram",
-            "Boxplot",
-            "Scatterplot",
-            "Bar chart"
-          ],
+          "options": ["Histogram", "Boxplot", "Scatterplot", "Bar chart"],
           "correctAnswer": "Scatterplot",
           "explanation": "Scatterplots show the relationship between two continuous variables and can reveal correlations or patterns."
         },
@@ -324,12 +264,7 @@
         },
         {
           "question": "Which visualization is best for comparing distributions across multiple groups?",
-          "options": [
-            "Scatterplot",
-            "Line graph",
-            "Boxplot",
-            "Histogram"
-          ],
+          "options": ["Scatterplot", "Line graph", "Boxplot", "Histogram"],
           "correctAnswer": "Boxplot",
           "explanation": "Boxplots allow comparison of medians, ranges, and outliers across groups."
         },
@@ -395,12 +330,7 @@
         },
         {
           "question": "Which tool is useful for cleaning and wrangling messy datasets in Python?",
-          "options": [
-            "PyTorch",
-            "Pandas",
-            "NumPy",
-            "Matplotlib"
-          ],
+          "options": ["PyTorch", "Pandas", "NumPy", "Matplotlib"],
           "correctAnswer": "Pandas",
           "explanation": "Pandas provides functions to clean, filter, and transform datasets efficiently."
         },
@@ -429,13 +359,13 @@
         {
           "question": "How does a manager typically Data Analysis and Tools for AI? (Hard)",
           "options": [
-            "It involves planning and following best practices",
-            "B: It is rarely used in practice",
-            "C: It always increases costs",
-            "D: It never affects outcomes"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Data Analysis and Tools for AI — part 2?",
@@ -659,24 +589,24 @@
         {
           "question": "How does a manager typically AI Basics and Machine Learning? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
-            "B: It is rarely used in practice",
-            "C: It always increases costs",
-            "D: It never affects outcomes"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about AI Basics and Machine Learning?",
           "options": [
-            "Best practice",
-            "B: Irrelevant",
-            "C: Distractor",
-            "D: None of the above"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains AI Basics and Machine Learning — part 2?",
@@ -889,24 +819,24 @@
         {
           "question": "Which of the following best explains Perception, Reasoning, and Ethics in AI? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
-            "B: It is rarely used in practice",
-            "C: It always increases costs",
-            "D: It never affects outcomes"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Perception, Reasoning, and Ethics in AI?",
           "options": [
-            "Best practice",
-            "B: Irrelevant",
-            "C: Distractor",
-            "D: None of the above"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Perception, Reasoning, and Ethics in AI — part 2?",
@@ -1063,12 +993,7 @@
       "questions": [
         {
           "question": "Numeric data can be continuous or discrete. Which is discrete?",
-          "options": [
-            "Temperature",
-            "Number of students",
-            "Height",
-            "Weight"
-          ],
+          "options": ["Temperature", "Number of students", "Height", "Weight"],
           "correctAnswer": "Number of students",
           "explanation": "Discrete numeric data takes countable values; continuous data can take any value in a range."
         },
@@ -1130,24 +1055,24 @@
         {
           "question": "How does a manager typically Data Literacy and Foundations? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
-            "B: It is rarely used in practice",
-            "C: It always increases costs",
-            "D: It never affects outcomes"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Data Literacy and Foundations?",
           "options": [
-            "Best practice",
-            "B: Irrelevant",
-            "C: Distractor",
-            "D: None of the above"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     }

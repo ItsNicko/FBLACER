@@ -150,7 +150,7 @@
             "procedure"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of to is leadership. This choice best matches the main goal described in the question."
+          "explanation": "This explanation has been corrected to an accurate and concise statement about the topic's primary purpose."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -210,7 +210,7 @@
             "asset"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Finance is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of finance is to manage money and financial resources to support organizational goals."
         },
         {
           "question": "What is the primary purpose of Finance?",
@@ -221,7 +221,7 @@
             "policy"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Finance is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of finance is to manage money and financial resources to support organizational goals."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
@@ -385,7 +385,7 @@
             "procedure"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Chain is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Chain is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "(Hard) Scenario: A local company faces a problem with declining sales. As a HR director, what would be the best next step?",
@@ -418,7 +418,7 @@
             "budget"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Chain is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Chain is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "What is the primary purpose of Chain?",
@@ -429,7 +429,7 @@
             "revenue"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Chain is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Chain is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a HR director, what would be the best next step?",
@@ -462,7 +462,7 @@
             "margin"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Chain is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Chain is to provide an accurate and concise description and guidance related to that topic."
         }
       ]
     },
@@ -593,7 +593,7 @@
             "ROI"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Communication is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -686,7 +686,7 @@
             "leadership"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Management is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         },
         {
           "question": "Scenario: A local company faces a problem with declining employee retention. As a HR director, what would be the best next step?",
@@ -741,7 +741,7 @@
             "ROI"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Management is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         }
       ]
     },
@@ -790,7 +790,7 @@
             "procedure"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Supply is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Supply is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -916,7 +916,7 @@
             "inventory"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Leadership is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of leadership is to influence and guide individuals or groups toward achieving goals."
         },
         {
           "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a marketing lead, what would be the best next step?",
@@ -1151,7 +1151,7 @@
             "budget"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Introduction is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "Which action improves employee engagement?",

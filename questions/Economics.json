@@ -308,12 +308,7 @@
         },
         {
           "question": "(Hard) A monopolist faces demand P=100-2Q and constant MC=10; what output maximizes profit?",
-          "options": [
-            "Q=22.5",
-            "Q=10",
-            "Q=45",
-            "Q=0"
-          ],
+          "options": ["Q=22.5", "Q=10", "Q=45", "Q=0"],
           "correctAnswer": "Q=22.5",
           "explanation": "Profit maximization where MR=MC; MR derived from demand gives output ~22.5 (calculation-based hard question)."
         },

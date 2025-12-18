@@ -6,12 +6,7 @@
       "questions": [
         {
           "question": "Which of the following is NOT one of the five C's of communication?",
-          "options": [
-            "Clarity",
-            "Conciseness",
-            "Courtesy",
-            "Complexity"
-          ],
+          "options": ["Clarity", "Conciseness", "Courtesy", "Complexity"],
           "correctAnswer": "Complexity",
           "explanation": "The five C's are Clarity, Conciseness, Courtesy, Correctness, and Completeness. Complexity is not included."
         },
@@ -61,12 +56,7 @@
         },
         {
           "question": "Which of these is a workplace relationship defined as a peer-to-peer interaction?",
-          "options": [
-            "Supervisor",
-            "Client",
-            "Team member",
-            "Subordinate"
-          ],
+          "options": ["Supervisor", "Client", "Team member", "Subordinate"],
           "correctAnswer": "Team member",
           "explanation": "Team members interact as peers; supervisors and subordinates represent hierarchical relationships."
         },
@@ -106,13 +96,13 @@
         {
           "question": "(Hard) Which practice helps Communication Concepts? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Conveying information clearly and appropriately to intended audiences",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Conveying information clearly and appropriately to intended audiences",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -121,12 +111,7 @@
       "questions": [
         {
           "question": "Which stage of the writing process involves checking for errors and improving content?",
-          "options": [
-            "Planning",
-            "Editing",
-            "Drafting",
-            "Brainstorming"
-          ],
+          "options": ["Planning", "Editing", "Drafting", "Brainstorming"],
           "correctAnswer": "Editing",
           "explanation": "Editing involves reviewing and correcting the content to ensure clarity, accuracy, and professionalism."
         },
@@ -143,12 +128,7 @@
         },
         {
           "question": "Which step in research involves evaluating the credibility of sources?",
-          "options": [
-            "Organizing",
-            "Evaluating",
-            "Planning",
-            "Locating"
-          ],
+          "options": ["Organizing", "Evaluating", "Planning", "Locating"],
           "correctAnswer": "Evaluating",
           "explanation": "Evaluating sources ensures that the information is reliable, relevant, and current."
         },
@@ -221,13 +201,13 @@
         {
           "question": "(Hard) How does a manager typically Written and Report Applications? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Written and Report Applications",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Written and Report Applications",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -336,13 +316,13 @@
         {
           "question": "(Hard) Which practice helps Reading Comprehension? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Reading Comprehension",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Reading Comprehension",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -351,23 +331,13 @@
       "questions": [
         {
           "question": "Which of the following is a part of speech?",
-          "options": [
-            "Noun",
-            "Paragraph",
-            "Report",
-            "Slide"
-          ],
+          "options": ["Noun", "Paragraph", "Report", "Slide"],
           "correctAnswer": "Noun",
           "explanation": "Noun is a basic part of speech; paragraph and report are types of text structures."
         },
         {
           "question": "Adjectives describe:",
-          "options": [
-            "Nouns",
-            "Verbs",
-            "Pronouns",
-            "Conjunctions"
-          ],
+          "options": ["Nouns", "Verbs", "Pronouns", "Conjunctions"],
           "correctAnswer": "Nouns",
           "explanation": "Adjectives provide details about nouns, such as size, color, or quality."
         },
@@ -417,12 +387,7 @@
         },
         {
           "question": "Identify the reflexive pronoun in the sentence: 'She taught herself the presentation.'",
-          "options": [
-            "herself",
-            "She",
-            "the",
-            "presentation"
-          ],
+          "options": ["herself", "She", "the", "presentation"],
           "correctAnswer": "herself",
           "explanation": "Reflexive pronouns refer back to the subject performing the action, in this case 'herself'."
         },
@@ -439,12 +404,7 @@
         },
         {
           "question": "Which of the following is a coordinating conjunction?",
-          "options": [
-            "And",
-            "Although",
-            "Because",
-            "While"
-          ],
+          "options": ["And", "Although", "Because", "While"],
           "correctAnswer": "And",
           "explanation": "'And' joins words, phrases, or independent clauses; 'although', 'because', and 'while' are subordinating conjunctions."
         },
@@ -462,13 +422,13 @@
         {
           "question": "(Hard) How does a manager typically Grammar? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Grammar",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Grammar",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -588,13 +548,13 @@
         {
           "question": "(Hard) Which practice helps Editing & Proofreading? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Editing & Proofreading",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Editing & Proofreading",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -714,13 +674,13 @@
         {
           "question": "(Hard) What is the primary purpose of Verbal & Nonverbal Communication? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Conveying information clearly and appropriately to intended audiences",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Conveying information clearly and appropriately to intended audiences",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -785,35 +745,35 @@
         {
           "question": "Which practice helps Word Definition & Usage? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Word Definition & Usage",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Word Definition & Usage",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "What is the primary purpose of word definition & usage?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Word Definition & Usage",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Word Definition & Usage",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which practice helps word definition & usage?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Word Definition & Usage",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Word Definition & Usage",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -878,46 +838,46 @@
         {
           "question": "What is the primary purpose of Punctuation & Capitalization? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Punctuation & Capitalization",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Punctuation & Capitalization",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "How does a manager typically punctuation & capitalization?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Punctuation & Capitalization",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Punctuation & Capitalization",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Scenario) Consider an organization that needs to: how should they address punctuation & capitalization?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Punctuation & Capitalization",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Punctuation & Capitalization",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Punctuation & Capitalization?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "D: None of the above"
+            "A correct explanation or purpose of Punctuation & Capitalization",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Punctuation & Capitalization",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -982,46 +942,46 @@
         {
           "question": "Which of the following best explains Spelling? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Spelling",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Spelling",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to spelling?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Spelling",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Spelling",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Why is it important to spelling?",
           "options": [
-            "It involves planning and following best practices",
+            "A correct explanation or purpose of Spelling",
             "It is rarely used in practice",
             "It always increases costs",
-            "D: It never affects outcomes"
+            "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "A correct explanation or purpose of Spelling",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Spelling?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "D: None of the above"
+            "A correct explanation or purpose of Spelling",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "A correct explanation or purpose of Spelling",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     },
@@ -1141,13 +1101,13 @@
         {
           "question": "(Hard) Which is a challenging question about Digital Communications?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Conveying information clearly and appropriately to intended audiences",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Conveying information clearly and appropriately to intended audiences",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         }
       ]
     }

@@ -117,7 +117,7 @@
             "budget"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Management is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         },
         {
           "question": "(Hard) Scenario: A local company faces a problem with declining customer satisfaction. As a project manager, what would be the best next step?",
@@ -276,7 +276,7 @@
             "leader"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Marketing is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of marketing is to create, communicate, and deliver value to customers while supporting organizational goals."
         }
       ]
     },
@@ -396,7 +396,7 @@
             "communication"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Human Resources is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
@@ -418,7 +418,7 @@
             "policy"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Human Resources is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "What is a key consideration when creating a budget?",
@@ -555,7 +555,7 @@
             "stakeholder"
           ],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Project Management is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of project management is to plan, execute, and close projects successfully within scope, time, and budget."
         }
       ]
     },
@@ -987,7 +987,7 @@
             "revenue"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of and is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of and is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "Scenario: A local company faces a problem with declining employee retention. As a marketing lead, what would be the best next step?",
@@ -1009,7 +1009,7 @@
             "policy"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of and is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of and is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -1036,7 +1036,7 @@
             "inventory"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Management is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a HR director, what would be the best next step?",

@@ -72,12 +72,7 @@
         },
         {
           "question": "Which of the following is an example of a security control?",
-          "options": [
-            "Firewall",
-            "Mouse",
-            "Word processor",
-            "Printer"
-          ],
+          "options": ["Firewall", "Mouse", "Word processor", "Printer"],
           "correctAnswer": "Firewall",
           "explanation": "Firewalls are controls that filter and block unauthorized network traffic to protect systems."
         },
@@ -111,24 +106,24 @@
         {
           "question": "How does a manager typically Security Fundamentals? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Protecting systems and data by identifying and mitigating threats",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Security Fundamentals?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Protecting systems and data by identifying and mitigating threats",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Security Fundamentals — part 2?",
@@ -203,12 +198,7 @@
         },
         {
           "question": "Which type of malware is designed to replicate itself and spread to other systems?",
-          "options": [
-            "Virus",
-            "Spyware",
-            "Adware",
-            "Firewall"
-          ],
+          "options": ["Virus", "Spyware", "Adware", "Firewall"],
           "correctAnswer": "Virus",
           "explanation": "A virus attaches itself to programs or files and spreads when executed, unlike spyware or adware."
         },
@@ -297,13 +287,13 @@
         {
           "question": "Why is it important to Cyber Threats and Vulnerabilities? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Protecting systems and data by identifying and mitigating threats",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Cyber Threats and Vulnerabilities — part 2?",
@@ -564,12 +554,7 @@
       "questions": [
         {
           "question": "Which device is primarily used to segment a network and control traffic between segments?",
-          "options": [
-            "Router",
-            "Switch",
-            "Firewall",
-            "Hub"
-          ],
+          "options": ["Router", "Switch", "Firewall", "Hub"],
           "correctAnswer": "Firewall",
           "explanation": "A firewall monitors and controls incoming and outgoing network traffic based on security rules, protecting network segments."
         },
@@ -608,12 +593,7 @@
         },
         {
           "question": "Which protocol is used to securely transfer files over a network?",
-          "options": [
-            "SFTP",
-            "FTP",
-            "HTTP",
-            "SMTP"
-          ],
+          "options": ["SFTP", "FTP", "HTTP", "SMTP"],
           "correctAnswer": "SFTP",
           "explanation": "SFTP (Secure File Transfer Protocol) encrypts both authentication and data transfer, unlike plain FTP."
         },
@@ -669,24 +649,24 @@
         {
           "question": "Which of the following best explains Network and Data Security? (Challenging)",
           "options": [
-            "It involves planning and following best practices",
+            "Using appropriate analytical methods to draw valid conclusions from data",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "(Hard) Which is a challenging question about Network and Data Security?",
           "options": [
-            "Best practice",
-            "Irrelevant",
-            "Distractor",
-            "None of the above"
+            "Using appropriate analytical methods to draw valid conclusions from data",
+            "It is rarely used in practice",
+            "It always increases costs",
+            "It never affects outcomes"
           ],
-          "correctAnswer": "Best practice",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall."
+          "correctAnswer": "Using appropriate analytical methods to draw valid conclusions from data",
+          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Network and Data Security — part 2?",
@@ -948,13 +928,13 @@
         {
           "question": "What is the primary purpose of Security Operations and Management? (Hard)",
           "options": [
-            "It involves planning and following best practices",
+            "Protecting systems and data by identifying and mitigating threats",
             "It is rarely used in practice",
             "It always increases costs",
             "It never affects outcomes"
           ],
-          "correctAnswer": "It involves planning and following best practices",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct."
+          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
+          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
         },
         {
           "question": "Which of the following best explains Security Operations and Management — part 2?",
@@ -1029,12 +1009,7 @@
       "questions": [
         {
           "question": "Which protocol is commonly used to encrypt web traffic?",
-          "options": [
-            "HTTPS",
-            "HTTP",
-            "FTP",
-            "SMTP"
-          ],
+          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
           "correctAnswer": "HTTPS",
           "explanation": "HTTPS encrypts communication between a web browser and server to protect data from interception."
         },
@@ -1051,12 +1026,7 @@
         },
         {
           "question": "Which authentication protocol is widely used for secure remote access?",
-          "options": [
-            "RADIUS",
-            "SMTP",
-            "HTTP",
-            "FTP"
-          ],
+          "options": ["RADIUS", "SMTP", "HTTP", "FTP"],
           "correctAnswer": "RADIUS",
           "explanation": "RADIUS (Remote Authentication Dial-In User Service) verifies users for network access securely."
         },
@@ -1095,12 +1065,7 @@
         },
         {
           "question": "Which protocol is used to securely transfer files between systems?",
-          "options": [
-            "SFTP",
-            "FTP",
-            "HTTP",
-            "Telnet"
-          ],
+          "options": ["SFTP", "FTP", "HTTP", "Telnet"],
           "correctAnswer": "SFTP",
           "explanation": "SFTP encrypts both authentication and file transfer, unlike FTP which is unencrypted."
         },

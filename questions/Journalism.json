@@ -6,12 +6,7 @@
       "questions": [
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "policy",
-            "ROI",
-            "procedure",
-            "leader"
-          ],
+          "options": ["policy", "ROI", "procedure", "leader"],
           "correctAnswer": "policy",
           "explanation": "Policy is the best answer because it aligns with the concept asked for in the question."
         },
@@ -28,12 +23,7 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "profit",
-            "budget",
-            "leadership",
-            "policy"
-          ],
+          "options": ["profit", "budget", "leadership", "policy"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -50,47 +40,27 @@
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "policy",
-            "leader",
-            "asset",
-            "revenue"
-          ],
+          "options": ["policy", "leader", "asset", "revenue"],
           "correctAnswer": "policy",
           "explanation": "policy is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "(Hard) What is the primary purpose of Management?",
-          "options": [
-            "inventory",
-            "leader",
-            "procedure",
-            "leadership"
-          ],
+          "options": ["inventory", "leader", "procedure", "leadership"],
           "correctAnswer": "leadership",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "ROI",
-            "profit",
-            "budget",
-            "asset"
-          ],
+          "options": ["ROI", "profit", "budget", "asset"],
           "correctAnswer": "budget",
           "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
         },
         {
           "question": "What is the primary purpose of Management?",
-          "options": [
-            "liability",
-            "inventory",
-            "policy",
-            "budget"
-          ],
+          "options": ["liability", "inventory", "policy", "budget"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Management is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
         }
       ]
     },
@@ -99,12 +69,7 @@
       "questions": [
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "budget",
-            "profit",
-            "procedure",
-            "revenue"
-          ],
+          "options": ["budget", "profit", "procedure", "revenue"],
           "correctAnswer": "budget",
           "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -121,25 +86,15 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "policy",
-            "stakeholder",
-            "ROI",
-            "margin"
-          ],
+          "options": ["policy", "stakeholder", "ROI", "margin"],
           "correctAnswer": "policy",
           "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is the primary purpose of Technology?",
-          "options": [
-            "liability",
-            "budget",
-            "leader",
-            "inventory"
-          ],
+          "options": ["liability", "budget", "leader", "inventory"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Technology is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of technology is to apply scientific knowledge for practical purposes to improve processes and products."
         },
         {
           "question": "(Hard) Scenario: A local company faces a problem with declining employee retention. As a manager, what would be the best next step?",
@@ -154,23 +109,13 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "leadership",
-            "budget",
-            "ROI",
-            "revenue"
-          ],
+          "options": ["leadership", "budget", "ROI", "revenue"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "stakeholder",
-            "budget",
-            "liability",
-            "communication"
-          ],
+          "options": ["stakeholder", "budget", "liability", "communication"],
           "correctAnswer": "communication",
           "explanation": "communication refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -192,23 +137,13 @@
       "questions": [
         {
           "question": "What is the primary purpose of Human Resources?",
-          "options": [
-            "procedure",
-            "leadership",
-            "asset",
-            "policy"
-          ],
+          "options": ["procedure", "leadership", "asset", "policy"],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Human Resources is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "policy",
-            "engagement",
-            "leader",
-            "margin"
-          ],
+          "options": ["policy", "engagement", "leader", "margin"],
           "correctAnswer": "engagement",
           "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
         },
@@ -225,56 +160,31 @@
         },
         {
           "question": "(Hard) What is a key consideration when creating a budget?",
-          "options": [
-            "procedure",
-            "equity",
-            "ROI",
-            "budget"
-          ],
+          "options": ["procedure", "equity", "ROI", "budget"],
           "correctAnswer": "budget",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
         {
           "question": "What is the primary purpose of Human Resources?",
-          "options": [
-            "profit",
-            "procedure",
-            "ROI",
-            "revenue"
-          ],
+          "options": ["profit", "procedure", "ROI", "revenue"],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Human Resources is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "What is the primary purpose of Human Resources?",
-          "options": [
-            "equity",
-            "budget",
-            "revenue",
-            "stakeholder"
-          ],
+          "options": ["equity", "budget", "revenue", "stakeholder"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Human Resources is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "What is the primary purpose of Human Resources?",
-          "options": [
-            "profit",
-            "procedure",
-            "margin",
-            "stakeholder"
-          ],
+          "options": ["profit", "procedure", "margin", "stakeholder"],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Human Resources is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
-          "options": [
-            "Conduct employee surveys",
-            "margin",
-            "ROI",
-            "liability"
-          ],
+          "options": ["Conduct employee surveys", "margin", "ROI", "liability"],
           "correctAnswer": "Conduct employee surveys",
           "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
         }
@@ -285,12 +195,7 @@
       "questions": [
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "inventory",
-            "margin",
-            "liability",
-            "leadership"
-          ],
+          "options": ["inventory", "margin", "liability", "leadership"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -318,12 +223,7 @@
         },
         {
           "question": "(Hard) Scenario: A local company faces a problem with declining customer satisfaction. As a HR director, what would be the best next step?",
-          "options": [
-            "asset",
-            "leader",
-            "Conduct employee surveys",
-            "policy"
-          ],
+          "options": ["asset", "leader", "Conduct employee surveys", "policy"],
           "correctAnswer": "Conduct employee surveys",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
@@ -340,34 +240,19 @@
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "margin",
-            "leader",
-            "budget",
-            "profit"
-          ],
+          "options": ["margin", "leader", "budget", "profit"],
           "correctAnswer": "budget",
           "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "budget",
-            "asset",
-            "leader",
-            "engagement"
-          ],
+          "options": ["budget", "asset", "leader", "engagement"],
           "correctAnswer": "engagement",
           "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "budget",
-            "stakeholder",
-            "equity",
-            "revenue"
-          ],
+          "options": ["budget", "stakeholder", "equity", "revenue"],
           "correctAnswer": "budget",
           "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
         }
@@ -389,78 +274,43 @@
         },
         {
           "question": "What is the primary purpose of Project Management?",
-          "options": [
-            "budget",
-            "policy",
-            "ROI",
-            "profit"
-          ],
+          "options": ["budget", "policy", "ROI", "profit"],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Project Management is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of project management is to plan, execute, and close projects successfully within scope, time, and budget."
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "leader",
-            "inventory",
-            "communication",
-            "procedure"
-          ],
+          "options": ["leader", "inventory", "communication", "procedure"],
           "correctAnswer": "communication",
           "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "leader",
-            "leadership",
-            "margin",
-            "liability"
-          ],
+          "options": ["leader", "leadership", "margin", "liability"],
           "correctAnswer": "leadership",
           "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "procedure",
-            "policy",
-            "engagement",
-            "leader"
-          ],
+          "options": ["procedure", "policy", "engagement", "leader"],
           "correctAnswer": "engagement",
           "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "margin",
-            "profit",
-            "leader",
-            "budget"
-          ],
+          "options": ["margin", "profit", "leader", "budget"],
           "correctAnswer": "budget",
           "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "revenue",
-            "budget",
-            "policy",
-            "asset"
-          ],
+          "options": ["revenue", "budget", "policy", "asset"],
           "correctAnswer": "policy",
           "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "leadership",
-            "margin",
-            "profit",
-            "procedure"
-          ],
+          "options": ["leadership", "margin", "profit", "procedure"],
           "correctAnswer": "leadership",
           "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
         }
@@ -471,12 +321,7 @@
       "questions": [
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "ROI",
-            "revenue",
-            "asset",
-            "leadership"
-          ],
+          "options": ["ROI", "revenue", "asset", "leadership"],
           "correctAnswer": "leadership",
           "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
         },
@@ -493,12 +338,7 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "stakeholder",
-            "revenue",
-            "profit",
-            "policy"
-          ],
+          "options": ["stakeholder", "revenue", "profit", "policy"],
           "correctAnswer": "policy",
           "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -526,34 +366,19 @@
         },
         {
           "question": "What is the primary purpose of Introduction?",
-          "options": [
-            "asset",
-            "margin",
-            "budget",
-            "ROI"
-          ],
+          "options": ["asset", "margin", "budget", "ROI"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Introduction is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "What is the primary purpose of Introduction?",
-          "options": [
-            "procedure",
-            "asset",
-            "stakeholder",
-            "policy"
-          ],
+          "options": ["procedure", "asset", "stakeholder", "policy"],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Introduction is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "procedure",
-            "inventory",
-            "engagement",
-            "equity"
-          ],
+          "options": ["procedure", "inventory", "engagement", "equity"],
           "correctAnswer": "engagement",
           "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         }
@@ -564,34 +389,19 @@
       "questions": [
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "margin",
-            "profit",
-            "ROI",
-            "engagement"
-          ],
+          "options": ["margin", "profit", "ROI", "engagement"],
           "correctAnswer": "engagement",
           "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "profit",
-            "procedure",
-            "budget",
-            "policy"
-          ],
+          "options": ["profit", "procedure", "budget", "policy"],
           "correctAnswer": "budget",
           "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "communication",
-            "procedure",
-            "liability",
-            "budget"
-          ],
+          "options": ["communication", "procedure", "liability", "budget"],
           "correctAnswer": "communication",
           "explanation": "Communication is the best answer because it aligns with the concept asked for in the question."
         },
@@ -641,12 +451,7 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "procedure",
-            "leadership",
-            "leader",
-            "asset"
-          ],
+          "options": ["procedure", "leadership", "leader", "asset"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         }
@@ -668,36 +473,21 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "margin",
-            "asset",
-            "engagement",
-            "profit"
-          ],
+          "options": ["margin", "asset", "engagement", "profit"],
           "correctAnswer": "engagement",
           "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "profit",
-            "equity",
-            "leadership",
-            "policy"
-          ],
+          "options": ["profit", "equity", "leadership", "policy"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is the primary purpose of Leadership?",
-          "options": [
-            "ROI",
-            "stakeholder",
-            "engagement",
-            "policy"
-          ],
+          "options": ["ROI", "stakeholder", "engagement", "policy"],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Leadership is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of leadership is to influence and guide individuals or groups toward achieving goals."
         },
         {
           "question": "Scenario: A local company faces a problem with declining cash flow. As a HR director, what would be the best next step?",
@@ -712,12 +502,7 @@
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "stakeholder",
-            "profit",
-            "margin",
-            "inventory"
-          ],
+          "options": ["stakeholder", "profit", "margin", "inventory"],
           "correctAnswer": "profit",
           "explanation": "profit is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
@@ -734,12 +519,7 @@
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": [
-            "budget",
-            "policy",
-            "asset",
-            "ROI"
-          ],
+          "options": ["budget", "policy", "asset", "ROI"],
           "correctAnswer": "policy",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         }
@@ -750,14 +530,9 @@
       "questions": [
         {
           "question": "What is the primary purpose of Finance?",
-          "options": [
-            "equity",
-            "profit",
-            "stakeholder",
-            "leader"
-          ],
+          "options": ["equity", "profit", "stakeholder", "leader"],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Finance is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of finance is to manage money and financial resources to support organizational goals."
         },
         {
           "question": "Scenario: A local company faces a problem with declining employee retention. As a marketing lead, what would be the best next step?",
@@ -772,23 +547,13 @@
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "budget",
-            "equity",
-            "procedure",
-            "revenue"
-          ],
+          "options": ["budget", "equity", "procedure", "revenue"],
           "correctAnswer": "budget",
           "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": [
-            "leader",
-            "communication",
-            "revenue",
-            "inventory"
-          ],
+          "options": ["leader", "communication", "revenue", "inventory"],
           "correctAnswer": "communication",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
@@ -805,23 +570,13 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "budget",
-            "stakeholder",
-            "profit",
-            "equity"
-          ],
+          "options": ["budget", "stakeholder", "profit", "equity"],
           "correctAnswer": "budget",
           "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "revenue",
-            "procedure",
-            "budget",
-            "communication"
-          ],
+          "options": ["revenue", "procedure", "budget", "communication"],
           "correctAnswer": "communication",
           "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
@@ -843,12 +598,7 @@
       "questions": [
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "margin",
-            "engagement",
-            "procedure",
-            "leader"
-          ],
+          "options": ["margin", "engagement", "procedure", "leader"],
           "correctAnswer": "engagement",
           "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
         },
@@ -865,12 +615,7 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "inventory",
-            "leader",
-            "policy",
-            "budget"
-          ],
+          "options": ["inventory", "leader", "policy", "budget"],
           "correctAnswer": "policy",
           "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -887,45 +632,25 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "policy",
-            "leadership",
-            "profit",
-            "revenue"
-          ],
+          "options": ["policy", "leadership", "profit", "revenue"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "What is the primary purpose of Ethics?",
-          "options": [
-            "liability",
-            "budget",
-            "revenue",
-            "procedure"
-          ],
+          "options": ["liability", "budget", "revenue", "procedure"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Ethics is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
         },
         {
           "question": "What is the primary purpose of Ethics?",
-          "options": [
-            "policy",
-            "profit",
-            "budget",
-            "asset"
-          ],
+          "options": ["policy", "profit", "budget", "asset"],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Ethics is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
         },
         {
           "question": "(Hard) What is the primary purpose of Ethics?",
-          "options": [
-            "equity",
-            "ROI",
-            "profit",
-            "policy"
-          ],
+          "options": ["equity", "ROI", "profit", "policy"],
           "correctAnswer": "profit",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         }
@@ -936,34 +661,19 @@
       "questions": [
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "communication",
-            "equity",
-            "stakeholder",
-            "policy"
-          ],
+          "options": ["communication", "equity", "stakeholder", "policy"],
           "correctAnswer": "communication",
           "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "What is the primary purpose of Communication?",
-          "options": [
-            "asset",
-            "profit",
-            "ROI",
-            "liability"
-          ],
+          "options": ["asset", "profit", "ROI", "liability"],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Communication is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": [
-            "revenue",
-            "asset",
-            "equity",
-            "communication"
-          ],
+          "options": ["revenue", "asset", "equity", "communication"],
           "correctAnswer": "communication",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
@@ -980,23 +690,13 @@
         },
         {
           "question": "What is the primary purpose of Communication?",
-          "options": [
-            "inventory",
-            "leadership",
-            "procedure",
-            "asset"
-          ],
+          "options": ["inventory", "leadership", "procedure", "asset"],
           "correctAnswer": "leadership",
-          "explanation": "The primary purpose of Communication is leadership. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "equity",
-            "budget",
-            "revenue",
-            "policy"
-          ],
+          "options": ["equity", "budget", "revenue", "policy"],
           "correctAnswer": "policy",
           "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
         },
@@ -1013,12 +713,7 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "revenue",
-            "ROI",
-            "equity",
-            "profit"
-          ],
+          "options": ["revenue", "ROI", "equity", "profit"],
           "correctAnswer": "profit",
           "explanation": "profit refers to funds coming into the organization; it best matches the phrase used in the question."
         }
@@ -1029,34 +724,19 @@
       "questions": [
         {
           "question": "What is the primary purpose of Marketing?",
-          "options": [
-            "procedure",
-            "equity",
-            "policy",
-            "profit"
-          ],
+          "options": ["procedure", "equity", "policy", "profit"],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Marketing is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of marketing is to create, communicate, and deliver value to customers while supporting organizational goals."
         },
         {
           "question": "(Hard) Which action improves employee engagement?",
-          "options": [
-            "profit",
-            "policy",
-            "communication",
-            "asset"
-          ],
+          "options": ["profit", "policy", "communication", "asset"],
           "correctAnswer": "communication",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "policy",
-            "budget",
-            "inventory",
-            "profit"
-          ],
+          "options": ["policy", "budget", "inventory", "profit"],
           "correctAnswer": "profit",
           "explanation": "Profit is the best answer because it aligns with the concept asked for in the question."
         },
@@ -1073,45 +753,25 @@
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "policy",
-            "leader",
-            "leadership",
-            "budget"
-          ],
+          "options": ["policy", "leader", "leadership", "budget"],
           "correctAnswer": "leadership",
           "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "stakeholder",
-            "budget",
-            "engagement",
-            "liability"
-          ],
+          "options": ["stakeholder", "budget", "engagement", "liability"],
           "correctAnswer": "engagement",
           "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "What is a key consideration when creating a budget?",
-          "options": [
-            "procedure",
-            "engagement",
-            "margin",
-            "profit"
-          ],
+          "options": ["procedure", "engagement", "margin", "profit"],
           "correctAnswer": "engagement",
           "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "asset",
-            "profit",
-            "ROI",
-            "communication"
-          ],
+          "options": ["asset", "profit", "ROI", "communication"],
           "correctAnswer": "communication",
           "explanation": "communication refers to funds coming into the organization; it best matches the phrase used in the question."
         }
@@ -1122,45 +782,25 @@
       "questions": [
         {
           "question": "What is the primary purpose of Customer Service?",
-          "options": [
-            "policy",
-            "procedure",
-            "liability",
-            "ROI"
-          ],
+          "options": ["policy", "procedure", "liability", "ROI"],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Customer Service is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of customer service is to support customers and ensure satisfaction and retention."
         },
         {
           "question": "Which action improves employee engagement?",
-          "options": [
-            "profit",
-            "inventory",
-            "policy",
-            "margin"
-          ],
+          "options": ["profit", "inventory", "policy", "margin"],
           "correctAnswer": "profit",
           "explanation": "profit is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": [
-            "profit",
-            "budget",
-            "revenue",
-            "liability"
-          ],
+          "options": ["profit", "budget", "revenue", "liability"],
           "correctAnswer": "profit",
           "explanation": "This item requires higher-order reasoning and real-world judgment."
         },
         {
           "question": "Which term best describes a company's expected incoming money?",
-          "options": [
-            "engagement",
-            "profit",
-            "procedure",
-            "equity"
-          ],
+          "options": ["engagement", "profit", "procedure", "equity"],
           "correctAnswer": "engagement",
           "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
         }

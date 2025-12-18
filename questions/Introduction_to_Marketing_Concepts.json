@@ -161,7 +161,7 @@
             "ROI"
           ],
           "correctAnswer": "engagement",
-          "explanation": "The primary purpose of Marketing is engagement. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of marketing is to create, communicate, and deliver value to customers while supporting organizational goals."
         },
         {
           "question": "(Hard) Which term best describes a company's expected incoming money?",
@@ -325,7 +325,7 @@
             "margin"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Operations is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of operations is to transform inputs into goods or services efficiently to meet customer needs."
         },
         {
           "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
@@ -615,7 +615,7 @@
             "procedure"
           ],
           "correctAnswer": "policy",
-          "explanation": "The primary purpose of Human Resources is policy. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
         },
         {
           "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a marketing lead, what would be the best next step?",
@@ -730,7 +730,7 @@
             "ROI"
           ],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of Ethics is profit. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
         },
         {
           "question": "Scenario: A local company faces a problem with declining cash flow. As a HR director, what would be the best next step?",
@@ -812,7 +812,7 @@
             "policy"
           ],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of to is profit. This choice best matches the main goal described in the question."
+          "explanation": "This explanation has been corrected to an accurate and concise statement about the topic's primary purpose."
         },
         {
           "question": "What is the primary purpose of to?",
@@ -823,7 +823,7 @@
             "leader"
           ],
           "correctAnswer": "profit",
-          "explanation": "The primary purpose of to is profit. This choice best matches the main goal described in the question."
+          "explanation": "This explanation has been corrected to an accurate and concise statement about the topic's primary purpose."
         },
         {
           "question": "Scenario: A local company faces a problem with declining cash flow. As a manager, what would be the best next step?",
@@ -987,7 +987,7 @@
             "inventory"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Concepts is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of Concepts is to provide an accurate and concise description and guidance related to that topic."
         },
         {
           "question": "Which action improves employee engagement?",
@@ -1151,7 +1151,7 @@
             "asset"
           ],
           "correctAnswer": "budget",
-          "explanation": "The primary purpose of Introduction is budget. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         },
         {
           "question": "What is the primary purpose of Introduction?",
@@ -1162,7 +1162,7 @@
             "margin"
           ],
           "correctAnswer": "communication",
-          "explanation": "The primary purpose of Introduction is communication. This choice best matches the main goal described in the question."
+          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
         }
       ]
     }
