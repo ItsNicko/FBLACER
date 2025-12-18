@@ -550,16 +550,28 @@ select:focus {
     overflow-x: auto;
   }
 
-  /* Make selects, custom select displays and buttons full-width for easier tapping */
+  /* Make selects, custom select displays and most buttons full-width for easier tapping.
+     Exclude the settings cog (.settings-btn) so it remains a small floating button. */
   select#testSelect,
   .custom-select-display,
-  button {
+  button:not(.settings-btn) {
     width: 100%;
     max-width: none;
     box-sizing: border-box;
-    padding: 12px 14px;
-    font-size: 14px;
-    min-height: 44px;
+    padding: 14px 16px;
+    font-size: 15px;
+    min-height: 52px; /* larger tappable area */
+    margin: 8px 0; /* increase spacing between stacked controls */
+  }
+
+  /* Keep settings cog compact and positioned for thumb reach */
+  .settings-btn {
+    width: auto !important;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 10px !important;
+    right: 12px;
+    top: 12px;
   }
 
   /* Custom select menu should be full width and positioned statically for mobile */
@@ -579,20 +591,22 @@ select:focus {
 
   /* Increase tappable area for custom select items */
   .custom-select-item {
-    padding: 12px 12px;
-    font-size: 14px;
-    min-height: 44px;
+    padding: 14px 12px;
+    font-size: 15px;
+    min-height: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 6px;
   }
 
   /* Ensure the search field in the custom select is full width and easy to tap */
   .custom-select-search {
     width: 100%;
-    padding: 12px;
-    font-size: 14px;
+    padding: 14px 12px;
+    font-size: 15px;
     border-radius: 10px;
-    min-height: 44px;
+    min-height: 48px;
+    margin-bottom: 8px;
   }
 
   /* Make native select and custom select display consistent and full width */
@@ -812,8 +826,8 @@ select:focus {
 .report-input {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 12px;
-  border-radius: 8px;
+  padding: 12px 14px;
+  border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   margin-bottom: 10px;
   font-size: 14px;
@@ -844,7 +858,25 @@ select:focus {
   }
   .report-actions button {
     flex: 0 0 auto;
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 10px;
   }
+}
+
+/* Make settings panel controls more spacious and easier to tap */
+.settings-panel input,
+.settings-panel textarea,
+.settings-panel .report-actions button,
+.settings-panel select {
+  font-size: 15px;
+  padding: 12px 14px;
+}
+
+/* Custom-select menu spacing improvements (mobile and desktop) */
+.custom-select-menu {
+  gap: 8px;
+  padding: 12px;
 }
 .settings-panel .theme-switch .slider {
   width: 46px;
