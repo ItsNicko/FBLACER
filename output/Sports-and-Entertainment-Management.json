@@ -1,0 +1,141 @@
+{
+  "testName": "Sports and Entertainment Management Competitive Exam",
+  "topics": [
+    {
+      "topic": "Marketing and Strategic Planning",
+      "questions": [
+        {
+          "question": "Which component of the marketing mix focuses on the channels used to deliver a sports product to the consumer?",
+          "options": [
+            "Product",
+            "Price",
+            "Place",
+            "Promotion"
+          ],
+          "correctAnswer": "Place",
+          "Help": "This 'P' of the marketing mix is concerned with distribution and making the product accessible."
+        },
+        {
+          "question": "What is the primary goal of using a SWOT analysis in a sports organization?",
+          "options": [
+            "To calculate immediate ticket revenue",
+            "To evaluate internal strengths/weaknesses and external opportunities/threats",
+            "To identify the demographics of the core fan base",
+            "To create a new product development timeline"
+          ],
+          "correctAnswer": "To evaluate internal strengths/weaknesses and external opportunities/threats",
+          "Help": "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats."
+        },
+        {
+          "question": "When a sports team offers a discount on tickets during low-demand periods, which pricing strategy are they primarily utilizing?",
+          "options": [
+            "Penetration pricing",
+            "Skimming pricing",
+            "Dynamic pricing",
+            "Cost-plus pricing"
+          ],
+          "correctAnswer": "Dynamic pricing",
+          "Help": "Dynamic pricing adjusts prices based on real-time market demand and supply."
+        },
+        {
+          "question": "Which of the following is a characteristic of 'product extension' in the sports industry?",
+          "options": [
+            "The basic rules of the game",
+            "The athletic ability of the players",
+            "The halftime entertainment and merchandise",
+            "The physical location of the stadium"
+          ],
+          "correctAnswer": "The halftime entertainment and merchandise",
+          "Help": "Product extensions are auxiliary items added to the core product to enhance the experience."
+        },
+        {
+          "question": "What is the primary purpose of market segmentation?",
+          "options": [
+            "To reduce the marketing budget",
+            "To create a universal campaign for all customers",
+            "To group consumers with similar needs or characteristics",
+            "To eliminate the competition in a specific region"
+          ],
+          "correctAnswer": "To group consumers with similar needs or characteristics",
+          "Help": "Segmentation divides a broad target market into subsets of consumers."
+        }
+      ]
+    },
+    {
+      "topic": "Facility and Event Management",
+      "questions": [
+        {
+          "question": "Which of the following best describes the 'event triangle' model?",
+          "options": [
+            "The relationship between the athlete, the venue, and the event",
+            "The interaction between the event, the sponsors, and the fans",
+            "The balance between ticket sales, concessions, and parking",
+            "The connection between the city, the team, and the media"
+          ],
+          "correctAnswer": "The interaction between the event, the sponsors, and the fans",
+          "Help": "The event triangle represents the interdependence of the event producer, the sponsor, and the audience."
+        },
+        {
+          "question": "When a facility manager identifies the potential for inclement weather, which risk management strategy are they applying by purchasing weather insurance?",
+          "options": [
+            "Risk avoidance",
+            "Risk transfer",
+            "Risk retention",
+            "Risk reduction"
+          ],
+          "correctAnswer": "Risk transfer",
+          "Help": "Transferring risk involves moving the financial impact to another party, such as an insurance company."
+        },
+        {
+          "question": "Which type of economic utility is created when an event is held at a location that is easily accessible to the target audience?",
+          "options": [
+            "Form utility",
+            "Possession utility",
+            "Place utility",
+            "Time utility"
+          ],
+          "correctAnswer": "Place utility",
+          "Help": "Place utility refers to the value added by having a product or service where consumers want it."
+        },
+        {
+          "question": "What is the primary function of a feasibility study prior to building a sports facility?",
+          "options": [
+            "To secure celebrity endorsements",
+            "To determine the economic viability and potential return on investment",
+            "To finalize the architectural design of the locker rooms",
+            "To hire the stadium security staff"
+          ],
+          "correctAnswer": "To determine the economic viability and potential return on investment",
+          "Help": "A feasibility study examines whether a project is practical and profitable."
+        }
+      ]
+    },
+    {
+      "topic": "Human Resources and Leadership",
+      "questions": [
+        {
+          "question": "Which leadership style is characterized by a leader who makes decisions independently without consulting their team members?",
+          "options": [
+            "Democratic",
+            "Situational",
+            "Autocratic",
+            "Open"
+          ],
+          "correctAnswer": "Autocratic",
+          "Help": "Autocratic leadership concentrates power in the hands of a single leader."
+        },
+        {
+          "question": "What is the primary purpose of a job orientation program?",
+          "options": [
+            "To evaluate an employee's long-term potential",
+            "To train employees on specialized athletic skills",
+            "To introduce new hires to company culture, policies, and expectations",
+            "To determine the compensation package for new staff"
+          ],
+          "correctAnswer": "To introduce new hires to company culture, policies, and expectations",
+          "Help": "Orientation helps new employees integrate into the organizational structure."
+        }
+      ]
+    }
+  ]
+}
