@@ -1,0 +1,1360 @@
+{
+  "testName": "FBLA Real Estate Competitive Event",
+  "topics": [
+    {
+      "topic": "Real Estate Fundamentals",
+      "questions": [
+        {
+          "question": "Which of the following is classified as personal property rather than real property?",
+          "options": [
+            "A detached garage",
+            "A built-in kitchen cabinet",
+            "A portable garden shed",
+            "A paved concrete driveway"
+          ],
+          "correctAnswer": "A portable garden shed",
+          "Help": "Personal property is movable and not permanently affixed to the land."
+        },
+        {
+          "question": "What is the primary difference between a real estate broker and a real estate agent?",
+          "options": [
+            "Agents must have a college degree, while brokers do not",
+            "Brokers can operate independently, while agents must work under a sponsoring broker",
+            "Agents handle commercial property, while brokers handle residential property",
+            "Brokers are prohibited from listing properties for sale"
+          ],
+          "correctAnswer": "Brokers can operate independently, while agents must work under a sponsoring broker",
+          "Help": "Real estate agents generally must hang their license with a managing broker."
+        },
+        {
+          "question": "Which term describes rights, privileges, or improvements that pass with the transfer of the land?",
+          "options": [
+            "Appurtenances",
+            "Encumbrances",
+            "Easements",
+            "Lienholdings"
+          ],
+          "correctAnswer": "Appurtenances",
+          "Help": "An appurtenance is a right or restriction that 'runs with the land'."
+        },
+        {
+          "question": "What is the primary role of a real estate appraiser?",
+          "options": [
+            "To negotiate the sale price between buyer and seller",
+            "To determine the market value of a property based on objective analysis",
+            "To manage the daily maintenance and leasing of commercial units",
+            "To secure mortgage financing for the prospective homebuyer"
+          ],
+          "correctAnswer": "To determine the market value of a property based on objective analysis",
+          "Help": "Appraisers provide an independent estimate of value."
+        },
+        {
+          "question": "Which career path in real estate focuses on the physical maintenance and operational oversight of income-producing property?",
+          "options": [
+            "Mortgage banker",
+            "Real estate appraiser",
+            "Property manager",
+            "Land developer"
+          ],
+          "correctAnswer": "Property manager",
+          "Help": "Property managers handle the day-to-day operations and tenant relations."
+        }
+      ]
+    },
+    {
+      "topic": "Laws and Regulations",
+      "questions": [
+        {
+          "question": "Under the Fair Housing Act, which of the following is a protected class?",
+          "options": [
+            "Occupation",
+            "National origin",
+            "Credit score",
+            "Political affiliation"
+          ],
+          "correctAnswer": "National origin",
+          "Help": "Fair Housing laws protect against discrimination based on race, color, religion, sex, handicap, familial status, or national origin."
+        },
+        {
+          "question": "When must a seller disclose the presence of lead-based paint in a residential property built before 1978?",
+          "options": [
+            "Only if the buyer specifically asks about it",
+            "Only if the property is located in a high-risk flood zone",
+            "Prior to the ratification of a purchase contract",
+            "At the final closing settlement"
+          ],
+          "correctAnswer": "Prior to the ratification of a purchase contract",
+          "Help": "Federal law requires disclosure of lead-based paint hazards for pre-1978 housing."
+        },
+        {
+          "question": "What is the term for a legal document that restricts how a property owner can use their land?",
+          "options": [
+            "Zoning ordinance",
+            "Escrow agreement",
+            "Purchase disclosure",
+            "Deed restriction"
+          ],
+          "correctAnswer": "Zoning ordinance",
+          "Help": "Zoning regulations define permitted land use categories."
+        },
+        {
+          "question": "A real estate licensee has a fiduciary duty to their client, which includes:",
+          "options": [
+            "Guaranteeing the highest possible selling price",
+            "Keeping the client's confidential information private",
+            "Ignoring defects in the property to close the sale faster",
+            "Representing both the buyer and seller without disclosure"
+          ],
+          "correctAnswer": "Keeping the client's confidential information private",
+          "Help": "Confidentiality is a core pillar of fiduciary duty."
+        },
+        {
+          "question": "Blockbusting is a discriminatory practice defined as:",
+          "options": [
+            "Refusing to show homes in certain neighborhoods to minority buyers",
+            "Inducing owners to sell by suggesting that a certain demographic is moving into the area",
+            "Denying a loan based on the property location",
+            "Setting different rental prices based on the number of children in a family"
+          ],
+          "correctAnswer": "Inducing owners to sell by suggesting that a certain demographic is moving into the area",
+          "Help": "Blockbusting is a prohibited act under the Fair Housing Act."
+        }
+      ]
+    },
+    {
+      "topic": "Real Estate Transactions and Finance",
+      "questions": [
+        {
+          "question": "What is the function of the secondary mortgage market?",
+          "options": [
+            "To lend money directly to high-risk borrowers",
+            "To buy mortgages from lenders, providing liquidity to the primary market",
+            "To set the national prime interest rate",
+            "To provide down payment assistance for first-time buyers"
+          ],
+          "correctAnswer": "To buy mortgages from lenders, providing liquidity to the primary market",
+          "Help": "The secondary market, including Fannie Mae and Freddie Mac, buys loans to free up capital for originators."
+        },
+        {
+          "question": "At a real estate closing, the 'deed' is transferred to the buyer. What does the deed represent?",
+          "options": [
+            "A promise to pay the loan balance",
+            "A document that summarizes the transaction costs",
+            "The legal instrument conveying title to the property",
+            "The insurance policy protecting the lender"
+          ],
+          "correctAnswer": "The legal instrument conveying title to the property",
+          "Help": "A deed is the physical document used to transfer ownership interest."
+        },
+        {
+          "question": "Which of the following describes the 'settlement' or 'closing' process?",
+          "options": [
+            "The negotiation of the initial purchase offer",
+            "The final step where legal title is transferred and funds are distributed",
+            "The period where the appraiser calculates the property value",
+            "The listing of a property on the local Multiple Listing Service"
+          ],
+          "correctAnswer": "The final step where legal title is transferred and funds are distributed",
+          "Help": "Closing is the conclusion of the real estate transaction."
+        },
+        {
+          "question": "An 'amortized' mortgage loan refers to:",
+          "options": [
+            "A loan where the interest rate changes annually",
+            "A loan with no down payment requirement",
+            "A loan where the principal and interest are paid off in equal installments over time",
+            "A loan that is ballooned at the end of the term"
+          ],
+          "correctAnswer": "A loan where the principal and interest are paid off in equal installments over time",
+          "Help": "Amortization means gradually paying down the debt through periodic payments."
+        },
+        {
+          "question": "Which document outlines the specific costs of a real estate transaction to the buyer and seller?",
+          "options": [
+            "The Closing Disclosure",
+            "The Property Tax Assessment",
+            "The Zoning Permit",
+            "The Listing Agreement"
+          ],
+          "correctAnswer": "The Closing Disclosure",
+          "Help": "The Closing Disclosure lists all financial details of the final transaction."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics",
+      "questions": [
+        {
+          "question": "Which of the following actions constitutes an ethical violation in real estate advertising?",
+          "options": [
+            "Highlighting the proximity of a house to a local park",
+            "Misrepresenting the square footage of a property in an advertisement",
+            "Using professional photography to showcase the home",
+            "Mentioning that the property has a newly renovated kitchen"
+          ],
+          "correctAnswer": "Misrepresenting the square footage of a property in an advertisement",
+          "Help": "Truth in advertising requires factual accuracy regarding property details."
+        },
+        {
+          "question": "An agent learns of a major structural defect that is not visually apparent. What is their ethical obligation?",
+          "options": [
+            "Disclose it only if the buyer asks about structural condition",
+            "Keep it confidential to protect the seller's chances of a quick sale",
+            "Disclose the material fact to all prospective buyers",
+            "Recommend the seller hide the defect before the home inspection"
+          ],
+          "correctAnswer": "Disclose the material fact to all prospective buyers",
+          "Help": "Ethics in real estate mandate the disclosure of known material defects."
+        },
+        {
+          "question": "A dual agency relationship may raise ethical concerns because:",
+          "options": [
+            "It is illegal in all states",
+            "The agent may struggle to fully represent the conflicting interests of both parties",
+            "It requires the agent to charge double the commission",
+            "It prevents the agent from showing other properties"
+          ],
+          "correctAnswer": "The agent may struggle to fully represent the conflicting interests of both parties",
+          "Help": "Dual agency is inherently prone to conflicts of interest."
+        },
+        {
+          "question": "What does it mean for an agent to practice 'puffery' in a real estate listing?",
+          "options": [
+            "Engaging in illegal bait-and-switch tactics",
+            "Using exaggerated, subjective statements that are not considered factual claims",
+            "Deliberately lying about the age of the roof",
+            "Discriminating against certain buyers based on their agent"
+          ],
+          "correctAnswer": "Using exaggerated, subjective statements that are not considered factual claims",
+          "Help": "Puffery (e.g., 'the most beautiful view in the city') is generally allowed, unlike material misrepresentation."
+        },
+        {
+          "question": "Which behavior is considered unethical when handling a buyer's offer?",
+          "options": [
+            "Presenting all written offers to the seller in a timely manner",
+            "Delaying the presentation of an offer to wait for a better one from another client",
+            "Explaining the pros and cons of the offer to the seller",
+            "Maintaining the confidentiality of the offer's price until authorized"
+          ],
+          "correctAnswer": "Delaying the presentation of an offer to wait for a better one from another client",
+          "Help": "Agents have an ethical and legal duty to present all offers promptly."
+        }
+      ]
+    },
+    {
+      "topic": "Agency",
+      "questions": [
+        {
+          "question": "What is the primary difference between a seller's agent and a buyer's agent?",
+          "options": [
+            "The seller's agent is paid by the state",
+            "The seller's agent has a fiduciary duty to the seller, while the buyer's agent has a fiduciary duty to the buyer",
+            "Only the buyer's agent can list a property on the MLS",
+            "The buyer's agent is responsible for the property inspection"
+          ],
+          "correctAnswer": "The seller's agent has a fiduciary duty to the seller, while the buyer's agent has a fiduciary duty to the buyer",
+          "Help": "Agency defines to whom the fiduciary loyalty is owed."
+        },
+        {
+          "question": "A 'sub-agent' typically works for:",
+          "options": [
+            "The buyer, representing their interests exclusively",
+            "The seller, through a relationship established with the seller's primary broker",
+            "The local government to verify property taxes",
+            "A third-party investment firm only"
+          ],
+          "correctAnswer": "The seller, through a relationship established with the seller's primary broker",
+          "Help": "A sub-agent is an agent of the listing broker, and by extension, an agent of the seller."
+        },
+        {
+          "question": "In a commercial transaction, agency relationships are often governed by:",
+          "options": [
+            "Standard residential disclosure forms only",
+            "Detailed written contracts that define the scope of representation",
+            "Verbal agreements that are always legally binding",
+            "The personal preference of the building manager"
+          ],
+          "correctAnswer": "Detailed written contracts that define the scope of representation",
+          "Help": "Commercial transactions are highly contractual due to their complexity."
+        },
+        {
+          "question": "Which action is an example of an agent's duty of 'obedience'?",
+          "options": [
+            "Following the client's lawful instructions, even if the agent disagrees",
+            "Doing whatever is necessary to close the deal",
+            "Obeying the buyer's request to discriminate against certain renters",
+            "Refusing to show a home because the agent dislikes the owner"
+          ],
+          "correctAnswer": "Following the client's lawful instructions, even if the agent disagrees",
+          "Help": "Obedience requires following the client's instructions as long as they are legal."
+        },
+        {
+          "question": "When does an agency relationship typically begin?",
+          "options": [
+            "When the property is first advertised",
+            "When a formal written agreement is signed between the client and the broker",
+            "When the appraiser visits the home",
+            "When the buyer submits an offer"
+          ],
+          "correctAnswer": "When a formal written agreement is signed between the client and the broker",
+          "Help": "Agency is a legal relationship created by a mutual agreement, usually in writing."
+        }
+      ]
+    },
+    {
+      "topic": "Real Estate General Knowledge",
+      "questions": [
+        {
+          "question": "A 'lien' on a property is best defined as:",
+          "options": [
+            "A legal claim against a property to secure a debt",
+            "An agreement to rent the property for a year",
+            "A type of insurance policy for the homeowner",
+            "The process of surveying land boundaries"
+          ],
+          "correctAnswer": "A legal claim against a property to secure a debt",
+          "Help": "Liens are encumbrances that represent a creditor's interest in the property."
+        },
+        {
+          "question": "Which of these is a common example of 'commercial' real estate?",
+          "options": [
+            "A single-family detached home",
+            "A duplex apartment complex",
+            "A shopping mall",
+            "A vacant plot of residential land"
+          ],
+          "correctAnswer": "A shopping mall",
+          "Help": "Commercial property is used for business purposes like retail, office, or industrial use."
+        },
+        {
+          "question": "What is the primary benefit of membership in the National Association of Realtors (NAR)?",
+          "options": [
+            "Guaranteed sales commissions",
+            "Access to specialized training, code of ethics standards, and advocacy",
+            "Automatic exemption from state licensing exams",
+            "Direct ownership of federal land"
+          ],
+          "correctAnswer": "Access to specialized training, code of ethics standards, and advocacy",
+          "Help": "NAR provides professional development and industry representation for its members."
+        },
+        {
+          "question": "What is the purpose of a mortgage banker?",
+          "options": [
+            "To sell homes on behalf of sellers",
+            "To fund mortgage loans using their own or institutional capital",
+            "To appraise the value of commercial assets",
+            "To manage the physical maintenance of rental units"
+          ],
+          "correctAnswer": "To fund mortgage loans using their own or institutional capital",
+          "Help": "Mortgage bankers originate and fund loans."
+        },
+        {
+          "question": "What does the term 'hereditament' refer to in real estate?",
+          "options": [
+            "The physical structure of a house",
+            "Any kind of property that can be inherited",
+            "A legal tax exemption for senior citizens",
+            "The document transferring property from a bank to a buyer"
+          ],
+          "correctAnswer": "Any kind of property that can be inherited",
+          "Help": "A hereditament is an interest in real or personal property that is capable of being inherited."
+        }
+      ]
+    },
+    {
+      "topic": "Advanced Real Estate Concepts",
+      "questions": [
+        {
+          "question": "In the context of land use, what is an 'easement'?",
+          "options": [
+            "A government tax on undeveloped land",
+            "The right of one party to use the land of another for a specific purpose",
+            "A document that defines the square footage of a building",
+            "A restriction preventing any construction on a specific site"
+          ],
+          "correctAnswer": "The right of one party to use the land of another for a specific purpose",
+          "Help": "Easements provide limited rights of use without granting ownership."
+        },
+        {
+          "question": "Which of the following factors would most likely lead to a decrease in real estate value?",
+          "options": [
+            "The construction of a new public transit station nearby",
+            "A zoning change that restricts land to low-density residential only",
+            "A significant decline in local employment opportunities",
+            "An increase in local property taxes"
+          ],
+          "correctAnswer": "A significant decline in local employment opportunities",
+          "Help": "Real estate values are heavily tied to local economic health."
+        },
+        {
+          "question": "The 'cost approach' to real estate valuation is best suited for:",
+          "options": [
+            "Established residential homes with many similar sales nearby",
+            "Properties where the land value plus the cost of replacing the improvements is calculated",
+            "Income-producing buildings where rent is the primary value driver",
+            "Raw land that has never been developed"
+          ],
+          "correctAnswer": "Properties where the land value plus the cost of replacing the improvements is calculated",
+          "Help": "The cost approach is common for unique properties or new construction."
+        },
+        {
+          "question": "What is an 'escrow' account used for in a transaction?",
+          "options": [
+            "To pay the real estate agent's personal income taxes",
+            "To hold funds or documents until the closing conditions are met",
+            "To store the buyer's furniture before moving in",
+            "To pay the seller's mortgage after the closing"
+          ],
+          "correctAnswer": "To hold funds or documents until the closing conditions are met",
+          "Help": "Escrow ensures a neutral third party manages assets until requirements are satisfied."
+        },
+        {
+          "question": "Why is market analysis important for a real estate investor?",
+          "options": [
+            "It guarantees that the property price will double in a year",
+            "It helps identify trends in supply and demand to inform investment decisions",
+            "It removes the need for a property inspection",
+            "It provides the buyer with an automatic lower interest rate"
+          ],
+          "correctAnswer": "It helps identify trends in supply and demand to inform investment decisions",
+          "Help": "Market analysis mitigates risk by assessing economic viability."
+        },
+        {
+          "question": "Which of the following is considered 'industrial' real estate?",
+          "options": [
+            "An apartment complex",
+            "A warehouse or manufacturing facility",
+            "A retail shopping plaza",
+            "A luxury single-family residence"
+          ],
+          "correctAnswer": "A warehouse or manufacturing facility",
+          "Help": "Industrial real estate is used for production, storage, or distribution."
+        },
+        {
+          "question": "What is the function of 'zoning' in urban planning?",
+          "options": [
+            "To ensure equal distribution of wealth among citizens",
+            "To divide land into districts for specific types of use to promote orderly development",
+            "To set the maximum sales price for residential homes",
+            "To provide free infrastructure to developers"
+          ],
+          "correctAnswer": "To divide land into districts for specific types of use to promote orderly development",
+          "Help": "Zoning prevents incompatible land uses, such as factories next to schools."
+        },
+        {
+          "question": "Which of these is a federal regulation designed to protect homebuyers?",
+          "options": [
+            "Local building codes for deck construction",
+            "The Real Estate Settlement Procedures Act (RESPA)",
+            "State-specific licensing requirements",
+            "County land transfer fees"
+          ],
+          "correctAnswer": "The Real Estate Settlement Procedures Act (RESPA)",
+          "Help": "RESPA mandates disclosures to protect consumers during the settlement process."
+        },
+        {
+          "question": "A 'tenancy at will' is defined as:",
+          "options": [
+            "A lease for a fixed term of 10 years",
+            "A rental agreement that can be terminated by either party at any time",
+            "A life estate interest in a property",
+            "A contract where the tenant owns the building"
+          ],
+          "correctAnswer": "A rental agreement that can be terminated by either party at any time",
+          "Help": "Tenancy at will lacks a fixed duration and is terminable by notice."
+        },
+        {
+          "question": "What is the primary role of a real estate entrepreneur?",
+          "options": [
+            "To manage properties for a fee",
+            "To identify and capitalize on opportunities to develop or improve real estate value",
+            "To inspect properties for structural integrity",
+            "To process mortgage loan applications"
+          ],
+          "correctAnswer": "To identify and capitalize on opportunities to develop or improve real estate value",
+          "Help": "Entrepreneurs take on the risk of developing projects for profit."
+        },
+        {
+          "question": "What is the purpose of an 'inspection' clause in a purchase contract?",
+          "options": [
+            "To allow the buyer to void the contract if serious defects are found",
+            "To guarantee that the seller will pay for all repairs",
+            "To force the buyer to accept the property in 'as-is' condition",
+            "To determine the final sales price of the home"
+          ],
+          "correctAnswer": "To allow the buyer to void the contract if serious defects are found",
+          "Help": "Inspection clauses provide a safety net for buyers regarding property condition."
+        },
+        {
+          "question": "What does a 'lease' agreement establish?",
+          "options": [
+            "Transfer of property ownership",
+            "The right of a tenant to occupy a property for a specific period",
+            "A lifetime interest in the land",
+            "The permanent modification of property zoning"
+          ],
+          "correctAnswer": "The right of a tenant to occupy a property for a specific period",
+          "Help": "A lease provides a possessory, non-ownership interest in real estate."
+        },
+        {
+          "question": "When a real estate professional 'markets' a listing, they might use:",
+          "options": [
+            "Professional photography and virtual tours",
+            "Hidden defects to attract a quick buyer",
+            "Only word-of-mouth with no digital footprint",
+            "Discriminatory pricing based on the buyer's profile"
+          ],
+          "correctAnswer": "Professional photography and virtual tours",
+          "Help": "Modern marketing uses high-quality visual content to maximize visibility."
+        },
+        {
+          "question": "What is 'equity' in the context of a home?",
+          "options": [
+            "The market value of the home minus the outstanding loan balance",
+            "The original purchase price of the property",
+            "The amount of the monthly mortgage payment",
+            "The interest rate on the property loan"
+          ],
+          "correctAnswer": "The market value of the home minus the outstanding loan balance",
+          "Help": "Equity represents the owner's actual stake in the asset."
+        },
+        {
+          "question": "What are 'encumbrances' on a title?",
+          "options": [
+            "Records of all previous owners",
+            "Claims, liens, or liabilities that limit the owner's rights to a property",
+            "The physical dimensions of a property lot",
+            "The architectural blueprints of the house"
+          ],
+          "correctAnswer": "Claims, liens, or liabilities that limit the owner's rights to a property",
+          "Help": "Encumbrances can negatively affect the value or transferability of a property."
+        },
+        {
+          "question": "Which of these is a typical responsibility of a real estate sales agent?",
+          "options": [
+            "Determining the tax assessment for the county",
+            "Assisting clients in listing, showing, and negotiating the sale of real estate",
+            "Granting final approval for mortgage loans",
+            "Drafting zoning laws for the municipality"
+          ],
+          "correctAnswer": "Assisting clients in listing, showing, and negotiating the sale of real estate",
+          "Help": "Sales agents represent clients in the buying and selling process."
+        },
+        {
+          "question": "What is the purpose of title insurance?",
+          "options": [
+            "To cover damages to the physical home caused by fire",
+            "To protect the owner or lender against losses from defects in the property's title",
+            "To insure the property against natural disasters",
+            "To pay for legal defense if the owner gets sued for personal injury"
+          ],
+          "correctAnswer": "To protect the owner or lender against losses from defects in the property's title",
+          "Help": "Title insurance covers ownership disputes or historical title defects."
+        },
+        {
+          "question": "How does 'dual agency' typically work?",
+          "options": [
+            "Two separate brokers represent the buyer and seller respectively",
+            "One broker represents both the buyer and seller in the same transaction",
+            "One agent works for two different real estate firms",
+            "A buyer hires two agents to find them a home"
+          ],
+          "correctAnswer": "One broker represents both the buyer and seller in the same transaction",
+          "Help": "Dual agency requires informed consent because it presents a conflict of interest."
+        },
+        {
+          "question": "What is 'commercial' property primarily used for?",
+          "options": [
+            "Private family living",
+            "Generating profit through business activities or leasing",
+            "Governmental conservation",
+            "Public agricultural use"
+          ],
+          "correctAnswer": "Generating profit through business activities or leasing",
+          "Help": "Commercial properties are income-generating assets."
+        },
+        {
+          "question": "Which of the following is an example of an 'appurtenance'?",
+          "options": [
+            "A car kept in the garage",
+            "A permanent water right or easement",
+            "A portable microwave oven",
+            "A seasonal patio umbrella"
+          ],
+          "correctAnswer": "A permanent water right or easement",
+          "Help": "Appurtenances are attached to the land and stay with it upon sale."
+        },
+        {
+          "question": "What happens in a 'short sale'?",
+          "options": [
+            "The property is sold for less than the amount owed on the mortgage",
+            "The seller receives more money than the property is worth",
+            "The sale is processed in less than one day",
+            "The buyer pays for the house entirely in cash"
+          ],
+          "correctAnswer": "The property is sold for less than the amount owed on the mortgage",
+          "Help": "Short sales require lender approval because the proceeds are insufficient to cover the debt."
+        },
+        {
+          "question": "A 'fiduciary' relationship implies:",
+          "options": [
+            "A relationship based on legal equality",
+            "A position of trust requiring the agent to act in the best interest of the principal",
+            "A casual business agreement with no legal requirements",
+            "A relationship between two competitors"
+          ],
+          "correctAnswer": "A position of trust requiring the agent to act in the best interest of the principal",
+          "Help": "Fiduciary duty is the highest legal standard of care."
+        },
+        {
+          "question": "Why is it illegal to discuss commission rates with competitors?",
+          "options": [
+            "It violates antitrust laws by potentially fixing prices",
+            "It is rude to discuss money",
+            "The government requires a flat commission for everyone",
+            "Commission rates must be approved by the local mayor"
+          ],
+          "correctAnswer": "It violates antitrust laws by potentially fixing prices",
+          "Help": "Price fixing is a severe violation of antitrust legislation."
+        },
+        {
+          "question": "What does a 'property disclosure' statement inform the buyer about?",
+          "options": [
+            "The previous owner's credit history",
+            "Known defects or issues with the property's condition",
+            "The future value of the property",
+            "The neighborhood's political demographics"
+          ],
+          "correctAnswer": "Known defects or issues with the property's condition",
+          "Help": "Disclosure statements ensure buyers are aware of the physical state of the home."
+        },
+        {
+          "question": "Which of these is a key component of the 'real estate transaction process'?",
+          "options": [
+            "Obtaining a building permit for a new addition",
+            "Negotiating and executing a purchase agreement",
+            "Calculating the local sales tax for personal items",
+            "Painting the interior of the house"
+          ],
+          "correctAnswer": "Negotiating and executing a purchase agreement",
+          "Help": "The purchase agreement is the foundation of the transaction."
+        },
+        {
+          "question": "What is the role of an escrow officer?",
+          "options": [
+            "To represent the buyer in court",
+            "To act as a neutral third party that manages the closing process and funds",
+            "To appraise the property for the lender",
+            "To help the seller find a new home"
+          ],
+          "correctAnswer": "To act as a neutral third party that manages the closing process and funds",
+          "Help": "Escrow officers facilitate the final steps of a sale impartially."
+        },
+        {
+          "question": "Why is 'asbestos' a concern in older real estate?",
+          "options": [
+            "It causes the building foundation to crack",
+            "It is a hazardous material that requires professional remediation",
+            "It decreases the property's tax value",
+            "It attracts pests like termites"
+          ],
+          "correctAnswer": "It is a hazardous material that requires professional remediation",
+          "Help": "Asbestos is a known environmental hazard requiring specific disclosure and handling."
+        },
+        {
+          "question": "What is 'land use' regulation?",
+          "options": [
+            "The process of cleaning up toxic land",
+            "Laws that dictate how property can be developed and used",
+            "The method used to survey land boundaries",
+            "The determination of property ownership"
+          ],
+          "correctAnswer": "Laws that dictate how property can be developed and used",
+          "Help": "Land use controls include zoning, building codes, and environmental regulations."
+        },
+        {
+          "question": "What characterizes 'residential' real estate?",
+          "options": [
+            "Warehouses and industrial plants",
+            "Single-family homes and multi-unit dwellings used for living",
+            "Agricultural farming plots only",
+            "Retail storefronts and office spaces"
+          ],
+          "correctAnswer": "Single-family homes and multi-unit dwellings used for living",
+          "Help": "Residential properties are designed for human habitation."
+        },
+        {
+          "question": "Which document is used to convey legal interest in real property?",
+          "options": [
+            "A deed",
+            "A business license",
+            "A rental invoice",
+            "A home inspection report"
+          ],
+          "correctAnswer": "A deed",
+          "Help": "The deed is the official document that transfers title."
+        },
+        {
+          "question": "What does 'dual agency' require from both parties?",
+          "options": [
+            "Informed, written consent",
+            "A court order",
+            "A payment to the local government",
+            "A separate real estate attorney for each party"
+          ],
+          "correctAnswer": "Informed, written consent",
+          "Help": "Due to the conflict of interest, full disclosure and consent are mandatory."
+        },
+        {
+          "question": "What is the purpose of 'fair housing' laws?",
+          "options": [
+            "To ensure that only wealthy individuals can buy homes",
+            "To prevent discrimination in the sale, rental, and financing of housing",
+            "To set the interest rates for mortgage loans",
+            "To mandate that all houses must look the same"
+          ],
+          "correctAnswer": "To prevent discrimination in the sale, rental, and financing of housing",
+          "Help": "Fair housing laws protect equal access to housing."
+        },
+        {
+          "question": "What does a mortgage 'lender' provide?",
+          "options": [
+            "The legal deed to the house",
+            "The capital required for the buyer to purchase the property",
+            "The professional cleaning of the property",
+            "The insurance policy for the home"
+          ],
+          "correctAnswer": "The capital required for the buyer to purchase the property",
+          "Help": "Lenders provide the funds, which are secured by a mortgage."
+        },
+        {
+          "question": "What is a 'lease'?",
+          "options": [
+            "A document that permanently transfers ownership of land",
+            "A contract granting possession of a property for a limited period in exchange for rent",
+            "A government notice of property tax",
+            "A request to change the zoning of a lot"
+          ],
+          "correctAnswer": "A contract granting possession of a property for a limited period in exchange for rent",
+          "Help": "A lease establishes a landlord-tenant relationship."
+        },
+        {
+          "question": "What is a 'brokerage' firm?",
+          "options": [
+            "A store that sells building materials",
+            "A business that employs real estate agents to represent clients",
+            "A government agency that assesses property taxes",
+            "A construction company that builds houses"
+          ],
+          "correctAnswer": "A business that employs real estate agents to represent clients",
+          "Help": "Brokerage firms hold the licenses and oversee agent activities."
+        },
+        {
+          "question": "Which of the following describes the 'secondary mortgage market'?",
+          "options": [
+            "Where people get their initial home loans",
+            "A market where existing mortgage loans are bought and sold",
+            "A market for renting properties",
+            "A market for purchasing commercial office furniture"
+          ],
+          "correctAnswer": "A market where existing mortgage loans are bought and sold",
+          "Help": "It provides liquidity to the entire housing market."
+        },
+        {
+          "question": "What is the primary role of a real estate 'agent'?",
+          "options": [
+            "To design the architecture of a house",
+            "To represent a client's interests in a real estate transaction",
+            "To provide construction financing",
+            "To draft property tax laws"
+          ],
+          "correctAnswer": "To represent a client's interests in a real estate transaction",
+          "Help": "Agents bridge the gap between buyers and sellers."
+        },
+        {
+          "question": "What does 'truth in advertising' mean in real estate?",
+          "options": [
+            "Agents must tell the buyer about every single flaw in the house",
+            "All advertisements must accurately represent the property features",
+            "All listings must include the owner's name",
+            "Advertising costs must be shared equally"
+          ],
+          "correctAnswer": "All advertisements must accurately represent the property features",
+          "Help": "Deceptive advertising is a violation of ethical standards."
+        },
+        {
+          "question": "What is the purpose of an 'appraisal'?",
+          "options": [
+            "To negotiate the final price between buyer and seller",
+            "To provide an unbiased estimate of the property's market value",
+            "To secure the property against natural disasters",
+            "To change the zoning of the property"
+          ],
+          "correctAnswer": "To provide an unbiased estimate of the property's market value",
+          "Help": "Appraisals are vital for lenders to verify the collateral value."
+        },
+        {
+          "question": "Why is 'lead-based paint' a major disclosure issue?",
+          "options": [
+            "It makes the house smell bad",
+            "It is highly toxic and dangerous, especially to children",
+            "It increases the cost of home insurance",
+            "It is illegal to paint a house in certain colors"
+          ],
+          "correctAnswer": "It is highly toxic and dangerous, especially to children",
+          "Help": "Lead exposure causes serious health issues."
+        },
+        {
+          "question": "What are 'fiduciary responsibilities'?",
+          "options": [
+            "The duties of an agent to act with loyalty and care for their client",
+            "The duties of the buyer to pay the property taxes",
+            "The duties of the lender to lower interest rates",
+            "The duties of the seller to provide a free home inspection"
+          ],
+          "correctAnswer": "The duties of an agent to act with loyalty and care for their client",
+          "Help": "These include loyalty, obedience, confidentiality, and accounting."
+        },
+        {
+          "question": "What does a 'sub-agent' do?",
+          "options": [
+            "Works for the buyer to get the lowest price",
+            "Works with the listing broker to find a buyer for the seller",
+            "Works independently without a broker",
+            "Works for the government"
+          ],
+          "correctAnswer": "Works with the listing broker to find a buyer for the seller",
+          "Help": "Sub-agency is common in cooperative real estate sales."
+        },
+        {
+          "question": "What is 'zoning'?",
+          "options": [
+            "The act of selling a property at an auction",
+            "The legal regulation of how land can be used",
+            "The physical act of clearing a plot of land",
+            "The process of surveying property boundaries"
+          ],
+          "correctAnswer": "The legal regulation of how land can be used",
+          "Help": "Zoning ensures orderly community growth."
+        },
+        {
+          "question": "What is a 'real estate broker'?",
+          "options": [
+            "A person who only shows homes to buyers",
+            "A licensed professional who can work independently or manage agents",
+            "A bank employee who processes loans",
+            "A city official who enforces codes"
+          ],
+          "correctAnswer": "A licensed professional who can work independently or manage agents",
+          "Help": "Brokers hold the higher level of licensure than sales agents."
+        },
+        {
+          "question": "Which of these is considered a 'residential' niche?",
+          "options": [
+            "Manufacturing plants",
+            "Single-family homes",
+            "Shopping centers",
+            "Raw farmland"
+          ],
+          "correctAnswer": "Single-family homes",
+          "Help": "Residential niches focus on housing."
+        },
+        {
+          "question": "Why do states regulate the real estate industry?",
+          "options": [
+            "To generate money for the state budget",
+            "To protect the public interest and ensure professional standards",
+            "To prevent people from becoming real estate agents",
+            "To limit the number of properties that can be sold"
+          ],
+          "correctAnswer": "To protect the public interest and ensure professional standards",
+          "Help": "Licensing exists primarily for consumer protection."
+        },
+        {
+          "question": "What does a 'mortgage banker' do?",
+          "options": [
+            "Builds the actual house",
+            "Provides funding for mortgage loans",
+            "Sells property insurance",
+            "Appraises the value of the house"
+          ],
+          "correctAnswer": "Provides funding for mortgage loans",
+          "Help": "They are in the business of lending, not just brokering."
+        },
+        {
+          "question": "What is an 'agency' relationship?",
+          "options": [
+            "A relationship where one party authorizes another to represent them",
+            "A relationship between two neighbors",
+            "A relationship between a seller and a bank",
+            "A relationship between an appraiser and the buyer"
+          ],
+          "correctAnswer": "A relationship where one party authorizes another to represent them",
+          "Help": "Agency defines the legal authority an agent has over their principal's affairs."
+        },
+        {
+          "question": "Why are 'property disclosures' important?",
+          "options": [
+            "They help the seller get a higher price",
+            "They reduce the chance of future litigation regarding hidden defects",
+            "They provide the buyer with a home warranty",
+            "They are used to determine the property tax rate"
+          ],
+          "correctAnswer": "They reduce the chance of future litigation regarding hidden defects",
+          "Help": "Disclosures provide transparency about the property's condition."
+        },
+        {
+          "question": "What is the primary role of a 'real estate organization' like the NAR?",
+          "options": [
+            "To set the national interest rates",
+            "To provide support, resources, and ethics standards for its members",
+            "To buy all unsold properties",
+            "To enforce building codes"
+          ],
+          "correctAnswer": "To provide support, resources, and ethics standards for its members",
+          "Help": "Professional organizations improve industry standards."
+        },
+        {
+          "question": "What is a 'lien'?",
+          "options": [
+            "A legal right of a creditor to have a debt satisfied out of the property",
+            "A type of insurance",
+            "A contract for a lease",
+            "A building permit"
+          ],
+          "correctAnswer": "A legal right of a creditor to have a debt satisfied out of the property",
+          "Help": "Liens represent a financial interest in property."
+        },
+        {
+          "question": "What is the purpose of 'leasing'?",
+          "options": [
+            "To permanently acquire property",
+            "To gain usage rights to property for a set term without ownership",
+            "To build a new home",
+            "To rezone property"
+          ],
+          "correctAnswer": "To gain usage rights to property for a set term without ownership",
+          "Help": "Leasing is a rental arrangement."
+        },
+        {
+          "question": "What is 'real estate'?",
+          "options": [
+            "Only the buildings on a piece of land",
+            "The land and anything permanently attached to it",
+            "Only the vacant land itself",
+            "Any movable business asset"
+          ],
+          "correctAnswer": "The land and anything permanently attached to it",
+          "Help": "Real estate encompasses the land and its improvements."
+        },
+        {
+          "question": "Why is 'market analysis' useful?",
+          "options": [
+            "It dictates the law",
+            "It helps predict value trends by studying supply and demand",
+            "It provides free building materials",
+            "It replaces the need for a loan"
+          ],
+          "correctAnswer": "It helps predict value trends by studying supply and demand",
+          "Help": "Market analysis is essential for making informed investment choices."
+        },
+        {
+          "question": "What does a 'deed' transfer?",
+          "options": [
+            "The money from the buyer to the seller",
+            "The legal ownership interest in real property",
+            "The responsibility for property maintenance",
+            "The insurance policy for the home"
+          ],
+          "correctAnswer": "The legal ownership interest in real property",
+          "Help": "A deed is the standard instrument for title conveyance."
+        },
+        {
+          "question": "What are 'fiduciary responsibilities' in real estate?",
+          "options": [
+            "Duty to charge the lowest commission",
+            "Duties of care, loyalty, and confidentiality toward the client",
+            "Duty to sell the property in one day",
+            "Duty to hide defects"
+          ],
+          "correctAnswer": "Duties of care, loyalty, and confidentiality toward the client",
+          "Help": "Fiduciary duty is the standard of conduct for agents."
+        },
+        {
+          "question": "Which of the following describes an 'appurtenance'?",
+          "options": [
+            "A movable asset",
+            "A right associated with land ownership that stays with the land",
+            "A temporary rental agreement",
+            "A financial loan"
+          ],
+          "correctAnswer": "A right associated with land ownership that stays with the land",
+          "Help": "Appurtenances are 'attached' to the property."
+        },
+        {
+          "question": "What is the definition of 'personal property'?",
+          "options": [
+            "Property that is attached to the ground",
+            "Movable items not permanently attached to land",
+            "Land itself",
+            "A building structure"
+          ],
+          "correctAnswer": "Movable items not permanently attached to land",
+          "Help": "Personal property is not real estate."
+        },
+        {
+          "question": "What is an 'agent'?",
+          "options": [
+            "Someone who works for the bank",
+            "Someone authorized to represent a principal in dealings with others",
+            "A property inspector",
+            "A government building official"
+          ],
+          "correctAnswer": "Someone authorized to represent a principal in dealings with others",
+          "Help": "Agency is the basis for representation."
+        },
+        {
+          "question": "Why is the NAR (National Association of Realtors) significant?",
+          "options": [
+            "It forces all agents to work for them",
+            "It sets the national ethical and professional standards for Realtors",
+            "It provides free health insurance to agents",
+            "It is the only way to get a real estate license"
+          ],
+          "correctAnswer": "It sets the national ethical and professional standards for Realtors",
+          "Help": "Membership in NAR is voluntary but highly influential."
+        },
+        {
+          "question": "What are 'zoning regulations' used for?",
+          "options": [
+            "To determine who can buy a house",
+            "To designate permitted uses for land within a community",
+            "To calculate the value of a house",
+            "To secure a loan"
+          ],
+          "correctAnswer": "To designate permitted uses for land within a community",
+          "Help": "Zoning creates order in development."
+        },
+        {
+          "question": "What is a 'real estate closing'?",
+          "options": [
+            "The day a listing expires",
+            "The finalization of the sale and transfer of ownership",
+            "The initial showing of a property",
+            "The day the appraiser finishes their report"
+          ],
+          "correctAnswer": "The finalization of the sale and transfer of ownership",
+          "Help": "Closing concludes the purchase."
+        },
+        {
+          "question": "What is a 'mortgage'?",
+          "options": [
+            "A contract for rent",
+            "A legal document that pledges property as collateral for a loan",
+            "An insurance policy against theft",
+            "A deed"
+          ],
+          "correctAnswer": "A legal document that pledges property as collateral for a loan",
+          "Help": "A mortgage secures the debt to the property."
+        },
+        {
+          "question": "Which of these is a typical 'real estate transaction' step?",
+          "options": [
+            "Drafting a contract",
+            "Building a house",
+            "Appointing a mayor",
+            "Creating a new zoning law"
+          ],
+          "correctAnswer": "Drafting a contract",
+          "Help": "Contracts formalize the intent to buy/sell."
+        },
+        {
+          "question": "What is the primary role of a 'broker'?",
+          "options": [
+            "To work under an agent",
+            "To manage a brokerage and supervise agents",
+            "To fix broken pipes",
+            "To calculate property taxes"
+          ],
+          "correctAnswer": "To manage a brokerage and supervise agents",
+          "Help": "Brokers are responsible for the business and legal compliance."
+        },
+        {
+          "question": "What does a 'buyer's agent' focus on?",
+          "options": [
+            "Representing the interests of the buyer in a purchase",
+            "Representing the interests of the seller",
+            "Processing the loan application for the bank",
+            "Inspecting the property for structural issues"
+          ],
+          "correctAnswer": "Representing the interests of the buyer in a purchase",
+          "Help": "Loyalty to the buyer is the agent's primary obligation."
+        },
+        {
+          "question": "What is 'industrial' real estate?",
+          "options": [
+            "A residential apartment",
+            "Property used for production, storage, or distribution",
+            "A retail mall",
+            "A single family home"
+          ],
+          "correctAnswer": "Property used for production, storage, or distribution",
+          "Help": "Industrial uses include warehouses and factories."
+        },
+        {
+          "question": "What is a 'fiduciary' relationship?",
+          "options": [
+            "A casual relationship",
+            "A high-trust relationship where the agent represents the client's interests above their own",
+            "A relationship between two sellers",
+            "A relationship between an agent and the government"
+          ],
+          "correctAnswer": "A high-trust relationship where the agent represents the client's interests above their own",
+          "Help": "Loyalty is the cornerstone of fiduciary duty."
+        },
+        {
+          "question": "What is a 'deed'?",
+          "options": [
+            "A receipt for rent",
+            "The legal instrument used to transfer title to real estate",
+            "A blueprint for construction",
+            "An appraisal report"
+          ],
+          "correctAnswer": "The legal instrument used to transfer title to real estate",
+          "Help": "Deeds record the transfer of property."
+        },
+        {
+          "question": "Why is the Fair Housing Act important?",
+          "options": [
+            "It makes houses cheaper",
+            "It prevents discrimination in housing-related services",
+            "It sets the interest rates for loans",
+            "It mandates building codes"
+          ],
+          "correctAnswer": "It prevents discrimination in housing-related services",
+          "Help": "It ensures equitable access to housing opportunities."
+        },
+        {
+          "question": "What does 'closing' entail?",
+          "options": [
+            "The end of a business day",
+            "The transfer of funds and title, completing the sale",
+            "A negotiation over the price",
+            "The inspection of the property"
+          ],
+          "correctAnswer": "The transfer of funds and title, completing the sale",
+          "Help": "Closing is the final step in a real estate deal."
+        },
+        {
+          "question": "What is an 'appraisal'?",
+          "options": [
+            "A guess at the value",
+            "A professional, unbiased valuation of a property",
+            "A tax assessment",
+            "A contractor's estimate for repairs"
+          ],
+          "correctAnswer": "A professional, unbiased valuation of a property",
+          "Help": "Appraisals are objective, unlike subjective price negotiations."
+        },
+        {
+          "question": "What is 'real estate'?",
+          "options": [
+            "Only the dirt",
+            "Land plus any permanent improvements",
+            "Only the house",
+            "Furniture inside a home"
+          ],
+          "correctAnswer": "Land plus any permanent improvements",
+          "Help": "The term includes the land and anything built on it."
+        },
+        {
+          "question": "Why is market analysis useful?",
+          "options": [
+            "It helps understand economic trends affecting supply and demand",
+            "It is a legal requirement for selling a home",
+            "It identifies the best interior paint color",
+            "It sets the state tax rate"
+          ],
+          "correctAnswer": "It helps understand economic trends affecting supply and demand",
+          "Help": "Investors use market analysis to make profitable decisions."
+        },
+        {
+          "question": "What is a 'lien'?",
+          "options": [
+            "A claim against property for unpaid debt",
+            "A type of garden shrub",
+            "A contract for rent",
+            "A government building rule"
+          ],
+          "correctAnswer": "A claim against property for unpaid debt",
+          "Help": "A lien serves as security for a loan."
+        },
+        {
+          "question": "What is the role of an 'agent'?",
+          "options": [
+            "To act on behalf of a principal",
+            "To pay property taxes",
+            "To build houses",
+            "To act as a judge"
+          ],
+          "correctAnswer": "To act on behalf of a principal",
+          "Help": "The agent is the representative in a transaction."
+        },
+        {
+          "question": "What is 'zoning'?",
+          "options": [
+            "A way to calculate interest",
+            "Governmental control of how land can be used",
+            "A list of sales prices",
+            "The process of buying land"
+          ],
+          "correctAnswer": "Governmental control of how land can be used",
+          "Help": "Zoning helps organize community land use."
+        },
+        {
+          "question": "Why is 'disclosure' important?",
+          "options": [
+            "It creates more paperwork",
+            "It promotes honesty and prevents future legal issues about property condition",
+            "It makes houses sell faster",
+            "It changes the market value"
+          ],
+          "correctAnswer": "It promotes honesty and prevents future legal issues about property condition",
+          "Help": "Disclosures are vital to transparency."
+        },
+        {
+          "question": "What is a 'broker'?",
+          "options": [
+            "Someone who assists an agent",
+            "A person with an advanced license who oversees real estate transactions and agents",
+            "A bank manager",
+            "A building inspector"
+          ],
+          "correctAnswer": "A person with an advanced license who oversees real estate transactions and agents",
+          "Help": "Brokers have higher educational and experience requirements than agents."
+        },
+        {
+          "question": "What is 'industrial' real estate used for?",
+          "options": [
+            "Family housing",
+            "Warehousing, storage, and production",
+            "Public parks",
+            "Shopping and retail"
+          ],
+          "correctAnswer": "Warehousing, storage, and production",
+          "Help": "Industrial uses are distinct from residential and retail."
+        },
+        {
+          "question": "What is the 'NAR'?",
+          "options": [
+            "A local building department",
+            "The National Association of Realtors",
+            "A national bank",
+            "A state government agency"
+          ],
+          "correctAnswer": "The National Association of Realtors",
+          "Help": "NAR is the largest trade association for real estate professionals."
+        },
+        {
+          "question": "What is a 'mortgage'?",
+          "options": [
+            "A lease for a car",
+            "A legal pledge of property to secure a loan",
+            "A transfer of title",
+            "A tax payment"
+          ],
+          "correctAnswer": "A legal pledge of property to secure a loan",
+          "Help": "The mortgage gives the lender security for the loan amount."
+        },
+        {
+          "question": "What is 'closing'?",
+          "options": [
+            "The final step in a real estate transaction",
+            "The beginning of a search for a home",
+            "The process of painting a house",
+            "The act of interviewing a seller"
+          ],
+          "correctAnswer": "The final step in a real estate transaction",
+          "Help": "Closing is when the transaction is completed."
+        },
+        {
+          "question": "Why is 'fiduciary' duty crucial?",
+          "options": [
+            "It saves money on taxes",
+            "It builds trust and requires acting in the client's best interest",
+            "It speeds up the home inspection",
+            "It allows the agent to set their own commissions"
+          ],
+          "correctAnswer": "It builds trust and requires acting in the client's best interest",
+          "Help": "Fiduciary duty defines the high ethical standard for agents."
+        },
+        {
+          "question": "What is 'personal property'?",
+          "options": [
+            "Land and the house on it",
+            "Movable items like furniture or equipment",
+            "Property taxes",
+            "A building's foundation"
+          ],
+          "correctAnswer": "Movable items like furniture or equipment",
+          "Help": "Personal property is not real estate."
+        },
+        {
+          "question": "What does a 'buyer's agent' do?",
+          "options": [
+            "Represents the seller",
+            "Helps the buyer negotiate the purchase price and terms",
+            "Provides the loan",
+            "Fixes the house"
+          ],
+          "correctAnswer": "Helps the buyer negotiate the purchase price and terms",
+          "Help": "They advocate exclusively for the buyer's needs."
+        },
+        {
+          "question": "What is 'market analysis' used for?",
+          "options": [
+            "Setting the property tax",
+            "Estimating potential value and trends based on economic data",
+            "Building a house",
+            "Registering a property deed"
+          ],
+          "correctAnswer": "Estimating potential value and trends based on economic data",
+          "Help": "Market analysis provides data-driven insights."
+        },
+        {
+          "question": "What is a 'lien'?",
+          "options": [
+            "The right of a creditor to be paid from property proceeds",
+            "A type of rent payment",
+            "An appraisal document",
+            "A building permit"
+          ],
+          "correctAnswer": "The right of a creditor to be paid from property proceeds",
+          "Help": "Liens are legal encumbrances against property."
+        },
+        {
+          "question": "What is the primary role of a 'broker'?",
+          "options": [
+            "To do all the physical repairs on a house",
+            "To supervise agents and run a brokerage firm",
+            "To provide funding to the buyer",
+            "To act as the city mayor"
+          ],
+          "correctAnswer": "To supervise agents and run a brokerage firm",
+          "Help": "Brokers ensure agents follow the law."
+        },
+        {
+          "question": "What is 'zoning'?",
+          "options": [
+            "Local land use regulations",
+            "A way to calculate interest",
+            "A list of homeowners",
+            "A method of construction"
+          ],
+          "correctAnswer": "Local land use regulations",
+          "Help": "Zoning determines what can be built where."
+        }
+      ]
+    }
+  ]
+}
