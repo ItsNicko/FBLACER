@@ -1,0 +1,1305 @@
+{
+  "testName": "Public Administration & Management Exam",
+  "topics": [
+    {
+      "topic": "Public Finance",
+      "questions": [
+        {
+          "question": "What is the primary function of an operating budget in the public sector?",
+          "options": [
+            "To outline long-term capital investments",
+            "To cover day-to-day expenditures and recurring costs",
+            "To determine interest rates for public bonds",
+            "To calculate taxes on private corporations"
+          ],
+          "correctAnswer": "To cover day-to-day expenditures and recurring costs",
+          "Help": "Operating budgets are for short-term, recurring operational expenses."
+        },
+        {
+          "question": "Which of the following best describes the role of public funding?",
+          "options": [
+            "Maximizing shareholder value",
+            "Generating profit for stakeholders",
+            "Providing essential services and public goods",
+            "Competing directly with private industries for revenue"
+          ],
+          "correctAnswer": "Providing essential services and public goods",
+          "Help": "Public funding aims to provide goods that the private market may not offer adequately."
+        },
+        {
+          "question": "When a department head develops a budget, what is the first logical step?",
+          "options": [
+            "Comparing actual expenses against projected revenue",
+            "Identifying departmental goals and program priorities",
+            "Requesting a percentage increase over the previous year",
+            "Allocating funds to the lowest priority projects first"
+          ],
+          "correctAnswer": "Identifying departmental goals and program priorities",
+          "Help": "Budgeting must start with strategic objectives before assigning monetary values."
+        },
+        {
+          "question": "Which of the following is a characteristic of a public budget?",
+          "options": [
+            "It is a static document that cannot be changed",
+            "It serves as a legal authorization for spending",
+            "It is designed primarily to maximize organizational wealth",
+            "It is hidden from the public to prevent scrutiny"
+          ],
+          "correctAnswer": "It serves as a legal authorization for spending",
+          "Help": "Public budgets act as legislative mandates for how tax dollars are utilized."
+        },
+        {
+          "question": "What does a capital budget typically cover?",
+          "options": [
+            "Employee payroll for the quarter",
+            "Office supply replenishment",
+            "Major infrastructure projects and long-term assets",
+            "Marketing and public awareness campaigns"
+          ],
+          "correctAnswer": "Major infrastructure projects and long-term assets",
+          "Help": "Capital budgets focus on long-term assets like buildings, roads, and machinery."
+        },
+        {
+          "question": "Public sector finance differs from private sector finance primarily in its:",
+          "options": [
+            "Requirement to pay corporate taxes",
+            "Focus on profit maximization",
+            "Emphasis on public accountability and service delivery",
+            "Access to unlimited capital from investors"
+          ],
+          "correctAnswer": "Emphasis on public accountability and service delivery",
+          "Help": "Public finance is driven by societal outcomes, not just fiscal profit."
+        },
+        {
+          "question": "Which of these is a source of public funding?",
+          "options": [
+            "Corporate dividends",
+            "Taxation revenue",
+            "Private venture capital",
+            "Personal retail sales"
+          ],
+          "correctAnswer": "Taxation revenue",
+          "Help": "Taxes are the primary revenue stream for governmental public funding."
+        },
+        {
+          "question": "A deficit occurs when:",
+          "options": [
+            "Revenue exceeds expenditures",
+            "Expenditures exceed revenue",
+            "The budget is perfectly balanced",
+            "Assets exceed liabilities"
+          ],
+          "correctAnswer": "Expenditures exceed revenue",
+          "Help": "A deficit represents a shortfall in available funds compared to planned spending."
+        },
+        {
+          "question": "What is the purpose of 'performance budgeting'?",
+          "options": [
+            "Linking budget allocations to specific outcomes or results",
+            "Allocating funds equally among all departments",
+            "Increasing the budget based solely on inflation",
+            "Reducing the budget by a fixed percentage annually"
+          ],
+          "correctAnswer": "Linking budget allocations to specific outcomes or results",
+          "Help": "Performance budgeting uses data on effectiveness to justify spending."
+        },
+        {
+          "question": "In the context of public finance, what is an 'appropriation'?",
+          "options": [
+            "A voluntary donation to the government",
+            "Legal authority for an agency to spend money",
+            "The process of auditing private businesses",
+            "A tax penalty on underperforming departments"
+          ],
+          "correctAnswer": "Legal authority for an agency to spend money",
+          "Help": "Appropriation acts are the specific legislative vehicles that authorize spending."
+        },
+        {
+          "question": "What is the main goal of fiscal policy in the public sector?",
+          "options": [
+            "Influencing the economy through government spending and taxation",
+            "Managing the stock prices of public companies",
+            "Setting international trade regulations",
+            "Controlling the money supply"
+          ],
+          "correctAnswer": "Influencing the economy through government spending and taxation",
+          "Help": "Fiscal policy relates to how the government manages its revenue and spending to affect the macro-economy."
+        },
+        {
+          "question": "Which accounting method records revenue when earned and expenses when incurred?",
+          "options": [
+            "Cash accounting",
+            "Accrual accounting",
+            "Deferred accounting",
+            "Budgetary accounting"
+          ],
+          "correctAnswer": "Accrual accounting",
+          "Help": "Accrual accounting provides a more comprehensive view of financial health than cash accounting."
+        },
+        {
+          "question": "What is 'Public Debt'?",
+          "options": [
+            "The sum of all private citizen loans",
+            "Money owed by a government to its creditors",
+            "The interest rate charged by central banks",
+            "The amount of cash held in the treasury"
+          ],
+          "correctAnswer": "Money owed by a government to its creditors",
+          "Help": "Public debt is the financial obligations incurred by governmental bodies."
+        },
+        {
+          "question": "Why is transparency critical in public budgeting?",
+          "options": [
+            "To make it easier for private firms to calculate bids",
+            "To ensure public accountability and trust",
+            "To increase tax revenue automatically",
+            "To allow for faster political decision-making"
+          ],
+          "correctAnswer": "To ensure public accountability and trust",
+          "Help": "Transparency prevents corruption and ensures taxpayers know how funds are used."
+        },
+        {
+          "question": "Which of these represents a 'restricted' fund in public budgeting?",
+          "options": [
+            "A general fund used for anything",
+            "A fund earmarked for a specific purpose by law",
+            "A fund for emergency employee parties",
+            "A fund that has not been allocated yet"
+          ],
+          "correctAnswer": "A fund earmarked for a specific purpose by law",
+          "Help": "Restricted funds are legally limited to certain activities."
+        }
+      ]
+    },
+    {
+      "topic": "Public Policy and Governance",
+      "questions": [
+        {
+          "question": "What is the first stage of the public policy lifecycle?",
+          "options": [
+            "Policy evaluation",
+            "Problem identification",
+            "Agenda setting",
+            "Policy implementation"
+          ],
+          "correctAnswer": "Problem identification",
+          "Help": "Policymaking starts by recognizing a societal issue that requires government action."
+        },
+        {
+          "question": "What role does public discourse play in policymaking?",
+          "options": [
+            "It hinders the efficiency of the legislative branch",
+            "It helps frame the problem and influences agenda setting",
+            "It has no impact on government decisions",
+            "It is used to automate administrative tasks"
+          ],
+          "correctAnswer": "It helps frame the problem and influences agenda setting",
+          "Help": "Public debate and media coverage shape what politicians focus on."
+        },
+        {
+          "question": "What is the function of administrative law?",
+          "options": [
+            "To regulate the conduct of private citizens in courts",
+            "To govern the activities of administrative agencies of government",
+            "To write criminal law legislation",
+            "To dictate international treaties"
+          ],
+          "correctAnswer": "To govern the activities of administrative agencies of government",
+          "Help": "Administrative law covers the rules agencies make and enforce."
+        },
+        {
+          "question": "Which of these is a key factor in effective policy design?",
+          "options": [
+            "High cost and complexity",
+            "Clear goals and measurable outcomes",
+            "Minimal consultation with stakeholders",
+            "Exclusion of non-governmental experts"
+          ],
+          "correctAnswer": "Clear goals and measurable outcomes",
+          "Help": "Policies must be specific and capable of being measured to be effective."
+        },
+        {
+          "question": "The concept of 'governance' differs from 'government' because:",
+          "options": [
+            "Governance is only about the police",
+            "Governance includes the processes of decision-making beyond just formal institutions",
+            "Government is obsolete",
+            "Governance is only for private nonprofits"
+          ],
+          "correctAnswer": "Governance includes the processes of decision-making beyond just formal institutions",
+          "Help": "Governance is the broader system of steering society and coordinating resources."
+        },
+        {
+          "question": "When a policy is evaluated, the focus is on:",
+          "options": [
+            "Creating new legislation",
+            "Determining if the policy achieved its intended objectives",
+            "Increasing the salary of the policymakers",
+            "Finding ways to avoid the law"
+          ],
+          "correctAnswer": "Determining if the policy achieved its intended objectives",
+          "Help": "Evaluation determines whether a policy 'works' or needs adjustment."
+        },
+        {
+          "question": "What is the primary purpose of advocacy in public policy?",
+          "options": [
+            "To increase government spending indefinitely",
+            "To influence policy outcomes to reflect certain group interests",
+            "To replace the legislative branch of government",
+            "To provide funding for political campaigns only"
+          ],
+          "correctAnswer": "To influence policy outcomes to reflect certain group interests",
+          "Help": "Advocacy groups lobby for specific changes or perspectives."
+        },
+        {
+          "question": "Which of the following describes the relationship between innovation and change in the public sector?",
+          "options": [
+            "Innovation is unnecessary for government survival",
+            "Innovation fosters improvements in efficiency and service quality",
+            "Change occurs without the need for innovation",
+            "Public sectors are immune to change"
+          ],
+          "correctAnswer": "Innovation fosters improvements in efficiency and service quality",
+          "Help": "Innovation is the driver for solving modern governance challenges."
+        },
+        {
+          "question": "What does a 'legislative act' represent?",
+          "options": [
+            "An executive opinion",
+            "A formal law passed by a lawmaking body",
+            "A court order for a private business",
+            "A suggestion by the public"
+          ],
+          "correctAnswer": "A formal law passed by a lawmaking body",
+          "Help": "Laws are the formal products of the legislative process."
+        },
+        {
+          "question": "What is meant by 'civil engagement' in governance?",
+          "options": [
+            "Citizens paying taxes on time",
+            "The active participation of citizens in policy and community decisions",
+            "Government officials attending local parties",
+            "Mandatory voting by all citizens"
+          ],
+          "correctAnswer": "The active participation of citizens in policy and community decisions",
+          "Help": "Civil engagement is key to democratic legitimacy."
+        },
+        {
+          "question": "What is an 'executive order'?",
+          "options": [
+            "A law passed by congress",
+            "A directive from the head of the executive branch to agency officials",
+            "A judicial decision from a supreme court",
+            "An agreement between two private corporations"
+          ],
+          "correctAnswer": "A directive from the head of the executive branch to agency officials",
+          "Help": "Executive orders direct agency action within the scope of existing law."
+        },
+        {
+          "question": "Why is 'implementation' considered the most challenging part of policy?",
+          "options": [
+            "Because politicians usually stop caring",
+            "Because it involves complex logistics, resource allocation, and bureaucratic resistance",
+            "Because the public always agrees with new laws",
+            "Because agencies have unlimited resources"
+          ],
+          "correctAnswer": "Because it involves complex logistics, resource allocation, and bureaucratic resistance",
+          "Help": "Translating theory into practice often creates significant friction."
+        },
+        {
+          "question": "What is the primary source of common law?",
+          "options": [
+            "Statutes enacted by legislatures",
+            "Judicial precedents and previous court rulings",
+            "The administrative agencies",
+            "International commercial contracts"
+          ],
+          "correctAnswer": "Judicial precedents and previous court rulings",
+          "Help": "Common law evolves through historical legal decisions."
+        },
+        {
+          "question": "What does 'policy design' aim to minimize?",
+          "options": [
+            "Public involvement",
+            "Unintended negative consequences",
+            "The role of the judiciary",
+            "Budgetary constraints"
+          ],
+          "correctAnswer": "Unintended negative consequences",
+          "Help": "Effective design involves predicting outcomes to prevent failures."
+        },
+        {
+          "question": "Which of these is an example of an informal source of policy influence?",
+          "options": [
+            "The Constitution",
+            "Public opinion and media discourse",
+            "A specific legislative statute",
+            "A formal agency regulation"
+          ],
+          "correctAnswer": "Public opinion and media discourse",
+          "Help": "Informal influence comes from external societal pressures."
+        },
+        {
+          "question": "What is 'deregulation'?",
+          "options": [
+            "Increasing the number of government agencies",
+            "The reduction of government rules in a specific industry",
+            "A method to increase taxes",
+            "A legal process for suing the government"
+          ],
+          "correctAnswer": "The reduction of government rules in a specific industry",
+          "Help": "Deregulation is often argued to increase competition."
+        },
+        {
+          "question": "What is the main role of a 'think tank' in policy?",
+          "options": [
+            "To draft laws directly",
+            "To conduct research and provide policy analysis",
+            "To serve as a government agency",
+            "To adjudicate disputes"
+          ],
+          "correctAnswer": "To conduct research and provide policy analysis",
+          "Help": "Think tanks act as idea generators for policymakers."
+        },
+        {
+          "question": "Which phase follows 'Agenda Setting' in the policy lifecycle?",
+          "options": [
+            "Policy formulation",
+            "Evaluation",
+            "Implementation",
+            "Problem identification"
+          ],
+          "correctAnswer": "Policy formulation",
+          "Help": "Once an issue is on the agenda, options are drafted and debated."
+        },
+        {
+          "question": "What is 'bureaucracy'?",
+          "options": [
+            "An inefficient system of government only",
+            "The administrative structure designed to manage policy implementation",
+            "The elected members of the legislature",
+            "The judicial branch of government"
+          ],
+          "correctAnswer": "The administrative structure designed to manage policy implementation",
+          "Help": "Bureaucracies provide the specialized staff and processes for policy delivery."
+        },
+        {
+          "question": "What is 'judicial review'?",
+          "options": [
+            "The power of courts to examine the validity of laws/actions",
+            "The process of electing judges",
+            "The auditing of court financial records",
+            "A form of public policy advocacy"
+          ],
+          "correctAnswer": "The power of courts to examine the validity of laws/actions",
+          "Help": "Judicial review ensures laws comply with constitutional standards."
+        },
+        {
+          "question": "Policy 'neutrality' means:",
+          "options": [
+            "Public administrators avoid taking political sides",
+            "Public administrators ignore the law",
+            "Agencies should never perform services",
+            "Policies should be drafted by computers"
+          ],
+          "correctAnswer": "Public administrators avoid taking political sides",
+          "Help": "Neutral competence is a core principle of public administration."
+        },
+        {
+          "question": "Which of the following describes 'federalism'?",
+          "options": [
+            "Power concentrated in one individual",
+            "The sharing of power between national and state governments",
+            "A system without laws",
+            "Total control by local municipalities"
+          ],
+          "correctAnswer": "The sharing of power between national and state governments",
+          "Help": "Federalism is a hallmark of US governance structures."
+        },
+        {
+          "question": "What is an 'interest group'?",
+          "options": [
+            "A government agency",
+            "An organization seeking to influence policy favorable to its members",
+            "A political party seeking to win elections",
+            "A court of law"
+          ],
+          "correctAnswer": "An organization seeking to influence policy favorable to its members",
+          "Help": "Interest groups target specific issues to affect legislation."
+        },
+        {
+          "question": "A 'sunset clause' in legislation refers to:",
+          "options": [
+            "The time the law expires",
+            "A provision that automatically ends a law after a set time",
+            "A rule about the time of day meetings can occur",
+            "The retirement age of public officials"
+          ],
+          "correctAnswer": "A provision that automatically ends a law after a set time",
+          "Help": "Sunset clauses force a periodic review of laws."
+        },
+        {
+          "question": "What is 'accountability' in governance?",
+          "options": [
+            "The ability to make profit",
+            "The obligation to explain and justify one's actions",
+            "The right to remain silent",
+            "The power to fire elected officials"
+          ],
+          "correctAnswer": "The obligation to explain and justify one's actions",
+          "Help": "Accountability is the bedrock of democratic governance."
+        },
+        {
+          "question": "Which branch of government is typically responsible for implementing policy?",
+          "options": [
+            "Legislative",
+            "Judicial",
+            "Executive",
+            "The public"
+          ],
+          "correctAnswer": "Executive",
+          "Help": "The executive branch houses the departments that execute laws."
+        },
+        {
+          "question": "What is a 'policy window'?",
+          "options": [
+            "The time it takes to print a policy",
+            "An opportunity for policy change to occur",
+            "The physical office of a policymaker",
+            "A period of parliamentary recess"
+          ],
+          "correctAnswer": "An opportunity for policy change to occur",
+          "Help": "A window opens when political, problem, and policy streams align."
+        },
+        {
+          "question": "What is the role of the judiciary in policy?",
+          "options": [
+            "To suggest new laws to the public",
+            "To interpret and enforce the law",
+            "To set tax rates",
+            "To lobby the executive branch"
+          ],
+          "correctAnswer": "To interpret and enforce the law",
+          "Help": "The judiciary ensures laws are constitutional and properly applied."
+        },
+        {
+          "question": "What does 'stare decisis' mean?",
+          "options": [
+            "Stand by the decision (precedent)",
+            "The law is dead",
+            "Public policy is supreme",
+            "Administrative rules are final"
+          ],
+          "correctAnswer": "Stand by the decision (precedent)",
+          "Help": "This is the principle of following past legal decisions."
+        },
+        {
+          "question": "Which of these is a 'cost-benefit analysis' tool used for?",
+          "options": [
+            "To determine if a policy's benefits outweigh its costs",
+            "To calculate the tax liability of citizens",
+            "To decide which politician to hire",
+            "To plan a marketing strategy"
+          ],
+          "correctAnswer": "To determine if a policy's benefits outweigh its costs",
+          "Help": "This analysis provides a quantitative basis for policy decisions."
+        }
+      ]
+    },
+    {
+      "topic": "Communication",
+      "questions": [
+        {
+          "question": "What is a key requirement for effective written communication in the public sector?",
+          "options": [
+            "Using complex technical jargon",
+            "Clarity, accuracy, and appropriate tone",
+            "Writing as little as possible",
+            "Focusing solely on artistic expression"
+          ],
+          "correctAnswer": "Clarity, accuracy, and appropriate tone",
+          "Help": "Public sector documents must be accessible and professional."
+        },
+        {
+          "question": "When adapting a written proposal for a targeted audience, you should:",
+          "options": [
+            "Use the exact same template for every audience",
+            "Adjust the language and focus to suit the audience's interests",
+            "Avoid changing anything to remain objective",
+            "Increase the length to impress the reader"
+          ],
+          "correctAnswer": "Adjust the language and focus to suit the audience's interests",
+          "Help": "Audience awareness is critical for persuasion."
+        },
+        {
+          "question": "Which of these is a formal proposal structure?",
+          "options": [
+            "Introduction, Methodology, Results, Recommendations",
+            "Greeting, Story, Opinion, Closing",
+            "Data, Table, Picture, Signature",
+            "Title, Hyperlink, Social Media Handle"
+          ],
+          "correctAnswer": "Introduction, Methodology, Results, Recommendations",
+          "Help": "Proposals require a logical, persuasive flow."
+        },
+        {
+          "question": "Why is digital communication vital for modern public administration?",
+          "options": [
+            "It eliminates the need for any staff",
+            "It facilitates real-time engagement and transparency with the public",
+            "It allows agencies to avoid answering questions",
+            "It is significantly cheaper than paper without any security risks"
+          ],
+          "correctAnswer": "It facilitates real-time engagement and transparency with the public",
+          "Help": "Social media and websites are essential tools for government-citizen interaction."
+        },
+        {
+          "question": "In a formal public report, which style is preferred?",
+          "options": [
+            "Informal and chatty",
+            "Objective and professional",
+            "Highly emotional and persuasive",
+            "Filled with industry acronyms"
+          ],
+          "correctAnswer": "Objective and professional",
+          "Help": "Public records require a neutral, professional standard."
+        },
+        {
+          "question": "What is an executive summary?",
+          "options": [
+            "A lengthy appendix",
+            "A concise overview of a report's main findings",
+            "A letter to the executive of a company",
+            "The signature page of a contract"
+          ],
+          "correctAnswer": "A concise overview of a report's main findings",
+          "Help": "The executive summary allows busy decision-makers to grasp key points quickly."
+        },
+        {
+          "question": "What is the main risk of using social media in the public sector?",
+          "options": [
+            "The cost is too high",
+            "Potential for misinformation and lack of message control",
+            "No citizens use social media",
+            "It is not allowed by law"
+          ],
+          "correctAnswer": "Potential for misinformation and lack of message control",
+          "Help": "Social media requires strict management to prevent reputational damage."
+        },
+        {
+          "question": "When writing to a diverse audience, it is best to:",
+          "options": [
+            "Use complex academic vocabulary",
+            "Use inclusive and simple language",
+            "Use only local dialect",
+            "Translate everything into dead languages"
+          ],
+          "correctAnswer": "Use inclusive and simple language",
+          "Help": "Accessibility is a core tenet of public sector communication."
+        },
+        {
+          "question": "The purpose of a formal proposal is to:",
+          "options": [
+            "Request funds or approval for a project",
+            "Complain about existing services",
+            "Write a blog post",
+            "Summarize the daily calendar"
+          ],
+          "correctAnswer": "Request funds or approval for a project",
+          "Help": "Proposals must be persuasive and clearly structured."
+        },
+        {
+          "question": "What is the 'tone' of a document?",
+          "options": [
+            "The physical weight of the paper",
+            "The attitude and style conveyed by the writer",
+            "The grammar mistakes in the text",
+            "The font size used"
+          ],
+          "correctAnswer": "The attitude and style conveyed by the writer",
+          "Help": "Tone determines how the reader interprets the message."
+        }
+      ]
+    },
+    {
+      "topic": "Public Sector Fundamentals",
+      "questions": [
+        {
+          "question": "How does public administration differ from private sector management?",
+          "options": [
+            "Public administration is only for the police",
+            "Private management is driven by profit, while public administration is driven by public interest",
+            "Public administration has more money than the private sector",
+            "There is no difference"
+          ],
+          "correctAnswer": "Private management is driven by profit, while public administration is driven by public interest",
+          "Help": "The ultimate goal and motivation for the sectors are fundamentally different."
+        },
+        {
+          "question": "Which of these is a service typically provided by the public sector?",
+          "options": [
+            "Retail sales of clothing",
+            "National defense and public infrastructure",
+            "Consulting for private stock trading",
+            "Corporate marketing services"
+          ],
+          "correctAnswer": "National defense and public infrastructure",
+          "Help": "Government serves the collective good through essential services."
+        },
+        {
+          "question": "What is the primary relationship between government and business?",
+          "options": [
+            "Government should never regulate business",
+            "Business should take over all government functions",
+            "Government sets the framework (regulations) within which businesses operate",
+            "Business always dictates government policy"
+          ],
+          "correctAnswer": "Government sets the framework (regulations) within which businesses operate",
+          "Help": "Government provides the legal environment, while businesses thrive within it."
+        },
+        {
+          "question": "A non-profit organization is distinct from a government entity because:",
+          "options": [
+            "Non-profits cannot have employees",
+            "Non-profits are privately managed, while government entities are public institutions",
+            "Government entities cannot provide social services",
+            "Non-profits do not have a mission"
+          ],
+          "correctAnswer": "Non-profits are privately managed, while government entities are public institutions",
+          "Help": "Institutional structure and mandate define the difference."
+        },
+        {
+          "question": "What is the role of the public sector in society?",
+          "options": [
+            "To eliminate the private market",
+            "To promote social welfare and protect the rights of citizens",
+            "To maximize personal wealth of officials",
+            "To act as a monopoly on all goods"
+          ],
+          "correctAnswer": "To promote social welfare and protect the rights of citizens",
+          "Help": "Public sector serves the citizenry as a whole."
+        },
+        {
+          "question": "What is a 'public good'?",
+          "options": [
+            "A product that is only available to the wealthy",
+            "A good that is non-excludable and non-rivalrous",
+            "A luxury item sold by a store",
+            "A government-owned private business"
+          ],
+          "correctAnswer": "A good that is non-excludable and non-rivalrous",
+          "Help": "Public goods, like street lighting, benefit everyone."
+        },
+        {
+          "question": "Which term describes a private business's main incentive?",
+          "options": [
+            "Public service",
+            "Profit motive",
+            "Legislative mandate",
+            "Social equity"
+          ],
+          "correctAnswer": "Profit motive",
+          "Help": "Financial return is the primary driver for private firms."
+        },
+        {
+          "question": "What is a key constraint in public sector management that is less prevalent in private management?",
+          "options": [
+            "Need for speed",
+            "Rigid adherence to legal procedures and accountability",
+            "Freedom to pivot strategy daily",
+            "Focus on customer satisfaction only"
+          ],
+          "correctAnswer": "Rigid adherence to legal procedures and accountability",
+          "Help": "Due process is essential for governmental legitimacy."
+        },
+        {
+          "question": "What is an example of a service delivered by a non-profit?",
+          "options": [
+            "Providing a soup kitchen for the homeless",
+            "Printing money for the treasury",
+            "Operating a commercial airline",
+            "Regulating international trade"
+          ],
+          "correctAnswer": "Providing a soup kitchen for the homeless",
+          "Help": "Non-profits focus on social missions without profit-seeking."
+        },
+        {
+          "question": "What does 'public sector' specifically refer to?",
+          "options": [
+            "Publicly traded companies on the stock market",
+            "The parts of the economy controlled by the government",
+            "Retail stores in the town square",
+            "The media industry"
+          ],
+          "correctAnswer": "The parts of the economy controlled by the government",
+          "Help": "It refers to the governmental apparatus and agencies."
+        },
+        {
+          "question": "Why might a government intervene in a market?",
+          "options": [
+            "To make all businesses public",
+            "To correct for market failures like pollution",
+            "To ensure no profit is ever made",
+            "To decrease the tax burden on large corporations"
+          ],
+          "correctAnswer": "To correct for market failures like pollution",
+          "Help": "Externalities like pollution are common market failures that require regulation."
+        },
+        {
+          "question": "Which of these is a public service?",
+          "options": [
+            "A chain of coffee shops",
+            "Public education systems",
+            "Investment banking",
+            "Manufacturing of automobiles"
+          ],
+          "correctAnswer": "Public education systems",
+          "Help": "Education is a classic service provided by the state."
+        },
+        {
+          "question": "What is 'privatization'?",
+          "options": [
+            "Making a private firm public",
+            "Transferring government activities to the private sector",
+            "The act of hiding government records",
+            "Ignoring the needs of the public"
+          ],
+          "correctAnswer": "Transferring government activities to the private sector",
+          "Help": "Privatization is a common strategy to increase efficiency."
+        },
+        {
+          "question": "In the public sector, 'stakeholders' are:",
+          "options": [
+            "Only the shareholders of the firm",
+            "Anyone affected by the agency's actions",
+            "The employees only",
+            "The local police only"
+          ],
+          "correctAnswer": "Anyone affected by the agency's actions",
+          "Help": "Public administration has a broad range of stakeholders."
+        },
+        {
+          "question": "What distinguishes an elected official from a career administrator?",
+          "options": [
+            "Administrators are appointed and provide continuity; officials are elected to set policy",
+            "There is no difference in their roles",
+            "Officials do the actual work; administrators just talk",
+            "Administrators always make more money"
+          ],
+          "correctAnswer": "Administrators are appointed and provide continuity; officials are elected to set policy",
+          "Help": "The political-administrative dichotomy separates policy making from implementation."
+        }
+      ]
+    },
+    {
+      "topic": "Public Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of managerial planning?",
+          "options": [
+            "To micromanage employees",
+            "To define goals and determine the means to achieve them",
+            "To avoid all risk",
+            "To increase bureaucracy"
+          ],
+          "correctAnswer": "To define goals and determine the means to achieve them",
+          "Help": "Planning is the foundational management function."
+        },
+        {
+          "question": "What does 'organizing' entail in a management context?",
+          "options": [
+            "Firing low-performing staff",
+            "Structuring resources and activities to achieve goals",
+            "Writing the annual report",
+            "Planning for the next year"
+          ],
+          "correctAnswer": "Structuring resources and activities to achieve goals",
+          "Help": "Organizing is about the structure, workflow, and resource assignment."
+        },
+        {
+          "question": "What is the 'control process' in management?",
+          "options": [
+            "Monitoring performance and taking corrective action",
+            "Telling employees exactly what to do",
+            "Setting the budget for next year",
+            "Firing the employees who complain"
+          ],
+          "correctAnswer": "Monitoring performance and taking corrective action",
+          "Help": "Control ensures that activities align with original plans."
+        },
+        {
+          "question": "What is 'staffing' in public management?",
+          "options": [
+            "The process of hiring, training, and retaining employees",
+            "Determining the office layout",
+            "Ordering office supplies",
+            "Firing staff to save money"
+          ],
+          "correctAnswer": "The process of hiring, training, and retaining employees",
+          "Help": "Staffing focuses on building the workforce."
+        },
+        {
+          "question": "What does 'directing' involve?",
+          "options": [
+            "Creating spreadsheets",
+            "Leading, motivating, and guiding subordinates",
+            "Writing policy manuals",
+            "Creating the budget"
+          ],
+          "correctAnswer": "Leading, motivating, and guiding subordinates",
+          "Help": "Directing is the interpersonal aspect of management."
+        },
+        {
+          "question": "Which of these is a type of managerial control?",
+          "options": [
+            "Feedback, concurrent, and feedforward control",
+            "Horizontal, vertical, and diagonal control",
+            "Internal, external, and legal control",
+            "Financial, human, and social control"
+          ],
+          "correctAnswer": "Feedback, concurrent, and feedforward control",
+          "Help": "Controls occur before, during, and after a process."
+        },
+        {
+          "question": "Human Resources Management (HRM) in the public sector must prioritize:",
+          "options": [
+            "Favoritism in hiring",
+            "Merit-based hiring and equity",
+            "Ignoring employee complaints",
+            "Maximizing profit margins"
+          ],
+          "correctAnswer": "Merit-based hiring and equity",
+          "Help": "Merit systems are vital for fair public management."
+        },
+        {
+          "question": "Why is managerial planning essential in government?",
+          "options": [
+            "To spend money as quickly as possible",
+            "To ensure resource allocation aligns with strategic public needs",
+            "To create more work for employees",
+            "To satisfy media requests"
+          ],
+          "correctAnswer": "To ensure resource allocation aligns with strategic public needs",
+          "Help": "Good planning prevents waste of public resources."
+        },
+        {
+          "question": "When organizing, a manager must consider:",
+          "options": [
+            "Span of control and organizational structure",
+            "The personal hobbies of employees",
+            "The colors of the office furniture",
+            "The stock market price"
+          ],
+          "correctAnswer": "Span of control and organizational structure",
+          "Help": "Structure dictates how efficiently the organization operates."
+        },
+        {
+          "question": "What is a 'performance appraisal'?",
+          "options": [
+            "A test of an employee's musical ability",
+            "A periodic evaluation of an employee's job performance",
+            "A survey of the public",
+            "An audit of the office budget"
+          ],
+          "correctAnswer": "A periodic evaluation of an employee's job performance",
+          "Help": "Appraisals are standard tools for personnel development."
+        },
+        {
+          "question": "What is 'delegation' in management?",
+          "options": [
+            "Assigning authority and responsibility to others",
+            "Keeping all power at the top",
+            "Asking others to do your own job",
+            "Avoiding responsibility"
+          ],
+          "correctAnswer": "Assigning authority and responsibility to others",
+          "Help": "Delegation allows managers to focus on high-level strategy."
+        },
+        {
+          "question": "Which of these is a primary goal of staffing?",
+          "options": [
+            "Finding the right person for the right job",
+            "Hiring friends and family",
+            "Making sure everyone has the same title",
+            "Reducing staff to the bare minimum"
+          ],
+          "correctAnswer": "Finding the right person for the right job",
+          "Help": "Successful staffing matches skills to roles."
+        },
+        {
+          "question": "What is 'leadership' in public management?",
+          "options": [
+            "The same thing as being a manager",
+            "Influencing people to achieve group objectives",
+            "Having the highest pay in the department",
+            "Giving orders without discussion"
+          ],
+          "correctAnswer": "Influencing people to achieve group objectives",
+          "Help": "Leadership is more about influence than administrative authority."
+        },
+        {
+          "question": "What does a 'control system' help prevent?",
+          "options": [
+            "Innovation",
+            "Deviations from standards and goals",
+            "Effective communication",
+            "Employee happiness"
+          ],
+          "correctAnswer": "Deviations from standards and goals",
+          "Help": "Controls minimize risks and errors."
+        },
+        {
+          "question": "What is 'coordination' in management?",
+          "options": [
+            "Integrating activities across different departments",
+            "Writing the job description",
+            "Buying office equipment",
+            "Scheduling meetings"
+          ],
+          "correctAnswer": "Integrating activities across different departments",
+          "Help": "Coordination reduces silos and duplication of effort."
+        },
+        {
+          "question": "What is a 'span of control'?",
+          "options": [
+            "The number of hours a manager works",
+            "The number of subordinates managed by a supervisor",
+            "The distance between offices",
+            "The amount of the budget under control"
+          ],
+          "correctAnswer": "The number of subordinates managed by a supervisor",
+          "Help": "Span of control dictates managerial workload."
+        },
+        {
+          "question": "What is the primary motivation for 'training and development'?",
+          "options": [
+            "To use up the budget",
+            "To improve employee skills and productivity",
+            "To give employees time off",
+            "To comply with boring regulations"
+          ],
+          "correctAnswer": "To improve employee skills and productivity",
+          "Help": "Development is an investment in human capital."
+        },
+        {
+          "question": "Why are standard operating procedures (SOPs) common in public management?",
+          "options": [
+            "To make work interesting",
+            "To ensure consistency, accountability, and fairness",
+            "To limit the number of employees",
+            "To prevent the use of technology"
+          ],
+          "correctAnswer": "To ensure consistency, accountability, and fairness",
+          "Help": "SOPs minimize bias in public administration."
+        },
+        {
+          "question": "What is 'managerial ethics'?",
+          "options": [
+            "Following the law only when necessary",
+            "Applying moral principles to management decisions",
+            "Keeping information secret",
+            "Maximizing efficiency at all costs"
+          ],
+          "correctAnswer": "Applying moral principles to management decisions",
+          "Help": "Managers must act ethically, especially with public resources."
+        },
+        {
+          "question": "What is a 'work breakdown structure' (WBS)?",
+          "options": [
+            "A document that breaks an employee",
+            "A hierarchical decomposition of a project into tasks",
+            "A diagram of who gets fired",
+            "A list of the office rules"
+          ],
+          "correctAnswer": "A hierarchical decomposition of a project into tasks",
+          "Help": "The WBS helps in planning and project management."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics",
+      "questions": [
+        {
+          "question": "What is the meaning of 'public accountability'?",
+          "options": [
+            "The practice of paying taxes",
+            "The obligation of public officials to answer for their actions to the public",
+            "The secrecy required by the government",
+            "The process of creating new laws"
+          ],
+          "correctAnswer": "The obligation of public officials to answer for their actions to the public",
+          "Help": "Accountability ensures trust and honesty in government."
+        },
+        {
+          "question": "What is a 'conflict of interest' in the public sector?",
+          "options": [
+            "A disagreement between two employees",
+            "A situation where personal interests clash with professional duties",
+            "A fight between the legislature and the courts",
+            "An argument about a budget allocation"
+          ],
+          "correctAnswer": "A situation where personal interests clash with professional duties",
+          "Help": "Ethical behavior requires avoiding any such appearance of bias."
+        },
+        {
+          "question": "Why is ethics critical in the public sector?",
+          "options": [
+            "Because there is no law",
+            "Because officials manage public funds and serve the public good",
+            "Because it helps officials get promoted",
+            "Because it is a requirement for private profit"
+          ],
+          "correctAnswer": "Because officials manage public funds and serve the public good",
+          "Help": "Public trust is the foundation of effective government."
+        },
+        {
+          "question": "What does it mean to comply with the 'spirit and intent' of laws?",
+          "options": [
+            "Only following the letter of the law exactly",
+            "Following the underlying purpose and goal of the regulations",
+            "Ignoring the law if it is inconvenient",
+            "Rewriting the law to benefit oneself"
+          ],
+          "correctAnswer": "Following the underlying purpose and goal of the regulations",
+          "Help": "Strict letter-following can sometimes allow for loopholes that violate the intent."
+        },
+        {
+          "question": "What is a 'whistleblower'?",
+          "options": [
+            "Someone who reports illegal or unethical behavior",
+            "An official who speaks loudly",
+            "A person who creates the rules",
+            "A person who audits the budget"
+          ],
+          "correctAnswer": "Someone who reports illegal or unethical behavior",
+          "Help": "Whistleblowers protect the integrity of the institution."
+        },
+        {
+          "question": "Which of these is an example of an ethical violation?",
+          "options": [
+            "Using public equipment for personal business",
+            "Attending a professional training seminar",
+            "Working overtime to finish a project",
+            "Asking for clarification on a policy"
+          ],
+          "correctAnswer": "Using public equipment for personal business",
+          "Help": "Public resources must only be used for public purposes."
+        },
+        {
+          "question": "What is 'transparency' in ethics?",
+          "options": [
+            "Making decisions in secret",
+            "Being open and clear in processes and decision-making",
+            "Hiding the budget from citizens",
+            "Ignoring public feedback"
+          ],
+          "correctAnswer": "Being open and clear in processes and decision-making",
+          "Help": "Transparency allows citizens to hold officials accountable."
+        },
+        {
+          "question": "What should an employee do if they identify a conflict of interest?",
+          "options": [
+            "Keep it to themselves",
+            "Disclose it to the appropriate authority immediately",
+            "Ignore it if it seems small",
+            "Wait for a supervisor to notice it"
+          ],
+          "correctAnswer": "Disclose it to the appropriate authority immediately",
+          "Help": "Prompt disclosure is the ethical standard."
+        },
+        {
+          "question": "Why is 'impartiality' expected of public servants?",
+          "options": [
+            "To make their lives easier",
+            "To ensure equal and fair treatment of all citizens",
+            "To guarantee that the government makes no mistakes",
+            "To increase the speed of the hiring process"
+          ],
+          "correctAnswer": "To ensure equal and fair treatment of all citizens",
+          "Help": "Public servants must not favor one group over another."
+        },
+        {
+          "question": "What is 'nepotism'?",
+          "options": [
+            "The practice of hiring or promoting family members",
+            "The act of being very generous to charity",
+            "A technique for better management",
+            "A type of public policy"
+          ],
+          "correctAnswer": "The practice of hiring or promoting family members",
+          "Help": "Nepotism is a clear breach of ethical standards in merit-based systems."
+        }
+      ]
+    },
+    {
+      "topic": "Comprehensive Review",
+      "questions": [
+        {
+          "question": "Which area of the test has the highest number of questions?",
+          "options": [
+            "Public Finance",
+            "Public Policy and Governance",
+            "Ethics",
+            "Public Sector Fundamentals"
+          ],
+          "correctAnswer": "Public Policy and Governance",
+          "Help": "The composition guide specifies 30 items for Public Policy and Governance."
+        },
+        {
+          "question": "What is the primary document that guides the conduct of FBLA competitors?",
+          "options": [
+            "The local newspaper",
+            "The FBLA Code of Conduct and Honor Code",
+            "The corporate business code",
+            "The state constitution"
+          ],
+          "correctAnswer": "The FBLA Code of Conduct and Honor Code",
+          "Help": "Competitors are expected to adhere to these official FBLA guidelines."
+        },
+        {
+          "question": "What should a competitor do if they see an error in the test platform?",
+          "options": [
+            "Ignore it and move on",
+            "Flag it for review prior to finalization",
+            "Leave the test room immediately",
+            "Ask the person sitting next to them"
+          ],
+          "correctAnswer": "Flag it for review prior to finalization",
+          "Help": "Flagging questions is the standard procedure for test issues."
+        },
+        {
+          "question": "What is a 'tiebreaker' in the context of this test?",
+          "options": [
+            "A series of pre-selected questions used to rank tied scores",
+            "A physical contest between two competitors",
+            "An extra essay question",
+            "A random selection"
+          ],
+          "correctAnswer": "A series of pre-selected questions used to rank tied scores",
+          "Help": "Tiebreakers ensure a fair ranking process."
+        },
+        {
+          "question": "What happens if a competitor does not follow the Dress Code?",
+          "options": [
+            "They are ignored",
+            "Five penalty points are deducted",
+            "They are allowed to compete with no penalty",
+            "They are immediately banned from all future events"
+          ],
+          "correctAnswer": "Five penalty points are deducted",
+          "Help": "Dress code violations carry specific penalties as per the guidelines."
+        },
+        {
+          "question": "How long is the test?",
+          "options": [
+            "30 minutes",
+            "50 minutes",
+            "60 minutes",
+            "90 minutes"
+          ],
+          "correctAnswer": "50 minutes",
+          "Help": "The event administration rules state a 50-minute test duration."
+        },
+        {
+          "question": "What is the maximum number of entries recognized per event?",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "correctAnswer": "10",
+          "Help": "According to the recognition rules, 10 entries are awarded."
+        },
+        {
+          "question": "Are personal calculators allowed in the test?",
+          "options": [
+            "Yes, if they are scientific",
+            "No, only the online calculator is allowed",
+            "Yes, if approved by a teacher",
+            "No, calculators are banned entirely"
+          ],
+          "correctAnswer": "No, only the online calculator is allowed",
+          "Help": "Guidelines explicitly prohibit personal calculators."
+        },
+        {
+          "question": "What is the purpose of the 'Honor Code' in FBLA?",
+          "options": [
+            "To regulate the attire of students",
+            "To ensure the integrity and fairness of the competition",
+            "To provide a study guide for the test",
+            "To determine the location of the hotel"
+          ],
+          "correctAnswer": "To ensure the integrity and fairness of the competition",
+          "Help": "The Honor Code maintains the standard of competitive events."
+        },
+        {
+          "question": "What should a student do if they require an ADA accommodation?",
+          "options": [
+            "Ask their friend to help them",
+            "Submit the request through the registration system by the deadline",
+            "Show up to the test and ask for it on-site",
+            "Ignore it and hope for the best"
+          ],
+          "correctAnswer": "Submit the request through the registration system by the deadline",
+          "Help": "Accommodations must be processed in advance."
+        },
+        {
+          "question": "Which of the following is an example of 'Public Management'?",
+          "options": [
+            "Running a private shop",
+            "Managing human resources in a government agency",
+            "Voting in an election",
+            "Writing a blog post about politics"
+          ],
+          "correctAnswer": "Managing human resources in a government agency",
+          "Help": "Public management applies organizational principles to public sector bodies."
+        },
+        {
+          "question": "What is 'budgeting'?",
+          "options": [
+            "The process of planning income and expenses",
+            "A way to waste money",
+            "The method for electing officials",
+            "A strategy for marketing products"
+          ],
+          "correctAnswer": "The process of planning income and expenses",
+          "Help": "Budgeting is fundamental to both public and private finance."
+        },
+        {
+          "question": "Which of the following is true about tiebreakers?",
+          "options": [
+            "They are determined by the time of arrival",
+            "The number of correct responses to 10 pre-selected questions is used",
+            "There are no tiebreakers",
+            "The person who is the tallest wins"
+          ],
+          "correctAnswer": "The number of correct responses to 10 pre-selected questions is used",
+          "Help": "Tiebreakers use specific subsets of the test questions."
+        },
+        {
+          "question": "Where should questions about the test materials be directed?",
+          "options": [
+            "To the event staff on the day of the test",
+            "To the local FBLA adviser",
+            "To the national board directly",
+            "To social media"
+          ],
+          "correctAnswer": "To the local FBLA adviser",
+          "Help": "The guidelines state that students should contact their local adviser."
+        },
+        {
+          "question": "What happens if a competitor brings a smartphone to the testing site?",
+          "options": [
+            "They are allowed to keep it in their pocket",
+            "It must be turned off and stored away to avoid a violation",
+            "They must use it for the test",
+            "They get extra points"
+          ],
+          "correctAnswer": "It must be turned off and stored away to avoid a violation",
+          "Help": "Visible devices violate the FBLA Honor Code."
+        }
+      ]
+    }
+  ]
+}
