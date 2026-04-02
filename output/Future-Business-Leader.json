@@ -1,0 +1,1332 @@
+
+{
+  "testName": "Future Business Leader Competitive Event Exam",
+  "topics": [
+    {
+      "topic": "FBLA Organization & Core Principles",
+      "questions": [
+        {
+          "question": "Which of the following is NOT one of the FBLA-PBL goals?",
+          "options": [
+            "Develop competent, aggressive business leadership.",
+            "Encourage members in the development of individual projects that contribute to the improvement of home, business, and community.",
+            "Assist students in the establishment of occupational goals.",
+            "Promote an understanding of the American private enterprise system through lobbying efforts."
+          ],
+          "correctAnswer": "Promote an understanding of the American private enterprise system through lobbying efforts.",
+          "Help": "Recall the standard FBLA-PBL goals, specifically looking for activities not typically associated with student organizations."
+        },
+        {
+          "question": "What is the primary mission of FBLA?",
+          "options": [
+            "To provide financial aid for business students.",
+            "To bring business and education together in a positive working relationship.",
+            "To organize networking events for corporate executives.",
+            "To solely focus on technological advancements in business."
+          ],
+          "correctAnswer": "To bring business and education together in a positive working relationship.",
+          "Help": "Consider the core purpose and interaction FBLA aims to foster between two key sectors."
+        },
+        {
+          "question": "According to the FBLA Pledge, members promise to uphold the aims of FBLA-PBL and to:",
+          "options": [
+            "Exclusively pursue leadership roles in their local community.",
+            "Acquire the qualities of truthfulness and dependability.",
+            "Prioritize personal career advancement above all else.",
+            "Avoid participation in community service activities."
+          ],
+          "correctAnswer": "Acquire the qualities of truthfulness and dependability.",
+          "Help": "Recall the ethical and character-building aspects highlighted in the FBLA pledge."
+        },
+        {
+          "question": "Which FBLA competency area emphasizes understanding different cultures and global markets?",
+          "options": [
+            "Accounting Proficiency",
+            "International Business",
+            "Local Community Service",
+            "Information Technology Management"
+          ],
+          "correctAnswer": "International Business",
+          "Help": "Consider the business discipline that focuses on transactions and relationships across national borders."
+        },
+        {
+          "question": "The FBLA national organization provides access to information primarily through which platform?",
+          "options": [
+            "Social media channels only",
+            "www.fbla.org",
+            "Exclusive print newsletters",
+            "Regional chapter meetings"
+          ],
+          "correctAnswer": "www.fbla.org",
+          "Help": "The guidelines explicitly state where to visit for FBLA information."
+        },
+        {
+          "question": "Which of the following describes the general purpose of FBLA National Publications?",
+          "options": [
+            "To provide a forum for political debate.",
+            "To inform members about FBLA news, opportunities, and competitive event updates.",
+            "To publish academic research papers exclusively.",
+            "To serve as a directory for business internships."
+          ],
+          "correctAnswer": "To inform members about FBLA news, opportunities, and competitive event updates.",
+          "Help": "Consider the communication role of publications within a student organization."
+        },
+        {
+          "question": "What is the educational alignment 'Career Cluster Framework Connection' for the Future Business Leader event?",
+          "options": [
+            "Arts, Audio/Video Technology, and Communications",
+            "Information Technology",
+            "Finance",
+            "Management & Entrepreneurship"
+          ],
+          "correctAnswer": "Management & Entrepreneurship",
+          "Help": "Refer to the 'Educational Alignments' section for the specified framework connection."
+        },
+        {
+          "question": "Which NACE Competency is NOT aligned with the Future Business Leader event?",
+          "options": [
+            "Critical Thinking",
+            "Teamwork & Collaboration",
+            "Professionalism",
+            "Communication"
+          ],
+          "correctAnswer": "Teamwork & Collaboration",
+          "Help": "Review the 'NACE Competency Alignment' list to identify the one not mentioned."
+        },
+        {
+          "question": "A key aspect of FBLA's commitment is to prepare students for success in:",
+          "options": [
+            "Scientific research only.",
+            "Business and leadership roles.",
+            "Professional athletics.",
+            "Culinary arts."
+          ],
+          "correctAnswer": "Business and leadership roles.",
+          "Help": "The event description highlights the readiness FBLA aims to foster in its members."
+        },
+        {
+          "question": "FBLA is described as a 'premier event' recognizing members who exemplify leadership, business knowledge, and:",
+          "options": [
+            "Financial investment acumen.",
+            "Active involvement in the organization.",
+            "Technological innovation.",
+            "Public speaking skills."
+          ],
+          "correctAnswer": "Active involvement in the organization.",
+          "Help": "The introductory paragraph for 'Future Business Leader' outlines the key qualities recognized."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Event Guidelines - General",
+      "questions": [
+        {
+          "question": "What is the primary purpose of the FBLA Dress Code in competitive events?",
+          "options": [
+            "To promote specific fashion trends.",
+            "To ensure participants are comfortable during long events.",
+            "To establish a professional image and level playing field.",
+            "To differentiate between competitors and judges."
+          ],
+          "correctAnswer": "To establish a professional image and level playing field.",
+          "Help": "Consider the general objectives of a professional dress code in a competitive business environment."
+        },
+        {
+          "question": "Which document is NOT specifically listed as an 'Important FBLA Document' competitors should be familiar with?",
+          "options": [
+            "Competitive Events Policy & Procedures Manual",
+            "Honor Code",
+            "National Leadership Conference Program",
+            "Code of Conduct"
+          ],
+          "correctAnswer": "National Leadership Conference Program",
+          "Help": "Check the 'Important FBLA Documents' list for the documents explicitly mentioned."
+        },
+        {
+          "question": "Who is permitted to assist in planning, researching, preparing, and setting up presentations for an FBLA competitive event?",
+          "options": [
+            "Advisers and parents",
+            "Only registered competitors",
+            "Former FBLA national officers",
+            "Any FBLA member, regardless of registration"
+          ],
+          "correctAnswer": "Only registered competitors",
+          "Help": "The 'Competitor Responsibility' section clarifies who may assist."
+        },
+        {
+          "question": "To be eligible for an award at the National Leadership Conference, each competitor must:",
+          "options": [
+            "Only participate in the objective test.",
+            "Complete all components of the event.",
+            "Secure a recommendation from their adviser.",
+            "Be a top-performing member for at least two years."
+          ],
+          "correctAnswer": "Complete all components of the event.",
+          "Help": "The 'Participation Requirement' section states what is necessary for award eligibility."
+        },
+        {
+          "question": "What is an acceptable form of photo identification for FBLA event check-in?",
+          "options": [
+            "A library card",
+            "A school ID",
+            "A personal business card",
+            "A birth certificate"
+          ],
+          "correctAnswer": "A school ID",
+          "Help": "The 'Identification at Check-in' section lists acceptable forms of ID."
+        },
+        {
+          "question": "If judges have left the competitive event area, what is the consequence for a late arrival?",
+          "options": [
+            "Competitor will be rescheduled with no penalty.",
+            "Competitor may still compete with a 5-point penalty.",
+            "It is no longer possible to compete.",
+            "The event will be paused until the competitor arrives."
+          ],
+          "correctAnswer": "It is no longer possible to compete.",
+          "Help": "The 'Late Arrivals' section clarifies the situation if judges have departed."
+        },
+        {
+          "question": "When are accommodation requests for disabilities typically submitted?",
+          "options": [
+            "On the day of the event.",
+            "Through email to the National President.",
+            "Through the conference registration system by the official deadline.",
+            "Verbally to event staff."
+          ],
+          "correctAnswer": "Through the conference registration system by the official deadline.",
+          "Help": "The 'Americans with Disabilities Act (ADA)' section describes the submission process."
+        },
+        {
+          "question": "Who reserves the right to record presentations for educational, training, or archival purposes?",
+          "options": [
+            "Competitors' advisers.",
+            "Conference attendees.",
+            "FBLA.",
+            "Independent media outlets."
+          ],
+          "correctAnswer": "FBLA.",
+          "Help": "The 'Recording of Presentations' section specifies who holds the right to record."
+        },
+        {
+          "question": "Unauthorized audio or video recording in competitive events is:",
+          "options": [
+            "Allowed with prior notification.",
+            "Permitted for personal use only.",
+            "Strictly prohibited.",
+            "Subject to review by event staff."
+          ],
+          "correctAnswer": "Strictly prohibited.",
+          "Help": "The 'Recording of Presentations' section clearly states the policy on unauthorized recording."
+        },
+        {
+          "question": "Which FBLA document addresses expectations for competitor behavior and integrity?",
+          "options": [
+            "FBLA Production Test Reference Guide",
+            "Competitive Events Policy & Procedures Manual",
+            "NLC Host City Guide",
+            "Conference Registration Form"
+          ],
+          "correctAnswer": "Competitive Events Policy & Procedures Manual",
+          "Help": "Consider which document would detail policies and procedures related to competition conduct."
+        },
+        {
+          "question": "FBLA national membership dues must be paid by what time and date to participate at the NLC?",
+          "options": [
+            "11:59 p.m. Eastern Time on February 1 of the current school year.",
+            "11:59 p.m. Eastern Time on March 1 of the current school year.",
+            "11:59 p.m. Central Time on March 15 of the current school year.",
+            "11:59 p.m. Pacific Time on April 1 of the current school year."
+          ],
+          "correctAnswer": "11:59 p.m. Eastern Time on March 1 of the current school year.",
+          "Help": "The 'Membership Deadline' section specifies the exact date and time."
+        },
+        {
+          "question": "To be eligible to compete at the NLC, competitors must stay within the official FBLA:",
+          "options": [
+            "Housing block.",
+            "Designated transportation zone.",
+            "Conference dining area.",
+            "State delegation seating."
+          ],
+          "correctAnswer": "Housing block.",
+          "Help": "The 'Official Hotel Requirement' details this eligibility criterion."
+        },
+        {
+          "question": "How many entries per event may each state submit to the NLC?",
+          "options": [
+            "Up to two entries.",
+            "Up to three entries.",
+            "Up to four entries.",
+            "Unlimited entries."
+          ],
+          "correctAnswer": "Up to four entries.",
+          "Help": "The 'State Entry Limits' section provides this specific number."
+        },
+        {
+          "question": "What is the penalty for late arrivals in any competitive event?",
+          "options": [
+            "Disqualification",
+            "A warning",
+            "Five penalty points",
+            "Ten penalty points"
+          ],
+          "correctAnswer": "Five penalty points",
+          "Help": "The 'Late Arrivals' section mentions the specific penalty points assessed."
+        },
+        {
+          "question": "What local time zone are all NLC schedules posted in?",
+          "options": [
+            "Eastern Time",
+            "Central Time",
+            "Pacific Time",
+            "Local time for the NLC host city"
+          ],
+          "correctAnswer": "Local time for the NLC host city",
+          "Help": "The 'Event Schedule Notes' section specifies the time zone for posted schedules."
+        }
+      ]
+    },
+    {
+      "topic": "Future Business Leader Event - Specifics",
+      "questions": [
+        {
+          "question": "The Future Business Leader event is classified under which FBLA 'Event Category'?",
+          "options": [
+            "Objective Test",
+            "Team Event",
+            "Presentation",
+            "Skill Event"
+          ],
+          "correctAnswer": "Presentation",
+          "Help": "The 'Event Overview' section specifies the event category."
+        },
+        {
+          "question": "Which of the following is NOT an 'Event Element' for the Future Business Leader competition?",
+          "options": [
+            "Pre-judged Asset",
+            "Objective Test",
+            "Debate Session",
+            "Presentation"
+          ],
+          "correctAnswer": "Debate Session",
+          "Help": "Review the 'Event Elements' listed in the 'Event Overview' for this specific event."
+        },
+        {
+          "question": "Competitors in the Future Business Leader event are evaluated through pre-judged assets, an objective test, and what other component?",
+          "options": [
+            "A written report",
+            "A business simulation",
+            "A presentation (interview)",
+            "A group collaboration task"
+          ],
+          "correctAnswer": "A presentation (interview)",
+          "Help": "The introductory paragraph and 'Event Elements' clearly list the components."
+        },
+        {
+          "question": "The objective test for Future Business Leader consists of how many multiple-choice questions?",
+          "options": [
+            "50 questions",
+            "75 questions",
+            "100 questions",
+            "120 questions"
+          ],
+          "correctAnswer": "100 questions",
+          "Help": "The 'Objective Test' details section specifies the number of questions."
+        },
+        {
+          "question": "What is the duration for the objective test in the Future Business Leader event?",
+          "options": [
+            "30 minutes",
+            "45 minutes",
+            "50 minutes",
+            "60 minutes"
+          ],
+          "correctAnswer": "50 minutes",
+          "Help": "The 'Test Duration' section clearly states the time limit."
+        },
+        {
+          "question": "Who must the cover letter for the pre-judged asset be addressed to?",
+          "options": [
+            "The NLC Event Coordinator",
+            "The competitor's adviser",
+            "Jennifer Woods, President and CEO, Future Business Leaders of America",
+            "The State Leader for FBLA"
+          ],
+          "correctAnswer": "Jennifer Woods, President and CEO, Future Business Leaders of America",
+          "Help": "The 'Cover Letter Specifics' explicitly states the recipient and address."
+        },
+        {
+          "question": "What is the maximum length permitted for the cover letter in the pre-judged asset?",
+          "options": [
+            "One page",
+            "Two pages",
+            "Three pages",
+            "No specific limit"
+          ],
+          "correctAnswer": "One page",
+          "Help": "The 'Cover Letter Specifics' section outlines the length requirement."
+        },
+        {
+          "question": "Which item is NOT permitted on the resume for the pre-judged asset?",
+          "options": [
+            "Education details",
+            "Work experience",
+            "Photographs",
+            "FBLA involvement"
+          ],
+          "correctAnswer": "Photographs",
+          "Help": "The 'Resume Specifics' clearly states this restriction."
+        },
+        {
+          "question": "What is the maximum length permitted for the resume in the pre-judged asset?",
+          "options": [
+            "One page",
+            "Two pages",
+            "Three pages",
+            "No specific limit"
+          ],
+          "correctAnswer": "Two pages",
+          "Help": "The 'Resume Specifics' section specifies the length limit."
+        },
+        {
+          "question": "For the pre-judged assets, what file format must the cover letter and resume be uploaded in?",
+          "options": [
+            "Microsoft Word (.docx)",
+            "Plain Text (.txt)",
+            "PDF",
+            "JPEG (.jpg)"
+          ],
+          "correctAnswer": "PDF",
+          "Help": "The 'Pre-judged Asset Details' section specifies the required submission format."
+        },
+        {
+          "question": "When are the pre-judged assets scored?",
+          "options": [
+            "During the preliminary presentation round.",
+            "After the objective test.",
+            "Prior to the National Leadership Conference (NLC).",
+            "After the final presentation round."
+          ],
+          "correctAnswer": "Prior to the National Leadership Conference (NLC).",
+          "Help": "The 'Judging & Ownership' section clarifies when assets are judged."
+        },
+        {
+          "question": "What happens to submitted pre-judged assets after judging?",
+          "options": [
+            "They are returned to competitors with feedback.",
+            "They become the property of FBLA and may be used for promotional purposes.",
+            "They are permanently deleted from the system.",
+            "They are sent to potential employers for review."
+          ],
+          "correctAnswer": "They become the property of FBLA and may be used for promotional purposes.",
+          "Help": "The 'Judging & Ownership' section describes the ownership and use of submitted assets."
+        },
+        {
+          "question": "Are competitors allowed to bring reference or study materials to the objective testing site?",
+          "options": [
+            "Yes, if they are printed materials.",
+            "Yes, if they are digital materials on a device.",
+            "No, reference or study materials are not permitted.",
+            "Only FBLA-approved study guides are allowed."
+          ],
+          "correctAnswer": "No, reference or study materials are not permitted.",
+          "Help": "The 'Materials' section under 'Objective Test' clearly states the policy."
+        },
+        {
+          "question": "What is the policy regarding electronic devices like cell phones and smart watches during the objective test?",
+          "options": [
+            "They must be on silent mode.",
+            "They are permitted if used only for timekeeping.",
+            "They must be powered off prior to the start of the competition.",
+            "They can be used if they remain in a bag."
+          ],
+          "correctAnswer": "They must be powered off prior to the start of the competition.",
+          "Help": "The 'Electronic Devices' section details the requirement for these devices."
+        },
+        {
+          "question": "Are personal calculators allowed during the objective test?",
+          "options": [
+            "Yes, any scientific calculator is permitted.",
+            "Yes, but only basic four-function calculators.",
+            "No, personal calculators are not allowed; an online calculator will be available.",
+            "Only graphing calculators are allowed."
+          ],
+          "correctAnswer": "No, personal calculators are not allowed; an online calculator will be available.",
+          "Help": "The 'Calculators' section specifies the calculator policy."
+        },
+        {
+          "question": "How long is the presentation component (excluding set-up and Q&A) in both the preliminary and final rounds?",
+          "options": [
+            "5 minutes",
+            "8 minutes",
+            "10 minutes",
+            "12 minutes"
+          ],
+          "correctAnswer": "10 minutes",
+          "Help": "The 'Timing Structure' for both preliminary and final presentations states the duration."
+        },
+        {
+          "question": "Is internet access provided for competitors during the preliminary and final presentations?",
+          "options": [
+            "Yes, Wi-Fi is available.",
+            "Only for presenters using a laptop.",
+            "No, internet access is not provided.",
+            "It is available upon request."
+          ],
+          "correctAnswer": "No, internet access is not provided.",
+          "Help": "The 'Technology Guidelines' for presentations clearly states this."
+        },
+        {
+          "question": "What is the policy regarding technology being brought to the interview presentations?",
+          "options": [
+            "Laptops and tablets are allowed.",
+            "Smartphones are allowed for visual aids.",
+            "No technology may be brought to the interview.",
+            "Only projectors are permitted."
+          ],
+          "correctAnswer": "No technology may be brought to the interview.",
+          "Help": "The 'Technology Guidelines' for presentations explicitly states this rule."
+        },
+        {
+          "question": "Can competitors leave materials with the judges after their presentation?",
+          "options": [
+            "Yes, up to two pages of handouts.",
+            "Yes, if it's a single business card.",
+            "No items may be left with the judges.",
+            "Only if requested by the judges."
+          ],
+          "correctAnswer": "No items may be left with the judges.",
+          "Help": "The 'Non-Technology Items' section for presentations clarifies this."
+        },
+        {
+          "question": "If there are 4 preliminary sections, how many top-scoring competitors from each section advance to the final round?",
+          "options": [
+            "Top 6",
+            "Top 4",
+            "Top 3",
+            "Top 2"
+          ],
+          "correctAnswer": "Top 3",
+          "Help": "The 'Advancement to Finals' section provides the specific numbers based on sections."
+        },
+        {
+          "question": "Which scores are added together to determine which competitors advance to the final round?",
+          "options": [
+            "Objective test and final presentation scores.",
+            "Pre-judged asset, objective test, and preliminary presentation scores.",
+            "Only the preliminary presentation score.",
+            "Pre-judged asset and final presentation scores."
+          ],
+          "correctAnswer": "Pre-judged asset, objective test, and preliminary presentation scores.",
+          "Help": "The 'Scoring' section describes how advancement to finals is determined."
+        },
+        {
+          "question": "What is used to break a tie in the Future Business Leader event?",
+          "options": [
+            "Objective test score",
+            "Final presentation score",
+            "Pre-judged asset score",
+            "Coin toss"
+          ],
+          "correctAnswer": "Pre-judged asset score",
+          "Help": "The 'Scoring' section specifies the tie-breaking method."
+        },
+        {
+          "question": "How many penalty points are assessed if competitors do not follow the Dress Code?",
+          "options": [
+            "0 points",
+            "5 points",
+            "10 points",
+            "Disqualification"
+          ],
+          "correctAnswer": "5 points",
+          "Help": "The 'Penalty Points' section explicitly states the deduction for Dress Code violations."
+        },
+        {
+          "question": "What is the maximum number of entries (individuals or teams) that may be recognized per event?",
+          "options": [
+            "5 entries",
+            "10 entries",
+            "15 entries",
+            "20 entries"
+          ],
+          "correctAnswer": "10 entries",
+          "Help": "The 'Recognition' section specifies the maximum number of recognized entries."
+        },
+        {
+          "question": "If a member places in the top 10 of the Future Business Leader event at the NLC, are they eligible to compete in that event at future NLCs?",
+          "options": [
+            "Yes, always.",
+            "No, unless the event has been modified beyond a name change.",
+            "Only if they compete with a new team.",
+            "Only if they switch divisions."
+          ],
+          "correctAnswer": "No, unless the event has been modified beyond a name change.",
+          "Help": "The 'Repeat Competitors' section details this specific eligibility rule."
+        },
+        {
+          "question": "The Future Business Leader event is an individual event for which FBLA division?",
+          "options": [
+            "Middle Level",
+            "High School",
+            "Collegiate",
+            "Professional"
+          ],
+          "correctAnswer": "High School",
+          "Help": "The 'Event Overview' section clearly states the division."
+        },
+        {
+          "question": "The pre-judged asset cover letter should clearly state why the competitor is deserving of:",
+          "options": [
+            "A scholarship.",
+            "This award.",
+            "An internship.",
+            "A leadership position."
+          ],
+          "correctAnswer": "This award.",
+          "Help": "The 'Cover Letter Specifics' details the purpose of the letter's content."
+        },
+        {
+          "question": "What must the pre-judged assets be formatted to fit?",
+          "options": [
+            "A4 paper size",
+            "Standard 8.5” x 11” paper",
+            "Legal paper size",
+            "Custom digital display"
+          ],
+          "correctAnswer": "Standard 8.5” x 11” paper",
+          "Help": "The 'Asset Requirements' section specifies the paper format."
+        },
+        {
+          "question": "The assets do NOT need to follow which FBLA guide?",
+          "options": [
+            "Competitive Events Policy & Procedures Manual",
+            "Honor Code",
+            "FBLA Production Test Reference Guide",
+            "Code of Conduct"
+          ],
+          "correctAnswer": "FBLA Production Test Reference Guide",
+          "Help": "The 'Asset Requirements' section explicitly states this exception."
+        },
+        {
+          "question": "Who determines if participation in a late arrival scenario would impact the fairness and integrity of the event?",
+          "options": [
+            "The competitor's adviser",
+            "The NLC President",
+            "Competitive Events staff",
+            "The judges panel"
+          ],
+          "correctAnswer": "Competitive Events staff",
+          "Help": "The 'Late Arrivals' section indicates who makes this determination."
+        }
+      ]
+    },
+    {
+      "topic": "General Business - Accounting & Banking",
+      "questions": [
+        {
+          "question": "Which financial statement reports a company's assets, liabilities, and equity at a specific point in time?",
+          "options": [
+            "Income Statement",
+            "Statement of Cash Flows",
+            "Balance Sheet",
+            "Statement of Retained Earnings"
+          ],
+          "correctAnswer": "Balance Sheet",
+          "Help": "Recall the purpose of each main financial statement."
+        },
+        {
+          "question": "What is the accounting equation?",
+          "options": [
+            "Revenue - Expenses = Net Income",
+            "Assets = Liabilities - Equity",
+            "Assets = Liabilities + Equity",
+            "Current Assets - Current Liabilities = Working Capital"
+          ],
+          "correctAnswer": "Assets = Liabilities + Equity",
+          "Help": "This is a fundamental principle of double-entry accounting."
+        },
+        {
+          "question": "Which of the following would be classified as a current asset?",
+          "options": [
+            "Buildings",
+            "Equipment",
+            "Accounts Receivable",
+            "Long-term Debt"
+          ],
+          "correctAnswer": "Accounts Receivable",
+          "Help": "Current assets are expected to be converted to cash within one year."
+        },
+        {
+          "question": "What is the primary function of a commercial bank?",
+          "options": [
+            "Issuing government bonds.",
+            "Providing investment banking services to large corporations.",
+            "Accepting deposits and making loans to individuals and businesses.",
+            "Regulating the stock market."
+          ],
+          "correctAnswer": "Accepting deposits and making loans to individuals and businesses.",
+          "Help": "Consider the core activities of a typical high-street bank."
+        },
+        {
+          "question": "A certificate of deposit (CD) is a type of savings account that:",
+          "options": [
+            "Allows unlimited withdrawals without penalty.",
+            "Pays a fixed interest rate for a specified period, with penalties for early withdrawal.",
+            "Fluctuates daily with the stock market.",
+            "Is primarily used for day-to-day transactions."
+          ],
+          "correctAnswer": "Pays a fixed interest rate for a specified period, with penalties for early withdrawal.",
+          "Help": "Recall the characteristics of a CD, known for its fixed terms and interest."
+        },
+        {
+          "question": "What does ROI stand for in a business context?",
+          "options": [
+            "Rate of Interest",
+            "Return on Investment",
+            "Revenue of Income",
+            "Risk of Insolvency"
+          ],
+          "correctAnswer": "Return on Investment",
+          "Help": "This is a common acronym used to evaluate the efficiency of an investment."
+        },
+        {
+          "question": "The process of recording financial transactions, summarizing them, and then presenting them in financial statements is known as:",
+          "options": [
+            "Auditing",
+            "Bookkeeping",
+            "Financial forecasting",
+            "Budgeting"
+          ],
+          "correctAnswer": "Bookkeeping",
+          "Help": "Consider the initial systematic recording of financial data."
+        },
+        {
+          "question": "What is the term for the price paid for the use of borrowed money?",
+          "options": [
+            "Dividend",
+            "Principal",
+            "Interest",
+            "Premium"
+          ],
+          "correctAnswer": "Interest",
+          "Help": "This is the cost associated with taking out a loan or earning on deposits."
+        },
+        {
+          "question": "Which entity is responsible for monetary policy in the United States?",
+          "options": [
+            "The U.S. Treasury Department",
+            "The Federal Reserve System",
+            "The Securities and Exchange Commission (SEC)",
+            "The Internal Revenue Service (IRS)"
+          ],
+          "correctAnswer": "The Federal Reserve System",
+          "Help": "Recall the central banking system of the U.S. and its role in controlling money supply."
+        }
+      ]
+    },
+    {
+      "topic": "General Business - Law & Entrepreneurship",
+      "questions": [
+        {
+          "question": "What is the legal concept that protects original works of authorship, such as books, music, and software?",
+          "options": [
+            "Trademark",
+            "Patent",
+            "Copyright",
+            "Trade Secret"
+          ],
+          "correctAnswer": "Copyright",
+          "Help": "Consider the type of intellectual property protection for creative expressions."
+        },
+        {
+          "question": "A legally binding agreement between two or more parties is known as a:",
+          "options": [
+            "Negotiation",
+            "Proposal",
+            "Contract",
+            "Memorandum"
+          ],
+          "correctAnswer": "Contract",
+          "Help": "This term refers to an enforceable promise or set of promises."
+        },
+        {
+          "question": "Which type of business ownership provides the owner with complete control but also unlimited personal liability?",
+          "options": [
+            "Corporation",
+            "Limited Liability Company (LLC)",
+            "Partnership",
+            "Sole Proprietorship"
+          ],
+          "correctAnswer": "Sole Proprietorship",
+          "Help": "Consider the structure where the business and owner are legally indistinguishable."
+        },
+        {
+          "question": "What is the primary purpose of a business plan for an entrepreneur?",
+          "options": [
+            "To document historical financial performance.",
+            "To outline the business's goals, strategies, and financial projections.",
+            "To serve as a marketing brochure.",
+            "To replace the need for market research."
+          ],
+          "correctAnswer": "To outline the business's goals, strategies, and financial projections.",
+          "Help": "A business plan is a foundational document for guiding a new venture."
+        },
+        {
+          "question": "The willingness to take on new ventures, often involving risk, with the aim of profiting from new opportunities is called:",
+          "options": [
+            "Management",
+            "Speculation",
+            "Entrepreneurship",
+            "Investment"
+          ],
+          "correctAnswer": "Entrepreneurship",
+          "Help": "This term describes the act of creating and running a new business."
+        },
+        {
+          "question": "What is a 'patent' designed to protect?",
+          "options": [
+            "Company logos and brand names.",
+            "Inventions and new processes.",
+            "Literary and artistic works.",
+            "Confidential business information."
+          ],
+          "correctAnswer": "Inventions and new processes.",
+          "Help": "Recall the type of intellectual property specifically for innovative creations."
+        },
+        {
+          "question": "In business law, 'breach of contract' occurs when:",
+          "options": [
+            "A contract is verbally agreed upon.",
+            "One party fails to fulfill their obligations as specified in the contract.",
+            "Both parties decide to amend the contract.",
+            "A contract is signed by both parties."
+          ],
+          "correctAnswer": "One party fails to fulfill their obligations as specified in the contract.",
+          "Help": "Consider what constitutes a violation of the terms of a legal agreement."
+        },
+        {
+          "question": "What is the main advantage of incorporating a business (forming a corporation)?",
+          "options": [
+            "Simplicity of setup and minimal paperwork.",
+            "Unlimited personal liability for owners.",
+            "Limited liability for owners.",
+            "Direct personal control over all business decisions."
+          ],
+          "correctAnswer": "Limited liability for owners.",
+          "Help": "This legal structure separates the business's liabilities from the owners' personal assets."
+        },
+        {
+          "question": "What is 'seed funding' in entrepreneurship?",
+          "options": [
+            "Large-scale public investment.",
+            "Early-stage capital used to get a startup off the ground.",
+            "Government grants for established businesses.",
+            "Loans from commercial banks for expansion."
+          ],
+          "correctAnswer": "Early-stage capital used to get a startup off the ground.",
+          "Help": "Consider the initial capital infusion for a very new business."
+        }
+      ]
+    },
+    {
+      "topic": "General Business - Marketing & International Business",
+      "questions": [
+        {
+          "question": "Which of the '4 P's of Marketing' refers to the methods used to make a product or service available to customers?",
+          "options": [
+            "Product",
+            "Price",
+            "Promotion",
+            "Place"
+          ],
+          "correctAnswer": "Place",
+          "Help": "This element deals with distribution channels and accessibility."
+        },
+        {
+          "question": "What is 'market segmentation'?",
+          "options": [
+            "Dividing a market into distinct groups of buyers with different needs or characteristics.",
+            "Creating a new product category.",
+            "Setting the price for a product.",
+            "Developing a promotional campaign."
+          ],
+          "correctAnswer": "Dividing a market into distinct groups of buyers with different needs or characteristics.",
+          "Help": "This strategy involves tailoring marketing efforts to specific consumer groups."
+        },
+        {
+          "question": "Which of the following best describes 'branding'?",
+          "options": [
+            "The physical location where a product is sold.",
+            "The process of creating a distinctive name, symbol, or design that identifies and differentiates a product.",
+            "The cost of manufacturing a product.",
+            "The advertising budget for a campaign."
+          ],
+          "correctAnswer": "The process of creating a distinctive name, symbol, or design that identifies and differentiates a product.",
+          "Help": "Branding aims to create a unique identity and perception in the market."
+        },
+        {
+          "question": "A 'tariff' in international business refers to:",
+          "options": [
+            "A quota on imported goods.",
+            "A tax imposed on imported goods and services.",
+            "A subsidy for exported goods.",
+            "An agreement to reduce trade barriers."
+          ],
+          "correctAnswer": "A tax imposed on imported goods and services.",
+          "Help": "Tariffs are a common tool for governments to influence international trade."
+        },
+        {
+          "question": "What is the primary benefit of 'free trade' among countries?",
+          "options": [
+            "Increased government control over industries.",
+            "Higher tariffs to protect domestic industries.",
+            "Increased economic efficiency and lower prices for consumers.",
+            "Reduced competition for local businesses."
+          ],
+          "correctAnswer": "Increased economic efficiency and lower prices for consumers.",
+          "Help": "Free trade promotes specialization and competition, leading to broader economic advantages."
+        },
+        {
+          "question": "The 'exchange rate' refers to:",
+          "options": [
+            "The rate at which goods are traded between countries.",
+            "The value of one currency in relation to another.",
+            "The interest rate on international loans.",
+            "The cost of shipping goods across borders."
+          ],
+          "correctAnswer": "The value of one currency in relation to another.",
+          "Help": "This determines how much one currency is worth when converted to another."
+        },
+        {
+          "question": "Which marketing strategy involves using social media, search engines, and email to reach customers?",
+          "options": [
+            "Traditional marketing",
+            "Direct mail marketing",
+            "Digital marketing",
+            "Telemarketing"
+          ],
+          "correctAnswer": "Digital marketing",
+          "Help": "This encompasses all marketing efforts that use an electronic device or the internet."
+        },
+        {
+          "question": "What does a 'supply chain' primarily manage?",
+          "options": [
+            "Only the sale of finished products.",
+            "The flow of goods, services, and information from origin to consumption.",
+            "Only the manufacturing process.",
+            "Customer service interactions."
+          ],
+          "correctAnswer": "The flow of goods, services, and information from origin to consumption.",
+          "Help": "A supply chain is the entire network involved in producing and delivering a product."
+        },
+        {
+          "question": "Cultural differences can significantly impact international business by affecting:",
+          "options": [
+            "Only the legal structures of foreign companies.",
+            "Consumer preferences, communication styles, and business etiquette.",
+            "Only the physical infrastructure for logistics.",
+            "The universal pricing strategies across all markets."
+          ],
+          "correctAnswer": "Consumer preferences, communication styles, and business etiquette.",
+          "Help": "Culture influences many aspects of how business is conducted and perceived in different regions."
+        }
+      ]
+    },
+    {
+      "topic": "General Business - Management & Organizational Leadership",
+      "questions": [
+        {
+          "question": "Which management function involves setting goals and determining the best course of action to achieve them?",
+          "options": [
+            "Organizing",
+            "Leading",
+            "Controlling",
+            "Planning"
+          ],
+          "correctAnswer": "Planning",
+          "Help": "This function is about defining objectives and the strategies to reach them."
+        },
+        {
+          "question": "A 'flat organizational structure' is characterized by:",
+          "options": [
+            "Many layers of management and a narrow span of control.",
+            "Few or no levels of middle management between staff and executives.",
+            "Centralized decision-making at the top.",
+            "Rigid departmental silos."
+          ],
+          "correctAnswer": "Few or no levels of middle management between staff and executives.",
+          "Help": "This structure is designed to empower employees and improve communication."
+        },
+        {
+          "question": "Which leadership style involves the leader making decisions independently and communicating them to the team?",
+          "options": [
+            "Democratic",
+            "Laissez-faire",
+            "Autocratic",
+            "Transformational"
+          ],
+          "correctAnswer": "Autocratic",
+          "Help": "This style is characterized by a high degree of control from the leader."
+        },
+        {
+          "question": "What is 'delegation' in management?",
+          "options": [
+            "Taking full responsibility for all tasks.",
+            "Assigning authority to another person (normally from manager to subordinate) to carry out specific activities.",
+            "Refusing to assign tasks to others.",
+            "Performing all tasks personally."
+          ],
+          "correctAnswer": "Assigning authority to another person (normally from manager to subordinate) to carry out specific activities.",
+          "Help": "Delegation is a key skill for managers to effectively distribute workload and empower teams."
+        },
+        {
+          "question": "Which of the following is a primary function of Human Resources (HR)?",
+          "options": [
+            "Managing daily financial transactions.",
+            "Overseeing production lines.",
+            "Recruiting, training, and managing employees.",
+            "Developing marketing campaigns."
+          ],
+          "correctAnswer": "Recruiting, training, and managing employees.",
+          "Help": "HR departments focus on the people aspect of an organization."
+        },
+        {
+          "question": "What is 'organizational culture'?",
+          "options": [
+            "The physical layout of the office space.",
+            "The shared values, beliefs, and practices that guide an organization's members.",
+            "The formal hierarchy of an organization.",
+            "The legal framework governing employee rights."
+          ],
+          "correctAnswer": "The shared values, beliefs, and practices that guide an organization's members.",
+          "Help": "This refers to the unspoken rules and norms that shape behavior within a company."
+        },
+        {
+          "question": "Effective 'team building' in an organization typically aims to achieve which of the following?",
+          "options": [
+            "Increase individual competition among employees.",
+            "Improve communication, collaboration, and morale.",
+            "Reduce the need for management oversight.",
+            "Eliminate all workplace conflict."
+          ],
+          "correctAnswer": "Improve communication, collaboration, and morale.",
+          "Help": "Team building activities are designed to foster stronger working relationships and collective effectiveness."
+        },
+        {
+          "question": "Ethical leadership is primarily concerned with:",
+          "options": [
+            "Maximizing short-term profits at any cost.",
+            "Making decisions that align with moral principles and promote trust.",
+            "Avoiding all forms of risk.",
+            "Strict adherence to traditional business practices."
+          ],
+          "correctAnswer": "Making decisions that align with moral principles and promote trust.",
+          "Help": "Ethical leadership focuses on integrity and doing the right thing for all stakeholders."
+        },
+        {
+          "question": "What is a 'SWOT analysis' used for in strategic management?",
+          "options": [
+            "To evaluate employee performance.",
+            "To identify internal Strengths and Weaknesses, and external Opportunities and Threats.",
+            "To calculate financial ratios.",
+            "To design new product features."
+          ],
+          "correctAnswer": "To identify internal Strengths and Weaknesses, and external Opportunities and Threats.",
+          "Help": "This tool is used for strategic planning to understand a company's position."
+        }
+      ]
+    },
+    {
+      "topic": "General Technology - Information Technology & Cybersecurity",
+      "questions": [
+        {
+          "question": "Which component of a computer is responsible for executing instructions and performing calculations?",
+          "options": [
+            "Hard Drive",
+            "Random Access Memory (RAM)",
+            "Central Processing Unit (CPU)",
+            "Graphics Processing Unit (GPU)"
+          ],
+          "correctAnswer": "Central Processing Unit (CPU)",
+          "Help": "The CPU is often called the 'brain' of the computer."
+        },
+        {
+          "question": "What is the primary function of an operating system?",
+          "options": [
+            "To provide internet access.",
+            "To manage computer hardware and software resources.",
+            "To display graphics on a screen.",
+            "To store all user files."
+          ],
+          "correctAnswer": "To manage computer hardware and software resources.",
+          "Help": "The operating system is the core software that enables other programs to run."
+        },
+        {
+          "question": "What is 'cloud computing'?",
+          "options": [
+            "Running applications directly on local servers.",
+            "Storing data exclusively on external hard drives.",
+            "Delivering computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ('the cloud').",
+            "A form of peer-to-peer file sharing."
+          ],
+          "correctAnswer": "Delivering computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet ('the cloud').",
+          "Help": "Cloud computing moves IT infrastructure to remote servers accessible via the internet."
+        },
+        {
+          "question": "What is 'phishing' in the context of cybersecurity?",
+          "options": [
+            "A type of malware that encrypts files.",
+            "A technique to steal personal information by disguising as a trustworthy entity in electronic communication.",
+            "A method for legitimate data backup.",
+            "A software tool for network monitoring."
+          ],
+          "correctAnswer": "A technique to steal personal information by disguising as a trustworthy entity in electronic communication.",
+          "Help": "Phishing attacks trick users into revealing sensitive data."
+        },
+        {
+          "question": "What is the purpose of a 'firewall' in network security?",
+          "options": [
+            "To speed up internet connection.",
+            "To prevent unauthorized access to or from a private network.",
+            "To store website data.",
+            "To optimize software performance."
+          ],
+          "correctAnswer": "To prevent unauthorized access to or from a private network.",
+          "Help": "A firewall acts as a barrier, controlling incoming and outgoing network traffic."
+        },
+        {
+          "question": "Which of the following is a best practice for creating a strong password?",
+          "options": [
+            "Using common dictionary words.",
+            "Making it short and easy to remember.",
+            "Using a combination of uppercase and lowercase letters, numbers, and symbols.",
+            "Reusing the same password for multiple accounts."
+          ],
+          "correctAnswer": "Using a combination of uppercase and lowercase letters, numbers, and symbols.",
+          "Help": "Strong passwords enhance security by making them harder to guess or crack."
+        },
+        {
+          "question": "What is 'data encryption'?",
+          "options": [
+            "Storing data in a central server.",
+            "Converting data into a code to prevent unauthorized access.",
+            "Copying data to a backup drive.",
+            "Organizing data into a database."
+          ],
+          "correctAnswer": "Converting data into a code to prevent unauthorized access.",
+          "Help": "Encryption scrambles data so that only authorized parties can understand it."
+        },
+        {
+          "question": "What does 'URL' stand for?",
+          "options": [
+            "Universal Resource Language",
+            "Uniform Resource Locator",
+            "United Remote Link",
+            "User's Resource Library"
+          ],
+          "correctAnswer": "Uniform Resource Locator",
+          "Help": "This is the address of a resource on the Internet."
+        },
+        {
+          "question": "A 'database' is primarily used for:",
+          "options": [
+            "Sending emails.",
+            "Creating graphic designs.",
+            "Storing, organizing, and managing large amounts of information.",
+            "Playing video games."
+          ],
+          "correctAnswer": "Storing, organizing, and managing large amounts of information.",
+          "Help": "Databases are designed for efficient data storage and retrieval."
+        }
+      ]
+    },
+    {
+      "topic": "Future Business Leader - Presentation Interview Rating Sheet Details",
+      "questions": [
+        {
+          "question": "On the Presentation Interview Rating Sheet, the 'Illustrates participation and leadership experiences in FBLA' item is worth how many points for 'Exceeds Expectations'?",
+          "options": [
+            "1-8 points",
+            "9-12 points",
+            "13-15 points",
+            "0 points"
+          ],
+          "correctAnswer": "13-15 points",
+          "Help": "Refer to the 'Future Business Leader Presentation Interview Rating Sheet' for specific point values."
+        },
+        {
+          "question": "To achieve 'Exceeds Expectations' for 'Demonstrates proper greeting, introduction, and closing', a competitor must include a strong greeting, introduction AND:",
+          "options": [
+            "A lengthy farewell speech.",
+            "Ask for or provide follow-up action in the conclusion.",
+            "Only focus on a firm handshake.",
+            "Present a gift to the judges."
+          ],
+          "correctAnswer": "Ask for or provide follow-up action in the conclusion.",
+          "Help": "Check the detailed criteria for 'Exceeds Expectations' under this item on the rating sheet."
+        },
+        {
+          "question": "For the 'Demonstrates proper verbal and nonverbal communication skills' item, what distinguishes 'Exceeds Expectations' from 'Meets Expectations'?",
+          "options": [
+            "Only good grammar.",
+            "Verbal communication skills are excellent; nonverbal communication is natural.",
+            "All questions answered clearly.",
+            "Limited body language."
+          ],
+          "correctAnswer": "Verbal communication skills are excellent; nonverbal communication is natural.",
+          "Help": "Compare the descriptions for 'Meets Expectations' and 'Exceeds Expectations' for communication skills."
+        },
+        {
+          "question": "The item 'Adherence to Competitive Events Guidelines' on the Presentation Interview Rating Sheet is worth how many points for full alignment?",
+          "options": [
+            "0 points",
+            "5 points",
+            "10 points",
+            "15 points"
+          ],
+          "correctAnswer": "10 points",
+          "Help": "Locate the 'Execution Aligned with Guidelines' section on the rating sheet."
+        },
+        {
+          "question": "Under 'Presentation Delivery', achieving 'Exceeds Expectations' for 'Demonstrates strong self-confidence, appropriate assertiveness, and enthusiasm' means the competitor:",
+          "options": [
+            "Used strong eye contact, appropriate assertiveness, AND enthusiasm.",
+            "Had limited self-confidence.",
+            "Did not demonstrate enthusiasm.",
+            "Led the interview process and effectively used interview time."
+          ],
+          "correctAnswer": "Led the interview process and effectively used interview time.",
+          "Help": "Carefully read the description for 'Exceeds Expectations' in that specific row of the rating sheet."
+        },
+        {
+          "question": "If a competitor participates in only one additional school and/or community organization other than FBLA, how would their 'Explains participation in other school and/or community organizations' likely be rated?",
+          "options": [
+            "Not Demonstrated",
+            "Below Expectations",
+            "Meets Expectations",
+            "Exceeds Expectations"
+          ],
+          "correctAnswer": "Below Expectations",
+          "Help": "Review the criteria for 'Below Expectations' for this item on the rating sheet."
+        },
+        {
+          "question": "To achieve 'Exceeds Expectations' for 'Indicates understanding of career knowledge and career plans', the competitor can discuss how career plans were decided and shows some evidence how plans will be achieved AND:",
+          "options": [
+            "Has no career plans at this time.",
+            "Can explain and show no other areas of outstanding achievement.",
+            "Can also discuss how the career knowledge obtained was acquired and how it will be used.",
+            "Only discusses one area of outstanding achievement."
+          ],
+          "correctAnswer": "Can also discuss how the career knowledge obtained was acquired and how it will be used.",
+          "Help": "Consult the 'Exceeds Expectations' column for 'Indicates understanding of career knowledge and career plans' on the rating sheet."
+        }
+      ]
+    },
+    {
+      "topic": "Future Business Leader - Pre-Judged Assets Rating Sheet Details",
+      "questions": [
+        {
+          "question": "On the Pre-Judged Assets Rating Sheet, for 'Cover Letter: States award applying for', what rating indicates 'No award stated'?",
+          "options": [
+            "1 point",
+            "2-3 points",
+            "4 points",
+            "0 points"
+          ],
+          "correctAnswer": "0 points",
+          "Help": "Refer to the 'Not Demonstrated' column for this item on the rating sheet."
+        },
+        {
+          "question": "For 'Cover Letter: Promotes self in letter', what is the maximum score for 'Exceeds Expectations'?",
+          "options": [
+            "1-3 points",
+            "4-6 points",
+            "7-8 points",
+            "0 points"
+          ],
+          "correctAnswer": "7-8 points",
+          "Help": "Locate the maximum points for 'Exceeds Expectations' for this specific cover letter criterion."
+        },
+        {
+          "question": "What is the point value for a 'Resume: Targets award on cover letter' if the targeted award matches the cover letter?",
+          "options": [
+            "0 points",
+            "1 point",
+            "2-3 points",
+            "4 points"
+          ],
+          "correctAnswer": "2-3 points",
+          "Help": "Check the 'Meets Expectations' column for this resume criterion."
+        },
+        {
+          "question": "For 'Resume: Reader friendly', how many points are awarded for 'Exceeds Expectations' (professional design for targeted award, professional fonts and font sizes)?",
+          "options": [
+            "1-3 points",
+            "4-6 points",
+            "7-8 points",
+            "0 points"
+          ],
+          "correctAnswer": "7-8 points",
+          "Help": "Consult the 'Exceeds Expectations' column for this item on the rating sheet."
+        },
+        {
+          "question": "If a resume includes five or more sections (education, activities, awards/honors, FBLA experience, and volunteerism/work experience) to support the targeted award, it would likely receive how many points for 'Resume: Includes education...'?",
+          "options": [
+            "0 points",
+            "1-3 points",
+            "4-6 points",
+            "7-8 points"
+          ],
+          "correctAnswer": "7-8 points",
+          "Help": "Review the criteria for 'Exceeds Expectations' for this resume content item."
+        },
+        {
+          "question": "For 'Spelling & Grammar: Documents are free of spelling, punctuation, and grammatical errors', how many points are deducted if there are three or more errors?",
+          "options": [
+            "5 points (awarded)",
+            "3-4 points (awarded)",
+            "1-2 points (awarded)",
+            "0 points (awarded)"
+          ],
+          "correctAnswer": "0 points (awarded)",
+          "Help": "This implies that 0 points are awarded if there are too many errors, representing a deduction to that score category."
+        },
+        {
+          "question": "If a cover letter is longer than one page or not addressed correctly, how many points are awarded for 'All directions followed'?",
+          "options": [
+            "0 points",
+            "5 points",
+            "Points deducted",
+            "Full points"
+          ],
+          "correctAnswer": "0 points",
+          "Help": "Review the 'Not Demonstrated' column for the 'All directions followed' item on the rating sheet."
+        },
+        {
+          "question": "What is the maximum point value for 'Spelling & Grammar' on the Pre-judged Assets Rating Sheet?",
+          "options": [
+            "2 points",
+            "3 points",
+            "4 points",
+            "5 points"
+          ],
+          "correctAnswer": "5 points",
+          "Help": "Check the 'Exceeds Expectations' point value for this section."
+        },
+        {
+          "question": "What point value is given if the resume is 'unreadable' for the 'Resume: Reader friendly' criterion?",
+          "options": [
+            "1-3 points",
+            "4-6 points",
+            "7-8 points",
+            "0 points"
+          ],
+          "correctAnswer": "0 points",
+          "Help": "Refer to the 'Not Demonstrated' column for this item on the rating sheet."
+        }
+      ]
+    }
+  ]
+}
