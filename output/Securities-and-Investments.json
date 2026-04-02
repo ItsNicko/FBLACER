@@ -1,0 +1,113 @@
+{
+  "testName": "Securities & Investments FBLA Practice Test",
+  "topics": [
+    {
+      "topic": "Investment Fundamentals and Wrappers",
+      "questions": [
+        {
+          "question": "Which of the following represents the fundamental relationship between risk and return?",
+          "options": [
+            "Higher risk is associated with lower potential returns",
+            "Lower risk is associated with higher potential returns",
+            "Higher risk is associated with higher potential returns",
+            "Risk and return are unrelated in efficient markets"
+          ],
+          "correctAnswer": "Higher risk is associated with higher potential returns",
+          "Help": "Investors require a premium to compensate for taking on additional uncertainty."
+        },
+        {
+          "question": "What is the primary function of a tax-advantaged investment wrapper like an IRA?",
+          "options": [
+            "To guarantee a positive annual return",
+            "To defer or eliminate taxes on investment gains",
+            "To provide immediate liquidity for short-term needs",
+            "To allow the investor to bypass SEC registration"
+          ],
+          "correctAnswer": "To defer or eliminate taxes on investment gains",
+          "Help": "Wrappers are structures that hold assets and provide specific tax treatment."
+        }
+      ]
+    },
+    {
+      "topic": "Stock Market and Products",
+      "questions": [
+        {
+          "question": "What is the primary difference between a primary and secondary market?",
+          "options": [
+            "Primary markets involve government bonds; secondary markets involve stocks",
+            "Primary markets involve IPOs; secondary markets involve trading between investors",
+            "Primary markets are for institutional investors; secondary for retail",
+            "Primary markets are regulated; secondary markets are unregulated"
+          ],
+          "correctAnswer": "Primary markets involve IPOs; secondary markets involve trading between investors",
+          "Help": "The primary market is where securities are created; the secondary is where they are traded."
+        },
+        {
+          "question": "In market terminology, what does a 'bear market' specifically describe?",
+          "options": [
+            "A market where prices are rising consistently",
+            "A market where investors are overly greedy",
+            "A period of declining asset prices by 20% or more",
+            "A market with high volatility and no clear trend"
+          ],
+          "correctAnswer": "A period of declining asset prices by 20% or more",
+          "Help": "Bears hibernate and pull down; bulls push up."
+        }
+      ]
+    },
+    {
+      "topic": "Mutual Funds and Bonds",
+      "questions": [
+        {
+          "question": "What is the term for the length of time until a bond's principal must be repaid?",
+          "options": [
+            "Yield",
+            "Maturity",
+            "Coupon",
+            "Par value"
+          ],
+          "correctAnswer": "Maturity",
+          "Help": "Maturity refers to the date the loan agreement ends."
+        },
+        {
+          "question": "Which of the following best describes an open-ended investment company?",
+          "options": [
+            "A fund that trades on an exchange like a stock",
+            "A fund that issues a fixed number of shares to the public",
+            "A fund that continuously creates and redeems shares based on demand",
+            "A private partnership with limited liquidity"
+          ],
+          "correctAnswer": "A fund that continuously creates and redeems shares based on demand",
+          "Help": "Open-ended funds allow for daily liquidity at the Net Asset Value."
+        }
+      ]
+    },
+    {
+      "topic": "Derivatives and Regulation",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a financial derivative?",
+          "options": [
+            "To provide direct ownership of a corporation",
+            "To hedge risk or speculate on the underlying asset price",
+            "To ensure capital preservation for retirees",
+            "To act as a primary funding source for startups"
+          ],
+          "correctAnswer": "To hedge risk or speculate on the underlying asset price",
+          "Help": "Derivatives derive their value from an underlying asset."
+        },
+        {
+          "question": "What is considered 'insider dealing' in a financial market context?",
+          "options": [
+            "Buying stocks after a public announcement",
+            "Trading based on non-public, material information",
+            "Selling securities at a loss to reduce tax liability",
+            "Using professional software to analyze trends"
+          ],
+          "correctAnswer": "Trading based on non-public, material information",
+          "Help": "This is illegal because it gives the trader an unfair advantage over the public."
+        }
+      ]
+    }
+  ]
+}
