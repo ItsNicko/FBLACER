@@ -1,0 +1,1247 @@
+
+{
+  "testName": "Marketing Competitive Event Test",
+  "topics": [
+    {
+      "topic": "Marketing Fundamentals",
+      "questions": [
+        {
+          "question": "Which of the following best describes the core concept of marketing in a global economy?",
+          "options": [
+            "Maximizing sales volume regardless of customer needs.",
+            "Creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.",
+            "Primarily focused on advertising and promotional activities.",
+            "Reducing production costs to offer the lowest prices to consumers.",
+            "B"
+          ],
+          "correctAnswer": "Creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.",
+          "Help": "Focus on value exchange and broad stakeholder involvement in marketing definition."
+        },
+        {
+          "question": "How does marketing contribute to a global economy?",
+          "options": [
+            "By exclusively focusing on domestic consumer needs.",
+            "By increasing trade barriers between countries.",
+            "By facilitating the exchange of goods and services across borders and fostering innovation.",
+            "By standardizing products to eliminate cultural differences.",
+            "C"
+          ],
+          "correctAnswer": "By facilitating the exchange of goods and services across borders and fostering innovation.",
+          "Help": "Consider marketing's role in international trade and product development."
+        },
+        {
+          "question": "An ethical marketing practice involves:",
+          "options": [
+            "Manipulating consumer perceptions through deceptive advertising.",
+            "Prioritizing profit margins over customer safety.",
+            "Ensuring transparency in product claims and respecting consumer privacy.",
+            "Withholding negative product information from the public.",
+            "C"
+          ],
+          "correctAnswer": "Ensuring transparency in product claims and respecting consumer privacy.",
+          "Help": "Ethical marketing prioritizes honesty and consumer well-being."
+        },
+        {
+          "question": "Why are professional standards important in marketing?",
+          "options": [
+            "To allow marketers to freely interpret data.",
+            "To prevent competition among businesses.",
+            "To build trust with consumers, maintain industry credibility, and ensure fair practices.",
+            "To limit the creativity of advertising campaigns.",
+            "C"
+          ],
+          "correctAnswer": "To build trust with consumers, maintain industry credibility, and ensure fair practices.",
+          "Help": "Professional standards are crucial for trust and industry reputation."
+        },
+        {
+          "question": "Which action by an employee would most directly contribute to a company's desired result of improved customer satisfaction?",
+          "options": [
+            "Focusing solely on individual sales targets.",
+            "Ignoring customer feedback to maintain efficiency.",
+            "Actively listening to customer complaints and offering prompt, effective solutions.",
+            "Delegating all customer interactions to junior staff.",
+            "C"
+          ],
+          "correctAnswer": "Actively listening to customer complaints and offering prompt, effective solutions.",
+          "Help": "Customer satisfaction is improved by addressing customer needs and issues."
+        },
+        {
+          "question": "To achieve desired results, a marketing employee should:",
+          "options": [
+            "Avoid collaborating with other departments.",
+            "Understand and support the company's overall marketing objectives.",
+            "Only focus on tasks explicitly assigned, without considering the broader impact.",
+            "Prioritize personal growth over team goals.",
+            "B"
+          ],
+          "correctAnswer": "Understand and support the company's overall marketing objectives.",
+          "Help": "Aligning with company goals is key for effective employee action."
+        },
+        {
+          "question": "Which of the following is a primary psychological factor influencing consumer buying behavior?",
+          "options": [
+            "Economic trends.",
+            "Government regulations.",
+            "Perception and motivation.",
+            "Social class.",
+            "C"
+          ],
+          "correctAnswer": "Perception and motivation.",
+          "Help": "Psychological factors relate to an individual's internal processes."
+        },
+        {
+          "question": "For a business, what is a key external factor that influences buying behavior?",
+          "options": [
+            "Employee morale.",
+            "Company culture.",
+            "Cultural norms and social groups.",
+            "Product design specifications.",
+            "C"
+          ],
+          "correctAnswer": "Cultural norms and social groups.",
+          "Help": "External factors often relate to the broader environment or social context."
+        },
+        {
+          "question": "A company launches an innovative product that perfectly meets an unmet consumer need. What is a likely result of this action?",
+          "options": [
+            "Decreased production costs.",
+            "Immediate loss of market share.",
+            "Increased customer loyalty and market share.",
+            "Reduced need for promotion.",
+            "C"
+          ],
+          "correctAnswer": "Increased customer loyalty and market share.",
+          "Help": "Meeting unmet needs typically leads to positive market outcomes."
+        },
+        {
+          "question": "If a company consistently provides poor customer service, what is a probable connection between this action and results?",
+          "options": [
+            "Enhanced brand reputation.",
+            "Increased customer retention.",
+            "Decreased customer satisfaction and potential loss of sales.",
+            "Improved operational efficiency.",
+            "C"
+          ],
+          "correctAnswer": "Decreased customer satisfaction and potential loss of sales.",
+          "Help": "Poor service negatively impacts customer experience and business performance."
+        }
+      ]
+    },
+    {
+      "topic": "Market Planning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a marketing strategy?",
+          "options": [
+            "To document historical sales data.",
+            "To outline specific actions for daily operations.",
+            "To define how a business will achieve its marketing objectives by satisfying customer needs.",
+            "To establish internal communication protocols.",
+            "C"
+          ],
+          "correctAnswer": "To define how a business will achieve its marketing objectives by satisfying customer needs.",
+          "Help": "Marketing strategy connects objectives with customer satisfaction."
+        },
+        {
+          "question": "A successful marketing strategy should typically include:",
+          "options": [
+            "A detailed list of all competitors' pricing.",
+            "A clear definition of the target market and the unique value proposition.",
+            "Daily activity schedules for all marketing staff.",
+            "A guarantee of immediate profit increases.",
+            "B"
+          ],
+          "correctAnswer": "A clear definition of the target market and the unique value proposition.",
+          "Help": "Key components of a marketing strategy involve target and value."
+        },
+        {
+          "question": "Which of the following best defines a 'market' in marketing terms?",
+          "options": [
+            "A physical location where goods are sold.",
+            "A group of potential customers with shared needs who are willing and able to buy.",
+            "A company's sales department.",
+            "The total number of products produced by an industry.",
+            "B"
+          ],
+          "correctAnswer": "A group of potential customers with shared needs who are willing and able to buy.",
+          "Help": "A market refers to customers with needs and purchasing power."
+        },
+        {
+          "question": "Market identification involves:",
+          "options": [
+            "Determining the cheapest way to produce a product.",
+            "Identifying and selecting specific groups of consumers to target.",
+            "Setting the price for a new product.",
+            "Analyzing past advertising campaigns.",
+            "B"
+          ],
+          "correctAnswer": "Identifying and selecting specific groups of consumers to target.",
+          "Help": "Market identification is about finding and selecting target customer groups."
+        },
+        {
+          "question": "What is the fundamental nature of marketing planning?",
+          "options": [
+            "An informal process based on intuition.",
+            "A continuous, systematic process for setting marketing objectives and developing strategies to achieve them.",
+            "A one-time activity performed when a business is first launched.",
+            "A process solely concerned with product development.",
+            "B"
+          ],
+          "correctAnswer": "A continuous, systematic process for setting marketing objectives and developing strategies to achieve them.",
+          "Help": "Marketing planning is ongoing and structured for goal achievement."
+        },
+        {
+          "question": "Effective marketing planning helps businesses to:",
+          "options": [
+            "React to market changes without prior preparation.",
+            "Avoid making any decisions about future marketing efforts.",
+            "Allocate resources efficiently and adapt to market opportunities and threats.",
+            "Reduce the need for customer research.",
+            "C"
+          ],
+          "correctAnswer": "Allocate resources efficiently and adapt to market opportunities and threats.",
+          "Help": "Planning helps with resource management and adaptability."
+        },
+        {
+          "question": "A marketing plan typically includes:",
+          "options": [
+            "Only the advertising budget.",
+            "A detailed blueprint outlining marketing objectives, strategies, and tactical actions.",
+            "Employee performance reviews.",
+            "Competitors' confidential financial statements.",
+            "B"
+          ],
+          "correctAnswer": "A detailed blueprint outlining marketing objectives, strategies, and tactical actions.",
+          "Help": "A marketing plan is a comprehensive document for marketing efforts."
+        },
+        {
+          "question": "What role do measurable objectives play in a marketing plan?",
+          "options": [
+            "They serve as suggestions rather than strict targets.",
+            "They are used to confuse competitors.",
+            "They provide specific targets for performance evaluation and accountability.",
+            "They are primarily for internal management use and not shared.",
+            "C"
+          ],
+          "correctAnswer": "They provide specific targets for performance evaluation and accountability.",
+          "Help": "Measurable objectives enable tracking progress and ensuring accountability."
+        },
+        {
+          "question": "What is the main purpose of a situation analysis in the marketing planning process?",
+          "options": [
+            "To develop new products.",
+            "To evaluate the company's internal capabilities and external environment.",
+            "To assign marketing tasks to employees.",
+            "To finalize the advertising budget.",
+            "B"
+          ],
+          "correctAnswer": "To evaluate the company's internal capabilities and external environment.",
+          "Help": "Situation analysis involves assessing internal and external factors (e.g., SWOT)."
+        },
+        {
+          "question": "Which of the following is typically included in a situation analysis?",
+          "options": [
+            "The personal opinions of the marketing team.",
+            "Future predictions without supporting data.",
+            "An assessment of strengths, weaknesses, opportunities, and threats (SWOT).",
+            "A list of all past marketing failures.",
+            "C"
+          ],
+          "correctAnswer": "An assessment of strengths, weaknesses, opportunities, and threats (SWOT).",
+          "Help": "SWOT analysis is a core component of situation analysis."
+        }
+      ]
+    },
+    {
+      "topic": "Marketing-Information Management",
+      "questions": [
+        {
+          "question": "Which type of data is crucial for marketing decision-making regarding customer preferences?",
+          "options": [
+            "Competitor employee satisfaction scores.",
+            "Customer demographics, psychographics, and purchasing history.",
+            "Raw material acquisition costs.",
+            "Internal IT system logs.",
+            "B"
+          ],
+          "correctAnswer": "Customer demographics, psychographics, and purchasing history.",
+          "Help": "Data about customer characteristics and behavior is vital for marketing decisions."
+        },
+        {
+          "question": "What kind of data should a company monitor to understand the effectiveness of its advertising campaigns?",
+          "options": [
+            "The personal opinions of the advertising agency.",
+            "Sales figures, website traffic, and customer engagement metrics related to the campaign.",
+            "Competitor's internal financial records.",
+            "The weather patterns in the target market.",
+            "B"
+          ],
+          "correctAnswer": "Sales figures, website traffic, and customer engagement metrics related to the campaign.",
+          "Help": "Campaign effectiveness is measured by sales, traffic, and engagement."
+        },
+        {
+          "question": "What is the primary nature of the marketing-information management function?",
+          "options": [
+            "To solely collect data without analysis.",
+            "To develop new products and services.",
+            "To systematically collect, analyze, and distribute marketing information for decision-making.",
+            "To manage the company's social media presence.",
+            "C"
+          ],
+          "correctAnswer": "To systematically collect, analyze, and distribute marketing information for decision-making.",
+          "Help": "Marketing-information management involves a structured process of data handling for decisions."
+        },
+        {
+          "question": "The scope of marketing-information management typically includes:",
+          "options": [
+            "Only data from surveys.",
+            "Market research, competitive intelligence, and internal marketing records.",
+            "Strictly financial accounting data.",
+            "Employee payroll information.",
+            "B"
+          ],
+          "correctAnswer": "Market research, competitive intelligence, and internal marketing records.",
+          "Help": "Scope includes various sources like research, competitor data, and internal reports."
+        },
+        {
+          "question": "A key ethical concern in marketing-information management is:",
+          "options": [
+            "Collecting as much data as possible without consent.",
+            "Sharing customer data with third parties without their knowledge.",
+            "Ensuring data privacy, accuracy, and transparent use of collected information.",
+            "Using data to manipulate consumer choices unfairly.",
+            "C"
+          ],
+          "correctAnswer": "Ensuring data privacy, accuracy, and transparent use of collected information.",
+          "Help": "Ethics in data management emphasize privacy, accuracy, and transparency."
+        },
+        {
+          "question": "Why is ethical conduct crucial in marketing-information management?",
+          "options": [
+            "To reduce the cost of data storage.",
+            "To maintain consumer trust and comply with legal regulations.",
+            "To limit the amount of data collected.",
+            "To speed up the data analysis process.",
+            "B"
+          ],
+          "correctAnswer": "To maintain consumer trust and comply with legal regulations.",
+          "Help": "Ethics are vital for trust and legal compliance in data handling."
+        },
+        {
+          "question": "Which of the following best defines marketing research?",
+          "options": [
+            "The casual observation of customer behavior.",
+            "The spontaneous collection of data without a clear purpose.",
+            "The systematic process of collecting, analyzing, and interpreting data about customers, competitors, and the market.",
+            "The exclusive use of publicly available information.",
+            "C"
+          ],
+          "correctAnswer": "The systematic process of collecting, analyzing, and interpreting data about customers, competitors, and the market.",
+          "Help": "Marketing research is a systematic process for understanding the market."
+        },
+        {
+          "question": "What is a primary objective of marketing research?",
+          "options": [
+            "To confirm existing assumptions without new data.",
+            "To reduce business expenses arbitrarily.",
+            "To provide insights that help reduce uncertainty in marketing decision-making.",
+            "To generate complex reports that are difficult to understand.",
+            "C"
+          ],
+          "correctAnswer": "To provide insights that help reduce uncertainty in marketing decision-making.",
+          "Help": "Research aims to clarify and inform decisions."
+        },
+        {
+          "question": "What is the primary benefit of conducting primary marketing research?",
+          "options": [
+            "It is always cheaper and faster than secondary research.",
+            "It provides data specifically tailored to the company's unique research questions.",
+            "It eliminates the need for any further data analysis.",
+            "It guarantees accurate predictions of future sales.",
+            "B"
+          ],
+          "correctAnswer": "It provides data specifically tailored to the company's unique research questions.",
+          "Help": "Primary research is original and customized to specific needs."
+        },
+        {
+          "question": "An example of secondary marketing research data is:",
+          "options": [
+            "Results from a newly conducted focus group by the company.",
+            "Sales data collected from customer transaction records.",
+            "Government census data or industry reports.",
+            "Direct interviews with current customers.",
+            "C"
+          ],
+          "correctAnswer": "Government census data or industry reports.",
+          "Help": "Secondary research uses data already collected for other purposes."
+        },
+        {
+          "question": "What is a characteristic of qualitative primary research data?",
+          "options": [
+            "It is usually numerical and statistically analyzed.",
+            "It focuses on insights, opinions, and in-depth understanding of motivations.",
+            "It is collected from large sample sizes.",
+            "It always involves a structured questionnaire.",
+            "B"
+          ],
+          "correctAnswer": "It focuses on insights, opinions, and in-depth understanding of motivations.",
+          "Help": "Qualitative data explores depth and meaning, often non-numerical."
+        },
+        {
+          "question": "A common method for collecting primary marketing research data is:",
+          "options": [
+            "Reviewing academic journals.",
+            "Conducting customer surveys or interviews.",
+            "Analyzing public financial statements.",
+            "Consulting historical market reports.",
+            "B"
+          ],
+          "correctAnswer": "Conducting customer surveys or interviews.",
+          "Help": "Surveys and interviews are direct methods of collecting new data."
+        },
+        {
+          "question": "Which data collection method involves observing consumers in their natural environment without direct interaction?",
+          "options": [
+            "Focus groups.",
+            "Telephone interviews.",
+            "Observational research.",
+            "Online surveys.",
+            "C"
+          ],
+          "correctAnswer": "Observational research.",
+          "Help": "Observational research involves watching without intervention."
+        },
+        {
+          "question": "What is a key advantage of using internet-based data collection methods (e.g., online surveys)?",
+          "options": [
+            "They only reach a very limited audience.",
+            "They are typically more expensive and time-consuming than traditional methods.",
+            "They allow for rapid data collection from a large, geographically diverse sample.",
+            "They eliminate the need for any data analysis.",
+            "C"
+          ],
+          "correctAnswer": "They allow for rapid data collection from a large, geographically diverse sample.",
+          "Help": "Internet methods offer speed and broad reach."
+        },
+        {
+          "question": "A business using scanners to track customer purchases at the checkout is primarily collecting what type of data?",
+          "options": [
+            "Psychographic data.",
+            "Demographic data.",
+            "Behavioral data.",
+            "Attitudinal data.",
+            "C"
+          ],
+          "correctAnswer": "Behavioral data.",
+          "Help": "Scanners track actual purchasing actions, which is behavioral data."
+        }
+      ]
+    },
+    {
+      "topic": "Product/Service Management",
+      "questions": [
+        {
+          "question": "What is the nature of the product/service management function?",
+          "options": [
+            "It solely focuses on advertising existing products.",
+            "It involves developing, launching, and managing products and services throughout their lifecycle.",
+            "It is primarily concerned with setting product prices.",
+            "It focuses exclusively on customer service after a sale.",
+            "B"
+          ],
+          "correctAnswer": "It involves developing, launching, and managing products and services throughout their lifecycle.",
+          "Help": "Product/service management encompasses the entire lifecycle from idea to withdrawal."
+        },
+        {
+          "question": "The scope of product/service management typically includes:",
+          "options": [
+            "Only product packaging design.",
+            "New product development, product modification, and product elimination.",
+            "Solely the distribution channels for products.",
+            "Only the hiring of sales personnel.",
+            "B"
+          ],
+          "correctAnswer": "New product development, product modification, and product elimination.",
+          "Help": "Scope includes innovation, adaptation, and removal of products."
+        },
+        {
+          "question": "Which of the following is a key responsibility of product/service management?",
+          "options": [
+            "Managing employee benefits.",
+            "Overseeing investor relations.",
+            "Ensuring products meet customer needs and achieve business objectives.",
+            "Controlling the company's accounting practices.",
+            "C"
+          ],
+          "correctAnswer": "Ensuring products meet customer needs and achieve business objectives.",
+          "Help": "Product management aligns products with customer satisfaction and business goals."
+        },
+        {
+          "question": "An ethical practice in product/service management involves:",
+          "options": [
+            "Withholding information about potential product side effects.",
+            "Designing products with planned obsolescence to encourage repurchase.",
+            "Ensuring product safety, honest labeling, and environmental sustainability.",
+            "Using deceptive packaging to make products appear larger.",
+            "C"
+          ],
+          "correctAnswer": "Ensuring product safety, honest labeling, and environmental sustainability.",
+          "Help": "Ethical product management prioritizes consumer well-being and responsible practices."
+        },
+        {
+          "question": "Why is business ethics important in product/service management?",
+          "options": [
+            "To speed up the product development process.",
+            "To build consumer trust and avoid legal liabilities and reputational damage.",
+            "To reduce the number of features in a product.",
+            "To minimize competition in the market.",
+            "B"
+          ],
+          "correctAnswer": "To build consumer trust and avoid legal liabilities and reputational damage.",
+          "Help": "Ethics prevent harm and foster trust and a good reputation."
+        },
+        {
+          "question": "During the 'growth' stage of the product life cycle, what is a typical marketing decision?",
+          "options": [
+            "Phasing out promotion and reducing prices.",
+            "Focusing on market penetration and expanding distribution.",
+            "Investing heavily in new product development.",
+            "Preparing for product elimination.",
+            "B"
+          ],
+          "correctAnswer": "Focusing on market penetration and expanding distribution.",
+          "Help": "Growth stage involves increasing market reach and sales."
+        },
+        {
+          "question": "When a product reaches the 'decline' stage of its life cycle, what marketing decision might be considered?",
+          "options": [
+            "Introducing significant new features.",
+            "Increasing advertising spending to attract new customers.",
+            "Harvesting or divesting the product.",
+            "Lowering production costs significantly.",
+            "C"
+          ],
+          "correctAnswer": "Harvesting or divesting the product.",
+          "Help": "Decline stage often leads to decisions about managing or exiting the product."
+        },
+        {
+          "question": "How does understanding the product life cycle help marketing managers?",
+          "options": [
+            "It allows them to predict exact sales figures.",
+            "It helps them tailor marketing strategies and resource allocation to each stage.",
+            "It eliminates the need for market research.",
+            "It forces products to follow a fixed timeline.",
+            "B"
+          ],
+          "correctAnswer": "It helps them tailor marketing strategies and resource allocation to each stage.",
+          "Help": "PLC knowledge informs strategic adjustments over time."
+        },
+        {
+          "question": "Which agency is primarily responsible for protecting consumers from unsafe products in the U.S.?",
+          "options": [
+            "Federal Communications Commission (FCC).",
+            "Environmental Protection Agency (EPA).",
+            "Consumer Product Safety Commission (CPSC).",
+            "Securities and Exchange Commission (SEC).",
+            "C"
+          ],
+          "correctAnswer": "Consumer Product Safety Commission (CPSC).",
+          "Help": "CPSC focuses on product safety for consumers."
+        },
+        {
+          "question": "What is the role of the Food and Drug Administration (FDA) in consumer protection?",
+          "options": [
+            "Regulating financial markets.",
+            "Ensuring the safety and efficacy of food, drugs, and cosmetics.",
+            "Monitoring fair advertising practices.",
+            "Overseeing workplace safety.",
+            "B"
+          ],
+          "correctAnswer": "Ensuring the safety and efficacy of food, drugs, and cosmetics.",
+          "Help": "FDA's role is related to food, drugs, and cosmetics safety."
+        },
+        {
+          "question": "What does the term 'product mix' refer to?",
+          "options": [
+            "The combination of different ingredients in a single product.",
+            "The specific way a product is packaged.",
+            "The complete set of all products and services offered by a firm.",
+            "The target market for a particular product.",
+            "C"
+          ],
+          "correctAnswer": "The complete set of all products and services offered by a firm.",
+          "Help": "Product mix describes the entire range of a company's offerings."
+        },
+        {
+          "question": "A company decides to add new product lines to its existing offerings. This action affects the:",
+          "options": [
+            "Product price.",
+            "Product width of the product mix.",
+            "Product depth of a specific product line.",
+            "Product's promotional strategy.",
+            "B"
+          ],
+          "correctAnswer": "Product width of the product mix.",
+          "Help": "Adding product lines increases the width of the product mix."
+        },
+        {
+          "question": "What is 'product bundling'?",
+          "options": [
+            "Selling individual products separately.",
+            "Offering two or more complementary products or services together as a single package at a special price.",
+            "Reducing the price of a single product to increase sales.",
+            "Designing a product for exclusive use by a niche market.",
+            "B"
+          ],
+          "correctAnswer": "Offering two or more complementary products or services together as a single package at a special price.",
+          "Help": "Bundling combines multiple items into one offer."
+        },
+        {
+          "question": "A software company sells its word processing, spreadsheet, and presentation programs together as a 'suite' for a lower price than buying them individually. This is an example of:",
+          "options": [
+            "Product line extension.",
+            "Product differentiation.",
+            "Product bundling.",
+            "Product positioning.",
+            "C"
+          ],
+          "correctAnswer": "Product bundling.",
+          "Help": "Selling multiple products together as a package."
+        },
+        {
+          "question": "What is the nature of corporate branding?",
+          "options": [
+            "It solely refers to the logo design.",
+            "It is the overall image and reputation of an entire company, encompassing its values and identity.",
+            "It is only relevant for large, multinational corporations.",
+            "It focuses exclusively on individual product features.",
+            "B"
+          ],
+          "correctAnswer": "It is the overall image and reputation of an entire company, encompassing its values and identity.",
+          "Help": "Corporate branding is about the company's holistic image."
+        },
+        {
+          "question": "A strong corporate brand can lead to:",
+          "options": [
+            "Reduced customer expectations.",
+            "Greater difficulty in launching new products.",
+            "Increased customer loyalty, easier market entry for new products, and enhanced employee recruitment.",
+            "Lower profit margins.",
+            "C"
+          ],
+          "correctAnswer": "Increased customer loyalty, easier market entry for new products, and enhanced employee recruitment.",
+          "Help": "Strong brands offer many benefits beyond just sales."
+        },
+        {
+          "question": "Which factor is crucial for businesses when positioning their corporate brand?",
+          "options": [
+            "Minimizing all advertising efforts.",
+            "Understanding the company's core values, mission, and unique selling proposition.",
+            "Mimicking competitor's branding strategies exactly.",
+            "Focusing only on short-term sales promotions.",
+            "B"
+          ],
+          "correctAnswer": "Understanding the company's core values, mission, and unique selling proposition.",
+          "Help": "Corporate positioning is rooted in identity and unique offerings."
+        },
+        {
+          "question": "When positioning a corporate brand, a company should consider:",
+          "options": [
+            "Ignoring customer perceptions.",
+            "Its reputation for social responsibility and innovation.",
+            "Only the price of its products.",
+            "The number of employees it has.",
+            "B"
+          "B"
+          ],
+          "correctAnswer": "Its reputation for social responsibility and innovation.",
+          "Help": "Brand positioning includes reputation and key attributes."
+        },
+        {
+          "question": "When positioning a product/service, what factors do marketers consider?",
+          "options": [
+            "The personal preferences of the marketing team.",
+            "Competitors' pricing without regard for quality.",
+            "Target market needs, competitive landscape, and unique product benefits.",
+            "The age of the company's CEO.",
+            "C"
+          ],
+          "correctAnswer": "Target market needs, competitive landscape, and unique product benefits.",
+          "Help": "Product positioning aligns with customer needs, competition, and benefits."
+        },
+        {
+          "question": "A company positions its luxury watch as a symbol of status and exclusivity. This is based on which positioning factor?",
+          "options": [
+            "Price alone.",
+            "Competitor's features.",
+            "Benefits and user image.",
+            "Production location.",
+            "C"
+          ],
+          "correctAnswer": "Benefits and user image.",
+          "Help": "Status and exclusivity relate to the image and benefits perceived by the user."
+        },
+        {
+          "question": "Effective product/service positioning aims to:",
+          "options": [
+            "Confuse consumers about product benefits.",
+            "Create a distinct and desirable image for the product in the minds of the target audience.",
+            "Match every competitor's offering feature for feature.",
+            "Appeal to all consumers equally.",
+            "B"
+          ],
+          "correctAnswer": "Create a distinct and desirable image for the product in the minds of the target audience.",
+          "Help": "Positioning seeks to differentiate and appeal to specific audiences."
+        },
+        {
+          "question": "What is the primary purpose of product/service branding?",
+          "options": [
+            "To hide the origin of the product.",
+            "To differentiate a product from competitors and build recognition and loyalty.",
+            "To reduce manufacturing costs.",
+            "To standardize products across different markets.",
+            "B"
+          ],
+          "correctAnswer": "To differentiate a product from competitors and build recognition and loyalty.",
+          "Help": "Branding helps products stand out and foster consumer attachment."
+        },
+        {
+          "question": "A product brand includes elements like:",
+          "options": [
+            "The company's financial statements.",
+            "Its name, logo, slogan, and packaging.",
+            "The personal details of its inventors.",
+            "The raw materials used in manufacturing.",
+            "B"
+          ],
+          "correctAnswer": "Its name, logo, slogan, and packaging.",
+          "Help": "Branding elements are visual and verbal identifiers."
+        },
+        {
+          "question": "What is brand equity?",
+          "options": [
+            "The market value of a company's stock.",
+            "The legal ownership of a brand name.",
+            "The added value a brand name gives to a product beyond the functional benefits provided.",
+            "The number of products a company sells under a specific brand.",
+            "C"
+          ],
+          "correctAnswer": "The added value a brand name gives to a product beyond the functional benefits provided.",
+          "Help": "Brand equity is the extra value from the brand name itself."
+        },
+        {
+          "question": "A local bakery develops a unique recipe for its bread and names it 'Grandma's Hearth Loaf,' creating a distinct logo and packaging. This is an example of:",
+          "options": [
+            "Corporate branding.",
+            "Generic product marketing.",
+            "Product/service branding.",
+            "Price skimming.",
+            "C"
+          ],
+          "correctAnswer": "Product/service branding.",
+          "Help": "Creating a specific identity for a product is product branding."
+        }
+      ]
+    },
+    {
+      "topic": "Channel Management",
+      "questions": [
+        {
+          "question": "What is the nature of channel management?",
+          "options": [
+            "It focuses solely on direct sales to consumers.",
+            "It is the process of designing, implementing, and managing the flow of products from producer to consumer.",
+            "It primarily deals with product development.",
+            "It concerns only advertising campaigns.",
+            "B"
+          ],
+          "correctAnswer": "It is the process of designing, implementing, and managing the flow of products from producer to consumer.",
+          "Help": "Channel management oversees the entire distribution process."
+        },
+        {
+          "question": "The scope of channel management involves:",
+          "options": [
+            "Only the manufacturing process.",
+            "Selecting intermediaries, managing relationships, and ensuring efficient product delivery.",
+            "Setting product prices.",
+            "Designing product packaging.",
+            "B"
+          ],
+          "correctAnswer": "Selecting intermediaries, managing relationships, and ensuring efficient product delivery.",
+          "Help": "Scope includes partners and logistics for product flow."
+        },
+        {
+          "question": "An efficient channel management system aims to:",
+          "options": [
+            "Increase production costs.",
+            "Make products unavailable to consumers.",
+            "Ensure products are available at the right time, place, and price to target customers.",
+            "Limit sales to a small, exclusive group.",
+            "C"
+          ],
+          "correctAnswer": "Ensure products are available at the right time, place, and price to target customers.",
+          "Help": "Efficiency in channels means optimal availability."
+        },
+        {
+          "question": "What are channels of distribution primarily composed of?",
+          "options": [
+            "Manufacturing facilities and raw material suppliers.",
+            "A series of interdependent organizations (intermediaries) that facilitate the transfer of ownership as products move from producer to consumer.",
+            "Advertising agencies and media outlets.",
+            "Internal company departments like HR and accounting.",
+            "B"
+          ],
+          "correctAnswer": "A series of interdependent organizations (intermediaries) that facilitate the transfer of ownership as products move from producer to consumer.",
+          "Help": "Channels are networks of entities moving products to buyers."
+        },
+        {
+          "question": "A direct distribution channel involves:",
+          "options": [
+            "Selling products through multiple layers of intermediaries.",
+            "The producer selling directly to the consumer without intermediaries.",
+            "Only using wholesalers for product distribution.",
+            "Selling products exclusively online.",
+            "B"
+          ],
+          "correctAnswer": "The producer selling directly to the consumer without intermediaries.",
+          "Help": "Direct channel means no middlemen between producer and consumer."
+        },
+        {
+          "question": "An indirect distribution channel typically involves:",
+          "options": [
+            "Only selling services, not physical products.",
+            "One or more intermediaries, such as wholesalers or retailers, between the producer and consumer.",
+            "Exclusively door-to-door sales.",
+            "Producing goods only after a customer order is received.",
+            "B"
+          ],
+          "correctAnswer": "One or more intermediaries, such as wholesalers or retailers, between the producer and consumer.",
+          "Help": "Indirect channels utilize intermediaries like wholesalers or retailers."
+        },
+        {
+          "question": "Which of the following is an example of an indirect distribution channel?",
+          "options": [
+            "A farmer selling vegetables directly at a roadside stand.",
+            "A software company selling its product through its website.",
+            "A manufacturer selling its goods to a wholesaler, who then sells to a retailer, who finally sells to the consumer.",
+            "A tailor making custom suits for individual clients.",
+            "C"
+          ],
+          "correctAnswer": "A manufacturer selling its goods to a wholesaler, who then sells to a retailer, who finally sells to the consumer.",
+          "Help": "Indirect channels involve multiple steps and intermediaries."
+        },
+        {
+          "question": "What is an ethical consideration in channel management related to unfair competition?",
+          "options": [
+            "Allowing distributors to set their own prices freely.",
+            "Engaging in predatory pricing to drive out smaller competitors.",
+            "Offering exclusive contracts to all potential resellers.",
+            "Providing transparent communication with channel partners.",
+            "B"
+          ],
+          "correctAnswer": "Engaging in predatory pricing to drive out smaller competitors.",
+          "Help": "Unfair competition includes actions like predatory pricing."
+        },
+        {
+          "question": "A company requires its distributors to only sell its products and no competitors' products. This practice raises ethical concerns related to:",
+          "options": [
+            "Price fixing.",
+            "Exclusive dealing.",
+            "Greenwashing.",
+            "Bait-and-switch tactics.",
+            "B"
+          ],
+          "correctAnswer": "Exclusive dealing.",
+          "Help": "Exclusive dealing restricts partners from carrying competitor's products."
+        },
+        {
+          "question": "To foster ethical channel relationships, businesses should:",
+          "options": [
+            "Withhold important market information from partners.",
+            "Establish clear, fair contracts and open communication with channel partners.",
+            "Constantly change distribution policies without notice.",
+            "Prioritize short-term gains over long-term partnerships.",
+            "B"
+          ],
+          "correctAnswer": "Establish clear, fair contracts and open communication with channel partners.",
+          "Help": "Ethical relationships are built on fairness and transparency."
+        }
+      ]
+    },
+    {
+      "topic": "Pricing",
+      "questions": [
+        {
+          "question": "What is the nature of the pricing function in marketing?",
+          "options": [
+            "It is solely determined by production costs.",
+            "It involves setting the value that consumers will exchange for a product or service.",
+            "It is primarily a legal requirement.",
+            "It only applies to physical goods, not services.",
+            "B"
+          ],
+          "correctAnswer": "It involves setting the value that consumers will exchange for a product or service.",
+          "Help": "Pricing determines the exchange value of an offering."
+        },
+        {
+          "question": "The scope of the pricing function typically includes:",
+          "options": [
+            "Only calculating the cost of goods sold.",
+            "Analyzing market demand, competitor prices, and various pricing strategies.",
+            "Designing product labels.",
+            "Managing customer complaints.",
+            "B"
+          ],
+          "correctAnswer": "Analyzing market demand, competitor prices, and various pricing strategies.",
+          "Help": "Scope includes understanding market, competition, and strategic approaches."
+        },
+        {
+          "question": "A key objective of effective pricing is to:",
+          "options": [
+            "Minimize sales volume.",
+            "Confuse customers with complex pricing structures.",
+            "Achieve profitability, capture market share, or meet specific sales targets.",
+            "Always offer the lowest price in the market.",
+            "C"
+          ],
+          "correctAnswer": "Achieve profitability, capture market share, or meet specific sales targets.",
+          "Help": "Pricing aims for various business goals like profit or market share."
+        },
+        {
+          "question": "Which of the following is an unethical pricing practice?",
+          "options": [
+            "Offering volume discounts to loyal customers.",
+            "Clearly advertising a sale price for a limited time.",
+            "Price gouging during an emergency or natural disaster.",
+            "Using a competitive pricing strategy.",
+            "C"
+          ],
+          "correctAnswer": "Price gouging during an emergency or natural disaster.",
+          "Help": "Price gouging exploits consumers in vulnerable situations."
+        },
+        {
+          "question": "Why is transparency in pricing an important ethical consideration?",
+          "options": [
+            "To allow competitors to easily copy pricing strategies.",
+            "To ensure consumers can make informed decisions and build trust.",
+            "To always keep prices low.",
+            "To simplify internal accounting processes.",
+            "B"
+          ],
+          "correctAnswer": "To ensure consumers can make informed decisions and build trust.",
+          "Help": "Transparency fosters trust and informed choices."
+        },
+        {
+          "question": "What is a common unethical pricing tactic that involves misleading advertising?",
+          "options": [
+            "Cost-plus pricing.",
+            "Value-based pricing.",
+            "Bait-and-switch pricing.",
+            "Penetration pricing.",
+            "C"
+          ],
+          "correctAnswer": "Bait-and-switch pricing.",
+          "Help": "Bait-and-switch lures customers with unavailable deals."
+        },
+        {
+          "question": "Which of the following is a key external factor affecting pricing decisions?",
+          "options": [
+            "Employee salaries.",
+            "The company's production capacity.",
+            "Consumer demand and competitor prices.",
+            "Internal research and development costs.",
+            "C"
+          ],
+          "correctAnswer": "Consumer demand and competitor prices.",
+          "Help": "External factors include market demand and competitive actions."
+        },
+        {
+          "question": "When setting prices, what role does the product's perceived value play?",
+          "options": [
+            "It is irrelevant to the actual price.",
+            "It determines the minimum price a company can charge.",
+            "It significantly influences how much customers are willing to pay.",
+            "It is only considered by luxury brands.",
+            "C"
+          ],
+          "correctAnswer": "It significantly influences how much customers are willing to pay.",
+          "Help": "Perceived value drives customer's willingness to pay."
+        },
+        {
+          "question": "A company decides to lower prices for its product to gain a larger share of the market. This pricing decision is primarily influenced by:",
+          "options": [
+            "Production costs.",
+            "Organizational objectives.",
+            "Legal regulations.",
+            "Supplier relationships.",
+            "B"
+          ],
+          "correctAnswer": "Organizational objectives.",
+          "Help": "Market share gain is a strategic objective influencing pricing."
+        },
+        {
+          "question": "What is the impact of government regulations and laws on pricing decisions?",
+          "options": [
+            "They only affect international trade.",
+            "They can impose restrictions on price fixing, predatory pricing, and unfair discrimination.",
+            "They encourage companies to always increase prices.",
+            "They simplify pricing structures.",
+            "B"
+          ],
+          "correctAnswer": "They can impose restrictions on price fixing, predatory pricing, and unfair discrimination.",
+          "Help": "Regulations influence pricing to ensure fairness and prevent monopolies."
+        }
+      ]
+    },
+    {
+      "topic": "Promotion",
+      "questions": [
+        {
+          "question": "What is the role of promotion as a marketing function?",
+          "options": [
+            "To solely reduce production costs.",
+            "To communicate value to customers and persuade them to purchase a product or service.",
+            "To manage a company's financial investments.",
+            "To design new products.",
+            "B"
+          ],
+          "correctAnswer": "To communicate value to customers and persuade them to purchase a product or service.",
+          "Help": "Promotion's role is communication and persuasion for purchases."
+        },
+        {
+          "question": "Promotion serves which primary purpose for businesses?",
+          "options": [
+            "To eliminate competition.",
+            "To inform, persuade, and remind target audiences about a company's offerings.",
+            "To analyze market research data.",
+            "To set product prices.",
+            "B"
+          ],
+          "correctAnswer": "To inform, persuade, and remind target audiences about a company's offerings.",
+          "Help": "The core aims of promotion are information, persuasion, and reminder."
+        },
+        {
+          "question": "An effective promotional strategy helps a business to:",
+          "options": [
+            "Isolate itself from the target market.",
+            "Create a negative image for its competitors.",
+            "Build brand awareness and drive sales.",
+            "Minimize customer feedback.",
+            "C"
+          ],
+          "correctAnswer": "Build brand awareness and drive sales.",
+          "Help": "Promotion impacts brand recognition and sales generation."
+        },
+        {
+          "question": "Which of the following is considered an element of the promotional mix?",
+          "options": [
+            "Product design.",
+            "Channel distribution.",
+            "Advertising.",
+            "Pricing strategy.",
+            "C"
+          ],
+          "correctAnswer": "Advertising.",
+          "Help": "Advertising is a key component of the promotional mix."
+        },
+        {
+          "question": "The promotional mix typically includes:",
+          "options": [
+            "Only personal selling.",
+            "Advertising, public relations, sales promotion, and personal selling.",
+            "Product bundling and product positioning.",
+            "Market segmentation and target marketing.",
+            "B"
+          ],
+          "correctAnswer": "Advertising, public relations, sales promotion, and personal selling.",
+          "Help": "Promotional mix elements cover various communication methods."
+        },
+        {
+          "question": "What is public relations' role in the promotional mix?",
+          "options": [
+            "Directly selling products to consumers.",
+            "Generating positive publicity and building a favorable public image.",
+            "Offering short-term incentives to purchase.",
+            "Creating paid advertisements.",
+            "B"
+          ],
+          "correctAnswer": "Generating positive publicity and building a favorable public image.",
+          "Help": "Public relations focuses on reputation and positive media."
+        },
+        {
+          "question": "Using false or exaggerated claims in advertising is a violation of:",
+          "options": [
+            "Standard production quotas.",
+            "Business ethics in promotion.",
+            "Channel management policies.",
+            "Pricing elasticity.",
+            "B"
+          ],
+          "correctAnswer": "Business ethics in promotion.",
+          "Help": "Deceptive advertising is an ethical breach in promotion."
+        },
+        {
+          "question": "Ethical promotion involves:",
+          "options": [
+            "Targeting vulnerable populations with aggressive sales tactics.",
+            "Ensuring all marketing communications are truthful, transparent, and respectful.",
+            "Ignoring consumer privacy in data collection for personalized ads.",
+            "Downplaying product risks.",
+            "B"
+          ],
+          "correctAnswer": "Ensuring all marketing communications are truthful, transparent, and respectful.",
+          "Help": "Truthfulness, transparency, and respect are hallmarks of ethical promotion."
+        },
+        {
+          "question": "Which of the following is an example of print advertising media?",
+          "options": [
+            "Television commercials.",
+            "Social media posts.",
+            "Newspapers and magazines.",
+            "Radio jingles.",
+            "C"
+          ],
+          "correctAnswer": "Newspapers and magazines.",
+          "Help": "Print media refers to physically printed publications."
+        },
+        {
+          "question": "What is a characteristic of broadcast advertising media?",
+          "options": [
+            "It is highly interactive and personalized.",
+            "It includes television and radio commercials that reach a mass audience.",
+            "It primarily uses direct mail for distribution.",
+            "It has a very limited reach.",
+            "B"
+          ],
+          "correctAnswer": "It includes television and radio commercials that reach a mass audience.",
+          "Help": "Broadcast media uses TV and radio for wide reach."
+        }
+      ]
+    },
+    {
+      "topic": "Selling",
+      "questions": [
+        {
+          "question": "What is the nature and scope of the selling function?",
+          "options": [
+            "It is solely about taking orders from customers.",
+            "It involves identifying customer needs, presenting solutions, and persuading customers to make a purchase.",
+            "It only applies to business-to-business transactions.",
+            "It is primarily focused on inventory management.",
+            "B"
+          ],
+          "correctAnswer": "It involves identifying customer needs, presenting solutions, and persuading customers to make a purchase.",
+          "Help": "Selling goes beyond taking orders to problem-solving and persuasion."
+        },
+        {
+          "question": "The selling function is crucial for businesses because it directly impacts:",
+          "options": [
+            "Employee hiring processes.",
+            "Sales revenue and customer relationships.",
+            "The design of production facilities.",
+            "Competitor advertising strategies.",
+            "B"
+          ],
+          "correctAnswer": "Sales revenue and customer relationships.",
+          "Help": "Selling directly influences income and customer bonds."
+        },
+        {
+          "question": "Which action constitutes an unethical selling practice?",
+          "options": [
+            "Actively listening to a customer's concerns.",
+            "Providing accurate and complete product information.",
+            "Misrepresenting product features or benefits to make a sale.",
+            "Following up with a customer after a purchase.",
+            "C"
+          ],
+          "correctAnswer": "Misrepresenting product features or benefits to make a sale.",
+          "Help": "Dishonesty about product features is unethical."
+        },
+        {
+          "question": "What is a legal consideration in selling?",
+          "options": [
+            "Encouraging impulse buying.",
+            "Avoiding deceptive advertising and adhering to consumer protection laws.",
+            "Prioritizing sales quotas above all else.",
+            "Not disclosing material facts about a product.",
+            "B"
+          ],
+          "correctAnswer": "Avoiding deceptive advertising and adhering to consumer protection laws.",
+          "Help": "Legal selling involves truthfulness and compliance with consumer rights."
+        },
+        {
+          "question": "How does Customer Relationship Management (CRM) software enhance the selling function?",
+          "options": [
+            "By replacing human sales representatives entirely.",
+            "By automating production processes.",
+            "By helping sales teams manage customer interactions, track leads, and personalize communication.",
+            "By generating random sales leads.",
+            "C"
+          ],
+          "correctAnswer": "By helping sales teams manage customer interactions, track leads, and personalize communication.",
+          "Help": "CRM aids in managing customer data and interactions for better sales."
+        },
+        {
+          "question": "Using e-commerce platforms like online stores or mobile apps in selling allows businesses to:",
+          "options": [
+            "Limit sales to a local geographic area.",
+            "Reach a global customer base and offer 24/7 shopping convenience.",
+            "Reduce the need for product information.",
+            "Increase dependence on physical retail locations.",
+            "B"
+          ],
+          "correctAnswer": "Reach a global customer base and offer 24/7 shopping convenience.",
+          "Help": "E-commerce expands reach and availability significantly."
+        },
+        {
+          "question": "To acquire product information for selling, a salesperson should primarily:",
+          "options": [
+            "Guess about product specifications.",
+            "Rely solely on competitor advertisements.",
+            "Study product manuals, attend training sessions, and consult with product developers.",
+            "Ask customers what they think the product does.",
+            "C"
+          ],
+          "correctAnswer": "Study product manuals, attend training sessions, and consult with product developers.",
+          "Help": "Accurate product knowledge comes from reliable internal sources."
+        },
+        {
+          "question": "What is the benefit of a salesperson acquiring comprehensive product information?",
+          "options": [
+            "It allows them to avoid answering customer questions.",
+            "It enables them to effectively answer customer questions, build trust, and tailor solutions.",
+            "It speeds up the product manufacturing process.",
+            "It simplifies the pricing structure for all products.",
+            "B"
+          ],
+          "correctAnswer": "It enables them to effectively answer customer questions, build trust, and tailor solutions.",
+          "Help": "Knowledge builds confidence and allows for better customer service."
+        },
+        {
+          "question": "When analyzing product information, identifying a 'feature' means recognizing:",
+          "options": [
+            "The emotional impact the product has on customers.",
+            "A specific characteristic or attribute of the product.",
+            "The underlying problem the product solves.",
+            "The long-term value it provides to the user.",
+            "B"
+          ],
+          "correctAnswer": "A specific characteristic or attribute of the product.",
+          "Help": "A feature is a factual attribute of the product."
+        },
+        {
+          "question": "A smartphone's 'long battery life' is a product feature. What is the corresponding 'benefit' for the customer?",
+          "options": [
+            "It uses a lithium-ion battery.",
+            "The phone is made of durable materials.",
+            "The ability to use the phone for extended periods without needing to recharge.",
+            "It has a high-resolution camera.",
+            "C"
+          ],
+          "correctAnswer": "The ability to use the phone for extended periods without needing to recharge.",
+          "Help": "A benefit explains what the feature does for the customer."
+        }
+      ]
+    }
+  ]
+}
