@@ -1,0 +1,135 @@
+{
+  "testName": "FBLA Project Management National Competitive Exam 2025-2026",
+  "topics": [
+    {
+      "topic": "Foundational Knowledge",
+      "questions": [
+        {
+          "question": "What is the primary definition of a project in the context of project management?",
+          "options": [
+            "A recurring operational process",
+            "A temporary endeavor to create a unique product or service",
+            "The daily management of company assets",
+            "A software application used for scheduling"
+          ],
+          "correctAnswer": "A temporary endeavor to create a unique product or service",
+          "Help": "Projects are distinct from ongoing business operations because they have a defined beginning and end."
+        },
+        {
+          "question": "Which of the following best describes the ethical responsibility of a project manager?",
+          "options": [
+            "Prioritizing the budget over project quality at all times",
+            "Ensuring transparency and honesty in reporting status to stakeholders",
+            "Keeping sensitive project risks hidden to avoid panic",
+            "Favoring internal team members over external contractors"
+          ],
+          "correctAnswer": "Ensuring transparency and honesty in reporting status to stakeholders",
+          "Help": "Ethical project management relies on integrity and transparent communication."
+        },
+        {
+          "question": "What is the primary role of a project manager?",
+          "options": [
+            "To perform all technical tasks individually",
+            "To delegate all authority to the sponsor",
+            "To plan, execute, and monitor the project to achieve defined goals",
+            "To focus exclusively on marketing the project results"
+          ],
+          "correctAnswer": "To plan, execute, and monitor the project to achieve defined goals",
+          "Help": "The project manager serves as the lead integrator for scope, time, and resources."
+        }
+      ]
+    },
+    {
+      "topic": "Initiating and Planning a Project",
+      "questions": [
+        {
+          "question": "Which document is created to define the total scope of work to be performed by the project team?",
+          "options": [
+            "Work Breakdown Structure (WBS)",
+            "Risk Assessment Matrix",
+            "Communication Log",
+            "Budget Forecast Report"
+          ],
+          "correctAnswer": "Work Breakdown Structure (WBS)",
+          "Help": "The WBS breaks down the project scope into manageable chunks."
+        },
+        {
+          "question": "What is the main purpose of identifying stakeholder expectations during the initiation phase?",
+          "options": [
+            "To eliminate the need for project changes",
+            "To ensure project objectives align with key influencer needs",
+            "To reduce the total number of project team members",
+            "To assign financial liability to the stakeholders"
+          ],
+          "correctAnswer": "To ensure project objectives align with key influencer needs",
+          "Help": "Understanding stakeholders early prevents misalignment during later project stages."
+        },
+        {
+          "question": "Which tool is best suited for identifying potential project risks before they occur?",
+          "options": [
+            "Gantt Chart",
+            "Risk Management Plan",
+            "Resource Allocation Table",
+            "Scope Creep Analysis"
+          ],
+          "correctAnswer": "Risk Management Plan",
+          "Help": "Risk planning involves identifying, analyzing, and developing response strategies."
+        }
+      ]
+    },
+    {
+      "topic": "Executing, Monitoring, and Controlling",
+      "questions": [
+        {
+          "question": "When monitoring project progress, what is the primary purpose of taking corrective action?",
+          "options": [
+            "To increase the project budget",
+            "To realign actual performance with the project plan",
+            "To replace team members who are underperforming",
+            "To shorten the project timeline indefinitely"
+          ],
+          "correctAnswer": "To realign actual performance with the project plan",
+          "Help": "Corrective action closes the gap between the plan and reality."
+        },
+        {
+          "question": "How should a project manager best coordinate efforts between cross-functional teams?",
+          "options": [
+            "By setting independent deadlines for each department",
+            "By establishing clear communication channels and shared goals",
+            "By requiring all teams to report to the CEO directly",
+            "By limiting team interaction to avoid conflict"
+          ],
+          "correctAnswer": "By establishing clear communication channels and shared goals",
+          "Help": "Cross-functional teams require high-level integration and synchronized objectives."
+        }
+      ]
+    },
+    {
+      "topic": "Closing a Project",
+      "questions": [
+        {
+          "question": "Why is it important to document 'lessons learned' at the end of a project?",
+          "options": [
+            "To justify the project costs to auditors",
+            "To provide a reference for improving future project performance",
+            "To penalize team members for past mistakes",
+            "To fulfill contractual obligations with external vendors"
+          ],
+          "correctAnswer": "To provide a reference for improving future project performance",
+          "Help": "Lessons learned capture historical knowledge to avoid repeating errors."
+        },
+        {
+          "question": "What is the final step in closing a project?",
+          "options": [
+            "Archiving project documents and releasing resources",
+            "Starting the next project immediately",
+            "Deleting all digital communication logs",
+            "Publishing a public press release"
+          ],
+          "correctAnswer": "Archiving project documents and releasing resources",
+          "Help": "Closing involves formal sign-off and releasing team members to other work."
+        }
+      ]
+    }
+  ]
+}
