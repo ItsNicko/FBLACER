@@ -1,0 +1,650 @@
+{
+  "testName": "Technology Support & Services Competitive Exam",
+  "topics": [
+    {
+      "topic": "IT Fundamentals",
+      "questions": [
+        {
+          "question": "Which layer of the OSI model is responsible for logical addressing and routing?",
+          "options": ["Data Link Layer", "Network Layer", "Transport Layer", "Session Layer"],
+          "correctAnswer": "Network Layer",
+          "Help": "The Network layer handles the transfer of data between different networks using IP addresses."
+        },
+        {
+          "question": "What is the primary function of DHCP in a networked environment?",
+          "options": ["Encrypting data packets", "Resolving domain names to IP addresses", "Automatically assigning IP addresses to clients", "Filtering unauthorized network traffic"],
+          "correctAnswer": "Automatically assigning IP addresses to clients",
+          "Help": "DHCP stands for Dynamic Host Configuration Protocol."
+        },
+        {
+          "question": "When comparing 32-bit and 64-bit software, what is a primary limitation of 32-bit architecture?",
+          "options": ["It cannot run on modern CPUs", "It is limited to a maximum of 4GB of RAM", "It is exclusively for mobile devices", "It lacks basic security features"],
+          "correctAnswer": "It is limited to a maximum of 4GB of RAM",
+          "Help": "Memory addressing limits differ significantly between x86 and x64 architectures."
+        },
+        {
+          "question": "Which command would you use in a Windows command prompt to verify connectivity to a remote host?",
+          "options": ["ipconfig", "ping", "fsck", "chkdsk"],
+          "correctAnswer": "ping",
+          "Help": "Ping uses ICMP echo requests to test host reachability."
+        },
+        {
+          "question": "What is the purpose of a VPN in a business environment?",
+          "options": ["To speed up local internet access", "To provide a secure, encrypted connection over a public network", "To replace the need for physical firewalls", "To manage user password resets"],
+          "correctAnswer": "To provide a secure, encrypted connection over a public network",
+          "Help": "VPN stands for Virtual Private Network."
+        },
+        {
+          "question": "Which component is considered the 'brain' of the computer, executing instructions and processing data?",
+          "options": ["Motherboard", "GPU", "CPU", "RAM"],
+          "correctAnswer": "CPU",
+          "Help": "The Central Processing Unit handles primary instruction execution."
+        },
+        {
+          "question": "What is the function of the DNS in network communication?",
+          "options": ["Routing traffic between subnets", "Mapping human-readable domain names to IP addresses", "Managing the hardware switch ports", "Encrypting email traffic"],
+          "correctAnswer": "Mapping human-readable domain names to IP addresses",
+          "Help": "Domain Name System acts like a phonebook for the internet."
+        },
+        {
+          "question": "Which network hardware device is primarily used to connect multiple devices within the same local network segment?",
+          "options": ["Router", "Switch", "Modem", "Gateway"],
+          "correctAnswer": "Switch",
+          "Help": "Switches use MAC addresses to forward data to specific devices on the LAN."
+        },
+        {
+          "question": "What is a characteristic of SQL injection?",
+          "options": ["A method to gain unauthorized database access via user input", "A physical hardware failure in the server", "A tool for backing up system files", "A method to speed up database queries"],
+          "correctAnswer": "A method to gain unauthorized database access via user input",
+          "Help": "It involves inserting malicious code into query strings."
+        },
+        {
+          "question": "Which layer of the OSI model is responsible for physical transmission of data bits?",
+          "options": ["Application Layer", "Transport Layer", "Physical Layer", "Presentation Layer"],
+          "correctAnswer": "Physical Layer",
+          "Help": "This layer defines cables, connectors, and signals."
+        }
+      ]
+    },
+    {
+      "topic": "Service Desk Operations",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an IT ticketing system?",
+          "options": ["To track hardware inventory only", "To document, prioritize, and manage user support requests", "To monitor employee network usage", "To automate software deployments"],
+          "correctAnswer": "To document, prioritize, and manage user support requests",
+          "Help": "Ticketing systems provide an audit trail and help organize workload."
+        },
+        {
+          "question": "In IT support tiers, which level typically handles initial intake and simple password resets?",
+          "options": ["Tier 1", "Tier 2", "Tier 3", "Tier 4"],
+          "correctAnswer": "Tier 1",
+          "Help": "Tier 1 provides frontline help desk assistance."
+        },
+        {
+          "question": "When should an IT support agent escalate a ticket?",
+          "options": ["When they are too busy to handle the issue", "When the issue requires access rights or expertise beyond their scope", "When the user is frustrated with the agent", "When the ticket has been open for more than one hour"],
+          "correctAnswer": "When the issue requires access rights or expertise beyond their scope",
+          "Help": "Escalation ensures the right resources are applied to complex issues."
+        },
+        {
+          "question": "What is the first step in the standard troubleshooting methodology?",
+          "options": ["Implement the solution", "Identify the problem", "Test the theory", "Document the resolution"],
+          "correctAnswer": "Identify the problem",
+          "Help": "Accurate identification is critical before applying any fix."
+        },
+        {
+          "question": "Which software is an example of an IT Service Management (ITSM) tool?",
+          "options": ["Microsoft Word", "JIRA", "Adobe Photoshop", "Google Chrome"],
+          "correctAnswer": "JIRA",
+          "Help": "JIRA is widely used for issue tracking and project management."
+        },
+        {
+          "question": "Why is documentation important in service desk operations?",
+          "options": ["To punish agents who make mistakes", "To provide a knowledge base for recurring issues and speed up future resolutions", "To increase the cost of IT support", "To prevent users from knowing how to fix their own problems"],
+          "correctAnswer": "To provide a knowledge base for recurring issues and speed up future resolutions",
+          "Help": "Documentation facilitates knowledge sharing across the team."
+        },
+        {
+          "question": "What is the main goal of IT Service Management (ITSM)?",
+          "options": ["To provide IT services that align with business needs and goals", "To reduce the number of employees in the IT department", "To prioritize hardware upgrades over software updates", "To eliminate the need for user support"],
+          "correctAnswer": "To provide IT services that align with business needs and goals",
+          "Help": "ITSM focuses on delivering value to customers through IT services."
+        },
+        {
+          "question": "If a user reports a system running suspiciously slow, what is the best first step regarding malware?",
+          "options": ["Reformat the hard drive immediately", "Check for malware using reputable security software", "Ignore it until it crashes", "Delete all system files"],
+          "correctAnswer": "Check for malware using reputable security software",
+          "Help": "Always rule out security threats when performance degrades."
+        },
+        {
+          "question": "What should a technician do immediately after solving a problem?",
+          "options": ["Close the ticket without telling the user", "Verify with the user that the issue is fully resolved", "Request a raise", "Upgrade the user's software without permission"],
+          "correctAnswer": "Verify with the user that the issue is fully resolved",
+          "Help": "Closing the loop with the user ensures satisfaction and actual resolution."
+        },
+        {
+          "question": "Which of these is a common indicator of malware infection?",
+          "options": ["System running at high efficiency", "Unexplained pop-up windows or redirected browser searches", "Regular software updates running correctly", "Stable network connectivity"],
+          "correctAnswer": "Unexplained pop-up windows or redirected browser searches",
+          "Help": "Malware often hijacks browser settings or bombards the user with ads."
+        }
+      ]
+    },
+    {
+      "topic": "Hardware and Software Troubleshooting",
+      "questions": [
+        {
+          "question": "What is a common symptom of failing RAM?",
+          "options": ["Blue Screen of Death (BSOD) and random system crashes", "The monitor turning off", "The keyboard stops typing", "Slow internet speeds"],
+          "correctAnswer": "Blue Screen of Death (BSOD) and random system crashes",
+          "Help": "Unstable memory often results in OS crashes."
+        },
+        {
+          "question": "Which tool is best for safely cleaning dust out of a computer case?",
+          "options": ["A vacuum cleaner", "Compressed air", "A wet cloth", "A screwdriver"],
+          "correctAnswer": "Compressed air",
+          "Help": "Compressed air clears dust without damaging delicate components."
+        },
+        {
+          "question": "If a laser printer has streaks on the paper, what is a likely cause?",
+          "options": ["Lack of internet connection", "Toner drum or fuser unit issues", "The computer's GPU", "The printer's IP address"],
+          "correctAnswer": "Toner drum or fuser unit issues",
+          "Help": "Streaks often indicate debris on the drum or a failing fuser."
+        },
+        {
+          "question": "Which connector is primarily used for high-definition video and audio transmission?",
+          "options": ["USB-A", "HDMI", "VGA", "RJ-45"],
+          "correctAnswer": "HDMI",
+          "Help": "High-Definition Multimedia Interface is the standard for modern display connections."
+        },
+        {
+          "question": "What is the purpose of a 'rollout plan' in technical change management?",
+          "options": ["To determine the cost of new equipment", "To outline the steps for deploying a system change and handling potential failures", "To train the IT staff on how to use new software", "To identify employees who are not following rules"],
+          "correctAnswer": "To outline the steps for deploying a system change and handling potential failures",
+          "Help": "Rollout plans include backout strategies in case of errors."
+        },
+        {
+          "question": "What does a 'clean boot' help isolate when troubleshooting Windows?",
+          "options": ["Hardware failure", "Conflicts with startup applications or services", "Physical keyboard damage", "Network congestion"],
+          "correctAnswer": "Conflicts with startup applications or services",
+          "Help": "A clean boot runs Windows with minimal drivers and startup programs."
+        },
+        {
+          "question": "When troubleshooting a mobile device that is overheating, what should you check first?",
+          "options": ["The network signal strength", "Battery-draining apps running in the background", "The internal speakers", "The screen resolution"],
+          "correctAnswer": "Battery-draining apps running in the background",
+          "Help": "Over-processing and excessive battery use lead to heat."
+        },
+        {
+          "question": "What is the primary indicator of a potential storage drive failure?",
+          "options": ["The computer screen is too bright", "Clicking noises from the drive or extremely slow file access", "The mouse cursor disappearing", "The printer is offline"],
+          "correctAnswer": "Clicking noises from the drive or extremely slow file access",
+          "Help": "Hard drive clicking (the 'click of death') is a classic sign of mechanical failure."
+        },
+        {
+          "question": "Which type of printer is best suited for printing high-volume professional documents?",
+          "options": ["3D printer", "Laser printer", "Dot-matrix printer", "Thermal printer"],
+          "correctAnswer": "Laser printer",
+          "Help": "Laser printers are known for speed, efficiency, and document quality."
+        },
+        {
+          "question": "What is the first step when a piece of hardware is unresponsive?",
+          "options": ["Replace the component", "Restart the device", "Reinstall the operating system", "Upgrade the RAM"],
+          "correctAnswer": "Restart the device",
+          "Help": "A reboot is often the simplest and most effective fix for temporary hardware hang-ups."
+        }
+      ]
+    },
+    {
+      "topic": "IT Management and Administration",
+      "questions": [
+        {
+          "question": "What is the function of RDP (Remote Desktop Protocol)?",
+          "options": ["To transfer files between servers", "To remotely control a computer's desktop interface", "To encrypt emails", "To host virtual machines"],
+          "correctAnswer": "To remotely control a computer's desktop interface",
+          "Help": "RDP allows admins to troubleshoot or manage remote systems."
+        },
+        {
+          "question": "Which cloud service model provides a platform for developers to build and deploy applications?",
+          "options": ["IaaS", "PaaS", "SaaS", "DaaS"],
+          "correctAnswer": "PaaS",
+          "Help": "Platform as a Service abstracts the underlying infrastructure."
+        },
+        {
+          "question": "What does Active Directory use to organize objects like users, computers, and groups?",
+          "options": ["Flat files", "Domains and Organizational Units", "Excel spreadsheets", "Public cloud storage"],
+          "correctAnswer": "Domains and Organizational Units",
+          "Help": "AD uses a hierarchical structure for identity management."
+        },
+        {
+          "question": "Which protocol is commonly used for secure command-line remote administration?",
+          "options": ["FTP", "SSH", "HTTP", "SMTP"],
+          "correctAnswer": "SSH",
+          "Help": "Secure Shell provides encrypted communication for network services."
+        },
+        {
+          "question": "What is the role of a load balancer in a server environment?",
+          "options": ["To store backup files", "To distribute incoming network traffic across multiple servers", "To increase the CPU speed of a single server", "To monitor employee activity"],
+          "correctAnswer": "To distribute incoming network traffic across multiple servers",
+          "Help": "Load balancing ensures no single server is overwhelmed."
+        },
+        {
+          "question": "What do the acronyms DKIM, SPF, and DMARC refer to in IT management?",
+          "options": ["Cloud storage security", "Email authentication and spam mitigation", "Network cable standards", "Hardware inventory tags"],
+          "correctAnswer": "Email authentication and spam mitigation",
+          "Help": "These protocols help verify sender identity to prevent phishing."
+        },
+        {
+          "question": "What is a 'backout plan' in a change request?",
+          "options": ["The plan to return to the original state if a deployment fails", "The schedule for deleting old files", "The budget for buying new hardware", "The method for training new users"],
+          "correctAnswer": "The plan to return to the original state if a deployment fails",
+          "Help": "A backout plan is critical for risk mitigation."
+        },
+        {
+          "question": "Which cloud service model provides fully functional software applications to end-users over the internet?",
+          "options": ["IaaS", "PaaS", "SaaS", "SECaaS"],
+          "correctAnswer": "SaaS",
+          "Help": "Software as a Service provides apps like Google Workspace or Office 365."
+        },
+        {
+          "question": "In printer configuration, what does 'duplexing' mean?",
+          "options": ["Printing on both sides of the paper", "Printing in color", "Printing wirelessly", "Using two paper trays"],
+          "correctAnswer": "Printing on both sides of the paper",
+          "Help": "Duplexing reduces paper usage."
+        },
+        {
+          "question": "What is a key benefit of using a Remote Monitoring and Management (RMM) tool?",
+          "options": ["It automatically repairs hardware components", "It allows IT teams to monitor and manage thousands of endpoints centrally", "It provides physical security to the data center", "It replaces the need for a ticketing system"],
+          "correctAnswer": "It allows IT teams to monitor and manage thousands of endpoints centrally",
+          "Help": "RMM is essential for managed service providers."
+        }
+      ]
+    },
+    {
+      "topic": "Scenario Assessment (Sample)",
+      "questions": [
+        {
+          "question": "If a user is angry because their system is slow, which soft skill is most effective during the initial response?",
+          "options": ["Technical jargon", "Empathy and active listening", "Demanding they calm down", "Explaining the cost of the repair"],
+          "correctAnswer": "Empathy and active listening",
+          "Help": "Validating the user's frustration helps de-escalate the situation."
+        },
+        {
+          "question": "When presenting a technical solution to a non-technical judge, you should:",
+          "options": ["Use as many technical acronyms as possible", "Focus on the business impact and simple steps of the solution", "Speak as fast as possible", "Ignore the user's specific problem"],
+          "correctAnswer": "Focus on the business impact and simple steps of the solution",
+          "Help": "Clear communication is better than overwhelming the audience."
+        },
+        {
+          "question": "Which of the following demonstrates effective conflict resolution in a role play?",
+          "options": ["Telling the user they are wrong", "Asking the user to call back later", "Acknowledging the problem, offering a clear plan, and ensuring the user feels supported", "Ignoring the user's complaints"],
+          "correctAnswer": "Acknowledging the problem, offering a clear plan, and ensuring the user feels supported",
+          "Help": "Resolution involves both technical and human elements."
+        },
+        {
+          "question": "What is the purpose of the 20-minute preparation period in the FBLA role play?",
+          "options": ["To search the internet for answers", "To organize your thoughts and develop a structured response", "To talk to other competitors", "To practice your speech with your teacher"],
+          "correctAnswer": "To organize your thoughts and develop a structured response",
+          "Help": "Preparation time is for outlining your strategy."
+        },
+        {
+          "question": "If a judge asks a difficult question you cannot answer, what is the best professional approach?",
+          "options": ["Make up an answer", "Be honest, state you don't know, but offer a plan to research it", "Blame the company's IT policy", "Change the subject"],
+          "correctAnswer": "Be honest, state you don't know, but offer a plan to research it",
+          "Help": "Integrity is a key NACE competency."
+        },
+        {
+          "question": "Which item is strictly prohibited during the FBLA role play presentation?",
+          "options": ["Two notecards", "Your own laptop or tablet", "Professional attire", "Professional demeanor"],
+          "correctAnswer": "Your own laptop or tablet",
+          "Help": "No personal technology is allowed in the prep or presentation area."
+        },
+        {
+          "question": "In a role play, what should you do if the judge interrupts with a question?",
+          "options": ["Ignore the judge until you are finished", "Stop, listen actively, answer, and resume your presentation", "Ask the judge to leave", "Start your presentation over"],
+          "correctAnswer": "Stop, listen actively, answer, and resume your presentation",
+          "Help": "Interactive presentations require flexibility."
+        },
+        {
+          "question": "Which is an important element of a high-quality presentation?",
+          "options": ["A logical flow from problem statement to solution", "Reading exactly from the prompt", "Using lots of complex drawings", "Memorizing word-for-word"],
+          "correctAnswer": "A logical flow from problem statement to solution",
+          "Help": "Structure makes complex ideas digestible."
+        },
+        {
+          "question": "What happens if a competitor violates the dress code?",
+          "options": ["They get an extra notecard", "They receive a 5-point penalty", "They are disqualified immediately", "No action is taken"],
+          "correctAnswer": "They receive a 5-point penalty",
+          "Help": "Dress code is a part of professional appearance."
+        },
+        {
+          "question": "How should you conclude your role play presentation?",
+          "options": ["By thanking the judge and verifying their satisfaction", "By running out of the room", "By asking for a final score", "By discussing the next competitor"],
+          "correctAnswer": "By thanking the judge and verifying their satisfaction",
+          "Help": "Professional closure shows readiness and customer focus."
+        }
+      ]
+    },
+    {
+      "topic": "IT Fundamentals (Additional)",
+      "questions": [
+        {
+          "question": "What is the primary difference between a router and a switch?",
+          "options": ["Routers operate at the data link layer", "Routers connect networks together; switches connect devices within a network", "Switches are more secure than routers", "There is no functional difference"],
+          "correctAnswer": "Routers connect networks together; switches connect devices within a network",
+          "Help": "Routers use IP addresses for internetworking."
+        },
+        {
+          "question": "What is a major advantage of an SSD over a traditional HDD?",
+          "options": ["SSD is cheaper", "SSD has no moving parts and faster access speeds", "SSD is easier to repair", "SSD holds more data"],
+          "correctAnswer": "SSD has no moving parts and faster access speeds",
+          "Help": "Solid State Drives improve system responsiveness significantly."
+        },
+        {
+          "question": "Which protocol is the standard for web page transfer?",
+          "options": ["FTP", "SMTP", "HTTP", "DHCP"],
+          "correctAnswer": "HTTP",
+          "Help": "HyperText Transfer Protocol transmits web data."
+        },
+        {
+          "question": "What is the function of a firewall?",
+          "options": ["To boost CPU performance", "To monitor and filter network traffic based on security rules", "To cool the CPU", "To provide wireless connectivity"],
+          "correctAnswer": "To monitor and filter network traffic based on security rules",
+          "Help": "Firewalls are the first line of defense against unauthorized access."
+        },
+        {
+          "question": "Which operating system is known for its Unix-based foundation and mobile ecosystem integration?",
+          "options": ["Windows", "MacOS", "DOS", "BIOS"],
+          "correctAnswer": "MacOS",
+          "Help": "MacOS is built on a Unix foundation."
+        },
+        {
+          "question": "What does a 'ping' failure typically indicate?",
+          "options": ["A virus", "Network path blockage or target device being down", "The screen is broken", "Hard drive failure"],
+          "correctAnswer": "Network path blockage or target device being down",
+          "Help": "Ping tests host reachability across a network."
+        },
+        {
+          "question": "Which of these is a valid private IP address?",
+          "options": ["192.168.1.1", "8.8.8.8", "172.16.255.256", "200.1.1.1"],
+          "correctAnswer": "192.168.1.1",
+          "Help": "192.168.x.x is a private class C address range."
+        },
+        {
+          "question": "What is the function of the GPU in a modern PC?",
+          "options": ["Power regulation", "Rendering graphical content and specialized parallel processing", "Storing the OS", "Network management"],
+          "correctAnswer": "Rendering graphical content and specialized parallel processing",
+          "Help": "Graphics Processing Units are essential for displays and AI tasks."
+        },
+        {
+          "question": "What is a common password management best practice?",
+          "options": ["Writing passwords on a sticky note", "Using the same password for everything", "Using a password manager for unique, complex passwords", "Storing passwords in a text file"],
+          "correctAnswer": "Using a password manager for unique, complex passwords",
+          "Help": "Unique, complex passwords are vital for security."
+        },
+        {
+          "question": "Which port is commonly used for secure web browsing?",
+          "options": ["Port 21", "Port 80", "Port 443", "Port 25"],
+          "correctAnswer": "Port 443",
+          "Help": "Port 443 is the standard for HTTPS traffic."
+        },
+        {
+          "question": "What is the purpose of 'ping -t' in Windows?",
+          "options": ["To ping a host continuously until stopped", "To ping 10 times", "To ping once", "To ping with a timeout"],
+          "correctAnswer": "To ping a host continuously until stopped",
+          "Help": "The -t flag makes the ping request persistent."
+        },
+        {
+          "question": "Which layer manages data compression and encryption?",
+          "options": ["Physical", "Session", "Presentation", "Application"],
+          "correctAnswer": "Presentation",
+          "Help": "The Presentation layer formats data for the application."
+        },
+        {
+          "question": "Which component manages data between the CPU and other hardware?",
+          "options": ["Motherboard", "GPU", "Monitor", "Printer"],
+          "correctAnswer": "Motherboard",
+          "Help": "The motherboard provides pathways for component communication."
+        },
+        {
+          "question": "What is the primary function of a modem?",
+          "options": ["Connecting internal devices", "Converting digital signals to analog and vice-versa for ISP access", "Providing local Wi-Fi", "Controlling the screen"],
+          "correctAnswer": "Converting digital signals to analog and vice-versa for ISP access",
+          "Help": "Modem stands for Modulator-Demodulator."
+        },
+        {
+          "question": "What is a DDoS attack?",
+          "options": ["A repair method", "A distributed attack meant to overwhelm a service with traffic", "A secure software update", "A standard backup protocol"],
+          "correctAnswer": "A distributed attack meant to overwhelm a service with traffic",
+          "Help": "Distributed Denial of Service aims to make a system unavailable."
+        },
+        {
+          "question": "Which of these is a common network cable type?",
+          "options": ["HDMI", "USB-C", "Cat6", "SATA"],
+          "correctAnswer": "Cat6",
+          "Help": "Category 6 cable is a standard for Ethernet networking."
+        },
+        {
+          "question": "What does DHCP provide besides an IP address?",
+          "options": ["DNS server information and default gateway", "Email passwords", "User permissions", "Remote access"],
+          "correctAnswer": "DNS server information and default gateway",
+          "Help": "DHCP configures the full network stack for a client."
+        },
+        {
+          "question": "What is the purpose of a firewall's 'deny all' rule?",
+          "options": ["To allow every connection", "To block all traffic unless specifically permitted", "To restart the computer", "To delete logs"],
+          "correctAnswer": "To block all traffic unless specifically permitted",
+          "Help": "This follows the 'principle of least privilege'."
+        },
+        {
+          "question": "Which Windows tool checks file system integrity?",
+          "options": ["ping", "chkdsk", "ipconfig", "netstat"],
+          "correctAnswer": "chkdsk",
+          "Help": "Check Disk identifies and repairs file system errors."
+        },
+        {
+          "question": "What is a 'packet' in networking?",
+          "options": ["A physical component", "A formatted unit of data sent over a network", "A type of printer cable", "A security vulnerability"],
+          "correctAnswer": "A formatted unit of data sent over a network",
+          "Help": "Data is broken into packets for efficient network delivery."
+        }
+      ]
+    },
+    {
+      "topic": "Service Desk (Additional)",
+      "questions": [
+        {
+          "question": "What is an SLA in service desk terms?",
+          "options": ["Service Level Agreement", "System Logging Action", "Software License Adjustment", "Standard Logic Application"],
+          "correctAnswer": "Service Level Agreement",
+          "Help": "SLA defines the expected performance level between provider and client."
+        },
+        {
+          "question": "What should a technician do if they identify malware during a scan?",
+          "options": ["Delete the user account", "Isolate the device from the network", "Ignore it", "Reinstall hardware"],
+          "correctAnswer": "Isolate the device from the network",
+          "Help": "Isolation prevents the malware from spreading to other systems."
+        },
+        {
+          "question": "What is 'First Contact Resolution'?",
+          "options": ["Closing a ticket at the first interaction with the user", "Calling the user back", "Escalating immediately", "Ignoring the ticket"],
+          "correctAnswer": "Closing a ticket at the first interaction with the user",
+          "Help": "This is a key performance metric for help desks."
+        },
+        {
+          "question": "What is an IT support 'Tier 2' specialist?",
+          "options": ["A manager", "A technician with more advanced technical skills", "A new trainee", "A remote user"],
+          "correctAnswer": "A technician with more advanced technical skills",
+          "Help": "Tier 2 handles issues that Tier 1 cannot resolve."
+        },
+        {
+          "question": "What is an 'incident' in ITIL terms?",
+          "options": ["An unplanned interruption to an IT service", "A new hardware purchase", "A routine update", "An employee training session"],
+          "correctAnswer": "An unplanned interruption to an IT service",
+          "Help": "Managing incidents is the core function of the help desk."
+        },
+        {
+          "question": "What is the best way to develop a plan of action?",
+          "options": ["Guessing", "Consulting documentation and testing theories", "Asking the user to fix it themselves", "Ignoring the problem"],
+          "correctAnswer": "Consulting documentation and testing theories",
+          "Help": "Structured troubleshooting is key."
+        },
+        {
+          "question": "What is a 'Knowledge Base'?",
+          "options": ["A physical library", "A digital library of technical solutions and articles", "A list of employee names", "The computer hardware room"],
+          "correctAnswer": "A digital library of technical solutions and articles",
+          "Help": "It serves as a primary resource for support teams."
+        },
+        {
+          "question": "Why is customer service important in IT?",
+          "options": ["It increases hardware costs", "It improves the user experience and perception of IT value", "It makes the help desk unnecessary", "It is only for marketing"],
+          "correctAnswer": "It improves the user experience and perception of IT value",
+          "Help": "IT is a service organization."
+        },
+        {
+          "question": "What is the role of a 'Service Desk Manager'?",
+          "options": ["To fix computers all day", "To manage team performance and process adherence", "To buy new hardware", "To delete tickets"],
+          "correctAnswer": "To manage team performance and process adherence",
+          "Help": "They oversee the effectiveness of the support operation."
+        },
+        {
+          "question": "Which of these is a troubleshooting step?",
+          "options": ["Establishing a theory of probable cause", "Ignoring the symptom", "Blaming the user", "Buying a new printer"],
+          "correctAnswer": "Establishing a theory of probable cause",
+          "Help": "Formulating a theory is central to systematic troubleshooting."
+        }
+      ]
+    },
+    {
+      "topic": "Hardware/Software (Additional)",
+      "questions": [
+        {
+          "question": "What causes 'ghosting' on an LCD display?",
+          "options": ["A software virus", "Persistent image retention", "Lack of memory", "Keyboard failure"],
+          "correctAnswer": "Persistent image retention",
+          "Help": "Ghosting occurs when old images remain visible on the screen."
+        },
+        {
+          "question": "What is a 'cold boot'?",
+          "options": ["Starting a computer from a powered-off state", "Restarting a warm computer", "Installing a driver", "Connecting a printer"],
+          "correctAnswer": "Starting a computer from a powered-off state",
+          "Help": "A cold boot initializes all hardware from scratch."
+        },
+        {
+          "question": "What is the purpose of 'freeze spray' in troubleshooting?",
+          "options": ["To cool components for thermal testing", "To fix screen cracks", "To clean the keyboard", "To speed up the internet"],
+          "correctAnswer": "To cool components for thermal testing",
+          "Help": "Freeze spray helps identify temperature-sensitive hardware faults."
+        },
+        {
+          "question": "What does a 'beep code' during startup indicate?",
+          "options": ["Hardware failure detected by BIOS", "The computer is ready", "Successful update", "Normal operation"],
+          "correctAnswer": "Hardware failure detected by BIOS",
+          "Help": "Beep codes are audio diagnostics for hardware issues."
+        },
+        {
+          "question": "What is a common reason for a laptop to lose battery life quickly?",
+          "options": ["Background background processes and battery aging", "The Wi-Fi speed", "The screen brightness", "The operating system"],
+          "correctAnswer": "Background background processes and battery aging",
+          "Help": "Battery health degrades over charge cycles."
+        },
+        {
+          "question": "What type of printer uses a drum and laser to fix toner to paper?",
+          "options": ["Inkjet", "Laser", "Dot-matrix", "Thermal"],
+          "correctAnswer": "Laser",
+          "Help": "Laser printers use electrostatic processes."
+        },
+        {
+          "question": "What is the role of the BIOS/UEFI?",
+          "options": ["To run the OS", "To initialize hardware during the boot process", "To connect to the internet", "To manage file downloads"],
+          "correctAnswer": "To initialize hardware during the boot process",
+          "Help": "BIOS/UEFI is the first software to run at power-on."
+        },
+        {
+          "question": "Which of these is an example of a software problem?",
+          "options": ["Broken screen", "Corrupted OS driver", "Disconnected cable", "Overheating CPU"],
+          "correctAnswer": "Corrupted OS driver",
+          "Help": "Drivers are software components."
+        },
+        {
+          "question": "How do you clean an optical mouse sensor?",
+          "options": ["Using a cotton swab and compressed air", "Using soap and water", "Using a magnet", "Reinstalling the OS"],
+          "correctAnswer": "Using a cotton swab and compressed air",
+          "Help": "Debris in the sensor lens causes erratic movement."
+        },
+        {
+          "question": "What should you check if a monitor won't turn on?",
+          "options": ["The power cable and display cable", "The RAM usage", "The CPU temperature", "The internet speed"],
+          "correctAnswer": "The power cable and display cable",
+          "Help": "Power and video signals are the first points of failure."
+        }
+      ]
+    },
+    {
+      "topic": "Management/Admin (Additional)",
+      "questions": [
+        {
+          "question": "What is FTP used for?",
+          "options": ["Remote desktop", "Secure file transfer", "Email", "Web browsing"],
+          "correctAnswer": "Secure file transfer",
+          "Help": "FTP (File Transfer Protocol) is for moving files."
+        },
+        {
+          "question": "What is the role of change management?",
+          "options": ["To maximize risk", "To minimize disruption during system changes", "To hire new employees", "To sell software"],
+          "correctAnswer": "To minimize disruption during system changes",
+          "Help": "Change management provides a controlled process for updates."
+        },
+        {
+          "question": "Which of these is a cloud deployment model?",
+          "options": ["PaaS", "Physical storage", "Manual tape backup", "Disk drive"],
+          "correctAnswer": "PaaS",
+          "Help": "PaaS is one of the three main cloud service models."
+        },
+        {
+          "question": "What does a printer's orientation setting control?",
+          "options": ["Paper size", "Portrait vs. Landscape", "Color accuracy", "Paper tray usage"],
+          "correctAnswer": "Portrait vs. Landscape",
+          "Help": "Orientation affects how the page content is laid out."
+        },
+        {
+          "question": "What is a 3D printer?",
+          "options": ["An additive manufacturing device", "A printer that uses liquid ink", "A paper-based printer", "A networking device"],
+          "correctAnswer": "An additive manufacturing device",
+          "Help": "3D printers build objects layer by layer."
+        },
+        {
+          "question": "What is an RDP session?",
+          "options": ["A file transfer", "An email exchange", "A graphical connection to a remote machine", "A printer configuration"],
+          "correctAnswer": "A graphical connection to a remote machine",
+          "Help": "RDP allows remote Windows management."
+        },
+        {
+          "question": "What does SPF do for emails?",
+          "options": ["Authenticates the sender's IP address to prevent spoofing", "Encrypts the message", "Compresses the attachment", "Increases speed"],
+          "correctAnswer": "Authenticates the sender's IP address to prevent spoofing",
+          "Help": "Sender Policy Framework confirms authorized mail servers."
+        },
+        {
+          "question": "Why use a load balancer?",
+          "options": ["To avoid server bottlenecks", "To change passwords", "To delete old logs", "To monitor emails"],
+          "correctAnswer": "To avoid server bottlenecks",
+          "Help": "It spreads load to prevent any one server from crashing."
+        },
+        {
+          "question": "What is Active Directory primarily used for?",
+          "options": ["Game hosting", "Centralized network identity and access management", "File compression", "Web browsing"],
+          "correctAnswer": "Centralized network identity and access management",
+          "Help": "AD is the backbone of Windows network security."
+        },
+        {
+          "question": "What is IaaS?",
+          "options": ["Infrastructure as a Service", "Internet as a Service", "Internal as a Service", "Image as a Service"],
+          "correctAnswer": "Infrastructure as a Service",
+          "Help": "IaaS provides raw compute/storage resources."
+        }
+      ]
+    }
+  ]
+}
