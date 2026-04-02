@@ -1,0 +1,1040 @@
+{
+  "testName": "Retail Management Competitive Exam",
+  "topics": [
+    {
+      "topic": "Foundational Retail Knowledge",
+      "questions": [
+        {
+          "question": "Which of the following best distinguishes retailing from marketing?",
+          "options": [
+            "Retailing is a subset of marketing focused on the final sale to consumers",
+            "Marketing is a subset of retailing focused on branding",
+            "Retailing involves only physical goods, while marketing involves services",
+            "Marketing is exclusively for B2B, while retailing is B2C"
+          ],
+          "correctAnswer": "Retailing is a subset of marketing focused on the final sale to consumers",
+          "Help": "Retail is the final step in the distribution channel."
+        },
+        {
+          "question": "How does advanced data analytics impact modern retail operations?",
+          "options": [
+            "It eliminates the need for physical store locations",
+            "It enables precise inventory forecasting and personalized marketing",
+            "It reduces the necessity of a sales team",
+            "It strictly regulates national trade laws"
+          ],
+          "correctAnswer": "It enables precise inventory forecasting and personalized marketing",
+          "Help": "Technology allows retailers to analyze patterns to predict demand."
+        },
+        {
+          "question": "What is the primary objective of distribution channels in retail?",
+          "options": [
+            "To minimize the number of intermediaries",
+            "To maximize the cost of logistics",
+            "To ensure products reach consumers efficiently and effectively",
+            "To provide products directly from manufacturers to warehouses only"
+          ],
+          "correctAnswer": "To ensure products reach consumers efficiently and effectively",
+          "Help": "Distribution focuses on the path from creator to user."
+        },
+        {
+          "question": "Why would a retailer use a centralized database for inventory control?",
+          "options": [
+            "To increase the cost of customer returns",
+            "To prevent employees from viewing stock levels",
+            "To provide real-time data for replenishment and trend analysis",
+            "To reduce the tax burden of unsold inventory"
+          ],
+          "correctAnswer": "To provide real-time data for replenishment and trend analysis",
+          "Help": "Data transparency helps in making informed stocking decisions."
+        },
+        {
+          "question": "Which of the following is a fundamental aspect of the retail supply chain?",
+          "options": [
+            "Manufacturing the raw materials",
+            "Managing the flow of goods to the end consumer",
+            "Regulating the stock market value of retailers",
+            "Setting the global price of raw commodities"
+          ],
+          "correctAnswer": "Managing the flow of goods to the end consumer",
+          "Help": "Retail focuses on the 'last mile' of the supply chain."
+        },
+        {
+          "question": "What is the primary function of retail in the economy?",
+          "options": [
+            "To produce raw materials for factories",
+            "To provide a marketplace for final goods exchange",
+            "To regulate the global manufacturing process",
+            "To serve as the sole source of product development"
+          ],
+          "correctAnswer": "To provide a marketplace for final goods exchange",
+          "Help": "Retailers act as the bridge between producers and consumers."
+        },
+        {
+          "question": "How does technology improve retail customer service?",
+          "options": [
+            "By replacing human staff with robots entirely",
+            "By allowing for automated inventory tracking and CRM integration",
+            "By increasing the time required to complete a transaction",
+            "By limiting access to online shopping platforms"
+          ],
+          "correctAnswer": "By allowing for automated inventory tracking and CRM integration",
+          "Help": "Integrated systems improve speed and accuracy."
+        },
+        {
+          "question": "What does 'nature and scope of distribution' encompass?",
+          "options": [
+            "The distance between the manufacturer and the store",
+            "The physical activities and organizational decisions involved in moving products",
+            "The method used to advertise new products",
+            "The calculation of retail markup percentages"
+          ],
+          "correctAnswer": "The physical activities and organizational decisions involved in moving products",
+          "Help": "Distribution covers moving goods from A to B."
+        },
+        {
+          "question": "What is the benefit of utilizing Point of Sale (POS) systems in retail?",
+          "options": [
+            "Eliminating the need for store managers",
+            "Tracking inventory turnover and sales performance automatically",
+            "Reducing the product variety in a store",
+            "Increasing the cost of goods sold"
+          ],
+          "correctAnswer": "Tracking inventory turnover and sales performance automatically",
+          "Help": "POS systems capture transaction data in real time."
+        },
+        {
+          "question": "Which factor most significantly influences modern retail strategies?",
+          "options": [
+            "Decreasing interest in online shopping",
+            "Consumer demand for seamless omni-channel experiences",
+            "The elimination of international shipping",
+            "Uniform pricing across all geographical markets"
+          ],
+          "correctAnswer": "Consumer demand for seamless omni-channel experiences",
+          "Help": "Modern retail is about connecting physical and digital shopping."
+        }
+      ]
+    },
+    {
+      "topic": "Selling",
+      "questions": [
+        {
+          "question": "What is the primary purpose of 'suggestion selling'?",
+          "options": [
+            "To clear out unpopular inventory",
+            "To increase the total transaction value through related items",
+            "To pressure the customer into buying more items",
+            "To shorten the time the customer spends in the store"
+          ],
+          "correctAnswer": "To increase the total transaction value through related items",
+          "Help": "Think of it as 'add-ons' that benefit the customer."
+        },
+        {
+          "question": "When a customer objects to the price, the most professional response is to:",
+          "options": [
+            "Tell the customer the price is set by corporate",
+            "Explain the value and features that justify the price",
+            "Offer an immediate discount without questioning",
+            "Ignore the objection and continue the sales pitch"
+          ],
+          "correctAnswer": "Explain the value and features that justify the price",
+          "Help": "Turn an objection into an opportunity to educate."
+        },
+        {
+          "question": "What is the final step in a successful retail sale?",
+          "options": [
+            "Asking for the customer's contact information",
+            "Closing the sale and ensuring customer satisfaction",
+            "Counting the money in the register",
+            "Ordering new stock to replace the item"
+          ],
+          "correctAnswer": "Closing the sale and ensuring customer satisfaction",
+          "Help": "The process ends when the deal is secured and the customer is happy."
+        },
+        {
+          "question": "What does monitoring on-floor selling activities help a manager do?",
+          "options": [
+            "Evaluate staff performance and identify training needs",
+            "Reduce the number of customers in the store",
+            "Change the prices of products throughout the day",
+            "Determine which items have the highest wholesale cost"
+          ],
+          "correctAnswer": "Evaluate staff performance and identify training needs",
+          "Help": "Observation is key to coaching and improving sales."
+        },
+        {
+          "question": "Why is it important for sales staff to be informed about incoming merchandise?",
+          "options": [
+            "To store merchandise in the back room immediately",
+            "To answer customer inquiries accurately about new inventory",
+            "To determine the manufacturer's shipping methods",
+            "To adjust the store's rent expenses"
+          ],
+          "correctAnswer": "To answer customer inquiries accurately about new inventory",
+          "Help": "Knowledgeable staff provide a better customer experience."
+        },
+        {
+          "question": "When demonstrating a product, a salesperson should focus on:",
+          "options": [
+            "The profit margin of the product",
+            "How the features solve the customer's specific needs",
+            "The manufacturer's history",
+            "The logistical shipping process"
+          ],
+          "correctAnswer": "How the features solve the customer's specific needs",
+          "Help": "Focus on the benefit, not just the technical spec."
+        },
+        {
+          "question": "Which of the following is a critical part of processing retail sales documentation?",
+          "options": [
+            "Ensuring accurate records for inventory and financial audits",
+            "Publicizing the sale prices on social media",
+            "Designing the storefront window display",
+            "Analyzing market competition trends"
+          ],
+          "correctAnswer": "Ensuring accurate records for inventory and financial audits",
+          "Help": "Sales documentation is essential for accounting."
+        },
+        {
+          "question": "Which technique is best for handling an objection about product quality?",
+          "options": [
+            "Agreeing with the customer and moving on to another product",
+            "Explaining the product's durability and providing evidence or testimonials",
+            "Admitting the product is lower quality than the competition",
+            "Focusing solely on the low price of the product"
+          ],
+          "correctAnswer": "Explaining the product's durability and providing evidence or testimonials",
+          "Help": "Address concerns with facts and confidence."
+        },
+        {
+          "question": "What is an effective way to close a sale?",
+          "options": [
+            "Waiting for the customer to ask for the bill",
+            "Asking a direct question like 'Would you like to pay with cash or card?'",
+            "Telling the customer they have to buy it now",
+            "Ignoring the customer until they bring the item to the counter"
+          ],
+          "correctAnswer": "Asking a direct question like 'Would you like to pay with cash or card?'",
+          "Help": "A direct close assumes the customer has made a decision."
+        },
+        {
+          "question": "Suggestion selling is most effective when the additional item:",
+          "options": [
+            "Is the most expensive item in the store",
+            "Complements or enhances the primary item purchased",
+            "Is completely unrelated to the primary item",
+            "Has a very low profit margin"
+          ],
+          "correctAnswer": "Complements or enhances the primary item purchased",
+          "Help": "Think of batteries for a toy or socks for shoes."
+        }
+      ]
+    },
+    {
+      "topic": "Pricing",
+      "questions": [
+        {
+          "question": "What is the primary disadvantage of cost-plus pricing?",
+          "options": [
+            "It is difficult to calculate",
+            "It ignores consumer demand and market competition",
+            "It requires high levels of technology",
+            "It results in too many sales"
+          ],
+          "correctAnswer": "It ignores consumer demand and market competition",
+          "Help": "Just because it costs a certain amount to make doesn't mean customers will pay for it."
+        },
+        {
+          "question": "What does a break-even analysis help a retailer determine?",
+          "options": [
+            "The maximum profit they can make in one day",
+            "The number of units that must be sold to cover all costs",
+            "The total number of staff needed for a store",
+            "The percentage of market share in the industry"
+          ],
+          "correctAnswer": "The number of units that must be sold to cover all costs",
+          "Help": "At the break-even point, profit is zero."
+        },
+        {
+          "question": "Which pricing approach sets prices based on what customers are willing to pay?",
+          "options": [
+            "Cost-oriented pricing",
+            "Demand-oriented pricing",
+            "Competition-oriented pricing",
+            "Markup-oriented pricing"
+          ],
+          "correctAnswer": "Demand-oriented pricing",
+          "Help": "Demand determines the perceived value."
+        },
+        {
+          "question": "Return on Investment (ROI) in pricing refers to:",
+          "options": [
+            "The cost of the building lease",
+            "The percentage of profit relative to the cost of the investment",
+            "The total number of units returned by customers",
+            "The shipping cost of raw materials"
+          ],
+          "correctAnswer": "The percentage of profit relative to the cost of the investment",
+          "Help": "ROI measures how efficiently capital is used."
+        },
+        {
+          "question": "When a retailer sets prices lower than competitors to gain market share, this is called:",
+          "options": [
+            "Competitive pricing",
+            "Penetration pricing",
+            "Markup pricing",
+            "Break-even pricing"
+          ],
+          "correctAnswer": "Penetration pricing",
+          "Help": "The goal is to 'penetrate' the market quickly."
+        },
+        {
+          "question": "How is 'markup' calculated?",
+          "options": [
+            "Total revenue minus fixed costs",
+            "The difference between the selling price and the cost of the goods",
+            "The total cost of goods sold divided by units",
+            "The cost of the product plus transportation"
+          ],
+          "correctAnswer": "The difference between the selling price and the cost of the goods",
+          "Help": "Markup is the 'cushion' added to costs to make a profit."
+        },
+        {
+          "question": "What is the effect of using competition-oriented pricing?",
+          "options": [
+            "It avoids price wars by setting unique prices",
+            "It helps align store prices with the current market average",
+            "It guarantees the highest profit margin",
+            "It requires constant changes to product design"
+          ],
+          "correctAnswer": "It helps align store prices with the current market average",
+          "Help": "Keep an eye on what others are charging."
+        },
+        {
+          "question": "What is a fixed cost in a retail business?",
+          "options": [
+            "Inventory purchase costs",
+            "Rent and insurance payments",
+            "Sales commissions",
+            "Customer shipping costs"
+          ],
+          "correctAnswer": "Rent and insurance payments",
+          "Help": "Fixed costs stay the same regardless of how many units you sell."
+        },
+        {
+          "question": "Which pricing strategy assumes customers are sensitive to price changes?",
+          "options": [
+            "Prestige pricing",
+            "Demand-oriented pricing",
+            "Markup pricing",
+            "Cost-plus pricing"
+          ],
+          "correctAnswer": "Demand-oriented pricing",
+          "Help": "Elastic demand means price impacts quantity sold."
+        },
+        {
+          "question": "Why would a retailer decide to mark up products differently across departments?",
+          "options": [
+            "To ensure all products sell at the same speed",
+            "Because different categories have different operating costs and turnover rates",
+            "To force customers to visit all store sections",
+            "Because the tax code mandates different markups"
+          ],
+          "correctAnswer": "Because different categories have different operating costs and turnover rates",
+          "Help": "Some items require more handling and thus a higher markup."
+        }
+      ]
+    },
+    {
+      "topic": "Market Planning",
+      "questions": [
+        {
+          "question": "What is the primary purpose of profiling a target customer?",
+          "options": [
+            "To limit the number of products sold",
+            "To tailor marketing, product mix, and services to specific needs",
+            "To avoid reaching out to new demographics",
+            "To increase the cost of advertising"
+          ],
+          "correctAnswer": "To tailor marketing, product mix, and services to specific needs",
+          "Help": "Targeting allows for efficient resource allocation."
+        },
+        {
+          "question": "How do retailers determine market needs?",
+          "options": [
+            "By guessing based on competitor advertisements",
+            "By analyzing customer feedback, market research, and purchasing trends",
+            "By strictly following government-mandated sales quotas",
+            "By limiting the variety of products offered"
+          ],
+          "correctAnswer": "By analyzing customer feedback, market research, and purchasing trends",
+          "Help": "Use data to find what customers actually want."
+        },
+        {
+          "question": "Which indicator is most useful for forecasting customer demand?",
+          "options": [
+            "Historical sales data and economic indicators",
+            "The store manager's personal preference",
+            "The distance to the nearest competitor",
+            "The physical size of the warehouse"
+          ],
+          "correctAnswer": "Historical sales data and economic indicators",
+          "Help": "Past performance often signals future trends."
+        },
+        {
+          "question": "A target market segment is defined by:",
+          "options": [
+            "The geographic location of the owner's home",
+            "Common characteristics like demographics, psychographics, or behaviors",
+            "The price of the most expensive item in the store",
+            "The number of employees working in the warehouse"
+          ],
+          "correctAnswer": "Common characteristics like demographics, psychographics, or behaviors",
+          "Help": "Segmentation groups people based on shared traits."
+        },
+        {
+          "question": "What is a key factor in assessing customer demand?",
+          "options": [
+            "The total number of staff in the company",
+            "The disposable income of the target audience",
+            "The color of the store’s signage",
+            "The length of the checkout line"
+          ],
+          "correctAnswer": "The disposable income of the target audience",
+          "Help": "Demand depends on ability to pay."
+        },
+        {
+          "question": "Why should retailers conduct market research before launching a new product?",
+          "options": [
+            "To ensure the product is cheaper to manufacture",
+            "To determine if there is a viable market demand",
+            "To limit the number of suppliers used",
+            "To increase the complexity of the inventory system"
+          ],
+          "correctAnswer": "To determine if there is a viable market demand",
+          "Help": "Research reduces the risk of failure."
+        },
+        {
+          "question": "What is psychographic profiling in retail?",
+          "options": [
+            "Focusing on where customers live",
+            "Focusing on customer lifestyles, values, and interests",
+            "Focusing on the age of the customer",
+            "Focusing on the gender of the customer"
+          ],
+          "correctAnswer": "Focusing on customer lifestyles, values, and interests",
+          "Help": "Psychographics go deeper than age or location."
+        },
+        {
+          "question": "Market planning primarily involves:",
+          "options": [
+            "Developing strategies to reach goals and satisfy customers",
+            "Planning the warehouse floor layout",
+            "Calculating the daily break-even point",
+            "Managing the store's utility bills"
+          ],
+          "correctAnswer": "Developing strategies to reach goals and satisfy customers",
+          "Help": "Planning connects business goals to market opportunities."
+        },
+        {
+          "question": "Which of these is an example of demographic segmentation?",
+          "options": [
+            "Values and personality traits",
+            "Age, gender, and income level",
+            "Shopping habits and frequency",
+            "Geographic region and climate"
+          ],
+          "correctAnswer": "Age, gender, and income level",
+          "Help": "Demographics are quantifiable social statistics."
+        },
+        {
+          "question": "How does market planning affect product inventory levels?",
+          "options": [
+            "It makes inventory planning unnecessary",
+            "It ensures stock levels match anticipated market demand",
+            "It forces inventory to be sold at a loss",
+            "It prevents the use of automated stock systems"
+          ],
+          "correctAnswer": "It ensures stock levels match anticipated market demand",
+          "Help": "Planning prevents overstocking and stockouts."
+        }
+      ]
+    },
+    {
+      "topic": "Warehousing and Transportation",
+      "questions": [
+        {
+          "question": "What is the primary goal of efficient warehouse space planning?",
+          "options": [
+            "To maximize storage capacity and accessibility",
+            "To minimize the number of workers needed in the warehouse",
+            "To store all inventory in a single location",
+            "To make the warehouse look appealing to customers"
+          ],
+          "correctAnswer": "To maximize storage capacity and accessibility",
+          "Help": "Efficient layout means faster picking and storage."
+        },
+        {
+          "question": "When selecting a shipping method, what is the most important trade-off?",
+          "options": [
+            "Cost vs. Speed/Reliability",
+            "Package color vs. Shipping label size",
+            "Warehouse size vs. Store size",
+            "Manufacturer location vs. Store location"
+          ],
+          "correctAnswer": "Cost vs. Speed/Reliability",
+          "Help": "Fast shipping is usually more expensive; cheap shipping is usually slower."
+        },
+        {
+          "question": "Which of the following is part of the shipping process?",
+          "options": [
+            "Determining the retail price of the goods",
+            "Order picking, packaging, labeling, and dispatching",
+            "Designing the marketing campaign for the item",
+            "Calculating the store's monthly rent"
+          ],
+          "correctAnswer": "Order picking, packaging, labeling, and dispatching",
+          "Help": "The shipping process involves getting items out the door."
+        },
+        {
+          "question": "Why is inventory accessibility important in a warehouse?",
+          "options": [
+            "To prevent the need for inventory labels",
+            "To reduce the time required to fulfill orders",
+            "To ensure the warehouse is never empty",
+            "To increase the insurance cost of the inventory"
+          ],
+          "correctAnswer": "To reduce the time required to fulfill orders",
+          "Help": "Easy access = faster fulfillment."
+        },
+        {
+          "question": "What does a cross-docking system involve in warehousing?",
+          "options": [
+            "Storing products for long periods",
+            "Directly transferring items from incoming trucks to outgoing trucks",
+            "Selling items directly to customers from the loading dock",
+            "Always choosing the slowest, cheapest transport method"
+          ],
+          "correctAnswer": "Directly transferring items from incoming trucks to outgoing trucks",
+          "Help": "Cross-docking minimizes handling and storage time."
+        }
+      ]
+    },
+    {
+      "topic": "Inventory Control",
+      "questions": [
+        {
+          "question": "What is 'inventory shrinkage'?",
+          "options": [
+            "The natural growth of products over time",
+            "Loss of inventory due to theft, damage, or record errors",
+            "The act of putting products on sale",
+            "The process of counting items at the end of the year"
+          ],
+          "correctAnswer": "Loss of inventory due to theft, damage, or record errors",
+          "Help": "Shrinkage is the difference between recorded stock and actual stock."
+        },
+        {
+          "question": "What is a perpetual inventory system?",
+          "options": [
+            "An inventory count taken once a year",
+            "A system that updates stock levels continuously as sales occur",
+            "A system that only tracks inventory at the vendor level",
+            "A method of storing inventory in a warehouse forever"
+          ],
+          "correctAnswer": "A system that updates stock levels continuously as sales occur",
+          "Help": "Perpetual means ongoing and constant."
+        },
+        {
+          "question": "Allocating merchandise to specific stores is essential for:",
+          "options": [
+            "Avoiding stockouts and optimizing inventory at each location",
+            "Increasing the wholesale price of goods",
+            "Reducing the need for customer service staff",
+            "Standardizing the store’s interior design"
+          ],
+          "correctAnswer": "Avoiding stockouts and optimizing inventory at each location",
+          "Help": "The right amount of stock in the right place."
+        },
+        {
+          "question": "What does tracking inventory by department or class allow a retailer to do?",
+          "options": [
+            "Analyze the sales performance of different product categories",
+            "Eliminate the need to track individual units",
+            "Charge higher taxes on certain departments",
+            "Only sell products online"
+          ],
+          "correctAnswer": "Analyze the sales performance of different product categories",
+          "Help": "Class-level tracking helps identify which categories make money."
+        },
+        {
+          "question": "What is a physical inventory count used for?",
+          "options": [
+            "To replace a perpetual inventory system entirely",
+            "To reconcile actual on-hand stock with the records",
+            "To increase the prices of all items",
+            "To train new employees on customer service"
+          ],
+          "correctAnswer": "To reconcile actual on-hand stock with the records",
+          "Help": "It’s a check-and-balance process."
+        },
+        {
+          "question": "How can retailers reduce inventory shrinkage?",
+          "options": [
+            "By leaving items unattended on the floor",
+            "By improving security measures and inventory record-keeping",
+            "By ignoring missing stock when it occurs",
+            "By only accepting cash payments"
+          ],
+          "correctAnswer": "By improving security measures and inventory record-keeping",
+          "Help": "Accountability and security reduce loss."
+        },
+        {
+          "question": "What does 'unit inventory control' focus on?",
+          "options": [
+            "The monetary value of all goods in the store",
+            "The quantity of individual items tracked within the system",
+            "The total rent of the warehouse",
+            "The distance from the manufacturer to the retail store"
+          ],
+          "correctAnswer": "The quantity of individual items tracked within the system",
+          "Help": "Unit control is about counting the pieces."
+        },
+        {
+          "question": "Which of these is a common cause of inventory record error?",
+          "options": [
+            "Accurate and consistent cycle counting",
+            "Failure to record transactions at the point of sale",
+            "High levels of employee training",
+            "Over-ordering merchandise from vendors"
+          ],
+          "correctAnswer": "Failure to record transactions at the point of sale",
+          "Help": "If it isn't scanned, the system doesn't know it's gone."
+        },
+        {
+          "question": "What is cycle counting?",
+          "options": [
+            "Counting every item in the store simultaneously",
+            "Counting small portions of inventory on a rotating schedule",
+            "Counting only the most expensive items in the store",
+            "Ignoring inventory counts until the end of the year"
+          ],
+          "correctAnswer": "Counting small portions of inventory on a rotating schedule",
+          "Help": "Cycle counting keeps records accurate without shutting down the store."
+        },
+        {
+          "question": "Maintaining an inventory control system requires:",
+          "options": [
+            "Periodic audits and accurate transaction tracking",
+            "Removing all technology from the checkout area",
+            "Storing products in disorganized piles",
+            "Only focusing on the most popular items"
+          ],
+          "correctAnswer": "Periodic audits and accurate transaction tracking",
+          "Help": "Consistency is the backbone of inventory accuracy."
+        },
+        {
+          "question": "Why is it important to track inventory by vendor?",
+          "options": [
+            "To determine which vendors provide the most profitable products",
+            "To avoid paying shipping fees to any vendors",
+            "To eliminate the need for contracts",
+            "To restrict the number of products a vendor can offer"
+          ],
+          "correctAnswer": "To determine which vendors provide the most profitable products",
+          "Help": "Vendor tracking helps manage supplier relationships."
+        },
+        {
+          "question": "When inventory levels are correctly allocated, a retailer sees:",
+          "options": [
+            "Higher instances of stockouts",
+            "Improved inventory turnover and reduced carrying costs",
+            "Lower demand from the target customer",
+            "Increased complexity in the return process"
+          ],
+          "correctAnswer": "Improved inventory turnover and reduced carrying costs",
+          "Help": "Good allocation avoids holding dead stock."
+        },
+        {
+          "question": "What is a 'stockout'?",
+          "options": [
+            "Having too much inventory on the floor",
+            "Running out of an item that a customer wants to buy",
+            "The act of putting items into storage",
+            "The process of clearing out the clearance rack"
+          ],
+          "correctAnswer": "Running out of an item that a customer wants to buy",
+          "Help": "Stockouts result in lost sales and potential lost customers."
+        },
+        {
+          "question": "What does a SKU (Stock Keeping Unit) represent?",
+          "options": [
+            "The total cost of an item",
+            "A unique identifier for tracking inventory",
+            "The storage location of a product",
+            "The vendor's name"
+          ],
+          "correctAnswer": "A unique identifier for tracking inventory",
+          "Help": "SKUs differentiate items by style, size, color, etc."
+        },
+        {
+          "question": "Why is it necessary to track inventory at the class level?",
+          "options": [
+            "To satisfy tax laws regarding inventory types",
+            "To identify trends in merchandise groups",
+            "To eliminate individual unit counting",
+            "To simplify the pricing process"
+          ],
+          "correctAnswer": "To identify trends in merchandise groups",
+          "Help": "Class-level tracking simplifies reporting for large stores."
+        }
+      ]
+    },
+    {
+      "topic": "Visual Merchandising",
+      "questions": [
+        {
+          "question": "What is the main goal of a planogram?",
+          "options": [
+            "To track the theft of merchandise",
+            "To provide a visual guide for the placement of products on shelves",
+            "To calculate the total revenue of the store",
+            "To determine the best transport route for inventory"
+          ],
+          "correctAnswer": "To provide a visual guide for the placement of products on shelves",
+          "Help": "Planograms are diagrams that show where products go."
+        },
+        {
+          "question": "What is 'cross-merchandising'?",
+          "options": [
+            "Placing unrelated items together to confuse customers",
+            "Displaying complementary items together to stimulate additional sales",
+            "Storing products in a cross-pattern in the warehouse",
+            "Reducing prices on all products in a department"
+          ],
+          "correctAnswer": "Displaying complementary items together to stimulate additional sales",
+          "Help": "Example: Putting chips next to salsa."
+        },
+        {
+          "question": "Why should merchandise be placed at 'eye level'?",
+          "options": [
+            "Because it is easier to clean",
+            "To increase the likelihood that customers will notice and purchase it",
+            "To meet legal requirements for store design",
+            "Because it is cheaper to ship"
+          ],
+          "correctAnswer": "To increase the likelihood that customers will notice and purchase it",
+          "Help": "Eye-level is buy-level."
+        },
+        {
+          "question": "What determines 'on-floor assortments'?",
+          "options": [
+            "The personal preference of the stock boy",
+            "Strategic decisions based on sales data and customer demand",
+            "The manufacturer's packaging size",
+            "The size of the backroom warehouse"
+          ],
+          "correctAnswer": "Strategic decisions based on sales data and customer demand",
+          "Help": "Merchandise selection must be data-driven."
+        },
+        {
+          "question": "What is the purpose of visual merchandising?",
+          "options": [
+            "To distract customers from the prices",
+            "To attract customers and make products more appealing",
+            "To eliminate the need for sales staff",
+            "To increase the total storage capacity"
+          ],
+          "correctAnswer": "To attract customers and make products more appealing",
+          "Help": "It’s about making the shopping experience enjoyable and enticing."
+        },
+        {
+          "question": "Why would a retailer use a planogram for a specific display?",
+          "options": [
+            "To ensure consistency and efficiency in product placement",
+            "To provide a place for customers to write feedback",
+            "To limit the amount of product shown to customers",
+            "To decrease the cost of warehouse management"
+          ],
+          "correctAnswer": "To ensure consistency and efficiency in product placement",
+          "Help": "Consistency helps shoppers find items easily."
+        },
+        {
+          "question": "How can cross-merchandising improve the shopping experience?",
+          "options": [
+            "By making the store appear more cluttered",
+            "By offering convenience through associated product bundles",
+            "By increasing the price of both products",
+            "By reducing the store's stock levels"
+          ],
+          "correctAnswer": "By offering convenience through associated product bundles",
+          "Help": "It creates a one-stop-shop feel."
+        },
+        {
+          "question": "When deciding on on-floor assortments, a retailer must consider:",
+          "options": [
+            "The color of the store’s exterior",
+            "The breadth and depth of products needed to satisfy customers",
+            "The number of competitors' employees",
+            "The manufacturer’s history"
+          ],
+          "correctAnswer": "The breadth and depth of products needed to satisfy customers",
+          "Help": "Assortment planning is about variety and selection."
+        },
+        {
+          "question": "What is the primary visual cue in a well-merchandised aisle?",
+          "options": [
+            "Bright flashing lights that disrupt the customer",
+            "Logical grouping and clear signage",
+            "Empty shelves to create a sense of scarcity",
+            "Products scattered to look like an outlet"
+          ],
+          "correctAnswer": "Logical grouping and clear signage",
+          "Help": "A clean, organized aisle makes shopping effortless."
+        },
+        {
+          "question": "What is the benefit of high-impact product placement?",
+          "options": [
+            "Higher turnover for key items",
+            "Increased complexity for the inventory team",
+            "Higher warehousing costs",
+            "Reduced customer foot traffic"
+          ],
+          "correctAnswer": "Higher turnover for key items",
+          "Help": "Putting high-margin items in high-traffic zones speeds up sales."
+        }
+      ]
+    },
+    {
+      "topic": "Display Techniques",
+      "questions": [
+        {
+          "question": "What is the primary function of promotional signage?",
+          "options": [
+            "To decorate the store",
+            "To inform customers about sales, prices, or product features",
+            "To obscure unsightly areas of the store",
+            "To provide a permanent record for inventory"
+          ],
+          "correctAnswer": "To inform customers about sales, prices, or product features",
+          "Help": "Signs act as silent salespeople."
+        },
+        {
+          "question": "When choosing display fixtures, what should the retailer consider?",
+          "options": [
+            "The durability and visibility of the items on display",
+            "The color of the store’s roof",
+            "The total cost of electricity in the store",
+            "The manufacturer’s location"
+          ],
+          "correctAnswer": "The durability and visibility of the items on display",
+          "Help": "Fixtures should showcase the product, not overwhelm it."
+        },
+        {
+          "question": "What is a major goal when creating a promotional display?",
+          "options": [
+            "To use as much floor space as possible",
+            "To capture customer attention and drive immediate sales",
+            "To make the store look exactly like a warehouse",
+            "To limit the amount of inventory available for sale"
+          ],
+          "correctAnswer": "To capture customer attention and drive immediate sales",
+          "Help": "Displays are meant to stop shoppers and pique interest."
+        },
+        {
+          "question": "Which of the following is a consideration when creating a display?",
+          "options": [
+            "The balance, contrast, and theme of the setup",
+            "The personal schedule of the manager",
+            "The number of other stores in the district",
+            "The total number of employees in the warehouse"
+          ],
+          "correctAnswer": "The balance, contrast, and theme of the setup",
+          "Help": "Effective displays follow design principles."
+        },
+        {
+          "question": "Why is sign readability important?",
+          "options": [
+            "To make the store look more modern",
+            "So customers can quickly understand the offer or information",
+            "To reduce the need for font variety",
+            "To increase the cost of printing"
+          ],
+          "correctAnswer": "So customers can quickly understand the offer or information",
+          "Help": "Clarity is essential for communication."
+        },
+        {
+          "question": "What should be avoided in display fixture selection?",
+          "options": [
+            "Fixtures that make products easy to access",
+            "Fixtures that are so large they block traffic flow",
+            "Fixtures that match the brand's aesthetic",
+            "Fixtures that provide adequate lighting"
+          ],
+          "correctAnswer": "Fixtures that are so large they block traffic flow",
+          "Help": "Accessibility for customers is paramount."
+        },
+        {
+          "question": "What is the role of lighting in a display?",
+          "options": [
+            "To highlight the product and create a mood",
+            "To hide the defects of the product",
+            "To reduce the electricity bill",
+            "To allow customers to see the storage room"
+          ],
+          "correctAnswer": "To highlight the product and create a mood",
+          "Help": "Lighting can make a product look luxury or everyday."
+        },
+        {
+          "question": "How often should promotional signage be updated?",
+          "options": [
+            "Never, to maintain brand consistency",
+            "Whenever the promotion or pricing changes",
+            "Every hour regardless of changes",
+            "Only at the end of the fiscal year"
+          ],
+          "correctAnswer": "Whenever the promotion or pricing changes",
+          "Help": "Old signs confuse customers and damage trust."
+        },
+        {
+          "question": "What is an 'impulse' display?",
+          "options": [
+            "A display near the entrance to attract traffic",
+            "A display placed near the register for small, unplanned purchases",
+            "A display used for heavy items in the back of the store",
+            "A display that holds the store's entire stock"
+          ],
+          "correctAnswer": "A display placed near the register for small, unplanned purchases",
+          "Help": "Think of candy bars or batteries at checkout."
+        },
+        {
+          "question": "When creating a window display, the goal is to:",
+          "options": [
+            "Show every item available in the store",
+            "Entice potential customers walking by to enter the store",
+            "Block sunlight from entering the store",
+            "Provide security for the store's assets"
+          ],
+          "correctAnswer": "Entice potential customers walking by to enter the store",
+          "Help": "The window is the store's 'first impression'."
+        }
+      ]
+    },
+    {
+      "topic": "Product Mix",
+      "questions": [
+        {
+          "question": "What is the 'width' of a product mix?",
+          "options": [
+            "The number of different product lines offered",
+            "The total number of items within a single line",
+            "The price of the items in the mix",
+            "The amount of inventory held in the warehouse"
+          ],
+          "correctAnswer": "The number of different product lines offered",
+          "Help": "Width = How many different types of categories."
+        },
+        {
+          "question": "What is the 'depth' of a product mix?",
+          "options": [
+            "The number of different categories offered",
+            "The variety of sizes, colors, and models within a product line",
+            "The amount of profit made on each item",
+            "The distance between the warehouse and the store"
+          ],
+          "correctAnswer": "The variety of sizes, colors, and models within a product line",
+          "Help": "Depth = How many variations within one category."
+        },
+        {
+          "question": "How does a retailer determine the quality of merchandise to offer?",
+          "options": [
+            "By choosing the cheapest items available",
+            "By aligning the quality level with the target customer’s expectations and price range",
+            "By selecting only the items that have the highest shipping cost",
+            "By using a random selection process"
+          ],
+          "correctAnswer": "By aligning the quality level with the target customer’s expectations and price range",
+          "Help": "Match the product to the customer's budget and style."
+        },
+        {
+          "question": "When planning a merchandise assortment, a retailer should prioritize:",
+          "options": [
+            "The number of employees in the store",
+            "The preferences and needs of the target customer",
+            "The size of the manufacturer’s building",
+            "The speed of the delivery truck"
+          ],
+          "correctAnswer": "The preferences and needs of the target customer",
+          "Help": "Always start with the customer's needs."
+        },
+        {
+          "question": "What is a 'brand mix' strategy?",
+          "options": [
+            "Selling only one brand of products",
+            "Balancing national brands with store-brand products to meet various customer needs",
+            "Only selling products that are not branded",
+            "Avoiding all brand-name products"
+          ],
+          "correctAnswer": "Balancing national brands with store-brand products to meet various customer needs",
+          "Help": "A mix provides options for different budgets."
+        },
+        {
+          "question": "What happens if a product mix is too wide but too shallow?",
+          "options": [
+            "The store will become a specialist store",
+            "The store will offer many categories but very little selection in each",
+            "The store will have too much inventory",
+            "The store will only sell one type of product"
+          ],
+          "correctAnswer": "The store will offer many categories but very little selection in each",
+          "Help": "Think of a 'general store' that lacks variety."
+        },
+        {
+          "question": "What does planning merchandise assortment involve?",
+          "options": [
+            "Calculating the total utility costs",
+            "Deciding on the specific styling, sizes, and quantities to stock",
+            "Managing the store’s social media account",
+            "Setting the wage rates for employees"
+          ],
+          "correctAnswer": "Deciding on the specific styling, sizes, and quantities to stock",
+          "Help": "Assortment planning is about the details of what’s on the shelf."
+        },
+        {
+          "question": "Why is it important to maintain an appropriate product mix?",
+          "options": [
+            "To confuse the competition",
+            "To meet customer needs and maximize sales profitability",
+            "To reduce the need for inventory systems",
+            "To limit the number of items sold"
+          ],
+          "correctAnswer": "To meet customer needs and maximize sales profitability",
+          "Help": "A good mix balances customer desire and business profit."
+        },
+        {
+          "question": "When should a retailer decide to cut a product from their mix?",
+          "options": [
+            "When the item is no longer profitable or in demand",
+            "When the manager doesn't like the product color",
+            "When the warehouse is full",
+            "When the item is too new to tell if it will sell"
+          ],
+          "correctAnswer": "When the item is no longer profitable or in demand",
+          "Help": "Focus on high-performing products."
+        },
+        {
+          "question": "What is the benefit of a deep product mix?",
+          "options": [
+            "It offers customers more choices within a category",
+            "It makes the store harder to shop",
+            "It eliminates the need for pricing strategy",
+            "It reduces the amount of space needed"
+          ],
+          "correctAnswer": "It offers customers more choices within a category",
+          "Help": "Depth satisfies specific preferences."
+        }
+      ]
+    }
+  ]
+}
