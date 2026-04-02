@@ -1,0 +1,151 @@
+{
+  "testName": "Personal Finance Competitive Event",
+  "topics": [
+    {
+      "topic": "Principles of Money",
+      "questions": [
+        {
+          "question": "Which function of money is fulfilled when you compare the price of a shirt at two different stores?",
+          "options": [
+            "Store of value",
+            "Medium of exchange",
+            "Unit of measure",
+            "Legal tender"
+          ],
+          "correctAnswer": "Unit of measure",
+          "Help": "Money acts as a common denominator to value goods and services."
+        },
+        {
+          "question": "What is the primary advantage of using a debit card over a credit card for daily purchases?",
+          "options": [
+            "You build a higher credit score",
+            "You avoid incurring interest charges",
+            "You get extended warranties on purchases",
+            "You receive cash back rewards"
+          ],
+          "correctAnswer": "You avoid incurring interest charges",
+          "Help": "Debit cards draw directly from your bank account, avoiding debt."
+        },
+        {
+          "question": "How does inflation affect the time value of money?",
+          "options": [
+            "It increases the purchasing power of current cash",
+            "It decreases the future purchasing power of money",
+            "It makes saving money unnecessary",
+            "It keeps the value of money constant over time"
+          ],
+          "correctAnswer": "It decreases the future purchasing power of money",
+          "Help": "Inflation erodes the value of a dollar over time."
+        }
+      ]
+    },
+    {
+      "topic": "Financial Needs and Goals",
+      "questions": [
+        {
+          "question": "If an individual has $50,000 in assets and $30,000 in liabilities, what is their net worth?",
+          "options": [
+            "$80,000",
+            "$20,000",
+            "$50,000",
+            "$30,000"
+          ],
+          "correctAnswer": "$20,000",
+          "Help": "Net worth = Assets minus Liabilities."
+        },
+        {
+          "question": "Which of the following is considered a 'fixed' expense in a personal budget?",
+          "options": [
+            "Monthly rent payment",
+            "Groceries",
+            "Entertainment",
+            "Clothing purchases"
+          ],
+          "correctAnswer": "Monthly rent payment",
+          "Help": "Fixed expenses remain constant in amount each period."
+        }
+      ]
+    },
+    {
+      "topic": "Financial-Services Providers",
+      "questions": [
+        {
+          "question": "What is a primary distinction between a commercial bank and a credit union?",
+          "options": [
+            "Credit unions are profit-seeking institutions",
+            "Commercial banks are member-owned cooperatives",
+            "Credit unions are not-for-profit cooperatives",
+            "Commercial banks offer higher interest rates on savings"
+          ],
+          "correctAnswer": "Credit unions are not-for-profit cooperatives",
+          "Help": "Credit unions are member-owned, not-for-profit entities."
+        }
+      ]
+    },
+    {
+      "topic": "Financial Literacy",
+      "questions": [
+        {
+          "question": "Which document should you review to determine the net pay on your earnings?",
+          "options": [
+            "W-4 Form",
+            "Bank statement",
+            "Pay stub",
+            "Credit report"
+          ],
+          "correctAnswer": "Pay stub",
+          "Help": "A pay stub details gross earnings, taxes, and net pay."
+        },
+        {
+          "question": "When balancing a checkbook, what should you do if the bank statement balance differs from your register balance?",
+          "options": [
+            "Assume the bank is always right",
+            "Add the difference to the bank balance",
+            "Account for outstanding checks and deposits",
+            "Delete your records and start over"
+          ],
+          "correctAnswer": "Account for outstanding checks and deposits",
+          "Help": "Reconciliation involves accounting for transactions not yet cleared."
+        },
+        {
+          "question": "How can an individual best protect themselves against identity theft?",
+          "options": [
+            "Using the same password for all accounts",
+            "Sharing account numbers over social media",
+            "Shredding documents containing sensitive personal information",
+            "Carrying your social security card in your wallet"
+          ],
+          "correctAnswer": "Shredding documents containing sensitive personal information",
+          "Help": "Physical security of documents prevents dumpster diving for data."
+        },
+        {
+          "question": "What is the primary purpose of a 401(k) plan?",
+          "options": [
+            "To fund a college education",
+            "To provide short-term liquidity",
+            "To save for retirement",
+            "To manage high-interest debt"
+          ],
+          "correctAnswer": "To save for retirement",
+          "Help": "401(k)s are tax-advantaged retirement investment accounts."
+        }
+      ]
+    },
+    {
+      "topic": "Risk Management",
+      "questions": [
+        {
+          "question": "What is the primary role of an insurance deductible?",
+          "options": [
+            "The amount paid by the insurance company per claim",
+            "The amount the policyholder pays before insurance coverage kicks in",
+            "The monthly cost of the insurance premium",
+            "The total coverage limit of the policy"
+          ],
+          "correctAnswer": "The amount the policyholder pays before insurance coverage kicks in",
+          "Help": "Deductibles represent the insured party's out-of-pocket share."
+        }
+      ]
+    }
+  ]
+}
