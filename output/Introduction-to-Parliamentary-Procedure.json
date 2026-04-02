@@ -1,0 +1,1765 @@
+
+{
+  "testName": "Introduction to Parliamentary Procedure Test",
+  "topics": [
+    {
+      "topic": "Parliamentary Procedure Principles",
+      "questions": [
+        {
+          "question": "What is the primary purpose of parliamentary procedure?",
+          "options": [
+            "To speed up meeting times regardless of member input",
+            "To allow the presiding officer complete control over discussions",
+            "To ensure that all members have an equal opportunity to express their opinions and for the will of the majority to prevail",
+            "To limit the topics that can be discussed in a meeting"
+          ],
+          "correctAnswer": "To ensure that all members have an equal opportunity to express their opinions and for the will of the majority to prevail",
+          "Help": "Parliamentary procedure balances the rights of the majority, minority, individual members, and absentees."
+        },
+        {
+          "question": "Which of the following principles is central to parliamentary law?",
+          "options": [
+            "The minority should always concede to the majority without debate.",
+            "Only the presiding officer may introduce new business.",
+            "The majority rules, but the rights of the minority are protected.",
+            "Decisions are made solely by consensus, not by vote."
+          ],
+          "correctAnswer": "The majority rules, but the rights of the minority are protected.",
+          "Help": "This principle ensures fairness and broad participation in decision-making."
+        },
+        {
+          "question": "What does 'yielding the floor' mean in parliamentary procedure?",
+          "options": [
+            "Leaving the meeting room temporarily",
+            "Giving up the right to speak or propose a motion",
+            "Taking a seat after having spoken",
+            "Requesting permission to speak again on the same topic"
+          ],
+          "correctAnswer": "Giving up the right to speak or propose a motion",
+          "Help": "Once a member yields the floor, another member may be recognized to speak."
+        },
+        {
+          "question": "In what order are motions generally considered if they are presented simultaneously?",
+          "options": [
+            "By alphabetical order of the motion's name",
+            "Based on the seniority of the member making the motion",
+            "In reverse order of their established precedence",
+            "According to their rank of precedence, higher-ranking motions being decided first"
+          ],
+          "correctAnswer": "According to their rank of precedence, higher-ranking motions being decided first",
+          "Help": "Parliamentary procedure assigns a specific order of precedence to different types of motions."
+        },
+        {
+          "question": "Which of the following is NOT a fundamental right of every member in an assembly?",
+          "options": [
+            "To introduce motions",
+            "To speak on any motion",
+            "To call for a recount of every vote taken",
+            "To vote on questions before the assembly"
+          ],
+          "correctAnswer": "To call for a recount of every vote taken",
+          "Help": "While members can call for a division or verification, a recount is not automatic for every vote."
+        },
+        {
+          "question": "What is a 'quorum' in a deliberative assembly?",
+          "options": [
+            "The maximum number of members allowed to attend a meeting",
+            "The number of members present who actively participate in debate",
+            "The minimum number of members required to be present for business to be transacted legally",
+            "The number of members needed to pass a motion by a majority vote"
+          ],
+          "correctAnswer": "The minimum number of members required to be present for business to be transacted legally",
+          "Help": "Without a quorum, most actions taken by the assembly are null and void."
+        },
+        {
+          "question": "Which of these is the lowest-ranking motion?",
+          "options": [
+            "Adjourn",
+            "Lay on the Table",
+            "Main Motion",
+            "Point of Order"
+          ],
+          "correctAnswer": "Main Motion",
+          "Help": "Main motions introduce new business and are the lowest in the order of precedence."
+        },
+        {
+          "question": "A motion must generally be seconded by another member to indicate:",
+          "options": [
+            "That the seconder agrees with the motion's content",
+            "That the seconder is prepared to debate the motion immediately",
+            "That at least two members wish to consider the motion",
+            "That the motion is a privileged motion"
+          ],
+          "correctAnswer": "That at least two members wish to consider the motion",
+          "Help": "A second ensures that a motion isn't debated unless it has the support of more than one person."
+        },
+        {
+          "question": "What is the correct way for a member to propose a main motion?",
+          "options": [
+            "By shouting out their proposal when they feel it's appropriate",
+            "By raising a hand and saying, 'I move that...' after being recognized by the chair",
+            "By writing down the motion and submitting it to the secretary",
+            "By consulting with a committee before speaking"
+          ],
+          "correctAnswer": "By raising a hand and saying, 'I move that...' after being recognized by the chair",
+          "Help": "Recognition from the chair is essential before a member can speak or propose business."
+        },
+        {
+          "question": "Which type of vote requires a two-thirds majority?",
+          "options": [
+            "To elect officers in most cases",
+            "To adopt a simple main motion",
+            "To approve the minutes of a meeting",
+            "To suspend the rules of the assembly"
+          ],
+          "correctAnswer": "To suspend the rules of the assembly",
+          "Help": "Motions that limit the rights of members, like suspending rules, usually require a two-thirds vote."
+        },
+        {
+          "question": "What is the purpose of the motion 'Previous Question'?",
+          "options": [
+            "To allow members to ask questions about the main motion",
+            "To immediately close debate and proceed to a vote on the pending motion(s)",
+            "To refer a motion to a committee for further study",
+            "To postpone consideration of a motion until a later time"
+          ],
+          "correctAnswer": "To immediately close debate and proceed to a vote on the pending motion(s)",
+          "Help": "This motion is used to stop discussion and force an immediate vote."
+        },
+        {
+          "question": "A motion to 'Lay on the Table' is generally used to:",
+          "options": [
+            "Permanently dispose of a motion",
+            "Postpone a motion to a specific time",
+            "Set aside a motion temporarily to deal with more urgent business",
+            "Amend a motion with minor changes"
+          ],
+          "correctAnswer": "Set aside a motion temporarily to deal with more urgent business",
+          "Help": "It allows the assembly to quickly move on to other matters, with the possibility of taking the tabled motion up again later."
+        },
+        {
+          "question": "Which of the following motions is NOT debatable?",
+          "options": [
+            "To Amend",
+            "To Postpone Indefinitely",
+            "To Refer to Committee",
+            "To Adjourn (when unqualified)"
+          ],
+          "correctAnswer": "To Adjourn (when unqualified)",
+          "Help": "Privileged motions like an unqualified 'Adjourn' are typically undebatable."
+        },
+        {
+          "question": "What is the purpose of an 'amendment' to a motion?",
+          "options": [
+            "To introduce an entirely new subject for discussion",
+            "To change the wording or substance of a pending motion",
+            "To delay the vote on the original motion indefinitely",
+            "To withdraw a motion that has already been proposed"
+          ],
+          "correctAnswer": "To change the wording or substance of a pending motion",
+          "Help": "Amendments allow for refinement and improvement of proposed motions."
+        },
+        {
+          "question": "A motion to 'Refer to a Committee' is a subsidiary motion. What does it allow?",
+          "options": [
+            "To immediately vote on the motion without discussion",
+            "To send the motion to a smaller group for study and recommendation",
+            "To change the order of business for the current meeting",
+            "To postpone the motion to the next scheduled meeting"
+          ],
+          "correctAnswer": "To send the motion to a smaller group for study and recommendation",
+          "Help": "Committees can delve deeper into complex issues and report back to the main assembly."
+        },
+        {
+          "question": "When is a 'Point of Order' typically raised?",
+          "options": [
+            "When a member wishes to introduce a new main motion",
+            "When a member believes that the rules of parliamentary procedure are being violated",
+            "When a member needs clarification on the meaning of a motion",
+            "When a member wants to challenge a decision made by the presiding officer"
+          ],
+          "correctAnswer": "When a member believes that the rules of parliamentary procedure are being violated",
+          "Help": "A Point of Order is an immediate challenge to parliamentary procedure being incorrectly applied."
+        },
+        {
+          "question": "Who decides on a 'Point of Order'?",
+          "options": [
+            "The secretary of the assembly",
+            "A two-thirds vote of the members present",
+            "The member who raised the point",
+            "The presiding officer, subject to an appeal by the assembly"
+          ],
+          "correctAnswer": "The presiding officer, subject to an appeal by the assembly",
+          "Help": "The chair's decision can be challenged by an Appeal."
+        },
+        {
+          "question": "What is the purpose of the motion 'Appeal the Decision of the Chair'?",
+          "options": [
+            "To ask the chair to reconsider a ruling without a vote",
+            "To challenge a ruling made by the presiding officer and have the assembly decide",
+            "To remove the presiding officer from their position immediately",
+            "To request a clarification of a ruling from the chair"
+          ],
+          "correctAnswer": "To challenge a ruling made by the presiding officer and have the assembly decide",
+          "Help": "This motion upholds the right of the assembly to ultimately determine its own rules."
+        },
+        {
+          "question": "Which motion allows a member to interrupt a speaker?",
+          "options": [
+            "Motion to Amend",
+            "Main Motion",
+            "Point of Order",
+            "Motion to Refer to Committee"
+          ],
+          "correctAnswer": "Point of Order",
+          "Help": "Points of order, questions of privilege, and parliamentary inquiries are among the few motions that can interrupt a speaker."
+        },
+        {
+          "question": "What is a 'privileged motion'?",
+          "options": [
+            "A motion that brings a question again before the assembly",
+            "A motion that is unrelated to the main business but deals with the rights and needs of the assembly or its members",
+            "A motion that changes the wording of another motion",
+            "A motion that closes debate on a pending question"
+          ],
+          "correctAnswer": "A motion that is unrelated to the main business but deals with the rights and needs of the assembly or its members",
+          "Help": "Privileged motions deal with urgent matters and generally take precedence over all other motions."
+        },
+        {
+          "question": "Which of the following motions is a privileged motion?",
+          "options": [
+            "Postpone Indefinitely",
+            "Previous Question",
+            "Fix the Time to Which to Adjourn",
+            "Reconsider"
+          ],
+          "correctAnswer": "Fix the Time to Which to Adjourn",
+          "Help": "This motion allows the assembly to set a time for its next meeting or continue its current session."
+        },
+        {
+          "question": "What is the rank of the motion 'Recess' relative to a main motion?",
+          "options": [
+            "It takes precedence over a main motion.",
+            "It ranks lower than a main motion.",
+            "It is of equal rank to a main motion.",
+            "It can only be made when no main motion is pending."
+          ],
+          "correctAnswer": "It takes precedence over a main motion.",
+          "Help": "Recess is a privileged motion and therefore outranks a main motion."
+        },
+        {
+          "question": "When a motion is laid on the table, how can it be brought back for consideration?",
+          "options": [
+            "It automatically comes up at the next meeting.",
+            "A new main motion on the same subject must be introduced.",
+            "By a motion to 'Take from the Table'",
+            "It can only be brought back if the original mover requests it."
+          ],
+          "correctAnswer": "By a motion to 'Take from the Table'",
+          "Help": "This motion is used to resume consideration of a motion previously tabled."
+        },
+        {
+          "question": "Which motion requires only a majority vote?",
+          "options": [
+            "To amend a bylaw previously adopted",
+            "To suspend the rules",
+            "To reconsider a vote",
+            "To close nominations"
+          ],
+          "correctAnswer": "To close nominations",
+          "Help": "Motions relating to nominations or simple procedural actions often require a majority vote."
+        },
+        {
+          "question": "A motion to 'Limit or Extend Debate' is what type of motion?",
+          "options": [
+            "Main Motion",
+            "Privileged Motion",
+            "Incidental Motion",
+            "Subsidiary Motion"
+          ],
+          "correctAnswer": "Subsidiary Motion",
+          "Help": "This motion helps regulate the discussion of a main motion."
+        },
+        {
+          "question": "What is the effect of the motion 'Postpone Indefinitely'?",
+          "options": [
+            "It postpones the motion to the next meeting without further action.",
+            "It refers the motion to a committee for an indefinite period.",
+            "It rejects the main motion without bringing it to a direct vote, effectively killing it for the session.",
+            "It allows for unlimited debate on the main motion."
+          ],
+          "correctAnswer": "It rejects the main motion without bringing it to a direct vote, effectively killing it for the session.",
+          "Help": "This motion allows the assembly to dispose of an undesirable main motion without a direct negative vote on the merits."
+        },
+        {
+          "question": "Which officer is primarily responsible for keeping accurate minutes of a meeting?",
+          "options": [
+            "The President/Chair",
+            "The Treasurer",
+            "The Secretary",
+            "The Parliamentarian"
+          ],
+          "correctAnswer": "The Secretary",
+          "Help": "The secretary's role includes recording the proceedings of the assembly."
+        },
+        {
+          "question": "What information should generally be included in the minutes of a meeting?",
+          "options": [
+            "Every word spoken by every member during debate",
+            "The full financial report and detailed expense breakdown",
+            "The type of meeting, date, name of the organization, and actions taken",
+            "A list of all members who voted 'no' on every motion"
+          ],
+          "correctAnswer": "The type of meeting, date, name of the organization, and actions taken",
+          "Help": "Minutes should be a concise record of what was done, not what was said."
+        },
+        {
+          "question": "When does a 'Question of Privilege' typically arise?",
+          "options": [
+            "When a member wants to discuss a new agenda item",
+            "When a member identifies an urgent matter affecting the rights or comfort of the assembly or its members",
+            "When a member desires to correct the minutes of a previous meeting",
+            "When a member wishes to appeal a ruling of the chair"
+          ],
+          "correctAnswer": "When a member identifies an urgent matter affecting the rights or comfort of the assembly or its members",
+          "Help": "Examples include noise disturbance, poor ventilation, or inaccurate reporting."
+        },
+        {
+          "question": "Which of the following is NOT an incidental motion?",
+          "options": [
+            "Point of Order",
+            "Appeal",
+            "Previous Question",
+            "Suspend the Rules"
+          ],
+          "correctAnswer": "Previous Question",
+          "Help": "Previous Question is a subsidiary motion; incidental motions relate to the proper conduct of business."
+        },
+        {
+          "question": "What is the purpose of 'Object to the Consideration of a Question'?",
+          "options": [
+            "To express disapproval of a motion after it has been debated",
+            "To prevent the discussion of a main motion that is deemed irrelevant, offensive, or otherwise improper",
+            "To formally state a preference for another motion",
+            "To move the current question to the end of the agenda"
+          ],
+          "correctAnswer": "To prevent the discussion of a main motion that is deemed irrelevant, offensive, or otherwise improper",
+          "Help": "This motion must be made immediately after the motion is stated by the chair, and before any debate."
+        },
+        {
+          "question": "Which of these motions requires a second?",
+          "options": [
+            "Point of Order",
+            "Parliamentary Inquiry",
+            "Main Motion",
+            "Request for Information"
+          ],
+          "correctAnswer": "Main Motion",
+          "Help": "Most main motions and many subsidiary motions require a second to ensure support."
+        },
+        {
+          "question": "When can a motion be withdrawn by its mover?",
+          "options": [
+            "Only before it is seconded",
+            "Only after it has been fully debated and is ready for a vote",
+            "At any time, as long as the assembly gives permission by a majority vote",
+            "It can only be withdrawn with the consent of the seconder"
+          ],
+          "correctAnswer": "At any time, as long as the assembly gives permission by a majority vote",
+          "Help": "If no one objects, the chair can assume consent; otherwise, a vote is needed."
+        },
+        {
+          "question": "A 'Division of the Assembly' is called for to:",
+          "options": [
+            "Divide a complex motion into simpler parts",
+            "Break the meeting into smaller discussion groups",
+            "Require a standing or hand vote to verify a voice vote",
+            "End the meeting immediately due to disorder"
+          ],
+          "correctAnswer": "Require a standing or hand vote to verify a voice vote",
+          "Help": "This ensures accuracy if the result of a voice vote is unclear or questioned."
+        },
+        {
+          "question": "What is the standard order of business for a regular meeting?",
+          "options": [
+            "New Business, Old Business, Reading of Minutes, Adjournment",
+            "Reading of Minutes, Reports of Officers/Committees, Old Business, New Business, Adjournment",
+            "Adjournment, New Business, Old Business, Reading of Minutes",
+            "Old Business, New Business, Reports of Officers/Committees, Reading of Minutes"
+          ],
+          "correctAnswer": "Reading of Minutes, Reports of Officers/Committees, Old Business, New Business, Adjournment",
+          "Help": "This order ensures an organized and logical flow for handling business."
+        },
+        {
+          "question": "Which of these motions is NOT amendable?",
+          "options": [
+            "Main Motion",
+            "Motion to Refer to Committee",
+            "Motion to Adjourn (unqualified)",
+            "Motion to Postpone Definitely"
+          ],
+          "correctAnswer": "Motion to Adjourn (unqualified)",
+          "Help": "Simple privileged motions like 'Adjourn' are typically undebatable and unamendable."
+        },
+        {
+          "question": "What is a 'standing committee'?",
+          "options": [
+            "A committee formed for a specific task and dissolved afterward",
+            "A committee that meets only when members are standing",
+            "A permanent committee established in the bylaws to handle recurring business",
+            "A committee that has no specific duties or responsibilities"
+          ],
+          "correctAnswer": "A permanent committee established in the bylaws to handle recurring business",
+          "Help": "Examples include a membership committee or a program committee."
+        },
+        {
+          "question": "What is the purpose of the motion 'Suspend the Rules'?",
+          "options": [
+            "To permanently change the bylaws of the organization",
+            "To set aside a specific rule of order for a particular purpose, typically for a short duration",
+            "To ignore all parliamentary procedure for the remainder of the meeting",
+            "To impose stricter rules of debate on members"
+          ],
+          "correctAnswer": "To set aside a specific rule of order for a particular purpose, typically for a short duration",
+          "Help": "This motion requires a two-thirds vote because it temporarily overrides established rules."
+        },
+        {
+          "question": "Which motion requires a two-thirds vote because it closes or limits debate?",
+          "options": [
+            "To Postpone Definitely",
+            "To Amend",
+            "Previous Question",
+            "To Refer to Committee"
+          ],
+          "correctAnswer": "Previous Question",
+          "Help": "Motions that limit a member's right to debate usually require a higher threshold of approval."
+        },
+        {
+          "question": "If a motion to 'Postpone Definitely' is adopted, when will the motion be considered?",
+          "options": [
+            "At the next regular meeting without further action",
+            "At a specified future time or meeting",
+            "Immediately after the current item of business",
+            "It will be put to a vote by ballot at the next meeting"
+          ],
+          "correctAnswer": "At a specified future time or meeting",
+          "Help": "This motion allows the assembly to delay consideration until a set time, often when more information is available."
+        },
+        {
+          "question": "What is the difference between a main motion and a resolution?",
+          "options": [
+            "A main motion is always written, while a resolution is always verbal.",
+            "A resolution is a type of main motion that is usually formal, begins with 'Whereas,' and expresses opinions or lengthy statements.",
+            "A main motion can be debated, but a resolution cannot.",
+            "There is no difference; the terms are interchangeable."
+          ],
+          "correctAnswer": "A resolution is a type of main motion that is usually formal, begins with 'Whereas,' and expresses opinions or lengthy statements.",
+          "Help": "Resolutions are often used for important, formal, or complex proposals."
+        },
+        {
+          "question": "Which type of motion takes precedence over all other motions?",
+          "options": [
+            "Main Motion",
+            "Subsidiary Motion",
+            "Privileged Motion",
+            "Incidental Motion"
+          ],
+          "correctAnswer": "Privileged Motion",
+          "Help": "Privileged motions are the highest ranking because they address immediate needs or rights of the assembly."
+        },
+        {
+          "question": "If a motion to 'Adjourn' is made when no other business is pending, what kind of motion is it?",
+          "options": [
+            "A subsidiary motion",
+            "A main motion",
+            "A privileged motion",
+            "An incidental motion"
+          ],
+          "correctAnswer": "A main motion",
+          "Help": "When unqualified and no business is pending, 'Adjourn' effectively ends the session and is treated as a main motion, subject to debate."
+        },
+        {
+          "question": "What is the correct procedure for introducing new business?",
+          "options": [
+            "Wait for the presiding officer to suggest it.",
+            "Raise a 'Point of Order' and then state the new business.",
+            "Obtain the floor and propose a main motion.",
+            "Pass a written proposal to the secretary."
+          ],
+          "correctAnswer": "Obtain the floor and propose a main motion.",
+          "Help": "A main motion is the proper way to bring new business before the assembly."
+        },
+        {
+          "question": "When does a member 'obtain the floor'?",
+          "options": [
+            "When they stand up to leave the meeting.",
+            "When they are recognized by the presiding officer to speak.",
+            "When they second a motion.",
+            "When they cast their vote on a motion."
+          ],
+          "correctAnswer": "When they are recognized by the presiding officer to speak.",
+          "Help": "Obtaining the floor grants a member the exclusive right to speak until they yield it."
+        },
+        {
+          "question": "What is the purpose of a 'Parliamentary Inquiry'?",
+          "options": [
+            "To challenge the chair's decision immediately.",
+            "To ask a question about the rules or their application to the current situation.",
+            "To demand a roll call vote on a pending motion.",
+            "To propose an amendment to the bylaws."
+          ],
+          "correctAnswer": "To ask a question about the rules or their application to the current situation.",
+          "Help": "This motion helps members understand procedure without interrupting the flow of debate with a point of order."
+        },
+        {
+          "question": "Which of the following motions is used to change the rules of debate for a pending motion?",
+          "options": [
+            "To Amend",
+            "To Postpone Indefinitely",
+            "To Limit or Extend Debate",
+            "To Lay on the Table"
+          ],
+          "correctAnswer": "To Limit or Extend Debate",
+          "Help": "This subsidiary motion modifies the amount of time or number of speeches allowed on a question."
+        },
+        {
+          "question": "The motion to 'Reconsider' a vote must be made by a member who:",
+          "options": [
+            "Voted in the negative on the original motion.",
+            "Voted on the prevailing side of the original motion.",
+            "Did not vote on the original motion.",
+            "Is the chair of the meeting."
+          ],
+          "correctAnswer": "Voted on the prevailing side of the original motion.",
+          "Help": "This rule prevents endless attempts to overturn decisions by those who lost the original vote."
+        },
+        {
+          "question": "Within what timeframe must a motion to 'Reconsider' generally be made?",
+          "options": [
+            "At any time before the next regular meeting.",
+            "On the same day or the next calendar day on which the vote was taken.",
+            "Within one week of the original vote.",
+            "Immediately after the vote is announced."
+          ],
+          "correctAnswer": "On the same day or the next calendar day on which the vote was taken.",
+          "Help": "Timeliness is crucial for motions to reconsider to avoid delaying decisions indefinitely."
+        },
+        {
+          "question": "What is the effect of a motion to 'Rescind'?",
+          "options": [
+            "It temporarily sets aside a previous decision.",
+            "It permanently cancels or revokes a previously adopted motion.",
+            "It clarifies the meaning of a previous motion.",
+            "It brings back a motion that was laid on the table."
+          ],
+          "correctAnswer": "It permanently cancels or revokes a previously adopted motion.",
+          "Help": "Rescind is used to nullify a past action, typically with a two-thirds vote or a majority with prior notice."
+        },
+        {
+          "question": "Which of these requires a two-thirds vote to pass without previous notice?",
+          "options": [
+            "A main motion",
+            "To amend something previously adopted (e.g., bylaws)",
+            "To recess for 10 minutes",
+            "To refer to a committee"
+          ],
+          "correctAnswer": "To amend something previously adopted (e.g., bylaws)",
+          "Help": "Motions that alter previously adopted rules or permanent policies require a higher vote for protection."
+        },
+        {
+          "question": "What does it mean for a motion to be 'incidental'?",
+          "options": [
+            "It is a humorous suggestion.",
+            "It relates to the regular order of business but is of secondary importance.",
+            "It addresses rules or procedures related to the pending business or the conduct of the meeting.",
+            "It is automatically decided by the chair without a vote."
+          ],
+          "correctAnswer": "It addresses rules or procedures related to the pending business or the conduct of the meeting.",
+          "Help": "Incidental motions arise from other motions or the immediate situation and must be decided before the pending business."
+        },
+        {
+          "question": "Which type of vote is typically used when the assembly wants to keep individual votes confidential?",
+          "options": [
+            "Voice vote",
+            "Rising vote",
+            "Show of hands",
+            "Ballot vote"
+          ],
+          "correctAnswer": "Ballot vote",
+          "Help": "Ballot votes ensure anonymity and are often used for elections or sensitive decisions."
+        },
+        {
+          "question": "If a motion is 'out of order', it means:",
+          "options": [
+            "It has been debated for too long.",
+            "It violates the rules of parliamentary procedure or the assembly's bylaws.",
+            "It is highly unpopular with the members.",
+            "It cannot be seconded by another member."
+          ],
+          "correctAnswer": "It violates the rules of parliamentary procedure or the assembly's bylaws.",
+          "Help": "The chair should rule such a motion out of order."
+        },
+        {
+          "question": "The motion to 'Rise to a Question of Privilege' relates to:",
+          "options": [
+            "The personal honor of a member.",
+            "The rights and comfort of the assembly or its members.",
+            "The financial health of the organization.",
+            "The need for an immediate vote on the pending question."
+          ],
+          "correctAnswer": "The rights and comfort of the assembly or its members.",
+          "Help": "This motion addresses urgent issues like noise, heating, or inaccurate reports."
+        },
+        {
+          "question": "What is the purpose of 'Calling for the Orders of the Day'?",
+          "options": [
+            "To introduce a new item of business.",
+            "To demand a vote on the pending motion.",
+            "To require the assembly to conform to its adopted agenda or program.",
+            "To adjourn the meeting immediately."
+          ],
+          "correctAnswer": "To require the assembly to conform to its adopted agenda or program.",
+          "Help": "This privileged motion ensures the assembly sticks to its planned schedule."
+        },
+        {
+          "question": "Which of these motions can be moved even if another member has the floor?",
+          "options": [
+            "Main Motion",
+            "Motion to Amend",
+            "Point of Order",
+            "Motion to Refer to Committee"
+          ],
+          "correctAnswer": "Point of Order",
+          "Help": "A Point of Order addresses an immediate procedural issue and takes precedence over current discussion."
+        },
+        {
+          "question": "What is a 'special committee'?",
+          "options": [
+            "A committee that meets only during special events.",
+            "A committee with members chosen for their unique skills.",
+            "A committee appointed for a specific task and ceases to exist once that task is completed.",
+            "A committee that handles all emergency matters of the organization."
+          ],
+          "correctAnswer": "A committee appointed for a specific task and ceases to exist once that task is completed.",
+          "Help": "Also known as an ad hoc committee."
+        },
+        {
+          "question": "Who usually calls a meeting to order?",
+          "options": [
+            "The secretary",
+            "Any member who arrives first",
+            "The presiding officer (e.g., President)",
+            "The parliamentarian"
+          ],
+          "correctAnswer": "The presiding officer (e.g., President)",
+          "Help": "The chair is responsible for formally starting the meeting."
+        },
+        {
+          "question": "What is the correct procedure for voting on a motion after debate has closed?",
+          "options": [
+            "The chair calls for a voice vote, then a rising vote if requested, then announces the result.",
+            "Members automatically cast secret ballots.",
+            "The chair immediately announces the motion passed.",
+            "Only members who debated are allowed to vote."
+          ],
+          "correctAnswer": "The chair calls for a voice vote, then a rising vote if requested, then announces the result.",
+          "Help": "The standard sequence involves collecting votes and then declaring the outcome."
+        },
+        {
+          "question": "When can a motion to 'Adjourn' be debated?",
+          "options": [
+            "Never, it is always undebatable.",
+            "When it is qualified (e.g., 'adjourn to meet at 3 PM tomorrow').",
+            "Only if it requires a two-thirds vote.",
+            "Only if the assembly is in a committee of the whole."
+          ],
+          "correctAnswer": "When it is qualified (e.g., 'adjourn to meet at 3 PM tomorrow').",
+          "Help": "A qualified motion to adjourn is treated as a main motion regarding debatability and amendability."
+        },
+        {
+          "question": "Which statement accurately describes the effect of the motion 'Table a motion'?",
+          "options": [
+            "It permanently defeats the motion.",
+            "It sets the motion aside with no intention of returning to it.",
+            "It allows the assembly to take up more urgent business, potentially resuming the tabled motion later.",
+            "It refers the motion to a sub-committee."
+          ],
+          "correctAnswer": "It allows the assembly to take up more urgent business, potentially resuming the tabled motion later.",
+          "Help": "The motion to Lay on the Table is often misused to kill a motion, but its actual purpose is temporary postponement."
+        },
+        {
+          "question": "A member proposes a motion to 'Amend' a pending main motion. This amendment is called a:",
+          "options": [
+            "Secondary amendment",
+            "Primary amendment",
+            "Subsidiary motion",
+            "Privileged motion"
+          ],
+          "correctAnswer": "Primary amendment",
+          "Help": "A primary amendment applies directly to the main motion."
+        },
+        {
+          "question": "If a primary amendment is pending, what can be done next regarding amendments?",
+          "options": [
+            "Another primary amendment can be made to the main motion.",
+            "A secondary amendment (amendment to the amendment) can be made to the primary amendment.",
+            "No further amendments can be made until the primary amendment is voted on.",
+            "The main motion can be amended directly again."
+          ],
+          "correctAnswer": "A secondary amendment (amendment to the amendment) can be made to the primary amendment.",
+          "Help": "Only one primary amendment and one secondary amendment can be pending at any given time."
+        },
+        {
+          "question": "What is a characteristic of a 'Request for Information'?",
+          "options": [
+            "It requires a second and a vote.",
+            "It is used to ask questions relevant to the business at hand without interrupting a speaker.",
+            "It is typically addressed to the speaker and does not interrupt them.",
+            "It can only be made when no other motion is pending."
+          ],
+          "correctAnswer": "It is typically addressed to the speaker and does not interrupt them.",
+          "Help": "It's a form of parliamentary courtesy for clarification, not a formal motion that needs a vote."
+        },
+        {
+          "question": "Which term describes a motion that arises out of another motion or refers to the proper conduct of the meeting?",
+          "options": [
+            "Main Motion",
+            "Subsidiary Motion",
+            "Privileged Motion",
+            "Incidental Motion"
+          ],
+          "correctAnswer": "Incidental Motion",
+          "Help": "Incidental motions address procedural questions that need immediate resolution."
+        },
+        {
+          "question": "What is the purpose of a 'Motion to Close Nominations'?",
+          "options": [
+            "To elect a candidate by acclamation.",
+            "To prevent further candidates from being proposed for an office.",
+            "To declare the election null and void.",
+            "To open the floor for debate on the nominees."
+          ],
+          "correctAnswer": "To prevent further candidates from being proposed for an office.",
+          "Help": "This motion speeds up the election process once sufficient nominations have been received."
+        },
+        {
+          "question": "When may a member make a 'Motion to Reconsider and Enter on the Minutes'?",
+          "options": [
+            "Only immediately after the vote in question.",
+            "At any point during the meeting, regardless of other business.",
+            "At the meeting during which the vote was taken, by a member on the prevailing side.",
+            "Only with the approval of the presiding officer."
+          ],
+          "correctAnswer": "At the meeting during which the vote was taken, by a member on the prevailing side.",
+          "Help": "This motion has the effect of tabling the motion to reconsider, allowing action at a later time."
+        },
+        {
+          "question": "If a member requests a 'Division of a Question', what are they asking for?",
+          "options": [
+            "To divide the assembly into two groups for discussion.",
+            "To separate a motion with multiple distinct parts so each part can be voted on individually.",
+            "To postpone the consideration of one part of a motion.",
+            "To move one part of a motion to a committee."
+          ],
+          "correctAnswer": "To separate a motion with multiple distinct parts so each part can be voted on individually.",
+          "Help": "This allows members to vote for or against specific components of a multi-part proposal."
+        },
+        {
+          "question": "What is the meaning of 'pro tem' when referring to an officer?",
+          "options": [
+            "Permanent officer",
+            "Honorary officer",
+            "Officer serving temporarily",
+            "Officer with advisory duties only"
+          ],
+          "correctAnswer": "Officer serving temporarily",
+          "Help": "'Pro tempore' means 'for the time being'."
+        },
+        {
+          "question": "Which of the following motions is a 'motion that brings a question again before the assembly'?",
+          "options": [
+            "Point of Order",
+            "Adjourn",
+            "Take from the Table",
+            "Postpone Definitely"
+          ],
+          "correctAnswer": "Take from the Table",
+          "Help": "These motions allow reconsideration of previously decided or set-aside business."
+        },
+        {
+          "question": "In general, how many times can a member speak on a debatable motion?",
+          "options": [
+            "Once",
+            "Twice",
+            "Unlimited times",
+            "Only if invited by the chair"
+          ],
+          "correctAnswer": "Twice",
+          "Help": "Most rules of order limit a member to speaking twice on the same debatable motion on the same day."
+        },
+        {
+          "question": "The motion to 'Discharge a Committee' is used to:",
+          "options": [
+            "Appoint a new committee.",
+            "Remove a committee member for misconduct.",
+            "Relieve a committee of a matter referred to it, usually because it's failing to act.",
+            "Dissolve a special committee that has completed its task."
+          ],
+          "correctAnswer": "Relieve a committee of a matter referred to it, usually because it's failing to act.",
+          "Help": "This allows the assembly to bring the matter back to the floor or assign it elsewhere."
+        },
+        {
+          "question": "What is the role of the presiding officer during debate?",
+          "options": [
+            "To express their personal opinion frequently to guide the discussion.",
+            "To remain impartial, recognize speakers, and enforce rules of debate.",
+            "To prevent any member from speaking too long.",
+            "To actively participate in debate as a regular member."
+          ],
+          "correctAnswer": "To remain impartial, recognize speakers, and enforce rules of debate.",
+          "Help": "The chair's impartiality is crucial for fair proceedings."
+        },
+        {
+          "question": "If the chair is in doubt about a voice vote, they should:",
+          "options": [
+            "Ask for a written ballot immediately.",
+            "Declare the motion failed to avoid controversy.",
+            "Request a 'division of the assembly' (e.g., a rising vote).",
+            "Ask the secretary to guess the outcome."
+          ],
+          "correctAnswer": "Request a 'division of the assembly' (e.g., a rising vote).",
+          "Help": "A division provides a more accurate count."
+        },
+        {
+          "question": "What happens if a motion fails to get a second?",
+          "options": [
+            "It is immediately put to a vote.",
+            "It is recorded in the minutes as 'failed for lack of second'.",
+            "It dies for lack of a second and is not considered by the assembly.",
+            "The presiding officer must second it to allow discussion."
+          ],
+          "correctAnswer": "It dies for lack of a second and is not considered by the assembly.",
+          "Help": "A motion must have at least two members interested for it to proceed."
+        },
+        {
+          "question": "Which motion can only be made when no other motion is pending?",
+          "options": [
+            "Point of Order",
+            "Motion to Amend",
+            "Main Motion",
+            "Motion to Recess"
+          ],
+          "correctAnswer": "Main Motion",
+          "Help": "Main motions introduce new business and cannot interrupt other pending items."
+        },
+        {
+          "question": "What is the primary characteristic of a 'subsidiary motion'?",
+          "options": [
+            "It deals with the personal privileges of members.",
+            "It assists the assembly in treating or disposing of a main motion.",
+            "It takes precedence over all other motions.",
+            "It brings a question again before the assembly."
+          ],
+          "correctAnswer": "It assists the assembly in treating or disposing of a main motion.",
+          "Help": "Subsidiary motions modify, delay, or dispose of the main motion."
+        },
+        {
+          "question": "If an assembly decides to 'Postpone Indefinitely' a main motion, what is the effect on that motion?",
+          "options": [
+            "It means the motion will be brought up at the next meeting.",
+            "It kills the motion for the current session without a direct vote against it.",
+            "It sends the motion to a committee indefinitely.",
+            "It allows for unlimited debate on the motion."
+          ],
+          "correctAnswer": "It kills the motion for the current session without a direct vote against it.",
+          "Help": "This motion is a way to reject a main motion without directly voting it down."
+        },
+        {
+          "question": "A member rises and states, 'I move that we suspend the rules and allow the guest speaker to speak for 30 minutes instead of the usual 15.' This motion requires a:",
+          "options": [
+            "Majority vote",
+            "Two-thirds vote",
+            "Unanimous vote",
+            "Three-fourths vote"
+          ],
+          "correctAnswer": "Two-thirds vote",
+          "Help": "Suspending rules usually requires a two-thirds vote as it temporarily sets aside an established rule."
+        },
+        {
+          "question": "What is the typical method for taking a vote on ordinary motions?",
+          "options": [
+            "Roll call vote",
+            "Ballot vote",
+            "Voice vote",
+            "Show of hands only"
+          ],
+          "correctAnswer": "Voice vote",
+          "Help": "Voice votes are the most common and efficient for routine decisions."
+        },
+        {
+          "question": "When can a member raise a 'Point of Information' or 'Request for Information'?",
+          "options": [
+            "Only when no motion is pending.",
+            "Only after debate has closed.",
+            "At any time, even when another member has the floor, if it's for clarification.",
+            "Only if the chair explicitly grants permission before the question."
+          ],
+          "correctAnswer": "At any time, even when another member has the floor, if it's for clarification.",
+          "Help": "These are informal requests for clarification and do not typically interrupt the speaker."
+        },
+        {
+          "question": "The motion 'To Amend' is what kind of motion?",
+          "options": [
+            "Privileged motion",
+            "Incidental motion",
+            "Main motion",
+            "Subsidiary motion"
+          ],
+          "correctAnswer": "Subsidiary motion",
+          "Help": "It modifies the main motion being considered."
+        },
+        {
+          "question": "How can an assembly reconsider a motion that has already been reconsidered?",
+          "options": [
+            "It cannot be reconsidered a second time.",
+            "Only with a unanimous vote.",
+            "By a motion to Rescind.",
+            "By waiting until the next calendar year."
+          ],
+          "correctAnswer": "It cannot be reconsidered a second time.",
+          "Help": "The motion to reconsider can generally only be made once on the same question in the same session."
+        },
+        {
+          "question": "Which motion is always undebatable and unamendable?",
+          "options": [
+            "Motion to Amend",
+            "Motion to Postpone Indefinitely",
+            "Motion to Fix the Time to Which to Adjourn (when unqualified)",
+            "Motion to Refer to a Committee"
+          ],
+          "correctAnswer": "Motion to Fix the Time to Which to Adjourn (when unqualified)",
+          "Help": "As a privileged motion, it needs quick action without discussion when unqualified."
+        },
+        {
+          "question": "If a motion is 'tabled', it means it is:",
+          "options": [
+            "Passed without debate.",
+            "Postponed to the next meeting for certain.",
+            "Temporarily set aside without debate.",
+            "Sent to a committee for immediate action."
+          ],
+          "correctAnswer": "Temporarily set aside without debate.",
+          "Help": "The purpose of tabling is to address more urgent business."
+        },
+        {
+          "question": "What happens if a member speaks beyond their allotted time in a meeting?",
+          "options": [
+            "They are allowed to continue until they finish their thought.",
+            "The chair should politely interrupt and remind them of the time limit.",
+            "The secretary notes it in the minutes for future reference.",
+            "Other members can call a 'Point of Order' to enforce the rules."
+          ],
+          "correctAnswer": "Other members can call a 'Point of Order' to enforce the rules.",
+          "Help": "Enforcing time limits falls under the rules of debate."
+        },
+        {
+          "question": "A motion to 'Commit or Refer' is used to:",
+          "options": [
+            "Place a motion on hold indefinitely.",
+            "Send a motion to a smaller group for detailed study and recommendations.",
+            "Immediately vote on the motion without further discussion.",
+            "Change the text of the motion directly on the floor."
+          ],
+          "correctAnswer": "Send a motion to a smaller group for detailed study and recommendations.",
+          "Help": "This allows for more thorough investigation than can be done by the whole assembly."
+        },
+        {
+          "question": "What is the effect of passing the 'Previous Question' motion?",
+          "options": [
+            "It allows more debate on the main motion.",
+            "It immediately brings the pending question(s) to a vote.",
+            "It refers the motion to a committee.",
+            "It postpones the motion indefinitely."
+          ],
+          "correctAnswer": "It immediately brings the pending question(s) to a vote.",
+          "Help": "This motion is powerful as it cuts off debate."
+        },
+        {
+          "question": "The motion to 'Take from the Table' is a motion that:",
+          "options": [
+            "Requires a two-thirds vote.",
+            "Is debatable and amendable.",
+            "Allows the assembly to resume consideration of a motion previously laid on the table.",
+            "Can only be made by the member who originally tabled the motion."
+          ],
+          "correctAnswer": "Allows the assembly to resume consideration of a motion previously laid on the table.",
+          "Help": "It needs a majority vote and is undebatable."
+        },
+        {
+          "question": "A member calls out 'Division!' after a voice vote. What does this mean?",
+          "options": [
+            "They are asking for a break in the meeting.",
+            "They want to split the motion into two parts.",
+            "They are challenging the chair's announcement of the voice vote and requesting a countable vote.",
+            "They are asking to form a committee."
+          ],
+          "correctAnswer": "They are challenging the chair's announcement of the voice vote and requesting a countable vote.",
+          "Help": "A division typically leads to a rising or show of hands vote for verification."
+        },
+        {
+          "question": "What is the primary role of the Bylaws in an organization?",
+          "options": [
+            "To outline the current meeting agenda.",
+            "To serve as the fundamental rules of the organization, defining its structure and operation.",
+            "To record the minutes of past meetings.",
+            "To provide a list of all current members."
+          ],
+          "correctAnswer": "To serve as the fundamental rules of the organization, defining its structure and operation.",
+          "Help": "Bylaws are the highest governing document for most organizations after the corporate charter."
+        },
+        {
+          "question": "What is a 'standing rule'?",
+          "options": [
+            "A rule that members must always stand when speaking.",
+            "A rule that can only be changed by a two-thirds vote.",
+            "A rule related to the details of administration, not fundamental principles, that can be adopted or changed by a majority vote.",
+            "A temporary rule used for a single meeting."
+          ],
+          "correctAnswer": "A rule related to the details of administration, not fundamental principles, that can be adopted or changed by a majority vote.",
+          "Help": "Standing rules are less fundamental than bylaws and can be more easily modified."
+        },
+        {
+          "question": "The term 'parliamentary law' generally refers to:",
+          "options": [
+            "Laws passed by a national parliament.",
+            "The legal system governing legislative bodies.",
+            "The body of rules, precedents, and customs governing the conduct of deliberative assemblies.",
+            "The principles specific to electing government officials."
+          ],
+          "correctAnswer": "The body of rules, precedents, and customs governing the conduct of deliberative assemblies.",
+          "Help": "Roberts Rules of Order, Newly Revised is a widely adopted manual of parliamentary law."
+        },
+        {
+          "question": "Which of the following describes the proper way to handle an amendment?",
+          "options": [
+            "Debate both the main motion and the amendment at the same time.",
+            "Vote on the main motion first, then the amendment.",
+            "Debate and vote on the amendment first, then the main motion as amended (or not).",
+            "Amendments are only allowed at the end of the meeting."
+          ],
+          "correctAnswer": "Debate and vote on the amendment first, then the main motion as amended (or not).",
+          "Help": "Resolving the amendment clarifies what the main motion actually says before voting on it."
+        },
+        {
+          "question": "What is the purpose of 'Calling for the Orders of the Day'?",
+          "options": [
+            "To introduce new business.",
+            "To force the assembly to follow its adopted agenda or program.",
+            "To demand an immediate vote on the pending motion.",
+            "To request a clarification of the rules."
+          ],
+          "correctAnswer": "To force the assembly to follow its adopted agenda or program.",
+          "Help": "This privileged motion ensures adherence to the schedule."
+        },
+        {
+          "question": "If a member desires to correct the minutes of a previous meeting, they should:",
+          "options": [
+            "Wait until the next meeting's new business.",
+            "Raise a 'Point of Order' during the reading of the minutes.",
+            "Make a motion to 'Amend the Minutes' when the minutes are presented for approval.",
+            "Send a private email to the secretary."
+          ],
+          "correctAnswer": "Make a motion to 'Amend the Minutes' when the minutes are presented for approval.",
+          "Help": "The approval of minutes is part of the regular order of business."
+        },
+        {
+          "question": "What is meant by 'recognizing a member'?",
+          "options": [
+            "Acknowledging their presence at the meeting.",
+            "Granting them the floor to speak or propose a motion.",
+            "Applauding their contribution to the debate.",
+            "Confirming they are a registered member of the organization."
+          ],
+          "correctAnswer": "Granting them the floor to speak or propose a motion.",
+          "Help": "Recognition from the chair is essential to participate formally in proceedings."
+        },
+        {
+          "question": "Which of these motions can be renewed during the same session?",
+          "options": [
+            "Lay on the Table (after being taken from the table)",
+            "Previous Question (after being voted on)",
+            "Postpone Indefinitely (after being voted on)",
+            "Reconsider (after being voted on)"
+          ],
+          "correctAnswer": "Lay on the Table (after being taken from the table)",
+          "Help": "Some motions like 'Lay on the Table' can be moved again on the same question after progress has been made or new business intervened."
+        },
+        {
+          "question": "In a situation where a motion is highly contentious and deeply divides the assembly, which action might best allow for more research and compromise?",
+          "options": [
+            "Immediately vote to 'Previous Question'.",
+            "Move to 'Lay on the Table'.",
+            "Move to 'Refer to a Committee'.",
+            "Vote to 'Postpone Indefinitely'."
+          ],
+          "correctAnswer": "Move to 'Refer to a Committee'.",
+          "Help": "Committees provide a smaller, more informal setting for deliberation and finding common ground."
+        },
+        {
+          "question": "The motion to 'Object to the Consideration of a Question' can only be made:",
+          "options": [
+            "After the main motion has been debated for an hour.",
+            "Immediately after the main motion has been stated by the chair, but before any debate.",
+            "After the motion has been seconded but before being stated by the chair.",
+            "Any time during the discussion of the motion."
+          ],
+          "correctAnswer": "Immediately after the main motion has been stated by the chair, but before any debate.",
+          "Help": "It's a preventive measure to avoid discussing an improper or irrelevant topic."
+        },
+        {
+          "question": "What is the purpose of 'Filling Blanks' in parliamentary procedure?",
+          "options": [
+            "To add missing information to the meeting minutes.",
+            "To fill in specific details (like dates or amounts) of a motion before it is voted on.",
+            "To complete an incomplete agenda item.",
+            "To elect temporary officers to fill vacant positions."
+          ],
+          "correctAnswer": "To fill in specific details (like dates or amounts) of a motion before it is voted on.",
+          "Help": "This procedure allows for various options to be proposed and voted on sequentially to complete a motion."
+        },
+        {
+          "question": "If a member commits a breach of order, the chair should normally:",
+          "options": [
+            "Ignore it to keep the peace.",
+            "Order the member to leave the meeting.",
+            "Call the member to order and state the breach.",
+            "Put it to a vote whether the member is out of order."
+          ],
+          "correctAnswer": "Call the member to order and state the breach.",
+          "Help": "The chair has the duty to maintain order and enforce rules."
+        },
+        {
+          "question": "Which of the following indicates that a motion should be decided by a majority vote?",
+          "options": [
+            "It modifies the bylaws.",
+            "It affects an individual member's rights.",
+            "It is a main motion introducing new business.",
+            "It limits debate time."
+          ],
+          "correctAnswer": "It is a main motion introducing new business.",
+          "Help": "Most main motions and routine decisions require a simple majority."
+        },
+        {
+          "question": "A motion to 'Take from the Table' can only be made when:",
+          "options": [
+            "Another motion is pending.",
+            "It is the first item on the agenda.",
+            "No other business is pending that has higher precedence.",
+            "The assembly is in a committee of the whole."
+          ],
+          "correctAnswer": "No other business is pending that has higher precedence.",
+          "Help": "It's a motion of low precedence, meaning other business must be dealt with first."
+        },
+        {
+          "question": "What is the final step in the process of considering a main motion?",
+          "options": [
+            "Seconding the motion.",
+            "Debating the motion.",
+            "Voting on the motion and announcing the result.",
+            "Amending the motion."
+          ],
+          "correctAnswer": "Voting on the motion and announcing the result.",
+          "Help": "The goal is to decide the question before the assembly."
+        },
+        {
+          "question": "In a formal debate, how does a member obtain the floor?",
+          "options": [
+            "By simply standing up and speaking.",
+            "By waiting for a pause in conversation and interjecting.",
+            "By rising and addressing the chair, then waiting to be recognized.",
+            "By sending a written request to the chair."
+          ],
+          "correctAnswer": "By rising and addressing the chair, then waiting to be recognized.",
+          "Help": "This formal process ensures order and fairness in debate."
+        },
+        {
+          "question": "What happens to a main motion if a motion to 'Postpone Indefinitely' passes?",
+          "options": [
+            "It is automatically reconsidered at the next meeting.",
+            "It is sent to a committee for further review.",
+            "It is effectively killed for the duration of the current session.",
+            "It is amended to make it more acceptable."
+          ],
+          "correctAnswer": "It is effectively killed for the duration of the current session.",
+          "Help": "This motion prevents a direct vote on the main motion's merits."
+        },
+        {
+          "question": "A motion to 'Amend' is debatable only if:",
+          "options": [
+            "The motion it is amending is debatable.",
+            "It proposes a major change to the motion.",
+            "It is a primary amendment.",
+            "It relates to the bylaws."
+          ],
+          "correctAnswer": "The motion it is amending is debatable.",
+          "Help": "The debatability of an amendment depends on the debatability of the motion to which it applies."
+        },
+        {
+          "question": "Who has the duty to preserve order and decorum in the assembly?",
+          "options": [
+            "The secretary",
+            "The parliamentarian",
+            "The presiding officer",
+            "Any senior member"
+          ],
+          "correctAnswer": "The presiding officer",
+          "Help": "Maintaining order is a key responsibility of the chair."
+        },
+        {
+          "question": "What is the minimum number of members required for a main motion to be discussed and voted upon, assuming a quorum is present?",
+          "options": [
+            "One member (the mover)",
+            "Two members (mover and seconder)",
+            "Three members (mover, seconder, and one for debate)",
+            "A majority of the quorum"
+          ],
+          "correctAnswer": "Two members (mover and seconder)",
+          "Help": "A motion requires a second to show it has broader interest than just one individual."
+        },
+        {
+          "question": "Which statement best describes the 'General Consent' procedure?",
+          "options": [
+            "It requires a formal vote on every minor procedural matter.",
+            "It allows the chair to take action without a vote if no member objects.",
+            "It is used only for highly controversial motions.",
+            "It means every member must individually agree to a proposal."
+          ],
+          "correctAnswer": "It allows the chair to take action without a vote if no member objects.",
+          "Help": "Often used for routine or non-controversial matters to save time (e.g., 'If there is no objection, the minutes are approved')."
+        },
+        {
+          "question": "If a member moves to 'Limit Debate' to five minutes per speaker, what kind of vote is required?",
+          "options": [
+            "Majority vote",
+            "Two-thirds vote",
+            "Unanimous vote",
+            "Roll call vote"
+          ],
+          "correctAnswer": "Two-thirds vote",
+          "Help": "Motions that limit the fundamental rights of members, like the right to debate, usually require a two-thirds vote."
+        },
+        {
+          "question": "When may a 'Point of Order' be raised?",
+          "options": [
+            "Only during the New Business section of the meeting.",
+            "At any time when a perceived violation of the rules occurs.",
+            "Only by the presiding officer.",
+            "After all other business has concluded."
+          ],
+          "correctAnswer": "At any time when a perceived violation of the rules occurs.",
+          "Help": "Points of order interrupt other business because they address immediate procedural correctness."
+        },
+        {
+          "question": "The motion 'To Suspend the Rules' is used to set aside rules of procedure, but it cannot suspend:",
+          "options": [
+            "Rules regarding debate time.",
+            "Rules regarding the order of business.",
+            "The bylaws of the organization.",
+            "Rules regarding voting methods."
+          ],
+          "correctAnswer": "The bylaws of the organization.",
+          "Help": "Bylaws are fundamental and require a formal amendment process, not a suspension."
+        },
+        {
+          "question": "If a motion is moved, seconded, and stated by the chair, but then the mover wishes to withdraw it, what is required?",
+          "options": [
+            "The mover can unilaterally withdraw it.",
+            "The seconder must agree to withdraw it.",
+            "A majority vote of the assembly is required for withdrawal.",
+            "The presiding officer makes the final decision."
+          ],
+          "correctAnswer": "A majority vote of the assembly is required for withdrawal.",
+          "Help": "Once stated by the chair, the motion belongs to the assembly."
+        },
+        {
+          "question": "A 'friendly amendment' is proposed. How should the chair handle it?",
+          "options": [
+            "The chair can accept it without a vote if the mover agrees.",
+            "It must still be formally moved, seconded, debated, and voted upon like any other amendment.",
+            "It is automatically incorporated into the main motion.",
+            "The chair should rule it out of order as 'friendly amendments' are not recognized in formal procedure."
+          ],
+          "correctAnswer": "It must still be formally moved, seconded, debated, and voted upon like any other amendment.",
+          "Help": "There is no such thing as a 'friendly amendment' in formal parliamentary procedure; all amendments require a vote."
+        },
+        {
+          "question": "The motion 'To Adjourn' is classified as what kind of motion when no business is immediately pending?",
+          "options": [
+            "Incidental",
+            "Subsidiary",
+            "Privileged",
+            "Main"
+          ],
+          "correctAnswer": "Main",
+          "Help": "When unqualified and not interrupting other business, it's considered new business."
+        },
+        {
+          "question": "What is the primary role of the parliamentarian in a meeting?",
+          "options": [
+            "To vote on every motion.",
+            "To preside over the meeting.",
+            "To advise the presiding officer and members on parliamentary law.",
+            "To take the minutes of the meeting."
+          ],
+          "correctAnswer": "To advise the presiding officer and members on parliamentary law.",
+          "Help": "The parliamentarian's role is advisory, not authoritative or participatory in decision-making."
+        },
+        {
+          "question": "A member wants to propose a motion that the organization spend money. What kind of motion is this?",
+          "options": [
+            "A privileged motion",
+            "An incidental motion",
+            "A subsidiary motion",
+            "A main motion (specifically, a motion involving finances)"
+          ],
+          "correctAnswer": "A main motion (specifically, a motion involving finances)",
+          "Help": "Introducing new business, especially concerning finances, is typically done through a main motion."
+        },
+        {
+          "question": "How many degrees of amendments are generally allowed at one time?",
+          "options": [
+            "One (primary amendment)",
+            "Two (primary and secondary amendment)",
+            "Three (primary, secondary, and tertiary amendment)",
+            "Unlimited, as long as they are relevant"
+          ],
+          "correctAnswer": "Two (primary and secondary amendment)",
+          "Help": "An amendment to an amendment (secondary) is allowed, but not an amendment to that secondary amendment (tertiary)."
+        },
+        {
+          "question": "What is the final authority on parliamentary procedure for an organization, assuming a specific manual is adopted?",
+          "options": [
+            "The presiding officer's personal judgment.",
+            "The organization's standing rules.",
+            "The adopted parliamentary authority (e.g., Roberts Rules of Order, Newly Revised).",
+            "The general consensus of the members present."
+          ],
+          "correctAnswer": "The adopted parliamentary authority (e.g., Roberts Rules of Order, Newly Revised).",
+          "Help": "The chosen parliamentary authority serves as the definitive guide where bylaws do not specify."
+        },
+        {
+          "question": "If an assembly decides to 'Postpone Definitely' a motion, it means the motion will be taken up at:",
+          "options": [
+            "Some unspecified future time.",
+            "The next meeting, without a specific time.",
+            "A specific time or a specific event in the future.",
+            "Immediately after the current item of business."
+          ],
+          "correctAnswer": "A specific time or a specific event in the future.",
+          "Help": "This motion sets a precise time or condition for resuming consideration."
+        },
+        {
+          "question": "A motion is made to change the bylaws. This motion requires:",
+          "options": [
+            "A simple majority vote.",
+            "A two-thirds vote, usually with prior notice.",
+            "A unanimous vote of all members.",
+            "The approval of the presiding officer only."
+          ],
+          "correctAnswer": "A two-thirds vote, usually with prior notice.",
+          "Help": "Bylaws are fundamental and protected by a higher voting threshold."
+        },
+        {
+          "question": "What is the purpose of a 'Call to Order'?",
+          "options": [
+            "To start the meeting officially and bring it to order.",
+            "To request a roll call of members.",
+            "To ask a member to stop speaking out of turn.",
+            "To introduce the first item of new business."
+          ],
+          "correctAnswer": "To start the meeting officially and bring it to order.",
+          "Help": "The chair typically uses this phrase to begin the formal proceedings."
+        },
+        {
+          "question": "If a motion is 'tabled' at one meeting, when can it be 'taken from the table'?",
+          "options": [
+            "Only at the very next meeting.",
+            "Any time before the end of the next regular meeting (or the session).",
+            "Never, once tabled it is permanently disposed of.",
+            "Only by the original mover of the motion to table."
+          ],
+          "correctAnswer": "Any time before the end of the next regular meeting (or the session).",
+          "Help": "The motion to Take from the Table can be applied within certain time limits."
+        },
+        {
+          "question": "Which of these is NOT considered a fundamental principle of parliamentary procedure?",
+          "options": [
+            "Only one subject at a time.",
+            "All members have equal rights.",
+            "The chair is superior to the assembly.",
+            "The majority rules."
+          ],
+          "correctAnswer": "The chair is superior to the assembly.",
+          "Help": "The assembly is supreme; the chair serves its will."
+        },
+        {
+          "question": "When taking a voice vote, the chair determines the outcome by:",
+          "options": [
+            "Counting the members who said 'aye' and 'no' verbally.",
+            "Listening to the volume of the 'aye' and 'no' responses.",
+            "Asking for individual names to be called out.",
+            "Taking a show of hands privately."
+          ],
+          "correctAnswer": "Listening to the volume of the 'aye' and 'no' responses.",
+          "Help": "This is why a 'division' may be called if the volume is unclear."
+        },
+        {
+          "question": "What is the proper way to handle an amendment if a member wishes to modify it further?",
+          "options": [
+            "Make a 'third-degree' amendment.",
+            "Propose a 'secondary amendment' to the primary amendment.",
+            "Move to 'lay the amendment on the table'.",
+            "Move to 'postpone indefinitely' the amendment."
+          ],
+          "correctAnswer": "Propose a 'secondary amendment' to the primary amendment.",
+          "Help": "Only two degrees of amendment are allowed to be pending at one time."
+        },
+        {
+          "question": "A motion is moved and seconded. What is the immediate next step?",
+          "options": [
+            "Open the floor for a vote.",
+            "The chair states the motion and opens it for debate.",
+            "The secretary records the motion as passed.",
+            "The mover explains the motion in detail."
+          ],
+          "correctAnswer": "The chair states the motion and opens it for debate.",
+          "Help": "Stating the motion by the chair makes it officially before the assembly."
+        },
+        {
+          "question": "What is the significance of the phrase 'The chair takes no part in debate'?",
+          "options": [
+            "It means the chair cannot vote on any motion.",
+            "It ensures the chair remains impartial and does not influence the discussion with personal opinions.",
+            "It is a rule that can be suspended by a majority vote.",
+            "It applies only to motions involving financial matters."
+          ],
+          "correctAnswer": "It ensures the chair remains impartial and does not influence the discussion with personal opinions.",
+          "Help": "The chair's neutrality is fundamental to fair proceedings."
+        },
+        {
+          "question": "Which motion would be appropriate if an urgent matter related to the comfort of members (e.g., loud noise) arises?",
+          "options": [
+            "Main Motion",
+            "Point of Order",
+            "Question of Privilege",
+            "Motion to Recess"
+          ],
+          "correctAnswer": "Question of Privilege",
+          "Help": "This motion addresses immediate, urgent issues affecting the assembly or its members' rights/comfort."
+        },
+        {
+          "question": "A main motion is pending. Which of the following motions is NOT in order at this time?",
+          "options": [
+            "To Amend",
+            "To Lay on the Table",
+            "To Postpone Indefinitely",
+            "To Rescind"
+          ],
+          "correctAnswer": "To Rescind",
+          "Help": "Rescind applies to a motion previously adopted, not a pending one."
+        },
+        {
+          "question": "What is the purpose of 'Committee of the Whole'?",
+          "options": [
+            "To delegate all authority to a small group of members.",
+            "To conduct a private meeting for sensitive discussions.",
+            "To allow the entire assembly to operate under more informal rules of debate and discussion.",
+            "To prevent certain members from participating in debate."
+          ],
+          "correctAnswer": "To allow the entire assembly to operate under more informal rules of debate and discussion.",
+          "Help": "This procedure allows for free discussion on a topic without the strict rules of formal debate."
+        },
+        {
+          "question": "Which of these is a characteristic of a 'special meeting'?",
+          "options": [
+            "It must follow the standard order of business precisely.",
+            "It can only consider business specified in the call for the meeting.",
+            "It can only be called by the presiding officer.",
+            "It can occur only once a year."
+          ],
+          "correctAnswer": "It can only consider business specified in the call for the meeting.",
+          "Help": "Members must be informed of the specific purpose of a special meeting in advance."
+        },
+        {
+          "question": "What is the standard requirement for a vote to pass a simple main motion?",
+          "options": [
+            "Two-thirds majority",
+            "Unanimous vote",
+            "Simple majority",
+            "A plurality of votes"
+          ],
+          "correctAnswer": "Simple majority",
+          "Help": "More than half of the votes cast, excluding blanks and abstentions."
+        },
+        {
+          "question": "If a committee fails to report on a matter referred to it, how can the assembly retrieve the business?",
+          "options": [
+            "By asking the chair to take it back.",
+            "By a motion to 'Discharge a Committee'.",
+            "By a motion to 'Take from the Table'.",
+            "By making a new main motion on the same subject."
+          ],
+          "correctAnswer": "By a motion to 'Discharge a Committee'.",
+          "Help": "This motion is used to remove a matter from a committee's hands."
+        },
+        {
+          "question": "What is the meaning of 'germane' in parliamentary procedure?",
+          "options": [
+            "A motion that is humorous or irrelevant.",
+            "An amendment or motion that is relevant and pertains to the same subject as the motion to which it applies.",
+            "A motion that is made by a German member.",
+            "A motion that is highly controversial."
+          ],
+          "correctAnswer": "An amendment or motion that is relevant and pertains to the same subject as the motion to which it applies.",
+          "Help": "Amendments, for instance, must be germane to the motion they seek to change."
+        },
+        {
+          "question": "What is the typical result of a 'Call for the Orders of the Day' if it is not suspended?",
+          "options": [
+            "The meeting adjourns.",
+            "The pending business is postponed indefinitely.",
+            "The assembly must immediately proceed to the next item on the agenda.",
+            "A new committee is formed."
+          ],
+          "correctAnswer": "The assembly must immediately proceed to the next item on the agenda.",
+          "Help": "This privileged motion forces adherence to the established agenda."
+        },
+        {
+          "question": "Which motion would be appropriate if a member believes the chair has made an error in a ruling?",
+          "options": [
+            "Point of Order",
+            "Motion to Adjourn",
+            "Appeal the Decision of the Chair",
+            "Parliamentary Inquiry"
+          ],
+          "correctAnswer": "Appeal the Decision of the Chair",
+          "Help": "This allows the assembly to decide on the correctness of the chair's ruling."
+        },
+        {
+          "question": "To change something that has been previously adopted, such as bylaws or standing rules, typically requires:",
+          "options": [
+            "A simple majority.",
+            "A two-thirds vote, often with prior notice.",
+            "The chair's unilateral decision.",
+            "Unanimous consent."
+          ],
+          "correctAnswer": "A two-thirds vote, often with prior notice.",
+          "Help": "These changes impact the fundamental governance and are protected by higher thresholds."
+        },
+        {
+          "question": "What is the purpose of a 'Motion to Reconsider'?",
+          "options": [
+            "To debate a motion that has already failed.",
+            "To bring back for discussion and a new vote a motion that has already been voted upon.",
+            "To refer a motion to a committee for the second time.",
+            "To change the wording of a motion that has already been passed."
+          ],
+          "correctAnswer": "To bring back for discussion and a new vote a motion that has already been voted upon.",
+          "Help": "This allows the assembly to correct errors or re-evaluate decisions in light of new information."
+        },
+        {
+          "question": "If a vote is taken by 'acclamation', it means:",
+          "options": [
+            "Members are elected by a secret ballot.",
+            "The vote is taken verbally, with members loudly agreeing or disagreeing.",
+            "The motion is carried without dissent, typically by unanimous consent, often for elections with only one nominee.",
+            "The vote is postponed until the next meeting."
+          ],
+          "correctAnswer": "The motion is carried without dissent, typically by unanimous consent, often for elections with only one nominee.",
+          "Help": "It's a way to express overwhelming support without a formal countable vote."
+        },
+        {
+          "question": "When can a motion to 'Rescind' be applied?",
+          "options": [
+            "To a motion currently being debated.",
+            "To a motion that has failed previously.",
+            "To a motion that has been laid on the table.",
+            "To a motion that has been adopted at a previous meeting."
+          ],
+          "correctAnswer": "To a motion that has been adopted at a previous meeting.",
+          "Help": "Rescind is used to annul an action already taken."
+        },
+        {
+          "question": "What is the purpose of an 'agenda' in a meeting?",
+          "options": [
+            "To list all members present.",
+            "To summarize the decisions made.",
+            "To outline the specific items of business to be considered in order.",
+            "To record the detailed discussions of members."
+          ],
+          "correctAnswer": "To outline the specific items of business to be considered in order.",
+          "Help": "An agenda provides structure and predictability to the meeting."
+        },
+        {
+          "question": "If a member is repeatedly out of order, the chair's final step to maintain decorum might be to:",
+          "options": [
+            "Ask the secretary to ignore them.",
+            "Ignore the member until they stop.",
+            "Request the assembly to silence the member.",
+            "Direct the member to take their seat or, in extreme cases, expel them from the meeting by vote of the assembly."
+          ],
+          "correctAnswer": "Direct the member to take their seat or, in extreme cases, expel them from the meeting by vote of the assembly.",
+          "Help": "The chair must escalate measures if initial warnings are ineffective."
+        },
+        {
+          "question": "Which of these motions is NOT debatable?",
+          "options": [
+            "Main Motion",
+            "Motion to Amend",
+            "Motion to Lay on the Table",
+            "Motion to Refer to Committee"
+          ],
+          "correctAnswer": "Motion to Lay on the Table",
+          "Help": "Motions to table are undebatable to allow for quick action."
+        },
+        {
+          "question": "What is the typical vote required for a motion to 'Suspend the Rules'?",
+          "options": [
+            "Majority vote",
+            "Two-thirds vote",
+            "Unanimous vote",
+            "Plurality vote"
+          ],
+          "correctAnswer": "Two-thirds vote",
+          "Help": "This higher vote protects the rights of members by making it harder to temporarily set aside rules."
+        },
+        {
+          "question": "A member proposes to change a standing rule. What vote is generally required?",
+          "options": [
+            "Two-thirds vote.",
+            "A majority vote, with or without previous notice.",
+            "Unanimous vote.",
+            "The chair's decision alone."
+          ],
+          "correctAnswer": "A majority vote, with or without previous notice.",
+          "Help": "Standing rules are less fundamental than bylaws and require a lower vote to change."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Bylaws (Corporate & Division)",
+      "questions": [
+        {
+          "question": "What is the national membership dues deadline for FBLA competitors to be eligible for the National Leadership Conference (NLC)?",
+          "options": [
+            "December 31 of the previous year",
+            "January 1 of the current school year",
+            "March 1 of the current school year, by 11:59 p.m. Eastern Time",
+            "April 15 of the current school year"
+          ],
+          "correctAnswer": "March 1 of the current school year, by 11:59 p.m. Eastern Time",
+          "Help": "This is a critical deadline for NLC eligibility as stated in the competitive events guidelines."
+        },
+        {
+          "question": "According to FBLA competitive event guidelines, how many individual or team events can a member participate in at the NLC?",
+          "options": [
+            "Two individual or team events",
+            "One individual or team event",
+            "Three individual or team events",
+            "Unlimited individual or team events"
+          ],
+          "correctAnswer": "One individual or team event",
+          "Help": "Members can also participate in one chapter event in addition to their individual/team event."
+        },
+        {
+          "question": "If a member places in the top 10 of an FBLA event at the NLC, what is their eligibility status for competing in that specific event at future NLCs?",
+          "options": [
+            "They can compete again if they change divisions.",
+            "They are no longer eligible to compete in that event at future NLCs, unless the event has been significantly modified beyond a name change.",
+            "They must take a year off before competing in it again.",
+            "They can compete every year if they wish."
+          ],
+          "correctAnswer": "They are no longer eligible to compete in that event at future NLCs, unless the event has been significantly modified beyond a name change.",
+          "Help": "This rule promotes fairness and opportunities for new competitors."
+        },
+        {
+          "question": "What is the penalty for a competitor being late to an FBLA competitive event testing site?",
+          "options": [
+            "Disqualification from the event",
+            "A deduction of ten penalty points",
+            "A deduction of five penalty points",
+            "A warning, but no points deducted for the first offense"
+          ],
+          "correctAnswer": "A deduction of five penalty points",
+          "Help": "Punctuality is important and enforced with penalty points."
+        },
+        {
+          "question": "To be eligible to compete at the FBLA National Leadership Conference, competitors must meet which of the following requirements regarding housing?",
+          "options": [
+            "They must stay at any hotel within the host city.",
+            "They must stay within the official FBLA housing block.",
+            "They are exempt from official housing if they live within 50 miles of the NLC.",
+            "There are no specific housing requirements for NLC eligibility."
+          ],
+          "correctAnswer": "They must stay within the official FBLA housing block.",
+          "Help": "This ensures compliance with FBLA's event logistics and support."
+        },
+        {
+          "question": "Which item is a competitor required to provide on-site for the 'Introduction to Parliamentary Procedure' objective test?",
+          "options": [
+            "A personal calculator",
+            "Reference materials or study guides",
+            "A sharpened pencil",
+            "Their own laptop for online testing"
+          ],
+          "correctAnswer": "A sharpened pencil",
+          "Help": "Personal calculators are not allowed; an online calculator is provided. Study materials are prohibited."
+        },
+        {
+          "question": "What is the duration of the 'Introduction to Parliamentary Procedure' objective test?",
+          "options": [
+            "30 minutes",
+            "45 minutes",
+            "50 minutes",
+            "60 minutes"
+          ],
+          "correctAnswer": "50 minutes",
+          "Help": "The event elements specify a 50-minute test duration."
+        },
+        {
+          "question": "According to the FBLA guidelines, which of these is NOT an acceptable form of photo identification at check-in for NLC competitors?",
+          "options": [
+            "Driver’s license",
+            "School ID",
+            "A photocopy of a passport without the original",
+            "State-issued ID"
+          ],
+          "correctAnswer": "A photocopy of a passport without the original",
+          "Help": "Competitors must present valid physical or digital photo identification, not just a copy without the original."
+        },
+        {
+          "question": "How are tiebreakers for the 'Introduction to Parliamentary Procedure' objective test primarily determined?",
+          "options": [
+            "By a sudden-death question from the test proctor.",
+            "By the number of correct responses to 10 pre-selected tiebreaker questions.",
+            "By the competitor with the higher overall GPA.",
+            "By a random drawing among tied competitors."
+          ],
+          "correctAnswer": "By the number of correct responses to 10 pre-selected tiebreaker questions.",
+          "Help": "This is the first step in the tie-breaking procedure outlined in the scoring section."
+        },
+        {
+          "question": "What happens if a competitor violates the FBLA Honor Code during a competitive event?",
+          "options": [
+            "They receive a 5-point penalty.",
+            "They are given a verbal warning.",
+            "They may be disqualified from the event.",
+            "They are required to retake the test."
+          ],
+          "correctAnswer": "They may be disqualified from the event.",
+          "Help": "Violations of the Honor Code or Code of Conduct can lead to disqualification."
+        }
+      ]
+    }
+  ]
+}
