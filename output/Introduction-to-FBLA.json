@@ -1,0 +1,1560 @@
+
+{
+  "testName": "Introduction to FBLA Competitive Exam",
+  "topics": [
+    {
+      "topic": "FBLA History & Founding",
+      "questions": [
+        {
+          "question": "In what year was the concept of FBLA first developed?",
+          "options": [
+            "1927",
+            "1937",
+            "1942",
+            "1957"
+          ],
+          "correctAnswer": "1937",
+          "Help": "Identify the foundational year for FBLA's inception."
+        },
+        {
+          "question": "Who is credited with founding the Future Business Leaders of America concept?",
+          "options": [
+            "Conrad Hilton",
+            "Dale Carnegie",
+            "Hamden L. Forkner",
+            "Thomas Edison"
+          ],
+          "correctAnswer": "Hamden L. Forkner",
+          "Help": "Recall the individual who initiated the FBLA idea."
+        },
+        {
+          "question": "When was the first FBLA high school chapter chartered?",
+          "options": [
+            "1937",
+            "1942",
+            "1958",
+            "1967"
+          ],
+          "correctAnswer": "1942",
+          "Help": "Remember the year the first local FBLA chapter was established."
+        },
+        {
+          "question": "The collegiate division of FBLA is known as:",
+          "options": [
+            "Future Business Leaders of America University",
+            "Professional Business Leaders",
+            "Phi Beta Lambda",
+            "Collegiate Business Association"
+          ],
+          "correctAnswer": "Phi Beta Lambda",
+          "Help": "Identify the official name for FBLA's post-secondary division."
+        },
+        {
+          "question": "In what year was the Phi Beta Lambda (PBL) collegiate division created?",
+          "options": [
+            "1942",
+            "1952",
+            "1958",
+            "1962"
+          ],
+          "correctAnswer": "1958",
+          "Help": "Recall the founding year of FBLA's collegiate division."
+        },
+        {
+          "question": "Which of the following describes the initial vision for FBLA?",
+          "options": [
+            "A national organization for vocational students",
+            "A club for future entrepreneurs only",
+            "A high school business club for academic competition",
+            "A collegiate network for business majors"
+          ],
+          "correctAnswer": "A national organization for vocational students",
+          "Help": "Understand the broad scope envisioned at FBLA's outset."
+        },
+        {
+          "question": "What significant event in FBLA history typically occurs annually to crown national champions and elect national officers?",
+          "options": [
+            "National Leadership Summit",
+            "National Executive Board Meeting",
+            "National Leadership Conference",
+            "National Business Forum"
+          ],
+          "correctAnswer": "National Leadership Conference",
+          "Help": "Identify the premier annual event for FBLA members."
+        },
+        {
+          "question": "The FBLA Middle Level division was established to serve which grade levels?",
+          "options": [
+            "Kindergarten to 5th grade",
+            "6th to 8th grade",
+            "9th to 10th grade",
+            "11th to 12th grade"
+          ],
+          "correctAnswer": "6th to 8th grade",
+          "Help": "Know the target demographic for the FBLA Middle Level division."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Structure & Divisions",
+      "questions": [
+        {
+          "question": "Which of the following is NOT one of the official divisions of Future Business Leaders of America, Inc.?",
+          "options": [
+            "FBLA High School",
+            "FBLA Middle Level",
+            "PBL (Collegiate)",
+            "Junior FBLA"
+          ],
+          "correctAnswer": "Junior FBLA",
+          "Help": "Identify the divisions officially recognized by FBLA, Inc."
+        },
+        {
+          "question": "The 'Introduction to FBLA' competitive event is specifically designed for which FBLA division?",
+          "options": [
+            "Middle Level",
+            "High School (9th & 10th graders only)",
+            "High School (all grades)",
+            "PBL (Collegiate)"
+          ],
+          "correctAnswer": "High School (9th & 10th graders only)",
+          "Help": "Recall the specific division and grade restrictions for this event."
+        },
+        {
+          "question": "At which level are FBLA chapters primarily organized and operated?",
+          "options": [
+            "National",
+            "State",
+            "Local (School)",
+            "Regional"
+          ],
+          "correctAnswer": "Local (School)",
+          "Help": "Understand the fundamental organizational unit of FBLA."
+        },
+        {
+          "question": "Which body is responsible for setting national FBLA policies and electing national officers?",
+          "options": [
+            "The National Board of Directors",
+            "The National Leadership Conference delegates",
+            "The State Chapter Presidents Council",
+            "The National Advisers' Association"
+          ],
+          "correctAnswer": "The National Leadership Conference delegates",
+          "Help": "Identify the group that holds key decision-making power at the national level."
+        },
+        {
+          "question": "The Professional Division of FBLA is primarily for which group of individuals?",
+          "options": [
+            "Current business students",
+            "Alumni, educators, and business professionals",
+            "Middle school chapter advisors",
+            "High school competitive event judges"
+          ],
+          "correctAnswer": "Alumni, educators, and business professionals",
+          "Help": "Understand the demographic that the Professional Division serves."
+        },
+        {
+          "question": "Who typically oversees the local FBLA chapter activities and guides members?",
+          "options": [
+            "School principal",
+            "Student national officer",
+            "Chapter adviser",
+            "District supervisor"
+          ],
+          "correctAnswer": "Chapter adviser",
+          "Help": "Recall the role responsible for local chapter guidance."
+        },
+        {
+          "question": "How many states can typically submit entries for an event at the National Leadership Conference?",
+          "options": [
+            "One entry per state",
+            "Two entries per state",
+            "Three entries per state",
+            "Up to four entries per state"
+          ],
+          "correctAnswer": "Up to four entries per state",
+          "Help": "Remember the maximum number of state entries allowed for competitive events at the NLC."
+        },
+        {
+          "question": "Which entity provides specific competition information and deadlines for district/region/section events?",
+          "options": [
+            "National FBLA headquarters",
+            "Your District/Region/Section leadership",
+            "Your State Leader",
+            "The NLC website"
+          ],
+          "correctAnswer": "Your District/Region/Section leadership",
+          "Help": "Identify where to find local-level competition details."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Core Values (Pledge, Mission, Goals, Creed)",
+      "questions": [
+        {
+          "question": "Which of the following is NOT one of the official goals of FBLA?",
+          "options": [
+            "Develop competent, aggressive business leadership.",
+            "Strengthen the confidence of students in themselves and their work.",
+            "Promote a spirit of competition for all members.",
+            "Assist students in the establishment of occupational goals."
+          ],
+          "correctAnswer": "Promote a spirit of competition for all members.",
+          "Help": "Distinguish between actual FBLA goals and plausible but incorrect statements."
+        },
+        {
+          "question": "The FBLA Mission statement focuses on preparing students for which three key areas?",
+          "options": [
+            "Scholarship, sports, and social events",
+            "Leadership, service, and academic excellence",
+            "Career, college, and community leadership",
+            "Technology, finance, and entrepreneurship"
+          ],
+          "correctAnswer": "Career, college, and community leadership",
+          "Help": "Recall the core pillars emphasized in the FBLA mission."
+        },
+        {
+          "question": "How many specific goals does the FBLA organization officially state?",
+          "options": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "correctAnswer": "9",
+          "Help": "Remember the total number of established FBLA goals."
+        },
+        {
+          "question": "The FBLA Pledge primarily focuses on an individual's commitment to:",
+          "options": [
+            "Excelling in competitive events",
+            "Upholding the ideals of FBLA and American business",
+            "Recruiting new members",
+            "Supporting local chapter fundraisers"
+          ],
+          "correctAnswer": "Upholding the ideals of FBLA and American business",
+          "Help": "Understand the central theme of the FBLA Pledge."
+        },
+        {
+          "question": "Which of the following phrases is part of the FBLA Creed, reflecting a belief in personal achievement?",
+          "options": [
+            "I believe in the power of teamwork.",
+            "I believe that every person should prepare for a useful occupation.",
+            "I believe in the importance of digital literacy.",
+            "I believe that business success is paramount."
+          ],
+          "correctAnswer": "I believe that every person should prepare for a useful occupation.",
+          "Help": "Recall a key tenet from the FBLA Creed related to individual purpose."
+        },
+        {
+          "question": "The FBLA Creed is a statement of:",
+          "options": [
+            "Rules for competitive events",
+            "Core beliefs and principles of the organization",
+            "Bylaws for local chapters",
+            "National officer responsibilities"
+          ],
+          "correctAnswer": "Core beliefs and principles of the organization",
+          "Help": "Understand the purpose and nature of the FBLA Creed."
+        },
+        {
+          "question": "One of FBLA's goals is to 'Encourage and practice efficient money management.' This aligns with which broader objective?",
+          "options": [
+            "Developing social skills",
+            "Promoting career exploration",
+            "Fostering sound financial principles",
+            "Enhancing public speaking abilities"
+          ],
+          "correctAnswer": "Fostering sound financial principles",
+          "Help": "Connect a specific goal to its overarching theme."
+        },
+        {
+          "question": "The FBLA Mission statement includes preparing members for 'effective career preparation' and 'responsible community leadership.' What third element completes this focus?",
+          "options": [
+            "Global travel opportunities",
+            "Aggressive business competition",
+            "Experience in the business world",
+            "Education for college and career"
+          ],
+          "correctAnswer": "Education for college and career",
+          "Help": "Complete the triad of preparation mentioned in the FBLA Mission."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Programs & Initiatives",
+      "questions": [
+        {
+          "question": "Which FBLA program recognizes members for their involvement in service, education, and progress?",
+          "options": [
+            "National Officer Leadership Program",
+            "Business Achievement Awards (BAA)",
+            "Chapter Management Challenge",
+            "Future Leaders in Action Program"
+          ],
+          "correctAnswer": "Business Achievement Awards (BAA)",
+          "Help": "Identify the national recognition program for member engagement."
+        },
+        {
+          "question": "FBLA provides scholarship opportunities primarily through:",
+          "options": [
+            "State-specific grants only",
+            "Partnerships with colleges and corporations",
+            "Direct FBLA national funding for all members",
+            "Competitive event prize money"
+          ],
+          "correctAnswer": "Partnerships with colleges and corporations",
+          "Help": "Understand the main source of FBLA scholarship funding."
+        },
+        {
+          "question": "The Community Service Project is an example of which type of FBLA competitive event?",
+          "options": [
+            "Individual event",
+            "Team event",
+            "Chapter event",
+            "Skill event"
+          ],
+          "correctAnswer": "Chapter event",
+          "Help": "Classify common FBLA events by their participation type."
+        },
+        {
+          "question": "FBLA's national program, LEAD, stands for:",
+          "options": [
+            "Leadership, Education, Achievement, Development",
+            "Learning, Experience, Action, Drive",
+            "Leading, Engaging, Achieving, Deciding",
+            "Local Engagement and Advancement Directives"
+          ],
+          "correctAnswer": "Leadership, Education, Achievement, Development",
+          "Help": "Recall the full acronym for the LEAD program."
+        },
+        {
+          "question": "Which of the following is a primary focus of the FBLA National Awards Program (NAP)?",
+          "options": [
+            "Promoting athletic competitions",
+            "Recognizing outstanding achievement in business and leadership",
+            "Funding international student exchange programs",
+            "Providing free business software to schools"
+          ],
+          "correctAnswer": "Recognizing outstanding achievement in business and leadership",
+          "Help": "Understand the main objective of the National Awards Program."
+        },
+        {
+          "question": "FBLA programs encourage members to develop skills for future careers through competitive events, but also through:",
+          "options": [
+            "Mandatory daily study groups",
+            "Leadership development workshops and networking",
+            "Exclusive access to stock market investments",
+            "Annual job placement services"
+          ],
+          "correctAnswer": "Leadership development workshops and networking",
+          "Help": "Identify other key avenues FBLA provides for skill development."
+        },
+        {
+          "question": "What kind of projects are often encouraged by FBLA to benefit local communities?",
+          "options": [
+            "Business startup ventures",
+            "Service-learning projects",
+            "Individual research papers",
+            "Competitive sports leagues"
+          ],
+          "correctAnswer": "Service-learning projects",
+          "Help": "Recognize the type of community engagement FBLA promotes."
+        },
+        {
+          "question": "The 'Introduction to FBLA' event encourages members to deepen their understanding of FBLA and become more engaged in its:",
+          "options": [
+            "Financial statements and quarterly reports",
+            "Mission and opportunities",
+            "Partnerships with tech companies",
+            "Annual budgeting process"
+          ],
+          "correctAnswer": "Mission and opportunities",
+          "Help": "Recall the explicit goal of the 'Introduction to FBLA' event stated in the guidelines."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Publications & Resources",
+      "questions": [
+        {
+          "question": "What is the official national publication for FBLA members?",
+          "options": [
+            "Business Times Quarterly",
+            "Future Business Monthly",
+            "Tomorrow's Business Leader",
+            "The FBLA Review"
+          ],
+          "correctAnswer": "Tomorrow's Business Leader",
+          "Help": "Identify the primary magazine for FBLA members."
+        },
+        {
+          "question": "Where can official sample test items for competitive events, such as 'Introduction to FBLA,' be found?",
+          "options": [
+            "On the FBLA public website",
+            "In the Chapter Management Handbook",
+            "In CONNECT",
+            "Through state leader email newsletters"
+          ],
+          "correctAnswer": "In CONNECT",
+          "Help": "Recall the designated platform for sample test resources."
+        },
+        {
+          "question": "The FBLA website, www.fbla.org, serves as a primary resource for:",
+          "options": [
+            "Ordering FBLA merchandise only",
+            "Information about the organization and study guides",
+            "Accessing private member financial records",
+            "Online competitive event registration solely"
+          ],
+          "correctAnswer": "Information about the organization and study guides",
+          "Help": "Understand the broad utility of the official FBLA website."
+        },
+        {
+          "question": "Which document outlines the rules and procedures for FBLA competitive events?",
+          "options": [
+            "FBLA Handbook of Policies",
+            "Competitive Events Policy & Procedures Manual",
+            "National Leadership Guide",
+            "Adviser's Event Toolkit"
+          ],
+          "correctAnswer": "Competitive Events Policy & Procedures Manual",
+          "Help": "Identify the key document for competitive event rules."
+        },
+        {
+          "question": "For detailed information about FBLA, beyond what's in specific event guidelines, members are advised to visit:",
+          "options": [
+            "The local library",
+            "www.fbla.org",
+            "A business career counselor",
+            "The school's guidance office"
+          ],
+          "correctAnswer": "www.fbla.org",
+          "Help": "Recall the official online study resource for FBLA."
+        },
+        {
+          "question": "Which of the following documents should competitors be familiar with regarding ethical conduct in FBLA?",
+          "options": [
+            "The Financial Disclosure Report",
+            "The Honor Code and Code of Conduct",
+            "The Member Recruitment Handbook",
+            "The Event Scheduling Manual"
+          ],
+          "correctAnswer": "The Honor Code and Code of Conduct",
+          "Help": "Identify critical documents related to member behavior and ethics."
+        },
+        {
+          "question": "A Chapter Management Handbook would primarily assist:",
+          "options": [
+            "National Board Members",
+            "Chapter Advisers",
+            "NLC Judges",
+            "Event Competitors"
+          ],
+          "correctAnswer": "Chapter Advisers",
+          "Help": "Understand the intended audience for a Chapter Management Handbook."
+        },
+        {
+          "question": "What resource showcases the types of questions that may be asked on an objective test and familiarizes competitors with multiple-choice item options?",
+          "options": [
+            "The National Bylaws",
+            "Sample preparation resources in CONNECT",
+            "The FBLA annual report",
+            "State-specific training videos"
+          ],
+          "correctAnswer": "Sample preparation resources in CONNECT",
+          "Help": "Identify the specific resource for understanding test item formats."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Corporate & Division Bylaws (General Principles)",
+      "questions": [
+        {
+          "question": "What is the primary purpose of FBLA's corporate and division bylaws?",
+          "options": [
+            "To outline specific competitive event rules",
+            "To define the structure, governance, and operations of the organization",
+            "To dictate all local chapter activities",
+            "To establish marketing strategies for FBLA"
+          ],
+          "correctAnswer": "To define the structure, governance, and operations of the organization",
+          "Help": "Understand the overarching function of bylaws for an organization."
+        },
+        {
+          "question": "Who has the authority to approve major amendments to the FBLA National Bylaws?",
+          "options": [
+            "The FBLA National Staff",
+            "The FBLA National Board of Directors",
+            "Delegates at the National Leadership Conference",
+            "State chapter presidents"
+          ],
+          "correctAnswer": "Delegates at the National Leadership Conference",
+          "Help": "Recall where the ultimate authority for bylaws amendments resides."
+        },
+        {
+          "question": "Bylaws typically include provisions for:",
+          "options": [
+            "Daily activity schedules",
+            "Membership eligibility and national officer elections",
+            "Specific dress code requirements for all events",
+            "Competitive event judging criteria"
+          ],
+          "correctAnswer": "Membership eligibility and national officer elections",
+          "Help": "Recognize common elements found within an organization's bylaws."
+        },
+        {
+          "question": "What role do the bylaws play in ensuring consistency across different FBLA divisions (High School, Middle Level, PBL)?",
+          "options": [
+            "They only apply to the High School division.",
+            "They provide a unified framework for overall governance.",
+            "They establish separate, unrelated rules for each division.",
+            "They dictate event-specific rules for all divisions."
+          ],
+          "correctAnswer": "They provide a unified framework for overall governance.",
+          "Help": "Understand how bylaws contribute to organizational cohesion."
+        },
+        {
+          "question": "If a local chapter wishes to establish its own bylaws, they must typically adhere to:",
+          "options": [
+            "Only the school's rules",
+            "National and state FBLA bylaws",
+            "Recommendations from the NLC",
+            "Only the local chapter's unique preferences"
+          ],
+          "correctAnswer": "National and state FBLA bylaws",
+          "Help": "Recognize the hierarchy of governance documents within FBLA."
+        },
+        {
+          "question": "The FBLA bylaws are a part of the organization's official records and are meant to be:",
+          "options": [
+            "Confidential documents",
+            "Publicly accessible only to members",
+            "Reviewed and updated periodically",
+            "Changed only during emergencies"
+          ],
+          "correctAnswer": "Reviewed and updated periodically",
+          "Help": "Understand the dynamic nature of organizational bylaws."
+        },
+        {
+          "question": "Compliance with corporate and division bylaws helps ensure:",
+          "options": [
+            "Maximum competitive event awards",
+            "Smooth and ethical operation of the organization",
+            "Individual member financial success",
+            "Uniformity in chapter social events"
+          ],
+          "correctAnswer": "Smooth and ethical operation of the organization",
+          "Help": "Recognize the primary benefit of adhering to bylaws."
+        },
+        {
+          "question": "Which document would you consult to understand the powers and responsibilities of the national FBLA officers?",
+          "options": [
+            "The FBLA Dress Code",
+            "The National Bylaws",
+            "The competitive event guidelines",
+            "Tomorrow's Business Leader magazine"
+          ],
+          "correctAnswer": "The National Bylaws",
+          "Help": "Identify the document that defines roles within the organizational structure."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Dress Code",
+      "questions": [
+        {
+          "question": "What is the consequence for competitors who do not follow the FBLA Dress Code at a competitive event?",
+          "options": [
+            "Disqualification from the event",
+            "Five penalty points",
+            "A warning from the event staff",
+            "Automatic placement in a lower rank"
+          ],
+          "correctAnswer": "Five penalty points",
+          "Help": "Recall the specific penalty associated with dress code violations."
+        },
+        {
+          "question": "The FBLA Dress Code applies to competitors during which part of the National Leadership Conference?",
+          "options": [
+            "Only during the awards ceremony",
+            "Only during competitive events",
+            "Throughout the conference, especially at official events",
+            "Only when meeting with national officers"
+          ],
+          "correctAnswer": "Throughout the conference, especially at official events",
+          "Help": "Understand the broad applicability of the FBLA Dress Code."
+        },
+        {
+          "question": "Which document explicitly lists the standards for appropriate attire at FBLA functions?",
+          "options": [
+            "The Competitive Events Policy & Procedures Manual",
+            "The FBLA Dress Code document",
+            "The Honor Code",
+            "The NLC Registration Handbook"
+          ],
+          "correctAnswer": "The FBLA Dress Code document",
+          "Help": "Identify the dedicated resource for dress code rules."
+        },
+        {
+          "question": "The FBLA Dress Code is designed to project a professional image consistent with:",
+          "options": [
+            "Current fashion trends",
+            "Business and industry standards",
+            "Individual student preferences",
+            "Athletic competition requirements"
+          ],
+          "correctAnswer": "Business and industry standards",
+          "Help": "Understand the underlying purpose and philosophy of the FBLA Dress Code."
+        },
+        {
+          "question": "A competitor who arrives at the testing site wearing attire that does not meet the FBLA Dress Code will incur how many penalty points?",
+          "options": [
+            "No penalty, only a verbal warning",
+            "Five penalty points",
+            "Ten penalty points",
+            "Disqualification"
+          ],
+          "correctAnswer": "Five penalty points",
+          "Help": "Remember the exact penalty for a dress code violation at a test."
+        },
+        {
+          "question": "In what specific section of the Competitive Events Guidelines is the FBLA Dress Code mentioned as an important document competitors should be familiar with?",
+          "options": [
+            "Event Overview",
+            "Eligibility Requirements",
+            "Important FBLA Documents",
+            "Scoring"
+          ],
+          "correctAnswer": "Important FBLA Documents",
+          "Help": "Recall the section that directly references the Dress Code for competitor familiarity."
+        },
+        {
+          "question": "Competitors are required to meet the FBLA Dress Code as one of the 'Items Competitor Must Provide.' This emphasizes its importance as a:",
+          "options": [
+            "Suggestion for style",
+            "Mandatory requirement for participation",
+            "Guideline for casual events",
+            "Optional personal choice"
+          ],
+          "correctAnswer": "Mandatory requirement for participation",
+          "Help": "Understand the status of the dress code as a competition item."
+        },
+        {
+          "question": "What is the overall goal of having a standardized FBLA Dress Code for competitive events?",
+          "options": [
+            "To promote specific brands of clothing",
+            "To ensure all competitors look identical",
+            "To create a professional and respectful environment",
+            "To reduce costs for participants"
+          ],
+          "correctAnswer": "To create a professional and respectful environment",
+          "Help": "Grasp the broader objective behind the FBLA Dress Code."
+        }
+      ]
+    },
+    {
+      "topic": "Competitive Event: Introduction to FBLA (General)",
+      "questions": [
+        {
+          "question": "The 'Introduction to FBLA' event is categorized as an 'Objective Test.' What does this typically mean for the test format?",
+          "options": [
+            "It involves a written essay component.",
+            "It consists of multiple-choice questions.",
+            "It requires a presentation to judges.",
+            "It is a team-based problem-solving challenge."
+          ],
+          "correctAnswer": "It consists of multiple-choice questions.",
+          "Help": "Understand the common format of an 'Objective Test.'"
+        },
+        {
+          "question": "What is the total number of multiple-choice questions in the 'Introduction to FBLA' objective test?",
+          "options": [
+            "50",
+            "75",
+            "100",
+            "120"
+          ],
+          "correctAnswer": "100",
+          "Help": "Recall the exact number of questions on the test."
+        },
+        {
+          "question": "What is the time limit for completing the 'Introduction to FBLA' objective test?",
+          "options": [
+            "30 minutes",
+            "45 minutes",
+            "50 minutes",
+            "60 minutes"
+          ],
+          "correctAnswer": "50 minutes",
+          "Help": "Remember the specific duration allotted for the test."
+        },
+        {
+          "question": "The 'Introduction to FBLA' event is an individual event. This means competitors will:",
+          "options": [
+            "Work with a partner",
+            "Compete as part of a chapter team",
+            "Compete alone",
+            "Collaborate with other chapters"
+          ],
+          "correctAnswer": "Compete alone",
+          "Help": "Understand the meaning of an 'individual event' designation."
+        },
+        {
+          "question": "The 'Introduction to FBLA' event requires competitors to demonstrate knowledge of the organization's:",
+          "options": [
+            "Annual financial budget and investment portfolio",
+            "Political lobbying efforts and legislative agenda",
+            "History, structure, programs, and leadership",
+            "International partnerships and global expansion plans"
+          ],
+          "correctAnswer": "History, structure, programs, and leadership",
+          "Help": "Recall the core knowledge areas tested in this event."
+        },
+        {
+          "question": "Which NACE Competency Alignment is associated with the 'Introduction to FBLA' event?",
+          "options": [
+            "Critical Thinking/Problem Solving",
+            "Oral/Written Communications",
+            "Career & Self-Development",
+            "Teamwork/Collaboration"
+          ],
+          "correctAnswer": "Career & Self-Development",
+          "Help": "Identify the specific NACE competency aligned with this event."
+        },
+        {
+          "question": "For the 'Introduction to FBLA' test, which of the following is NOT a specified knowledge area?",
+          "options": [
+            "FBLA History",
+            "FBLA Competitive Events judging rubric",
+            "FBLA Dress Code",
+            "FBLA Partners"
+          ],
+          "correctAnswer": "FBLA Competitive Events judging rubric",
+          "Help": "Distinguish between specified knowledge areas and irrelevant topics."
+        },
+        {
+          "question": "The event overview states 'There is no test composition for this test.' This means:",
+          "options": [
+            "The test questions are all easy.",
+            "The test will not have any specific sections or weighting for topics.",
+            "Competitors can choose which questions to answer.",
+            "The test is entirely subjective."
+          ],
+          "correctAnswer": "The test will not have any specific sections or weighting for topics.",
+          "Help": "Understand the implication of 'no test composition' in event guidelines."
+        }
+      ]
+    },
+    {
+      "topic": "NLC Eligibility Requirements",
+      "questions": [
+        {
+          "question": "What is the national membership dues deadline for FBLA to be eligible for NLC competitive events?",
+          "options": [
+            "December 1 of the current school year",
+            "February 15 of the current school year",
+            "March 1 of the current school year",
+            "April 15 of the current school year"
+          ],
+          "correctAnswer": "March 1 of the current school year",
+          "Help": "Recall the crucial deadline for NLC eligibility."
+        },
+        {
+          "question": "If a member placed in the top 10 of an event at a previous NLC, what is their eligibility status for competing in the same event at future NLCs?",
+          "options": [
+            "They are always eligible if they win at the state level again.",
+            "They are no longer eligible, unless the event was substantially modified.",
+            "They can only compete if they change divisions (e.g., from High School to PBL).",
+            "They can compete if they form a new team for the event."
+          ],
+          "correctAnswer": "They are no longer eligible, unless the event was substantially modified.",
+          "Help": "Understand the 'repeat competitor' rule for NLC."
+        },
+        {
+          "question": "What is a mandatory requirement for competitors regarding accommodation at the NLC?",
+          "options": [
+            "They must secure their own accommodation independently.",
+            "They must stay within the official FBLA housing block.",
+            "They must stay at a hotel recommended by their state leader.",
+            "They are allowed to commute daily from home, regardless of distance."
+          ],
+          "correctAnswer": "They must stay within the official FBLA housing block.",
+          "Help": "Recall the strict accommodation requirement for NLC eligibility."
+        },
+        {
+          "question": "To be eligible for an award at the National Leadership Conference, each competitor must:",
+          "options": [
+            "Attend all social events at the NLC.",
+            "Volunteer for at least one hour at the NLC.",
+            "Complete all components of the event.",
+            "Be a national officer candidate."
+          ],
+          "correctAnswer": "Complete all components of the event.",
+          "Help": "Understand the fundamental participation requirement for awards."
+        },
+        {
+          "question": "What is the maximum number of individual or team events a member may participate in at the NLC?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "No limit"
+          ],
+          "correctAnswer": "One",
+          "Help": "Remember the participation limit for individual or team events."
+        },
+        {
+          "question": "What is the maximum number of chapter events a member may participate in at the NLC?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "No limit"
+          ],
+          "correctAnswer": "One",
+          "Help": "Remember the participation limit for chapter events."
+        },
+        {
+          "question": "Which of the following is an acceptable form of photo identification for NLC check-in?",
+          "options": [
+            "A library card",
+            "A credit card with a photo",
+            "A driver's license",
+            "A printout of a digital ID without verification"
+          ],
+          "correctAnswer": "A driver's license",
+          "Help": "Identify valid forms of photo ID for NLC."
+        },
+        {
+          "question": "If a competitor arrives late to a competitive event, how many penalty points will be assessed?",
+          "options": [
+            "No penalty if still within the event time.",
+            "Two penalty points.",
+            "Five penalty points.",
+            "Immediate disqualification."
+          ],
+          "correctAnswer": "Five penalty points",
+          "Help": "Recall the specific penalty for late arrivals."
+        },
+        {
+          "question": "What is generally NOT permitted regarding schedule changes at the NLC?",
+          "options": [
+            "Adjustments due to flight delays",
+            "Minor shifts in event times",
+            "Schedule changes are not permitted",
+            "Swapping event slots with another competitor"
+          ],
+          "correctAnswer": "Schedule changes are not permitted",
+          "Help": "Remember the rule about NLC schedule flexibility."
+        },
+        {
+          "question": "Chapter events are exempt from which specific NLC eligibility requirement?",
+          "options": [
+            "Membership deadline",
+            "Conference registration",
+            "Repeat competitor procedure",
+            "Official hotel requirement"
+          ],
+          "correctAnswer": "Repeat competitor procedure",
+          "Help": "Identify the exemption for chapter events regarding repeat participants."
+        }
+      ]
+    },
+    {
+      "topic": "NLC Event Administration & Logistics",
+      "questions": [
+        {
+          "question": "Which of the following items MUST a competitor provide for the 'Introduction to FBLA' online testing?",
+          "options": [
+            "A personal laptop computer",
+            "A fully powered device for online testing",
+            "An external mouse and keyboard",
+            "A personal Wi-Fi hotspot"
+          ],
+          "correctAnswer": "A fully powered device for online testing",
+          "Help": "Identify the specific device requirement for competitors."
+        },
+        {
+          "question": "Which item does FBLA typically provide on-site for the 'Introduction to FBLA' objective test?",
+          "options": [
+            "Pre-filled answer sheets",
+            "A personalized calculator",
+            "Internet access",
+            "Extra pencils for all competitors"
+          ],
+          "correctAnswer": "Internet access",
+          "Help": "Recall what resources FBLA supplies at the testing site."
+        },
+        {
+          "question": "Are reference or study materials permitted at the testing site for the 'Introduction to FBLA' event?",
+          "options": [
+            "Yes, if they are printed and bound.",
+            "Yes, only official FBLA publications.",
+            "No, reference or study materials are not permitted.",
+            "Only notes written during previous FBLA events."
+          ],
+          "correctAnswer": "No, reference or study materials are not permitted.",
+          "Help": "Remember the rule regarding study materials at the test."
+        },
+        {
+          "question": "What type of calculator is allowed for the 'Introduction to FBLA' objective test?",
+          "options": [
+            "A personal scientific calculator",
+            "A personal graphing calculator",
+            "An online calculator provided within the testing platform",
+            "No calculators of any kind are permitted."
+          ],
+          "correctAnswer": "An online calculator provided within the testing platform",
+          "Help": "Identify the specific calculator policy for the test."
+        },
+        {
+          "question": "Competitors may flag questions within the testing platform for review:",
+          "options": [
+            "Only at the beginning of the test.",
+            "Prior to the finalization of results at the NLC.",
+            "After the test is submitted, via email.",
+            "Only if there is a technical error."
+          ],
+          "correctAnswer": "Prior to the finalization of results at the NLC.",
+          "Help": "Understand when the question review feature can be used."
+        },
+        {
+          "question": "The 'Introduction to FBLA' test is completed:",
+          "options": [
+            "At home via remote proctoring.",
+            "On-site at the National Leadership Conference.",
+            "At the local chapter adviser's office.",
+            "During a scheduled school day within the classroom."
+          ],
+          "correctAnswer": "On-site at the National Leadership Conference.",
+          "Help": "Recall the location and method of testing."
+        },
+        {
+          "question": "What is provided to competitors at test check-in for online testing?",
+          "options": [
+            "A pre-assigned seat number and desk.",
+            "Test login information (link & password).",
+            "A physical copy of the test questions.",
+            "A flash drive containing the test software."
+          ],
+          "correctAnswer": "Test login information (link & password).",
+          "Help": "Identify the specific credential provided for online test access."
+        },
+        {
+          "question": "Competitors are required to provide a sharpened pencil for the online test. What is its primary purpose, given the online format?",
+          "options": [
+            "To mark answers on a separate bubble sheet.",
+            "For taking notes on scratch paper.",
+            "To sign attendance sheets.",
+            "To operate the testing device."
+          ],
+          "correctAnswer": "For taking notes on scratch paper.",
+          "Help": "Infer the utility of a pencil in an online testing environment."
+        },
+        {
+          "question": "All schedules for the NLC are posted in what time zone?",
+          "options": [
+            "Eastern Standard Time",
+            "Pacific Standard Time",
+            "Local time for the NLC host city",
+            "Greenwich Mean Time"
+          ],
+          "correctAnswer": "Local time for the NLC host city",
+          "Help": "Remember the standard for NLC schedule timings."
+        },
+        {
+          "question": "What specifically does FBLA provide on-site regarding scratch paper?",
+          "options": [
+            "An unlimited supply per competitor.",
+            "One piece of scratch paper per competitor.",
+            "Scratch paper is not allowed for online tests.",
+            "Competitors must bring their own scratch paper."
+          ],
+          "correctAnswer": "One piece of scratch paper per competitor.",
+          "Help": "Recall the exact provision for scratch paper."
+        }
+      ]
+    },
+    {
+      "topic": "Scoring, Tiebreakers, & Recognition",
+      "questions": [
+        {
+          "question": "In the 'Introduction to FBLA' objective test, how many points is each correct answer worth?",
+          "options": [
+            "Half a point",
+            "One point",
+            "Two points",
+            "Points vary by question difficulty"
+          ],
+          "correctAnswer": "One point",
+          "Help": "Remember the scoring value for each correct answer."
+        },
+        {
+          "question": "Are points deducted for incorrect answers in the 'Introduction to FBLA' objective test?",
+          "options": [
+            "Yes, a quarter point per incorrect answer.",
+            "Yes, half a point per incorrect answer.",
+            "No, points are not deducted for incorrect answers.",
+            "Only for questions identified as 'critical.'"
+          ],
+          "correctAnswer": "No, points are not deducted for incorrect answers.",
+          "Help": "Recall the policy on penalty for wrong answers."
+        },
+        {
+          "question": "What is the first tiebreaker criterion used for the 'Introduction to FBLA' objective test?",
+          "options": [
+            "The competitor who completed the test fastest.",
+            "The number of correct responses to 10 pre-selected tiebreaker questions.",
+            "The number of correct responses to 20 pre-selected questions.",
+            "A verbal interview with judges."
+          ],
+          "correctAnswer": "The number of correct responses to 10 pre-selected tiebreaker questions.",
+          "Help": "Identify the primary tiebreaker rule."
+        },
+        {
+          "question": "If a tie remains after the first tiebreaker, what is the second tiebreaker criterion?",
+          "options": [
+            "A coin toss.",
+            "The number of correct responses to 20 pre-selected questions.",
+            "The competitor's overall GPA.",
+            "The judge's discretion."
+          ],
+          "correctAnswer": "The number of correct responses to 20 pre-selected questions.",
+          "Help": "Recall the secondary tiebreaker rule."
+        },
+        {
+          "question": "What is the final tiebreaker criterion if a tie still remains after the first two criteria?",
+          "options": [
+            "The competitor with the highest score on general knowledge questions.",
+            "The competitor who completed the test in the shortest amount of time.",
+            "The competitor with the most FBLA service hours.",
+            "The competitor with the highest number of correct answers on the entire test (re-evaluated)."
+          ],
+          "correctAnswer": "The competitor who completed the test in the shortest amount of time.",
+          "Help": "Identify the ultimate tiebreaker rule."
+        },
+        {
+          "question": "Results announced at the National Leadership Conference are considered official and will not be changed after:",
+          "options": [
+            "The end of the awards ceremony.",
+            "The conclusion of the National Leadership Conference.",
+            "A 24-hour appeal period.",
+            "The finalization of all national officer elections."
+          ],
+          "correctAnswer": "The conclusion of the National Leadership Conference.",
+          "Help": "Understand the finality of NLC results."
+        },
+        {
+          "question": "What is the maximum number of entries (individuals or teams) that may be recognized per event at the National Leadership Conference?",
+          "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "correctAnswer": "10",
+          "Help": "Remember the limit for recognized places in competitive events."
+        },
+        {
+          "question": "If a competitor does not complete all components of an event at the NLC, they are ineligible for an award, regardless of their score. This highlights the importance of:",
+          "options": [
+            "Speed over accuracy",
+            "Active participation in all parts of the event",
+            "Networking with judges",
+            "Memorizing all FBLA facts"
+          ],
+          "correctAnswer": "Active participation in all parts of the event",
+          "Help": "Understand the 'participation requirement' for award eligibility."
+        }
+      ]
+    },
+    {
+      "topic": "Compliance & Ethics (Honor Code, Code of Conduct, ADA, Electronic Devices)",
+      "questions": [
+        {
+          "question": "Under what circumstances might competitors be disqualified from a competitive event?",
+          "options": [
+            "If they score below 50% on the test.",
+            "If they arrive more than 10 minutes late.",
+            "If they violate the Code of Conduct or the Honor Code.",
+            "If they use the provided scratch paper excessively."
+          ],
+          "correctAnswer": "If they violate the Code of Conduct or the Honor Code.",
+          "Help": "Identify grounds for immediate disqualification."
+        },
+        {
+          "question": "What does FBLA comply with regarding reasonable accommodations for competitors with disabilities?",
+          "options": [
+            "National Education Association (NEA) guidelines",
+            "Americans with Disabilities Act (ADA)",
+            "World Health Organization (WHO) standards",
+            "State-specific disability regulations only"
+          ],
+          "correctAnswer": "Americans with Disabilities Act (ADA)",
+          "Help": "Recall the legislation FBLA adheres to for accommodations."
+        },
+        {
+          "question": "Accommodation requests for disabilities must be submitted through what system?",
+          "options": [
+            "Via email to the National FBLA president.",
+            "Through the conference registration system.",
+            "By calling the NLC event coordinator.",
+            "Directly to the competitor's chapter adviser."
+          ],
+          "correctAnswer": "Through the conference registration system.",
+          "Help": "Remember the official channel for submitting accommodation requests."
+        },
+        {
+          "question": "Unless approved as part of a documented accommodation, what must all cell phones, smartwatches, and electronic devices be during a competitive event?",
+          "options": [
+            "Set to silent mode and kept in a pocket.",
+            "Turned off and stored away.",
+            "Used only for emergency communication.",
+            "Placed on the desk for easy access."
+          ],
+          "correctAnswer": "Turned off and stored away.",
+          "Help": "Recall the strict rules for electronic devices during competition."
+        },
+        {
+          "question": "Visible electronic devices during a competitive event, without prior accommodation, will be considered a violation of the:",
+          "options": [
+            "FBLA Dress Code",
+            "Competitive Events Policy & Procedures Manual",
+            "FBLA Honor Code",
+            "NLC Scheduling Policy"
+          ],
+          "correctAnswer": "FBLA Honor Code",
+          "Help": "Identify which code is violated by improper electronic device use."
+        },
+        {
+          "question": "FBLA's Honor Code typically addresses aspects of:",
+          "options": [
+            "Academic integrity and ethical conduct",
+            "Physical fitness requirements",
+            "Event-specific technical skills",
+            "Meal planning during conferences"
+          ],
+          "correctAnswer": "Academic integrity and ethical conduct",
+          "Help": "Understand the core focus of an Honor Code."
+        },
+        {
+          "question": "What documentation may be required to determine eligibility and appropriate support for an ADA accommodation request?",
+          "options": [
+            "Only a parent's signed note.",
+            "A letter from the school principal.",
+            "Additional documentation.",
+            "A personal interview with FBLA staff."
+          ],
+          "correctAnswer": "Additional documentation.",
+          "Help": "Remember the possibility of needing further information for ADA requests."
+        },
+        {
+          "question": "The Code of Conduct primarily governs:",
+          "options": [
+            "The intellectual property rights of FBLA.",
+            "The behavior and responsibilities of members at FBLA activities.",
+            "The financial management of local chapters.",
+            "The criteria for competitive event judging."
+          ],
+          "correctAnswer": "The behavior and responsibilities of members at FBLA activities.",
+          "Help": "Understand the scope of a Code of Conduct."
+        }
+      ]
+    },
+    {
+      "topic": "Deadlines & Communications",
+      "questions": [
+        {
+          "question": "The deadline for FBLA national membership dues is 11:59 p.m. Eastern Time on March 1. This timezone specification is important for:",
+          "options": [
+            "All state-level deadlines.",
+            "Ensuring fair and consistent application nationwide.",
+            "Local chapter event planning.",
+            "Determining NLC host city schedules."
+          ],
+          "correctAnswer": "Ensuring fair and consistent application nationwide.",
+          "Help": "Understand the reason for specifying Eastern Time for national deadlines."
+        },
+        {
+          "question": "Who should be contacted for state-specific competition information and deadlines?",
+          "options": [
+            "National FBLA headquarters",
+            "Your District/Region/Section leadership",
+            "Your State Leader",
+            "The NLC event staff"
+          ],
+          "correctAnswer": "Your State Leader",
+          "Help": "Recall the appropriate contact for state-level information."
+        },
+        {
+          "question": "Accommodation requests for ADA must be submitted by which deadline?",
+          "options": [
+            "The NLC competitive event registration deadline.",
+            "The NLC official registration deadline.",
+            "March 1 of the current school year.",
+            "Anytime before the event begins."
+          ],
+          "correctAnswer": "The NLC official registration deadline.",
+          "Help": "Remember the specific deadline for ADA requests."
+        },
+        {
+          "question": "FBLA's official website, www.fbla.org, is crucial for communicating:",
+          "options": [
+            "Only event results.",
+            "General information, resources, and news.",
+            "Only competitive event guidelines.",
+            "Personalized member messages."
+          ],
+          "correctAnswer": "General information, resources, and news.",
+          "Help": "Understand the broad communicative role of the FBLA website."
+        },
+        {
+          "question": "The Competitive Events Guidelines are updated annually. Which month is the update shown as occurring for the 2025-2026 guidelines?",
+          "options": [
+            "August",
+            "September",
+            "October",
+            "November"
+          ],
+          "correctAnswer": "November",
+          "Help": "Locate the specific update month mentioned in the document footer."
+        },
+        {
+          "question": "If a question arises about a specific local chapter deadline (e.g., for chapter dues), where is the most appropriate place to inquire?",
+          "options": [
+            "National FBLA customer service",
+            "The local chapter adviser",
+            "The state FBLA president",
+            "FBLA social media pages"
+          ],
+          "correctAnswer": "The local chapter adviser",
+          "Help": "Identify the direct source for local chapter-specific information."
+        },
+        {
+          "question": "The National Leadership Conference schedules are posted to help competitors plan their attendance. What is an important note regarding these schedules?",
+          "options": [
+            "They are always subject to last-minute changes.",
+            "They are final and changes are not permitted.",
+            "They are only tentative until the opening session.",
+            "Competitors can request minor adjustments via email."
+          ],
+          "correctAnswer": "They are final and changes are not permitted.",
+          "Help": "Recall the rule about NLC schedule changes."
+        },
+        {
+          "question": "To stay informed about FBLA competitive events, members should regularly check:",
+          "options": [
+            "Only national newspapers.",
+            "Official FBLA communication channels like the website and CONNECT.",
+            "Only their local school bulletin boards.",
+            "Social media groups unrelated to FBLA."
+          ],
+          "correctAnswer": "Official FBLA communication channels like the website and CONNECT.",
+          "Help": "Identify reliable sources for FBLA event information."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Partners",
+      "questions": [
+        {
+          "question": "FBLA often collaborates with various partners to provide benefits to its members, such as:",
+          "options": [
+            "Exclusive travel discounts for all major airlines.",
+            "Scholarship opportunities and educational resources.",
+            "Free personal financial advising for every member.",
+            "Guaranteed internships at partner companies."
+          ],
+          "correctAnswer": "Scholarship opportunities and educational resources.",
+          "Help": "Understand the general nature of benefits provided through FBLA partnerships."
+        },
+        {
+          "question": "Partnerships with businesses and corporations help FBLA by:",
+          "options": [
+            "Providing all competitive event questions.",
+            "Offering financial support and real-world connections.",
+            "Dictating national FBLA policy.",
+            "Managing all local chapter activities."
+          ],
+          "correctAnswer": "Offering financial support and real-world connections.",
+          "Help": "Recognize the mutual benefits of FBLA's corporate partnerships."
+        },
+        {
+          "question": "FBLA partners with various organizations and institutions to further its mission, including:",
+          "options": [
+            "Only technology companies.",
+            "Educational institutions, non-profits, and businesses.",
+            "Only government agencies.",
+            "Primarily sports organizations."
+          ],
+          "correctAnswer": "Educational institutions, non-profits, and businesses.",
+          "Help": "Understand the diverse range of FBLA partners."
+        },
+        {
+          "question": "What role do FBLA partners often play in the National Leadership Conference?",
+          "options": [
+            "Solely organizing social events.",
+            "Sponsoring events, awards, and providing workshops.",
+            "Judging all competitive events.",
+            "Managing all NLC logistics."
+          ],
+          "correctAnswer": "Sponsoring events, awards, and providing workshops.",
+          "Help": "Identify common contributions of FBLA partners at major conferences."
+        },
+        {
+          "question": "The NACE Competency Alignment, 'Career & Self-Development,' is a result of FBLA's efforts to align with standards set by:",
+          "options": [
+            "The Department of Education",
+            "The National Association of Colleges and Employers",
+            "The American Business Council",
+            "The Future Workforce Institute"
+          ],
+          "correctAnswer": "The National Association of Colleges and Employers",
+          "Help": "Identify the organization behind the NACE competencies."
+        },
+        {
+          "question": "FBLA's engagement with partners helps reinforce the organization's commitment to:",
+          "options": [
+            "Isolation from external influences.",
+            "Providing a comprehensive business education.",
+            "Focusing exclusively on internal governance.",
+            "Limiting career pathways to specific industries."
+          ],
+          "correctAnswer": "Providing a comprehensive business education.",
+          "Help": "Understand the strategic goal behind FBLA's partnerships."
+        },
+        {
+          "question": "Which of the following would likely NOT be a typical FBLA partner?",
+          "options": [
+            "A major accounting firm",
+            "A university business school",
+            "A local community service organization",
+            "A national sports league"
+          ],
+          "correctAnswer": "A national sports league",
+          "Help": "Identify an organization least likely to align with FBLA's mission."
+        },
+        {
+          "question": "How do partnerships primarily aid FBLA members in career exploration?",
+          "options": [
+            "By offering discounted travel to specific locations.",
+            "By providing direct access to celebrity mentors.",
+            "Through internships, job shadowing, and industry insights.",
+            "By offering free business software licenses."
+          ],
+          "correctAnswer": "Through internships, job shadowing, and industry insights.",
+          "Help": "Recognize the practical career benefits from FBLA partnerships."
+        }
+      ]
+    },
+    {
+      "topic": "Additional FBLA Knowledge Areas (Mix)",
+      "questions": [
+        {
+          "question": "The 'Introduction to FBLA' event aims to encourage members to become more engaged in FBLA's mission and:",
+          "options": [
+            "Financial investments",
+            "Opportunities",
+            "Political endorsements",
+            "Social media trends"
+          ],
+          "correctAnswer": "Opportunities",
+          "Help": "Complete the phrase describing the event's encouragement."
+        },
+        {
+          "question": "Which of the following is NOT a characteristic of the 'Introduction to FBLA' event?",
+          "options": [
+            "It is an individual event.",
+            "It is for 9th and 10th graders only.",
+            "It involves a team presentation component.",
+            "It is an objective test."
+          ],
+          "correctAnswer": "It involves a team presentation component.",
+          "Help": "Identify the incorrect characteristic of the event."
+        },
+        {
+          "question": "To what does 'NLC' primarily refer in the context of FBLA competitive events?",
+          "options": [
+            "National Learning Center",
+            "National Leadership Conference",
+            "New Leaders Challenge",
+            "National Logistics Committee"
+          ],
+          "correctAnswer": "National Leadership Conference",
+          "Help": "Recall the common abbreviation for the major national event."
+        },
+        {
+          "question": "Who is responsible for the overall copyright of the 2025-2026 Competitive Events Guidelines?",
+          "options": [
+            "The U.S. Department of Education",
+            "National Future Business Leaders of America, Inc.",
+            "The guideline authors",
+            "The NLC host city"
+          ],
+          "correctAnswer": "National Future Business Leaders of America, Inc.",
+          "Help": "Identify the copyright holder mentioned in the document."
+        },
+        {
+          "question": "The requirement for competitors to present valid photo identification at check-in helps ensure:",
+          "options": [
+            "Faster entry for all attendees.",
+            "That the person competing is the registered individual.",
+            "Compliance with international travel regulations.",
+            "Accurate demographic data collection."
+          ],
+          "correctAnswer": "That the person competing is the registered individual.",
+          "Help": "Understand the security and verification purpose of photo ID."
+        },
+        {
+          "question": "When can some NLC events begin relative to the Opening Session?",
+          "options": [
+            "Always after the Opening Session.",
+            "Only on the final day of the conference.",
+            "Some events may begin before the Opening Session.",
+            "Only virtual events can begin early."
+          ],
+          "correctAnswer": "Some events may begin before the Opening Session.",
+          "Help": "Recall the flexibility in the NLC schedule start times."
+        },
+        {
+          "question": "The educational alignment for 'Introduction to FBLA' with 'Career & Self-Development' suggests the event helps members in:",
+          "options": [
+            "Improving athletic performance.",
+            "Understanding personal interests, skills, and career pathways.",
+            "Mastering a specific trade skill.",
+            "Developing advanced financial algorithms."
+          ],
+          "correctAnswer": "Understanding personal interests, skills, and career pathways.",
+          "Help": "Interpret the meaning of 'Career & Self-Development' in an educational context."
+        },
+        {
+          "question": "The guidelines state 'No part of this publication may be reproduced, distributed, or transmitted in any form without prior written permission.' This emphasizes FBLA's protection of its:",
+          "options": [
+            "Member contact list",
+            "Competitive event results",
+            "Intellectual property",
+            "Conference catering choices"
+          ],
+          "correctAnswer": "Intellectual property",
+          "Help": "Recognize the concept being protected by copyright."
+        },
+        {
+          "question": "If results are finalized at the NLC, and a competitor wishes to challenge their score after the conference concludes, what is the policy?",
+          "options": [
+            "A formal appeal can be filed within 30 days.",
+            "The results are official and will not be changed.",
+            "State leaders can intervene on behalf of their members.",
+            "A re-test can be requested for a fee."
+          ],
+          "correctAnswer": "The results are official and will not be changed.",
+          "Help": "Recall the finality of NLC results after the conference."
+        },
+        {
+          "question": "The 'Introduction to FBLA' objective test is described as an 'Event Type Individual.' This means a competitor:",
+          "options": [
+            "Must register as an individual, even if part of a team.",
+            "Is the sole participant and decision-maker for their performance.",
+            "Can choose to compete individually or with a partner.",
+            "Will have individual scores combined with a team score."
+          ],
+          "correctAnswer": "Is the sole participant and decision-maker for their performance.",
+          "Help": "Reinforce the understanding of an individual event format."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Website & Communications (Specifics from Doc)",
+      "questions": [
+        {
+          "question": "The study guide for 'Introduction to FBLA' explicitly advises members to visit which website for more information about the organization?",
+          "options": [
+            "www.fbla.org",
+            "www.fblaconnect.com",
+            "www.nace.org",
+            "www.fblaevents.info"
+          ],
+          "correctAnswer": "www.fbla.org",
+          "Help": "Identify the primary study resource mentioned in the guidelines."
+        },
+        {
+          "question": "What is the primary function of CONNECT mentioned in the context of competitive events?",
+          "options": [
+            "Social networking platform for members.",
+            "Online store for FBLA merchandise.",
+            "Source for official sample test items.",
+            "Event registration portal only."
+          ],
+          "correctAnswer": "Source for official sample test items.",
+          "Help": "Recall the specific utility of CONNECT for test preparation."
+        },
+        {
+          "question": "When checking with District/Region/Section leadership for competition information, what kind of details should members expect to find?",
+          "options": [
+            "National officer biographies.",
+            "District/Region/Section-specific competition information and deadlines.",
+            "Future NLC host cities.",
+            "National membership statistics."
+          ],
+          "correctAnswer": "District/Region/Section-specific competition information and deadlines.",
+          "Help": "Understand the scope of information available from local leadership."
+        },
+        {
+          "question": "The 'Introduction to FBLA' event aims to deepen understanding of FBLA's mission and opportunities, which is largely communicated through:",
+          "options": [
+            "Direct mail campaigns only.",
+            "Official FBLA publications and the website.",
+            "Television advertisements.",
+            "Word-of-mouth among alumni."
+          ],
+          "correctAnswer": "Official FBLA publications and the website.",
+          "Help": "Identify key channels for FBLA communication."
+        },
+        {
+          "question": "Test login information for the online objective test is provided at which point?",
+          "options": [
+            "Upon registering for the NLC.",
+            "At test check-in.",
+            "One week prior to the NLC via email.",
+            "Only if requested from national staff."
+          ],
+          "correctAnswer": "At test check-in.",
+          "Help": "Recall when critical test access information is distributed."
+        },
+        {
+          "question": "What must competitors present that matches the name on their conference name badge at check-in?",
+          "options": [
+            "A FBLA membership card.",
+            "Valid photo identification.",
+            "Their school report card.",
+            "A signed permission slip."
+          ],
+          "correctAnswer": "Valid photo identification.",
+          "Help": "Remember the identification requirement for check-in."
+        },
+        {
+          "question": "Communication regarding event schedules for the NLC explicitly states that all schedules are posted in:",
+          "options": [
+            "A universal standard time.",
+            "Local time for the NLC host city.",
+            "The Eastern Time Zone.",
+            "The time zone of the national headquarters."
+          ],
+          "correctAnswer": "Local time for the NLC host city.",
+          "Help": "Recall the time zone standard for NLC schedules."
+        },
+        {
+          "question": "For state-specific competition information and deadlines, who should members consult?",
+          "options": [
+            "The NLC website.",
+            "Their State Leader.",
+            "Their local chapter adviser.",
+            "National FBLA social media."
+          ],
+          "correctAnswer": "Their State Leader.",
+          "Help": "Identify the proper authority for state-level competition details."
+        }
+      ]
+    }
+  ]
+}
