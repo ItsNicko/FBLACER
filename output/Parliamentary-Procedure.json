@@ -1,0 +1,235 @@
+{
+  "testName": "FBLA Parliamentary Procedure Competitive Exam",
+  "topics": [
+    {
+      "topic": "Parliamentary Procedure Principles and Robert's Rules",
+      "questions": [
+        {
+          "question": "Which edition of Robert's Rules of Order, Newly Revised, is the official reference for the FBLA Parliamentary Procedure event?",
+          "options": [
+            "10th Edition",
+            "11th Edition",
+            "12th Edition",
+            "13th Edition"
+          ],
+          "correctAnswer": "12th Edition",
+          "Help": "Consult the 'Knowledge Areas' section of the guidelines."
+        },
+        {
+          "question": "What is the primary purpose of a Main Motion?",
+          "options": [
+            "To modify a pending motion",
+            "To introduce a new item of business to the assembly",
+            "To close a meeting",
+            "To request information from the chair"
+          ],
+          "correctAnswer": "To introduce a new item of business to the assembly",
+          "Help": "Main motions are the vehicle for bringing business before the assembly."
+        },
+        {
+          "question": "Which of the following is considered a Privileged Motion?",
+          "options": [
+            "Main Motion",
+            "Amend",
+            "Adjourn",
+            "Point of Order"
+          ],
+          "correctAnswer": "Adjourn",
+          "Help": "Privileged motions deal with the rights of members and the meeting process itself."
+        },
+        {
+          "question": "An incidental motion generally:",
+          "options": [
+            "Deals with the pending question",
+            "Relates to the pending business or the rules of the meeting",
+            "Is used to bring a previous question back before the assembly",
+            "Has the lowest precedence in parliamentary law"
+          ],
+          "correctAnswer": "Relates to the pending business or the rules of the meeting",
+          "Help": "Incidental motions arise out of the current situation of the meeting."
+        },
+        {
+          "question": "What is the correct order of business for a standard chapter meeting?",
+          "options": [
+            "New Business, Old Business, Reports, Call to Order",
+            "Call to Order, Reports, Old Business, New Business",
+            "Call to Order, New Business, Old Business, Adjournment",
+            "Reports, Call to Order, New Business, Adjournment"
+          ],
+          "correctAnswer": "Call to Order, Reports, Old Business, New Business",
+          "Help": "Meetings follow a logical sequence starting with the Call to Order."
+        },
+        {
+          "question": "What is the effect of an 'Amend' motion?",
+          "options": [
+            "To postpone the motion to a future time",
+            "To end debate immediately",
+            "To modify the wording of a pending motion",
+            "To kill the motion entirely"
+          ],
+          "correctAnswer": "To modify the wording of a pending motion",
+          "Help": "Amend is a subsidiary motion used to change the pending main motion."
+        },
+        {
+          "question": "What is the 'previous question' used for?",
+          "options": [
+            "To ask for a vote on the minutes of the previous meeting",
+            "To immediately close debate and force a vote",
+            "To table a motion until the next meeting",
+            "To request that a motion from a past meeting be reconsidered"
+          ],
+          "correctAnswer": "To immediately close debate and force a vote",
+          "Help": "The previous question is a subsidiary motion to terminate debate."
+        },
+        {
+          "question": "A 'Point of Order' is used when:",
+          "options": [
+            "A member wants to speak out of turn",
+            "A member notices a breach of the rules",
+            "A member wishes to move to adjourn",
+            "A member wants to change their vote"
+          ],
+          "correctAnswer": "A member notices a breach of the rules",
+          "Help": "It is an incidental motion used to enforce rules."
+        },
+        {
+          "question": "What happens if a motion dies for lack of a second?",
+          "options": [
+            "The assembly votes on it anyway",
+            "The chair must provide a second",
+            "The motion is not considered by the assembly",
+            "The secretary records the motion in the minutes as 'Failed'"
+          ],
+          "correctAnswer": "The motion is not considered by the assembly",
+          "Help": "Most motions require a second to be formally brought before the assembly."
+        },
+        {
+          "question": "Which of these is a motion that brings a question again before the assembly?",
+          "options": [
+            "Postpone Indefinitely",
+            "Lay on the Table",
+            "Reconsider",
+            "Commit or Refer"
+          ],
+          "correctAnswer": "Reconsider",
+          "Help": "These motions provide a way to revisit a previously decided item."
+        }
+      ]
+    },
+    {
+      "topic": "FBLA Guidelines and Competition Rules",
+      "questions": [
+        {
+          "question": "What is the deadline for FBLA national membership dues for the current school year?",
+          "options": [
+            "January 1",
+            "March 1",
+            "April 15",
+            "May 1"
+          ],
+          "correctAnswer": "March 1",
+          "Help": "Check the Eligibility Requirements section."
+        },
+        {
+          "question": "How many teams can each state submit for the Parliamentary Procedure event?",
+          "options": [
+            "One",
+            "Two",
+            "Four",
+            "Unlimited"
+          ],
+          "correctAnswer": "Four",
+          "Help": "State entry limits are explicitly stated in the guidelines."
+        },
+        {
+          "question": "What is the penalty for being late to the assigned presentation time?",
+          "options": [
+            "Disqualification",
+            "10 points",
+            "5 points",
+            "No penalty, just a warning"
+          ],
+          "correctAnswer": "5 points",
+          "Help": "Penalty points section provides the deduction amount."
+        },
+        {
+          "question": "How many notecards are allowed per competitor during the role play?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Unlimited"
+          ],
+          "correctAnswer": "Two",
+          "Help": "Check the Role Play Details section."
+        },
+        {
+          "question": "What determines which teams advance to the role play round?",
+          "options": [
+            "The individual scores of the team members",
+            "A separate oral interview",
+            "The team-averaged objective test score",
+            "The state's nomination"
+          ],
+          "correctAnswer": "The team-averaged objective test score",
+          "Help": "Check the Scoring section."
+        },
+        {
+          "question": "How long is the preparation time for the role play scenario?",
+          "options": [
+            "10 minutes",
+            "15 minutes",
+            "20 minutes",
+            "30 minutes"
+          ],
+          "correctAnswer": "20 minutes",
+          "Help": "Check the Timing Structure section."
+        },
+        {
+          "question": "Which item are competitors NOT allowed to bring into the role play room?",
+          "options": [
+            "A gavel",
+            "Minutes from a previous meeting",
+            "A printed copy of the role play",
+            "A script prepared in advance"
+          ],
+          "correctAnswer": "A script prepared in advance",
+          "Help": "Scripts are strictly prohibited."
+        },
+        {
+          "question": "What happens if a student has placed in the top 10 of an event at a previous NLC?",
+          "options": [
+            "They can never compete in any event again",
+            "They must compete in a different event category",
+            "They are ineligible to compete in that same event in future NLCs",
+            "They are allowed to compete, but their score is halved"
+          ],
+          "correctAnswer": "They are ineligible to compete in that same event in future NLCs",
+          "Help": "Review the 'Repeat Competitors' policy."
+        },
+        {
+          "question": "Where must competitors stay to be eligible for NLC competition?",
+          "options": [
+            "Any hotel within the host city",
+            "The official FBLA housing block",
+            "A hotel designated by the school district",
+            "With a family member in the host city"
+          ],
+          "correctAnswer": "The official FBLA housing block",
+          "Help": "Official Hotel Requirement section."
+        },
+        {
+          "question": "What is the duration of the objective test?",
+          "options": [
+            "30 minutes",
+            "45 minutes",
+            "50 minutes",
+            "60 minutes"
+          ],
+          "correctAnswer": "50 minutes",
+          "Help": "Check the 'Test Duration' section."
+        }
+      ]
+    }
+  ]
+}
