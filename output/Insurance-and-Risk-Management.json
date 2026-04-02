@@ -1,0 +1,1141 @@
+
+{
+  "testName": "Insurance & Risk Management Competitive Event",
+  "topics": [
+    {
+      "topic": "Risk Management",
+      "questions": [
+        {
+          "question": "Which of the following is the correct sequential order of steps in the traditional risk management model?",
+          "options": [
+            "Assess risks, identify hazards, implement controls, monitor results, choose controls",
+            "Identify hazards, assess and prioritize risks, choose control measures, implement controls, monitor and review results",
+            "Implement controls, identify hazards, assess risks, monitor results, choose controls",
+            "Choose control measures, assess risks, identify hazards, implement controls, monitor results"
+          ],
+          "correctAnswer": "Identify hazards, assess and prioritize risks, choose control measures, implement controls, monitor and review results",
+          "Help": "The traditional risk management model follows a logical sequence starting with identifying what could go wrong, then evaluating its impact, deciding how to manage it, putting those plans into action, and finally checking their effectiveness."
+        },
+        {
+          "question": "What is the primary goal of Enterprise Risk Management (ERM)?",
+          "options": [
+            "To eliminate all organizational risks",
+            "To maximize shareholder profits through aggressive risk-taking",
+            "To manage risks and opportunities to create and protect organizational value",
+            "To transfer all potential risks to external insurance providers"
+          ],
+          "correctAnswer": "To manage risks and opportunities to create and protect organizational value",
+          "Help": "ERM takes a holistic approach, aiming not just to minimize threats but also to leverage uncertainties for strategic advantage, thereby enhancing value."
+        },
+        {
+          "question": "Why might an organization adapt a standard risk management model to meet its specific needs?",
+          "options": [
+            "To increase the complexity of the risk management process",
+            "Because standard models are legally unenforceable",
+            "To better align the model with its unique operations, culture, and strategic objectives",
+            "To avoid the need for external consultants"
+          ],
+          "correctAnswer": "To better align the model with its unique operations, culture, and strategic objectives",
+          "Help": "Organizations are unique, and a one-size-fits-all approach to risk management may not be effective. Adaptation ensures relevance and efficiency."
+        },
+        {
+          "question": "How can taking calculated risks contribute to an organization's value creation?",
+          "options": [
+            "By ensuring all operations are perfectly safe and predictable",
+            "By avoiding all potential for financial loss",
+            "By fostering innovation, competitive advantage, and achieving strategic goals",
+            "By reducing the need for insurance coverage"
+          ],
+          "correctAnswer": "By fostering innovation, competitive advantage, and achieving strategic goals",
+          "Help": "Strategic risks, when managed effectively, can lead to breakthroughs, new market opportunities, and significant growth, thereby increasing organizational value."
+        },
+        {
+          "question": "What is a crucial initial step when creating a comprehensive risk program for an organization?",
+          "options": [
+            "Purchasing the maximum possible insurance coverage",
+            "Conducting an audit of all existing policies and procedures",
+            "Defining the scope and objectives of the risk program",
+            "Hiring a full team of external risk consultants"
+          ],
+          "correctAnswer": "Defining the scope and objectives of the risk program",
+          "Help": "Before diving into details, it's essential to clearly establish what the risk program aims to achieve and what areas it will cover to ensure it's targeted and effective."
+        },
+        {
+          "question": "What is a key characteristic of a valid risk forecast?",
+          "options": [
+            "It always predicts catastrophic events",
+            "It is based solely on intuition and expert opinions",
+            "It uses reliable data and appropriate methodologies to estimate future risks",
+            "It guarantees the complete elimination of uncertainty"
+          ],
+          "correctAnswer": "It uses reliable data and appropriate methodologies to estimate future risks",
+          "Help": "Valid risk forecasts rely on objective data analysis and established forecasting techniques, rather than subjective guesswork, to provide credible insights."
+        },
+        {
+          "question": "What is the primary purpose of risk mapping?",
+          "options": [
+            "To physically map out emergency evacuation routes",
+            "To visually represent risks based on their likelihood and impact",
+            "To create a legal document outlining risk responsibilities",
+            "To identify individuals responsible for risk events"
+          ],
+          "correctAnswer": "To visually represent risks based on their likelihood and impact",
+          "Help": "Risk mapping helps organizations prioritize risks by plotting them on a grid, making it easier to see which risks are most critical and require immediate attention."
+        },
+        {
+          "question": "Which component is typically included when calculating the total cost of risk for an organization?",
+          "options": [
+            "Employee salaries for non-risk-related departments",
+            "Cost of insurance premiums and uninsured losses",
+            "Revenue generated from sales of products",
+            "Profits from successful investments"
+          ],
+          "correctAnswer": "Cost of insurance premiums and uninsured losses",
+          "Help": "The total cost of risk encompasses all expenses an organization incurs to manage its risks, including insurance, retained losses, and risk management department costs."
+        },
+        {
+          "question": "Implementing a mandatory safety training program for all employees is an example of which risk control tactic?",
+          "options": [
+            "Risk retention",
+            "Risk financing transfer",
+            "Risk prevention",
+            "Risk enhancement"
+          ],
+          "correctAnswer": "Risk prevention",
+          "Help": "Safety training aims to stop incidents from happening in the first place, thus preventing losses, which is a key aspect of risk prevention."
+        },
+        {
+          "question": "What is the main objective of a business continuity plan?",
+          "options": [
+            "To replace all damaged assets immediately after a disaster",
+            "To ensure the ongoing operation of essential business functions during and after a disruptive event",
+            "To eliminate the need for emergency response plans",
+            "To provide financial compensation to employees affected by a crisis"
+          ],
+          "correctAnswer": "To ensure the ongoing operation of essential business functions during and after a disruptive event",
+          "Help": "A business continuity plan focuses on maintaining critical operations and minimizing downtime following unforeseen events like natural disasters or cyberattacks."
+        },
+        {
+          "question": "When an organization decides to self-insure a portion of its risks, this is an example of what?",
+          "options": [
+            "Risk avoidance",
+            "Risk financing transfer",
+            "Risk reduction",
+            "Risk retention"
+          ],
+          "correctAnswer": "Risk retention",
+          "Help": "Risk retention occurs when an organization chooses to bear the financial burden of certain risks itself, rather than transferring it to an insurer."
+        },
+        {
+          "question": "What is a primary function of a risk management report?",
+          "options": [
+            "To document employee attendance records",
+            "To communicate the organization's risk profile and mitigation efforts to stakeholders",
+            "To calculate daily sales figures for the marketing department",
+            "To exclusively list past financial losses"
+          ],
+          "correctAnswer": "To communicate the organization's risk profile and mitigation efforts to stakeholders",
+          "Help": "Risk management reports provide transparency and accountability, informing management and other stakeholders about the risks faced and how they are being addressed."
+        },
+        {
+          "question": "Which legal concept is fundamental to the insurance industry, stating that an insured should not profit from a loss but merely be restored to their pre-loss condition?",
+          "options": [
+            "Subrogation",
+            "Insurable interest",
+            "Indemnity",
+            "Adhesion"
+          ],
+          "correctAnswer": "Indemnity",
+          "Help": "The principle of indemnity ensures that insurance compensates for actual losses, preventing unjust enrichment or profiting from misfortune."
+        },
+        {
+          "question": "Which type of insurance is generally recommended for young adults who have financial dependents, such as children or a spouse?",
+          "options": [
+            "Pet insurance",
+            "Life insurance",
+            "Travel insurance",
+            "Extended warranty insurance"
+          ],
+          "correctAnswer": "Life insurance",
+          "Help": "Life insurance provides financial protection for dependents in the event of the policyholder's premature death, replacing lost income."
+        },
+        {
+          "question": "Which of these is a distinct component of the Enterprise Risk Management (ERM) model that emphasizes ongoing communication?",
+          "options": [
+            "Identify hazards",
+            "Implement controls",
+            "Communicate results",
+            "Choose control measures"
+          ],
+          "correctAnswer": "Communicate results",
+          "Help": "ERM explicitly includes 'communicate results' to ensure all stakeholders are informed about risk posture, controls, and strategic decisions, which is often implicit or less formal in traditional models."
+        },
+        {
+          "question": "What is the main output or objective of risk profiling?",
+          "options": [
+            "A detailed list of all organizational employees",
+            "A comprehensive overview of an organization's exposure to various risks",
+            "A spreadsheet containing only financial assets",
+            "A graph showing only past profits"
+          ],
+          "correctAnswer": "A comprehensive overview of an organization's exposure to various risks",
+          "Help": "Risk profiling involves systematically identifying and assessing all significant risks an organization faces, creating a profile of its overall risk landscape."
+        },
+        {
+          "question": "Installing sprinkler systems in a building is an example of which risk control tactic?",
+          "options": [
+            "Risk avoidance",
+            "Risk retention",
+            "Risk reduction",
+            "Risk transfer"
+          ],
+          "correctAnswer": "Risk reduction",
+          "Help": "Sprinkler systems don't prevent fires from starting (avoidance), but they significantly reduce the potential damage (impact) if a fire does occur."
+        },
+        {
+          "question": "What is the immediate goal of an emergency response plan?",
+          "options": [
+            "To completely rebuild facilities",
+            "To minimize harm and stabilize the situation during an unexpected event",
+            "To determine long-term financial recovery strategies",
+            "To assign blame for the emergency"
+          ],
+          "correctAnswer": "To minimize harm and stabilize the situation during an unexpected event",
+          "Help": "Emergency response plans are designed for the critical initial hours or days of a crisis, focusing on immediate safety, containment, and stabilization."
+        },
+        {
+          "question": "Purchasing an insurance policy to cover potential losses is an example of which risk management strategy?",
+          "options": [
+            "Risk retention",
+            "Risk avoidance",
+            "Risk financing transfer",
+            "Risk reduction"
+          ],
+          "correctAnswer": "Risk financing transfer",
+          "Help": "Insurance allows an individual or organization to transfer the financial consequences of a potential loss to an insurance company in exchange for a premium."
+        },
+        {
+          "question": "A company investing in a new, unproven technology with high potential returns, despite significant development costs, exemplifies which aspect of risk?",
+          "options": [
+            "Risk elimination",
+            "Risk avoidance",
+            "Risk creating value",
+            "Risk retention without strategy"
+          ],
+          "correctAnswer": "Risk creating value",
+          "Help": "This scenario demonstrates how accepting certain risks, particularly strategic ones, can open doors to innovation, competitive advantage, and substantial financial gains."
+        },
+        {
+          "question": "In the traditional risk management model, what is the initial step after understanding the context?",
+          "options": [
+            "Assess and prioritize risks",
+            "Identify hazards",
+            "Implement controls",
+            "Monitor and review results"
+          ],
+          "correctAnswer": "Identify hazards",
+          "Help": "Before you can assess, prioritize, or control risks, you must first identify what those potential hazards or sources of risk are."
+        },
+        {
+          "question": "After identifying potential hazards, what is the next logical step in the risk management process?",
+          "options": [
+            "Choose control measures",
+            "Implement controls",
+            "Assess and prioritize risks",
+            "Monitor and review results"
+          ],
+          "correctAnswer": "Assess and prioritize risks",
+          "Help": "Once hazards are identified, the next step is to evaluate their likelihood and impact to determine which ones are most significant and require immediate attention."
+        },
+        {
+          "question": "What does 'choosing control measures' primarily involve in the risk management model?",
+          "options": [
+            "Ignoring all identified risks",
+            "Selecting strategies to mitigate, transfer, or accept risks",
+            "Delegating all risk responsibility to a single individual",
+            "Only focusing on financial compensation for losses"
+          ],
+          "correctAnswer": "Selecting strategies to mitigate, transfer, or accept risks",
+          "Help": "This step involves deciding on the most appropriate actions to deal with each identified and assessed risk, which could include prevention, reduction, transfer, or retention."
+        },
+        {
+          "question": "Why is monitoring and reviewing results a critical step in the risk management process?",
+          "options": [
+            "To ensure the process is immediately terminated",
+            "To justify ignoring new risks",
+            "To evaluate the effectiveness of control measures and adapt to new risks or changes",
+            "To solely punish individuals for past errors"
+          ],
+          "correctAnswer": "To evaluate the effectiveness of control measures and adapt to new risks or changes",
+          "Help": "Risk management is an ongoing cycle. Monitoring and review ensure that the chosen strategies are working and that the risk management system remains relevant and responsive."
+        },
+        {
+          "question": "Which legal concept dictates that individuals must act responsibly to avoid harming others and is crucial for understanding liability?",
+          "options": [
+            "Breach of contract",
+            "Duty of care",
+            "Strict liability",
+            "Subrogation"
+          ],
+          "correctAnswer": "Duty of care",
+          "Help": "The 'duty of care' principle means that a person or organization has a legal obligation to exercise a reasonable standard of care while performing any act that could foreseeably harm others."
+        },
+        {
+          "question": "Which method is often used to create valid risk forecasts by analyzing historical data and trends?",
+          "options": [
+            "Astrology readings",
+            "Anecdotal evidence",
+            "Quantitative modeling and statistical analysis",
+            "Purely speculative guessing"
+          ],
+          "correctAnswer": "Quantitative modeling and statistical analysis",
+          "Help": "Quantitative methods provide a data-driven approach to forecasting by identifying patterns and relationships in past events to predict future probabilities."
+        },
+        {
+          "question": "Offering incentives for employees to suggest innovative, yet potentially risky, process improvements aligns with which risk control tactic?",
+          "options": [
+            "Risk avoidance",
+            "Risk elimination",
+            "Risk enablement",
+            "Risk financing"
+          ],
+          "correctAnswer": "Risk enablement",
+          "Help": "Risk enablement focuses on intentionally taking or encouraging risks that have the potential for significant upside, often associated with innovation and growth."
+        },
+        {
+          "question": "Why is 'communicating results' a distinct step in the ERM model?",
+          "options": [
+            "To keep risk information strictly within the risk management department",
+            "To ensure transparency, accountability, and informed decision-making across the entire organization",
+            "To solely impress external regulators with complex reports",
+            "To avoid discussing unpleasant risk outcomes"
+          ],
+          "correctAnswer": "To ensure transparency, accountability, and informed decision-making across the entire organization",
+          "Help": "Effective communication is vital for ERM to embed risk awareness into the organizational culture and ensure that risk information supports strategic objectives."
+        },
+        {
+          "question": "A company calculates its total cost of risk. Which factor would typically be included in this calculation?",
+          "options": [
+            "The market value of the company's stock",
+            "The cost of implementing safety equipment and training",
+            "The total annual revenue from product sales",
+            "Employee charitable donations"
+          ],
+          "correctAnswer": "The cost of implementing safety equipment and training",
+          "Help": "The total cost of risk includes all expenses related to managing risks, such as loss control costs (safety measures), administrative costs, retained losses, and insurance premiums."
+        },
+        {
+          "question": "A company uses risk mapping to visualize its various risks. What is a primary benefit of this technique?",
+          "options": [
+            "It guarantees that no risks will ever materialize",
+            "It eliminates the need for any other risk assessment tools",
+            "It helps prioritize risks by providing a clear visual representation of their potential impact and likelihood",
+            "It automatically assigns financial values to all identified risks without further analysis"
+          ],
+          "correctAnswer": "It helps prioritize risks by providing a clear visual representation of their potential impact and likelihood",
+          "Help": "Risk mapping is an effective tool for quickly identifying the most critical risks that warrant immediate attention and resource allocation."
+        }
+      ]
+    },
+    {
+      "topic": "Property & Liability Insurance",
+      "questions": [
+        {
+          "question": "Which type of auto insurance covers damage to your own vehicle resulting from a collision with another car or object?",
+          "options": [
+            "Liability coverage",
+            "Comprehensive coverage",
+            "Collision coverage",
+            "Uninsured motorist coverage"
+          ],
+          "correctAnswer": "Collision coverage",
+          "Help": "Collision coverage specifically pays for damage to your vehicle from an impact with another vehicle or object, regardless of fault."
+        },
+        {
+          "question": "Which factor would most likely lead to an increase in an individual's auto insurance premiums?",
+          "options": [
+            "Maintaining a clean driving record for many years",
+            "Increasing the deductible on comprehensive coverage",
+            "Adding a new, inexperienced teenage driver to the policy",
+            "Installing anti-theft devices in the vehicle"
+          ],
+          "correctAnswer": "Adding a new, inexperienced teenage driver to the policy",
+          "Help": "Inexperienced drivers, especially teenagers, are statistically more likely to be involved in accidents, leading to higher premiums."
+        },
+        {
+          "question": "Why might an individual choose to carry more than the legal minimum amount of auto liability insurance?",
+          "options": [
+            "To reduce the cost of their premiums",
+            "To protect their personal assets in case of a serious accident where they are at fault",
+            "To ensure their own vehicle is fully covered for repairs",
+            "To automatically cover medical expenses for themselves"
+          ],
+          "correctAnswer": "To protect their personal assets in case of a serious accident where they are at fault",
+          "Help": "Minimum coverage may not be enough to cover significant damages or injuries. Higher liability limits protect your financial assets from lawsuits if you're deemed responsible for a costly accident."
+        },
+        {
+          "question": "An auto insurance policy has a $500 deductible for collision coverage. If a claim for $3,000 in damages is approved, how much will the insurance company pay?",
+          "options": [
+            "$3,000",
+            "$500",
+            "$2,500",
+            "$3,500"
+          ],
+          "correctAnswer": "$2,500",
+          "Help": "The deductible is the amount the insured pays out of pocket before the insurance company starts paying. So, $3,000 (damages) - $500 (deductible) = $2,500."
+        },
+        {
+          "question": "How does choosing a higher deductible typically affect auto insurance premiums?",
+          "options": [
+            "It significantly increases premiums",
+            "It has no impact on premiums",
+            "It generally decreases premiums",
+            "It only affects comprehensive coverage premiums"
+          ],
+          "correctAnswer": "It generally decreases premiums",
+          "Help": "A higher deductible means you take on more of the initial financial risk, which typically results in a lower premium because the insurer pays less in the event of a claim."
+        },
+        {
+          "question": "Which of the following is a primary benefit of renter's insurance?",
+          "options": [
+            "It covers structural damage to the rented building",
+            "It pays for the landlord's personal property",
+            "It protects the renter's personal belongings from perils like fire and theft",
+            "It covers the renter's car insurance deductible"
+          ],
+          "correctAnswer": "It protects the renter's personal belongings from perils like fire and theft",
+          "Help": "Renter's insurance is crucial for tenants as it covers their personal property and often provides liability protection, which a landlord's policy does not."
+        },
+        {
+          "question": "What is the main purpose of worker's compensation benefits?",
+          "options": [
+            "To provide unemployment benefits for laid-off workers",
+            "To offer health insurance for all employees outside of work",
+            "To provide medical treatment and wage replacement for employees injured on the job",
+            "To cover damages to company property caused by employees"
+          ],
+          "correctAnswer": "To provide medical treatment and wage replacement for employees injured on the job",
+          "Help": "Worker's compensation is a form of insurance that provides wage replacement and medical benefits to employees injured in the course of employment, in exchange for mandatory relinquishment of the employee's right to sue their employer."
+        },
+        {
+          "question": "What type of auto insurance would cover damage to your car caused by a hailstorm?",
+          "options": [
+            "Collision coverage",
+            "Liability coverage",
+            "Comprehensive coverage",
+            "Medical payments coverage"
+          ],
+          "correctAnswer": "Comprehensive coverage",
+          "Help": "Comprehensive coverage protects against damages to your vehicle from non-collision events, such as theft, vandalism, fire, natural disasters, or impacts with animals."
+        },
+        {
+          "question": "If you cause an accident and injure another driver, which part of your auto insurance policy would primarily cover their medical expenses?",
+          "options": [
+            "Collision coverage",
+            "Bodily injury liability",
+            "Medical payments coverage",
+            "Personal Injury Protection (PIP)"
+          ],
+          "correctAnswer": "Bodily injury liability",
+          "Help": "Bodily injury liability coverage pays for medical bills, lost wages, and pain and suffering for others if you are at fault in an accident."
+        },
+        {
+          "question": "Which action is most likely to result in a reduction in auto insurance premiums?",
+          "options": [
+            "Increasing your daily commute distance",
+            "Receiving multiple speeding tickets",
+            "Completing a defensive driving course",
+            "Purchasing a brand new, high-performance sports car"
+          ],
+          "correctAnswer": "Completing a defensive driving course",
+          "Help": "Many insurance companies offer discounts for completing approved defensive driving courses, as it demonstrates a commitment to safer driving."
+        },
+        {
+          "question": "In 'no-fault' states, which coverage pays for medical expenses and lost wages for you and your passengers, regardless of who is at fault?",
+          "options": [
+            "Property damage liability",
+            "Uninsured motorist coverage",
+            "Personal Injury Protection (PIP)",
+            "Collision coverage"
+          ],
+          "correctAnswer": "Personal Injury Protection (PIP)",
+          "Help": "PIP is designed to cover medical expenses and lost wages for policyholders and their passengers after an accident, regardless of who caused it, particularly in 'no-fault' insurance systems."
+        },
+        {
+          "question": "What does Uninsured Motorist (UM) coverage protect against?",
+          "options": [
+            "Damage to your vehicle if you cause an accident",
+            "Medical expenses for the at-fault driver",
+            "Bodily injury and property damage if you're hit by a driver without insurance or sufficient coverage",
+            "The cost of your own car rental after an accident"
+          ],
+          "correctAnswer": "Bodily injury and property damage if you're hit by a driver without insurance or sufficient coverage",
+          "Help": "UM coverage is vital for protecting yourself financially from drivers who illegally drive without insurance or whose insurance is insufficient to cover your damages."
+        },
+        {
+          "question": "If your collision deductible is $1,000 and your car sustains $1,500 in damages from an accident you caused, how much would you pay out-of-pocket?",
+          "options": [
+            "$0",
+            "$500",
+            "$1,000",
+            "$1,500"
+          ],
+          "correctAnswer": "$1,000",
+          "Help": "You are responsible for paying the deductible amount before your insurance coverage begins. In this case, the damages are greater than the deductible, so you pay the full deductible."
+        },
+        {
+          "question": "Which concept applies when an insurance company pays for the depreciated value of a damaged item, rather than the cost to replace it new?",
+          "options": [
+            "Replacement cost",
+            "Actual cash value",
+            "Guaranteed replacement",
+            "Market value"
+          ],
+          "correctAnswer": "Actual cash value",
+          "Help": "Actual Cash Value (ACV) takes into account depreciation, meaning the payout will be less than the cost of a brand-new item. Replacement Cost (RC) coverage would pay to replace the item new."
+        },
+        {
+          "question": "Besides personal property, what other important coverage does renter's insurance typically provide?",
+          "options": [
+            "Loss of income if the renter loses their job",
+            "Coverage for the landlord's building structure",
+            "Liability coverage for accidents that occur in the rented space",
+            "Health insurance for the renter"
+          ],
+          "correctAnswer": "Liability coverage for accidents that occur in the rented space",
+          "Help": "Renter's insurance often includes liability coverage, protecting the renter if someone is injured in their apartment or if they accidentally damage someone else's property."
+        },
+        {
+          "question": "How are worker's compensation benefits typically funded and administered?",
+          "options": [
+            "Directly by the federal government for all workers",
+            "Through state-mandated insurance programs, funded by employer contributions",
+            "By voluntary employee contributions to a private fund",
+            "Solely by individual lawsuits against employers"
+          ],
+          "correctAnswer": "Through state-mandated insurance programs, funded by employer contributions",
+          "Help": "Worker's compensation is generally managed at the state level, with employers required to carry insurance (either through private insurers or state funds) to cover these benefits."
+        },
+        {
+          "question": "A homeowners insurance policy includes coverage for damage to the dwelling and coverage for injuries to guests on the property. What are these two distinct coverages called?",
+          "options": [
+            "Medical payments and personal property",
+            "Dwelling coverage and liability coverage",
+            "Uninsured property and personal injury protection",
+            "Collision and comprehensive"
+          ],
+          "correctAnswer": "Dwelling coverage and liability coverage",
+          "Help": "Dwelling coverage protects the physical structure of the home, while liability coverage protects the homeowner against claims for injuries or property damage caused to others."
+        },
+        {
+          "question": "Why might insuring a sports car cost more than insuring a sedan, assuming the same driver?",
+          "options": [
+            "Sports cars are less likely to be stolen",
+            "Sports cars typically have lower repair costs",
+            "Sports cars are often associated with higher speeds, increased accident risk, and higher repair costs",
+            "Sports cars require less comprehensive coverage"
+          ],
+          "correctAnswer": "Sports cars are often associated with higher speeds, increased accident risk, and higher repair costs",
+          "Help": "Insurers assess risk based on vehicle characteristics. Sports cars, due to their performance capabilities and often higher value, present a greater risk of high-cost claims."
+        },
+        {
+          "question": "What is the primary benefit of a personal umbrella liability policy?",
+          "options": [
+            "It covers damage to your personal property from all perils",
+            "It provides additional liability coverage beyond the limits of your homeowners and auto policies",
+            "It replaces the need for standard auto and homeowners insurance",
+            "It only covers professional malpractice lawsuits"
+          ],
+          "correctAnswer": "It provides additional liability coverage beyond the limits of your homeowners and auto policies",
+          "Help": "An umbrella policy offers an extra layer of liability protection, kicking in when the limits of underlying policies (like auto or home) are exhausted, protecting against significant claims."
+        },
+        {
+          "question": "After an insurance company pays for damages caused by a third party, what is the process called where the insurer seeks to recover the payment from the at-fault party?",
+          "options": [
+            "Indemnification",
+            "Subrogation",
+            "Arbitration",
+            "Reimbursement"
+          ],
+          "correctAnswer": "Subrogation",
+          "Help": "Subrogation allows the insurance company to step into the shoes of the insured to recover the money paid out for a claim from the party legally responsible for the loss."
+        }
+      ]
+    },
+    {
+      "topic": "Health, Disability, & Life Insurance",
+      "questions": [
+        {
+          "question": "Under what condition would an individual most likely need life insurance?",
+          "options": [
+            "They have no financial dependents and significant savings",
+            "They are financially independent and have no debt",
+            "They have financial dependents who rely on their income",
+            "They have comprehensive health insurance"
+          ],
+          "correctAnswer": "They have financial dependents who rely on their income",
+          "Help": "Life insurance is primarily designed to provide financial security for dependents, replacing the income of the deceased policyholder."
+        },
+        {
+          "question": "What government program provides financial assistance to individuals who are unable to work due to a severe disability and have a sufficient work history?",
+          "options": [
+            "Medicaid",
+            "Social Security Disability Insurance (SSDI)",
+            "Unemployment Insurance",
+            "Temporary Assistance for Needy Families (TANF)"
+          ],
+          "correctAnswer": "Social Security Disability Insurance (SSDI)",
+          "Help": "SSDI is a federal insurance program that pays benefits to you and certain members of your family if you are 'insured' – meaning you worked long enough and paid Social Security taxes."
+        },
+        {
+          "question": "Which is a common source for individuals to obtain health insurance?",
+          "options": [
+            "Through a vehicle dealership",
+            "Employer-sponsored plans",
+            "From a book club",
+            "Through a local grocery store"
+          ],
+          "correctAnswer": "Employer-sponsored plans",
+          "Help": "Many people obtain health insurance through their employers, who often subsidize a portion of the premiums."
+        },
+        {
+          "question": "What is the primary purpose of long-term care insurance?",
+          "options": [
+            "To cover short-term hospital stays for acute illnesses",
+            "To provide income replacement if you become disabled",
+            "To help cover the costs of assistance with daily living, such as nursing home care or in-home aid",
+            "To pay for elective cosmetic procedures"
+          ],
+          "correctAnswer": "To help cover the costs of assistance with daily living, such as nursing home care or in-home aid",
+          "Help": "Long-term care insurance addresses the substantial costs associated with chronic illness or disability that requires extended care, often not covered by standard health insurance or Medicare."
+        },
+        {
+          "question": "What is a key benefit of creating a basic financial plan?",
+          "options": [
+            "It guarantees immediate wealth accumulation",
+            "It helps set financial goals, manage income and expenses, and plan for future needs",
+            "It eliminates the need for any form of insurance",
+            "It is only relevant for high-net-worth individuals"
+          ],
+          "correctAnswer": "It helps set financial goals, manage income and expenses, and plan for future needs",
+          "Help": "A financial plan provides a roadmap for achieving financial stability and long-term goals by organizing and optimizing an individual's financial resources."
+        },
+        {
+          "question": "Why is disability insurance considered crucial for most working individuals?",
+          "options": [
+            "It covers all medical expenses regardless of cause",
+            "It replaces a portion of lost income if an illness or injury prevents them from working",
+            "It provides a lump sum payment upon retirement",
+            "It is a mandatory purchase for all employees by federal law"
+          ],
+          "correctAnswer": "It replaces a portion of lost income if an illness or injury prevents them from working",
+          "Help": "For many, their ability to earn an income is their most valuable asset. Disability insurance protects against the financial hardship of being unable to work due to illness or injury."
+        },
+        {
+          "question": "Which part of Medicare primarily covers hospital inpatient care?",
+          "options": [
+            "Medicare Part A",
+            "Medicare Part B",
+            "Medicare Part C",
+            "Medicare Part D"
+          ],
+          "correctAnswer": "Medicare Part A",
+          "Help": "Medicare Part A, also known as Hospital Insurance, covers inpatient hospital stays, care in a skilled nursing facility, hospice care, and some home health care."
+        },
+        {
+          "question": "What is a common advantage of obtaining health insurance through an employer?",
+          "options": [
+            "It is always free for the employee",
+            "Employers often subsidize premiums, making it more affordable",
+            "It allows employees to choose any doctor without restrictions",
+            "It is fully customizable to individual needs with unlimited options"
+          ],
+          "correctAnswer": "Employers often subsidize premiums, making it more affordable",
+          "Help": "Employer-sponsored plans typically share the cost of premiums with employees, making health coverage more accessible and affordable than individual plans."
+        },
+        {
+          "question": "As an individual approaches retirement, how might their financial plan typically change regarding investment strategy?",
+          "options": [
+            "Shift towards more aggressive, high-risk investments",
+            "Maintain the same investment strategy throughout their life",
+            "Transition to more conservative, lower-risk investments to preserve capital",
+            "Sell all investments and hold only cash"
+          ],
+          "correctAnswer": "Transition to more conservative, lower-risk investments to preserve capital",
+          "Help": "Closer to retirement, the focus shifts from growth to capital preservation, reducing exposure to market volatility to protect accumulated savings."
+        },
+        {
+          "question": "What government program provides health coverage to low-income individuals and families?",
+          "options": [
+            "Medicare",
+            "Medicaid",
+            "CHIP (Children's Health Insurance Program) only",
+            "Social Security"
+          ],
+          "correctAnswer": "Medicaid",
+          "Help": "Medicaid is a joint federal and state program that provides health care coverage to millions of Americans, including eligible low-income adults, children, pregnant women, elderly adults, and people with disabilities."
+        },
+        {
+          "question": "What is a primary difference between group disability insurance and individual disability insurance?",
+          "options": [
+            "Individual policies are always more expensive",
+            "Group policies are typically purchased through an employer and may offer limited customization, while individual policies are purchased directly and are more tailored",
+            "Group policies cover only short-term disabilities, individual policies cover only long-term",
+            "Individual policies do not require medical underwriting"
+          ],
+          "correctAnswer": "Group policies are typically purchased through an employer and may offer limited customization, while individual policies are purchased directly and are more tailored",
+          "Help": "Group disability insurance is usually easier to obtain but offers less flexibility, whereas individual policies require more extensive underwriting but can be customized to specific needs."
+        },
+        {
+          "question": "What is a characteristic feature of term life insurance?",
+          "options": [
+            "It builds cash value over time",
+            "It provides coverage for a specific period of time",
+            "It offers lifelong coverage with consistent premiums",
+            "It can be used as collateral for loans"
+          ],
+          "correctAnswer": "It provides coverage for a specific period of time",
+          "Help": "Term life insurance provides coverage for a defined period (e.g., 10, 20, 30 years) and pays a death benefit only if the insured dies within that term."
+        },
+        {
+          "question": "Which type of life insurance builds cash value over time, offering both a death benefit and a savings/investment component?",
+          "options": [
+            "Term life insurance",
+            "Accidental death and dismemberment insurance",
+            "Whole life insurance",
+            "Credit life insurance"
+          ],
+          "correctAnswer": "Whole life insurance",
+          "Help": "Whole life insurance is a type of permanent life insurance that offers coverage for the entire life of the insured and includes a cash value component that grows tax-deferred over time."
+        },
+        {
+          "question": "What is an annuity primarily designed for?",
+          "options": [
+            "To provide immediate cash for unexpected emergencies",
+            "To accumulate funds and then provide a steady stream of income during retirement",
+            "To pay off outstanding debts upon death",
+            "To cover medical expenses for chronic illnesses"
+          ],
+          "correctAnswer": "To accumulate funds and then provide a steady stream of income during retirement",
+          "Help": "Annuities are contracts with an insurance company designed to provide a guaranteed income stream, typically during retirement, helping to mitigate the risk of outliving savings."
+        },
+        {
+          "question": "What federal law allows employees to continue their health insurance coverage for a limited time after leaving a job or experiencing other qualifying life events?",
+          "options": [
+            "HIPAA (Health Insurance Portability and Accountability Act)",
+            "ERISA (Employee Retirement Income Security Act)",
+            "COBRA (Consolidated Omnibus Budget Reconciliation Act)",
+            "ACA (Affordable Care Act)"
+          ],
+          "correctAnswer": "COBRA (Consolidated Omnibus Budget Reconciliation Act)",
+          "Help": "COBRA gives workers and their families who lose their health benefits the right to choose to continue group health benefits provided by their group health plan for limited periods."
+        },
+        {
+          "question": "What is the 'elimination period' in a disability insurance policy?",
+          "options": [
+            "The period after which the policy expires",
+            "The time between when a disability occurs and when benefits begin to be paid",
+            "The maximum length of time benefits will be paid",
+            "The period during which the policy cannot be cancelled"
+          ],
+          "correctAnswer": "The time between when a disability occurs and when benefits begin to be paid",
+          "Help": "The elimination period, also known as the waiting period, is like a deductible for time. The longer the elimination period, the lower the premiums, as the insured takes on more initial risk."
+        },
+        {
+          "question": "What type of insurance pays a lump sum if you are diagnosed with a specific serious illness, such as cancer or a heart attack?",
+          "options": [
+            "Standard health insurance",
+            "Long-term care insurance",
+            "Critical illness insurance",
+            "Disability income insurance"
+          ],
+          "correctAnswer": "Critical illness insurance",
+          "Help": "Critical illness insurance provides a lump-sum payment upon diagnosis of a covered severe illness, which can be used to cover medical costs, lost income, or other expenses."
+        },
+        {
+          "question": "What does 'guaranteed renewable' mean for a health insurance policy?",
+          "options": [
+            "The policy cannot be cancelled by the insurer, but premiums may increase",
+            "The policy can be cancelled by the insurer at any time",
+            "Premiums and benefits are guaranteed to remain the same for life",
+            "The policy must be renewed every year with new underwriting"
+          ],
+          "correctAnswer": "The policy cannot be cancelled by the insurer, but premiums may increase",
+          "Help": "Guaranteed renewable means the insurer cannot cancel the policy as long as premiums are paid, but they can adjust premiums for the entire class of policyholders."
+        },
+        {
+          "question": "When creating a financial plan, which stage typically focuses on establishing an emergency fund and managing debt?",
+          "options": [
+            "Retirement planning stage",
+            "Wealth accumulation stage",
+            "Protection and basic needs stage",
+            "Estate planning stage"
+          ],
+          "correctAnswer": "Protection and basic needs stage",
+          "Help": "The foundational stage of financial planning involves securing immediate financial stability by building an emergency fund and controlling debt before moving to long-term goals."
+        },
+        {
+          "question": "What is the primary difference in eligibility between Medicare and Medicaid?",
+          "options": [
+            "Medicare is for children, Medicaid is for adults",
+            "Medicare is primarily for individuals 65 and older or with certain disabilities, while Medicaid is for low-income individuals and families",
+            "Medicare is a state program, Medicaid is a federal program",
+            "Medicare covers only prescription drugs, Medicaid covers only hospital care"
+          ],
+          "correctAnswer": "Medicare is primarily for individuals 65 and older or with certain disabilities, while Medicaid is for low-income individuals and families",
+          "Help": "Medicare is age and disability-based, while Medicaid is income and resource-based, serving different populations with healthcare needs."
+        }
+      ]
+    },
+    {
+      "topic": "Insurance Knowledge",
+      "questions": [
+        {
+          "question": "Which section of an insurance policy outlines the perils covered and the scope of coverage?",
+          "options": [
+            "Declarations page",
+            "Conditions",
+            "Exclusions",
+            "Insuring agreement"
+          ],
+          "correctAnswer": "Insuring agreement",
+          "Help": "The insuring agreement is the heart of the policy, detailing the insurer's promise to pay and what risks are covered, subject to the conditions and exclusions."
+        },
+        {
+          "question": "What is a primary factor insurance companies assess when underwriting a life insurance policy?",
+          "options": [
+            "The applicant's favorite color",
+            "The applicant's driving record and health history",
+            "The applicant's preferred type of pet",
+            "The applicant's social media activity"
+          ],
+          "correctAnswer": "The applicant's driving record and health history",
+          "Help": "Underwriting involves assessing the risk presented by the applicant. Factors like health, lifestyle, occupation, and driving record are crucial indicators of mortality risk."
+        },
+        {
+          "question": "What is the fundamental difference between term life insurance and permanent life insurance?",
+          "options": [
+            "Term insurance is always more expensive",
+            "Term insurance covers a specific period and does not build cash value, while permanent insurance covers a lifetime and builds cash value",
+            "Permanent insurance can be cancelled by the insurer at any time",
+            "Term insurance requires medical exams, permanent insurance does not"
+          ],
+          "correctAnswer": "Term insurance covers a specific period and does not build cash value, while permanent insurance covers a lifetime and builds cash value",
+          "Help": "This is the core distinction: term is for temporary needs with no savings component, permanent is for lifelong needs with an accumulating cash value."
+        },
+        {
+          "question": "Which legal principle in insurance means that the insured must accept the policy as written by the company, without negotiation, making any ambiguity interpreted in favor of the insured?",
+          "options": [
+            "Utmost good faith",
+            "Insurable interest",
+            "Contract of adhesion",
+            "Indemnity"
+          ],
+          "correctAnswer": "Contract of adhesion",
+          "Help": "An insurance policy is a 'contract of adhesion' because it's drafted by one party (the insurer) and presented on a 'take it or leave it' basis to the other party (the insured)."
+        },
+        {
+          "question": "What is a key responsibility of the claims department in an insurance company?",
+          "options": [
+            "To design new insurance products",
+            "To adjust and settle claims fairly and in accordance with policy terms",
+            "To manage the company's investment portfolio",
+            "To recruit and train sales agents"
+          ],
+          "correctAnswer": "To adjust and settle claims fairly and in accordance with policy terms",
+          "Help": "The claims department is responsible for evaluating, negotiating, and ultimately paying out legitimate claims as per the insurance contract."
+        },
+        {
+          "question": "What legal concept requires that the insured would suffer a financial loss if the insured event occurs, establishing the right to purchase insurance?",
+          "options": [
+            "Subrogation",
+            "Offer and acceptance",
+            "Insurable interest",
+            "Waiver and estoppel"
+          ],
+          "correctAnswer": "Insurable interest",
+          "Help": "Insurable interest means that the policyholder would be financially harmed by the loss or damage to the insured person or property, ensuring genuine risk protection."
+        },
+        {
+          "question": "Which of the following best describes 'hard fraud' in the context of insurance?",
+          "options": [
+            "Exaggerating a legitimate claim to get a larger payout",
+            "Submitting a claim for damage that never occurred, or staging an accident",
+            "Forgetting to disclose a minor detail on an application",
+            "Providing incorrect contact information to an agent"
+          ],
+          "correctAnswer": "Submitting a claim for damage that never occurred, or staging an accident",
+          "Help": "Hard fraud involves deliberately fabricating a claim or staging an event to collect insurance money, as opposed to 'soft fraud' which is exaggerating an otherwise legitimate claim."
+        },
+        {
+          "question": "Which agency's regulations are primarily focused on workplace safety and health?",
+          "options": [
+            "EPA (Environmental Protection Agency)",
+            "OSHA (Occupational Safety and Health Administration)",
+            "ERISA (Employee Retirement Income Security Act)",
+            "COBRA (Consolidated Omnibus Budget Reconciliation Act)"
+          ],
+          "correctAnswer": "OSHA (Occupational Safety and Health Administration)",
+          "Help": "OSHA sets and enforces standards for safe and healthful working conditions, which directly impacts worker's compensation and liability insurance for businesses."
+        },
+        {
+          "question": "In the insurance business cycle, what is the role of an underwriter?",
+          "options": [
+            "To directly sell insurance policies to clients",
+            "To investigate and pay out claims after a loss occurs",
+            "To assess and classify risks to determine appropriate coverage and premiums",
+            "To manage the company's marketing campaigns"
+          ],
+          "correctAnswer": "To assess and classify risks to determine appropriate coverage and premiums",
+          "Help": "Underwriters are key in the insurance process, evaluating applications to decide whether to accept a risk and on what terms, balancing risk exposure with profitability."
+        },
+        {
+          "question": "An insurance policy aims to restore the insured to their financial position before the loss, without profiting. This describes which fundamental insurance principle?",
+          "options": [
+            "Utmost good faith",
+            "Adhesion",
+            "Indemnity",
+            "Subrogation"
+          ],
+          "correctAnswer": "Indemnity",
+          "Help": "The principle of indemnity states that the purpose of insurance is to compensate the insured for the amount of their loss, up to the policy limit, but not to allow them to gain financially from the loss."
+        }
+      ]
+    },
+    {
+      "topic": "Decision Making",
+      "questions": [
+        {
+          "question": "When making insurance decisions in a global environment, what is a key consideration regarding economic factors?",
+          "options": [
+            "Focus only on domestic market trends",
+            "Ignore international currency fluctuations",
+            "Assess geopolitical risks and global economic volatility affecting asset values and liabilities",
+            "Assume all global markets behave identically"
+          ],
+          "correctAnswer": "Assess geopolitical risks and global economic volatility affecting asset values and liabilities",
+          "Help": "Global interconnectedness means that economic and political events far away can impact local insurance markets, asset values, and the probability of certain risks."
+        },
+        {
+          "question": "How does an insurance company typically use benchmarking in its decision-making process?",
+          "options": [
+            "To randomly choose new policy rates",
+            "To compare its performance and practices against industry leaders or competitors",
+            "To set arbitrary goals without external reference",
+            "To avoid implementing new technologies"
+          ],
+          "correctAnswer": "To compare its performance and practices against industry leaders or competitors",
+          "Help": "Benchmarking allows insurers to identify best practices, areas for improvement, and gauge their competitive position in terms of efficiency, claims handling, or pricing."
+        },
+        {
+          "question": "Within Enterprise Risk Management (ERM), what technique helps an organization optimize its risk-taking decisions by aligning them with its strategic objectives?",
+          "options": [
+            "Randomized selection of risks",
+            "Solely avoiding all identified risks",
+            "Defining and adhering to its risk appetite",
+            "Outsourcing all decision-making to a third party"
+          ],
+          "correctAnswer": "Defining and adhering to its risk appetite",
+          "Help": "Risk appetite is the amount and type of risk an organization is willing to take in pursuit of its strategic objectives. Optimizing risk-taking means making decisions within these defined boundaries."
+        },
+        {
+          "question": "When an underwriter analyzes the risk posed by a potential client, what is the primary goal?",
+          "options": [
+            "To deny all applications to minimize risk",
+            "To accurately assess the likelihood and potential cost of claims to set appropriate premiums and terms",
+            "To maximize the number of policies sold without regard to risk",
+            "To compare the client to the underwriter's personal friends"
+          ],
+          "correctAnswer": "To accurately assess the likelihood and potential cost of claims to set appropriate premiums and terms",
+          "Help": "Underwriting is about balancing the company's exposure to risk with its desire to write profitable business. Accurate risk assessment is crucial for fair pricing and sustainable operations."
+        },
+        {
+          "question": "An insurance agent's fiduciary duty of care primarily involves what responsibility to their clients?",
+          "options": [
+            "To sell the most expensive policy available",
+            "To prioritize their own commission earnings",
+            "To act in the client's best interest with competence and diligence",
+            "To only provide information when explicitly asked"
+          ],
+          "correctAnswer": "To act in the client's best interest with competence and diligence",
+          "Help": "A fiduciary duty implies a high standard of trust and good faith, requiring the agent to put the client's needs and interests first and provide suitable advice."
+        },
+        {
+          "question": "What is the initial step in effective decision-making within an organizational context?",
+          "options": [
+            "Generating alternative solutions",
+            "Implementing the chosen solution",
+            "Recognizing and defining the problem",
+            "Evaluating the outcomes"
+          ],
+          "correctAnswer": "Recognizing and defining the problem",
+          "Help": "You cannot solve a problem effectively until it is clearly identified and understood. A well-defined problem is half-solved."
+        },
+        {
+          "question": "How does understanding an organization's risk appetite influence decision-making in ERM?",
+          "options": [
+            "It encourages the organization to avoid all forms of risk",
+            "It provides a clear framework for how much risk the organization is willing to undertake to achieve its goals",
+            "It forces the organization to take on maximum possible risk",
+            "It eliminates the need for any further risk assessments"
+          ],
+          "correctAnswer": "It provides a clear framework for how much risk the organization is willing to undertake to achieve its goals",
+          "Help": "Risk appetite helps decision-makers know when to pursue, reduce, transfer, or avoid risks, ensuring consistency with strategic objectives and stakeholder expectations."
+        },
+        {
+          "question": "When making a decision about implementing a new risk control measure, what is the primary purpose of conducting a cost-benefit analysis?",
+          "options": [
+            "To justify not implementing any controls",
+            "To determine if the financial benefits of the control outweigh its implementation and maintenance costs",
+            "To identify who will be responsible for the control",
+            "To speed up the decision-making process without detailed analysis"
+          ],
+          "correctAnswer": "To determine if the financial benefits of the control outweigh its implementation and maintenance costs",
+          "Help": "A cost-benefit analysis provides an economic rationale for risk control decisions, ensuring that resources are allocated efficiently to achieve the greatest protective impact."
+        },
+        {
+          "question": "A client has a history of multiple severe traffic violations. How would an underwriter most likely approach the decision to approve or deny auto insurance for this client?",
+          "options": [
+            "Approve the policy immediately without further review",
+            "Offer a standard policy with average premiums",
+            "Deny coverage or offer a policy with significantly higher premiums and potentially limited coverage",
+            "Recommend the client purchase a new sports car"
+          ],
+          "correctAnswer": "Deny coverage or offer a policy with significantly higher premiums and potentially limited coverage",
+          "Help": "Multiple severe traffic violations indicate a very high-risk driver, leading underwriters to either decline coverage or price the risk significantly higher to reflect the increased probability of claims."
+        },
+        {
+          "question": "An insurance agent discovers a potential conflict of interest that could benefit them financially but harm a client. What ethical principle should guide their decision?",
+          "options": [
+            "Self-interest maximization",
+            "Adherence to the letter of the law only, not the spirit",
+            "Prioritizing the client's best interest and disclosing the conflict",
+            "Ignoring the conflict if no one else is aware"
+          ],
+          "correctAnswer": "Prioritizing the client's best interest and disclosing the conflict",
+          "Help": "Ethical decision-making, particularly in a fiduciary role, requires agents to act transparently and always put the client's well-being ahead of personal gain."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics",
+      "questions": [
+        {
+          "question": "Why are confidentiality agreements crucial in the insurance industry?",
+          "options": [
+            "To prevent employees from talking about their lunch breaks",
+            "To protect sensitive client information and proprietary business data",
+            "To simplify the process of sharing client data with third parties",
+            "To encourage unauthorized data access"
+          ],
+          "correctAnswer": "To protect sensitive client information and proprietary business data",
+          "Help": "Insurance companies handle a vast amount of personal and financial information. Confidentiality agreements ensure the privacy and security of this data, building trust and complying with legal requirements."
+        },
+        {
+          "question": "Which of the following is a vital data security measure for protecting confidential client records?",
+          "options": [
+            "Storing all data on easily accessible public servers",
+            "Using strong encryption for digital data and secure physical storage for paper records",
+            "Sharing passwords among all employees for convenience",
+            "Disabling all firewalls to improve network speed"
+          ],
+          "correctAnswer": "Using strong encryption for digital data and secure physical storage for paper records",
+          "Help": "Robust data security involves both digital (encryption, firewalls, access controls) and physical safeguards to prevent unauthorized access or breaches of confidential information."
+        },
+        {
+          "question": "Which federal regulation specifically governs the privacy of health information?",
+          "options": [
+            "GLBA (Gramm-Leach-Bliley Act)",
+            "HIPAA (Health Insurance Portability and Accountability Act)",
+            "FACTA (Fair and Accurate Credit Transactions Act)",
+            "FCRA (Fair Credit Reporting Act)"
+          ],
+          "correctAnswer": "HIPAA (Health Insurance Portability and Accountability Act)",
+          "Help": "HIPAA sets national standards for protecting sensitive patient health information from being disclosed without the patient's consent or knowledge."
+        },
+        {
+          "question": "When an insurance company is legally required to disclose certain information, what is a key ethical consideration?",
+          "options": [
+            "To delay disclosure as long as possible",
+            "To disclose the minimum required information while maintaining accuracy and integrity",
+            "To disclose all internal discussions related to the information",
+            "To manipulate the information to present a favorable view"
+          ],
+          "correctAnswer": "To disclose the minimum required information while maintaining accuracy and integrity",
+          "Help": "Ethical disclosure means fulfilling legal obligations accurately and transparently, but also respecting privacy by not over-disclosing information beyond what is legally mandated."
+        },
+        {
+          "question": "In an FBLA competitive event, which action would be considered a violation of the FBLA Honor Code regarding electronic devices?",
+          "options": [
+            "Using an online calculator provided within the testing platform",
+            "Having a fully powered device for online testing",
+            "Having a cell phone turned off and stored away during the competition",
+            "Having a smartwatch visible during the event, even if turned off"
+          ],
+          "correctAnswer": "Having a smartwatch visible during the event, even if turned off",
+          "Help": "The FBLA guidelines explicitly state that 'Visible devices during the event will be considered a violation of the FBLA Honor Code,' unless approved as an accommodation, regardless of whether they are on or off."
+        }
+      ]
+    },
+    {
+      "topic": "Careers",
+      "questions": [
+        {
+          "question": "Which job role in the insurance industry is primarily responsible for evaluating applications and determining coverage eligibility and premiums?",
+          "options": [
+            "Claims Adjuster",
+            "Actuary",
+            "Insurance Sales Representative",
+            "Underwriter"
+          ],
+          "correctAnswer": "Underwriter",
+          "Help": "Underwriters assess risk, determine if a policy should be issued, and calculate the appropriate premium based on the perceived risk level."
+        },
+        {
+          "question": "Which organization is a professional trade association for independent insurance agents and brokers in the United States?",
+          "options": [
+            "NASA (National Aeronautics and Space Administration)",
+            "NAIC (National Association of Insurance Commissioners)",
+            "IIABA (Independent Insurance Agents & Brokers of America)",
+            "IRS (Internal Revenue Service)"
+          ],
+          "correctAnswer": "IIABA (Independent Insurance Agents & Brokers of America)",
+          "Help": "The IIABA, also known as Big 'I', is a leading national association for independent insurance agencies, advocating for their interests and providing resources."
+        },
+        {
+          "question": "What is an essential skill for an insurance sales representative?",
+          "options": [
+            "Advanced surgical techniques",
+            "Strong communication and interpersonal skills",
+            "Expertise in quantum physics",
+            "Ability to pilot commercial aircraft"
+          ],
+          "correctAnswer": "Strong communication and interpersonal skills",
+          "Help": "Sales representatives must effectively explain complex insurance products, build rapport with clients, and understand their needs, all of which require excellent communication."
+        },
+        {
+          "question": "What is the primary role of an actuary in the insurance industry?",
+          "options": [
+            "To design marketing campaigns for new insurance products",
+            "To manage the company's human resources department",
+            "To analyze financial risks using mathematical and statistical methods to determine premiums and reserves",
+            "To provide legal counsel for insurance disputes"
+          ],
+          "correctAnswer": "To analyze financial risks using mathematical and statistical methods to determine premiums and reserves",
+          "Help": "Actuaries are financial professionals who apply mathematical and statistical theories to calculate the financial impact of future uncertain events, vital for pricing and solvency."
+        },
+        {
+          "question": "What is typically required for an individual to legally sell insurance products to the public?",
+          "options": [
+            "A master's degree in finance",
+            "Completion of a state-issued licensing exam and obtaining a license",
+            "Certification from an online university without examination",
+            "Membership in a private social club"
+          ],
+          "correctAnswer": "Completion of a state-issued licensing exam and obtaining a license",
+          "Help": "Insurance is a regulated industry, and agents must pass state-specific exams and obtain a license to ensure they have the necessary knowledge and ethical standing."
+        }
+      ]
+    }
+  ]
+}
