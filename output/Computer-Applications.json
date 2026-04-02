@@ -1,0 +1,1136 @@
+
+{
+  "testName": "Computer Applications Competitive Exam (High School)",
+  "topics": [
+    {
+      "topic": "FBLA Event Rules and Logistics",
+      "questions": [
+        {
+          "question": "Which of the following is an accurate description of the FBLA Computer Applications event type for High School?",
+          "options": [
+            "Team production test",
+            "Individual presentation",
+            "Individual production test",
+            "Team objective test"
+          ],
+          "correctAnswer": "Individual production test",
+          "Help": "Refer to 'Event Type' and 'Event Category' in the Event Overview."
+        },
+        {
+          "question": "What is the primary career cluster framework connection for the Computer Applications event?",
+          "options": [
+            "Information Technology",
+            "Arts, Audio/Video Technology, and Communications",
+            "Management & Entrepreneurship",
+            "Finance"
+          ],
+          "correctAnswer": "Management & Entrepreneurship",
+          "Help": "Check the 'Educational Alignments' section for Career Cluster Framework Connection."
+        },
+        {
+          "question": "Which of the following NACE competencies is NOT explicitly aligned with the Computer Applications event?",
+          "options": [
+            "Career & Self-Development",
+            "Global Fluency",
+            "Critical Thinking",
+            "Technology"
+          ],
+          "correctAnswer": "Global Fluency",
+          "Help": "Review the 'NACE Competency Alignment' in the Educational Alignments section."
+        },
+        {
+          "question": "What is one item a competitor MUST provide for the Computer Applications production test?",
+          "options": [
+            "Production test tasks",
+            "Internet access for submission",
+            "Fully powered device with needed programs",
+            "Conference-provided nametag"
+          ],
+          "correctAnswer": "Fully powered device with needed programs",
+          "Help": "Consult the 'Required Competition Items' table under 'Items Competitor Must Provide'."
+        },
+        {
+          "question": "Which of the following documents should FBLA competitors be familiar with, according to the guidelines?",
+          "options": [
+            "National Bylaws",
+            "Chapter Budget Guidelines",
+            "Competitive Events Policy & Procedures Manual",
+            "Membership Recruitment Handbook"
+          ],
+          "correctAnswer": "Competitive Events Policy & Procedures Manual",
+          "Help": "Look under 'Important FBLA Documents'."
+        },
+        {
+          "question": "What is the deadline for FBLA national membership dues to be paid for NLC eligibility?",
+          "options": [
+            "January 1",
+            "February 15",
+            "March 1",
+            "April 15"
+          ],
+          "correctAnswer": "March 1",
+          "Help": "Find the 'Membership Deadline' under Eligibility Requirements."
+        },
+        {
+          "question": "Under what condition may a member compete in the Computer Applications event at the NLC more than once?",
+          "options": [
+            "If they placed in the top 10 previously",
+            "If they did not place in the top 10 previously",
+            "If they compete in a different division",
+            "If they are a graduating senior"
+          ],
+          "correctAnswer": "If they did not place in the top 10 previously",
+          "Help": "Read the 'Repeat Competitors' rule in the Eligibility Requirements."
+        },
+        {
+          "question": "To be eligible to compete at the NLC, competitors must adhere to which housing requirement?",
+          "options": [
+            "Stay in any hotel within the host city",
+            "Stay with a family member in the host city",
+            "Stay within the official FBLA housing block",
+            "Arrange their own housing without FBLA restrictions"
+          ],
+          "correctAnswer": "Stay within the official FBLA housing block",
+          "Help": "Review the 'Official Hotel Requirement' in Eligibility Requirements."
+        },
+        {
+          "question": "What is the maximum number of entries each state may submit per event for the NLC?",
+          "options": [
+            "Two entries",
+            "Three entries",
+            "Four entries",
+            "Five entries"
+          ],
+          "correctAnswer": "Four entries",
+          "Help": "Check 'State Entry Limits' under Eligibility Requirements."
+        },
+        {
+          "question": "How many individual or team events can a member participate in at the NLC?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Unlimited"
+          ],
+          "correctAnswer": "One",
+          "Help": "Refer to 'Event Participation Limits' for individual or team events."
+        },
+        {
+          "question": "What is the penalty for a competitor arriving late to an assigned competitive event?",
+          "options": [
+            "Disqualification",
+            "Ten penalty points",
+            "Five penalty points",
+            "No penalty, if still within event time"
+          ],
+          "correctAnswer": "Five penalty points",
+          "Help": "See 'Late Arrivals' for the specific penalty."
+        },
+        {
+          "question": "What is the allowed duration for the Computer Applications production test?",
+          "options": [
+            "1 hour",
+            "1.5 hours",
+            "2 hours",
+            "2.5 hours"
+          ],
+          "correctAnswer": "2 hours",
+          "Help": "The 'Event Administration' section specifies 'Production Test Time'."
+        },
+        {
+          "question": "What resource is permitted for use during the Computer Applications production test?",
+          "options": [
+            "Any online search engine",
+            "A personal textbook on software applications",
+            "The Production Test Reference Guide",
+            "Notes prepared prior to the test"
+          ],
+          "correctAnswer": "The Production Test Reference Guide",
+          "Help": "Look under 'Event Administration' for allowed resources."
+        },
+        {
+          "question": "In the event of a tie in scoring for the Computer Applications event, how is the tie broken?",
+          "options": [
+            "A coin toss",
+            "The competitor with the highest score on the final section of the rating sheet",
+            "The competitor who earns the highest score earliest in the order of the rating sheet",
+            "The competitor with the faster completion time"
+          ],
+          "correctAnswer": "The competitor who earns the highest score earliest in the order of the rating sheet",
+          "Help": "The 'Scoring' section details the tie-breaking procedure."
+        },
+        {
+          "question": "Which of the following is considered a violation of the FBLA Honor Code regarding electronic devices?",
+          "options": [
+            "Turning off a smartwatch before competition",
+            "Using a conference-provided device",
+            "Having a cell phone visibly stored away during the event",
+            "Having a cell phone visibly on during the event"
+          ],
+          "correctAnswer": "Having a cell phone visibly on during the event",
+          "Help": "Refer to the 'Electronic Devices' section for rules on visible devices."
+        }
+      ]
+    },
+    {
+      "topic": "Slide Deck Applications",
+      "questions": [
+        {
+          "question": "Which element is crucial for creating an engaging slide presentation by allowing navigation between slides or external resources?",
+          "options": [
+            "Speaker notes",
+            "Background images",
+            "Hyperlinks",
+            "Standard fonts"
+          ],
+          "correctAnswer": "Hyperlinks",
+          "Help": "Interactive elements like hyperlinks enhance engagement."
+        },
+        {
+          "question": "When designing a slide presentation, which feature would be used to control how one slide replaces another on the screen?",
+          "options": [
+            "Animation",
+            "Transition",
+            "Graphic",
+            "Diagram"
+          ],
+          "correctAnswer": "Transition",
+          "Help": "Transitions define the movement between slides."
+        },
+        {
+          "question": "To effectively represent statistical data on a slide, which visual aid is most appropriate?",
+          "options": [
+            "Text box",
+            "Clip art",
+            "Chart",
+            "Action button"
+          ],
+          "correctAnswer": "Chart",
+          "Help": "Charts are specifically designed to visualize data."
+        },
+        {
+          "question": "Which image file format is generally preferred for web use due to its support for transparency and lossless compression?",
+          "options": [
+            "JPEG",
+            "BMP",
+            "PNG",
+            "TIFF"
+          ],
+          "correctAnswer": "PNG",
+          "Help": "PNG is widely used for images requiring transparency or crisp lines."
+        },
+        {
+          "question": "To add a short audio clip that plays automatically when a slide appears, which feature should be utilized?",
+          "options": [
+            "Embed video",
+            "Insert image",
+            "Embed audio",
+            "Add hyperlink"
+          ],
+          "correctAnswer": "Embed audio",
+          "Help": "Embedding audio allows for sound elements in a presentation."
+        },
+        {
+          "question": "What is the primary purpose of 'speaker notes' in a slide deck application?",
+          "options": [
+            "To be displayed directly on the slide for the audience",
+            "To provide additional information for the presenter during a live presentation",
+            "To replace slide content entirely",
+            "To automatically generate a handout"
+          ],
+          "correctAnswer": "To provide additional information for the presenter during a live presentation",
+          "Help": "Speaker notes are for the presenter's reference, not the audience."
+        },
+        {
+          "question": "When incorporating an image into a slide, what tool would you use to change its dimensions without distorting the aspect ratio?",
+          "options": [
+            "Crop tool",
+            "Rotate tool",
+            "Resize handles (while maintaining aspect ratio)",
+            "Text wrap options"
+          ],
+          "correctAnswer": "Resize handles (while maintaining aspect ratio)",
+          "Help": "Proper resizing maintains image quality and proportions."
+        },
+        {
+          "question": "Which of these is NOT typically considered an 'interactive element' in a slide presentation?",
+          "options": [
+            "Action button",
+            "Hyperlink",
+            "Embedded video",
+            "Static background image"
+          ],
+          "correctAnswer": "Static background image",
+          "Help": "Interactive elements allow user interaction, unlike a static background."
+        },
+        {
+          "question": "If you want to create a custom graphic directly within your slide deck software, what feature would you likely use?",
+          "options": [
+            "Imported JPEG file",
+            "Digital drawing tools",
+            "Pre-designed template",
+            "Clipboard paste"
+          ],
+          "correctAnswer": "Digital drawing tools",
+          "Help": "Digital drawing tools allow for creation of original visuals."
+        },
+        {
+          "question": "What is the main benefit of using a consistent 'master slide' or 'slide master' in a presentation?",
+          "options": [
+            "It allows for unique formatting on every slide",
+            "It ensures uniform design, fonts, and placeholders across the presentation",
+            "It reduces the overall file size of the presentation",
+            "It automatically adds animations to all slides"
+          ],
+          "correctAnswer": "It ensures uniform design, fonts, and placeholders across the presentation",
+          "Help": "Master slides are used for consistent presentation design."
+        },
+        {
+          "question": "To add a visual effect that makes a bullet point appear on a slide after a click, you would use:",
+          "options": [
+            "Slide transition",
+            "Multimedia insertion",
+            "Object animation",
+            "Background customization"
+          ],
+          "correctAnswer": "Object animation",
+          "Help": "Animations control the movement of individual objects on a slide."
+        },
+        {
+          "question": "When integrating an image from a mobile app into a presentation, which action would be most essential to ensure cross-platform compatibility and optimal file size?",
+          "options": [
+            "Applying a complex filter",
+            "Editing, cropping, and exporting in an appropriate file format",
+            "Adding a watermark",
+            "Converting it to a proprietary slide deck format"
+          ],
+          "correctAnswer": "Editing, cropping, and exporting in an appropriate file format",
+          "Help": "Proper image management ensures compatibility and efficiency."
+        },
+        {
+          "question": "Which of the following is NOT a common layout tool for adjusting visual aids within slide content?",
+          "options": [
+            "Alignment guides",
+            "Send to back/Bring to front options",
+            "Text wrapping options",
+            "Spell check"
+          ],
+          "correctAnswer": "Spell check",
+          "Help": "Spell check is for text, not visual aid layout."
+        },
+        {
+          "question": "To create a sense of movement or focus on a specific element within a slide without changing the slide itself, one would primarily use:",
+          "options": [
+            "Slide transitions",
+            "Slide layouts",
+            "Animations on objects",
+            "Speaker notes"
+          ],
+          "correctAnswer": "Animations on objects",
+          "Help": "Animations affect individual objects within a slide."
+        },
+        {
+          "question": "What is the purpose of 'customized visuals' in slide design?",
+          "options": [
+            "To use only default clip art",
+            "To personalize or brand the presentation's look and feel beyond standard templates",
+            "To avoid all graphics",
+            "To make all slides look identical to every other presentation"
+          ],
+          "correctAnswer": "To personalize or brand the presentation's look and feel beyond standard templates",
+          "Help": "Customized visuals offer unique design elements."
+        },
+        {
+          "question": "To incorporate a short video clip directly into a slide, which option would you choose?",
+          "options": [
+            "Link to an external video hosting site",
+            "Embed video file",
+            "Take a screenshot of the video",
+            "Describe the video in a text box"
+          ],
+          "correctAnswer": "Embed video file",
+          "Help": "Embedding directly integrates the video into the slide."
+        },
+        {
+          "question": "When designing a slide presentation, what is the main advantage of using infographics?",
+          "options": [
+            "They replace the need for any text",
+            "They are always animated",
+            "They present complex information visually and concisely",
+            "They are strictly for entertainment purposes"
+          ],
+          "correctAnswer": "They present complex information visually and concisely",
+          "Help": "Infographics are excellent for visual data representation."
+        },
+        {
+          "question": "Which of these is an example of an appropriate file format for exporting an image from presentation software for web use?",
+          "options": [
+            "PPTX",
+            "SVG",
+            "DOCX",
+            "XLSX"
+          ],
+          "correctAnswer": "SVG",
+          "Help": "SVG is a vector graphic format suitable for scalable web images."
+        },
+        {
+          "question": "What is the primary benefit of adjusting fonts and colors in a slide presentation?",
+          "options": [
+            "To increase the file size",
+            "To make the presentation look busy",
+            "To improve readability and visual appeal",
+            "To limit the audience's understanding"
+          ],
+          "correctAnswer": "To improve readability and visual appeal",
+          "Help": "Proper font and color choices enhance presentation quality."
+        },
+        {
+          "question": "When creating a new slide, what defines the predefined arrangement of placeholders for titles, text, and objects?",
+          "options": [
+            "Slide transition",
+            "Slide layout",
+            "Slide master",
+            "Slide animation"
+          ],
+          "correctAnswer": "Slide layout",
+          "Help": "Slide layouts provide structural options for content."
+        },
+        {
+          "question": "To ensure consistent branding and design across all slides in a presentation, one would primarily modify the:",
+          "options": [
+            "Individual slide elements",
+            "Slide master",
+            "Speaker notes",
+            "Presentation filename"
+          ],
+          "correctAnswer": "Slide master",
+          "Help": "The slide master controls the overall design template."
+        },
+        {
+          "question": "What kind of graphics are generally preferred for professional presentations to maintain high quality when scaled?",
+          "options": [
+            "Raster images like JPEGs",
+            "Low-resolution GIFs",
+            "Vector graphics like SVGs",
+            "Screenshots from web pages"
+          ],
+          "correctAnswer": "Vector graphics like SVGs",
+          "Help": "Vector graphics scale without pixelation."
+        },
+        {
+          "question": "Which feature would you use to change the default background color or image for all slides in a presentation?",
+          "options": [
+            "Format Painter",
+            "Slide Master",
+            "Individual slide background settings",
+            "Theme Colors"
+          ],
+          "correctAnswer": "Slide Master",
+          "Help": "The Slide Master allows global background changes."
+        },
+        {
+          "question": "When incorporating multimedia, what is an important consideration to ensure the presentation runs smoothly?",
+          "options": [
+            "Using only large, uncompressed files",
+            "Ensuring media files are linked, not embedded",
+            "Optimizing file sizes and ensuring compatibility",
+            "Limiting to only text-based content"
+          ],
+          "correctAnswer": "Optimizing file sizes and ensuring compatibility",
+          "Help": "Optimized media improves performance and portability."
+        },
+        {
+          "question": "What is the primary function of an 'action button' in a slide presentation?",
+          "options": [
+            "To display static text",
+            "To trigger a predefined action, such as jumping to another slide or playing a sound",
+            "To animate an object automatically",
+            "To change the background color of a slide"
+          ],
+          "correctAnswer": "To trigger a predefined action, such as jumping to another slide or playing a sound",
+          "Help": "Action buttons add interactivity and navigation."
+        }
+      ]
+    },
+    {
+      "topic": "Spreadsheet Applications",
+      "questions": [
+        {
+          "question": "Which function is used to calculate the average of a range of numbers in a spreadsheet?",
+          "options": [
+            "SUM",
+            "MAX",
+            "AVERAGE",
+            "COUNT"
+          ],
+          "correctAnswer": "AVERAGE",
+          "Help": "The AVERAGE function computes the arithmetic mean."
+        },
+        {
+          "question": "To find the highest value in a specified range of cells, which function would you use?",
+          "options": [
+            "MIN",
+            "MAX",
+            "HIGH",
+            "TOP"
+          ],
+          "correctAnswer": "MAX",
+          "Help": "The MAX function returns the largest number in a set of values."
+        },
+        {
+          "question": "Which function is best suited for looking up a value in the first column of a table and returning a value in the same row from a specified column?",
+          "options": [
+            "HLOOKUP",
+            "MATCH",
+            "VLOOKUP",
+            "INDEX"
+          ],
+          "correctAnswer": "VLOOKUP",
+          "Help": "VLOOKUP performs a vertical lookup."
+        },
+        {
+          "question": "To add multiple cells together, which basic function should be used?",
+          "options": [
+            "ADD",
+            "PLUS",
+            "SUM",
+            "TOTAL"
+          ],
+          "correctAnswer": "SUM",
+          "Help": "The SUM function adds all the numbers in a range of cells."
+        },
+        {
+          "question": "Which function would you use to determine the number of cells in a range that contain numbers?",
+          "options": [
+            "COUNT",
+            "COUNTA",
+            "COUNTBLANK",
+            "IF"
+          ],
+          "correctAnswer": "COUNT",
+          "Help": "COUNT counts cells containing numbers."
+        },
+        {
+          "question": "What formula would you use to display today's date in a spreadsheet cell?",
+          "options": [
+            "=DATE()",
+            "=NOW()",
+            "=TODAY()",
+            "=CURRENTDATE()"
+          ],
+          "correctAnswer": "=TODAY()",
+          "Help": "The TODAY function returns the current date."
+        },
+        {
+          "question": "If you need to move a group of adjacent cells to a new location within the same worksheet, which action would you perform?",
+          "options": [
+            "Copy and then delete the original",
+            "Cut and paste",
+            "Drag and drop without modifiers",
+            "Insert and then retype"
+          ],
+          "correctAnswer": "Cut and paste",
+          "Help": "Cut and paste moves content; copy duplicates."
+        },
+        {
+          "question": "What is the purpose of a 'legend' in a chart or graph?",
+          "options": [
+            "To display the chart's title",
+            "To label the X-axis",
+            "To explain the symbols, colors, or patterns used in the chart",
+            "To show the data source"
+          ],
+          "correctAnswer": "To explain the symbols, colors, or patterns used in the chart",
+          "Help": "Legends clarify the meaning of data series."
+        },
+        {
+          "question": "To create an integrated multi-sheet project, what action allows you to combine data from different sheets in one workbook?",
+          "options": [
+            "Renaming individual cells",
+            "Linking multiple worksheets",
+            "Creating separate workbooks",
+            "Printing each sheet individually"
+          ],
+          "correctAnswer": "Linking multiple worksheets",
+          "Help": "Linking worksheets enables data integration across sheets."
+        },
+        {
+          "question": "Which of the following spreadsheet features is specifically designed to summarize, analyze, and present data trends from a larger dataset?",
+          "options": [
+            "Basic chart",
+            "Conditional formatting",
+            "Pivot table",
+            "Cell alignment"
+          ],
+          "correctAnswer": "Pivot table",
+          "Help": "Pivot tables are powerful tools for data analysis and summarization."
+        },
+        {
+          "question": "What is the primary benefit of applying 'cell styles' in a spreadsheet?",
+          "options": [
+            "To hide sensitive data",
+            "To apply predefined formatting (e.g., fonts, colors, borders) consistently",
+            "To perform complex calculations",
+            "To link to external data sources"
+          ],
+          "correctAnswer": "To apply predefined formatting (e.g., fonts, colors, borders) consistently",
+          "Help": "Cell styles ensure visual uniformity and professionalism."
+        },
+        {
+          "question": "When using the 'IF' function, what is the third argument typically used for?",
+          "options": [
+            "The logical test",
+            "The value if the logical test is FALSE",
+            "The value if the logical test is TRUE",
+            "The range of cells"
+          ],
+          "correctAnswer": "The value if the logical test is FALSE",
+          "Help": "The IF function syntax is IF(logical_test, value_if_true, value_if_false)."
+        },
+        {
+          "question": "To permanently remove a column from a worksheet, altering the structure of the sheet, you would use which command?",
+          "options": [
+            "Hide Column",
+            "Clear Contents",
+            "Delete Column",
+            "Format Column"
+          ],
+          "correctAnswer": "Delete Column",
+          "Help": "Deleting a column removes it and shifts adjacent columns."
+        },
+        {
+          "question": "Which chart type is most suitable for displaying proportions of a whole?",
+          "options": [
+            "Line chart",
+            "Bar chart",
+            "Pie chart",
+            "Scatter plot"
+          ],
+          "correctAnswer": "Pie chart",
+          "Help": "Pie charts illustrate parts of a whole."
+        },
+        {
+          "question": "To combine two or more logical conditions and return TRUE only if all conditions are TRUE, which function would you use?",
+          "options": [
+            "OR",
+            "NOT",
+            "IF",
+            "AND"
+          ],
+          "correctAnswer": "AND",
+          "Help": "The AND function requires all conditions to be true."
+        },
+        {
+          "question": "What does the function PMT primarily calculate in a spreadsheet?",
+          "options": [
+            "The total sum of a series of numbers",
+            "The future value of an investment",
+            "The payment for a loan based on constant payments and a constant interest rate",
+            "The minimum value in a range"
+          ],
+          "correctAnswer": "The payment for a loan based on constant payments and a constant interest rate",
+          "Help": "PMT is a financial function for loan payments."
+        },
+        {
+          "question": "To apply a specific font, size, and color to multiple cells simultaneously, what would be the most efficient method?",
+          "options": [
+            "Manually apply to each cell individually",
+            "Use the Format Painter",
+            "Copy and paste values",
+            "Use the AutoFill handle"
+          ],
+          "correctAnswer": "Use the Format Painter",
+          "Help": "Format Painter quickly applies existing formatting."
+        },
+        {
+          "question": "When customizing a chart, adding a 'chart title' serves what purpose?",
+          "options": [
+            "To label individual data points",
+            "To provide a clear description of the data being represented",
+            "To specify the data source worksheet",
+            "To change the chart's background color"
+          ],
+          "correctAnswer": "To provide a clear description of the data being represented",
+          "Help": "A chart title communicates the chart's subject."
+        },
+        {
+          "question": "What is the benefit of 'reordering' worksheets within a workbook?",
+          "options": [
+            "It automatically recalculates all formulas",
+            "It changes the data within the sheets",
+            "It helps organize the workbook logically for better navigation",
+            "It encrypts the workbook"
+          ],
+          "correctAnswer": "It helps organize the workbook logically for better navigation",
+          "Help": "Reordering improves the user experience and organization."
+        },
+        {
+          "question": "What is a 'calculated field' in a pivot table primarily used for?",
+          "options": [
+            "To sort data alphabetically",
+            "To create a new field using a formula based on existing pivot table fields",
+            "To filter data based on specific criteria",
+            "To change the pivot table's layout"
+          ],
+          "correctAnswer": "To create a new field using a formula based on existing pivot table fields",
+          "Help": "Calculated fields extend pivot table analysis with custom formulas."
+        },
+        {
+          "question": "Which of the following is a key feature of the XLOOKUP function that improves upon VLOOKUP?",
+          "options": [
+            "It only searches vertically",
+            "It can look up values to the left of the lookup column",
+            "It requires exact match only",
+            "It is slower than VLOOKUP"
+          ],
+          "correctAnswer": "It can look up values to the left of the lookup column",
+          "Help": "XLOOKUP offers more flexibility in search direction."
+        },
+        {
+          "question": "What would you use to change the default font for all new text entries in a spreadsheet?",
+          "options": [
+            "Cell styles",
+            "Format Cells dialog",
+            "Workbook theme settings",
+            "Conditional formatting"
+          ],
+          "correctAnswer": "Workbook theme settings",
+          "Help": "Workbook themes control default fonts and colors."
+        },
+        {
+          "question": "To hide specific data temporarily without removing it, you could use which feature?",
+          "options": [
+            "Delete rows/columns",
+            "Clear contents",
+            "Hide rows/columns",
+            "Merge cells"
+          ],
+          "correctAnswer": "Hide rows/columns",
+          "Help": "Hiding makes data invisible but keeps it in the workbook."
+        },
+        {
+          "question": "Which data tool in a spreadsheet helps identify unique entries or remove duplicate records from a list?",
+          "options": [
+            "Text to Columns",
+            "Flash Fill",
+            "Remove Duplicates",
+            "Data Validation"
+          ],
+          "correctAnswer": "Remove Duplicates",
+          "Help": "This tool specifically addresses duplicate data."
+        },
+        {
+          "question": "What is the 'FV' function primarily used for in spreadsheet applications?",
+          "options": [
+            "Calculating the minimum value",
+            "Determining the future value of an investment",
+            "Finding the financial viability of a project",
+            "Formatting currency values"
+          ],
+          "correctAnswer": "Determining the future value of an investment",
+          "Help": "FV is a financial function for investment projections."
+        }
+      ]
+    },
+    {
+      "topic": "Word Processing Applications",
+      "questions": [
+        {
+          "question": "Which character formatting feature is used to emphasize text by making it appear darker than the surrounding text?",
+          "options": [
+            "Underline",
+            "Italics",
+            "Bold",
+            "Superscript"
+          ],
+          "correctAnswer": "Bold",
+          "Help": "Bold formatting makes text thicker and darker."
+        },
+        {
+          "question": "To add a small letter or number slightly above the baseline of the main text, such as in exponents (x²), you would use:",
+          "options": [
+            "Subscript",
+            "Superscript",
+            "Small caps",
+            "Strikethrough"
+          ],
+          "correctAnswer": "Superscript",
+          "Help": "Superscript raises text above the baseline."
+        },
+        {
+          "question": "What is the primary purpose of using 'tabs' in a word processing document?",
+          "options": [
+            "To insert a page break",
+            "To align text at specific positions horizontally",
+            "To change the font size",
+            "To apply italics to text"
+          ],
+          "correctAnswer": "To align text at specific positions horizontally",
+          "Help": "Tabs create structured horizontal alignment."
+        },
+        {
+          "question": "Which paragraph formatting feature controls the amount of space between lines of text?",
+          "options": [
+            "Indentation",
+            "Justification",
+            "Line spacing",
+            "Tab stops"
+          ],
+          "correctAnswer": "Line spacing",
+          "Help": "Line spacing adjusts vertical distance between lines."
+        },
+        {
+          "question": "To ensure equal spacing of text along both the left and right margins of a paragraph, which justification option would you select?",
+          "options": [
+            "Left",
+            "Right",
+            "Center",
+            "Justify"
+          ],
+          "correctAnswer": "Justify",
+          "Help": "Justify aligns text to both margins."
+        },
+        {
+          "question": "Which feature helps to automatically detect and correct grammatical errors in a document?",
+          "options": [
+            "Thesaurus",
+            "Word Count",
+            "Spell/Grammar Check",
+            "Find and Replace"
+          ],
+          "correctAnswer": "Spell/Grammar Check",
+          "Help": "This tool identifies and suggests corrections for writing errors."
+        },
+        {
+          "question": "To send a personalized letter to multiple recipients using a single document template and a data source, you would utilize:",
+          "options": [
+            "Copy and paste",
+            "Mail merge",
+            "Document properties",
+            "Hyperlinks"
+          ],
+          "correctAnswer": "Mail merge",
+          "Help": "Mail merge automates the creation of mass personalized documents."
+        },
+        {
+          "question": "What is the function of a 'header' in a word processing document?",
+          "options": [
+            "Text that appears at the bottom of every page",
+            "Text that appears at the top of every page",
+            "The main title of the document",
+            "A section break"
+          ],
+          "correctAnswer": "Text that appears at the top of every page",
+          "Help": "Headers provide consistent content at the top of pages."
+        },
+        {
+          "question": "To quickly change all occurrences of one word to another throughout an entire document, you would use which editing feature?",
+          "options": [
+            "Spell check",
+            "Thesaurus",
+            "Search/Replace",
+            "Grammar check"
+          ],
+          "correctAnswer": "Search/Replace",
+          "Help": "Find and Replace allows global changes to text."
+        },
+        {
+          "question": "What is the purpose of a 'page break' in a word processing document?",
+          "options": [
+            "To insert a new paragraph",
+            "To force content to begin on a new page",
+            "To change the font size of the next page",
+            "To apply a different margin setting"
+          ],
+          "correctAnswer": "To force content to begin on a new page",
+          "Help": "Page breaks manually control where a new page starts."
+        },
+        {
+          "question": "Which feature helps a user find synonyms for a selected word to improve vocabulary and avoid repetition?",
+          "options": [
+            "Spell check",
+            "Thesaurus",
+            "Grammar check",
+            "Dictionary"
+          ],
+          "correctAnswer": "Thesaurus",
+          "Help": "The thesaurus provides alternative words with similar meanings."
+        },
+        {
+          "question": "When creating an enumerated list, what does 'enumerated items' refer to?",
+          "options": [
+            "Text that is bolded",
+            "Lists with sequential numbering or lettering",
+            "Text that is underlined",
+            "Lists with bullet points"
+          ],
+          "correctAnswer": "Lists with sequential numbering or lettering",
+          "Help": "Enumerated lists use numbers or letters in sequence."
+        },
+        {
+          "question": "To change the direction of printing from portrait to landscape, you would adjust which page formatting feature?",
+          "options": [
+            "Margins",
+            "Justification",
+            "Orientation",
+            "Vertical placement"
+          ],
+          "correctAnswer": "Orientation",
+          "Help": "Orientation defines the page's layout (portrait or landscape)."
+        },
+        {
+          "question": "What is an 'indentation' primarily used for in paragraph formatting?",
+          "options": [
+            "To change the font of the paragraph",
+            "To move the entire paragraph or specific lines inward from the page margin",
+            "To justify the text",
+            "To change the line spacing"
+          ],
+          "correctAnswer": "To move the entire paragraph or specific lines inward from the page margin",
+          "Help": "Indentation creates space between the margin and text."
+        },
+        {
+          "question": "Which of these is NOT a character formatting feature?",
+          "options": [
+            "Font style",
+            "Font size",
+            "Line spacing",
+            "Italics"
+          ],
+          "correctAnswer": "Line spacing",
+          "Help": "Line spacing is a paragraph formatting feature."
+        },
+        {
+          "question": "What is the primary function of 'document properties' in a word processing file?",
+          "options": [
+            "To change the content of the document",
+            "To manage metadata like author, title, and keywords about the document",
+            "To password-protect the document content",
+            "To print the document"
+          ],
+          "correctAnswer": "To manage metadata like author, title, and keywords about the document",
+          "Help": "Document properties store descriptive information about the file."
+        },
+        {
+          "question": "If you want a specific section of text to start exactly halfway down a page, you would use which page formatting feature?",
+          "options": [
+            "Margins",
+            "Vertical placement",
+            "Page breaks",
+            "Line spacing"
+          ],
+          "correctAnswer": "Vertical placement",
+          "Help": "Vertical placement controls the vertical alignment of content on a page."
+        },
+        {
+          "question": "To apply a small letter or number slightly below the baseline of the main text, such as in chemical formulas (H₂O), you would use:",
+          "options": [
+            "Superscript",
+            "Subscript",
+            "Bold",
+            "Underline"
+          ],
+          "correctAnswer": "Subscript",
+          "Help": "Subscript lowers text below the baseline."
+        },
+        {
+          "question": "What is the primary benefit of using a 'Production Test Reference Guide' during the event?",
+          "options": [
+            "It contains all the answers to the test questions",
+            "It provides essential software commands and formatting rules for document creation",
+            "It allows competitors to communicate with each other",
+            "It is used for submitting the final document"
+          ],
+          "correctAnswer": "It provides essential software commands and formatting rules for document creation",
+          "Help": "Reference guides provide helpful information for task completion."
+        },
+        {
+          "question": "To modify the blank space surrounding the main content of a page, you would adjust the:",
+          "options": [
+            "Line spacing",
+            "Indentation",
+            "Margins",
+            "Page breaks"
+          ],
+          "correctAnswer": "Margins",
+          "Help": "Margins define the unprintable area around content."
+        },
+        {
+          "question": "Which action allows you to save your word processing document for future editing and retrieval?",
+          "options": [
+            "Print",
+            "Close without saving",
+            "Save",
+            "Export to PDF"
+          ],
+          "correctAnswer": "Save",
+          "Help": "Saving preserves changes to a file."
+        },
+        {
+          "question": "What feature is used to ensure a specific line of text or image always stays with the next line or paragraph, preventing orphan lines?",
+          "options": [
+            "Page break",
+            "Keep with next",
+            "Line spacing",
+            "Indent"
+          ],
+          "correctAnswer": "Keep with next",
+          "Help": "This paragraph setting prevents awkward page breaks."
+        },
+        {
+          "question": "When creating a business letter, which paragraph formatting feature ensures the address blocks align correctly for window envelopes?",
+          "options": [
+            "Justification",
+            "Line spacing",
+            "Tabs or indents",
+            "Page breaks"
+          ],
+          "correctAnswer": "Tabs or indents",
+          "Help": "Tabs and indents precisely position text blocks."
+        },
+        {
+          "question": "If you want to quickly learn how to use a new feature in your word processing software, what is the most direct approach mentioned in the competencies?",
+          "options": [
+            "Ask a competitor for help",
+            "Guess and check methods",
+            "Use help features and reference materials",
+            "Restart the application"
+          ],
+          "correctAnswer": "Use help features and reference materials",
+          "Help": "Using built-in help is a specified competency."
+        },
+        {
+          "question": "Which option allows you to make text slanted, often used for emphasis or to indicate a title?",
+          "options": [
+            "Bold",
+            "Underline",
+            "Italics",
+            "Strikethrough"
+          ],
+          "correctAnswer": "Italics",
+          "Help": "Italics slant text for emphasis."
+        }
+      ]
+    },
+    {
+      "topic": "Application Integrations",
+      "questions": [
+        {
+          "question": "When creating an integrated project, what is the primary benefit of combining content from word processing, spreadsheet, and slide deck applications?",
+          "options": [
+            "To reduce the number of applications used",
+            "To limit information sharing",
+            "To create comprehensive and professional documents, presentations, and reports",
+            "To only focus on text-based information"
+          ],
+          "correctAnswer": "To create comprehensive and professional documents, presentations, and reports",
+          "Help": "Integration leverages the strengths of each application."
+        },
+        {
+          "question": "If you need to include a dynamic chart from a spreadsheet in a word processing document, which method would allow the chart in the document to update automatically if the spreadsheet data changes?",
+          "options": [
+            "Copy and paste as a picture",
+            "Embed the chart as a static object",
+            "Link the live spreadsheet data/chart",
+            "Retype the data and recreate the chart in Word"
+          ],
+          "correctAnswer": "Link the live spreadsheet data/chart",
+          "Help": "Linking maintains a connection to the source data."
+        },
+        {
+          "question": "When collaborating on a document across different applications, what feature allows team members to suggest changes and discuss modifications without altering the original text directly?",
+          "options": [
+            "Print to PDF",
+            "Tracked changes and comments",
+            "Export to CSV",
+            "Save As a new file"
+          ],
+          "correctAnswer": "Tracked changes and comments",
+          "Help": "Tracked changes and comments facilitate review and collaboration."
+        },
+        {
+          "question": "You have a complex financial table in a spreadsheet that needs to be part of a business report in a word processing document. Which action would be most appropriate?",
+          "options": [
+            "Retype the table manually into the word processor",
+            "Embed the table from the spreadsheet into the document",
+            "Take a screenshot of the table and insert it as an image",
+            "Only describe the table data in text"
+          ],
+          "correctAnswer": "Embed the table from the spreadsheet into the document",
+          "Help": "Embedding maintains data structure and often allows for edits within the target application."
+        },
+        {
+          "question": "After analyzing sales data in a spreadsheet, you need to present the key findings to stakeholders. Which application integration task is most relevant for summarizing this data?",
+          "options": [
+            "Creating a new spreadsheet",
+            "Summarizing the spreadsheet data in a slide deck application",
+            "Printing the raw spreadsheet data",
+            "Embedding the entire spreadsheet into a word document"
+          ],
+          "correctAnswer": "Summarizing the spreadsheet data in a slide deck application",
+          "Help": "Presentations are ideal for summarizing key findings from analysis."
+        }
+      ]
+    },
+    {
+      "topic": "Document Formatting and Proofreading",
+      "questions": [
+        {
+          "question": "When proofreading a professional document, what is the primary purpose of applying rules for capitalization?",
+          "options": [
+            "To make the document longer",
+            "To ensure proper noun usage and sentence structure adherence",
+            "To make all words uppercase",
+            "To add visual appeal only"
+          ],
+          "correctAnswer": "To ensure proper noun usage and sentence structure adherence",
+          "Help": "Correct capitalization is a fundamental grammar rule."
+        },
+        {
+          "question": "To ensure all titles, headings, and body text throughout a multi-page report have a uniform appearance, you should primarily focus on applying:",
+          "options": [
+            "Random font choices",
+            "Inconsistent layouts",
+            "Consistent formatting and layout techniques",
+            "Only spell check"
+          ],
+          "correctAnswer": "Consistent formatting and layout techniques",
+          "Help": "Consistency in formatting enhances professionalism and readability."
+        },
+        {
+          "question": "Which built-in editing tool is most effective for reviewing and revising content based on suggestions for clarity and conciseness, beyond just grammar and spelling?",
+          "options": [
+            "Spell check",
+            "Thesaurus",
+            "Editor suggestions (e.g., clarity, conciseness)",
+            "Word count"
+          ],
+          "correctAnswer": "Editor suggestions (e.g., clarity, conciseness)",
+          "Help": "Modern editor tools go beyond basic grammar to improve writing style."
+        },
+        {
+          "question": "What is the most common and appropriate file format for sharing a final, uneditable version of a report with a client?",
+          "options": [
+            "DOCX",
+            "CSV",
+            "PDF",
+            "XLSX"
+          ],
+          "correctAnswer": "PDF",
+          "Help": "PDF (Portable Document Format) is ideal for preserving document appearance and preventing easy modification."
+        },
+        {
+          "question": "When exporting spreadsheet data for use in a database or another program that requires plain text, which file format is most suitable?",
+          "options": [
+            "PDF",
+            "DOCX",
+            "CSV",
+            "PPTX"
+          ],
+          "correctAnswer": "CSV",
+          "Help": "CSV (Comma Separated Values) is a plain text format for tabular data exchange."
+        }
+      ]
+    }
+  ]
+}
