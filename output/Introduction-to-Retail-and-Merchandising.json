@@ -1,0 +1,1141 @@
+
+{
+  "testName": "Introduction to Retail & Merchandising Competitive Test",
+  "topics": [
+    {
+      "topic": "Foundational Retail Knowledge",
+      "questions": [
+        {
+          "question": "Which of the following best describes the earliest form of retailing?",
+          "options": [
+            "Department stores",
+            "Barter systems and general stores",
+            "Online marketplaces",
+            "Specialty boutiques"
+          ],
+          "correctAnswer": "Barter systems and general stores",
+          "Help": "Consider how goods were exchanged before modern retail structures."
+        },
+        {
+          "question": "The shift from small, independent shops to large chain stores marked which phase in the evolution of retailing?",
+          "options": [
+            "E-commerce revolution",
+            "Industrialization era",
+            "Omnichannel integration",
+            "Specialty store boom"
+          ],
+          "correctAnswer": "Industrialization era",
+          "Help": "Think about the historical period when mass production and distribution became prevalent."
+        },
+        {
+          "question": "What significant change in retailing was primarily driven by the widespread adoption of the internet?",
+          "options": [
+            "The rise of catalogs",
+            "The emergence of convenience stores",
+            "The growth of e-commerce",
+            "The development of shopping malls"
+          ],
+          "correctAnswer": "The growth of e-commerce",
+          "Help": "Consider the primary digital sales channel."
+        },
+        {
+          "question": "What is the primary role of a merchandiser in a retail environment?",
+          "options": [
+            "Managing customer complaints",
+            "Designing store advertisements",
+            "Selecting products, setting prices, and planning promotions",
+            "Overseeing store security personnel"
+          ],
+          "correctAnswer": "Selecting products, setting prices, and planning promotions",
+          "Help": "Think about the core responsibilities related to product offerings."
+        },
+        {
+          "question": "A merchandiser's success is heavily dependent on their ability to understand and predict which of the following?",
+          "options": [
+            "Competitor's employee turnover rates",
+            "Daily weather patterns",
+            "Consumer trends and preferences",
+            "Local government regulations"
+          ],
+          "correctAnswer": "Consumer trends and preferences",
+          "Help": "What information is crucial for product selection and pricing?"
+        },
+        {
+          "question": "Which activity is a key responsibility for a retail merchandiser related to inventory?",
+          "options": [
+            "Conducting annual financial audits",
+            "Negotiating real estate leases",
+            "Managing product inventory levels",
+            "Developing employee training programs"
+          ],
+          "correctAnswer": "Managing product inventory levels",
+          "Help": "Merchandisers need to ensure the right products are available."
+        },
+        {
+          "question": "Which statement best distinguishes retailing from marketing?",
+          "options": [
+            "Retailing focuses on product creation, while marketing focuses on selling.",
+            "Retailing is a specific channel for selling products directly to consumers, while marketing is a broader process of creating and delivering value.",
+            "Marketing only involves advertising, while retailing involves all business operations.",
+            "Retailing is exclusive to online sales, while marketing is for physical stores."
+          ],
+          "correctAnswer": "Retailing is a specific channel for selling products directly to consumers, while marketing is a broader process of creating and delivering value.",
+          "Help": "Consider the scope of each term."
+        },
+        {
+          "question": "A company's overall strategy to identify and satisfy customer needs through product, price, place, and promotion is primarily part of:",
+          "options": [
+            "Logistics management",
+            "Retailing",
+            "Marketing",
+            "Human resources"
+          ],
+          "correctAnswer": "Marketing",
+          "Help": "Think about the '4 Ps'."
+        },
+        {
+          "question": "While closely related, a core difference is that retailing is the final step in the supply chain for direct sales, whereas marketing is:",
+          "options": [
+            "Exclusively focused on competitor analysis.",
+            "A broader discipline encompassing all activities related to presenting a product or service.",
+            "Only concerned with manufacturing processes.",
+            "Limited to customer service interactions."
+          ],
+          "correctAnswer": "A broader discipline encompassing all activities related to presenting a product or service.",
+          "Help": "Marketing covers a wider range of activities than just the sale."
+        },
+        {
+          "question": "Why is effective merchandising crucial for retailers?",
+          "options": [
+            "It ensures legal compliance with all business regulations.",
+            "It primarily manages employee payroll and benefits.",
+            "It attracts customers, drives sales, and enhances the brand image.",
+            "It is solely responsible for facility maintenance."
+          ],
+          "correctAnswer": "It attracts customers, drives sales, and enhances the brand image.",
+          "Help": "What are the direct benefits of good product presentation and strategy?"
+        },
+        {
+          "question": "Which of the following is a direct impact of poor merchandising?",
+          "options": [
+            "Increased customer satisfaction",
+            "Higher inventory turnover",
+            "Decreased sales and confused customers",
+            "Improved supplier relationships"
+          ],
+          "correctAnswer": "Decreased sales and confused customers",
+          "Help": "What happens when products are poorly presented or managed?"
+        },
+        {
+          "question": "A retailer's ability to maximize sales per square foot of retail space is significantly influenced by:",
+          "options": [
+            "The number of parking spaces available",
+            "Effective merchandising strategies",
+            "The store's operating hours",
+            "The quality of the company website"
+          ],
+          "correctAnswer": "Effective merchandising strategies",
+          "Help": "How does product placement and presentation affect sales efficiency?"
+        },
+        {
+          "question": "The concept of 'omnichannel retailing' primarily emerged as a response to:",
+          "options": [
+            "The invention of credit cards",
+            "Increasing labor costs",
+            "Customers expecting seamless shopping experiences across multiple platforms",
+            "Government regulations on pricing"
+          ],
+          "correctAnswer": "Customers expecting seamless shopping experiences across multiple platforms",
+          "Help": "Think about how modern consumers interact with retailers."
+        },
+        {
+          "question": "What is a key difference between a merchandiser and a buyer in a retail organization?",
+          "options": [
+            "A buyer focuses on in-store displays, while a merchandiser focuses on online sales.",
+            "A buyer selects and purchases products, while a merchandiser plans how to present and sell those products.",
+            "A merchandiser handles customer service, while a buyer handles marketing campaigns.",
+            "A merchandiser works with suppliers, while a buyer manages inventory storage."
+          ],
+          "correctAnswer": "A buyer selects and purchases products, while a merchandiser plans how to present and sell those products.",
+          "Help": "Consider their distinct functions in product acquisition and presentation."
+        },
+        {
+          "question": "The earliest retail establishments, often found in rural areas, that sold a wide variety of goods from food to hardware were known as:",
+          "options": [
+            "Department stores",
+            "Specialty stores",
+            "General stores",
+            "Discount stores"
+          ],
+          "correctAnswer": "General stores",
+          "Help": "What type of store offered a diverse range of products in early communities?"
+        }
+      ]
+    },
+    {
+      "topic": "Customer Service and Sales",
+      "questions": [
+        {
+          "question": "What is the most effective initial step in establishing a relationship with a new customer?",
+          "options": [
+            "Immediately recommending the most expensive product",
+            "Greeting them warmly and offering assistance",
+            "Asking for their personal contact information",
+            "Ignoring them until they ask for help"
+          ],
+          "correctAnswer": "Greeting them warmly and offering assistance",
+          "Help": "How do you make a good first impression and show readiness to help?"
+        },
+        {
+          "question": "Active listening is a crucial skill in customer service because it allows the sales associate to:",
+          "options": [
+            "Dominate the conversation",
+            "Quickly dismiss customer concerns",
+            "Understand the customer's needs and build rapport",
+            "Plan their next sales pitch without interruption"
+          ],
+          "correctAnswer": "Understand the customer's needs and build rapport",
+          "Help": "What is the benefit of truly hearing what the customer says?"
+        },
+        {
+          "question": "When a customer expresses a need, which type of question is most effective for a sales associate to ask to gather more information?",
+          "options": [
+            "Closed-ended questions (e.g., 'Do you like this color?')",
+            "Leading questions (e.g., 'You want the best, right?')",
+            "Open-ended questions (e.g., 'What features are most important to you?')",
+            "Rhetorical questions (e.g., 'Who wouldn't want this?')"
+          ],
+          "correctAnswer": "Open-ended questions (e.g., 'What features are most important to you?')",
+          "Help": "Which type of question encourages the customer to provide detailed answers?"
+        },
+        {
+          "question": "Observing a customer's body language and how they interact with products can help a sales associate:",
+          "options": [
+            "Determine their budget without asking",
+            "Identify potential shoplifters",
+            "Infer their preferences and needs",
+            "Decide when to end the conversation"
+          ],
+          "correctAnswer": "Infer their preferences and needs",
+          "Help": "What can you learn from non-verbal cues and product engagement?"
+        },
+        {
+          "question": "What is a key benefit of having extensive product knowledge when making recommendations?",
+          "options": [
+            "It allows the salesperson to increase product prices.",
+            "It enables the salesperson to confidently match products to customer needs.",
+            "It reduces the need for customer interaction.",
+            "It helps the salesperson avoid difficult questions."
+          ],
+          "correctAnswer": "It enables the salesperson to confidently match products to customer needs.",
+          "Help": "How does knowing product details help in the sales process?"
+        },
+        {
+          "question": "When recommending a product, focusing on its 'features' describes its characteristics, while focusing on its 'benefits' describes:",
+          "options": [
+            "Its manufacturing origin",
+            "How the product will satisfy the customer's specific needs",
+            "Its competitor's pricing",
+            "The product's warranty information"
+          ],
+          "correctAnswer": "How the product will satisfy the customer's specific needs",
+          "Help": "Features are 'what it is', benefits are 'what it does for me'."
+        },
+        {
+          "question": "A sales technique where an associate suggests additional, complementary items to a customer who has already decided on a purchase is called:",
+          "options": [
+            "Downselling",
+            "Cross-selling",
+            "Cold calling",
+            "De-marketing"
+          ],
+          "correctAnswer": "Cross-selling",
+          "Help": "Think about selling related products to an existing purchase."
+        },
+        {
+          "question": "Before a shift, a retail associate is tasked with 'preparing the cash drawer/bank.' What does this typically involve?",
+          "options": [
+            "Depositing the day's earnings at the bank",
+            "Counting the initial cash float and ensuring correct denominations",
+            "Auditing all sales transactions from the previous day",
+            "Ordering new cash for the store"
+          ],
+          "correctAnswer": "Counting the initial cash float and ensuring correct denominations",
+          "Help": "What needs to be done to ensure the register starts with the correct amount?"
+        },
+        {
+          "question": "Why is it important to count the cash drawer accurately at the beginning of a shift?",
+          "options": [
+            "To calculate daily profits immediately",
+            "To ensure there's enough cash for large purchases",
+            "To establish an accurate starting balance for tracking sales and preventing discrepancies",
+            "To determine the store's overall financial health"
+          ],
+          "correctAnswer": "To establish an accurate starting balance for tracking sales and preventing discrepancies",
+          "Help": "What is the primary reason for a precise initial count?"
+        },
+        {
+          "question": "The procedure for 'opening a register/terminal' at the start of the day often includes:",
+          "options": [
+            "Processing refunds from the previous day",
+            "Running an 'X-report' to clear previous data",
+            "Logging in, counting the starting bank, and performing system checks",
+            "Conducting a full store inventory"
+          ],
+          "correctAnswer": "Logging in, counting the starting bank, and performing system checks",
+          "Help": "What actions are taken to prepare the register for transactions?"
+        },
+        {
+          "question": "What is a 'Z-report' typically used for when 'closing a register/terminal'?",
+          "options": [
+            "To authorize new credit card payments",
+            "To provide a summary of all transactions and totals for the day, clearing data for the next day",
+            "To print individual customer receipts",
+            "To verify the authenticity of currency"
+          ],
+          "correctAnswer": "To provide a summary of all transactions and totals for the day, clearing data for the next day",
+          "Help": "Think about the end-of-day summary for a register."
+        },
+        {
+          "question": "When operating a register, what is the primary function of scanning a product's UPC?",
+          "options": [
+            "To identify the product's manufacturer only",
+            "To automatically input the product's price and details into the system",
+            "To track the customer's purchase history",
+            "To determine the product's weight"
+          ],
+          "correctAnswer": "To automatically input the product's price and details into the system",
+          "Help": "What information does a UPC scanner retrieve?"
+        },
+        {
+          "question": "What is the correct procedure when a customer wishes to apply a discount coupon to their purchase?",
+          "options": [
+            "Manually adjust the total without scanning the coupon",
+            "Scan the coupon, verify its validity, and ensure the discount is applied correctly",
+            "Tell the customer coupons are not accepted at the register",
+            "Call a manager for every coupon redemption"
+          ],
+          "correctAnswer": "Scan the coupon, verify its validity, and ensure the discount is applied correctly",
+          "Help": "What are the standard steps for processing a coupon?"
+        },
+        {
+          "question": "When processing a sales transaction involving a credit card, what is a crucial step to ensure security?",
+          "options": [
+            "Asking for the customer's Social Security Number",
+            "Verifying the cardholder's signature (if applicable) and checking ID if required by store policy",
+            "Recording the customer's entire card number on paper",
+            "Insisting on cash payment instead"
+          ],
+          "correctAnswer": "Verifying the cardholder's signature (if applicable) and checking ID if required by store policy",
+          "Help": "How do you confirm the card belongs to the person using it?"
+        },
+        {
+          "question": "A customer wants to pay with cash for an item that costs $17.50, and they give you a $20 bill. What is the correct change to give back?",
+          "options": [
+            "$3.00",
+            "$2.50",
+            "$2.00",
+            "$3.50"
+          ],
+          "correctAnswer": "$2.50",
+          "Help": "Subtract the cost from the amount paid: $20.00 - $17.50."
+        },
+        {
+          "question": "When processing a sales transaction, why is it important to provide a receipt to the customer?",
+          "options": [
+            "It's a mandatory legal requirement for all purchases.",
+            "It serves as proof of purchase for returns, exchanges, or warranty claims.",
+            "It allows the store to track individual customer data.",
+            "It helps the customer remember what they bought."
+          ],
+          "correctAnswer": "It serves as proof of purchase for returns, exchanges, or warranty claims.",
+          "Help": "What is the primary function of a receipt from the customer's perspective?"
+        },
+        {
+          "question": "A customer wants to return an item without a receipt. What should the retail associate do first?",
+          "options": [
+            "Refuse the return immediately",
+            "Check the store's return policy regarding returns without a receipt",
+            "Process a full cash refund regardless of policy",
+            "Tell the customer to come back with a receipt"
+          ],
+          "correctAnswer": "Check the store's return policy regarding returns without a receipt",
+          "Help": "Always follow established guidelines."
+        },
+        {
+          "question": "When processing an exchange, if the new item is less expensive than the returned item, what is the usual procedure?",
+          "options": [
+            "The customer owes the difference",
+            "The customer receives a refund or store credit for the difference",
+            "The customer must buy additional items to make up the difference",
+            "The store keeps the difference as a restocking fee"
+          ],
+          "correctAnswer": "The customer receives a refund or store credit for the difference",
+          "Help": "What happens when the value of the exchanged item is lower?"
+        },
+        {
+          "question": "A customer is expressing frustration about a product defect. What is the best approach for a sales associate?",
+          "options": [
+            "Interrupt and explain why the product is usually good.",
+            "Listen empathetically, apologize, and offer a solution according to store policy.",
+            "Tell the customer to contact the manufacturer directly.",
+            "Ignore their complaints and move on."
+          ],
+          "correctAnswer": "Listen empathetically, apologize, and offer a solution according to store policy.",
+          "Help": "How do you handle a dissatisfied customer professionally?"
+        },
+        {
+          "question": "Upselling is a sales technique that involves:",
+          "options": [
+            "Selling fewer items to a customer",
+            "Suggesting a more expensive or upgraded version of a product the customer is considering",
+            "Providing a discount to clear old inventory",
+            "Selling products that are unrelated to the customer's initial interest"
+          ],
+          "correctAnswer": "Suggesting a more expensive or upgraded version of a product the customer is considering",
+          "Help": "Think about encouraging a customer to buy a 'better' product."
+        },
+        {
+          "question": "If a customer asks a question about a product you don't know the answer to, the best approach is to:",
+          "options": [
+            "Guess the answer to avoid embarrassment",
+            "Tell them to read the product label",
+            "Admit you don't know but offer to find someone who does or look up the information",
+            "Change the subject to a different product"
+          ],
+          "correctAnswer": "Admit you don't know but offer to find someone who does or look up the information",
+          "Help": "Honesty and resourcefulness are key."
+        },
+        {
+          "question": "A customer approaches the cash register with an item and asks, 'Is this all?' How should the associate respond to potentially encourage an additional purchase?",
+          "options": [
+            "Simply say 'Yes' and proceed to checkout.",
+            "Ask, 'Are you sure you don't need anything else?'",
+            "Suggest a complementary item, like 'Have you seen our new line of accessories that pair well with that?'",
+            "Tell them about a sale that ended yesterday."
+          ],
+          "correctAnswer": "Suggest a complementary item, like 'Have you seen our new line of accessories that pair well with that?'",
+          "Help": "This is an example of cross-selling at the register."
+        },
+        {
+          "question": "Which of the following is NOT a characteristic of good customer service?",
+          "options": [
+            "Rudeness and impatience",
+            "Politeness and empathy",
+            "Product knowledge",
+            "Prompt problem-solving"
+          ],
+          "correctAnswer": "Rudeness and impatience",
+          "Help": "Which option is clearly negative for customer interaction?"
+        },
+        {
+          "question": "When a customer presents a check as payment, what is a standard security procedure a retail associate should follow?",
+          "options": [
+            "Only accept personal checks from known customers.",
+            "Verify identification and ensure the check is properly filled out and signed.",
+            "Deposit the check into a personal bank account.",
+            "Request the customer's credit card as a backup."
+          ],
+          "correctAnswer": "Verify identification and ensure the check is properly filled out and signed.",
+          "Help": "What checks are performed to prevent fraud with a paper check?"
+        },
+        {
+          "question": "What is the primary goal of providing excellent customer service?",
+          "options": [
+            "To maximize employee breaks",
+            "To ensure customer satisfaction and loyalty",
+            "To speed up transaction times",
+            "To reduce product returns"
+          ],
+          "correctAnswer": "To ensure customer satisfaction and loyalty",
+          "Help": "What is the overarching aim of positive customer interactions?"
+        }
+      ]
+    },
+    {
+      "topic": "Stock-Handling Procedures",
+      "questions": [
+        {
+          "question": "The first step in the receiving process for new merchandise is typically to:",
+          "options": [
+            "Price mark the items immediately",
+            "Move the items directly to the sales floor",
+            "Verify the delivery against the purchase order or invoice",
+            "Place items into storage without inspection"
+          ],
+          "correctAnswer": "Verify the delivery against the purchase order or invoice",
+          "Help": "What do you compare the incoming goods to?"
+        },
+        {
+          "question": "During the receiving process, what should an associate do if they discover damaged merchandise?",
+          "options": [
+            "Hide the damaged items and say nothing",
+            "Immediately discard the items",
+            "Document the damage, notify management, and follow store policy for returns/claims",
+            "Sell the damaged items at full price"
+          ],
+          "correctAnswer": "Document the damage, notify management, and follow store policy for returns/claims",
+          "Help": "What is the correct professional procedure for damaged goods?"
+        },
+        {
+          "question": "Which stock-handling technique is essential to prevent back injuries when receiving heavy deliveries?",
+          "options": [
+            "Lifting with your back",
+            "Twisting while lifting",
+            "Using proper lifting techniques and assistive equipment",
+            "Asking customers for help"
+          ],
+          "correctAnswer": "Using proper lifting techniques and assistive equipment",
+          "Help": "Think about safe manual handling practices."
+        },
+        {
+          "question": "When unpacking incoming merchandise, what is a crucial safety consideration?",
+          "options": [
+            "Rushing to unpack quickly",
+            "Using sharp tools carelessly",
+            "Ensuring pathways are clear and using appropriate cutting tools safely",
+            "Leaving boxes scattered on the floor"
+          ],
+          "correctAnswer": "Ensuring pathways are clear and using appropriate cutting tools safely",
+          "Help": "What practices prevent accidents during unpacking?"
+        },
+        {
+          "question": "After receiving and verifying a delivery, the next step in processing incoming merchandise is often:",
+          "options": [
+            "Placing an immediate reorder",
+            "Unpacking, inspecting for quality, and sorting items",
+            "Returning the delivery to the supplier",
+            "Updating the store's social media with new arrivals"
+          ],
+          "correctAnswer": "Unpacking, inspecting for quality, and sorting items",
+          "Help": "What happens after the delivery is confirmed?"
+        },
+        {
+          "question": "What is the purpose of 'quality checking' incoming merchandise?",
+          "options": [
+            "To ensure the items meet store standards and are free from defects",
+            "To count the exact number of items for inventory reconciliation",
+            "To determine the best placement on the sales floor",
+            "To compare prices with competitors"
+          ],
+          "correctAnswer": "To ensure the items meet store standards and are free from defects",
+          "Help": "Why do you inspect the condition of new products?"
+        },
+        {
+          "question": "When 'price marking merchandise,' what is a common tool used to apply a scannable code and price to an item?",
+          "options": [
+            "A marker pen",
+            "A barcode printer or pricing gun",
+            "A stapler",
+            "A permanent ink stamp"
+          ],
+          "correctAnswer": "A barcode printer or pricing gun",
+          "Help": "How are prices and UPCs typically affixed to products?"
+        },
+        {
+          "question": "If a retailer decides to lower the price of an item that isn't selling well, this is an example of a:",
+          "options": [
+            "Markup",
+            "Markdown",
+            "Wholesale price",
+            "Manufacturer's suggested retail price (MSRP)"
+          ],
+          "correctAnswer": "Markdown",
+          "Help": "What is it called when a price is reduced?"
+        },
+        {
+          "question": "Why is 'price accuracy' critical when price marking merchandise?",
+          "options": [
+            "It speeds up the receiving process.",
+            "It affects customer trust, sales, and inventory reconciliation.",
+            "It helps in calculating employee commissions.",
+            "It is required for employee training."
+          ],
+          "correctAnswer": "It affects customer trust, sales, and inventory reconciliation.",
+          "Help": "What are the consequences of incorrect prices?"
+        },
+        {
+          "question": "Which concept best describes 'routing stock to the sales floor'?",
+          "options": [
+            "Returning unsold items to the warehouse.",
+            "Strategically moving merchandise from receiving or storage areas to their designated selling locations.",
+            "Disposing of damaged goods.",
+            "Counting all items in the backroom."
+          ],
+          "correctAnswer": "Strategically moving merchandise from receiving or storage areas to their designated selling locations.",
+          "Help": "How do products get from the backroom to where customers can buy them?"
+        },
+        {
+          "question": "When routing stock, which principle aims to ensure that older inventory is sold before newer inventory?",
+          "options": [
+            "LIFO (Last-In, First-Out)",
+            "FIFO (First-In, First-Out)",
+            "JIT (Just-In-Time)",
+            "EOQ (Economic Order Quantity)"
+          ],
+          "correctAnswer": "FIFO (First-In, First-Out)",
+          "Help": "This is a common inventory rotation method, especially for perishable goods."
+        },
+        {
+          "question": "The process of 'rotating stock' primarily helps retailers to:",
+          "options": [
+            "Increase employee wages",
+            "Minimize waste, reduce spoilage, and ensure product freshness",
+            "Simplify the checkout process",
+            "Decorate the sales floor"
+          ],
+          "correctAnswer": "Minimize waste, reduce spoilage, and ensure product freshness",
+          "Help": "Why do stores move older items to the front?"
+        },
+        {
+          "question": "For products with expiration dates, what is the best practice for stock rotation?",
+          "options": [
+            "Place new stock in front of old stock.",
+            "Mix old and new stock randomly.",
+            "Bring older items forward so they are sold first (FIFO).",
+            "Discard all stock weekly."
+          ],
+          "correctAnswer": "Bring older items forward so they are sold first (FIFO).",
+          "Help": "This prevents products from expiring before sale."
+        },
+        {
+          "question": "If a retail associate observes a potential shoplifter, what is the first and safest action they should generally take according to most store policies?",
+          "options": [
+            "Confront the individual directly and demand the item back.",
+            "Follow the individual outside the store to retrieve the item.",
+            "Maintain observation, alert management or security, and avoid direct confrontation.",
+            "Call the police immediately without confirming."
+          ],
+          "correctAnswer": "Maintain observation, alert management or security, and avoid direct confrontation.",
+          "Help": "Safety and store policy are paramount in these situations."
+        },
+        {
+          "question": "Policies for handling shoplifters often emphasize avoiding physical contact primarily to:",
+          "options": [
+            "Save time for other tasks",
+            "Prevent legal liabilities and ensure employee safety",
+            "Avoid embarrassing the shoplifter",
+            "Make it easier for them to leave"
+          ],
+          "correctAnswer": "Prevent legal liabilities and ensure employee safety",
+          "Help": "What are the biggest risks of direct confrontation?"
+        },
+        {
+          "question": "Which action is generally discouraged by store policies when dealing with suspected shoplifters?",
+          "options": [
+            "Making eye contact with the suspect.",
+            "Observing their actions from a distance.",
+            "Accusing them loudly in front of other customers.",
+            "Notifying a supervisor discreetly."
+          ],
+          "correctAnswer": "Accusing them loudly in front of other customers.",
+          "Help": "What action could create legal problems or scare away customers?"
+        },
+        {
+          "question": "When receiving a delivery, what is a common document used to cross-reference the incoming goods?",
+          "options": [
+            "Customer loyalty program sign-up sheet",
+            "Employee time-off request form",
+            "Purchase order or delivery manifest",
+            "Store's daily sales report"
+          ],
+          "correctAnswer": "Purchase order or delivery manifest",
+          "Help": "This document lists what was ordered or shipped."
+        },
+        {
+          "question": "Processing incoming merchandise includes tagging or labeling items with information such as product codes and prices. This step is also known as:",
+          "options": [
+            "Inventory auditing",
+            "Merchandise staging",
+            "Price marking",
+            "Cross-docking"
+          ],
+          "correctAnswer": "Price marking",
+          "Help": "What is it called when you apply price information to products?"
+        },
+        {
+          "question": "After new merchandise is processed, where is it typically routed if it is not immediately placed on the sales floor?",
+          "options": [
+            "To a competitor's store",
+            "To the store manager's office",
+            "To the stockroom or storage area",
+            "To customer service for returns"
+          ],
+          "correctAnswer": "To the stockroom or storage area",
+          "Help": "Where are extra items kept until needed?"
+        },
+        {
+          "question": "What is a primary objective of efficient stock-handling procedures in receiving and processing?",
+          "options": [
+            "To increase product spoilage",
+            "To minimize labor costs, reduce errors, and ensure timely availability of products",
+            "To complicate inventory management",
+            "To maximize shipping delays"
+          ],
+          "correctAnswer": "To minimize labor costs, reduce errors, and ensure timely availability of products",
+          "Help": "What are the benefits of a smooth and accurate process?"
+        }
+      ]
+    },
+    {
+      "topic": "Inventory Storage and Control",
+      "questions": [
+        {
+          "question": "When considering inventory storage, which factor is crucial for perishable goods?",
+          "options": [
+            "Aesthetic appeal of the storage area",
+            "Climate control and proper temperature/humidity",
+            "Distance from the parking lot",
+            "The color of the shelving units"
+          ],
+          "correctAnswer": "Climate control and proper temperature/humidity",
+          "Help": "What environment do items like food or certain chemicals need?"
+        },
+        {
+          "question": "Efficient inventory storage often involves utilizing vertical space. What is a common method for achieving this?",
+          "options": [
+            "Storing all items on the floor",
+            "Using tall shelving units and pallet racking",
+            "Spreading items across a wide area",
+            "Reducing the overall storage space"
+          ],
+          "correctAnswer": "Using tall shelving units and pallet racking",
+          "Help": "How do you maximize space when storing upwards?"
+        },
+        {
+          "question": "What is a primary purpose of warehousing in the retail supply chain?",
+          "options": [
+            "To serve as a direct sales outlet for consumers",
+            "To store goods, manage inventory, and facilitate distribution to retail stores",
+            "To manufacture new products",
+            "To process customer returns only"
+          ],
+          "correctAnswer": "To store goods, manage inventory, and facilitate distribution to retail stores",
+          "Help": "What is the main function of a warehouse?"
+        },
+        {
+          "question": "A 'distribution center' differs from a traditional warehouse primarily because it focuses on:",
+          "options": [
+            "Long-term storage of goods without movement",
+            "The rapid movement of goods to multiple retail locations",
+            "Manufacturing and assembly of products",
+            "Direct sales to end consumers"
+          ],
+          "correctAnswer": "The rapid movement of goods to multiple retail locations",
+          "Help": "Think about the speed and purpose of a distribution center."
+        },
+        {
+          "question": "When storing inventory, what is a crucial practice to ensure easy retrieval and accurate counts?",
+          "options": [
+            "Randomly placing items wherever there's space",
+            "Organizing items logically with clear labels and designated locations",
+            "Stacking items haphazardly",
+            "Discarding inventory that is difficult to place"
+          ],
+          "correctAnswer": "Organizing items logically with clear labels and designated locations",
+          "Help": "How do you make finding items efficient?"
+        },
+        {
+          "question": "What does 'maintaining inventory levels' primarily involve?",
+          "options": [
+            "Ensuring the store always has zero stock to reduce costs.",
+            "Continuously monitoring stock, reordering when necessary, and preventing overstocking or understocking.",
+            "Only ordering new stock once all existing stock is sold.",
+            "Ignoring inventory counts and ordering randomly."
+          ],
+          "correctAnswer": "Continuously monitoring stock, reordering when necessary, and preventing overstocking or understocking.",
+          "Help": "What is the balance retailers try to achieve with stock?"
+        },
+        {
+          "question": "The 'reorder point' in inventory management is:",
+          "options": [
+            "The date when an item was first received.",
+            "The specific inventory level at which a new order should be placed.",
+            "The maximum quantity of an item allowed in storage.",
+            "The price at which an item is sold."
+          ],
+          "correctAnswer": "The specific inventory level at which a new order should be placed.",
+          "Help": "When do you know it's time to buy more?"
+        },
+        {
+          "question": "Why is it important for retailers to 'report out-of-stocks' promptly?",
+          "options": [
+            "To inform competitors of product availability.",
+            "To delay product delivery.",
+            "To prevent lost sales, inform purchasing, and maintain customer satisfaction.",
+            "To increase storage costs."
+          ],
+          "correctAnswer": "To prevent lost sales, inform purchasing, and maintain customer satisfaction.",
+          "Help": "What are the immediate consequences of not having a product a customer wants?"
+        },
+        {
+          "question": "When a customer cannot find a specific item on the shelf, this situation is known as an:",
+          "options": [
+            "Overstock",
+            "Inventory surplus",
+            "Out-of-stock (OOS)",
+            "Backorder"
+          ],
+          "correctAnswer": "Out-of-stock (OOS)",
+          "Help": "What happens when an item is unavailable for sale?"
+        },
+        {
+          "question": "A complete 'physical inventory count' involves:",
+          "options": [
+            "Estimating the quantity of items based on sales data.",
+            "Counting every single item in the store and warehouse at a specific time.",
+            "Only counting high-value items.",
+            "Counting items only when a delivery arrives."
+          ],
+          "correctAnswer": "Counting every single item in the store and warehouse at a specific time.",
+          "Help": "This is a comprehensive stocktaking process."
+        },
+        {
+          "question": "'Cycle counting' is an inventory counting method where:",
+          "options": [
+            "Inventory is only counted once a year.",
+            "Different sections of inventory are counted on a rotating schedule throughout the year.",
+            "Only new deliveries are counted.",
+            "Customers count their own purchases."
+          ],
+          "correctAnswer": "Different sections of inventory are counted on a rotating schedule throughout the year.",
+          "Help": "Think about continuous, partial inventory checks."
+        },
+        {
+          "question": "Which of the following is a key benefit of accurate inventory counts?",
+          "options": [
+            "Increased employee absenteeism",
+            "Reduced ability to forecast demand",
+            "Improved financial reporting, reduced theft, and better stock availability",
+            "Higher operational costs"
+          ],
+          "correctAnswer": "Improved financial reporting, reduced theft, and better stock availability",
+          "Help": "What are the advantages of knowing exactly what you have in stock?"
+        },
+        {
+          "question": "An inventory control system that tracks inventory levels continuously and updates records after every sale or receipt of goods is known as:",
+          "options": [
+            "Periodic inventory system",
+            "Manual inventory system",
+            "Perpetual inventory system",
+            "Annual inventory system"
+          ],
+          "correctAnswer": "Perpetual inventory system",
+          "Help": "This system provides real-time updates."
+        },
+        {
+          "question": "The 'Just-In-Time (JIT)' inventory system aims to:",
+          "options": [
+            "Order goods far in advance of need.",
+            "Hold large quantities of safety stock.",
+            "Minimize inventory holding costs by receiving goods only as they are needed for production or sale.",
+            "Maximize storage space."
+          ],
+          "correctAnswer": "Minimize inventory holding costs by receiving goods only as they are needed for production or sale.",
+          "Help": "When do items arrive in a JIT system?"
+        },
+        {
+          "question": "What role does technology, such as RFID or barcode scanners, play in modern inventory control systems?",
+          "options": [
+            "It complicates inventory tracking.",
+            "It automates data collection, improves accuracy, and speeds up inventory processes.",
+            "It replaces the need for any human involvement.",
+            "It is only used for high-value items."
+          ],
+          "correctAnswer": "It automates data collection, improves accuracy, and speeds up inventory processes.",
+          "Help": "How do these technologies enhance inventory management?"
+        },
+        {
+          "question": "Proper shelving and organization of inventory in a stockroom are primarily important for:",
+          "options": [
+            "Discouraging sales",
+            "Enhancing product visibility to customers",
+            "Safety, efficiency in retrieving items, and preventing damage",
+            "Reducing the need for new orders"
+          ],
+          "correctAnswer": "Safety, efficiency in retrieving items, and preventing damage",
+          "Help": "What are the practical benefits of an organized backroom?"
+        },
+        {
+          "question": "What is 'safety stock' in the context of inventory levels?",
+          "options": [
+            "Inventory that is about to expire.",
+            "Extra inventory held to prevent stockouts due to unexpected demand or supply delays.",
+            "Stock reserved for employee purchases.",
+            "Items stored in a secure, locked area."
+          ],
+          "correctAnswer": "Extra inventory held to prevent stockouts due to unexpected demand or supply delays.",
+          "Help": "It's a buffer against uncertainty."
+        },
+        {
+          "question": "When storing fragile items, what is a key consideration?",
+          "options": [
+            "Stacking them high without support.",
+            "Placing them in easily accessible, high-traffic areas.",
+            "Using protective packaging and storing them in stable, secure locations.",
+            "Ignoring their fragility."
+          ],
+          "correctAnswer": "Using protective packaging and storing them in stable, secure locations.",
+          "Help": "How do you protect delicate goods?"
+        },
+        {
+          "question": "Which of these is a disadvantage of a 'periodic inventory system'?",
+          "options": [
+            "It provides real-time inventory balances.",
+            "It typically requires a physical count to determine inventory levels at regular intervals.",
+            "It is more expensive to implement than a perpetual system.",
+            "It helps in detecting theft immediately."
+          ],
+          "correctAnswer": "It typically requires a physical count to determine inventory levels at regular intervals.",
+          "Help": "How often does a periodic system update inventory records?"
+        },
+        {
+          "question": "Effective inventory control directly contributes to a retailer's profitability by:",
+          "options": [
+            "Increasing the number of out-of-stock items.",
+            "Reducing carrying costs, minimizing waste, and preventing lost sales.",
+            "Complicating financial audits.",
+            "Requiring more warehouse space."
+          ],
+          "correctAnswer": "Reducing carrying costs, minimizing waste, and preventing lost sales.",
+          "Help": "How does managing inventory well impact the bottom line?"
+        }
+      ]
+    },
+    {
+      "topic": "Career Opportunities",
+      "questions": [
+        {
+          "question": "Which of the following career paths is typically found in retail operations?",
+          "options": [
+            "Forensic scientist",
+            "Software engineer",
+            "Store Manager",
+            "Astronaut"
+          ],
+          "correctAnswer": "Store Manager",
+          "Help": "Think about roles directly involved in running a store."
+        },
+        {
+          "question": "A person responsible for identifying and purchasing merchandise for a retail store or chain is known as a:",
+          "options": [
+            "Marketing analyst",
+            "Loss Prevention Officer",
+            "Retail Buyer",
+            "Human Resources Manager"
+          驢],
+          "correctAnswer": "Retail Buyer",
+          "Help": "Who decides what products the store will sell?"
+        },
+        {
+          "question": "A 'Visual Merchandiser' primarily focuses on which aspect of retailing?",
+          "options": [
+            "Managing financial records",
+            "Designing and setting up appealing product displays",
+            "Overseeing employee training programs",
+            "Negotiating supplier contracts"
+          ],
+          "correctAnswer": "Designing and setting up appealing product displays",
+          "Help": "What does a visual merchandiser do with the store's appearance?"
+        },
+        {
+          "question": "Which career opportunity is directly responsible for planning and overseeing the overall product assortment, pricing, and promotion strategies for a retail category?",
+          "options": [
+            "Cashier",
+            "Merchandise Planner",
+            "Stock Associate",
+            "Customer Service Representative"
+          ],
+          "correctAnswer": "Merchandise Planner",
+          "Help": "Who strategizes the full lifecycle of a product category?"
+        },
+        {
+          "question": "Entry-level positions in merchandising often include roles such as:",
+          "options": [
+            "Chief Executive Officer (CEO)",
+            "Assistant Merchandiser",
+            "Regional Director",
+            "Supply Chain Director"
+          ],
+          "correctAnswer": "Assistant Merchandiser",
+          "Help": "Which role typically assists higher-level merchandisers?"
+        }
+      ]
+    },
+    {
+      "topic": "Visual Merchandising",
+      "questions": [
+        {
+          "question": "What is the main goal of using 'visual merchandising' in a retail store?",
+          "options": [
+            "To hide unpopular products",
+            "To reduce the number of customer interactions",
+            "To attract customers, highlight products, and enhance the shopping experience",
+            "To increase administrative paperwork"
+          ],
+          "correctAnswer": "To attract customers, highlight products, and enhance the shopping experience",
+          "Help": "Why do stores make themselves look appealing?"
+        },
+        {
+          "question": "Which element is considered part of a store's overall visual merchandising strategy?",
+          "options": [
+            "Employee dress code",
+            "Store layout, lighting, signage, and product displays",
+            "Daily sales quotas",
+            "Supplier negotiation tactics"
+          ],
+          "correctAnswer": "Store layout, lighting, signage, and product displays",
+          "Help": "Think about the aesthetic and functional aspects of a store's environment."
+        },
+        {
+          "question": "How does 'visual merchandising' contribute to a retailer's brand image?",
+          "options": [
+            "By ensuring all employees wear the same uniform.",
+            "By reflecting the brand's style, values, and target audience through store design and presentation.",
+            "By offering the lowest prices in the market.",
+            "By focusing solely on online advertisements."
+          ],
+          "correctAnswer": "By reflecting the brand's style, values, and target audience through store design and presentation.",
+          "Help": "How does the store's appearance communicate its identity?"
+        },
+        {
+          "question": "What is the key difference between 'visual merchandising' and a 'display'?",
+          "options": [
+            "Visual merchandising is only for online stores, while displays are for physical stores.",
+            "Visual merchandising refers to the entire store's aesthetic and presentation, while a display is a specific arrangement of products within that environment.",
+            "A display is a permanent fixture, while visual merchandising is temporary.",
+            "Visual merchandising focuses on pricing, while displays focus on product features."
+          ],
+          "correctAnswer": "Visual merchandising refers to the entire store's aesthetic and presentation, while a display is a specific arrangement of products within that environment.",
+          "Help": "Think about the scope of each term: 'whole store' vs. 'specific product presentation'."
+        },
+        {
+          "question": "Which of the following would be considered an element of a 'display' rather than the broader concept of 'visual merchandising'?",
+          "options": [
+            "The store's overall lighting scheme.",
+            "The placement of an end-cap full of promotional items.",
+            "The height of the ceilings.",
+            "The color palette used throughout the store."
+          ],
+          "correctAnswer": "The placement of an end-cap full of promotional items.",
+          "Help": "Which option refers to a specific arrangement of products?"
+        }
+      ]
+    },
+    {
+      "topic": "Display Techniques",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a 'window display' in a retail store?",
+          "options": [
+            "To store extra inventory",
+            "To block sunlight from entering the store",
+            "To attract passersby and entice them to enter the store",
+            "To provide a quiet space for employees"
+          ],
+          "correctAnswer": "To attract passersby and entice them to enter the store",
+          "Help": "What is the first impression a store makes from the outside?"
+        },
+        {
+          "question": "An 'end-cap display' refers to a display typically found at the:",
+          "options": [
+            "Entrance of the fitting rooms",
+            "Center of the store aisle",
+            "End of a retail aisle",
+            "Customer service desk"
+          ],
+          "correctAnswer": "End of a retail aisle",
+          "Help": "Where is this type of display usually located in a supermarket or similar store?"
+        },
+        {
+          "question": "What is a 'gondola display'?",
+          "options": [
+            "A large, freestanding display used for seasonal promotions.",
+            "A type of shelving unit with multiple shelves, typically found in the center of store aisles.",
+            "A digital display screen showing advertisements.",
+            "A display found near the checkout counter for impulse buys."
+          ],
+          "correctAnswer": "A type of shelving unit with multiple shelves, typically found in the center of store aisles.",
+          "Help": "Think of the standard shelving units found in most retail stores."
+        },
+        {
+          "question": "A 'point-of-purchase (POP) display' is strategically placed to encourage:",
+          "options": [
+            "Bulk buying",
+            "Last-minute, impulse purchases at checkout",
+            "Online research before purchase",
+            "Returns and exchanges"
+          ],
+          "correctAnswer": "Last-minute, impulse purchases at checkout",
+          "Help": "Where are these displays typically found, and what is their goal?"
+        },
+        {
+          "question": "What is a critical aspect of 'maintaining displays'?",
+          "options": [
+            "Leaving them untouched for as long as possible",
+            "Ensuring they are clean, tidy, well-stocked, and seasonally relevant",
+            "Hiding any imperfections or damage",
+            "Only updating them once a year"
+          ],
+          "correctAnswer": "Ensuring they are clean, tidy, well-stocked, and seasonally relevant",
+          "Help": "What actions keep a display appealing and effective?"
+        },
+        {
+          "question": "Regularly 'replenishing stock' within a display is important to:",
+          "options": [
+            "Make the display look messy",
+            "Ensure customers can easily purchase the displayed items",
+            "Discourage sales of popular products",
+            "Increase employee workload unnecessarily"
+          ],
+          "correctAnswer": "Ensure customers can easily purchase the displayed items",
+          "Help": "What happens if a display runs out of products?"
+        },
+        {
+          "question": "When 'dismantling a display,' what is a key step to ensure future usability of fixtures?",
+          "options": [
+            "Throwing away all components",
+            "Breaking down fixtures carelessly",
+            "Cleaning, organizing, and properly storing all display components and props",
+            "Leaving parts scattered around the store"
+          ],
+          "correctAnswer": "Cleaning, organizing, and properly storing all display components and props",
+          "Help": "How do you prepare display items for reuse?"
+        },
+        {
+          "question": "After a promotional display is dismantled, why is it important to 'inventory' the display fixtures and forms?",
+          "options": [
+            "To determine which items were stolen.",
+            "To identify what is available for future displays and to track assets.",
+            "To count the number of products sold from the display.",
+            "To calculate employee bonuses."
+          ],
+          "correctAnswer": "To identify what is available for future displays and to track assets.",
+          "Help": "Why would you make a list of what you have?"
+        },
+        {
+          "question": "What is a common safety practice when dismantling or storing large display fixtures?",
+          "options": [
+            "Working alone and quickly.",
+            "Using proper lifting techniques, ensuring clear pathways, and securing components to prevent falls.",
+            "Leaving sharp edges exposed.",
+            "Storing heavy items on high shelves."
+          ],
+          "correctAnswer": "Using proper lifting techniques, ensuring clear pathways, and securing components to prevent falls.",
+          "Help": "How do you prevent accidents with heavy or bulky items?"
+        },
+        {
+          "question": "A thematic display, such as a holiday-themed window, is an example of which type of display arrangement?",
+          "options": [
+            "Clearance display",
+            "Promotional or seasonal display",
+            "Everyday merchandise display",
+            "Utility display"
+          ],
+          "correctAnswer": "Promotional or seasonal display",
+          "Help": "Think about displays designed for specific events or times of the year."
+        }
+      ]
+    }
+  ]
+}
