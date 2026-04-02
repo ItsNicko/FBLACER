@@ -1,0 +1,587 @@
+﻿2025-2026 Competitive Events Guidelines 
+Network Design 
+
+ 
+Network Design challenges members to demonstrate their understanding of networking 
+concepts and infrastructure through an objective test and a role play scenario. Members apply 
+their knowledge to design, implement, and troubleshoot network solutions that meet the needs 
+of a business or organization. 
+ 
+Event Overview 
+ 
+
+Division High School 
+Event Type Team of 1, 2 or 3 members 
+Event Category Role Play 
+Event Elements Objective Test and Interactive Role Play 
+
+ 
+Educational Alignments 
+ 
+
+Career Cluster Framework Connection Digital Technology 
+NACE Competency Alignment Career & Self-Development, 
+
+Communication, Critical Thinking, 
+Leadership, Professionalism, Technology 
+
+ 
+Knowledge Areas 
+
+ 
+• Network Installation and Configuration  Test Composition
+• Network Security and Recovery  
+• Network Administration  30
+
+25
+• Network Planning  20
+• Network Protocols, Services, and Access  15
+
+10
+ 5
+
+0
+Test questions and role plays are based on the 
+knowledge statements and objectives outlined for 
+this event. Detailed objectives can be found in 
+the study guide included in these guidelines. 
+ 
+District/Region/Section 
+Check with your District/Region/Section leadership for District/Region/Section-specific 
+competition information and deadlines. 
+ 
+State 
+Check with your State Leader for state-specific competition information and deadlines. 
+ 
+  
+
+Network Design - Page 1 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+ 
+National 
+Required Competition Items   
+
+ Items Competitor Must Provide Items FBLA Provides 
+Objective Test • Sharpened pencil • One piece of scratch 
+
+• Fully powered device for online paper per competitor 
+testing • Internet access 
+
+• Conference-provided nametag • Test login information 
+• Photo identification (link & password 
+• Attire that meets the FBLA Dress provided at test check-
+
+Code in) 
+ 
+
+Role Play • Conference-provided nametag • Two notecards per 
+• Photo identification competitor  
+• Attire that meets the FBLA Dress • Pencil  
+
+Code • Secret role play  
+problem/scenario 
+
+• Flip chart 
+paper/markers 
+
+• Easel for placement 
+of flipchart during 
+presentation 
+
+ 
+Important FBLA Documents 
+
+• Competitors should be familiar with the Competitive Events Policy & Procedures 
+Manual, Honor Code, Code of Conduct, and Dress Code.  
+
+ 
+Eligibility Requirements 
+To participate in FBLA competitive events at the National Leadership Conference (NLC), the 
+following criteria must be met: 
+
+• Membership Deadline: FBLA national membership dues must be paid to the specific 
+division by 11:59 p.m. Eastern Time on March 1 of the current school year. 
+
+• Repeat Competitors: Members may only compete in an event at the NLC more than 
+once if they have not previously placed in the top 10 of that event at the NLC. If a 
+member places in the top 10 of an event at the NLC, they are no longer eligible to 
+compete in that event at future NLCs, unless the event has been modified beyond a 
+name change. Chapter events are exempt from this procedure. 
+
+• Conference Registration: Members must be officially registered for the NLC and must 
+pay the national conference registration fee to participate. 
+
+• Official Hotel Requirement: To be eligible to compete, competitors must stay within 
+the official FBLA housing block. 
+
+• State Entry Limits: Each state may submit up to four entries per event. 
+• Event Participation Limits: Each member may participate in: 
+
+o One individual or team event, and 
+o One chapter event (e.g., Community Service Project or Local Chapter Annual 
+
+Business Report). 
+• Participation Requirement: To be eligible for an award, each competitor must 
+
+complete all components of the event at the National Leadership Conference. 
+Network Design - Page 2 of 8 – Updated November 2025  
+
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+• Team Composition: All members of a team must be from the same local chapter. 
+• Identification at Check-in: Competitors must present valid photo identification 
+
+(physical or digital) that matches the name on their conference name badge. 
+Acceptable forms include a driver’s license, passport, state-issued ID, or school ID. 
+
+• Late Arrivals: Competitors will be allowed to compete until such time that the results 
+are finalized, or participation would impact the fairness and integrity of the event, as 
+determined by Competitive Events staff. If judges have left the competitive event area, 
+it is no longer possible to compete. Five penalty points will be assessed for late arrivals 
+in any competitive event.   
+
+• Event Schedule Notes: 
+o Some events may begin before the Opening Session. 
+o All schedules are posted in local time for the NLC host city. 
+o Schedule changes are not permitted. 
+
+ 
+Event Administration 
+This event consists of two phases: an objective test and an interactive role play. 
+ 
+Objective Test 
+Each competitor will complete a 100-question multiple-choice objective test. 
+
+Test Duration 
+• Test Duration: 50 minutes 
+
+Format 
+• This event consists of an online objective test that is proctored and completed on-
+
+site at the National Leadership Conference (NLC). 
+Materials 
+
+• Reference or study materials are not permitted at the testing site. 
+Electronic Devices 
+
+• All electronic devices, including cell phones, smart watches, and similar 
+technology, must be powered off prior to the start of the competition. 
+
+Team Tests 
+• If competing as a team, competitors must begin testing individually within a few 
+
+minutes of one another. Each competitor’s score will be averaged to determine the 
+team’s overall test score. 
+
+Calculators 
+• Personal calculators are not allowed; an online calculator will be available within 
+
+the testing platform. 
+Question Review 
+
+• Competitors may flag questions within the testing platform for review prior to the 
+finalization of results at the NLC. 
+
+ 
+Interactive Role Play Details 
+The team-averaged objective test score determines the top 15 teams advancing to role play 
+round. 
+
+Timing Structure 
+• Preparation Time: 20 minutes (a one-minute warning will be provided) 
+• Presentation: 7 minutes (a one-minute warning will be provided) 
+• Question & Answer (Q&A): None 
+
+ 
+ 
+
+Network Design - Page 3 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+Role Play Prompt  
+• Competitors will be provided with a single copy of a network design–related 
+
+scenario or problem at the beginning of their assigned preparation time. This copy 
+must be shared among team members and may only be accessed within the 
+designated preparation area. 
+
+Notecard Use 
+• Each competitor will receive two notecards for use during preparation and the 
+
+presentation. Information may be written on both sides. Notecards will be 
+collected after the role play. 
+
+Materials  
+• No technology, reference materials, visuals, or props may be used. 
+
+Interaction with Judges 
+• Judges may ask questions during the presentation as part of the interactive role 
+
+play format. 
+Audience 
+
+• Role play presentations are closed to all conference attendees. 
+Confidentiality 
+
+• To maintain fairness, competitors must not discuss or share the role play prompt 
+until the event concludes. 
+
+ 
+Scoring 
+
+• The team-averaged objective test score determines the top 15 teams advancing to role 
+play round. 
+
+• The role play round scores only will be used to determine winners. 
+• Objective test scores will be used to break a tie. 
+• All judging decisions are final. Results announced at the National Leadership 
+
+Conference are considered official and will not be changed after the conclusion of the 
+National Leadership Conference. 
+
+ 
+Penalty Points 
+
+• Competitors may be disqualified if they violate the Code of Conduct or the Honor 
+Code. 
+
+• Five points are deducted if competitors do not follow the Dress Code or are late to 
+their assigned presentation time. 
+
+ 
+Electronic Devices 
+
+• Unless approved as part of a documented accommodation, all cell phones, 
+smartwatches, electronic devices, and headphones must be turned off and stored 
+away before the competition begins. Visible devices during the event will be 
+considered a violation of the FBLA Honor Code. 
+
+ 
+Recognition 
+
+• A maximum of 10 entries (individuals or teams) may be recognized per event. 
+ 
+ 
+ 
+ 
+ 
+
+Network Design - Page 4 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+Americans with Disabilities Act (ADA) 
+• FBLA complies with the Americans with Disabilities Act (ADA) by providing reasonable 
+
+accommodations for competitors. Accommodation requests must be submitted 
+through the conference registration system by the official registration deadline. All 
+requests will be reviewed, and additional documentation may be required to 
+determine eligibility and appropriate support. 
+
+ 
+Recording of Presentations 
+
+• Unauthorized audio or video recording is strictly prohibited in all competitive events. 
+• FBLA reserves the right to record presentations for educational, training, or archival 
+
+purposes. Competitors should be aware that their presentations may be recorded by 
+FBLA-authorized personnel. 
+
+ 
+Sample Preparation Resources 
+
+• Official sample test items and role plays can be found in CONNECT. These sample 
+items showcase the types of questions that may be asked on the test and familiarize 
+competitors with the multiple-choice item options. 
+
+  
+
+Network Design - Page 5 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+Study Guide: Knowledge Areas and Objectives 
+ 
+Network Installation and Configuration (25 test items) 
+
+1. Discuss the functions of routers and modems in home and office networks 
+2. Describe the features of a SOHO router 
+3. Discuss configuration of software and hardware firewalls (e.g., rules, ACLs) 
+4. Describe the range, speed, and requirements for fiber optic cable 
+5. Describe the characteristics of copper cable 
+6. Explain IEEE 802 wireless standards 
+7. Describe the purpose of subnetting, subnet masks, and loopback addresses 
+8. Describe wireless network configuration (e.g., modem, router, network password) 
+9. Discuss server installation and configuration in rack and blade infrastructures 
+10. Discuss the impact of power and temperature on physical network infrastructures 
+
+(e.g., cooling, uninterruptible power supply) 
+11. Describe configuration options for printing over a network (e.g., printer share, printer 
+
+connectivity, print servers) 
+12. Describe the functions of access points and gateways 
+
+ 
+Network Security and Recovery (20 test items) 
+
+1. Describe the purpose of disaster recovery plans 
+2. Select plans for disaster recovery and prevention 
+3. Describe network backup solutions (e.g., cloud storage, NAS, external hard drives) 
+4. Describe defensive measures against DoS, phishing, and internal threats (e.g., least 
+
+privilege, third-party service, security policy) 
+5. Describe methods for mitigating network vulnerabilities (e.g., closing ports, updating 
+
+OS, maintaining antivirus) 
+6. Discuss best practices for network security (e.g., least privilege, authentication, 
+
+encryption) 
+7. Describe the benefits of Zero Trust principles 
+8. Explain methods of network access control 
+9. Describe security features of Windows and Linux-based operating systems (e.g., 
+
+BitLocker, domains, SELinux) 
+10. Describe the use of Intrusion Detection/Prevention Systems (IDS/IPS) 
+11. Discuss wireless security standards (e.g., WPA, access control lists) 
+
+ 
+Network Administration (20 test items) 
+
+1. Discuss the need for network maintenance (e.g., audits, updates, backups, restores) 
+2. Describe user account and permission management 
+3. Explain the purpose and use of Simple Network Management Protocol (SNMP) 
+4. Discuss common network issues (e.g. slow performance, connection issues, IP 
+
+conflicts) 
+5. Use common network command-line tools (e.g., ping, tracert, ipconfig) 
+6. Discuss the importance of updates and patch management 
+7. Discuss the role of documentation in network maintenance and troubleshooting 
+8. Describe tools for monitoring network traffic and performance 
+9. Describe the use and benefits of load balancing 
+10. Describe procedures for managing network assets (e.g., users, groups, and printers) 
+
+ 
+ 
+ 
+ 
+
+Network Design - Page 6 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+
+ 
+Network Planning (15 test items) 
+
+1. Match business requirements to appropriate network design decisions (e.g., topology, 
+physical size, users) 
+
+2. Discuss hardware and performance differences between network types (e.g., LAN, 
+WAN) 
+
+3. Describe the physical layouts of network topologies (e.g., star, mesh, bus) 
+4. Discuss the use cases of network topologies (e.g., star, mesh, bus) 
+5. Select an appropriate network operating system (Windows Server, Linux-based, etc.) 
+6. Describe the benefits and risks of a peer-to-peer network 
+7. Discuss the benefits of cloud services for network infrastructure 
+8. Describe how business needs can restrict and drive network design decisions (e.g., 
+
+cost, throughput, availability) 
+9. Explain how network topology decisions impact performance, cost, and availability 
+
+ 
+Network Protocols, Services, and Access (20 test items) 
+
+1. Describe different types of networks (e.g., LAN, WAN) 
+2. Describe basic network security practices (e.g., encryption, VPN, packet sniffing, 
+
+authentication) 
+3. Describe common network attacks (e.g., phishing, spoofing, poisoning) 
+4. Describe different connectivity technologies (e.g., Ethernet, Wi-Fi, Bluetooth) 
+5. Discuss the functions of common network devices (e.g., modems, routers, switches) 
+6. Discuss types of network environments (e.g., peer-to-peer, client-server, thin client) 
+7. Explain relationships between major network components (e.g., servers, clients, 
+
+switches) 
+8. Describe each layer of the Open System Interconnection (OSI) model 
+9. Explain basic networking protocols (e.g., TCP/IP, UDP, DHCP, SMP) 
+10. Discuss the characteristics of network topologies (e.g., star, bus, ring) 
+11. Describe tools and procedures for troubleshooting networks (e.g., ping, tracert, 
+
+checking cable connections) 
+ 
+
+References for Knowledge Areas & Objectives 
+ 
+Cisco. Designing Cisco Enterprise Networks (ENSLD) v1.1. 
+
+https://learningcontent.cisco.com/documents/marketing/exam-topics/300-420-ENSLD-
+v1.1.pdf  
+
+CompTIA. CompTIA A+ Certification Exam Core 1 Objectives. 
+https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1101-exam-
+objectives-(3-0)  
+
+CompTIA. CompTIA Network+ Certification Exam Objectives. 
+https://partners.comptia.org/docs/default-source/resources/comptia-network-n10-009-
+exam-objectives-(4-0)  
+
+Cisco. What is network design? https://www.cisco.com/site/us/en/learn/topics/networking/what-is-
+network-design.html   
+
+IBM. What is network infrastructure? https://www.ibm.com/think/topics/network-infrastructure 
+
+Microsoft. Fundamentals of computer networking. https://learn.microsoft.com/en-
+us/training/modules/network-fundamentals/  
+
+Network Design - Page 7 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Network Design 
+Network Design Role Play Presentation Rating Sheet 
+
+Expectation Item Not Below Points 
+Demonstrated Expectations Meets Expectations Exceeds 
+
+Expectations Earned 
+
+No description or Describes and Demonstrates 
+
+Demonstrates understanding of role play synopsis provides role play Describes and provides expertise of role play 
+synopsis AND 
+
+the role play and defines provided; no synopsis OR defines role play synopsis AND 
+definition of the  
+
+problem(s) to be solved problems defined the problem(s) defines the problem(s) 
+problem(s) 
+
+0 points 1-6 points 7-8 points 9-10 points 
+
+Alternative(s) given 
+No alternatives but pro(s) and/or At least two alternatives Multiple alternatives 
+
+Identifies alternatives and the identified con(s) are not given, and pro(s) and given and multiple 
+
+pro(s) and con(s) of each analyzed con(s) are analyzed pros and cons  
+analyzed for each 
+
+0 points 1-9 points 10-16 points 17-20 points 
+Feasible solution and 
+
+No solution Solution provided, Logical solution and implementation plan 
+Identifies logical solution and identified but implementation implementation plan developed, and 
+
+aspects of implementation plan not developed provided and developed necessary resources  
+identified 
+
+0 points 1-9 points 10-16 points 17-20 points 
+Demonstrates knowledge and  
+
+understanding of the event 
+knowledge areas:  
+
+ 
+Network Installation and No knowledge areas One or two  knowledge areas Four or more 
+
+Configuration / Network Security demonstrated knowledge areas Three re 
+are demonstrated are demonstrated knowledge areas a
+
+demonstrated 
+and Recovery / Network 
+
+Administration / Network 
+Planning / Network Protocols, 
+
+Services, and Access 
+0 points 1-9 points 10-16 points 17-20 points 
+
+Delivery Skills 
+
+Competitor(s) did Competitor(s) were Presentation flowed 
+Statements are well-organized not appear prepared, but flow Presentation flowed in in a logical sequence; 
+
+and clearly stated prepared was not logical logical sequence statements were well  
+organized 
+
+0 points 1-6 points 7-8 points 9-10 points 
+
+Demonstrated 1-2 of 
+the listed skills Demonstrated 3 of the 
+
+Consistently displays Did not demonstrate listed skills (confidence, Demonstrated all 
+confidence, poised body any of the listed (confidence, body body language, eye skills, enhancing the 
+
+language, engaging eye contact, skills language, eye 
+contact, or voice contact, or voice overall presentation  
+
+and effective voice projection. projection) projection) 
+
+0 points 1-6 points 7-8 points 9-10 points 
+
+Interacted with the  
+Unable to answer Does not completely Completely answers judges in the process 
+
+Demonstrates the ability to questions answer questions questions of completely 
+effectively answer questions answering questions 
+
+0 points 1-6 points 7-8 points 9-10 points 
+Staff Only: Penalty Points (5 points for dress code penalty and/or 5 points for late arrival penalty)  
+
+ 
+Presentation Total (100 points)  
+
+Name(s):  
+School: Section:  
+Judge Signature: Date:  
+Comments: 
+
+ 
+
+Network Design - Page 8 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission.

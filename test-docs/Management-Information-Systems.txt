@@ -1,0 +1,593 @@
+﻿2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+ 
+Management Information Systems challenges members to apply their knowledge of how 
+businesses use technology to manage information and support decision-making. Through an 
+objective test and a role play scenario, members analyze a small business’s environment and 
+recommend effective information system solutions. 
+ 
+Event Overview 
+ 
+
+Division High School 
+Event Type Team of 1, 2 or 3 members 
+Event Category Role Play 
+Event Elements Objective Test and Interactive Role Play 
+
+ 
+Educational Alignments 
+ 
+
+Career Cluster Framework Connection Digital Technology 
+NACE Competency Alignment Career & Self-Development, 
+
+Communication, Critical Thinking, 
+Leadership, Professionalism, Technology 
+
+ 
+Knowledge Areas 
+
+ 
+• Systems Design and Analysis Test Composition
+• Object Oriented Programming 
+
+Concepts  30
+• Data and Information Management  25
+
+• IT Project Management  20
+15
+
+• IT Infrastructure  10
+• Emerging Business Technologies  5
+
+ 0
+Test questions and role plays are based on 
+the knowledge statements and objectives 
+outlined for this event. Detailed objectives 
+can be found in the study guide included 
+in these guidelines. 
+ 
+District/Region/Section 
+Check with your District/Region/Section leadership for District/Region/Section-specific 
+competition information and deadlines. 
+ 
+State 
+Check with your State Leader for state-specific competition information and deadlines. 
+ 
+  
+
+Management Information Systems - Page 1 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+National 
+Required Competition Items   
+
+ Items Competitor Must Provide Items FBLA Provides 
+Objective Test • Sharpened pencil • One piece of scratch 
+
+• Fully powered device for online paper per competitor 
+testing • Internet access 
+
+• Conference-provided nametag • Test login information 
+• Photo identification (link & password 
+• Attire that meets the FBLA Dress provided at test 
+
+Code check-in) 
+Role Play • Conference-provided nametag • Two notecards per 
+
+• Photo identification competitor  
+• Attire that meets the FBLA Dress • Pencil  
+
+Code • Secret role play  
+problem/scenario 
+
+• Flip chart 
+paper/markers 
+
+• Easel for placement 
+of flipchart during 
+presentation 
+
+ 
+Important FBLA Documents 
+
+• Competitors should be familiar with the Competitive Events Policy & Procedures 
+Manual, Honor Code, Code of Conduct, and Dress Code.  
+
+ 
+Eligibility Requirements 
+To participate in FBLA competitive events at the National Leadership Conference (NLC), the 
+following criteria must be met: 
+
+• Membership Deadline: FBLA national membership dues must be paid to the specific 
+division by 11:59 p.m. Eastern Time on March 1 of the current school year. 
+
+• Repeat Competitors: Members may only compete in an event at the NLC more than 
+once if they have not previously placed in the top 10 of that event at the NLC. If a 
+member places in the top 10 of an event at the NLC, they are no longer eligible to 
+compete in that event at future NLCs, unless the event has been modified beyond a 
+name change. Chapter events are exempt from this procedure. 
+
+• Conference Registration: Members must be officially registered for the NLC and must 
+pay the national conference registration fee to participate. 
+
+• Official Hotel Requirement: To be eligible to compete, competitors must stay within 
+the official FBLA housing block. 
+
+• State Entry Limits: Each state may submit up to four entries per event. 
+• Event Participation Limits: Each member may participate in: 
+
+o One individual or team event, and 
+o One chapter event (e.g., Community Service Project or Local Chapter Annual 
+
+Business Report). 
+• Participation Requirement: To be eligible for an award, each competitor must 
+
+complete all components of the event at the National Leadership Conference. 
+
+Management Information Systems - Page 2 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+• Team Composition: All members of a team must be from the same local chapter. 
+• Identification at Check-in: Competitors must present valid photo identification 
+
+(physical or digital) that matches the name on their conference name badge. 
+Acceptable forms include a driver’s license, passport, state-issued ID, or school ID. 
+
+• Late Arrivals: Competitors will be allowed to compete until such time that the results 
+are finalized, or participation would impact the fairness and integrity of the event, as 
+determined by Competitive Events staff. If judges have left the competitive event area, 
+it is no longer possible to compete. Five penalty points will be assessed for late arrivals 
+in any competitive event.   
+
+• Event Schedule Notes: 
+o Some events may begin before the Opening Session. 
+o All schedules are posted in local time for the NLC host city. 
+o Schedule changes are not permitted. 
+
+ 
+Event Administration 
+This event consists of two phases: an objective test and an interactive role play. 
+ 
+Objective Test 
+Each competitor will complete a 100-question multiple-choice objective test. 
+
+Test Duration 
+• Test Duration: 50 minutes 
+
+Format 
+• This event consists of an online objective test that is proctored and completed on-
+
+site at the National Leadership Conference (NLC). 
+Materials 
+
+• Reference or study materials are not permitted at the testing site. 
+Electronic Devices 
+
+• All electronic devices, including cell phones, smart watches, and similar 
+technology, must be powered off prior to the start of the competition. 
+
+Team Tests 
+• If competing as a team, competitors must begin testing individually within a few 
+
+minutes of one another. Each competitor’s score will be averaged to determine the 
+team’s overall test score. 
+
+Calculators 
+• Personal calculators are not allowed; an online calculator will be available within 
+
+the testing platform. 
+Question Review 
+
+• Competitors may flag questions within the testing platform for review prior to the 
+finalization of results at the NLC. 
+
+ 
+Interactive Role Play Details 
+The team-averaged objective test score determines the top 15 teams advancing to role play 
+round. 
+
+Timing Structure 
+• Preparation Time: 20 minutes (a one-minute warning will be provided) 
+• Presentation: 7 minutes (a one-minute warning will be provided) 
+• Question & Answer (Q&A): None 
+
+ 
+
+Management Information Systems - Page 3 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+ 
+Role Play Prompt  
+
+• Competitors will be provided with a single copy of a management information 
+system–related scenario or problem at the beginning of their assigned preparation 
+time. This copy must be shared among team members and may only be accessed 
+within the designated preparation area. 
+
+Notecard Use 
+• Each competitor will receive two notecards for use during preparation and the 
+
+presentation. Information may be written on both sides. Notecards will be 
+collected after the role play. 
+
+Materials  
+• No technology, reference materials, visuals, or props may be used. 
+
+Interaction with Judges 
+• Judges may ask questions during the presentation as part of the interactive role 
+
+play format. 
+Audience 
+
+• Role play presentations are closed to all conference attendees. 
+Confidentiality 
+
+• To maintain fairness, competitors must not discuss or share the role play prompt 
+until the event concludes. 
+
+ 
+Scoring 
+
+• The team-averaged objective test score determines the top 15 teams advancing to role 
+play round. 
+
+• The role play round scores only will be used to determine winners. 
+• Objective test scores will be used to break a tie. 
+• All judging decisions are final. Results announced at the National Leadership 
+
+Conference are considered official and will not be changed after the conclusion of the 
+National Leadership Conference. 
+
+ 
+Penalty Points 
+
+• Competitors may be disqualified if they violate the Code of Conduct or the Honor 
+Code. 
+
+• Five points are deducted if competitors do not follow the Dress Code or are late to 
+their assigned presentation time. 
+
+ 
+Electronic Devices 
+
+• Unless approved as part of a documented accommodation, all cell phones, 
+smartwatches, electronic devices, and headphones must be turned off and stored 
+away before the competition begins. Visible devices during the event will be 
+considered a violation of the FBLA Honor Code. 
+
+ 
+Recognition 
+
+• A maximum of 10 entries (individuals or teams) may be recognized per event. 
+ 
+ 
+ 
+
+Management Information Systems - Page 4 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+ 
+Americans with Disabilities Act (ADA) 
+
+• FBLA complies with the Americans with Disabilities Act (ADA) by providing reasonable 
+accommodations for competitors. Accommodation requests must be submitted 
+through the conference registration system by the official registration deadline. All 
+requests will be reviewed, and additional documentation may be required to 
+determine eligibility and appropriate support. 
+
+ 
+Recording of Presentations 
+
+• Unauthorized audio or video recording is strictly prohibited in all competitive events. 
+• FBLA reserves the right to record presentations for educational, training, or archival 
+
+purposes. Competitors should be aware that their presentations may be recorded by 
+FBLA-authorized personnel. 
+ 
+
+Sample Preparation Resources 
+• Official sample test items and role plays can be found in CONNECT. These sample 
+
+items showcase the types of questions that may be asked on the test and familiarize 
+competitors with the multiple-choice item options. 
+
+  
+
+Management Information Systems - Page 5 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+Study Guide: Knowledge Areas and Objectives 
+ 
+Systems Design and Analysis (25 test items) 
+
+1. Describe typical phases of the Systems Development Life Cycle 
+2. Discuss methods for gathering and analyzing system requirements 
+3. Discuss the Agile methodology for software and project management 
+4. Discuss the Waterfall model of software and project management 
+5. Determine appropriate features for a new system based on gathered requirements 
+6. Describe the use of feasibility studies for financial, technical, and organizational 
+
+analysis 
+7. Describe terms related to system design (e.g., input, output, controls, procedures) 
+8. Distinguish between validation and verification of a system 
+9. Describe the roles of stakeholders, end users, managers, and developers in system 
+
+development 
+10. Discuss workflow artifacts used in system design and analysis (e.g., dataflow diagrams, 
+
+entity relationship diagrams, class diagrams) 
+ 
+Object Oriented Programming Concepts (15 test items) 
+
+1. Describe features of object-oriented programming (OOP) languages (e.g., classes, 
+objects, libraries) 
+
+2. Explain how business requirements can be translated into classes and functions 
+3. Describe key features of object-oriented programming (e.g., encapsulation, 
+
+abstraction, polymorphism, inheritance) 
+4. Discuss the use and creation of libraries for software development 
+5. Distinguish between classes, objects, methods, and attributes 
+6. Identify modern OOP languages and frameworks 
+7. Analyze the benefits and drawbacks of OOP 
+
+ 
+Data and Information Management (15 test items) 
+
+1. Translate simple user stories and requirements into SQL statements 
+2. Describe terms related to relational database structure (e.g., relations, tuples, fields, 
+
+records, keys) 
+3. Evaluate database schemas based on business requirements 
+4. Describe the importance of data redundancy 
+5. Describe best practices for data security and integrity (e.g., encryption, access 
+
+control) 
+6. Describe NoSQL databases 
+7. Discuss the pros and cons of data storage methods (e.g., local, cloud, hybrid) 
+8. Discuss the use of structured, unstructured, and semi-structured data for business 
+
+intelligence and decision making 
+9. Describe the use of Online Analytical Processing (OLAP) 
+
+ 
+IT Project Management (15 test items)  
+
+1. Describe the use of Agile principles in information systems development 
+2. Describe the processes of Scrum methodology for managing information systems 
+
+projects 
+3. Describe the use of Waterfall methodology in information systems development 
+4. Discuss Agile methodology tenants (e.g., individuals and interactions, working 
+
+software) 
+
+Management Information Systems - Page 6 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+
+5. Select an appropriate methodology for a software or IT project 
+6. Discuss the consequences of poor IT project management on budget, schedule, and 
+
+performance (e.g., runaway projects) 
+7. Discuss the steps of the project life cycle 
+8. Describe the use of work products and tools for project management (e.g., kanban 
+
+boards, user stories, spreadsheets) 
+9. Discuss the roles of end users and stakeholders in IT project development 
+
+ 
+IT Infrastructure (15 test items) 
+
+1. Describe the importance of IT infrastructure to business processes 
+2. Describe components of IT infrastructure (e.g., hardware, software, network 
+
+components) 
+3. Describe how cloud and virtual components contribute to IT infrastructure 
+4. Discuss the business value of secure IT infrastructure 
+5. Describe the benefits of cloud-based architecture for businesses 
+6. Discuss the performance and cost tradeoffs of network topologies (e.g., mesh, star, 
+
+bus) 
+7. Identify layers of the OSI and TCP/IP model 
+8. Describe services that contribute to business IT infrastructure (e.g., computing 
+
+platforms, telecommunications services, data management services) 
+9. Discuss how to avoid common IT security vulnerabilities (e.g., authentication, 
+
+authorization, access control) 
+ 
+Emerging Business Technologies (15 test items) 
+
+1. Discuss the effects of automation on businesses 
+2. Discuss the uses of artificial intelligence for businesses (e.g., customer support, 
+
+automation, data insights) 
+3. Explain core characteristics of blockchain technology 
+4. Discuss the uses of blockchain for data security and integrity 
+5. Describe the Internet of Things (IoT) 
+6. Describe the characteristics of the cloud 
+7. Identify cloud-based applications and services (e.g., SaaS, IaaS, AWS, Canva) 
+
+ 
+References for Knowledge Areas & Objectives 
+
+ 
+Association for Computing Machinery. IS2020 A Competency Model for Undergraduate Programs in Information 
+
+Systems. https://www.acm.org/binaries/content/assets/education/curricula-
+recommendations/is2020.pdf  
+
+Coursera. What is MIS (Management Information Systems)? Degree Guide. https://www.coursera.org/articles/mis  
+
+GeeksforGeeks. Management information system (MIS). https://www.geeksforgeeks.org/computer-organization-
+architecture/management-information-system-mis/  
+
+Laudon, K., and Laudon, J. Management Information Systems (Fifteenth Edition). 
+https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/188-Management-Information-
+Systems-Managing-the-Digital-Firm-Kenneth-C.-Laudon-Jane-P.-Laudon-Edisi-15-2017.pdf   
+
+Cohesity. Unlocking the power of the management information system. 
+https://www.cohesity.com/glossary/management-information-system/   
+
+Tutorials Point. MIS – Introduction. 
+https://www.tutorialspoint.com/management_information_system/management_information_system.ht
+m   
+
+Management Information Systems - Page 7 of 8 – Updated November 2025  
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+
+distributed, or transmitted in any form without prior written permission. 
+
+
+
+2025-2026 Competitive Events Guidelines 
+Management Information Systems 
+Management Information Systems Role Play Presentation Rating Sheet 
+
+Expectation Item Not Below xceeds Points 
+Demonstrated Expectations Meets Expectations E
+
+Expectations Earned 
+
+No description or Describes and Demonstrates 
+expertise of role play 
+
+Demonstrates understanding of role play synopsis provides role play Describes and provides 
+is AND synopsis AND 
+
+the role play and defines provided; no synopsis OR defines role play synops
+defines the problem(s) definition of the  
+
+problem(s) to be solved problems defined the problem(s) problem(s) 
+0 points 1-6 points 7-8 points 9-10 points 
+
+Alternative(s) given tives 
+No alternatives but pro(s) and/or At least two alternatives Multiple alterna
+
+given and multiple 
+Identifies alternatives and the identified con(s) are not given, and pro(s) and pros and cons 
+
+pro(s) and con(s) of each  
+analyzed con(s) are analyzed analyzed for each 
+
+0 points 1-9 points 10-16 points 17-20 points 
+Feasible solution and 
+
+No solution Solution provided, Logical solution and implementation plan 
+Identifies logical solution and identified but implementation implementation plan developed, and 
+
+aspects of implementation plan not developed provided and developed necessary resources  
+identified 
+
+0 points 1-9 points 10-16 points 17-20 points 
+Demonstrates knowledge and  
+
+understanding of the event 
+knowledge areas: 
+
+ 
+Systems Design and Analysis / No knowledge areas One or two Three knowledge areas Four or more 
+
+Object Oriented Programming demonstrated knowledge areas 
+are demonstrated are demonstrated knowledge areas are 
+
+demonstrated 
+Concepts / Data and Information 
+
+Management / IT Project 
+Management / IT Infrastructure / 
+Emerging Business Technologies 
+
+ 0 points 1-9 points 10-16 points 17-20 points 
+Presentation Delivery 
+
+Competitor(s) did Competitor(s) were Presentation flowed 
+Statements are well-organized not appear prepared, but flow Presentation flowed in in a logical sequence; 
+
+ents were well 
+and clearly stated prepared was not logical logical sequence statem  
+
+organized 
+0 points 1-6 points 7-8 points 9-10 points 
+
+Demonstrated 1-2 of 
+kills Demonstrated 3 of the 
+
+Consistently displays Did not demonstrate the listed s
+(confidence, body listed skills (confidence, Demonstrated all 
+
+confidence, poised body any of the listed language, eye body language, eye skills, enhancing the 
+language, engaging eye contact, skills contact, or voice contact, or voice overall presentation  
+and effective voice projection. projection) projection) 
+
+0 points 1-6 points 7-8 points 9-10 points 
+Interacted with the  
+
+Unable to answer Does not completely Completely answers judges in the process 
+Demonstrates the ability to questions answer questions questions of completely 
+
+effectively answer questions answering questions 
+0 points 1-6 points 7-8 points 9-10 points 
+
+Staff Only: Penalty Points (5 points for dress code penalty and/or 5 points for late arrival penalty)  
+ 
+
+Presentation Total (100 points)  
+Name(s):  
+School: Section:  
+Judge Signature: Date:  
+Comments: 
+ 
+ 
+ 
+ 
+
+ 
+Management Information Systems - Page 8 of 8 – Updated November 2025  
+
+© 2026 National Future Business Leaders of America, Inc. All rights reserved. No part of this publication may be reproduced, 
+distributed, or transmitted in any form without prior written permission.
