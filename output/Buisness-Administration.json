@@ -1,0 +1,1040 @@
+{
+  "testName": "Business Administration Core Exam",
+  "topics": [
+    {
+      "topic": "Business Management and Administration",
+      "questions": [
+        {
+          "question": "Which of the following illustrates how knowing your strengths and weaknesses can contribute toward professional development and career success?",
+          "options": [
+            "Spending less time on tasks you find difficult",
+            "Avoiding new assignments",
+            "Developing new friendships in your neighborhood",
+            "Taking a leadership role on a group project"
+          ],
+          "correctAnswer": "Taking a leadership role on a group project",
+          "Help": "Recognizing a strength allows you to leverage it for career advancement."
+        },
+        {
+          "question": "An employee with a prominent company position regularly uses offensive language and criticizes government leaders in their personal social media posts. They are putting the company at risk of:",
+          "options": [
+            "higher corporate taxation rates.",
+            "being prosecuted for defamation.",
+            "developing a social media footprint.",
+            "developing a negative public image."
+          ],
+          "correctAnswer": "developing a negative public image.",
+          "Help": "Public behavior of prominent employees often reflects on the brand's image."
+        },
+        {
+          "question": "Which of the following activities should be an employee's top priority?",
+          "options": [
+            "Making reservations for a business lunch two weeks away",
+            "Completing a status report for a meeting in one hour",
+            "Preparing a purchase order due in two days",
+            "Copying a document for a customer meeting in five hours"
+          ],
+          "correctAnswer": "Completing a status report for a meeting in one hour",
+          "Help": "Prioritize tasks based on urgency and upcoming deadlines."
+        },
+        {
+          "question": "Centralized retail buying can become ineffective for a large chain when:",
+          "options": [
+            "its stores are divided into districts.",
+            "purchasing responsibility is shared by buyers.",
+            "all buying is carried out at one location.",
+            "its stores are located very far apart."
+          ],
+          "correctAnswer": "its stores are located very far apart.",
+          "Help": "Geographic dispersion often requires local adjustments that centralized buying cannot accommodate."
+        },
+        {
+          "question": "How are a business's customers affected by the good human-relations skills of the business's employees?",
+          "options": [
+            "Customers are not affected by it.",
+            "Customers' loyalty increases.",
+            "Customers return less frequently.",
+            "Customers' complaints increase."
+          ],
+          "correctAnswer": "Customers' loyalty increases.",
+          "Help": "Positive interactions build trust and long-term relationships with clients."
+        },
+        {
+          "question": "The chain of command helps employees understand:",
+          "options": [
+            "where they fit in the hierarchy.",
+            "how competitors operate.",
+            "why they work for the organization.",
+            "how the economy operates."
+          ],
+          "correctAnswer": "where they fit in the hierarchy.",
+          "Help": "The chain of command clarifies reporting lines and organizational structure."
+        },
+        {
+          "question": "Being orderly and systematic usually helps employees be more:",
+          "options": [
+            "honest.",
+            "responsible.",
+            "creative.",
+            "efficient."
+          ],
+          "correctAnswer": "efficient.",
+          "Help": "Systems and organization reduce wasted time and effort."
+        },
+        {
+          "question": "What type of letter should a business include when sending copies of a contract to a vendor?",
+          "options": [
+            "Transmittal",
+            "Request",
+            "Acknowledgment",
+            "Claim"
+          ],
+          "correctAnswer": "Transmittal",
+          "Help": "A transmittal letter acts as a cover letter for documents being sent."
+        },
+        {
+          "question": "The manager asked a few staff members for their opinions about what color to paint the office reception area. What decision-making style did the manager use?",
+          "options": [
+            "Laissez-faire",
+            "Minimum input",
+            "Moderate input",
+            "Autocratic"
+          ],
+          "correctAnswer": "Moderate input",
+          "Help": "Consulting some, but not all or none, characterizes moderate input."
+        },
+        {
+          "question": "What is a type of informal communication that coworkers often use to communicate with each other?",
+          "options": [
+            "Grapevine",
+            "Structured",
+            "Network",
+            "Feedback"
+          ],
+          "correctAnswer": "Grapevine",
+          "Help": "The grapevine refers to the unofficial flow of information within an organization."
+        }
+      ]
+    },
+    {
+      "topic": "Financial Literacy and Accounting",
+      "questions": [
+        {
+          "question": "A business wants to purchase new machinery. Which financial information is most relevant?",
+          "options": [
+            "Spending on machinery five years ago",
+            "The amount of money left in the budget for the fiscal year",
+            "Spending by a competing company",
+            "Current salaries of top executives"
+          ],
+          "correctAnswer": "The amount of money left in the budget for the fiscal year",
+          "Help": "Relevance requires the information to be applicable to current purchasing power."
+        },
+        {
+          "question": "With a lending investment, investors do which of the following?",
+          "options": [
+            "Avoid taking any risk",
+            "Maintain a minimum amount of money in the investment",
+            "Allow borrowers to use their money for a price",
+            "Hire a financial advisor"
+          ],
+          "correctAnswer": "Allow borrowers to use their money for a price",
+          "Help": "Lending involves charging interest for the use of capital."
+        },
+        {
+          "question": "Each pay period, Amisha has her employer automatically deposit her paycheck into her checking account. In this situation, money is functioning as a(n):",
+          "options": [
+            "form of cash.",
+            "store of value.",
+            "unit of measure.",
+            "medium of exchange."
+          ],
+          "correctAnswer": "store of value.",
+          "Help": "Storing money in an account for future use is a store of value function."
+        },
+        {
+          "question": "Determine the assets of a business: cash = $3,000; accounts receivable = $5,500; inventory = $10,050; fixed assets = $8,100.",
+          "options": [
+            "$23,650",
+            "$21,150",
+            "$26,650",
+            "$16,600"
+          ],
+          "correctAnswer": "$26,650",
+          "Help": "Sum all categories: 3000 + 5500 + 10050 + 8100."
+        },
+        {
+          "question": "The cash conversion cycle should be:",
+          "options": [
+            "as long as possible.",
+            "at equilibrium.",
+            "as short as possible.",
+            "on an upward trend."
+          ],
+          "correctAnswer": "as short as possible.",
+          "Help": "Shortening the cycle improves cash flow efficiency."
+        },
+        {
+          "question": "When reconciling your bank statement, how should you handle outstanding checks?",
+          "options": [
+            "Add them to your ending balance.",
+            "Subtract them from your statement balance.",
+            "Add them to your beginning balance.",
+            "Ignore them until next month."
+          ],
+          "correctAnswer": "Subtract them from your statement balance.",
+          "Help": "Outstanding checks represent money already spent but not yet cleared by the bank."
+        },
+        {
+          "question": "Alex earns $2,850.70 every two weeks after taxes. This is Alex's:",
+          "options": [
+            "discount",
+            "net pay",
+            "gross pay",
+            "deduction"
+          ],
+          "correctAnswer": "net pay",
+          "Help": "Net pay is the amount received after taxes and deductions."
+        },
+        {
+          "question": "Monica's credit card requires a minimum payment of $20. This is an example of a(n) __________ credit account.",
+          "options": [
+            "revolving",
+            "budget",
+            "service",
+            "installment"
+          ],
+          "correctAnswer": "revolving",
+          "Help": "Revolving credit allows ongoing balances with minimum monthly payments."
+        },
+        {
+          "question": "When Lara purchased a sweater for $35.00, the total was $37.43. What type of tax did she pay?",
+          "options": [
+            "Income",
+            "Sales",
+            "Property",
+            "Excise"
+          ],
+          "correctAnswer": "Sales",
+          "Help": "Sales tax is added to the retail price of consumer goods."
+        },
+        {
+          "question": "Under which circumstances is a cosigner held legally responsible for a loan?",
+          "options": [
+            "The borrower defaults on the loan.",
+            "The lender's interest rate increases.",
+            "The lender defaults on the loan.",
+            "The borrower's interest rate increases."
+          ],
+          "correctAnswer": "The borrower defaults on the loan.",
+          "Help": "A cosigner guarantees the loan repayment if the primary borrower fails to pay."
+        }
+      ]
+    },
+    {
+      "topic": "Marketing and Communication",
+      "questions": [
+        {
+          "question": "Addison nods when a speaker makes a good point, making use of __________ communication.",
+          "options": [
+            "nonverbal",
+            "written",
+            "negative",
+            "verbal"
+          ],
+          "correctAnswer": "nonverbal",
+          "Help": "Nodding is a gesture conveying agreement without spoken words."
+        },
+        {
+          "question": "The great customer service that people can expect from Patricia's business is considered her:",
+          "options": [
+            "vision.",
+            "tagline.",
+            "mission statement.",
+            "brand promise."
+          ],
+          "correctAnswer": "brand promise.",
+          "Help": "A brand promise is the consistent experience customers expect from a company."
+        },
+        {
+          "question": "Letters of inquiry should be as __________ as possible.",
+          "options": [
+            "verbose",
+            "demanding",
+            "vague",
+            "specific"
+          ],
+          "correctAnswer": "specific",
+          "Help": "Specificity ensures the recipient provides the exact information needed."
+        },
+        {
+          "question": "Many businesses include a(n) __________ on their websites to obtain feedback from customers.",
+          "options": [
+            "computer programming code",
+            "Frequently Asked Questions (FAQ) page",
+            "product catalog",
+            "email inquiry field"
+          ],
+          "correctAnswer": "email inquiry field",
+          "Help": "Email forms facilitate direct two-way communication."
+        },
+        {
+          "question": "The ultimate goal of a company that redirects its marketing effort to an untapped market segment is to increase its:",
+          "options": [
+            "profit.",
+            "expenses.",
+            "output.",
+            "prices."
+          ],
+          "correctAnswer": "profit.",
+          "Help": "Market expansion is usually targeted at growing revenue and profit."
+        },
+        {
+          "question": "Eye contact is an example of what type of communication?",
+          "options": [
+            "Formal",
+            "Verbal",
+            "Nonverbal",
+            "Informal"
+          ],
+          "correctAnswer": "Nonverbal",
+          "Help": "Eye contact communicates engagement without speech."
+        },
+        {
+          "question": "The purpose of data mining is to:",
+          "options": [
+            "sell consumer information.",
+            "keep employees engaged.",
+            "turn raw data into useful information.",
+            "monitor the activity of competitors."
+          ],
+          "correctAnswer": "turn raw data into useful information.",
+          "Help": "Data mining extracts patterns to support business decision-making."
+        },
+        {
+          "question": "What type of customer questions everything that an employee tells them?",
+          "options": [
+            "Disagreeable",
+            "Domineering/Superior",
+            "Slow/Methodical",
+            "Suspicious"
+          ],
+          "correctAnswer": "Suspicious",
+          "Help": "Suspicious customers require evidence to build trust."
+        },
+        {
+          "question": "One way to contribute to a positive and productive staff meeting is to:",
+          "options": [
+            "avoid asking questions.",
+            "speak quietly to coworkers.",
+            "pay attention only to your own body language.",
+            "listen to everyone, even if you don't work directly with them."
+          ],
+          "correctAnswer": "listen to everyone, even if you don't work directly with them.",
+          "Help": "Active, inclusive listening fosters a productive group environment."
+        },
+        {
+          "question": "When writing informational messages, employees should provide enough data for the recipient to be able to:",
+          "options": [
+            "read the message.",
+            "make a decision.",
+            "agree with the content.",
+            "contact the business."
+          ],
+          "correctAnswer": "make a decision.",
+          "Help": "Informational messages aim to empower the recipient to take action."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics and Personal Development",
+      "questions": [
+        {
+          "question": "When you recognize your own emotions, you are demonstrating:",
+          "options": [
+            "self-control.",
+            "self-awareness.",
+            "social restraint.",
+            "social relationships."
+          ],
+          "correctAnswer": "self-awareness.",
+          "Help": "Self-awareness is the foundation of emotional intelligence."
+        },
+        {
+          "question": "Joanna was rejected for a veterinarian assistant role due to lack of experience. What should she do?",
+          "options": [
+            "Explain her lifelong love of animals.",
+            "Make up fake work experiences.",
+            "Volunteer at an animal shelter.",
+            "Offer to work late-night shifts."
+          ],
+          "correctAnswer": "Volunteer at an animal shelter.",
+          "Help": "Volunteering is a practical method to build relevant experience."
+        },
+        {
+          "question": "You made a mistake on a project. To show your boss you can be trusted, you should:",
+          "options": [
+            "Explain why you didn't make a mistake.",
+            "Blame another coworker.",
+            "Ignore the mistake.",
+            "Apologize and fix the mistake."
+          ],
+          "correctAnswer": "Apologize and fix the mistake.",
+          "Help": "Accountability builds trust more than avoidance."
+        },
+        {
+          "question": "John keeps his feelings to himself under stress. What skill is this?",
+          "options": [
+            "Self-esteem",
+            "Self-actualization",
+            "Self-control",
+            "Self-consciousness"
+          ],
+          "correctAnswer": "Self-control.",
+          "Help": "Self-control involves managing emotional reactions."
+        },
+        {
+          "question": "Tolerating ambiguity means:",
+          "options": [
+            "avoiding risk.",
+            "ensuring clarity.",
+            "ignoring uncertainty.",
+            "being OK with uncertainty."
+          ],
+          "correctAnswer": "being OK with uncertainty.",
+          "Help": "Ambiguity tolerance allows for effective action without full information."
+        },
+        {
+          "question": "An individual with a good grasp of their interests, values, and traits has acquired:",
+          "options": [
+            "self-understanding.",
+            "self-control.",
+            "self-discipline.",
+            "self-consciousness."
+          ],
+          "correctAnswer": "self-understanding.",
+          "Help": "Understanding internal drivers aids career and personal growth."
+        },
+        {
+          "question": "Personal appearance is important to a company because:",
+          "options": [
+            "workers with good appearance get promotions.",
+            "it makes them attractive to others.",
+            "unattractive workers are unlikely to be hired.",
+            "their image affects the company's image."
+          ],
+          "correctAnswer": "their image affects the company's image.",
+          "Help": "Employees act as representatives of the business brand."
+        },
+        {
+          "question": "When your level of self-esteem is low, this causes you to have:",
+          "options": [
+            "confidence in your ability.",
+            "doubts about yourself.",
+            "appreciation of life.",
+            "difficulty with visualization."
+          ],
+          "correctAnswer": "doubts about yourself.",
+          "Help": "Low self-esteem correlates with internal questioning of one's own capabilities."
+        },
+        {
+          "question": "Telling the truth can be difficult because:",
+          "options": [
+            "the truth usually causes trouble.",
+            "people like lies more.",
+            "lying is easier than facing the consequences.",
+            "the truth doesn't help you get ahead."
+          ],
+          "correctAnswer": "lying is easier than facing the consequences.",
+          "Help": "Ethical behavior often requires choosing the difficult path over the easy lie."
+        },
+        {
+          "question": "Qualified employees who behave unethically may harm themselves by being:",
+          "options": [
+            "held legally responsible.",
+            "sent to a training program.",
+            "rotated to similar positions.",
+            "passed over for promotions."
+          ],
+          "correctAnswer": "passed over for promotions.",
+          "Help": "Unethical behavior damages trust, which is necessary for advancement."
+        }
+      ]
+    },
+    {
+      "topic": "Operations and Safety",
+      "questions": [
+        {
+          "question": "Kendra updates a tracking sheet whenever she removes a pencil from the cabinet. This is:",
+          "options": [
+            "perpetual inventory.",
+            "inventory keeping.",
+            "inventory shrinkage.",
+            "physical inventory."
+          ],
+          "correctAnswer": "perpetual inventory.",
+          "Help": "Continuous tracking of inventory is a perpetual system."
+        },
+        {
+          "question": "Why is it important for employers to identify accident trends?",
+          "options": [
+            "To process claims",
+            "To make changes",
+            "To record injuries",
+            "To fix blame"
+          ],
+          "correctAnswer": "To make changes",
+          "Help": "Identifying trends allows for proactive safety modifications."
+        },
+        {
+          "question": "Equipment, ingredients, and labor at a restaurant are all:",
+          "options": [
+            "mass production.",
+            "objectives.",
+            "inputs.",
+            "productivity."
+          ],
+          "correctAnswer": "inputs.",
+          "Help": "Inputs are the resources utilized to produce goods or services."
+        },
+        {
+          "question": "What is a potential risk involved with information management?",
+          "options": [
+            "Privacy and security issues",
+            "Increased competition",
+            "Increased use of outsourcing",
+            "Higher interest rates"
+          ],
+          "correctAnswer": "Privacy and security issues",
+          "Help": "Managing data introduces the vulnerability of unauthorized access."
+        },
+        {
+          "question": "Kristina is planning how her candles will be produced and in what amounts. She is engaging in:",
+          "options": [
+            "purchasing.",
+            "dispatching.",
+            "product placement.",
+            "production planning."
+          ],
+          "correctAnswer": "production planning.",
+          "Help": "Production planning defines how and how much to manufacture."
+        },
+        {
+          "question": "The ultimate responsibility for personal health and safety on the job rests with the:",
+          "options": [
+            "government.",
+            "company.",
+            "union.",
+            "worker."
+          ],
+          "correctAnswer": "worker.",
+          "Help": "While employers provide safety, workers must adhere to it."
+        },
+        {
+          "question": "If you tend to have difficulty standing up for your rights, you are a(n) __________ person.",
+          "options": [
+            "assertive",
+            "aggressive",
+            "subversive",
+            "passive"
+          ],
+          "correctAnswer": "passive",
+          "Help": "Passive behavior involves avoiding confrontation at the expense of one's rights."
+        },
+        {
+          "question": "Preventing security problems is important because financial losses may force a business to:",
+          "options": [
+            "expand.",
+            "move.",
+            "reorganize.",
+            "close."
+          ],
+          "correctAnswer": "close.",
+          "Help": "Severe security breaches can lead to bankruptcy or shutdown."
+        },
+        {
+          "question": "Using Google Drive to switch between Docs, Sheets, and Slides highlights:",
+          "options": [
+            "obsolescence.",
+            "integration.",
+            "specialization.",
+            "fragmentation."
+          ],
+          "correctAnswer": "integration.",
+          "Help": "Integration combines different tools into a single workflow."
+        },
+        {
+          "question": "The cash conversion cycle should be:",
+          "options": [
+            "as long as possible.",
+            "at equilibrium.",
+            "as short as possible.",
+            "on an upward trend."
+          ],
+          "correctAnswer": "as short as possible.",
+          "Help": "A shorter cycle means cash is returned to the company faster."
+        }
+      ]
+    },
+    {
+      "topic": "Career Development and Adaptability",
+      "questions": [
+        {
+          "question": "One benefit of being adaptable is that it enables employees to:",
+          "options": [
+            "deal with change.",
+            "take initiative.",
+            "manage their time.",
+            "avoid conflict."
+          ],
+          "correctAnswer": "deal with change.",
+          "Help": "Adaptability is specifically the skill of adjusting to new or shifting circumstances."
+        },
+        {
+          "question": "Anthony feels he is lagging behind younger colleagues. What should he do?",
+          "options": [
+            "Try to outdo them",
+            "Pursue continuing education",
+            "Look for a new job",
+            "Ask for a promotion"
+          ],
+          "correctAnswer": "Pursue continuing education",
+          "Help": "Education updates skills to match current industry standards."
+        },
+        {
+          "question": "Business trends that affect HR management include:",
+          "options": [
+            "no restructuring.",
+            "globalization.",
+            "lack of new technology.",
+            "lower costs of business."
+          ],
+          "correctAnswer": "globalization.",
+          "Help": "Globalization creates diverse staffing and cultural management needs."
+        },
+        {
+          "question": "A major purpose of establishing personal goals is to:",
+          "options": [
+            "identify wants.",
+            "decrease needs.",
+            "achieve success in life.",
+            "get help from others."
+          ],
+          "correctAnswer": "achieve success in life.",
+          "Help": "Goals provide a roadmap to defined success."
+        },
+        {
+          "question": "Many teenagers begin searching for their first jobs by contacting:",
+          "options": [
+            "neighborhood businesses.",
+            "community training programs.",
+            "national corporations.",
+            "employment agencies."
+          ],
+          "correctAnswer": "neighborhood businesses.",
+          "Help": "Local small businesses are common entry points for first-time workers."
+        },
+        {
+          "question": "Which of the following demonstrates initiative when you have no customers?",
+          "options": [
+            "Catching up on news",
+            "Paying your bills",
+            "Doing routine housekeeping",
+            "Checking appearance"
+          ],
+          "correctAnswer": "Doing routine housekeeping",
+          "Help": "Proactive improvement of the work environment is an example of initiative."
+        },
+        {
+          "question": "If you prefer your own technique over a new and improved one, you are showing:",
+          "options": [
+            "status quo bias.",
+            "competitive spirit.",
+            "herd mentality.",
+            "groupthink."
+          ],
+          "correctAnswer": "status quo bias.",
+          "Help": "Status quo bias is the tendency to stick to the existing way of doing things."
+        },
+        {
+          "question": "What is an economic service?",
+          "options": [
+            "Baseball bat",
+            "Bottle of perfume",
+            "Ticket to a football game",
+            "Eyeglasses"
+          ],
+          "correctAnswer": "Ticket to a football game",
+          "Help": "A service is an intangible activity, like watching a game."
+        },
+        {
+          "question": "A website ending in .gov is likely more __________ than a .com site.",
+          "options": [
+            "less recent",
+            "less trustworthy",
+            "more recent",
+            "more trustworthy"
+          ],
+          "correctAnswer": "more trustworthy",
+          "Help": "Government websites are subject to official verification processes."
+        },
+        {
+          "question": "What is an example of a situation where you might use problem-solving skills?",
+          "options": [
+            "Agreeing to work overtime.",
+            "Suggesting a change to a procedure.",
+            "Receiving a superior evaluation.",
+            "Being a mentor."
+          ],
+          "correctAnswer": "Suggesting a change to a procedure.",
+          "Help": "Problem-solving often involves improving existing suboptimal processes."
+        }
+      ]
+    },
+    {
+      "topic": "Management and Leadership",
+      "questions": [
+        {
+          "question": "Which characteristic of leadership is Connor exhibiting when he looks at situations in different ways?",
+          "options": [
+            "Integrity",
+            "Credibility",
+            "Authenticity",
+            "Creativity"
+          ],
+          "correctAnswer": "Creativity",
+          "Help": "Looking at problems from new angles is the definition of creative thinking."
+        },
+        {
+          "question": "Janelle and Kirk disagree about how to proceed with a project. This is a(n) __________ conflict.",
+          "options": [
+            "emotional",
+            "functional",
+            "secondary",
+            "internal"
+          ],
+          "correctAnswer": "functional",
+          "Help": "Functional conflict centers on work-related approaches rather than personal issues."
+        },
+        {
+          "question": "The manager asked for staff opinions on paint color. What style is this?",
+          "options": [
+            "Laissez-faire",
+            "Minimum input",
+            "Moderate input",
+            "Autocratic"
+          ],
+          "correctAnswer": "Moderate input",
+          "Help": "Soliciting input from specific staff constitutes moderate input."
+        },
+        {
+          "question": "How can companies reduce security risks from inattentive employees?",
+          "options": [
+            "Prohibit mobile devices.",
+            "Work only with third parties.",
+            "Encourage strong passwords.",
+            "Terminate accounts immediately."
+          ],
+          "correctAnswer": "Encourage strong passwords.",
+          "Help": "Password hygiene is a primary defense against human-factor security breaches."
+        },
+        {
+          "question": "What is the main reason that employers offer criticism?",
+          "options": [
+            "Improve social skills.",
+            "Improve personal lives.",
+            "Improve job performance.",
+            "Teach how to accept feedback."
+          ],
+          "correctAnswer": "Improve job performance.",
+          "Help": "Work-related criticism aims to optimize results and skills."
+        },
+        {
+          "question": "When salespeople show concern for customer feelings, they are demonstrating:",
+          "options": [
+            "objectivity.",
+            "conviction.",
+            "empathy.",
+            "appreciation."
+          ],
+          "correctAnswer": "empathy.",
+          "Help": "Empathy allows for better understanding of customer needs."
+        },
+        {
+          "question": "Entrepreneurs discover startup ideas by looking for gaps between current actions and:",
+          "options": [
+            "the past.",
+            "what needs to be done.",
+            "when changes were last made.",
+            "how things are done."
+          ],
+          "correctAnswer": "what needs to be done.",
+          "Help": "Market gaps are found by identifying unmet needs."
+        },
+        {
+          "question": "Which of these is a guideline for effective listening?",
+          "options": [
+            "Ask questions.",
+            "Interrupt often.",
+            "Ignore body language.",
+            "Read directions."
+          ],
+          "correctAnswer": "Ask questions.",
+          "Help": "Clarification questions confirm understanding."
+        },
+        {
+          "question": "Which form of income is unearned?",
+          "options": [
+            "Union strike benefits",
+            "Salary",
+            "Tips",
+            "Interest from a savings account"
+          ],
+          "correctAnswer": "Interest from a savings account",
+          "Help": "Unearned income comes from investments rather than active employment."
+        },
+        {
+          "question": "Rick stereotypes older workers as lacking computer skills. He is stereotyping by:",
+          "options": [
+            "age.",
+            "nationality.",
+            "politics.",
+            "gender."
+          ],
+          "correctAnswer": "age.",
+          "Help": "Stereotypes about competency based on generations refer to age."
+        }
+      ]
+    },
+    {
+      "topic": "Economic Concepts",
+      "questions": [
+        {
+          "question": "Change in the values, tastes, and habits of Americans is a component of __________ change.",
+          "options": [
+            "governmental",
+            "economic",
+            "technological",
+            "social"
+          ],
+          "correctAnswer": "social",
+          "Help": "Cultural and lifestyle shifts fall under the social change category."
+        },
+        {
+          "question": "A business selling an item for $15 today is an example of:",
+          "options": [
+            "equilibrium price.",
+            "market price.",
+            "prestige pricing.",
+            "price lining."
+          ],
+          "correctAnswer": "market price.",
+          "Help": "Market price is the price established by current supply and demand."
+        },
+        {
+          "question": "Demand is more likely to be elastic when a good is:",
+          "options": [
+            "inexpensive.",
+            "imported.",
+            "a necessity.",
+            "a luxury."
+          ],
+          "correctAnswer": "a luxury.",
+          "Help": "Non-essential items see larger demand changes when prices shift."
+        },
+        {
+          "question": "What is the purpose of a company redirecting marketing to an untapped segment?",
+          "options": [
+            "Profit",
+            "Expenses",
+            "Output",
+            "Prices"
+          ],
+          "correctAnswer": "Profit",
+          "Help": "Profitability is the primary goal of growth strategies."
+        },
+        {
+          "question": "Natural resources are limited because:",
+          "options": [
+            "technology is slow.",
+            "people lack skills.",
+            "countries cannot manufacture them.",
+            "the earth has boundaries."
+          ],
+          "correctAnswer": "the earth has boundaries.",
+          "Help": "Finite physical space and resources constrain availability."
+        },
+        {
+          "question": "What is a major purpose of goal setting?",
+          "options": [
+            "Identify wants",
+            "Achieve success",
+            "Decrease needs",
+            "Get help"
+          ],
+          "correctAnswer": "Achieve success",
+          "Help": "Goals act as a structured path toward personal or business success."
+        },
+        {
+          "question": "What is a benefit of mobile payments?",
+          "options": [
+            "Standardization",
+            "Privacy",
+            "Accessibility",
+            "Convenience"
+          ],
+          "correctAnswer": "Convenience",
+          "Help": "Mobile payments provide speed and ease for transactions."
+        },
+        {
+          "question": "What is an example of an economic input?",
+          "options": [
+            "Products",
+            "Employees",
+            "Goods",
+            "Services"
+          ],
+          "correctAnswer": "Employees",
+          "Help": "Labor is a fundamental input in production."
+        },
+        {
+          "question": "How can businesses show social responsibility?",
+          "options": [
+            "Reducing profits",
+            "Dividing profits",
+            "Maximizing profits",
+            "Controlling profits"
+          ],
+          "correctAnswer": "Maximizing profits",
+          "Help": "Higher profits allow for greater community investment."
+        },
+        {
+          "question": "The cash conversion cycle is a key focus of:",
+          "options": [
+            "Marketing",
+            "Finance",
+            "HR",
+            "Production"
+          ],
+          "correctAnswer": "Finance",
+          "Help": "Managing cash flow is a core financial responsibility."
+        }
+      ]
+    },
+    {
+      "topic": "Professional Skills",
+      "questions": [
+        {
+          "question": "What is a primary reason for taking notes during a presentation?",
+          "options": [
+            "To follow oral instructions",
+            "To write down everything said",
+            "To use complete sentences",
+            "To correct speaker grammar"
+          ],
+          "correctAnswer": "To follow oral instructions",
+          "Help": "Notes assist in retention and accurate follow-through."
+        },
+        {
+          "question": "What should Jonathan do after listening to a fan's complaint?",
+          "options": [
+            "Explain the plan of action",
+            "Thank the fan",
+            "Restate the complaint in his own words",
+            "Investigate the policy"
+          ],
+          "correctAnswer": "Thank the fan",
+          "Help": "Gratitude demonstrates empathy and professionalism."
+        },
+        {
+          "question": "Google Maps app is an example of:",
+          "options": [
+            "telecommuting.",
+            "an expert system.",
+            "hardware.",
+            "satellite technology."
+          ],
+          "correctAnswer": "satellite technology.",
+          "Help": "GPS utilizes satellite signals for navigation."
+        },
+        {
+          "question": "What type of business ownership does a lawyer with two employees likely have?",
+          "options": [
+            "LLC",
+            "Sole proprietorship",
+            "Corporation",
+            "Partnership"
+          ],
+          "correctAnswer": "Sole proprietorship",
+          "Help": "An individual owner is typically a sole proprietor."
+        },
+        {
+          "question": "Jeff asks if the crime rate decreased by 10% or 15%. This is a:",
+          "options": [
+            "relevant clarification question.",
+            "open-ended opinion question.",
+            "reflective question.",
+            "irrelevant follow-up."
+          ],
+          "correctAnswer": "relevant clarification question.",
+          "Help": "Clarifying data with specific details is relevant and effective."
+        },
+        {
+          "question": "Digital calendars help employees:",
+          "options": [
+            "manage time.",
+            "communicate.",
+            "prioritize deadlines.",
+            "delegate tasks."
+          ],
+          "correctAnswer": "manage time.",
+          "Help": "Calendars visualize schedules for better time management."
+        },
+        {
+          "question": "What is a benefit of using numbered lists in professional documents?",
+          "options": [
+            "Identifying sequential steps.",
+            "Highlighting testimonials.",
+            "Summarizing data.",
+            "Clarifying concepts."
+          ],
+          "correctAnswer": "Identifying sequential steps.",
+          "Help": "Numbers imply a specific, logical order."
+        },
+        {
+          "question": "What is an example of a business situation requiring problem-solving?",
+          "options": [
+            "Agreeing to work overtime.",
+            "Suggesting a procedure change.",
+            "Receiving a good evaluation.",
+            "Mentoring a new hire."
+          ],
+          "correctAnswer": "Suggesting a procedure change.",
+          "Help": "Proposing changes to established procedures often solves efficiency issues."
+        },
+        {
+          "question": "What is a barrier to reaching a savings goal?",
+          "options": [
+            "Loss of income",
+            "Unexpected needs",
+            "Impulsive spending",
+            "Credit overuse"
+          ],
+          "correctAnswer": "Impulsive spending",
+          "Help": "Immediate gratification often detracts from long-term financial goals."
+        },
+        {
+          "question": "What is a characteristic of effective verbal communication?",
+          "options": [
+            "Lack of clarity",
+            "Precise speech",
+            "Lack of tact",
+            "Use of slang"
+          ],
+          "correctAnswer": "Precise speech",
+          "Help": "Precision ensures the message is understood as intended."
+        }
+      ]
+    }
+  ]
+}
