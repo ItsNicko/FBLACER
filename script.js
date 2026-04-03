@@ -36,7 +36,7 @@ function isCleanUsername(name) {
     const wordLower = String(word).toLowerCase();
     const regex = new RegExp(
       "\\b" + wordLower.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b",
-      "i"
+      "i",
     );
     if (regex.test(lower)) return false;
 
@@ -82,7 +82,7 @@ async function isUsernameTaken(name) {
               await new Promise((res) =>
                 document.addEventListener("DOMContentLoaded", res, {
                   once: true,
-                })
+                }),
               );
             }
             try {
@@ -99,7 +99,7 @@ async function isUsernameTaken(name) {
         if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
         if (document.readyState === "loading") {
           await new Promise((res) =>
-            document.addEventListener("DOMContentLoaded", res, { once: true })
+            document.addEventListener("DOMContentLoaded", res, { once: true }),
           );
         }
         const user =
@@ -188,7 +188,7 @@ async function refreshAuthUi() {
   if (!username && user && window.doc && window.getDoc && window.db) {
     try {
       const snap = await window.getDoc(
-        window.doc(window.db, "users", user.uid)
+        window.doc(window.db, "users", user.uid),
       );
       username = snap?.data()?.username;
     } catch (e) {
@@ -198,7 +198,7 @@ async function refreshAuthUi() {
 
   if (document.readyState === "loading") {
     await new Promise((res) =>
-      document.addEventListener("DOMContentLoaded", res, { once: true })
+      document.addEventListener("DOMContentLoaded", res, { once: true }),
     );
   }
 
@@ -256,7 +256,7 @@ async function resolveProfileUid(clickedName) {
   // try username->uid mapping (fast path)
   try {
     const snap = await window.getDoc(
-      window.doc(window.db, "usernames", clickedName)
+      window.doc(window.db, "usernames", clickedName),
     );
     if (snap?.exists()) return cache(snap.data()?.uid);
   } catch (err) {
@@ -267,7 +267,7 @@ async function resolveProfileUid(clickedName) {
   try {
     if (/^[A-Za-z0-9_-]{12,64}$/.test(clickedName)) {
       const snap = await window.getDoc(
-        window.doc(window.db, "users", clickedName)
+        window.doc(window.db, "users", clickedName),
       );
       if (snap?.exists()) return cache(clickedName);
     }
@@ -279,7 +279,7 @@ async function resolveProfileUid(clickedName) {
   try {
     const q = window.query(
       window.collection(window.db, "users"),
-      window.where("username", "==", clickedName)
+      window.where("username", "==", clickedName),
     );
     const snap = await window.getDocs(q);
     const first = [...snap].find((doc) => doc.exists());
@@ -292,7 +292,7 @@ async function resolveProfileUid(clickedName) {
   try {
     const q = window.query(
       window.collection(window.db, "accounts"),
-      window.where("username", "==", clickedName)
+      window.where("username", "==", clickedName),
     );
     const snap = await window.getDocs(q);
     const first = [...snap].find((doc) => doc.exists());
@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!name || !password) return showPopup("Fill out both fields.");
     if (!isValidFormat(name))
       return showPopup(
-        "Username must be 3–20 characters, letters/numbers/underscores only."
+        "Username must be 3–20 characters, letters/numbers/underscores only.",
       );
     if (!isCleanUsername(name))
       return showPopup("Username contains inappropriate words.");
@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!window.authCreate) throw new Error("auth create not available");
       const userCred = await window.authCreate(
         `${name}@fblacer.local`,
-        password
+        password,
       );
       const uid = userCred.user.uid;
 
@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "settings open: cachedName, cachedUid, auth.currentUser:",
           cachedName,
           cachedUid,
-          user && user.uid
+          user && user.uid,
         );
         if (cachedName || user) {
           const displayName = cachedName || (user ? "Anonymous" : "");
@@ -586,7 +586,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (viewProfileBtn && viewProfileBtn.parentNode)
         viewProfileBtn.parentNode.insertBefore(
           viewScoresBtn,
-          viewProfileBtn.nextSibling
+          viewProfileBtn.nextSibling,
         );
     }
   } catch (e) {
@@ -962,7 +962,7 @@ function startTest() {
       }
 
       questions = currentTest.topics.flatMap((t) =>
-        t.questions.map((q) => ({ ...q, topic: t.topic }))
+        t.questions.map((q) => ({ ...q, topic: t.topic })),
       );
       shuffleArray(questions);
 
@@ -1051,11 +1051,11 @@ function generateFlashcard() {
   const optionsList = document.createElement("ul");
   optionsList.className = "options";
 
-  const explanationDiv = document.createElement("div");
-  explanationDiv.className = "explanation";
-  explanationDiv.style.display = "none";
-  explanationDiv.textContent = `Explanation: ${question.explanation}`;
-  card.appendChild(explanationDiv);
+  const HelpDiv = document.createElement("div");
+  HelpDiv.className = "Help";
+  HelpDiv.style.display = "none";
+  HelpDiv.textContent = `Help: ${question.Help}`;
+  card.appendChild(HelpDiv);
 
   let answeredCorrectly = false;
 
@@ -1100,7 +1100,7 @@ function generateFlashcard() {
         answeredCorrectly = true;
 
         Array.from(optionsList.children).forEach((opt) =>
-          opt.classList.add("answered")
+          opt.classList.add("answered"),
         );
         if (nextFlashcardTimer) {
           clearTimeout(nextFlashcardTimer);
@@ -1111,7 +1111,7 @@ function generateFlashcard() {
         }, 800);
       } else {
         li.classList.add("incorrect");
-        explanationDiv.style.display = "block";
+        HelpDiv.style.display = "block";
         handleWrong(question.topic);
       }
 
@@ -1205,9 +1205,8 @@ function showFloatingPoints(text, positive) {
 function updateStats() {
   document.getElementById("livePoints").textContent = `Points: ${totalPoints}`;
   document.getElementById("liveStreak").textContent = `Streak: ${streak}`;
-  document.getElementById(
-    "liveProgress"
-  ).textContent = `Q: ${progress.done}/${progress.total}`;
+  document.getElementById("liveProgress").textContent =
+    `Q: ${progress.done}/${progress.total}`;
 }
 
 function endTest() {
@@ -1315,7 +1314,7 @@ function endTest() {
       progress.total > 0
         ? (Object.keys(scores.topics).reduce(
             (s, t) => s + (scores.topics[t].correct || 0),
-            0
+            0,
           ) /
             progress.total) *
           100
@@ -1392,7 +1391,7 @@ function confirmEndTest() {
         if (!ok) {
           // preserve prior behavior for signed-in users: notify and don't end test on critical save failure
           showPopup(
-            "Failed to save your score. Please try again or check your connection."
+            "Failed to save your score. Please try again or check your connection.",
           );
           return;
         }
@@ -1402,7 +1401,7 @@ function confirmEndTest() {
           showToast &&
             showToast(
               "You are not signed in — your score will not be saved to an account.",
-              "info"
+              "info",
             );
         } catch (e) {
           /* ignore */
@@ -1591,7 +1590,7 @@ async function saveScoreToFirestore() {
         "users",
         uid,
         "topics",
-        historyId
+        historyId,
       );
       await window.setDoc(topicsRef, { testId, ...topicScores, timestamp });
       try {
@@ -1728,7 +1727,7 @@ function showLeaderboardOverlay(testId) {
           if (!isValidFormat(name)) {
             showToast(
               "Name must be 3–20 characters and may only contain letters, numbers, and underscores.",
-              "error"
+              "error",
             );
             try {
               if (nameInput) nameInput.focus();
@@ -1738,7 +1737,7 @@ function showLeaderboardOverlay(testId) {
           if (!isCleanUsername(name)) {
             showToast(
               "That name contains inappropriate words. Please choose a different name.",
-              "error"
+              "error",
             );
             try {
               if (nameInput) nameInput.focus();
@@ -1785,7 +1784,7 @@ function showLeaderboardOverlay(testId) {
           try {
             localStorage.setItem(
               localKey,
-              JSON.stringify({ ts: new Date().toISOString() })
+              JSON.stringify({ ts: new Date().toISOString() }),
             );
           } catch (e) {}
           const submitWrap2 = overlay.querySelector(".lb-submit");
@@ -1804,7 +1803,7 @@ function showLeaderboardOverlay(testId) {
           ) {
             showToast(
               "Failed to submit score: insufficient permissions.",
-              "error"
+              "error",
             );
           } else {
             showToast("Failed to submit score: " + msg, "error");
@@ -1827,7 +1826,7 @@ function showLeaderboardOverlay(testId) {
       if (cached) {
         console.debug(
           "Autofill: using cached/local username for lbName",
-          cached
+          cached,
         );
         nameInput.value = cached;
         nameInput.readOnly = true;
@@ -1989,13 +1988,13 @@ async function showAnalyticsOverlay(testId) {
             q = window.query(
               window.collection(window.db, "users", uid, "scores"),
               window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
             );
           } catch (e) {
             // if ordering not available, query by test id and sort locally
             q = window.query(
               window.collection(window.db, "users", uid, "scores"),
-              window.where("testId", "==", testId)
+              window.where("testId", "==", testId),
             );
           }
           const snap = await window.getDocs(q);
@@ -2075,12 +2074,12 @@ async function showAnalyticsOverlay(testId) {
             tq = window.query(
               window.collection(window.db, "users", uid, "topics"),
               window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
             );
           } catch (e) {
             tq = window.query(
               window.collection(window.db, "users", uid, "topics"),
-              window.where("testId", "==", testId)
+              window.where("testId", "==", testId),
             );
           }
           const tsnap = await window.getDocs(tq);
@@ -2118,12 +2117,12 @@ async function showAnalyticsOverlay(testId) {
           try {
             const entries = await window.leaderboardApi.fetchTopScores(
               testId,
-              1000
+              1000,
             );
             if (entries && entries.length) {
               const sum = entries.reduce(
                 (s, e) => s + (Number(e.points) || 0),
-                0
+                0,
               );
               globalAvgPoints = Math.round(sum / entries.length);
 
@@ -2237,8 +2236,8 @@ async function showAnalyticsOverlay(testId) {
     const lastPts = hasLatest
       ? Number(latestScore.totalPoints || 0)
       : historical && historical.length
-      ? Number(historical[0].points || 0)
-      : 0;
+        ? Number(historical[0].points || 0)
+        : 0;
     lastScoreEl.innerHTML = `<div style="font-weight:700;font-size:18px;">Last: ${lastPts} pts</div><div style="font-size:12px;color:var(--muted,#666);">Most recent submission</div>`;
     statsRow.appendChild(lastScoreEl);
 
@@ -2247,7 +2246,7 @@ async function showAnalyticsOverlay(testId) {
     if (historical && historical.length) {
       avg = Math.round(
         historical.reduce((s, h) => s + (Number(h.points) || 0), 0) /
-          historical.length
+          historical.length,
       );
     }
     if (!avg && hasLatest && historical.length === 0) avg = lastPts;
@@ -2278,7 +2277,7 @@ async function showAnalyticsOverlay(testId) {
       });
       if (times.length) {
         overallAvgTime = Math.round(
-          times.reduce((a, b) => a + b, 0) / times.length
+          times.reduce((a, b) => a + b, 0) / times.length,
         );
       }
     } catch (e) {}
@@ -2287,7 +2286,7 @@ async function showAnalyticsOverlay(testId) {
       timeEl.style =
         "min-width:160px;padding:10px;border-radius:8px;background:var(--surface,#f6f9fb);";
       timeEl.innerHTML = `<div style="font-weight:700;font-size:18px;">Avg time: ${Math.round(
-        overallAvgTime / 1000
+        overallAvgTime / 1000,
       )}s</div><div style="font-size:12px;color:var(--muted,#666);">Average time per question</div>`;
       statsRow.appendChild(timeEl);
     }
@@ -2312,8 +2311,8 @@ async function showAnalyticsOverlay(testId) {
     const keys = hasTopics
       ? Object.keys(topicData)
       : testTopics.length
-      ? testTopics
-      : [];
+        ? testTopics
+        : [];
     if (!keys.length) {
       topicList.textContent = "No per-topic data saved for this test.";
     } else {
@@ -2321,7 +2320,7 @@ async function showAnalyticsOverlay(testId) {
         try {
           const t = topicData && topicData[topic] ? topicData[topic] : null;
           const corr = Number(
-            (t && (t.firstAttemptCorrect || t.correct || 0)) || 0
+            (t && (t.firstAttemptCorrect || t.correct || 0)) || 0,
           );
           const tot = Number((t && (t.total || t.count || 0)) || 0);
           const pct = tot > 0 ? Math.round((corr / tot) * 100) : 0;
@@ -2383,8 +2382,8 @@ async function showAnalyticsOverlay(testId) {
         topicData && topicData.sampleQuestions
           ? topicData.sampleQuestions
           : sessionMetrics && sessionMetrics.questions
-          ? sessionMetrics.questions.slice(-10)
-          : [];
+            ? sessionMetrics.questions.slice(-10)
+            : [];
       if (sample && sample.length) {
         const sampleWrap = document.createElement("div");
         sampleWrap.style = "margin-top:12px;";
@@ -2432,12 +2431,12 @@ async function showAnalyticsOverlay(testId) {
             aq = window.query(
               window.collection(window.db, "users", uid, "analytics"),
               window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined
+              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
             );
           } catch (e) {
             aq = window.query(
               window.collection(window.db, "users", uid, "analytics"),
-              window.where("testId", "==", testId)
+              window.where("testId", "==", testId),
             );
           }
           const aSnap = await window.getDocs(aq);
@@ -2503,7 +2502,7 @@ async function showAnalyticsOverlay(testId) {
             counts[idx]++;
           });
           const labels = counts.map(
-            (_, i) => `${i * binSize}-${(i + 1) * binSize}s`
+            (_, i) => `${i * binSize}-${(i + 1) * binSize}s`,
           );
 
           const ctx = cc.getContext("2d");
@@ -2582,8 +2581,8 @@ async function showAnalyticsOverlay(testId) {
               .reverse()
               .map((x) => Number(x.points) || 0)
           : latestScore
-          ? [Number(latestScore.totalPoints || 0)]
-          : [];
+            ? [Number(latestScore.totalPoints || 0)]
+            : [];
       // labels can be simple indices or timestamps depending on data
       let labels = [];
       if (historical && historical.length) {
@@ -2703,7 +2702,7 @@ async function fetchAndRenderLeaderboard(testId) {
       throw new Error("Leaderboard API not available");
     const entries = await window.leaderboardApi.fetchTopScores(
       testId,
-      leaderboardState.limit
+      leaderboardState.limit,
     );
     renderLeaderboardEntries(entries);
   } catch (err) {
@@ -3126,7 +3125,7 @@ async function showProfileOverlay(idOrName) {
             await window.setDoc(
               window.doc(window.db, "accounts", uid),
               { avatarUrl: "" },
-              { merge: true }
+              { merge: true },
             );
             avatar.src = "https://www.gravatar.com/avatar/?d=mp&s=96";
             try {
@@ -3191,7 +3190,7 @@ async function showProfileOverlay(idOrName) {
               await window.setDoc(
                 window.doc(window.db, "accounts", uid),
                 { avatarUrl: dataUrl, lastUpdated: new Date().toISOString() },
-                { merge: true }
+                { merge: true },
               );
               try {
                 writeLog("avatar_updated", { uid });
@@ -3363,7 +3362,7 @@ async function submitScore(name, test, score) {
   function readCSSVar(name, fallback) {
     try {
       const v = getComputedStyle(document.documentElement).getPropertyValue(
-        name
+        name,
       );
       if (!v) return fallback;
       return v.trim() || fallback;
@@ -3419,7 +3418,7 @@ async function submitScore(name, test, score) {
     else canvas = canvasOrId;
     if (!canvas || canvas.tagName !== "CANVAS") {
       throw new Error(
-        "renderAleksChart requires a canvas element or canvas id"
+        "renderAleksChart requires a canvas element or canvas id",
       );
     }
 
@@ -3567,7 +3566,7 @@ async function submitScore(name, test, score) {
       ctx.fillStyle = readCSSVar("--text-color", "#102027");
       ctx.font = `600 ${Math.max(
         14,
-        baseRadius * 0.18
+        baseRadius * 0.18,
       )}px Inter, system-ui, sans-serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
@@ -3660,11 +3659,11 @@ async function submitScore(name, test, score) {
       // Position tooltip near cursor, clamp inside viewport
       const left = Math.min(
         window.innerWidth - 8 - tooltip.offsetWidth,
-        ev.clientX + 12
+        ev.clientX + 12,
       );
       const top = Math.min(
         window.innerHeight - 8 - tooltip.offsetHeight,
-        ev.clientY + 12
+        ev.clientY + 12,
       );
       tooltip.style.left = left + "px";
       tooltip.style.top = top + "px";
