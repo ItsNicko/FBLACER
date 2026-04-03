@@ -2,7 +2,7 @@
   "tests": [
     {
       "testName": "Acalympics",
-      "path": "questions/acalympics.json"
+      "path": "questions/Acalympics.json"
     },
     {
       "testName": "Accounting - FBLA",
