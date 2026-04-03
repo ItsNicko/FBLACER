@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -122,24 +122,24 @@
         authReadyResolve = res;
       });
 
-      signInAnonymously(auth)
-        .then(() => {
-          console.info("Anonymous sign-in requested");
-        })
-        .catch((err) => {
-          console.warn("Anonymous sign-in failed:", err);
-          // show error for the UI to show after DOM is ready
-          try {
-            window.anonymousSignInError =
-              err && err.message ? String(err.message) : String(err);
-          } catch (e) {
-            window.anonymousSignInError = "Anonymous sign-in failed";
-          }
-          if (authReadyResolve) authReadyResolve();
-        });
-
       onAuthStateChanged(auth, (user) => {
         console.info(user ? `Signed in uid=${user.uid}` : "Not signed in");
+        // Only sign in anonymously if user is not already authenticated
+        if (!user) {
+          signInAnonymously(auth)
+            .then(() => {
+              console.info("Anonymous sign-in fallback activated");
+            })
+            .catch((err) => {
+              console.warn("Anonymous sign-in failed:", err);
+              try {
+                window.anonymousSignInError =
+                  err && err.message ? String(err.message) : String(err);
+              } catch (e) {
+                window.anonymousSignInError = "Anonymous sign-in failed";
+              }
+            });
+        }
         if (authReadyResolve) {
           authReadyResolve();
           authReadyResolve = null;
@@ -168,7 +168,7 @@
           } else {
             console.warn(
               "Anonymous sign-in unavailable:",
-              window.anonymousSignInError
+              window.anonymousSignInError,
             );
           }
         }
@@ -178,13 +178,23 @@
       window.leaderboardApi = {
         async submitScore(testId, name, points) {
           if (!testId) throw new Error("missing testId");
-          const col = collection(db, "leaderboards", testId, "scores");
-          const docRef = await addDoc(col, {
-            name: name || "Anonymous",
-            score: Number(points) || 0,
-            timestamp: serverTimestamp(),
-          });
-          return docRef;
+          const finalScore = Math.floor(Number(points) || 0);
+
+          try {
+            const col = collection(db, "leaderboards", testId, "scores");
+
+            const docData = {
+              name: name || "Anonymous",
+              score: finalScore,
+              timestamp: serverTimestamp(),
+            };
+
+            const docRef = await addDoc(col, docData);
+            return docRef;
+          } catch (error) {
+            console.error("[leaderboardApi.submitScore]", error);
+            throw error;
+          }
         },
         async fetchTopScores(testId, limitNum = 15) {
           if (!testId) throw new Error("missing testId");
@@ -211,9 +221,37 @@
           const finalData = { ...data, uid: data.uid || auth.currentUser?.uid };
           await setDoc(
             doc(db, "leaderboards", testId, "scores", docId),
-            finalData
+            finalData,
           );
           return true;
+        },
+        async fetchUserScoresForTest(testId, uid) {
+          if (!testId) throw new Error("missing testId");
+          if (!uid) throw new Error("missing uid");
+          try {
+            const col = collection(db, "users", uid, "scores");
+            const q = query(col, where("testId", "==", testId));
+            const snap = await getDocs(q);
+            const out = [];
+            snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
+            return out;
+          } catch (e) {
+            console.warn("fetchUserScoresForTest error", e);
+            return [];
+          }
+        },
+        async fetchTestAverages(testId) {
+          if (!testId) throw new Error("missing testId");
+          try {
+            const scores = await this.fetchTopScores(testId, 100);
+            if (!scores || !scores.length) return null;
+            const sum = scores.reduce((s, e) => s + (Number(e.score) || 0), 0);
+            const averagePoints = Math.round(sum / scores.length);
+            return { averagePoints, topicAverages: null };
+          } catch (e) {
+            console.warn("fetchTestAverages error", e);
+            return null;
+          }
         },
       };
 
@@ -248,7 +286,7 @@
           await setDoc(
             dref,
             data,
-            options?.merge ? { merge: true } : undefined
+            options?.merge ? { merge: true } : undefined,
           );
           return true;
         },
@@ -401,18 +439,25 @@
           "
         >
           <h4 style="margin: 6px 0 8px 0">Login</h4>
-          <input
-            id="username"
-            type="text"
-            placeholder="Username"
-            class="report-input"
-          />
-          <input
-            id="password"
-            type="password"
-            placeholder="Password"
-            class="report-input"
-          />
+          <form
+            style="display: flex; flex-direction: column; gap: 8px"
+            onsubmit="return false;"
+          >
+            <input
+              id="username"
+              type="text"
+              placeholder="Username"
+              class="report-input"
+              autocomplete="username"
+            />
+            <input
+              id="password"
+              type="password"
+              placeholder="Password"
+              class="report-input"
+              autocomplete="current-password"
+            />
+          </form>
           <div style="display: flex; gap: 8px; margin-top: 8px">
             <button id="signupBtn">Sign Up</button>
             <button id="loginBtn">Log In</button>

@@ -237,8 +237,6 @@ async function writeLog(action, context) {
       console.warn("writeLog failed", e);
     }
   }
-
-  console.debug("writeLog:", payload);
   return false;
 }
 
@@ -506,12 +504,6 @@ document.addEventListener("DOMContentLoaded", () => {
           window.auth && window.auth.currentUser
             ? window.auth.currentUser
             : null;
-        console.debug(
-          "settings open: cachedName, cachedUid, auth.currentUser:",
-          cachedName,
-          cachedUid,
-          user && user.uid,
-        );
         if (cachedName || user) {
           const displayName = cachedName || (user ? "Anonymous" : "");
           try {
@@ -1150,6 +1142,7 @@ function handleCorrect(topic) {
     loseStreak = 0;
     const pts = Math.round(100 + 100 * streak * 0.15);
     totalPoints += pts;
+
     showFloatingPoints(`+${pts} pts`, true);
   } else {
     streak = 0;
@@ -1546,270 +1539,223 @@ async function saveScoreToFirestore() {
 
     const testId = currentTest?.testName || "unknown";
     const timestamp = new Date().toISOString();
-    let topicScores = {};
 
-    // create a timestamped score document (append-only)
-    let historyId = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
-    try {
-      const scoreRef = window.doc(window.db, "users", uid, "scores", historyId);
-      await window.setDoc(scoreRef, { testId, totalPoints, timestamp });
-      try {
-        writeLog("save_score", { testId, totalPoints, historyId });
-      } catch {}
-    } catch (e) {
-      console.warn("save score failed", e);
-      return false; // <-- CRITICAL FAILURE
-    }
+    // build topic breakdown
+    const topicBreakdown = {};
+    Object.keys(scores.topics || {}).forEach((topic) => {
+      const s = scores.topics[topic] || {};
+      const firstAttemptCorrect = Number(s.firstAttemptCorrect || 0);
+      const total = Number(s.total || 0);
+      const tmetrics = sessionMetrics?.topics?.[topic] || null;
 
-    // save compact topic breakdown snapshot
-    try {
-      topicScores = {};
-      Object.keys(scores.topics || {}).forEach((topic) => {
-        const s = scores.topics[topic] || {};
-        const firstAttemptCorrect = Number(s.firstAttemptCorrect || 0);
-        const total = Number(s.total || 0);
-        const tmetrics = sessionMetrics?.topics?.[topic] || null;
-
-        let avgTimeMs = null;
-        if (tmetrics?.times?.length) {
-          const sum = tmetrics.times.reduce((a, b) => a + b, 0);
-          avgTimeMs = Math.round(sum / tmetrics.times.length);
-        }
-        topicScores[topic] = { firstAttemptCorrect, total, avgTimeMs };
-      });
-
-      // include small sample of question-level data
-      const qsample = Array.isArray(sessionMetrics?.questions)
-        ? sessionMetrics.questions.slice(-25)
-        : [];
-      if (qsample.length) topicScores.sampleQuestions = qsample;
-
-      // the topic snapshot uses same history id so pieces stay linked
-      const topicsRef = window.doc(
-        window.db,
-        "users",
-        uid,
-        "topics",
-        historyId,
-      );
-      await window.setDoc(topicsRef, { testId, ...topicScores, timestamp });
-      try {
-        writeLog("save_topics", {
-          testId,
-          topicCount: Object.keys(topicScores).length,
-        });
-      } catch {}
-    } catch (e) {
-      console.warn("save topics failed", e);
-      return false; // <-- CRITICAL FAILURE
-    }
-
-    // persist detailed analytics (optional)
-    try {
-      // detailed analytics saved as separate historical doc for inspection
-      await persistFullAnalytics(uid, testId, sessionMetrics);
-    } catch (e) {
-      console.warn("persistFullAnalytics failed", e);
-      // analytics failures shouldn't block user from finishing save
-    }
-
-    // mirror summary to /accounts/{uid} (compat)
-    try {
-      const accountsRef = window.doc(window.db, "accounts", uid);
-      let cachedName = null;
-      try {
-        cachedName = localStorage.getItem("fblacer_username");
-      } catch {}
-      try {
-        const mapName = cachedName || "Anonymous";
-        await window.setDoc(window.doc(window.db, "usernames", mapName), {
-          uid,
-        });
-      } catch (e) {}
-
-      const accountPayload = {
-        lastUpdated: timestamp,
-        username: cachedName || undefined,
-        tests: { [testId]: { totalPoints, timestamp } },
-        topics: { [testId]: topicScores },
-      };
-
-      if (window.runTransaction) {
-        await window.runTransaction(window.db, async (tx) => {
-          const snap = await tx.get(accountsRef);
-          let base = snap?.exists() ? snap.data() : {};
-          const merged = {
-            ...base,
-            lastUpdated: timestamp,
-            username: accountPayload.username || base.username,
-            tests: { ...(base.tests || {}), ...accountPayload.tests },
-            topics: { ...(base.topics || {}), ...accountPayload.topics },
-          };
-          tx.set(accountsRef, merged);
-        });
-      } else {
-        await window.setDoc(accountsRef, accountPayload, { merge: true });
+      let avgTimeMs = null;
+      if (tmetrics?.times?.length) {
+        const sum = tmetrics.times.reduce((a, b) => a + b, 0);
+        avgTimeMs = Math.round(sum / tmetrics.times.length);
       }
+      topicBreakdown[topic] = { firstAttemptCorrect, total, avgTimeMs };
+    });
 
-      try {
-        writeLog("mirror_accounts", {
-          testId,
-          totalPoints,
-          topicCount: Object.keys(topicScores).length,
-        });
-      } catch {}
-    } catch (e) {
-      console.warn("mirror accounts error", e);
-      // if mirror fails, app still worked; don't treat as fatal
-    }
+    // sample of recent questions
+    const questionSample = Array.isArray(sessionMetrics?.questions)
+      ? sessionMetrics.questions.slice(-25)
+      : [];
+
+    // save everything in ONE document per test submission
+    const docId = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
+    const scoreRef = window.doc(window.db, "users", uid, "scores", docId);
+
+    const scoreData = {
+      testId,
+      totalPoints,
+      timestamp,
+      topics: topicBreakdown,
+      questions: questionSample,
+    };
+
+    await window.setDoc(scoreRef, scoreData);
+
+    try {
+      writeLog("save_score", { testId, totalPoints, docId });
+    } catch (e) {}
 
     showToast("Saved score to your account", "success");
     return true;
   } catch (e) {
     console.warn("saveScoreToFirestore error", e);
+    showToast("Failed to save score", "error");
     return false;
   }
 }
 
-let leaderboardState = { limit: 15, lastLoaded: null };
+let leaderboardState = { limit: 15, lastLoaded: null, currentTest: null };
 
 function showLeaderboardOverlay(testId) {
   let overlay = document.getElementById("lbOverlay");
+
   if (!overlay) {
     overlay = document.createElement("div");
     overlay.id = "lbOverlay";
     overlay.className = "lb-overlay";
-    overlay.innerHTML = `
-      <div class="lb-panel">
-        <button class="lb-close" aria-label="Close">×</button>
-        <h3 class="lb-title">Leaderboard</h3>
-        <div class="lb-subtitle">Top scores for: <span id="lb-test-name"></span></div>
-        <div class="lb-list" id="lbList" role="list"></div>
-        <div class="lb-bottom">
-          <div class="lb-controls">
-            <button id="lbShowMore">Show more</button>
-          </div>
-          <div class="lb-submit">
-            <input id="lbName" placeholder="Your name" maxlength="30" />
-            <button id="lbSubmitBtn">Submit score</button>
-          </div>
+    document.body.appendChild(overlay);
+  }
+
+  // Always reset the content to ensure fresh state
+  overlay.innerHTML = `
+    <div class="lb-panel">
+      <button class="lb-close" aria-label="Close">×</button>
+      <h3 class="lb-title">Leaderboard</h3>
+      <div class="lb-subtitle">Top scores for: <span id="lb-test-name"></span></div>
+      <div class="lb-list" id="lbList" role="list"></div>
+      <div class="lb-bottom">
+        <div class="lb-controls">
+          <button id="lbShowMore">Show more</button>
+        </div>
+        <div class="lb-submit">
+          <input id="lbName" placeholder="Your name" maxlength="30" autocomplete="off" />
+          <button id="lbSubmitBtn">Submit score</button>
         </div>
       </div>
-    `;
-    document.body.appendChild(overlay);
+    </div>
+  `;
 
-    overlay
-      .querySelector(".lb-close")
-      .addEventListener("click", closeLeaderboard);
-    overlay
-      .querySelector("#lbShowMore")
-      .addEventListener("click", async (e) => {
-        leaderboardState.limit += 15;
-        await fetchAndRenderLeaderboard(testId);
-      });
-    overlay
-      .querySelector("#lbSubmitBtn")
-      .addEventListener("click", async () => {
-        const nameInput = document.getElementById("lbName");
-        const name = (nameInput || {}).value ? nameInput.value.trim() : "";
-        // disallow empty leaderboard names
-        if (!name) {
-          showToast("Please enter your name to submit a score.", "error");
+  // Re-attach close button listener
+  const closeBtn = overlay.querySelector(".lb-close");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", closeLeaderboard);
+  }
+
+  // Always update or attach these event listeners to ensure they work with current testId
+  const btnShowMore = overlay.querySelector("#lbShowMore");
+  if (btnShowMore) {
+    btnShowMore.onclick = async () => {
+      leaderboardState.limit += 15;
+      await fetchAndRenderLeaderboard(testId);
+    };
+  }
+
+  const btnSubmit = overlay.querySelector("#lbSubmitBtn");
+  if (btnSubmit) {
+    btnSubmit.onclick = async () => {
+      const nameInput = document.getElementById("lbName");
+      const name = (nameInput || {}).value ? nameInput.value.trim() : "";
+      // disallow empty leaderboard names
+      if (!name) {
+        showToast("Please enter your name to submit a score.", "error");
+        try {
+          if (nameInput) {
+            nameInput.focus();
+          }
+        } catch (e) {}
+        return;
+      }
+      // validate leaderboard name (format, banned words)
+      try {
+        if (!isValidFormat(name)) {
+          showToast(
+            "Name must be 3–20 characters and may only contain letters, numbers, and underscores.",
+            "error",
+          );
           try {
-            if (nameInput) {
-              nameInput.focus();
-            }
+            if (nameInput) nameInput.focus();
           } catch (e) {}
           return;
         }
-        // validate leaderboard name (format, banned words)
-        try {
-          if (!isValidFormat(name)) {
-            showToast(
-              "Name must be 3–20 characters and may only contain letters, numbers, and underscores.",
-              "error",
-            );
-            try {
-              if (nameInput) nameInput.focus();
-            } catch (e) {}
-            return;
-          }
-          if (!isCleanUsername(name)) {
-            showToast(
-              "That name contains inappropriate words. Please choose a different name.",
-              "error",
-            );
-            try {
-              if (nameInput) nameInput.focus();
-            } catch (e) {}
-            return;
-          }
-        } catch (e) {
-          console.warn("username validation failed", e);
-        }
-        try {
-          if (!window.leaderboardApi || !window.leaderboardApi.submitScore)
-            throw new Error("Leaderboard API not available");
-          if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
-          if (!totalPoints || Number(totalPoints) === 0) {
-            showToast("Cannot submit a score of 0.", "error");
-            return;
-          }
-          const localKey = `fblacer_sub_${testId}||${name}||${totalPoints}`;
-          if (localStorage.getItem(localKey)) {
-            showToast("You can only submit the same score once.", "info");
-            const submitWrap = overlay.querySelector(".lb-submit");
-            if (submitWrap) submitWrap.remove();
-            return;
-          }
-          await window.leaderboardApi.submitScore(testId, name, totalPoints);
-          // log leaderboard submission
+        if (!isCleanUsername(name)) {
+          showToast(
+            "That name contains inappropriate words. Please choose a different name.",
+            "error",
+          );
           try {
-            writeLog("leaderboard_submit", {
-              testId,
-              name,
-              points: totalPoints,
-            });
-          } catch (e) {
-            console.warn("leaderboard_submit log failed", e);
-          }
-          // persist score to user's private history when possible
-          try {
-            await saveScoreToFirestore();
-          } catch (e) {
-            /* ignore */
-          }
-          await fetchAndRenderLeaderboard(testId);
-          document.getElementById("lbName").value = "";
-          try {
-            localStorage.setItem(
-              localKey,
-              JSON.stringify({ ts: new Date().toISOString() }),
-            );
+            if (nameInput) nameInput.focus();
           } catch (e) {}
-          const submitWrap2 = overlay.querySelector(".lb-submit");
-          if (submitWrap2) {
-            const note = document.createElement("div");
-            note.className = "lb-submitted";
-            note.textContent = "Sent successfully";
-            submitWrap2.parentNode.replaceChild(note, submitWrap2);
-          }
-          showToast("Sent successfully", "success");
-        } catch (err) {
-          const msg = err && err.message ? err.message : String(err);
-          if (
-            msg.toLowerCase().includes("permission") ||
-            msg.toLowerCase().includes("missing")
-          ) {
-            showToast(
-              "Failed to submit score: insufficient permissions.",
-              "error",
-            );
-          } else {
-            showToast("Failed to submit score: " + msg, "error");
-          }
+          return;
         }
-      });
+      } catch (e) {
+        console.warn("username validation failed", e);
+      }
+      try {
+        if (!window.leaderboardApi || !window.leaderboardApi.submitScore)
+          throw new Error("Leaderboard API not available");
+        if (window.leaderboardAuthReady) {
+          await window.leaderboardAuthReady;
+        }
+        const finalScore = Number(totalPoints) || 0;
+        if (finalScore === 0) {
+          showToast(
+            "Cannot submit a score of 0. Answer at least one question correctly.",
+            "error",
+          );
+          return;
+        }
+        const localKey = `fblacer_sub_${testId}||${name}||${finalScore}`;
+        if (localStorage.getItem(localKey)) {
+          showToast("You can only submit the same score once.", "info");
+          const submitWrap = overlay.querySelector(".lb-submit");
+          if (submitWrap) submitWrap.remove();
+          return;
+        }
+
+        // Submit to leaderboard public collection
+        const result = await window.leaderboardApi.submitScore(
+          testId,
+          name,
+          finalScore,
+        );
+
+        // log leaderboard submission
+        try {
+          writeLog("leaderboard_submit", {
+            testId,
+            name,
+            points: finalScore,
+          });
+        } catch (e) {
+          console.warn("leaderboard_submit log failed", e);
+        }
+        // persist score to user's private history when possible
+        try {
+          await saveScoreToFirestore();
+        } catch (e) {
+          console.warn("saveScoreToFirestore failed", e);
+        }
+        await fetchAndRenderLeaderboard(testId);
+        document.getElementById("lbName").value = "";
+        try {
+          localStorage.setItem(
+            localKey,
+            JSON.stringify({ ts: new Date().toISOString() }),
+          );
+        } catch (e) {}
+        const submitWrap2 = overlay.querySelector(".lb-submit");
+        if (submitWrap2) {
+          const note = document.createElement("div");
+          note.className = "lb-submitted";
+          note.textContent = "Sent successfully";
+          submitWrap2.parentNode.replaceChild(note, submitWrap2);
+        }
+        showToast("Sent successfully", "success");
+      } catch (err) {
+        console.error("[lbSubmitBtn ERROR]", err);
+        const msg = err && err.message ? err.message : String(err);
+        if (
+          msg.toLowerCase().includes("permission") ||
+          msg.toLowerCase().includes("denied")
+        ) {
+          showToast(
+            "Failed to submit score: insufficient permissions. Check Firestore rules.",
+            "error",
+          );
+        } else if (
+          msg.toLowerCase().includes("missing") ||
+          msg.toLowerCase().includes("not available")
+        ) {
+          showToast("Failed: " + msg, "error");
+        } else {
+          showToast("Failed to submit score: " + msg, "error");
+        }
+      }
+    };
   }
 
   const testNameEl = document.getElementById("lb-test-name");
@@ -1824,10 +1770,6 @@ function showLeaderboardOverlay(testId) {
         (localStorage.getItem && localStorage.getItem("fblacer_username")) ||
         null;
       if (cached) {
-        console.debug(
-          "Autofill: using cached/local username for lbName",
-          cached,
-        );
         nameInput.value = cached;
         nameInput.readOnly = true;
         nameInput.setAttribute("aria-readonly", "true");
@@ -1855,7 +1797,14 @@ function showLeaderboardOverlay(testId) {
     listEl.style.maxHeight = "56vh";
   }
   document.body.style.overflow = "hidden";
-  leaderboardState.limit = 15;
+  // Only reset limit if this is a different test
+  if (
+    !leaderboardState.currentTest ||
+    leaderboardState.currentTest !== testId
+  ) {
+    leaderboardState.limit = 15;
+    leaderboardState.currentTest = testId;
+  }
   // note: previous firestore fetch removed to avoid client permission issues
   fetchAndRenderLeaderboard(testId);
 }
@@ -1982,21 +1931,11 @@ async function showAnalyticsOverlay(testId) {
         window.db
       ) {
         try {
-          let q;
-          try {
-            // order query by timestamp when available
-            q = window.query(
-              window.collection(window.db, "users", uid, "scores"),
-              window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
-            );
-          } catch (e) {
-            // if ordering not available, query by test id and sort locally
-            q = window.query(
-              window.collection(window.db, "users", uid, "scores"),
-              window.where("testId", "==", testId),
-            );
-          }
+          // query without orderBy to avoid needing composite indexes
+          const q = window.query(
+            window.collection(window.db, "users", uid, "scores"),
+            window.where("testId", "==", testId),
+          );
           const snap = await window.getDocs(q);
           if (snap && typeof snap.forEach === "function") {
             snap.forEach((d) => {
@@ -2006,6 +1945,12 @@ async function showAnalyticsOverlay(testId) {
               } catch (e) {}
             });
           }
+          // sort by timestamp locally
+          savedHistory.sort((a, b) => {
+            const ta = new Date(a.timestamp || a.createdAt || 0).getTime() || 0;
+            const tb = new Date(b.timestamp || b.createdAt || 0).getTime() || 0;
+            return tb - ta;
+          });
         } catch (e) {
           console.warn("query saved scores failed", e);
           savedHistory = [];
@@ -2059,41 +2004,12 @@ async function showAnalyticsOverlay(testId) {
     else if (historical && historical.length) latestScore = historical[0];
 
     // for per-topic detail prefer user's most recent topic breakdown
+    // now stored within the score documents themselves
     let topicData = {};
     try {
-      if (
-        window.collection &&
-        window.getDocs &&
-        window.query &&
-        window.where &&
-        window.db
-      ) {
-        try {
-          let tq;
-          try {
-            tq = window.query(
-              window.collection(window.db, "users", uid, "topics"),
-              window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
-            );
-          } catch (e) {
-            tq = window.query(
-              window.collection(window.db, "users", uid, "topics"),
-              window.where("testId", "==", testId),
-            );
-          }
-          const tsnap = await window.getDocs(tq);
-          let first = null;
-          if (tsnap && typeof tsnap.forEach === "function") {
-            tsnap.forEach((d) => {
-              if (!first) first = d;
-            });
-          }
-          if (first) topicData = first.data ? first.data() : first._data || {};
-        } catch (e) {
-          console.warn("query topics failed", e);
-          topicData = {};
-        }
+      if (savedHistory && savedHistory.length) {
+        const mostRecent = savedHistory[0];
+        topicData = mostRecent.topics || {};
       }
     } catch (e) {
       console.warn("fetch topic breakdown failed", e);
@@ -2121,7 +2037,7 @@ async function showAnalyticsOverlay(testId) {
             );
             if (entries && entries.length) {
               const sum = entries.reduce(
-                (s, e) => s + (Number(e.points) || 0),
+                (s, e) => s + (Number(e.score || e.points) || 0),
                 0,
               );
               globalAvgPoints = Math.round(sum / entries.length);
@@ -2236,7 +2152,7 @@ async function showAnalyticsOverlay(testId) {
     const lastPts = hasLatest
       ? Number(latestScore.totalPoints || 0)
       : historical && historical.length
-        ? Number(historical[0].points || 0)
+        ? Number(historical[0].score || historical[0].points || 0)
         : 0;
     lastScoreEl.innerHTML = `<div style="font-weight:700;font-size:18px;">Last: ${lastPts} pts</div><div style="font-size:12px;color:var(--muted,#666);">Most recent submission</div>`;
     statsRow.appendChild(lastScoreEl);
@@ -2245,7 +2161,7 @@ async function showAnalyticsOverlay(testId) {
     let avg = 0;
     if (historical && historical.length) {
       avg = Math.round(
-        historical.reduce((s, h) => s + (Number(h.points) || 0), 0) /
+        historical.reduce((s, h) => s + (Number(h.score || h.points) || 0), 0) /
           historical.length,
       );
     }
@@ -2415,60 +2331,32 @@ async function showAnalyticsOverlay(testId) {
       }
     } catch (e) {}
 
-    // fetch latest question-level analytics doc
-    let analyticsDoc = null;
+    // fetch latest question-level data from saved score doc
+    let questionSample = [];
     try {
-      if (
-        window.collection &&
-        window.getDocs &&
-        window.query &&
-        window.where &&
-        window.db
-      ) {
-        try {
-          let aq;
-          try {
-            aq = window.query(
-              window.collection(window.db, "users", uid, "analytics"),
-              window.where("testId", "==", testId),
-              window.orderBy ? window.orderBy("timestamp", "desc") : undefined,
-            );
-          } catch (e) {
-            aq = window.query(
-              window.collection(window.db, "users", uid, "analytics"),
-              window.where("testId", "==", testId),
-            );
-          }
-          const aSnap = await window.getDocs(aq);
-          let first = null;
-          if (aSnap && typeof aSnap.forEach === "function") {
-            aSnap.forEach((d) => {
-              if (!first) first = d;
-            });
-          }
-          if (first)
-            analyticsDoc = first.data ? first.data() : first._data || null;
-        } catch (e) {
-          console.warn("query analytics failed", e);
-          analyticsDoc = null;
-        }
+      if (savedHistory && savedHistory.length) {
+        const mostRecent = savedHistory[0];
+        questionSample = mostRecent.questions || [];
       }
     } catch (e) {
-      console.warn("fetch analytics doc failed", e);
-      analyticsDoc = null;
+      console.warn("fetch question sample failed", e);
+      questionSample = [];
     }
 
-    // from analytics doc build simple histograms showing timing distributions
+    // from question sample build simple histograms showing timing distributions
     try {
-      const ad = analyticsDoc || null;
       const topicHistWrap = document.createElement("div");
       topicHistWrap.style =
         "margin-top:12px;display:flex;flex-wrap:wrap;gap:12px;";
       let histCount = 0;
-      if (ad && Array.isArray(ad.questions) && ad.questions.length) {
+      if (
+        questionSample &&
+        Array.isArray(questionSample) &&
+        questionSample.length
+      ) {
         // group recorded times by topic
         const groups = {};
-        ad.questions.forEach((q) => {
+        questionSample.forEach((q) => {
           try {
             if (!groups[q.topic]) groups[q.topic] = [];
             groups[q.topic].push(Number(q.elapsedMs) || 0);
@@ -2579,7 +2467,7 @@ async function showAnalyticsOverlay(testId) {
           ? historical
               .slice()
               .reverse()
-              .map((x) => Number(x.points) || 0)
+              .map((x) => Number(x.score || x.points) || 0)
           : latestScore
             ? [Number(latestScore.totalPoints || 0)]
             : [];
@@ -2591,7 +2479,14 @@ async function showAnalyticsOverlay(testId) {
           .reverse()
           .map((h, i) => {
             try {
-              return new Date(h.createdAt).toLocaleString();
+              const ts = h.timestamp || h.createdAt;
+              let d = null;
+              if (!ts) d = null;
+              else if (typeof ts.toDate === "function") d = ts.toDate();
+              else if (ts.seconds) d = new Date(Number(ts.seconds) * 1000);
+              else d = new Date(ts);
+              if (d && !isNaN(d.getTime())) return d.toLocaleString();
+              else return String(i + 1);
             } catch (e) {
               return String(i + 1);
             }
@@ -2696,7 +2591,7 @@ function closeLeaderboard() {
 async function fetchAndRenderLeaderboard(testId) {
   const listEl = document.getElementById("lbList");
   if (!listEl) return;
-  listEl.innerHTML = '<div class="lb-loading">Loading\u0000</div>';
+  listEl.innerHTML = '<div class="lb-loading">Loading...</div>';
   try {
     if (!window.leaderboardApi || !window.leaderboardApi.fetchTopScores)
       throw new Error("Leaderboard API not available");
@@ -2724,7 +2619,7 @@ function renderLeaderboardEntries(entries) {
     item.className = "lb-item";
     let tsText = "";
     try {
-      const ts = e.createdAt;
+      const ts = e.timestamp || e.createdAt;
       let d = null;
       if (!ts) d = null;
       else if (typeof ts.toDate === "function") d = ts.toDate();
@@ -2781,7 +2676,7 @@ function renderLeaderboardEntries(entries) {
     nameWrap.appendChild(tsEl);
     const points = document.createElement("div");
     points.className = "lb-points";
-    points.textContent = String(Number(e.points) || 0);
+    points.textContent = String(Number(e.score) || 0);
     item.appendChild(rank);
     item.appendChild(nameWrap);
     item.appendChild(points);
@@ -2838,6 +2733,9 @@ async function grantAchievement(uid, achievementName) {
         });
         tx.set(accRef, merged);
       });
+      try {
+        writeLog("grantAchievement_transaction", { uid, achievementName });
+      } catch (e) {}
     } else if (window.doc && window.setDoc && window.db) {
       const accRef = window.doc(window.db, "accounts", uid);
       try {
@@ -2849,7 +2747,10 @@ async function grantAchievement(uid, achievementName) {
           achievements: ach,
           lastUpdated: ts,
         });
-        await window.setDoc(accRef, merged);
+        await window.setDoc(accRef, merged, { merge: true });
+        try {
+          writeLog("grantAchievement_setDoc", { uid, achievementName });
+        } catch (e) {}
       } catch (e) {
         console.warn("grantAchievement failed", e);
       }
@@ -2864,30 +2765,14 @@ async function grantAchievement(uid, achievementName) {
 
 // --- persist full analytics document when saving score ---
 async function persistFullAnalytics(uid, testId, metrics) {
+  // Analytics data is now stored within the score document itself
+  // This function is kept for compatibility but does nothing
   try {
     if (!uid || !testId || !metrics) return false;
-    if (window.doc && window.setDoc && window.db) {
-      // write analytics as new historical doc so previous analytics preserved
-      const id = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
-      const ref = window.doc(window.db, "users", uid, "analytics", id);
-      const payload = {
-        testId,
-        questions: metrics.questions || [],
-        topics: metrics.topics || {},
-        timestamp: new Date().toISOString(),
-      };
-      await window.setDoc(ref, payload);
-      try {
-        writeLog("persistFullAnalytics", {
-          uid,
-          testId,
-          count: payload.questions.length,
-        });
-      } catch (e) {}
-      return true;
-    }
+    // Main save is now in saveScoreToFirestore() which includes questions
+    return true;
   } catch (e) {
-    console.warn("persistFullAnalytics failed", e);
+    console.warn("persistFullAnalytics error", e);
   }
   return false;
 }
