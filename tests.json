@@ -183,6 +183,34 @@
     {
       "testName": "Technology Support and Services - FBLA",
       "path": "questions/Technology-Support-and-Services.json"
+    },
+    {
+      "testName": "Techbowl - TSA",
+      "path": "questions/Techbowl.json"
+    },
+    {
+      "testName": "Personal Financial Literacy - DECA",
+      "path": "questions/Personal-Financial-Literacy.json"
+    },
+    {
+      "testName": "Marketing - DECA",
+      "path": "questions/Marketing-deca.json"
+    },
+    {
+      "testName": "Finance - DECA",
+      "path": "questions/Finance.json"
+    },
+    {
+      "testName": "Entrepreneurship - DECA",
+      "path": "questions/Entrepreneurship-deca.json"
+    },
+    {
+      "testName": "Business Management and Administration Comprehensive Assessment - DECA",
+      "path": "questions/Business-Management-deca.json"
+    },
+    {
+      "testName": "Business Administration - DECA",
+      "path": "questions/Buisness-Administration.json"
     }
   ]
 }
