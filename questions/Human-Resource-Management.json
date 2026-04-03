@@ -1,1119 +1,1024 @@
+
 {
-  "testName": "Human Resource Management",
+  "testName": "Human Resource Management Competitive Test",
   "topics": [
     {
-      "topic": "Staff — part 1",
+      "topic": "Staff",
       "questions": [
         {
-          "question": "Why is employee confidentiality important in HR management?",
+          "question": "Why is maintaining employee confidentiality crucial in human resource management?",
           "options": [
-            "It protects personal data",
-            "It increases profits directly",
-            "It replaces performance reviews",
-            "It reduces training needs"
+            "To simplify data entry processes",
+            "To comply with privacy laws and build trust",
+            "To reduce the number of employee grievances",
+            "To limit the spread of company news"
           ],
-          "correctAnswer": "It protects personal data",
-          "explanation": "Employee confidentiality safeguards sensitive personal and professional information, maintaining trust and legal compliance."
+          "correctAnswer": "To comply with privacy laws and build trust",
+          "Help": "Employee confidentiality protects sensitive personal and professional information."
         },
         {
-          "question": "What are transitional employees?",
+          "question": "Which of the following best defines a transitional employee?",
           "options": [
-            "Employees in temporary roles",
-            "Long-term managers",
-            "Interns only",
-            "Employees resistant to change"
+            "An employee promoted to a new department",
+            "An employee hired for a short-term project or to fill a temporary need",
+            "An employee undergoing a career change within the same company",
+            "An employee approaching retirement"
           ],
-          "correctAnswer": "Employees in temporary roles",
-          "explanation": "Transitional employees are those moving between positions or jobs; HR must address their unique training and integration needs."
+          "correctAnswer": "An employee hired for a short-term project or to fill a temporary need",
+          "Help": "Transitional employees are typically temporary, contingent, or seasonal workers."
         },
         {
-          "question": "Which planning technique forecasts HR needs?",
+          "question": "What is the primary purpose of workforce forecasting in the hiring process?",
           "options": [
+            "To predict future employee performance",
+            "To estimate future labor demand and supply",
+            "To analyze past recruitment successes",
+            "To determine current employee satisfaction"
+          ],
+          "correctAnswer": "To estimate future labor demand and supply",
+          "Help": "Forecasting helps organizations plan for future staffing needs."
+        },
+        {
+          "question": "Which planning technique focuses on identifying and developing internal employees to fill critical future roles?",
+          "options": [
+            "Outsourcing",
+            "Job analysis",
             "Succession planning",
-            "Job rotation",
-            "Team recruiting",
-            "Onboarding"
+            "Labor market analysis"
           ],
           "correctAnswer": "Succession planning",
-          "explanation": "Succession planning anticipates future staffing requirements to ensure continuity and organizational stability."
+          "Help": "Succession planning ensures continuity in leadership and key positions."
         },
         {
-          "question": "What is the first stage of job analysis?",
+          "question": "Which of the following is typically the first stage in a comprehensive job analysis?",
           "options": [
-            "Collecting job data",
-            "Training employees",
+            "Developing a job description",
+            "Collecting information on tasks and duties",
+            "Selecting employees for the role",
+            "Identifying training needs"
+          ],
+          "correctAnswer": "Collecting information on tasks and duties",
+          "Help": "Job analysis begins with gathering data about the job's content, context, and requirements."
+        },
+        {
+          "question": "How do labor market statistics primarily influence the recruitment process?",
+          "options": [
+            "By dictating internal promotion policies",
+            "By determining employee benefit packages",
+            "By informing salary benchmarks and talent availability",
+            "By evaluating employee performance"
+          ],
+          "correctAnswer": "By informing salary benchmarks and talent availability",
+          "Help": "Labor market statistics provide insights into the supply and demand for specific skills and the going wage rates."
+        },
+        {
+          "question": "Which recruitment strategy focuses on encouraging current employees to refer qualified candidates?",
+          "options": [
+            "Social media recruiting",
+            "Employee referral programs",
+            "Executive search firms",
+            "Job board postings"
+          ],
+          "correctAnswer": "Employee referral programs",
+          "Help": "Employee referral programs leverage existing employees' networks."
+        },
+        {
+          "question": "What is 'team recruiting'?",
+          "options": [
+            "Recruiting an entire department from another company",
+            "A process where a group of employees are hired simultaneously for multiple roles",
+            "A method where multiple individuals from a hiring team collaboratively interview and select candidates",
+            "Recruiting athletes to form a company sports team"
+          ],
+          "correctAnswer": "A method where multiple individuals from a hiring team collaboratively interview and select candidates",
+          "Help": "Team recruiting involves a collective effort from various stakeholders in the hiring process."
+        },
+        {
+          "question": "Which of the following is NOT a typical stage in the employee selection process?",
+          "options": [
+            "Initial screening",
+            "Interviewing candidates",
             "Performance appraisal",
-            "Hiring process"
+            "Reference checks"
           ],
-          "correctAnswer": "Collecting job data",
-          "explanation": "Job analysis begins by gathering information on job duties, responsibilities, and required qualifications."
+          "correctAnswer": "Performance appraisal",
+          "Help": "Performance appraisal occurs after an employee has been hired, not during selection."
         },
         {
-          "question": "How do labor market statistics influence recruitment?",
+          "question": "In the context of employee selection, what is a key legal issue associated with pre-employment testing?",
           "options": [
-            "They guide salary offers",
-            "They replace interviews",
-            "They automate HR decisions",
-            "They eliminate background checks"
+            "Ensuring tests are enjoyable for candidates",
+            "Verifying tests are cost-effective",
+            "Ensuring tests are job-related and do not discriminate",
+            "Using tests that are widely available online"
           ],
-          "correctAnswer": "They guide salary offers",
-          "explanation": "Labor market data helps HR set competitive salaries and understand availability of skilled candidates."
+          "correctAnswer": "Ensuring tests are job-related and do not discriminate",
+          "Help": "Tests must be validated to predict job performance and avoid adverse impact."
         },
         {
-          "question": "What is team recruiting?",
+          "question": "What is the primary importance of conducting thorough reference checks during the employee selection process?",
           "options": [
-            "Recruiting conducted by a team of employees",
-            "Solo HR interviews",
-            "Recruitment via online ads only",
-            "Temporary hiring"
+            "To gather personal anecdotes about the candidate",
+            "To confirm information provided by the candidate and assess past performance",
+            "To identify potential competitors for the role",
+            "To verify the candidate's social media presence"
           ],
-          "correctAnswer": "Recruiting conducted by a team of employees",
-          "explanation": "Team recruiting involves multiple HR or departmental members collaborating in selecting the best candidate."
+          "correctAnswer": "To confirm information provided by the candidate and assess past performance",
+          "Help": "Reference checks help validate credentials and gain insights into a candidate's work history and behavior."
         },
         {
-          "question": "Why are reference checks important?",
+          "question": "Which type of interview question is most effective for assessing a candidate's problem-solving skills?",
           "options": [
-            "They validate candidate information",
-            "They replace interviews",
-            "They guarantee performance",
-            "They decide salary"
+            "Questions about their favorite hobby",
+            "Behavioral questions asking about past experiences (e.g., 'Tell me about a time...')",
+            "Hypothetical questions about future aspirations",
+            "Closed-ended questions requiring a 'yes' or 'no' answer"
           ],
-          "correctAnswer": "They validate candidate information",
-          "explanation": "Reference checks verify employment history, skills, and character to ensure a qualified hire."
+          "correctAnswer": "Behavioral questions asking about past experiences (e.g., 'Tell me about a time...')",
+          "Help": "Behavioral questions prompt candidates to describe how they handled specific situations, revealing their actual skills and behaviors."
         },
         {
-          "question": "(Hard) Which is a challenging question about Staff — part 1?",
+          "question": "Which of the following is considered a contingency factor associated with a job offer?",
           "options": [
-            "Apply advanced Staff 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Staff 1",
-            "Make decisions without any methodology"
+            "The candidate's desired start date",
+            "A mandatory background check or physical examination",
+            "The number of vacation days offered",
+            "The company's mission statement"
           ],
-          "correctAnswer": "Apply advanced Staff 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Staff 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "A mandatory background check or physical examination",
+          "Help": "Contingency factors are conditions that must be met for the job offer to be finalized."
+        },
+        {
+          "question": "How does outsourcing primarily impact an organization's internal personnel?",
+          "options": [
+            "It always leads to increased internal staffing",
+            "It shifts certain functions to external providers, potentially reducing internal headcount or roles",
+            "It solely focuses on enhancing employee benefits",
+            "It requires all internal employees to work remotely"
+          ],
+          "correctAnswer": "It shifts certain functions to external providers, potentially reducing internal headcount or roles",
+          "Help": "Outsourcing involves contracting out business processes or functions to a third-party, which can affect internal staffing."
+        },
+        {
+          "question": "What is the main role of Affirmative Action in the employee selection process?",
+          "options": [
+            "To eliminate all forms of discrimination in hiring",
+            "To ensure that all candidates are treated identically regardless of protected characteristics",
+            "To proactively recruit and advance qualified individuals from underrepresented groups",
+            "To establish quotas for minority hiring"
+          ],
+          "correctAnswer": "To proactively recruit and advance qualified individuals from underrepresented groups",
+          "Help": "Affirmative Action aims to remedy past discrimination and promote diversity in the workplace."
+        },
+        {
+          "question": "The Equal Employment Opportunity (EEO) legislation primarily aims to prevent discrimination based on which of the following characteristics?",
+          "options": [
+            "Employee tenure and salary level",
+            "Race, color, religion, sex, national origin, age, and disability status",
+            "Educational background and work experience",
+            "Geographic location and political affiliation"
+          ],
+          "correctAnswer": "Race, color, religion, sex, national origin, age, and disability status",
+          "Help": "EEO laws protect individuals from discrimination in employment based on specified protected classes."
+        },
+        {
+          "question": "Which strategy is most effective for attracting and retaining top talent?",
+          "options": [
+            "Offering the lowest possible salary to reduce costs",
+            "Providing a challenging work environment with limited growth opportunities",
+            "Developing a strong employer brand and offering competitive compensation and development opportunities",
+            "Relying solely on external recruitment agencies"
+          ],
+          "correctAnswer": "Developing a strong employer brand and offering competitive compensation and development opportunities",
+          "Help": "Top talent is attracted by reputation, fair pay, and opportunities for advancement."
+        },
+        {
+          "question": "Which factor is most strongly associated with increased employee job satisfaction?",
+          "options": [
+            "Lack of challenging tasks",
+            "Monotonous work routines",
+            "Opportunities for growth, recognition, and fair treatment",
+            "Strict adherence to traditional hierarchies"
+          ],
+          "correctAnswer": "Opportunities for growth, recognition, and fair treatment",
+          "Help": "These factors contribute to a positive work environment and psychological well-being."
+        },
+        {
+          "question": "When defining effective recruitment strategies, which of the following should be a primary consideration?",
+          "options": [
+            "Minimizing recruitment costs above all else",
+            "Reaching a broad and diverse pool of qualified candidates",
+            "Hiring candidates primarily through internal referrals",
+            "Exclusively using traditional print advertisements"
+          ],
+          "correctAnswer": "Reaching a broad and diverse pool of qualified candidates",
+          "Help": "Effective recruitment aims to find the best fit for the role by casting a wide, yet targeted, net."
+        },
+        {
+          "question": "In the context of the employee selection process, what does 'validity' refer to for an assessment tool?",
+          "options": [
+            "How long the assessment takes to complete",
+            "The cost-effectiveness of the assessment",
+            "The extent to which the assessment accurately measures what it's intended to measure and predicts job performance",
+            "The popularity of the assessment among candidates"
+          ],
+          "correctAnswer": "The extent to which the assessment accurately measures what it's intended to measure and predicts job performance",
+          "Help": "A valid assessment reliably predicts success on the job."
+        },
+        {
+          "question": "Which is an example of a permissible, effective interview question?",
+          "options": [
+            "What is your religious affiliation?",
+            "Do you plan to have children soon?",
+            "Describe a time you faced a difficult challenge at work and how you handled it.",
+            "What is your age and date of birth?"
+          ],
+          "correctAnswer": "Describe a time you faced a difficult challenge at work and how you handled it.",
+          "Help": "Behavioral questions are typically effective and legally safe."
+        },
+        {
+          "question": "What is the primary benefit of a well-executed job analysis?",
+          "options": [
+            "It eliminates the need for performance reviews.",
+            "It provides a clear understanding of job requirements, duties, and necessary skills.",
+            "It guarantees employee retention.",
+            "It automates the hiring process."
+          ],
+          "correctAnswer": "It provides a clear understanding of job requirements, duties, and necessary skills.",
+          "Help": "Job analysis is foundational for many HR functions, including recruitment, selection, and training."
+        },
+        {
+          "question": "Which of the following is NOT a characteristic of an effective recruitment strategy?",
+          "options": [
+            "Attracting a diverse pool of applicants",
+            "Aligning with organizational culture and values",
+            "Being reactive to immediate staffing crises",
+            "Using multiple channels to reach candidates"
+          ],
+          "correctAnswer": "Being reactive to immediate staffing crises",
+          "Help": "Effective recruitment is proactive and planned, not merely reactive."
+        },
+        {
+          "question": "What is the main purpose of pre-employment physical results as a contingency factor for a job offer?",
+          "options": [
+            "To assess the candidate's athletic ability",
+            "To ensure the candidate meets the physical demands of the job safely",
+            "To determine the candidate's medical history for health insurance premiums",
+            "To identify non-work related health issues"
+          ],
+          "correctAnswer": "To ensure the candidate meets the physical demands of the job safely",
+          "Help": "Physical exams are typically job-related and conducted to ensure the candidate can perform essential job functions."
+        },
+        {
+          "question": "What impact did Equal Employment Opportunity legislation have on opportunities for women in the workplace?",
+          "options": [
+            "It established mandatory quotas for hiring women.",
+            "It prohibited women from holding management positions.",
+            "It aimed to eliminate discrimination and promote equal access to jobs and promotions.",
+            "It mandated lower pay rates for women."
+          ],
+          "correctAnswer": "It aimed to eliminate discrimination and promote equal access to jobs and promotions.",
+          "Help": "EEO legislation sought to level the playing field for women and other protected groups."
+        },
+        {
+          "question": "When attracting top talent, what role does an organization's reputation play?",
+          "options": [
+            "It is irrelevant; only salary matters.",
+            "A strong reputation can attract candidates even with lower compensation.",
+            "A positive reputation enhances employer branding, making the organization more desirable.",
+            "It primarily affects customer loyalty, not recruitment."
+          ],
+          "correctAnswer": "A positive reputation enhances employer branding, making the organization more desirable.",
+          "Help": "A good reputation makes an organization a more attractive place to work."
+        },
+        {
+          "question": "Which of the following would NOT typically increase employee job satisfaction?",
+          "options": [
+            "Opportunities for career advancement",
+            "Autonomy and control over one's work",
+            "Meaningful work and a sense of purpose",
+            "Limited feedback and recognition"
+          ],
+          "correctAnswer": "Limited feedback and recognition",
+          "Help": "Lack of feedback and recognition usually decreases job satisfaction."
+        },
+        {
+          "question": "The process of identifying skills gaps and shortages within an organization to inform recruitment needs is part of:",
+          "options": [
+            "Employee orientation",
+            "Performance appraisal",
+            "Workforce planning",
+            "Exit interviews"
+          ],
+          "correctAnswer": "Workforce planning",
+          "Help": "Workforce planning involves analyzing current and future workforce needs."
+        },
+        {
+          "question": "What is a primary consideration for employers when deciding to use temporary or transitional employees?",
+          "options": [
+            "The need for long-term commitment",
+            "Access to specialized skills for specific projects or fluctuating workloads",
+            "Reducing the cost of full-time employee benefits",
+            "Guaranteeing internal promotions"
+          ],
+          "correctAnswer": "Access to specialized skills for specific projects or fluctuating workloads",
+          "Help": "Transitional employees offer flexibility and specialized skills for non-permanent needs."
+        },
+        {
+          "question": "To ensure legal compliance in employee selection, what should interview questions primarily focus on?",
+          "options": [
+            "The candidate's personal life and hobbies",
+            "Information directly related to the job's duties and requirements",
+            "Their marital status and family plans",
+            "Their financial history and credit score"
+          ],
+          "correctAnswer": "Information directly related to the job's duties and requirements",
+          "Help": "Job-related questions help avoid discrimination and ensure fairness in selection."
         }
       ]
     },
     {
-      "topic": "Staff — part 2",
+      "topic": "Training and Development",
       "questions": [
         {
-          "question": "(Hard) Which is a challenging question about Staff?",
+          "question": "Why is continuous employee training important for an organization to maintain a competitive advantage?",
           "options": [
-            "Apply advanced Staff 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
+            "It solely reduces employee turnover rates.",
+            "It ensures employees have outdated skills.",
+            "It keeps employees' skills current, enhances productivity, and fosters innovation.",
+            "It eliminates the need for performance evaluations."
           ],
-          "correctAnswer": "Apply advanced Staff 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Staff 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "It keeps employees' skills current, enhances productivity, and fosters innovation.",
+          "Help": "Ongoing training ensures the workforce remains capable and adaptive."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "What is the primary purpose of new employee orientation?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "To test the employee's existing knowledge immediately",
+            "To introduce the new employee to the company culture, policies, and job responsibilities",
+            "To assign the employee a mentor for their entire career",
+            "To conduct the first performance review"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To introduce the new employee to the company culture, policies, and job responsibilities",
+          "Help": "Orientation helps new hires integrate smoothly into the organization."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "Which step is crucial in the planning phase of an employee training program?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "Distributing training completion certificates",
+            "Determining the organization's and employees' training needs",
+            "Hiring all new staff immediately",
+            "Ignoring feedback from past training programs"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Determining the organization's and employees' training needs",
+          "Help": "Needs analysis ensures training is relevant and effective."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "What is 'needs analysis' in the context of training and development?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "An analysis of employee personal financial needs",
+            "A systematic process for determining the gaps between current and desired performance and skills",
+            "A review of the company's financial needs for the upcoming year",
+            "An assessment of customer requirements"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "A systematic process for determining the gaps between current and desired performance and skills",
+          "Help": "Needs analysis helps identify what training is necessary."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "When developing solutions for trainee problems, what is an effective first step?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "Immediately terminating the trainee",
+            "Ignoring the problem, hoping it resolves itself",
+            "Identifying the root cause of the problem (e.g., lack of knowledge, motivation, or resources)",
+            "Assigning more complex tasks to the trainee"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Identifying the root cause of the problem (e.g., lack of knowledge, motivation, or resources)",
+          "Help": "Addressing the root cause leads to more effective solutions."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "Which strategy can help reduce employee/trainee conflict during a training program?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "Encouraging competitive behavior among trainees",
+            "Providing a clear agenda and fostering an open, respectful learning environment",
+            "Limiting interaction between trainees",
+            "Assigning blame for conflicts"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Providing a clear agenda and fostering an open, respectful learning environment",
+          "Help": "A positive and structured environment minimizes conflict."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "When creating training programs, why is it important to recognize different learning styles?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "To make the training longer for some individuals",
+            "To ensure training is engaging and effective for a diverse group of learners",
+            "To prioritize visual learners over auditory learners",
+            "To simplify the training content for everyone"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To ensure training is engaging and effective for a diverse group of learners",
+          "Help": "Accommodating various learning styles improves training outcomes."
         },
         {
-          "question": "Which of the following best explains Staff — part 2?",
+          "question": "What does the 'S' in SMART objectives stand for in training development?",
           "options": [
-            "Staff 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Staff 2"
+            "Sustainable",
+            "Specific",
+            "Supportive",
+            "Strategic"
           ],
-          "correctAnswer": "Staff 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Staff 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Specific",
+          "Help": "SMART objectives are Specific, Measurable, Attainable, Relevant, and Time-bound."
+        },
+        {
+          "question": "How do external sources (e.g., industry trends, competitor practices) impact an effective training curriculum?",
+          "options": [
+            "They make the curriculum irrelevant.",
+            "They provide insights into emerging skills and knowledge gaps that need to be addressed.",
+            "They complicate the curriculum unnecessarily.",
+            "They only affect budgeting for training."
+          ],
+          "correctAnswer": "They provide insights into emerging skills and knowledge gaps that need to be addressed.",
+          "Help": "External factors help keep training relevant and forward-looking."
+        },
+        {
+          "question": "What is the primary impact of technology and visual aids on effective training plans?",
+          "options": [
+            "They always make training more expensive.",
+            "They can enhance engagement, comprehension, and retention of information.",
+            "They distract trainees from the core content.",
+            "They are only useful for large groups."
+          ],
+          "correctAnswer": "They can enhance engagement, comprehension, and retention of information.",
+          "Help": "Technology and visuals make training more dynamic and memorable."
+        },
+        {
+          "question": "When administering training, what should be the primary focus to ensure effectiveness?",
+          "options": [
+            "Adhering strictly to the original schedule, regardless of trainee pace",
+            "Focusing primarily on the trainer's comfort level",
+            "Tailoring delivery methods to meet the diverse needs and learning styles of trainees",
+            "Minimizing all trainee questions"
+          ],
+          "correctAnswer": "Tailoring delivery methods to meet the diverse needs and learning styles of trainees",
+          "Help": "Trainee-centric delivery improves learning outcomes."
+        },
+        {
+          "question": "Which method is effective for evaluating and improving the delivery of training?",
+          "options": [
+            "Ignoring trainee feedback post-training",
+            "Solely relying on the trainer's self-assessment",
+            "Collecting feedback through surveys, observations, and performance data after training",
+            "Avoiding any changes to the training plan once implemented"
+          ],
+          "correctAnswer": "Collecting feedback through surveys, observations, and performance data after training",
+          "Help": "Evaluation provides data for continuous improvement."
+        },
+        {
+          "question": "Which of the following represents a current trend in training and development?",
+          "options": [
+            "Exclusive reliance on traditional classroom lectures",
+            "Decreased emphasis on digital learning platforms",
+            "Increased use of microlearning, gamification, and virtual reality for immersive experiences",
+            "Elimination of all professional development budgets"
+          ],
+          "correctAnswer": "Increased use of microlearning, gamification, and virtual reality for immersive experiences",
+          "Help": "Modern training leverages technology and flexible formats."
+        },
+        {
+          "question": "What is a long-term benefit of investing in employee professional development?",
+          "options": [
+            "Increased risk of skill stagnation",
+            "Reduced employee engagement",
+            "Improved employee retention, enhanced innovation, and a stronger talent pipeline",
+            "Immediate and substantial cost savings"
+          ],
+          "correctAnswer": "Improved employee retention, enhanced innovation, and a stronger talent pipeline",
+          "Help": "Professional development nurtures talent and organizational capabilities."
+        },
+        {
+          "question": "Which online resource is commonly used for employee training and development?",
+          "options": [
+            "Social media networking sites (e.g., Facebook for personal updates)",
+            "Enterprise Resource Planning (ERP) systems for financial data",
+            "Learning Management Systems (LMS) and Massive Open Online Courses (MOOCs)",
+            "Customer Relationship Management (CRM) software"
+          ],
+          "correctAnswer": "Learning Management Systems (LMS) and Massive Open Online Courses (MOOCs)",
+          "Help": "LMS platforms deliver and track online training, while MOOCs offer structured courses."
+        },
+        {
+          "question": "What is a key component of human resource safety and security programs?",
+          "options": [
+            "Ensuring all employees work from home exclusively",
+            "Implementing ergonomic workstations and emergency preparedness plans in compliance with OSHA",
+            "Restricting access to all company data for all employees",
+            "Mandating daily personal fitness routines"
+          ],
+          "correctAnswer": "Implementing ergonomic workstations and emergency preparedness plans in compliance with OSHA",
+          "Help": "Safety programs focus on preventing injuries and ensuring a secure work environment."
+        },
+        {
+          "question": "Which type of evaluation assesses whether training resulted in desired behavioral changes on the job?",
+          "options": [
+            "Reaction evaluation",
+            "Learning evaluation",
+            "Behavior evaluation",
+            "Results evaluation"
+          ],
+          "correctAnswer": "Behavior evaluation",
+          "Help": "Kirkpatrick's Levels of Evaluation include reaction, learning, behavior, and results."
+        },
+        {
+          "question": "When planning an employee training program, what is the significance of setting measurable objectives?",
+          "options": [
+            "They make the training less appealing to employees.",
+            "They provide clear criteria for evaluating the program's success and trainee progress.",
+            "They reduce the need for detailed curriculum development.",
+            "They are primarily for external auditors."
+          ],
+          "correctAnswer": "They provide clear criteria for evaluating the program's success and trainee progress.",
+          "Help": "Measurable objectives allow for objective assessment of training effectiveness."
+        },
+        {
+          "question": "What role does training play in addressing a deficiency in employee knowledge?",
+          "options": [
+            "It is ineffective and should be avoided.",
+            "It can directly provide the necessary information and skills to close the knowledge gap.",
+            "It only exacerbates the problem.",
+            "It is primarily a disciplinary tool."
+          ],
+          "correctAnswer": "It can directly provide the necessary information and skills to close the knowledge gap.",
+          "Help": "Training is a direct intervention for knowledge deficiencies."
+        },
+        {
+          "question": "Which aspect of training directly contributes to employee development beyond immediate job skills?",
+          "options": [
+            "One-time, mandatory compliance training",
+            "Programs focused on leadership skills, critical thinking, and career planning",
+            "Short tutorials on new software features",
+            "Repetitive drills for basic tasks"
+          ],
+          "correctAnswer": "Programs focused on leadership skills, critical thinking, and career planning",
+          "Help": "Professional development aims for broader skill enhancement and career growth."
         }
       ]
     },
     {
-      "topic": "Training and Development — part 1",
+      "topic": "Employee Compensation and Benefits",
       "questions": [
         {
-          "question": "Why is employee training important?",
+          "question": "Which federal law primarily governs minimum wage, overtime pay, and child labor standards?",
           "options": [
-            "Maintains competitive advantage",
-            "Reduces payroll costs directly",
-            "Eliminates HR duties",
-            "Replaces performance appraisals"
-          ],
-          "correctAnswer": "Maintains competitive advantage",
-          "explanation": "Training equips employees with skills and knowledge that improve organizational performance."
-        },
-        {
-          "question": "What is the purpose of employee orientation?",
-          "options": [
-            "Introduces company policies and culture",
-            "Calculates salaries",
-            "Conducts performance appraisals",
-            "Issues disciplinary actions"
-          ],
-          "correctAnswer": "Introduces company policies and culture",
-          "explanation": "Orientation familiarizes new employees with workplace expectations, policies, and procedures."
-        },
-        {
-          "question": "What is needs analysis in training?",
-          "options": [
-            "Determining employee or organizational skill gaps",
-            "Scheduling payroll",
-            "Conducting interviews",
-            "Drafting legal documents"
-          ],
-          "correctAnswer": "Determining employee or organizational skill gaps",
-          "explanation": "Needs analysis identifies the areas where training can improve performance and efficiency."
-        },
-        {
-          "question": "How do different learning styles affect training?",
-          "options": [
-            "Training should accommodate visual, auditory, and kinesthetic learners",
-            "They are irrelevant",
-            "They determine payroll",
-            "They replace orientation"
-          ],
-          "correctAnswer": "Training should accommodate visual, auditory, and kinesthetic learners",
-          "explanation": "Understanding learning styles helps tailor training programs for maximum effectiveness."
-        },
-        {
-          "question": "Why set observable, measurable objectives in training?",
-          "options": [
-            "To track and assess trainee progress",
-            "To increase salaries",
-            "To reduce hiring needs",
-            "To eliminate feedback"
-          ],
-          "correctAnswer": "To track and assess trainee progress",
-          "explanation": "Clear objectives ensure that training outcomes are specific, measurable, and achievable."
-        },
-        {
-          "question": "How does technology impact training?",
-          "options": [
-            "Improves delivery and engagement",
-            "Replaces HR entirely",
-            "Determines employee discipline",
-            "Reduces compensation"
-          ],
-          "correctAnswer": "Improves delivery and engagement",
-          "explanation": "Technology like online modules or visual aids enhances learning and accessibility."
-        },
-        {
-          "question": "What is the role of evaluation in training?",
-          "options": [
-            "To assess effectiveness and improve programs",
-            "To set salaries",
-            "To hire employees",
-            "To manage payroll"
-          ],
-          "correctAnswer": "To assess effectiveness and improve programs",
-          "explanation": "Evaluation ensures that training meets objectives and identifies areas for improvement."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Training and Development — part 1?",
-          "options": [
-            "Apply advanced Training Development 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Training Development 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Training Development 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Training Development 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Training and Development — part 2",
-      "questions": [
-        {
-          "question": "(Hard) Which is a challenging question about Training and Development?",
-          "options": [
-            "Apply advanced Training Development 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
-          ],
-          "correctAnswer": "Apply advanced Training Development 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Training Development 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Training and Development — part 2?",
-          "options": [
-            "Training development 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Training Development 2"
-          ],
-          "correctAnswer": "Training development 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Training development 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Employee Compensation and Benefits — part 1",
-      "questions": [
-        {
-          "question": "Which of the following is a legally required employee benefit?",
-          "options": [
-            "Social Security",
-            "Paid vacation",
-            "Gym membership",
-            "Company car"
-          ],
-          "correctAnswer": "Social Security",
-          "explanation": "Employers are legally required to provide Social Security benefits to employees."
-        },
-        {
-          "question": "What is discretionary fringe benefit?",
-          "options": [
-            "Optional benefits provided by employers",
-            "Mandatory healthcare",
-            "Unemployment insurance",
-            "Retirement savings"
-          ],
-          "correctAnswer": "Optional benefits provided by employers",
-          "explanation": "Discretionary benefits include perks like gym memberships, tuition reimbursement, or extra insurance options."
-        },
-        {
-          "question": "How does fair compensation affect productivity?",
-          "options": [
-            "Improves motivation and performance",
-            "Reduces workload",
-            "Increases training needs",
-            "Eliminates HR responsibilities"
-          ],
-          "correctAnswer": "Improves motivation and performance",
-          "explanation": "Employees are more productive when they perceive their pay as fair and competitive."
-        },
-        {
-          "question": "What is a piecework plan?",
-          "options": [
-            "Pay based on units produced",
-            "Fixed annual salary",
-            "Hourly wage only",
-            "Profit-sharing scheme"
-          ],
-          "correctAnswer": "Pay based on units produced",
-          "explanation": "Piecework compensation pays employees according to the quantity of work completed."
-        },
-        {
-          "question": "Which benefits are required by law?",
-          "options": [
-            "Social Security, unemployment compensation, worker’s compensation",
-            "Paid vacation, bonuses, company car",
-            "Gym membership, wellness programs, stock options",
-            "Free lunches, remote work, team outings"
-          ],
-          "correctAnswer": "Social Security, unemployment compensation, worker’s compensation",
-          "explanation": "These benefits are mandated to ensure financial protection for employees."
-        },
-        {
-          "question": "What is merit pay?",
-          "options": [
-            "Compensation based on performance",
-            "Fixed annual salary",
-            "Mandatory bonus for all employees",
-            "Hourly overtime pay"
-          ],
-          "correctAnswer": "Compensation based on performance",
-          "explanation": "Merit pay rewards employees based on individual performance or achievement."
-        },
-        {
-          "question": "What is team-based compensation?",
-          "options": [
-            "Pay linked to team performance",
-            "Fixed monthly salary",
-            "Payment for overtime only",
-            "Individual merit bonuses only"
-          ],
-          "correctAnswer": "Pay linked to team performance",
-          "explanation": "Team-based compensation motivates collaborative work by linking pay to team results."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Employee Compensation and Benefits — part 1?",
-          "options": [
-            "Apply advanced Employee Compensation Benefits 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Employee Compensation Benefits 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Employee Compensation Benefits 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Employee Compensation Benefits 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Employee Compensation and Benefits — part 2",
-      "questions": [
-        {
-          "question": "(Hard) Which is a challenging question about Employee Compensation and Benefits?",
-          "options": [
-            "Apply advanced Employee Compensation Benefits 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
-          ],
-          "correctAnswer": "Apply advanced Employee Compensation Benefits 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Employee Compensation Benefits 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Employee Compensation and Benefits — part 2?",
-          "options": [
-            "Employee compensation benefits 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Employee Compensation Benefits 2"
-          ],
-          "correctAnswer": "Employee compensation benefits 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Employee compensation benefits 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Performance Management — part 1",
-      "questions": [
-        {
-          "question": "What is coaching in HR performance management?",
-          "options": [
-            "Guiding employees to improve skills and performance",
-            "Firing underperformers",
-            "Calculating salaries",
-            "Writing job descriptions"
-          ],
-          "correctAnswer": "Guiding employees to improve skills and performance",
-          "explanation": "Coaching helps employees develop abilities and achieve organizational goals."
-        },
-        {
-          "question": "Why is active listening important in performance management?",
-          "options": [
-            "It ensures understanding of employee concerns",
-            "It calculates productivity automatically",
-            "It replaces appraisals",
-            "It determines salaries directly"
-          ],
-          "correctAnswer": "It ensures understanding of employee concerns",
-          "explanation": "Active listening promotes accurate feedback and effective communication between managers and employees."
-        },
-        {
-          "question": "What is the purpose of performance appraisals?",
-          "options": [
-            "Evaluate employee performance and guide improvement",
-            "Track payroll",
-            "Hire new employees",
-            "Calculate taxes"
-          ],
-          "correctAnswer": "Evaluate employee performance and guide improvement",
-          "explanation": "Appraisals measure performance, provide feedback, and identify development needs."
-        },
-        {
-          "question": "What is counseling in HR?",
-          "options": [
-            "Providing guidance to address personal or professional issues",
-            "Calculating benefits",
-            "Recruiting employees",
-            "Scheduling training"
-          ],
-          "correctAnswer": "Providing guidance to address personal or professional issues",
-          "explanation": "Counseling helps employees resolve problems affecting performance or workplace relationships."
-        },
-        {
-          "question": "Which is a step in the appraisal process?",
-          "options": [
-            "Setting objectives, monitoring, reviewing, and providing feedback",
-            "Calculating labor costs only",
-            "Hiring new employees",
-            "Managing benefits"
-          ],
-          "correctAnswer": "Setting objectives, monitoring, reviewing, and providing feedback",
-          "explanation": "Appraisals follow a structured process to assess and improve performance."
-        },
-        {
-          "question": "What is the role of feedback in performance management?",
-          "options": [
-            "Guides improvement and motivation",
-            "Calculates payroll automatically",
-            "Determines promotion eligibility only",
-            "Replaces training programs"
-          ],
-          "correctAnswer": "Guides improvement and motivation",
-          "explanation": "Regular feedback helps employees understand performance expectations and take corrective actions."
-        },
-        {
-          "question": "Which behavior may require disciplinary action?",
-          "options": [
-            "Violation of company policies or poor performance",
-            "Participation in training",
-            "Submitting reports on time",
-            "Team collaboration"
-          ],
-          "correctAnswer": "Violation of company policies or poor performance",
-          "explanation": "HR uses discipline to address behavior that negatively impacts the organization or team."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Performance Management — part 1?",
-          "options": [
-            "Apply advanced Performance Management 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Performance Management 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Performance Management 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Performance Management 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Performance Management — part 2",
-      "questions": [
-        {
-          "question": "(Hard) Which is a challenging question about Performance Management?",
-          "options": [
-            "Apply advanced Performance Management 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
-          ],
-          "correctAnswer": "Apply advanced Performance Management 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Performance Management 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Performance Management — part 2?",
-          "options": [
-            "Performance management 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Performance Management 2"
-          ],
-          "correctAnswer": "Performance management 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Performance management 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Government Relations and Issues — part 1",
-      "questions": [
-        {
-          "question": "What is the Equal Employment Opportunity Act designed to prevent?",
-          "options": [
-            "Workplace discrimination based on race, gender, or religion",
-            "Mandatory training programs",
-            "Payroll errors",
-            "Performance appraisals"
-          ],
-          "correctAnswer": "Workplace discrimination based on race, gender, or religion",
-          "explanation": "EEO laws protect employees from discrimination in hiring, promotion, and other employment practices."
-        },
-        {
-          "question": "What does IRCA require employers to verify?",
-          "options": [
-            "Employability of employees",
-            "Payroll accuracy",
-            "Training completion",
-            "Job satisfaction"
-          ],
-          "correctAnswer": "Employability of employees",
-          "explanation": "The Immigration Reform and Control Act requires verification that employees are legally authorized to work in the U.S."
-        },
-        {
-          "question": "Which act protects disabled employees?",
-          "options": [
+            "Family and Medical Leave Act (FMLA)",
             "Americans with Disabilities Act (ADA)",
-            "FLSA",
-            "Wagner Act",
-            "Taft-Hartley Act"
-          ],
-          "correctAnswer": "Americans with Disabilities Act (ADA)",
-          "explanation": "The ADA mandates reasonable accommodations for qualified individuals with disabilities."
-        },
-        {
-          "question": "What is affirmative action?",
-          "options": [
-            "Programs to increase opportunities for minorities and women",
-            "Mandatory retirement plans",
-            "Compensation scheduling",
-            "Labor union management"
-          ],
-          "correctAnswer": "Programs to increase opportunities for minorities and women",
-          "explanation": "Affirmative action ensures fair employment practices and representation of underrepresented groups."
-        },
-        {
-          "question": "Which law governs minimum wage and overtime?",
-          "options": [
             "Fair Labor Standards Act (FLSA)",
-            "OSHA",
-            "ADEA",
-            "IRCA"
+            "Equal Pay Act (EPA)"
           ],
           "correctAnswer": "Fair Labor Standards Act (FLSA)",
-          "explanation": "FLSA sets standards for minimum wage, overtime pay, and youth employment."
+          "Help": "The FLSA sets crucial standards for compensation and working conditions."
         },
         {
-          "question": "What is OSHA responsible for?",
+          "question": "Which of the following is a legally required benefit that employers must provide in the United States?",
           "options": [
-            "Workplace safety and health regulations",
-            "Employee payroll",
-            "Training programs",
-            "Performance management"
+            "Paid vacation time",
+            "Retirement savings plans (401k)",
+            "Workers' compensation insurance",
+            "Tuition reimbursement"
           ],
-          "correctAnswer": "Workplace safety and health regulations",
-          "explanation": "OSHA ensures employers provide safe working conditions."
+          "correctAnswer": "Workers' compensation insurance",
+          "Help": "Workers' compensation, Social Security, Medicare, and unemployment insurance are legally mandated."
         },
         {
-          "question": "What does ADEA regulate?",
+          "question": "Discretionary fringe benefits are those that employers:",
           "options": [
-            "Age discrimination in employment",
-            "Sexual harassment",
-            "Union negotiations",
-            "Employee benefits"
+            "Are legally obligated to provide to all employees",
+            "Offer voluntarily to attract and retain employees",
+            "Are only available to executive-level staff",
+            "Are determined by the employee's performance alone"
           ],
-          "correctAnswer": "Age discrimination in employment",
-          "explanation": "The Age Discrimination in Employment Act protects workers 40 and older from discrimination."
+          "correctAnswer": "Offer voluntarily to attract and retain employees",
+          "Help": "Discretionary benefits are not legally required and are offered at the employer's discretion."
         },
         {
-          "question": "(Hard) Which is a challenging question about Government Relations and Issues — part 1?",
+          "question": "How does an employee's perception of fair compensation impact their productivity?",
           "options": [
-            "Apply advanced Government Relations Issues 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Government Relations Issues 1",
-            "Make decisions without any methodology"
+            "It has no measurable impact on productivity.",
+            "A perception of unfair compensation often leads to decreased motivation and productivity.",
+            "It directly increases employee turnover regardless of other factors.",
+            "Fair compensation guarantees high productivity."
           ],
-          "correctAnswer": "Apply advanced Government Relations Issues 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Government Relations Issues 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "A perception of unfair compensation often leads to decreased motivation and productivity.",
+          "Help": "Fairness in compensation is a key motivator and impacts job satisfaction."
+        },
+        {
+          "question": "What is a common consequence of rising health care costs on employee compensation expectations?",
+          "options": [
+            "Employees are less concerned with their health benefits.",
+            "Employees often expect more comprehensive and employer-subsidized health benefits.",
+            "Employers eliminate all health care offerings.",
+            "It leads to a decrease in overall salary demands."
+          ],
+          "correctAnswer": "Employees often expect more comprehensive and employer-subsidized health benefits.",
+          "Help": "As healthcare costs rise, the value of employer-provided benefits increases for employees."
+        },
+        {
+          "question": "If a company's total labor cost is $500,000 and it has 100 employees, what is the average labor cost per employee?",
+          "options": [
+            "$50",
+            "$500",
+            "$5,000",
+            "$50,000"
+          ],
+          "correctAnswer": "$5,000",
+          "Help": "Average labor cost = Total labor cost / Number of employees."
+        },
+        {
+          "question": "How do increased labor costs typically affect a company's break-even point?",
+          "options": [
+            "They decrease the break-even point.",
+            "They increase the break-even point, requiring higher sales volume to cover costs.",
+            "They have no impact on the break-even point.",
+            "They only affect profit margins, not the break-even point."
+          ],
+          "correctAnswer": "They increase the break-even point, requiring higher sales volume to cover costs.",
+          "Help": "Labor costs are typically variable or fixed costs that contribute to the total costs that must be covered."
+        },
+        {
+          "question": "What is a 'salary schedule'?",
+          "options": [
+            "A document outlining employee vacation days",
+            "A system that specifies pay ranges for different job grades or levels, often based on factors like experience and education",
+            "A plan for calculating annual bonuses",
+            "A list of company holidays"
+          ],
+          "correctAnswer": "A system that specifies pay ranges for different job grades or levels, often based on factors like experience and education",
+          "Help": "Salary schedules provide structure and transparency to pay decisions."
+        },
+        {
+          "question": "Which of the following is an example of variable pay based on performance?",
+          "options": [
+            "A fixed annual salary",
+            "Hourly wages for administrative staff",
+            "A bonus tied to achieving specific sales targets",
+            "Paid time off"
+          ],
+          "correctAnswer": "A bonus tied to achieving specific sales targets",
+          "Help": "Variable pay fluctuates based on individual, team, or organizational performance."
+        },
+        {
+          "question": "What is the primary difference between broad banding and traditional pay grades?",
+          "options": [
+            "Broad banding has more distinct pay levels.",
+            "Broad branding uses fewer, wider pay bands, offering greater flexibility in pay management.",
+            "Traditional pay grades are less structured.",
+            "Broad banding is only used for entry-level positions."
+          ],
+          "correctAnswer": "Broad branding uses fewer, wider pay bands, offering greater flexibility in pay management.",
+          "Help": "Broad banding consolidates many pay grades into fewer, broader salary ranges."
         }
       ]
     },
     {
-      "topic": "Government Relations and Issues — part 2",
+      "topic": "Performance Management",
       "questions": [
         {
-          "question": "(Hard) Which is a challenging question about Government Relations and Issues?",
+          "question": "In the employer/employee relationship, what is the primary purpose of coaching?",
           "options": [
-            "Apply advanced Government Relations Issues 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
+            "To formally discipline an employee for misconduct",
+            "To provide guidance and support to improve specific skills or performance areas",
+            "To assign new projects without training",
+            "To conduct an annual performance review"
           ],
-          "correctAnswer": "Apply advanced Government Relations Issues 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Government Relations Issues 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To provide guidance and support to improve specific skills or performance areas",
+          "Help": "Coaching is about developing an employee's capabilities."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "Why is active listening crucial for effective performance management?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "It allows managers to interrupt employees more easily.",
+            "It ensures managers fully understand employee concerns, feedback, and challenges.",
+            "It eliminates the need for written communication.",
+            "It primarily focuses on dictating instructions."
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "It ensures managers fully understand employee concerns, feedback, and challenges.",
+          "Help": "Active listening builds trust and facilitates understanding."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "How can a manager effectively influence an employee to increase performance?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "By threatening disciplinary action for any mistake",
+            "By setting clear expectations, providing necessary resources, and offering constructive feedback and recognition",
+            "By delegating all difficult tasks to the employee",
+            "By ignoring their requests for support"
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "By setting clear expectations, providing necessary resources, and offering constructive feedback and recognition",
+          "Help": "Positive influence relies on support, clarity, and motivation."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "The importance of employer and employee feedback in performance management is primarily to:",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "Solely justify salary increases",
+            "Ensure a one-way communication flow from management",
+            "Facilitate mutual understanding, identify areas for improvement, and recognize achievements",
+            "Document employee complaints only"
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Facilitate mutual understanding, identify areas for improvement, and recognize achievements",
+          "Help": "Feedback is a two-way street that drives development."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "Which of the following is typically the first step in the counseling process for an employee performance issue?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "Issuing a final written warning",
+            "Gathering facts and understanding the specific performance deficiency",
+            "Terminating the employee",
+            "Offering a promotion"
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Gathering facts and understanding the specific performance deficiency",
+          "Help": "Before offering solutions, the problem must be clearly defined."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "What does a 'deficiency in knowledge' refer to in the context of employee performance problems?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "The employee's unwillingness to perform a task",
+            "The employee lacking the necessary information or skills to complete a task effectively",
+            "The employee intentionally performing poorly",
+            "A problem with the company's IT systems"
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "The employee lacking the necessary information or skills to complete a task effectively",
+          "Help": "This is a capability gap that training can often address."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "When addressing a performance problem, why is employee agreement to change important?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "It is not important; management should simply dictate change.",
+            "It ensures that the employee is committed to the improvement plan and takes ownership of their development.",
+            "It eliminates the need for a performance improvement plan.",
+            "It solely benefits the manager, not the employee."
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "It ensures that the employee is committed to the improvement plan and takes ownership of their development.",
+          "Help": "Commitment from the employee is crucial for successful behavior change."
         },
         {
-          "question": "Which of the following best explains Government Relations and Issues — part 2?",
+          "question": "What is the primary purpose of a performance management system?",
           "options": [
-            "Government relations issues 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Government Relations Issues 2"
+            "To strictly rank employees against each other",
+            "To align individual performance with organizational goals, facilitate development, and make fair employment decisions",
+            "To solely determine annual bonuses",
+            "To reduce employee interaction"
           ],
-          "correctAnswer": "Government relations issues 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Government relations issues 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To align individual performance with organizational goals, facilitate development, and make fair employment decisions",
+          "Help": "Performance management is a strategic tool for organizational and individual growth."
+        },
+        {
+          "question": "Which is a potential disadvantage of an appraisal system that relies heavily on subjective ratings?",
+          "options": [
+            "It eliminates manager bias completely.",
+            "It can lead to inconsistency, bias, and a lack of fairness.",
+            "It provides highly objective data.",
+            "It is always more accurate than objective measures."
+          ],
+          "correctAnswer": "It can lead to inconsistency, bias, and a lack of fairness.",
+          "Help": "Subjectivity can introduce errors and undermine trust in the appraisal process."
+        },
+        {
+          "question": "Which employee behavior typically warrants disciplinary action?",
+          "options": [
+            "Consistently exceeding performance expectations",
+            "Adhering to company policies and procedures",
+            "Engaging in insubordination or workplace harassment",
+            "Suggesting process improvements"
+          ],
+          "correctAnswer": "Engaging in insubordination or workplace harassment",
+          "Help": "Disciplinary action is taken for violations of policy, misconduct, or persistent performance issues."
         }
       ]
     },
     {
-      "topic": "Human Resource Planning — part 1",
+      "topic": "Government Relations and Issues",
       "questions": [
         {
-          "question": "What is human resource planning?",
+          "question": "Which personnel law mandates employers to verify the employment eligibility of new hires?",
           "options": [
-            "Aligning HR strategies with organizational goals",
-            "Calculating payroll only",
-            "Training new hires",
-            "Managing employee benefits"
+            "Age Discrimination in Employment Act (ADEA)",
+            "Immigration Reform and Control Act (IRCA)",
+            "Fair Labor Standards Act (FLSA)",
+            "Family and Medical Leave Act (FMLA)"
           ],
-          "correctAnswer": "Aligning HR strategies with organizational goals",
-          "explanation": "HR planning ensures the right number of employees with the right skills are available to meet business needs."
+          "correctAnswer": "Immigration Reform and Control Act (IRCA)",
+          "Help": "IRCA requires employers to complete I-9 forms for all new employees."
         },
         {
-          "question": "Why is diversity important in HR planning?",
+          "question": "The Equal Employment Opportunity Act (EEOA) is primarily designed to:",
           "options": [
-            "Promotes innovation and inclusivity",
-            "Reduces payroll",
-            "Calculates benefits",
-            "Replaces training"
+            "Encourage reverse discrimination",
+            "Prohibit discrimination in employment based on protected characteristics",
+            "Mandate specific hiring quotas for all employers",
+            "Regulate union activities only"
           ],
-          "correctAnswer": "Promotes innovation and inclusivity",
-          "explanation": "A diverse workforce brings varied perspectives and improves problem-solving."
+          "correctAnswer": "Prohibit discrimination in employment based on protected characteristics",
+          "Help": "EEOA strengthens the enforcement powers of the EEOC to combat discrimination."
         },
         {
-          "question": "Which factor impacts HR planning?",
+          "question": "What distinguishes 'hostile environment' sexual harassment from 'quid pro quo' sexual harassment?",
           "options": [
-            "Technology changes, workforce skill requirements, and world issues",
-            "Payroll only",
-            "Daily scheduling",
-            "Uniform policy"
+            "Hostile environment involves explicit requests for sexual favors; quid pro quo does not.",
+            "Hostile environment is less severe than quid pro quo.",
+            "Hostile environment involves unwelcome conduct that interferes with an individual's work performance or creates an intimidating work environment; quid pro quo involves a condition of employment based on sexual favors.",
+            "Quid pro quo only affects male employees."
           ],
-          "correctAnswer": "Technology changes, workforce skill requirements, and world issues",
-          "explanation": "HR planning must consider external and internal changes that affect workforce needs."
+          "correctAnswer": "Hostile environment involves unwelcome conduct that interferes with an individual's work performance or creates an intimidating work environment; quid pro quo involves a condition of employment based on sexual favors.",
+          "Help": "Hostile environment is pervasive; quid pro quo is transactional."
         },
         {
-          "question": "What is the role of HR in a comprehensive planning process?",
+          "question": "What is the primary objective of Affirmative Action policies in employment?",
           "options": [
-            "Ensure workforce meets current and future organizational needs",
-            "Manage office supplies",
-            "Conduct safety drills",
-            "Organize employee parties"
+            "To mandate reverse discrimination against majority groups.",
+            "To promote diversity and remedy past discriminatory practices for underrepresented groups.",
+            "To enforce strict quotas for hiring specific demographics.",
+            "To eliminate all employment laws."
           ],
-          "correctAnswer": "Ensure workforce meets current and future organizational needs",
-          "explanation": "HR contributes to strategic planning by forecasting staffing and skills requirements."
+          "correctAnswer": "To promote diversity and remedy past discriminatory practices for underrepresented groups.",
+          "Help": "Affirmative action aims to create a more inclusive workforce."
         },
         {
-          "question": "How are HR policies evaluated?",
+          "question": "An HR Code of Ethics for employees typically emphasizes:",
           "options": [
-            "By reviewing effectiveness, compliance, and alignment with business goals",
-            "Counting number of employees",
-            "Checking vacation days only",
-            "Scheduling training sessions"
+            "Strict rules on personal social media use outside of work",
+            "The company's financial investment strategy",
+            "Principles of honesty, integrity, respect, and compliance with laws and policies",
+            "Detailed instructions for product manufacturing"
           ],
-          "correctAnswer": "By reviewing effectiveness, compliance, and alignment with business goals",
-          "explanation": "Regular evaluation ensures policies support organizational objectives and legal compliance."
+          "correctAnswer": "Principles of honesty, integrity, respect, and compliance with laws and policies",
+          "Help": "Codes of ethics guide employee conduct and decision-making."
         },
         {
-          "question": "What are HR challenges in modern workplaces?",
+          "question": "Which of the following is an example of an employee right?",
           "options": [
-            "Remote work, flexible schedules, skill shortages",
-            "Payroll calculation",
-            "Printing policies",
-            "Conducting annual parties"
+            "The right to refuse to follow any company policy",
+            "The right to a safe working environment",
+            "The right to unlimited paid time off",
+            "The right to access all company confidential data"
           ],
-          "correctAnswer": "Remote work, flexible schedules, skill shortages",
-          "explanation": "Changing work environments and workforce needs create new HR challenges."
+          "correctAnswer": "The right to a safe working environment",
+          "Help": "Employees have legal rights, such as safety, fair pay, and non-discrimination."
         },
         {
-          "question": "Why are teams important in HR planning?",
+          "question": "Which type of employee is typically NOT eligible for overtime pay under the Fair Labor Standards Act (FLSA)?",
           "options": [
-            "Teams improve collaboration and problem-solving",
-            "Teams reduce payroll costs",
-            "Teams replace HR software",
-            "Teams handle legal compliance only"
+            "Non-exempt employees",
+            "Hourly workers",
+            "Exempt employees (e.g., executives, professionals, administrators meeting specific tests)",
+            "Part-time employees"
           ],
-          "correctAnswer": "Teams improve collaboration and problem-solving",
-          "explanation": "Effective team structures enhance productivity and decision-making."
+          "correctAnswer": "Exempt employees (e.g., executives, professionals, administrators meeting specific tests)",
+          "Help": "Exempt employees meet specific salary and duties tests and are not subject to overtime provisions."
         },
         {
-          "question": "(Hard) Which is a challenging question about Human Resource Planning — part 1?",
+          "question": "What does 'negligent hiring' mean in legal terms?",
           "options": [
-            "Apply advanced Human Resource Planning 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Human Resource Planning 1",
-            "Make decisions without any methodology"
+            "Hiring too many employees for a role.",
+            "Failing to conduct a reasonable background check on an applicant who later harms others.",
+            "Hiring a family member without proper qualifications.",
+            "Hiring an independent contractor instead of a full-time employee."
           ],
-          "correctAnswer": "Apply advanced Human Resource Planning 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Human Resource Planning 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Failing to conduct a reasonable background check on an applicant who later harms others.",
+          "Help": "Negligent hiring exposes the employer to liability if a hire causes harm and a proper background check would have revealed risk."
+        },
+        {
+          "question": "What is the primary requirement for employers under OSHA (Occupational Safety and Health Act)?",
+          "options": [
+            "To provide free healthcare for all employees.",
+            "To ensure a workplace free from recognized hazards that are causing or are likely to cause death or serious physical harm.",
+            "To offer all employees unlimited paid time off.",
+            "To monitor employee social media usage."
+          ],
+          "correctAnswer": "To ensure a workplace free from recognized hazards that are causing or are likely to cause death or serious physical harm.",
+          "Help": "OSHA's 'General Duty Clause' requires employers to maintain a safe workplace."
+        },
+        {
+          "question": "The Americans with Disabilities Act (ADA) requires employers to provide reasonable accommodations for qualified individuals with disabilities unless doing so would cause:",
+          "options": [
+            "A minor inconvenience",
+            "An undue hardship to the business",
+            "A slight increase in operational costs",
+            "A change in office layout"
+          ],
+          "correctAnswer": "An undue hardship to the business",
+          "Help": "Reasonable accommodations are legally required unless they impose a significant difficulty or expense."
         }
       ]
     },
     {
-      "topic": "Human Resource Planning — part 2",
+      "topic": "Human Resource Planning",
       "questions": [
         {
-          "question": "(Hard) Which is a challenging question about Human Resource Planning?",
+          "question": "What is the core definition of Human Resource Planning (HRP)?",
           "options": [
-            "Apply advanced Human Resource Planning 2 concepts to complex scenarios",
-            "Use simple memorization",
-            "Ignore context and select random ideas",
-            "Rely only on intuition without methodology"
+            "The process of solely managing employee payroll and benefits.",
+            "A strategic process that ensures an organization has the right number of people with the right skills at the right time.",
+            "The act of interviewing and hiring new employees.",
+            "A system for tracking employee performance only."
           ],
-          "correctAnswer": "Apply advanced Human Resource Planning 2 concepts to complex scenarios",
-          "explanation": "Choosing 'Apply advanced Human Resource Planning 2 concepts to complex scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "A strategic process that ensures an organization has the right number of people with the right skills at the right time.",
+          "Help": "HRP aligns human capital with organizational goals."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "In a comprehensive planning process, what is the role of human resources?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "To only react to staffing demands as they arise.",
+            "To provide insights into workforce capabilities, labor market trends, and talent strategies to achieve business objectives.",
+            "To solely handle employee disciplinary actions.",
+            "To develop the company's marketing strategy."
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To provide insights into workforce capabilities, labor market trends, and talent strategies to achieve business objectives.",
+          "Help": "HR is a strategic partner in overall business planning."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "Why is it important for HR goals and policies to be aligned with the overall organizational strategy?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "To ensure HR operates independently of business objectives.",
+            "To maximize employee complaints.",
+            "To ensure HR initiatives support business objectives and contribute to organizational success.",
+            "To complicate compliance with labor laws."
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To ensure HR initiatives support business objectives and contribute to organizational success.",
+          "Help": "Alignment ensures HR efforts drive business value."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "What is a primary benefit of emphasizing teams at work?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "Increased individual isolation",
+            "Enhanced collaboration, innovation, and problem-solving through diverse perspectives",
+            "Reduced communication among employees",
+            "Slower project completion times"
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Enhanced collaboration, innovation, and problem-solving through diverse perspectives",
+          "Help": "Teams leverage collective strengths."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "How does recognizing the role of diversity benefit an organization?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "It streamlines decision-making by limiting viewpoints.",
+            "It fosters a more inclusive culture, broadens perspectives, and can lead to greater innovation and better problem-solving.",
+            "It solely increases legal compliance burdens.",
+            "It reduces the talent pool for recruitment."
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "It fosters a more inclusive culture, broadens perspectives, and can lead to greater innovation and better problem-solving.",
+          "Help": "Diversity brings varied experiences and insights."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "Why is it important to regularly evaluate and update human resource policies?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "To ensure they remain static and unchanging.",
+            "To keep them aligned with evolving laws, organizational needs, and best practices.",
+            "To solely increase administrative workload.",
+            "To confuse employees about company rules."
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To keep them aligned with evolving laws, organizational needs, and best practices.",
+          "Help": "Policies must adapt to internal and external changes."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "Which of the following is a common human resource challenge in today's workforce?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "A complete absence of skilled labor",
+            "Attracting and retaining top talent in a competitive market",
+            "Too much employee loyalty",
+            "An oversupply of perfect candidates"
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Attracting and retaining top talent in a competitive market",
+          "Help": "Talent acquisition and retention are ongoing challenges."
         },
         {
-          "question": "Which of the following best explains Human Resource Planning — part 2?",
+          "question": "Which is a latest HR trend impacted by factors like 'work from home' and 'flexible scheduling'?",
           "options": [
-            "Human resource planning 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Human Resource Planning 2"
+            "A return to strictly traditional 9-5 office work",
+            "Increased focus on employee well-being, work-life balance, and adaptable work arrangements",
+            "Elimination of all remote work options",
+            "Decreased need for technology in HR"
           ],
-          "correctAnswer": "Human resource planning 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Human resource planning 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Increased focus on employee well-being, work-life balance, and adaptable work arrangements",
+          "Help": "These trends reflect changing employee expectations and technological capabilities."
+        },
+        {
+          "question": "What is HR's role in maintaining a company code of ethics?",
+          "options": [
+            "To ignore ethical breaches for the sake of productivity.",
+            "To develop, communicate, and enforce ethical guidelines and provide training on ethical conduct.",
+            "To primarily focus on financial reporting ethics.",
+            "To delegate all ethical responsibilities to legal counsel."
+          ],
+          "correctAnswer": "To develop, communicate, and enforce ethical guidelines and provide training on ethical conduct.",
+          "Help": "HR is central to fostering an ethical organizational culture."
+        },
+        {
+          "question": "How do global issues, such as pandemics or economic shifts, impact human resources?",
+          "options": [
+            "They simplify HR planning and strategy.",
+            "They primarily affect manufacturing processes, not HR.",
+            "They require HR to adapt rapidly to new workforce models, health and safety concerns, and talent demands.",
+            "They make HR irrelevant."
+          ],
+          "correctAnswer": "They require HR to adapt rapidly to new workforce models, health and safety concerns, and talent demands.",
+          "Help": "Global events often create significant challenges and opportunities for HR."
         }
       ]
     },
@@ -1121,48 +1026,114 @@
       "topic": "Labor Relations and Collective Bargaining",
       "questions": [
         {
-          "question": "What is collective bargaining?",
+          "question": "Which historical event significantly shaped the early development of management-labor relations in the U.S. by strengthening workers' rights to organize?",
           "options": [
-            "Negotiation between management and employees or unions",
-            "Payroll calculation",
-            "Employee training program",
-            "Job analysis process"
+            "The founding of the first corporation",
+            "The passage of the Wagner Act (National Labor Relations Act)",
+            "The invention of the assembly line",
+            "The dot-com bubble burst"
           ],
-          "correctAnswer": "Negotiation between management and employees or unions",
-          "explanation": "Collective bargaining establishes terms of employment through negotiation."
+          "correctAnswer": "The passage of the Wagner Act (National Labor Relations Act)",
+          "Help": "The Wagner Act legitimized unions and collective bargaining."
         },
         {
-          "question": "What is a labor union?",
+          "question": "What is the primary characteristic of an 'adversarial approach' to labor relations?",
           "options": [
-            "An organized group of employees seeking to protect rights and interests",
-            "A payroll department",
-            "A training committee",
-            "A benefits provider"
+            "Management and labor working cooperatively towards shared goals.",
+            "A relationship characterized by conflict, distrust, and power struggles between management and unions.",
+            "A focus on joint problem-solving and mutual respect.",
+            "Regular informal discussions without formal agreements."
           ],
-          "correctAnswer": "An organized group of employees seeking to protect rights and interests",
-          "explanation": "Labor unions represent workers in discussions about wages, benefits, and working conditions."
+          "correctAnswer": "A relationship characterized by conflict, distrust, and power struggles between management and unions.",
+          "Help": "Adversarial relations prioritize each side's interests over shared ones."
         },
         {
-          "question": "What is mediation?",
+          "question": "Which labor legislation outlawed certain unfair labor practices by unions and expanded employer rights, often seen as a counter-balance to the Wagner Act?",
           "options": [
-            "A neutral third party helps resolve disputes",
-            "Direct management decision-making",
-            "Payroll calculation",
-            "Training assessment"
+            "Fair Labor Standards Act (FLSA)",
+            "Taft-Hartley Act (Labor-Management Relations Act)",
+            "Civil Rights Act of 1964",
+            "Americans with Disabilities Act (ADA)"
           ],
-          "correctAnswer": "A neutral third party helps resolve disputes",
-          "explanation": "Mediation facilitates negotiation and agreement between conflicting parties."
+          "correctAnswer": "Taft-Hartley Act (Labor-Management Relations Act)",
+          "Help": "The Taft-Hartley Act introduced regulations on union activities."
         },
         {
-          "question": "What is arbitration?",
+          "question": "An employer forbidding union discussions during non-work hours on company property would generally be considered a violation of which law?",
           "options": [
-            "Binding resolution of a labor dispute by a third party",
-            "Optional training session",
-            "Payroll schedule review",
-            "Hiring decision tool"
+            "FLSA",
+            "ADA",
+            "Wagner Act",
+            "OSHA"
           ],
-          "correctAnswer": "Binding resolution of a labor dispute by a third party",
-          "explanation": "Arbitration settles disputes with a decision that both parties must follow."
+          "correctAnswer": "Wagner Act",
+          "Help": "The Wagner Act protects employees' rights to organize and engage in concerted activities."
+        },
+        {
+          "question": "Which of the following is typically NOT a step in organizing a labor union?",
+          "options": [
+            "Workers express interest in forming a union.",
+            "Union files a petition with the NLRB for an election.",
+            "Management unilaterally increases wages to avoid unionization.",
+            "NLRB conducts a secret-ballot election."
+          ],
+          "correctAnswer": "Management unilaterally increases wages to avoid unionization.",
+          "Help": "This would likely be seen as an unfair labor practice by management to influence the election."
+        },
+        {
+          "question": "What is the primary function of an employee grievance process?",
+          "options": [
+            "To allow employees to bypass management and directly sue the company.",
+            "To provide a formal method for employees to resolve workplace disputes or complaints according to established procedures.",
+            "To solely punish employees for misconduct.",
+            "To conduct annual performance reviews."
+          ],
+          "correctAnswer": "To provide a formal method for employees to resolve workplace disputes or complaints according to established procedures.",
+          "Help": "Grievance processes provide a structured way to address conflicts."
+        },
+        {
+          "question": "In collective bargaining, what happens if the parties reach an 'impasse'?",
+          "options": [
+            "A binding contract is automatically signed.",
+            "The negotiation process stops, and further resolution might involve mediation or arbitration.",
+            "One party can unilaterally impose its terms.",
+            "All employees are immediately terminated."
+          ],
+          "correctAnswer": "The negotiation process stops, and further resolution might involve mediation or arbitration.",
+          "Help": "Impasse means the parties cannot agree on a contract."
+        },
+        {
+          "question": "What is the role of the National Labor Relations Board (NLRB)?",
+          "options": [
+            "To represent management in all labor disputes.",
+            "To mediate all collective bargaining negotiations.",
+            "To enforce federal labor law regarding collective bargaining and unfair labor practices.",
+            "To exclusively promote the formation of new unions."
+          ],
+          "correctAnswer": "To enforce federal labor law regarding collective bargaining and unfair labor practices.",
+          "Help": "The NLRB protects both employee and employer rights in labor relations."
+        },
+        {
+          "question": "Which of the following is typically a step in the collective bargaining process?",
+          "options": [
+            "Issuing a public apology to all employees.",
+            "Preparing for negotiations by researching economic data and past contracts.",
+            "Mandating a specific outcome without discussion.",
+            "Ignoring all union demands completely."
+          ],
+          "correctAnswer": "Preparing for negotiations by researching economic data and past contracts.",
+          "Help": "Preparation is key to effective bargaining."
+        },
+        {
+          "question": "What is 'binding arbitration' in labor relations?",
+          "options": [
+            "A process where a neutral third party helps facilitate an agreement, but the decision is not final.",
+            "A process where a neutral third party hears both sides of a dispute and issues a final, legally enforceable decision.",
+            "A vote by employees to accept or reject a contract.",
+            "A strike initiated by the union."
+          ],
+          "correctAnswer": "A process where a neutral third party hears both sides of a dispute and issues a final, legally enforceable decision.",
+          "Help": "Binding arbitration leads to a final, mandatory resolution."
         }
       ]
     }

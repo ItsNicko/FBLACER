@@ -1,894 +1,454 @@
+
 {
   "testName": "Computer Problem Solving",
   "topics": [
     {
-      "topic": "Operating Systems — part 1",
+      "topic": "Operating Systems",
       "questions": [
         {
-          "question": "Which OS manages hardware resources and provides services to software applications?",
-          "options": ["Operating System", "Compiler", "Browser", "Firewall"],
-          "correctAnswer": "Operating System",
-          "explanation": "Operating systems manage hardware resources like CPU, memory, and storage while providing a platform for applications."
+          "question": "Which of the following is a primary function of an operating system?",
+          "options": [
+            "Executing application code directly on the CPU",
+            "Managing hardware resources and providing a user interface",
+            "Designing graphic user interfaces for software",
+            "Providing electrical power to system components"
+          ],
+          "correctAnswer": "Managing hardware resources and providing a user interface",
+          "Help": "The OS acts as an intermediary between hardware and user applications."
         },
         {
-          "question": "Which OS type is open-source and widely used for servers?",
-          "options": ["Linux", "Windows", "macOS", "iOS"],
-          "correctAnswer": "Linux",
-          "explanation": "Linux is open-source, customizable, and popular in server environments."
+          "question": "What is the purpose of virtual memory in an operating system?",
+          "options": [
+            "To store frequently accessed data for faster retrieval",
+            "To provide a permanent storage location for critical system files",
+            "To allow a system to compensate for shortages of physical memory by temporarily transferring data to disk storage",
+            "To encrypt sensitive data stored on the hard drive"
+          ],
+          "correctAnswer": "To allow a system to compensate for shortages of physical memory by temporarily transferring data to disk storage",
+          "Help": "Virtual memory extends RAM by using disk space."
         },
         {
-          "question": "Which OS is primarily used on Apple computers?",
-          "options": ["macOS", "Windows", "Linux", "Android"],
-          "correctAnswer": "macOS",
-          "explanation": "macOS is the proprietary operating system developed by Apple for its Mac computers."
+          "question": "Which file system is primarily used by modern Windows operating systems for its advanced security and file size support?",
+          "options": [
+            "FAT32",
+            "ExFAT",
+            "NTFS",
+            "HFS+"
+          ],
+          "correctAnswer": "NTFS",
+          "Help": "NTFS offers features like journaling, security, and large file support."
         },
         {
-          "question": "Which OS component handles input and output requests?",
-          "options": ["Kernel", "Shell", "Desktop", "BIOS"],
+          "question": "A user is experiencing an application crash on Windows 10, but the application ran fine on Windows 7. Which feature should they try to use?",
+          "options": [
+            "Disk Cleanup",
+            "Compatibility Mode",
+            "System Restore",
+            "Task Scheduler"
+          ],
+          "correctAnswer": "Compatibility Mode",
+          "Help": "Compatibility mode helps older software run on newer OS versions."
+        },
+        {
+          "question": "What is the primary role of the Power-On Self-Test (POST) during the boot process?",
+          "options": [
+            "To load the operating system kernel into memory",
+            "To configure network settings and connect to the internet",
+            "To initialize and test hardware components before the OS loads",
+            "To display the login screen for user authentication"
+          ],
+          "correctAnswer": "To initialize and test hardware components before the OS loads",
+          "Help": "POST is an initial diagnostic check."
+        },
+        {
+          "question": "A computer repeatedly displays a 'Blue Screen of Death' (BSOD). Which of the following is the MOST likely cause?",
+          "options": [
+            "Low disk space",
+            "Malfunctioning RAM or device driver issue",
+            "Outdated antivirus software",
+            "Corrupted user profile"
+          ],
+          "correctAnswer": "Malfunctioning RAM or device driver issue",
+          "Help": "BSODs often point to critical hardware or driver failures."
+        },
+        {
+          "question": "Which Windows utility is used to free up disk space by deleting temporary files, Recycle Bin contents, and other non-essential items?",
+          "options": [
+            "Disk Defragmenter",
+            "Task Manager",
+            "Disk Cleanup",
+            "System Information"
+          ],
+          "correctAnswer": "Disk Cleanup",
+          "Help": "This utility targets unnecessary files for removal."
+        },
+        {
+          "question": "When considering an operating system upgrade, what is a crucial first step to ensure a smooth transition?",
+          "options": [
+            "Changing the system's power settings",
+            "Backing up all important data and files",
+            "Disabling the firewall",
+            "Installing new antivirus software"
+          ],
+          "correctAnswer": "Backing up all important data and files",
+          "Help": "Data loss is a major risk during OS upgrades."
+        },
+        {
+          "question": "Which Linux command is used to display the contents of a file?",
+          "options": [
+            "ls",
+            "cp",
+            "cat",
+            "mkdir"
+          ],
+          "correctAnswer": "cat",
+          "Help": "This command concatenates and displays file content."
+        },
+        {
+          "question": "An administrator needs to quickly find the IP address of a Windows computer from the command prompt. Which command should they use?",
+          "options": [
+            "ping",
+            "tracert",
+            "ipconfig",
+            "netstat"
+          ],
+          "correctAnswer": "ipconfig",
+          "Help": "This command displays current TCP/IP network configuration values."
+        },
+        {
+          "question": "Which component of an operating system manages the allocation of CPU time to different processes?",
+          "options": [
+            "File System",
+            "Registry",
+            "Kernel",
+            "Device Driver"
+          ],
           "correctAnswer": "Kernel",
-          "explanation": "The kernel manages communication between hardware and software, handling I/O operations and system resources."
+          "Help": "The kernel is the core of the OS, managing system resources."
         },
         {
-          "question": "Which OS feature allows running multiple applications at the same time?",
-          "options": ["Multitasking", "Networking", "Security", "Encryption"],
-          "correctAnswer": "Multitasking",
-          "explanation": "Multitasking allows an operating system to run multiple programs simultaneously by allocating CPU time efficiently."
-        },
-        {
-          "question": "Which OS uses a graphical interface instead of command-line only?",
+          "question": "What characteristic makes ExFAT a suitable file system for large external storage devices like USB drives and SD cards?",
           "options": [
-            "GUI-based OS",
-            "Command-line OS",
-            "Embedded OS",
-            "Server OS"
+            "Its robust journaling features",
+            "Its compatibility with both Windows and macOS and support for large files",
+            "Its advanced security permissions",
+            "Its optimized performance for internal SSDs"
           ],
-          "correctAnswer": "GUI-based OS",
-          "explanation": "GUI-based OS provides a graphical interface for user interaction, making it easier to operate."
+          "correctAnswer": "Its compatibility with both Windows and macOS and support for large files",
+          "Help": "ExFAT bridges the gap between FAT32 and NTFS for cross-platform compatibility."
         },
         {
-          "question": "Which OS is commonly used in smartphones?",
-          "options": ["Android", "Windows", "macOS", "Linux"],
-          "correctAnswer": "Android",
-          "explanation": "Android is an open-source OS designed for mobile devices like smartphones and tablets."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Operating Systems — part 1?",
+          "question": "Before installing new software, it is best practice to create a system restore point. What is the primary benefit of this action?",
           "options": [
-            "Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Operating Systems 1",
-            "Make decisions without any methodology"
+            "It backs up all user documents.",
+            "It increases available disk space.",
+            "It allows the system to revert to a previous working state if issues arise.",
+            "It optimizes system performance."
           ],
-          "correctAnswer": "Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "It allows the system to revert to a previous working state if issues arise.",
+          "Help": "System Restore helps recover from problematic installations."
+        },
+        {
+          "question": "If a Windows computer fails to boot and presents options like 'Safe Mode,' 'Last Known Good Configuration,' or 'Start Windows Normally,' which boot method is being utilized?",
+          "options": [
+            "PXE boot",
+            "Recovery Environment",
+            "USB boot",
+            "Network boot"
+          ],
+          "correctAnswer": "Recovery Environment",
+          "Help": "These options are typically part of the Windows Recovery Environment."
+        },
+        {
+          "question": "A user reports that their computer is running extremely slowly and the hard drive activity light is constantly on, even when no applications are open. Which OS utility would be most helpful in identifying processes consuming excessive resources?",
+          "options": [
+            "Disk Management",
+            "System Monitor (Task Manager on Windows)",
+            "Event Viewer",
+            "Device Manager"
+          ],
+          "correctAnswer": "System Monitor (Task Manager on Windows)",
+          "Help": "Task Manager or similar system monitors show real-time resource usage."
+        },
+        {
+          "question": "When upgrading an operating system, why is checking hardware compatibility an important consideration?",
+          "options": [
+            "To ensure the new OS can utilize cloud storage efficiently",
+            "To verify that all existing peripherals and internal components will function correctly with the new OS",
+            "To reduce the power consumption of the system",
+            "To prevent the new OS from connecting to public Wi-Fi networks"
+          ],
+          "correctAnswer": "To verify that all existing peripherals and internal components will function correctly with the new OS",
+          "Help": "Older hardware might lack drivers or support for newer OS versions."
+        },
+        {
+          "question": "Which command-line tool in Linux is used to create a new directory?",
+          "options": [
+            "cd",
+            "rm",
+            "mkdir",
+            "ls"
+          ],
+          "correctAnswer": "mkdir",
+          "Help": "This command means 'make directory'."
+        },
+        {
+          "question": "What is the primary function of the Windows Registry?",
+          "options": [
+            "To store user documents and personal files",
+            "To manage network connections and protocols",
+            "To store configuration settings and options for the operating system and installed applications",
+            "To handle printer queues and print jobs"
+          ],
+          "correctAnswer": "To store configuration settings and options for the operating system and installed applications",
+          "Help": "The Registry is a hierarchical database for system settings."
+        },
+        {
+          "question": "A user needs to enable file compression on a folder in Windows to save disk space. Where would they typically find this option?",
+          "options": [
+            "In the Disk Management utility",
+            "In the 'Properties' dialog box of the folder",
+            "Through the System Information tool",
+            "Within the Windows Firewall settings"
+          ],
+          "correctAnswer": "In the 'Properties' dialog box of the folder",
+          "Help": "File compression is a property of files and folders."
+        },
+        {
+          "question": "If a computer is stuck in an endless reboot loop and cannot load the OS, which boot method might allow an IT professional to diagnose and potentially resolve the issue by starting the system with minimal drivers?",
+          "options": [
+            "Normal Boot",
+            "Network Boot",
+            "Safe Mode",
+            "Full System Restore"
+          ],
+          "correctAnswer": "Safe Mode",
+          "Help": "Safe Mode loads only essential drivers and services, helpful for troubleshooting."
         }
       ]
     },
     {
-      "topic": "Operating Systems — part 2",
+      "topic": "Networks",
       "questions": [
         {
-          "question": "Which OS utility checks and repairs file system errors?",
-          "options": ["Disk check tool", "Firewall", "Task manager", "Shell"],
-          "correctAnswer": "Disk check tool",
-          "explanation": "Disk check tools verify file system integrity and repair errors to maintain OS stability."
-        },
-        {
-          "question": "Which practice helps Operating Systems? (Challenging)",
+          "question": "Which protocol is responsible for logically addressing devices on a network and enabling routing between different networks?",
           "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "MAC address",
+            "TCP",
+            "IP address",
+            "Ethernet"
           ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
+          "correctAnswer": "IP address",
+          "Help": "IP addresses are used for logical addressing and routing."
         },
         {
-          "question": "(Hard) Which is a challenging question about Operating Systems?",
+          "question": "What type of network typically covers a small geographical area, such as a home, office, or school?",
           "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "WAN",
+            "MAN",
+            "LAN",
+            "GAN"
           ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
+          "correctAnswer": "LAN",
+          "Help": "LAN stands for Local Area Network."
         },
         {
-          "question": "Which of the following best explains Operating Systems — part 2?",
+          "question": "Which protocol provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating over an IP network?",
           "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
+            "UDP",
+            "ICMP",
+            "ARP",
+            "TCP"
           ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "TCP",
+          "Help": "TCP is a connection-oriented, reliable protocol."
         },
         {
-          "question": "Which of the following best explains Operating Systems — part 2?",
+          "question": "Which IP addressing scheme automatically assigns IP addresses to devices on a network?",
           "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
+            "Static IP",
+            "Private IP",
+            "Dynamic IP (DHCP)",
+            "Public IP"
           ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Dynamic IP (DHCP)",
+          "Help": "DHCP servers assign dynamic IP addresses."
         },
         {
-          "question": "Which of the following best explains Operating Systems — part 2?",
+          "question": "Which IEEE standard defines the specifications for Wireless Local Area Networks (WLANs)?",
           "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
+            "802.3",
+            "802.5",
+            "802.11",
+            "802.1Q"
           ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "802.11",
+          "Help": "802.11 is the family of Wi-Fi standards."
         },
         {
-          "question": "Which of the following best explains Operating Systems — part 2?",
+          "question": "What is the maximum theoretical speed for Cat 5e Ethernet cable over typical distances?",
           "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
+            "10 Mbps",
+            "100 Mbps",
+            "1 Gbps",
+            "10 Gbps"
           ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "1 Gbps",
+          "Help": "Cat 5e supports Gigabit Ethernet."
         },
         {
-          "question": "Which of the following best explains Operating Systems — part 2?",
+          "question": "Which network service translates human-readable domain names (like www.example.com) into IP addresses?",
           "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
+            "DHCP",
+            "SMTP",
+            "DNS",
+            "FTP"
           ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Networks — part 1",
-      "questions": [
-        {
-          "question": "Which device connects multiple computers in a local network?",
-          "options": ["Switch", "Router", "Firewall", "Hub"],
-          "correctAnswer": "Switch",
-          "explanation": "Switches forward data frames only to the intended device within a local network."
-        },
-        {
-          "question": "Which protocol provides secure web browsing?",
-          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
-          "correctAnswer": "HTTPS",
-          "explanation": "HTTPS encrypts web traffic, protecting data from eavesdropping and tampering."
-        },
-        {
-          "question": "Which IP version is most widely used currently?",
-          "options": ["IPv4", "IPv6", "IPX", "ICMP"],
-          "correctAnswer": "IPv4",
-          "explanation": "IPv4 is the most common version of Internet Protocol in use today, though IPv6 adoption is increasing."
-        },
-        {
-          "question": "Which network device directs traffic between different networks?",
-          "options": ["Router", "Switch", "Hub", "Access point"],
-          "correctAnswer": "Router",
-          "explanation": "Routers determine the best path for data packets to travel between networks."
-        },
-        {
-          "question": "Which protocol is used to retrieve emails from a server?",
-          "options": ["POP3", "SMTP", "HTTP", "FTP"],
-          "correctAnswer": "POP3",
-          "explanation": "POP3 allows email clients to download messages from a mail server."
-        },
-        {
-          "question": "Which network type covers a large geographical area?",
-          "options": ["WAN", "LAN", "MAN", "PAN"],
-          "correctAnswer": "WAN",
-          "explanation": "Wide Area Networks (WANs) span large areas, connecting LANs across cities or countries."
-        },
-        {
-          "question": "Which network device extends wireless coverage?",
-          "options": ["Access point", "Switch", "Router", "Hub"],
-          "correctAnswer": "Access point",
-          "explanation": "Access points allow wireless devices to connect to a wired network."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Networks — part 1?",
-          "options": [
-            "Apply advanced Networks 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Networks 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Networks 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Networks 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Networks — part 2",
-      "questions": [
-        {
-          "question": "Which protocol translates domain names into IP addresses?",
-          "options": ["DNS", "DHCP", "HTTP", "FTP"],
           "correctAnswer": "DNS",
-          "explanation": "The Domain Name System (DNS) maps human-readable names to machine-readable IP addresses."
+          "Help": "DNS is the Domain Name System."
         },
         {
-          "question": "Why is it important to Networks? (Challenging)",
+          "question": "A device that connects multiple computers within a local area network (LAN) and filters traffic by sending data only to the specific port that the destination device is connected to is called a:",
           "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "Modem",
+            "Router",
+            "Switch",
+            "Hub"
           ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Networks?",
-          "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
-          ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "Which of the following best explains Networks — part 2?",
-          "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
-          ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Networks — part 2?",
-          "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
-          ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Networks — part 2?",
-          "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
-          ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Networks — part 2?",
-          "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
-          ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Networks — part 2?",
-          "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
-          ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Computer Hardware and Connectivity — part 1",
-      "questions": [
-        {
-          "question": "Which component is considered the brain of a computer?",
-          "options": ["CPU", "GPU", "RAM", "SSD"],
-          "correctAnswer": "CPU",
-          "explanation": "The CPU executes instructions and processes data for the computer."
-        },
-        {
-          "question": "Which component temporarily stores data for active applications?",
-          "options": ["RAM", "SSD", "GPU", "CPU"],
-          "correctAnswer": "RAM",
-          "explanation": "RAM provides fast temporary storage for data being used by the CPU."
-        },
-        {
-          "question": "Which component stores data permanently on a computer?",
-          "options": ["SSD", "RAM", "CPU", "GPU"],
-          "correctAnswer": "SSD",
-          "explanation": "SSDs provide non-volatile storage for files and programs."
-        },
-        {
-          "question": "Which device connects multiple devices within a wired network?",
-          "options": ["Switch", "Router", "Hub", "Firewall"],
           "correctAnswer": "Switch",
-          "explanation": "Switches direct data frames to the appropriate device within a local network."
+          "Help": "Switches operate at Layer 2 and are more intelligent than hubs."
         },
         {
-          "question": "Which component is used to display images and graphics?",
-          "options": ["GPU", "CPU", "RAM", "SSD"],
-          "correctAnswer": "GPU",
-          "explanation": "The GPU processes graphics and renders images for output to a display."
-        },
-        {
-          "question": "Which peripheral allows users to input data by moving a pointer?",
-          "options": ["Mouse", "Keyboard", "Scanner", "Printer"],
-          "correctAnswer": "Mouse",
-          "explanation": "A mouse lets users interact with graphical interfaces by moving and clicking a pointer."
-        },
-        {
-          "question": "Which type of port connects external storage devices and peripherals?",
-          "options": ["USB", "HDMI", "Ethernet", "VGA"],
-          "correctAnswer": "USB",
-          "explanation": "USB ports support data transfer and power for a variety of external devices."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Computer Hardware and Connectivity — part 1?",
+          "question": "How do MAC addresses primarily facilitate communication on a local network?",
           "options": [
-            "Apply advanced Computer Hardware Connectivity 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Computer Hardware Connectivity 1",
-            "Make decisions without any methodology"
+            "By providing logical addresses for routing across the internet",
+            "By identifying network devices uniquely at the data link layer",
+            "By encrypting data packets before transmission",
+            "By assigning dynamic IP addresses to new devices"
           ],
-          "correctAnswer": "Apply advanced Computer Hardware Connectivity 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Computer Hardware Connectivity 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Computer Hardware and Connectivity — part 2",
-      "questions": [
-        {
-          "question": "Which port is typically used for connecting monitors to computers?",
-          "options": ["HDMI", "USB", "Ethernet", "Audio jack"],
-          "correctAnswer": "HDMI",
-          "explanation": "HDMI ports transmit high-definition video and audio signals from a computer to a display."
+          "correctAnswer": "By identifying network devices uniquely at the data link layer",
+          "Help": "MAC addresses are hardware addresses for local network identification."
         },
         {
-          "question": "Which practice helps Computer Hardware and Connectivity? (Hard)",
+          "question": "Which type of network typically spans large geographical areas and connects multiple smaller networks?",
           "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "LAN",
+            "WAN",
+            "PAN",
+            "SAN"
           ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "(Hard) Which of the following best explains Computer Hardware and Connectivity — part 2?",
-          "options": [
-            "Computer hardware connectivity 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Computer Hardware Connectivity 2"
-          ],
-          "correctAnswer": "Computer hardware connectivity 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Computer hardware connectivity 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Security — part 1",
-      "questions": [
-        {
-          "question": "Which malware disguises itself as legitimate software?",
-          "options": ["Trojan", "Virus", "Worm", "Adware"],
-          "correctAnswer": "Trojan",
-          "explanation": "Trojans appear harmless but contain malicious code that can compromise systems."
-        },
-        {
-          "question": "Which security measure prevents unauthorized access to a network?",
-          "options": ["Firewall", "VPN", "Cloud storage", "Email filter"],
-          "correctAnswer": "Firewall",
-          "explanation": "Firewalls block unauthorized network traffic while allowing legitimate communication."
-        },
-        {
-          "question": "Which security technique encrypts data for safe transmission?",
-          "options": ["Encryption", "Antivirus", "Firewall", "Backup"],
-          "correctAnswer": "Encryption",
-          "explanation": "Encryption transforms data into unreadable format for secure communication."
-        },
-        {
-          "question": "Which attack attempts to trick users into giving sensitive information?",
-          "options": ["Phishing", "Malware", "Spyware", "DDoS"],
-          "correctAnswer": "Phishing",
-          "explanation": "Phishing uses deceptive messages to obtain personal or financial data."
-        },
-        {
-          "question": "Which software detects and removes viruses?",
-          "options": ["Antivirus", "Firewall", "VPN", "Backup software"],
-          "correctAnswer": "Antivirus",
-          "explanation": "Antivirus programs scan, detect, and remove malicious software from computers."
-        },
-        {
-          "question": "Which type of attack floods a system with traffic to disrupt service?",
-          "options": ["DDoS", "Trojan", "Phishing", "Spyware"],
-          "correctAnswer": "DDoS",
-          "explanation": "Distributed Denial of Service (DDoS) attacks overwhelm a system with traffic to cause downtime."
-        },
-        {
-          "question": "Which security practice involves keeping software updated to patch vulnerabilities?",
-          "options": ["Patching", "Encryption", "Sandboxing", "Phishing"],
-          "correctAnswer": "Patching",
-          "explanation": "Patching fixes known security issues to reduce vulnerability to attacks."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Security — part 1?",
-          "options": [
-            "Apply advanced Security 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Security 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Security 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Security 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Security — part 2",
-      "questions": [
-        {
-          "question": "Which principle encourages reporting security incidents promptly?",
-          "options": [
-            "Incident response",
-            "Encryption",
-            "Firewall",
-            "Authentication"
-          ],
-          "correctAnswer": "Incident response",
-          "explanation": "Incident response ensures threats are addressed quickly to minimize damage."
-        },
-        {
-          "question": "Why is it important to Security? (Hard)",
-          "options": [
-            "Protecting systems and data by identifying and mitigating threats",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
-          ],
-          "correctAnswer": "Protecting systems and data by identifying and mitigating threats",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "(Hard) Which of the following best explains Security — part 2?",
-          "options": [
-            "Security 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Security 2"
-          ],
-          "correctAnswer": "Security 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Security 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Operating Systems — part 1",
-      "questions": [
-        {
-          "question": "Which OS manages hardware resources and provides services to software applications?",
-          "options": ["Operating System", "Compiler", "Browser", "Firewall"],
-          "correctAnswer": "Operating System",
-          "explanation": "Operating systems manage hardware resources like CPU, memory, and storage while providing a platform for applications."
-        },
-        {
-          "question": "Which OS type is open-source and widely used for servers?",
-          "options": ["Linux", "Windows", "macOS", "iOS"],
-          "correctAnswer": "Linux",
-          "explanation": "Linux is open-source, customizable, and popular in server environments."
-        },
-        {
-          "question": "Which OS is primarily used on Apple computers?",
-          "options": ["macOS", "Windows", "Linux", "Android"],
-          "correctAnswer": "macOS",
-          "explanation": "macOS is the proprietary operating system developed by Apple for its Mac computers."
-        },
-        {
-          "question": "Which OS component handles input and output requests?",
-          "options": ["Kernel", "Shell", "Desktop", "BIOS"],
-          "correctAnswer": "Kernel",
-          "explanation": "The kernel manages communication between hardware and software, handling I/O operations and system resources."
-        },
-        {
-          "question": "Which OS feature allows running multiple applications at the same time?",
-          "options": ["Multitasking", "Networking", "Security", "Encryption"],
-          "correctAnswer": "Multitasking",
-          "explanation": "Multitasking allows an operating system to run multiple programs simultaneously by allocating CPU time efficiently."
-        },
-        {
-          "question": "Which OS uses a graphical interface instead of command-line only?",
-          "options": [
-            "GUI-based OS",
-            "Command-line OS",
-            "Embedded OS",
-            "Server OS"
-          ],
-          "correctAnswer": "GUI-based OS",
-          "explanation": "GUI-based OS provides a graphical interface for user interaction, making it easier to operate."
-        },
-        {
-          "question": "Which OS is commonly used in smartphones?",
-          "options": ["Android", "Windows", "macOS", "Linux"],
-          "correctAnswer": "Android",
-          "explanation": "Android is an open-source OS designed for mobile devices like smartphones and tablets."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Operating Systems — part 1?",
-          "options": [
-            "Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Operating Systems 1",
-            "Make decisions without any methodology"
-          ],
-          "correctAnswer": "Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Operating Systems 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Operating Systems — part 2",
-      "questions": [
-        {
-          "question": "Which OS utility checks and repairs file system errors?",
-          "options": ["Disk check tool", "Firewall", "Task manager", "Shell"],
-          "correctAnswer": "Disk check tool",
-          "explanation": "Disk check tools verify file system integrity and repair errors to maintain OS stability."
-        },
-        {
-          "question": "Why is it important to Operating Systems? (Challenging)",
-          "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
-          ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Operating Systems?",
-          "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
-          ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "This is a higher-difficulty item; Best practice is correct because it requires analysis beyond simple recall. (Corrected to a specific, accurate option.)"
-        },
-        {
-          "question": "Which of the following best explains Operating Systems — part 2?",
-          "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
-          ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Operating Systems — part 2?",
-          "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
-          ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Operating Systems — part 2?",
-          "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
-          ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Operating Systems — part 2?",
-          "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
-          ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        },
-        {
-          "question": "Which of the following best explains Operating Systems — part 2?",
-          "options": [
-            "Operating systems 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Operating Systems 2"
-          ],
-          "correctAnswer": "Operating systems 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Operating systems 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Networks — part 1",
-      "questions": [
-        {
-          "question": "Which device connects multiple computers in a local network?",
-          "options": ["Switch", "Router", "Firewall", "Hub"],
-          "correctAnswer": "Switch",
-          "explanation": "Switches forward data frames only to the intended device within a local network."
-        },
-        {
-          "question": "Which protocol provides secure web browsing?",
-          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
-          "correctAnswer": "HTTPS",
-          "explanation": "HTTPS encrypts web traffic, protecting data from eavesdropping and tampering."
-        },
-        {
-          "question": "Which IP version is most widely used currently?",
-          "options": ["IPv4", "IPv6", "IPX", "ICMP"],
-          "correctAnswer": "IPv4",
-          "explanation": "IPv4 is the most common version of Internet Protocol in use today, though IPv6 adoption is increasing."
-        },
-        {
-          "question": "Which network device directs traffic between different networks?",
-          "options": ["Router", "Switch", "Hub", "Access point"],
-          "correctAnswer": "Router",
-          "explanation": "Routers determine the best path for data packets to travel between networks."
-        },
-        {
-          "question": "Which protocol is used to retrieve emails from a server?",
-          "options": ["POP3", "SMTP", "HTTP", "FTP"],
-          "correctAnswer": "POP3",
-          "explanation": "POP3 allows email clients to download messages from a mail server."
-        },
-        {
-          "question": "Which network type covers a large geographical area?",
-          "options": ["WAN", "LAN", "MAN", "PAN"],
           "correctAnswer": "WAN",
-          "explanation": "Wide Area Networks (WANs) span large areas, connecting LANs across cities or countries."
+          "Help": "WAN stands for Wide Area Network."
         },
         {
-          "question": "Which network device extends wireless coverage?",
-          "options": ["Access point", "Switch", "Router", "Hub"],
-          "correctAnswer": "Access point",
-          "explanation": "Access points allow wireless devices to connect to a wired network."
-        },
-        {
-          "question": "(Hard) Which is a challenging question about Networks — part 1?",
+          "question": "What is the primary function of the UDP protocol?",
           "options": [
-            "Apply advanced Networks 1 concepts to analyze edge-case scenarios",
-            "Rely on rote memorization of basic facts",
-            "Use unrelated heuristics that don't apply to Networks 1",
-            "Make decisions without any methodology"
+            "To guarantee reliable and ordered packet delivery",
+            "To provide a connectionless, unreliable, but fast data transmission",
+            "To establish secure connections for web browsing",
+            "To translate IP addresses to MAC addresses"
           ],
-          "correctAnswer": "Apply advanced Networks 1 concepts to analyze edge-case scenarios",
-          "explanation": "Choosing 'Apply advanced Networks 1 concepts to analyze edge-case scenarios' is appropriate here because it addresses the specific issue raised by the question."
-        }
-      ]
-    },
-    {
-      "topic": "Networks — part 2",
-      "questions": [
-        {
-          "question": "Which protocol translates domain names into IP addresses?",
-          "options": ["DNS", "DHCP", "HTTP", "FTP"],
-          "correctAnswer": "DNS",
-          "explanation": "The Domain Name System (DNS) maps human-readable names to machine-readable IP addresses."
+          "correctAnswer": "To provide a connectionless, unreliable, but fast data transmission",
+          "Help": "UDP is often used for streaming where speed is prioritized over guaranteed delivery."
         },
         {
-          "question": "Which practice helps Networks? (Hard)",
+          "question": "What is the purpose of a private IP address?",
           "options": [
-            "Managing systems and networks to ensure reliable computing services",
-            "It is rarely used in practice",
-            "It always increases costs",
-            "It never affects outcomes"
+            "To allow direct access to a device from the internet",
+            "To identify a device uniquely across the global internet",
+            "To be used for communication within a local network and are not routable on the public internet",
+            "To provide a fixed IP address that never changes"
           ],
-          "correctAnswer": "Managing systems and networks to ensure reliable computing services",
-          "explanation": "Common best practice supports this choice; distractors are plausible but less correct. (Corrected to a specific, accurate option.)"
+          "correctAnswer": "To be used for communication within a local network and are not routable on the public internet",
+          "Help": "Private IPs are for internal network use."
         },
         {
-          "question": "Which of the following best explains Networks — part 2?",
+          "question": "Which wireless encryption standard is considered the most secure for Wi-Fi networks today?",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "WEP",
+            "WPA",
+            "WPA2",
+            "WPA3"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "WPA3",
+          "Help": "WPA3 is the latest and most robust Wi-Fi Protected Access standard."
         },
         {
-          "question": "Which of the following best explains Networks — part 2?",
+          "question": "What is the main advantage of fiber optic cables over copper Ethernet cables?",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "Lower cost and easier installation",
+            "Resistance to electromagnetic interference and longer transmission distances",
+            "Ability to carry electrical power to devices",
+            "Standardized RJ45 connectors"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Resistance to electromagnetic interference and longer transmission distances",
+          "Help": "Fiber optic uses light signals, making it immune to EMI and capable of greater distances."
         },
         {
-          "question": "Which of the following best explains Networks — part 2?",
+          "question": "A network device that modulates and demodulates signals to convert digital data into analog signals for transmission over telephone lines or cable lines is called a:",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "Router",
+            "Switch",
+            "Modem",
+            "Access Point"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "Modem",
+          "Help": "Modems connect your network to the ISP's network."
         },
         {
-          "question": "Which of the following best explains Networks — part 2?",
+          "question": "Which of the following describes an IPv6 address?",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "A 32-bit numerical address",
+            "A 48-bit hexadecimal address",
+            "A 128-bit hexadecimal address",
+            "A 64-bit binary address"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "A 128-bit hexadecimal address",
+          "Help": "IPv6 addresses are significantly longer than IPv4."
         },
         {
-          "question": "Which of the following best explains Networks — part 2?",
+          "question": "When a computer connects to a network, what is the role of DHCP?",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "To convert private IP addresses to public IP addresses",
+            "To assign unique hardware addresses to network interfaces",
+            "To dynamically assign IP addresses and other network configuration parameters to devices",
+            "To secure network traffic using encryption"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "To dynamically assign IP addresses and other network configuration parameters to devices",
+          "Help": "DHCP simplifies network configuration for clients."
         },
         {
-          "question": "(Hard) Which of the following best explains Networks — part 2?",
+          "question": "Which protocol is commonly used for secure remote command-line access to network devices?",
           "options": [
-            "Networks 2 focuses on core practices and principles",
-            "It mainly concerns unrelated business activities such as marketing",
-            "It primarily aims to maximize short-term profit without regard to practice",
-            "It refers to low-level implementation details not central to Networks 2"
+            "Telnet",
+            "HTTP",
+            "SSH",
+            "FTP"
           ],
-          "correctAnswer": "Networks 2 focuses on core practices and principles",
-          "explanation": "Choosing 'Networks 2 focuses on core practices and principles' is appropriate here because it addresses the specific issue raised by the question."
+          "correctAnswer": "SSH",
+          "Help": "SSH (Secure Shell) encrypts the connection, unlike Telnet."
+        },
+        {
+          "question": "A user wants to extend their home Wi-Fi network's range. What type of device would be most suitable?",
+          "options": [
+            "A modem",
+            "A network switch",
+            "A wireless access point or repeater",
+            "A powerline adapter"
+          ],
+          "correctAnswer": "A wireless access point or repeater",
+          "Help": "These devices specifically boost or extend Wi-Fi signals."
+        },
+        {
+          "question": "In the context of networking, what is a MAC address also known as?",
+          "options": [
+            "Logical address",
+            "Software address",
+            "Hardware address",
+            "Network address translation"
+          ],
+          "correctAnswer": "Hardware address",
+          "Help": "MAC addresses are burned into the network interface card."
         }
       ]
     },
@@ -896,22 +456,224 @@
       "topic": "Computer Hardware and Connectivity",
       "questions": [
         {
-          "question": "Which component is considered the brain of a computer?",
-          "options": ["CPU", "GPU", "RAM", "SSD"],
+          "question": "Which component is often referred to as the 'brain' of the computer, responsible for executing instructions and performing calculations?",
+          "options": [
+            "Motherboard",
+            "RAM",
+            "CPU",
+            "GPU"
+          ],
           "correctAnswer": "CPU",
-          "explanation": "The CPU executes instructions and processes data for the computer."
+          "Help": "CPU stands for Central Processing Unit."
         },
         {
-          "question": "Which component temporarily stores data for active applications?",
-          "options": ["RAM", "SSD", "GPU", "CPU"],
-          "correctAnswer": "RAM",
-          "explanation": "RAM provides fast temporary storage for data being used by the CPU."
+          "question": "A user wants to improve the graphical performance of their desktop computer for gaming. Which expansion card should they consider upgrading?",
+          "options": [
+            "Sound card",
+            "Network Interface Card (NIC)",
+            "Graphics card (GPU)",
+            "RAID controller card"
+          ],
+          "correctAnswer": "Graphics card (GPU)",
+          "Help": "GPUs are specialized for rendering graphics."
         },
         {
-          "question": "Which component stores data permanently on a computer?",
-          "options": ["SSD", "RAM", "CPU", "GPU"],
+          "question": "When purchasing a new computer, what is a key consideration if the user intends to perform demanding tasks like video editing or CAD?",
+          "options": [
+            "A large HDD for storage",
+            "A high-quality webcam",
+            "A powerful multi-core CPU and ample RAM",
+            "A wireless keyboard and mouse"
+          ],
+          "correctAnswer": "A powerful multi-core CPU and ample RAM",
+          "Help": "Demanding tasks require significant processing power and memory."
+        },
+        {
+          "question": "Which type of storage device uses non-volatile flash memory and offers significantly faster read/write speeds compared to traditional hard disk drives?",
+          "options": [
+            "HDD",
+            "SSD",
+            "CD-ROM",
+            "Magnetic tape"
+          ],
           "correctAnswer": "SSD",
-          "explanation": "SSDs provide non-volatile storage for files and programs."
+          "Help": "SSD stands for Solid State Drive."
+        },
+        {
+          "question": "Which type of cable is commonly used to connect an analog telephone to a wall jack?",
+          "options": [
+            "RJ45",
+            "USB-C",
+            "HDMI",
+            "RJ11"
+          ],
+          "correctAnswer": "RJ11",
+          "Help": "RJ11 connectors are smaller and typically used for telephone lines."
+        },
+        {
+          "question": "What is the primary advantage of using a fiber optic network cable over a Cat 6 Ethernet cable for long distances?",
+          "options": [
+            "It is cheaper to install",
+            "It is immune to electromagnetic interference",
+            "It carries electrical power for devices",
+            "It is more flexible and easier to bend"
+          ],
+          "correctAnswer": "It is immune to electromagnetic interference",
+          "Help": "Fiber optic cables transmit data using light pulses, not electrical signals."
+        },
+        {
+          "question": "After installing a new RAM module, the computer fails to boot and emits a series of beeps. What is the MOST likely immediate step in troubleshooting?",
+          "options": [
+            "Reinstall the operating system",
+            "Check if the RAM module is seated correctly in its slot",
+            "Update the graphics card drivers",
+            "Replace the power supply unit"
+          ],
+          "correctAnswer": "Check if the RAM module is seated correctly in its slot",
+          "Help": "Beep codes often indicate a problem with RAM or other critical components."
+        },
+        {
+          "question": "If a computer powers on, but the display remains blank and the internal fans spin at maximum speed, what might be the cause?",
+          "options": [
+            "A software bug in the operating system",
+            "An issue with the video card or monitor connection",
+            "A loose keyboard connection",
+            "An expiring antivirus subscription"
+          ],
+          "correctAnswer": "An issue with the video card or monitor connection",
+          "Help": "No display combined with active fans often points to video output problems."
+        },
+        {
+          "question": "What is the main purpose of the motherboard in a computer system?",
+          "options": [
+            "To process all graphical information",
+            "To store all permanent data and files",
+            "To act as the main circuit board connecting all components and allowing them to communicate",
+            "To provide power to all internal components"
+          ],
+          "correctAnswer": "To act as the main circuit board connecting all components and allowing them to communicate",
+          "Help": "The motherboard is the central hub for all hardware."
+        },
+        {
+          "question": "What is the primary function of a Network Interface Card (NIC)?",
+          "options": [
+            "To display video output on a monitor",
+            "To provide wireless connectivity to peripherals",
+            "To enable a computer to connect to a network",
+            "To accelerate processor calculations"
+          ],
+          "correctAnswer": "To enable a computer to connect to a network",
+          "Help": "A NIC provides the physical connection for network communication."
+        },
+        {
+          "question": "Which of the following is a critical factor to consider when upgrading a power supply unit (PSU)?",
+          "options": [
+            "The color of the PSU's casing",
+            "The total wattage required by all system components",
+            "The number of USB ports on the front panel",
+            "The brand of the operating system"
+          ],
+          "correctAnswer": "The total wattage required by all system components",
+          "Help": "An underpowered PSU can cause system instability or prevent components from working."
+        },
+        {
+          "question": "Which USB standard introduced a reversible connector and significantly increased data transfer speeds compared to previous versions?",
+          "options": [
+            "USB 1.1",
+            "USB 2.0",
+            "USB 3.0",
+            "USB-C (often associated with USB 3.1/3.2/Thunderbolt)"
+          ],
+          "correctAnswer": "USB-C (often associated with USB 3.1/3.2/Thunderbolt)",
+          "Help": "USB-C is a versatile and modern connector."
+        },
+        {
+          "question": "A user notices their computer frequently freezes and restarts unexpectedly. Which component, if failing, could be a common cause of such instability?",
+          "options": [
+            "External webcam",
+            "Power Supply Unit (PSU)",
+            "Printer",
+            "Speakers"
+          ],
+          "correctAnswer": "Power Supply Unit (PSU)",
+          "Help": "An unstable or failing PSU can cause random reboots and crashes."
+        },
+        {
+          "question": "What is the main function of RAM (Random Access Memory) in a computer?",
+          "options": [
+            "To permanently store the operating system",
+            "To provide temporary storage for data and programs currently in use by the CPU",
+            "To process graphical information for display",
+            "To connect to the internet"
+          ],
+          "correctAnswer": "To provide temporary storage for data and programs currently in use by the CPU",
+          "Help": "RAM is volatile memory for active data."
+        },
+        {
+          "question": "Which cable type is most commonly used to connect a computer to a modern high-definition monitor or television?",
+          "options": [
+            "VGA",
+            "DVI",
+            "HDMI",
+            "PS/2"
+          ],
+          "correctAnswer": "HDMI",
+          "Help": "HDMI transmits both video and audio digitally."
+        },
+        {
+          "question": "A new internal hard drive is not detected by the operating system after installation. What should be checked first?",
+          "options": [
+            "The sound card drivers",
+            "The power and data cables are securely connected to the drive and motherboard",
+            "The keyboard's battery level",
+            "The printer's ink levels"
+          ],
+          "correctAnswer": "The power and data cables are securely connected to the drive and motherboard",
+          "Help": "Physical connections are crucial for detection."
+        },
+        {
+          "question": "What does 'GPU' stand for, and what is its primary role?",
+          "options": [
+            "General Processing Unit, for everyday tasks",
+            "Graphics Processing Unit, for rendering images and video",
+            "Gigabit Power Unit, for power delivery",
+            "Global Positioning Unit, for location services"
+          ],
+          "correctAnswer": "Graphics Processing Unit, for rendering images and video",
+          "Help": "GPUs are specialized processors for visual data."
+        },
+        {
+          "question": "Which expansion slot type is primarily used for high-performance graphics cards today?",
+          "options": [
+            "PCI",
+            "AGP",
+            "PCIe",
+            "ISA"
+          ],
+          "correctAnswer": "PCIe",
+          "Help": "PCIe (PCI Express) is the current standard for expansion cards."
+        },
+        {
+          "question": "A desktop computer suddenly shuts down without warning. After restarting, it immediately shuts down again. What is a common hardware issue that could cause this?",
+          "options": [
+            "A faulty USB port",
+            "Overheating due to a failing CPU fan or clogged heatsink",
+            "A loose mouse connection",
+            "An expired software license"
+          ],
+          "correctAnswer": "Overheating due to a failing CPU fan or clogged heatsink",
+          "Help": "Thermal shutdown is a protective measure against overheating."
+        },
+        {
+          "question": "Which type of network cable is typically used for older cable television and internet connections?",
+          "options": [
+            "Twisted Pair (Cat 5e/6)",
+            "Fiber Optic",
+            "Coaxial",
+            "USB"
+          ],
+          "correctAnswer": "Coaxial",
+          "Help": "Coaxial cable is common for cable TV and older broadband."
         }
       ]
     },
@@ -919,10 +681,454 @@
       "topic": "Security",
       "questions": [
         {
-          "question": "Which malware disguises itself as legitimate software?",
-          "options": ["Trojan", "Virus", "Worm", "Adware"],
-          "correctAnswer": "Trojan",
-          "explanation": "Trojans appear harmless but contain malicious code that can compromise systems."
+          "question": "What is the primary purpose of 'access control' in computer security?",
+          "options": [
+            "To monitor network traffic for suspicious activity",
+            "To ensure only authorized users can access specific resources",
+            "To encrypt all data stored on a computer",
+            "To recover lost or corrupted files"
+          ],
+          "correctAnswer": "To ensure only authorized users can access specific resources",
+          "Help": "Access control dictates who can do what with resources."
+        },
+        {
+          "question": "Which type of malicious software is designed to collect personal information or browsing habits without the user's knowledge?",
+          "options": [
+            "Virus",
+            "Worm",
+            "Spyware",
+            "Rootkit"
+          ],
+          "correctAnswer": "Spyware",
+          "Help": "Spyware is focused on surveillance."
+        },
+        {
+          "question": "What is a firewall primarily designed to do?",
+          "options": [
+            "Detect and remove viruses from a system",
+            "Encrypt network traffic to prevent eavesdropping",
+            "Monitor and control incoming and outgoing network traffic based on predefined security rules",
+            "Backup system data to an external location"
+          ],
+          "correctAnswer": "Monitor and control incoming and outgoing network traffic based on predefined security rules",
+          "Help": "Firewalls act as a barrier between a trusted and untrusted network."
+        },
+        {
+          "question": "What is 'social engineering' in the context of cybersecurity?",
+          "options": [
+            "Using artificial intelligence to detect cyber threats",
+            "The psychological manipulation of people into performing actions or divulging confidential information",
+            "Developing secure software through collaborative coding",
+            "Designing user-friendly security interfaces"
+          ],
+          "correctAnswer": "The psychological manipulation of people into performing actions or divulging confidential information",
+          "Help": "Social engineering exploits human psychology, not technical vulnerabilities."
+        },
+        {
+          "question": "Which type of cyber attack involves overwhelming a system, service, or network with traffic to disrupt its normal operations?",
+          "options": [
+            "Phishing",
+            "SQL Injection",
+            "Distributed Denial of Service (DDoS)",
+            "Cross-site Scripting (XSS)"
+          ],
+          "correctAnswer": "Distributed Denial of Service (DDoS)",
+          "Help": "DDoS attacks aim to make a service unavailable."
+        },
+        {
+          "question": "What is 'spoofing' in cybersecurity?",
+          "options": [
+            "The process of cleaning a computer's physical components",
+            "The act of disguising communication from an unknown source as being from a known, trusted source",
+            "A method of backing up data to multiple locations",
+            "An advanced form of data encryption"
+          ],
+          "correctAnswer": "The act of disguising communication from an unknown source as being from a known, trusted source",
+          "Help": "Spoofing attempts to deceive by faking identity."
+        },
+        {
+          "question": "In the CIA triad of information security, what does 'Confidentiality' refer to?",
+          "options": [
+            "Ensuring data is accurate and has not been tampered with",
+            "Ensuring data is available to authorized users when needed",
+            "Protecting information from unauthorized access and disclosure",
+            "Logging all system events for auditing purposes"
+          ],
+          "correctAnswer": "Protecting information from unauthorized access and disclosure",
+          "Help": "Confidentiality prevents unauthorized eyes from seeing data."
+        },
+        {
+          "question": "What is a 'zero-day' vulnerability?",
+          "options": [
+            "A software bug that has been patched for over a year",
+            "A vulnerability that is known to the public and the vendor, and a patch is available",
+            "A newly discovered software vulnerability for which no patch or fix has been released by the vendor",
+            "A security flaw found on the first day of a software's release"
+          ],
+          "correctAnswer": "A newly discovered software vulnerability for which no patch or fix has been released by the vendor",
+          "Help": "Zero-day means the vendor has 'zero days' to fix it."
+        },
+        {
+          "question": "Which version of Wi-Fi Protected Access (WPA) introduced an individualized encryption key for each wireless client?",
+          "options": [
+            "WPA",
+            "WPA2",
+            "WEP",
+            "WPA3"
+          ],
+          "correctAnswer": "WPA2",
+          "Help": "WPA2 significantly improved security over WPA."
+        },
+        {
+          "question": "Which of the following is an example of an internal security threat?",
+          "options": [
+            "A hacker launching a DDoS attack from a foreign country",
+            "A natural disaster destroying a data center",
+            "An employee accidentally clicking on a phishing link and compromising network credentials",
+            "A worm exploiting a software vulnerability"
+          ],
+          "correctAnswer": "An employee accidentally clicking on a phishing link and compromising network credentials",
+          "Help": "Internal threats originate from within the organization."
+        },
+        {
+          "question": "What is a common purpose of 'auditing' and 'event logging' in security?",
+          "options": [
+            "To speed up network performance",
+            "To encrypt all user data automatically",
+            "To provide a chronological record of system activities for security analysis and forensic investigation",
+            "To prevent power outages"
+          ],
+          "correctAnswer": "To provide a chronological record of system activities for security analysis and forensic investigation",
+          "Help": "Logs are crucial for detecting and investigating security incidents."
+        },
+        {
+          "question": "An email purporting to be from a bank asks the recipient to click a link and verify their account information. This is an example of what type of cyber attack?",
+          "options": [
+            "Malware injection",
+            "Phishing",
+            "Man-in-the-middle attack",
+            "Brute-force attack"
+          ],
+          "correctAnswer": "Phishing",
+          "Help": "Phishing attempts to trick users into revealing sensitive information."
+        },
+        {
+          "question": "What is the main goal of applying the principle of 'least privilege' in security permissions?",
+          "options": [
+            "To grant all users administrator access for convenience",
+            "To ensure users and processes have only the minimum necessary access to perform their legitimate functions",
+            "To encrypt all communication channels by default",
+            "To eliminate the need for passwords"
+          ],
+          "correctAnswer": "To ensure users and processes have only the minimum necessary access to perform their legitimate functions",
+          "Help": "Least privilege reduces the impact of a security breach."
+        },
+        {
+          "question": "Which concept in the CIA triad ensures that data is consistent, accurate, and trustworthy, and has not been improperly modified?",
+          "options": [
+            "Confidentiality",
+            "Integrity",
+            "Availability",
+            "Authenticity"
+          ],
+          "correctAnswer": "Integrity",
+          "Help": "Integrity focuses on the correctness and completeness of data."
+        },
+        {
+          "question": "Why is it important to keep antivirus software up-to-date?",
+          "options": [
+            "To improve internet browsing speed",
+            "To ensure it can detect the latest emerging threats and malware definitions",
+            "To extend the battery life of a laptop",
+            "To reduce the physical wear and tear on hard drives"
+          ],
+          "correctAnswer": "To ensure it can detect the latest emerging threats and malware definitions",
+          "Help": "New malware appears constantly, requiring updated definitions."
+        }
+      ]
+    },
+    {
+      "topic": "Laptops, Tablets, and Mobile Devices",
+      "questions": [
+        {
+          "question": "Which preventive care measure is crucial for extending the lifespan of a laptop battery?",
+          "options": [
+            "Always keeping the laptop plugged in to a charger",
+            "Fully discharging the battery frequently before recharging",
+            "Avoiding extreme temperatures and regularly exercising the battery (charging/discharging within healthy ranges)",
+            "Using a high-wattage universal charger for faster charging"
+          ],
+          "correctAnswer": "Avoiding extreme temperatures and regularly exercising the battery (charging/discharging within healthy ranges)",
+          "Help": "Lithium-ion batteries are sensitive to heat and benefit from proper usage cycles."
+        },
+        {
+          "question": "Compared to desktop computers, what is a common hardware difference in laptops regarding their power supply?",
+          "options": [
+            "Laptops typically use larger, internal power supply units with higher wattage.",
+            "Laptops primarily use external AC adapters and have internal batteries, while desktops have internal PSUs.",
+            "Laptops do not require a power supply, running solely on battery.",
+            "Laptops use only DC power directly from the wall."
+          ],
+          "correctAnswer": "Laptops primarily use external AC adapters and have internal batteries, while desktops have internal PSUs.",
+          "Help": "Laptop power management is optimized for portability."
+        },
+        {
+          "question": "A user wants to ensure their photos and contacts are accessible across their smartphone, tablet, and laptop. What is the most common method for cross-device data synchronization?",
+          "options": [
+            "Manual USB transfer for all devices",
+            "Saving data only to local device storage",
+            "Utilizing cloud storage and synchronization services",
+            "Sending files via email attachments"
+          ],
+          "correctAnswer": "Utilizing cloud storage and synchronization services",
+          "Help": "Cloud services offer seamless syncing across multiple devices."
+        },
+        {
+          "question": "What is a key limitation of Bluetooth technology compared to Wi-Fi for data transfer?",
+          "options": [
+            "It requires line-of-sight for connection.",
+            "It generally has a shorter range and lower data transfer speeds.",
+            "It is incompatible with mobile devices.",
+            "It consumes significantly more power."
+          ],
+          "correctAnswer": "It generally has a shorter range and lower data transfer speeds.",
+          "Help": "Bluetooth is designed for short-range personal area networks."
+        },
+        {
+          "question": "A laptop user reports that their Wi-Fi connection is constantly dropping. What is a common troubleshooting step for this issue?",
+          "options": [
+            "Updating the operating system to a newer version",
+            "Restarting the wireless router and the laptop's Wi-Fi adapter",
+            "Replacing the laptop's hard drive",
+            "Installing new antivirus software"
+          ],
+          "correctAnswer": "Restarting the wireless router and the laptop's Wi-Fi adapter",
+          "Help": "Many connectivity issues can be resolved with a simple restart of devices."
+        },
+        {
+          "question": "Which wireless connectivity method allows a mobile phone to share its cellular data connection with other devices, effectively turning it into a Wi-Fi hotspot?",
+          "options": [
+            "Bluetooth tethering",
+            "NFC (Near Field Communication)",
+            "Mobile Hotspot/Tethering",
+            "Ethernet adapter"
+          ],
+          "correctAnswer": "Mobile Hotspot/Tethering",
+          "Help": "This feature creates a personal Wi-Fi network from cellular data."
+        },
+        {
+          "question": "A laptop is running slowly, and the user wants to improve its performance. What is one of the most common and effective component upgrades for a laptop?",
+          "options": [
+            "Upgrading the CPU to a desktop-grade processor",
+            "Replacing the existing RAM with more or faster RAM",
+            "Adding an external graphics card via USB",
+            "Replacing the motherboard with a larger one"
+          ],
+          "correctAnswer": "Replacing the existing RAM with more or faster RAM",
+          "Help": "Increasing RAM often significantly improves multitasking and overall speed."
+        },
+        {
+          "question": "If a laptop's charging port feels loose and the battery only charges intermittently, what is the most likely hardware issue?",
+          "options": [
+            "A faulty battery",
+            "An issue with the LCD screen",
+            "A damaged charging port (DC jack) on the motherboard",
+            "Overheating CPU"
+          ],
+          "correctAnswer": "A damaged charging port (DC jack) on the motherboard",
+          "Help": "Loose or damaged charging ports are common points of failure."
+        },
+        {
+          "question": "Which of the following describes a key difference in RAM usage between mobile devices (smartphones/tablets) and desktop computers?",
+          "options": [
+            "Mobile devices typically use more RAM than desktops.",
+            "Mobile devices often integrate RAM directly into the SoC (System on a Chip) and generally have less user-upgradable RAM than desktops.",
+            "Mobile devices use a different type of volatile memory entirely.",
+            "Desktop RAM is designed for lower power consumption than mobile RAM."
+          ],
+          "correctAnswer": "Mobile devices often integrate RAM directly into the SoC (System on a Chip) and generally have less user-upgradable RAM than desktops.",
+          "Help": "Space and power efficiency are critical in mobile design."
+        },
+        {
+          "question": "What is the primary benefit of cleaning a laptop's cooling vents regularly?",
+          "options": [
+            "To improve screen brightness",
+            "To prevent dust buildup, which can cause overheating and reduce performance",
+            "To extend the life of the keyboard",
+            "To enhance Wi-Fi signal strength"
+          ],
+          "correctAnswer": "To prevent dust buildup, which can cause overheating and reduce performance",
+          "Help": "Good airflow is essential for thermal management."
+        },
+        {
+          "question": "A user's mobile phone is unable to connect to any cellular network, even though other phones in the area have service. What is a probable troubleshooting step?",
+          "options": [
+            "Performing a factory reset on the phone",
+            "Checking if Airplane Mode is enabled or if the SIM card is properly inserted",
+            "Connecting the phone to a Wi-Fi network",
+            "Disabling all location services"
+          ],
+          "correctAnswer": "Checking if Airplane Mode is enabled or if the SIM card is properly inserted",
+          "Help": "These are basic checks for cellular connectivity."
+        },
+        {
+          "question": "What is NFC (Near Field Communication) primarily used for in mobile devices?",
+          "options": [
+            "Long-range data transfer between devices",
+            "Streaming high-definition video to a TV",
+            "Short-range wireless communication for payments, data exchange, or pairing",
+            "Providing a cellular data connection to other devices"
+          ],
+          "correctAnswer": "Short-range wireless communication for payments, data exchange, or pairing",
+          "Help": "NFC works over very short distances, typically a few centimeters."
+        },
+        {
+          "question": "Which part of a laptop is typically *not* user-replaceable or upgradable due to its integrated nature?",
+          "options": [
+            "RAM",
+            "Storage Drive (SSD/HDD)",
+            "Screen Panel",
+            "CPU (on most modern laptops)"
+          ],
+          "correctAnswer": "CPU (on most modern laptops)",
+          "Help": "Most modern laptop CPUs are soldered directly to the motherboard."
+        },
+        {
+          "question": "A tablet's screen is unresponsive to touch, but the power button still works. What might be a temporary fix or troubleshooting step?",
+          "options": [
+            "Connecting an external mouse via USB",
+            "Performing a forced restart or hard reset of the device",
+            "Plugging it into a different charger",
+            "Updating the operating system wirelessly"
+          ],
+          "correctAnswer": "Performing a forced restart or hard reset of the device",
+          "Help": "A software glitch can often be resolved by restarting the device."
+        },
+        {
+          "question": "What is a characteristic of 5G wireless connectivity that makes it advantageous for mobile devices over previous generations?",
+          "options": [
+            "Lower power consumption for devices",
+            "Significantly higher speeds and lower latency",
+            "Wider global coverage than 4G LTE",
+            "Only compatible with older mobile devices"
+          ],
+          "correctAnswer": "Significantly higher speeds and lower latency",
+          "Help": "5G is designed for next-generation mobile broadband performance."
+        }
+      ]
+    },
+    {
+      "topic": "Printers and Peripherals",
+      "questions": [
+        {
+          "question": "Which consumable is essential for an inkjet printer to produce images and text?",
+          "options": [
+            "Toner cartridge",
+            "Fuser assembly",
+            "Ink cartridge",
+            "Ribbon cartridge"
+          ],
+          "correctAnswer": "Ink cartridge",
+          "Help": "Inkjet printers use liquid ink."
+        },
+        {
+          "question": "Which port type is most commonly used to connect modern printers to a computer?",
+          "options": [
+            "Serial Port (DB9)",
+            "Parallel Port (DB25)",
+            "USB Port",
+            "PS/2 Port"
+          ],
+          "correctAnswer": "USB Port",
+          "Help": "USB is the universal standard for peripheral connection."
+        },
+        {
+          "question": "A printer is connected to a computer, but it is not responding to print commands. What is the FIRST step in troubleshooting?",
+          "options": [
+            "Reinstalling the operating system",
+            "Checking if the printer is powered on and properly connected, and if there are any error messages on the printer display",
+            "Replacing the printer's mainboard",
+            "Buying a new printer"
+          ],
+          "correctAnswer": "Checking if the printer is powered on and properly connected, and if there are any error messages on the printer display",
+          "Help": "Always start with the most basic checks."
+        },
+        {
+          "question": "If an inkjet printer is producing faded or blank pages, what is a common cause?",
+          "options": [
+            "The paper tray is empty",
+            "The fuser assembly is faulty",
+            "The ink cartridges are low or clogged",
+            "The printer's firmware is outdated"
+          ],
+          "correctAnswer": "The ink cartridges are low or clogged",
+          "Help": "Lack of ink or blocked nozzles lead to poor print quality."
+        },
+        {
+          "question": "What is a key maintenance task for a laser printer?",
+          "options": [
+            "Replacing ink cartridges every few weeks",
+            "Cleaning the print heads regularly",
+            "Replacing the toner cartridge and occasionally cleaning residual toner/dust",
+            "Refilling the thermal paper roll"
+          ],
+          "correctAnswer": "Replacing the toner cartridge and occasionally cleaning residual toner/dust",
+          "Help": "Laser printers use toner and have different maintenance needs than inkjet."
+        },
+        {
+          "question": "A small office wants to allow multiple computers to print to a single printer without connecting it directly to each PC. What is the most common method for achieving this?",
+          "options": [
+            "Connecting the printer to a single PC and sharing it locally (PC host sharing)",
+            "Using individual USB cables for each computer",
+            "Connecting the printer directly to the network via Ethernet or Wi-Fi (network printer)",
+            "Using a Bluetooth adapter for each computer"
+          ],
+          "correctAnswer": "Connecting the printer directly to the network via Ethernet or Wi-Fi (network printer)",
+          "Help": "Network printers are designed for shared access."
+        },
+        {
+          "question": "Which print setting allows a user to print on both sides of a sheet of paper automatically?",
+          "options": [
+            "Collate",
+            "Grayscale",
+            "Duplex",
+            "Landscape"
+          ],
+          "correctAnswer": "Duplex",
+          "Help": "Duplex printing refers to two-sided printing."
+        },
+        {
+          "question": "What is a common characteristic of thermal printers?",
+          "options": [
+            "They use liquid ink and produce high-quality color photos.",
+            "They use toner powder and a fuser to create images.",
+            "They use heat to create images on specially coated paper and often do not require ink or toner.",
+            "They connect to computers primarily via parallel ports."
+          ],
+          "correctAnswer": "They use heat to create images on specially coated paper and often do not require ink or toner.",
+          "Help": "Thermal printers are common for receipts and labels."
+        },
+        {
+          "question": "Which troubleshooting step should be performed if a network printer is 'not found' by client computers?",
+          "options": [
+            "Replace the printer's power cable",
+            "Check the printer's network configuration (IP address) and connectivity (cables/Wi-Fi)",
+            "Update the client computer's video drivers",
+            "Clean the printer's paper rollers"
+          ],
+          "correctAnswer": "Check the printer's network configuration (IP address) and connectivity (cables/Wi-Fi)",
+          "Help": "Network issues are often about addressing or physical connection."
+        },
+        {
+          "question": "To save paper, a user wants to print multiple pages onto a single sheet. What print preference would allow them to do this?",
+          "options": [
+            "Fit to Page",
+            "Pages Per Sheet (N-up printing)",
+            "Print in Grayscale",
+            "Print Background Colors"
+          ],
+          "correctAnswer": "Pages Per Sheet (N-up printing)",
+          "Help": "This setting reduces the number of physical pages used."
         }
       ]
     }

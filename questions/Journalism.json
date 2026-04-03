@@ -1,808 +1,1129 @@
+
 {
-  "testName": "Journalism",
+  "testName": "Journalism Competitive Event Test",
   "topics": [
     {
-      "topic": "Management",
+      "topic": "Economics & Business of Journalism",
       "questions": [
         {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["policy", "ROI", "procedure", "leader"],
-          "correctAnswer": "policy",
-          "explanation": "Policy is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a project manager, what would be the best next step?",
+          "question": "Which of the following is considered a primary traditional funding source for print journalism publications?",
           "options": [
-            "budget",
-            "revenue",
-            "liability",
-            "Adjust the marketing strategy"
+            "Government grants",
+            "Subscription fees and advertising sales",
+            "Crowdfunding campaigns",
+            "Venture capital investments"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Subscription fees and advertising sales",
+          "Help": "Traditional newspapers and magazines primarily relied on reader subscriptions and ad revenue."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["profit", "budget", "leadership", "policy"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a manager, what would be the best next step?",
+          "question": "What is one significant economic impact of social media on the journalism industry?",
           "options": [
-            "stakeholder",
-            "Adjust the marketing strategy",
-            "budget",
-            "leader"
+            "Increased print circulation numbers",
+            "Decreased reliance on digital advertising",
+            "Disruption of traditional advertising models",
+            "Greater control over content distribution"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Disruption of traditional advertising models",
+          "Help": "Social media platforms have diverted advertising revenue away from traditional news outlets."
         },
         {
-          "question": "Which action improves employee engagement?",
-          "options": ["policy", "leader", "asset", "revenue"],
-          "correctAnswer": "policy",
-          "explanation": "policy is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
+          "question": "Which of these is a common strategy for digital-first news organizations to generate revenue beyond advertising?",
+          "options": [
+            "Exclusive reliance on print syndication",
+            "Implementing paywalls for premium content",
+            "Eliminating all editorial staff positions",
+            "Offering free access to all archived content"
+          ],
+          "correctAnswer": "Implementing paywalls for premium content",
+          "Help": "Many digital news outlets use paywalls to charge for exclusive or in-depth content."
         },
         {
-          "question": "(Hard) What is the primary purpose of Management?",
-          "options": ["inventory", "leader", "procedure", "leadership"],
-          "correctAnswer": "leadership",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "question": "What educational background is most commonly sought for an entry-level reporter position?",
+          "options": [
+            "A degree in engineering",
+            "A degree in journalism, communications, or English",
+            "A certificate in culinary arts",
+            "A medical doctorate"
+          ],
+          "correctAnswer": "A degree in journalism, communications, or English",
+          "Help": "These degrees provide foundational skills in writing, research, and media studies relevant to journalism."
         },
         {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["ROI", "profit", "budget", "asset"],
-          "correctAnswer": "budget",
-          "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
+          "question": "In a typical newsroom hierarchy, who is primarily responsible for the overall editorial content and strategic direction of a publication?",
+          "options": [
+            "The copy editor",
+            "The managing editor or editor-in-chief",
+            "The staff photographer",
+            "The advertising sales manager"
+          ],
+          "correctAnswer": "The managing editor or editor-in-chief",
+          "Help": "The managing editor or editor-in-chief holds ultimate responsibility for editorial decisions."
         },
         {
-          "question": "What is the primary purpose of Management?",
-          "options": ["liability", "inventory", "policy", "budget"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of management is to plan, organize, lead, and control resources to achieve organizational objectives."
+          "question": "Entry-level salaries for journalists typically vary most significantly based on which factor?",
+          "options": [
+            "The specific color of the newsroom walls",
+            "The size and market of the news organization",
+            "The type of office furniture provided",
+            "The number of coffee breaks allowed"
+          ],
+          "correctAnswer": "The size and market of the news organization",
+          "Help": "Larger markets and organizations often offer higher starting salaries."
+        },
+        {
+          "question": "Beyond advertising and subscriptions, what is an increasingly important funding source for investigative journalism and non-profit news organizations?",
+          "options": [
+            "Exclusive reliance on government censorship funds",
+            "Large-scale lottery winnings",
+            "Philanthropic donations and grants",
+            "Sales of celebrity gossip magazines"
+          ],
+          "correctAnswer": "Philanthropic donations and grants",
+          "Help": "Philanthropy plays a crucial role in funding in-depth, public-interest journalism."
+        },
+        {
+          "question": "Which expense category typically represents the largest portion of a news organization's budget?",
+          "options": [
+            "Office supply costs",
+            "Staff salaries and benefits",
+            "Website hosting fees",
+            "Utility bills"
+          ],
+          "correctAnswer": "Staff salaries and benefits",
+          "Help": "Paying journalists, editors, photographers, and other staff is the single largest cost."
+        },
+        {
+          "question": "The rise of programmatic advertising in the digital age primarily benefits which entities?",
+          "options": [
+            "Traditional print classifieds",
+            "Automated ad platforms and data-driven advertisers",
+            "Small, independent local newspapers",
+            "Journalists who prefer manual ad placement"
+          ],
+          "correctAnswer": "Automated ad platforms and data-driven advertisers",
+          "Help": "Programmatic advertising relies on algorithms to buy and sell ad space, benefiting platforms and data users."
+        },
+        {
+          "question": "A photojournalist typically needs specialized education or training in what area, in addition to general journalism principles?",
+          "options": [
+            "Advanced culinary techniques",
+            "Digital photography and editing software",
+            "Theoretical physics",
+            "Ancient languages"
+          ],
+          "correctAnswer": "Digital photography and editing software",
+          "Help": "Photojournalists combine storytelling with visual media expertise."
+        },
+        {
+          "question": "What is the primary function of a copy editor in a journalistic environment?",
+          "options": [
+            "To write the main investigative stories",
+            "To manage the advertising budget",
+            "To fact-check, proofread, and ensure grammatical accuracy and house style",
+            "To schedule reporter assignments"
+          ],
+          "correctAnswer": "To fact-check, proofread, and ensure grammatical accuracy and house style",
+          "Help": "Copy editors are critical for quality control, ensuring accuracy and adherence to style guides."
+        },
+        {
+          "question": "Which of the following is a significant challenge for news organizations trying to monetize content through digital platforms?",
+          "options": [
+            "The public's expectation of free online content",
+            "An overabundance of available advertising space",
+            "Lack of technological innovation in publishing",
+            "Decreased competition from other news sources"
+          ],
+          "correctAnswer": "The public's expectation of free online content",
+          "Help": "Many readers have grown accustomed to accessing news online without payment."
+        },
+        {
+          "question": "What role does an editor typically play in the story development process?",
+          "options": [
+            "Solely responsible for selling subscriptions",
+            "Provides guidance, feedback, and approves content before publication",
+            "Delivers the news live on television",
+            "Designs the website layout exclusively"
+          ],
+          "correctAnswer": "Provides guidance, feedback, and approves content before publication",
+          "Help": "Editors ensure stories meet editorial standards and are ready for publishing."
+        },
+        {
+          "question": "When considering career progression in journalism, moving from a staff writer to a bureau chief often involves what?",
+          "options": [
+            "A decrease in salary and responsibility",
+            "Taking on management responsibilities and overseeing other reporters",
+            "Switching careers entirely to a non-journalism field",
+            "Focusing solely on photography"
+          ],
+          "correctAnswer": "Taking on management responsibilities and overseeing other reporters",
+          "Help": "Bureau chiefs manage a regional office and its staff of journalists."
+        },
+        {
+          "question": "What is 'native advertising' in the context of digital journalism?",
+          "options": [
+            "Traditional banner ads placed prominently on a webpage",
+            "Content that matches the form and function of the platform it appears on, often sponsored",
+            "Advertisements that only appear to native speakers of a language",
+            "Ads that promote traditional indigenous crafts"
+          ],
+          "correctAnswer": "Content that matches the form and function of the platform it appears on, often sponsored",
+          "Help": "Native ads blend in with editorial content, making them less disruptive but requiring clear disclosure."
+        },
+        {
+          "question": "The 'publisher' role in a newspaper organization is primarily focused on:",
+          "options": [
+            "Writing investigative reports",
+            "Overseeing the business operations and financial health",
+            "Proofreading all articles for grammar",
+            "Operating the printing press"
+          ],
+          "correctAnswer": "Overseeing the business operations and financial health",
+          "Help": "The publisher manages the financial and business aspects, distinct from editorial content."
+        },
+        {
+          "question": "Which of the following is NOT a typical major expense for a digital-only news startup?",
+          "options": [
+            "Salaries for content creators",
+            "Server and web hosting costs",
+            "Extensive printing and physical distribution infrastructure",
+            "Marketing and audience acquisition efforts"
+          ],
+          "correctAnswer": "Extensive printing and physical distribution infrastructure",
+          "Help": "Digital-only startups avoid the significant costs associated with print production and distribution."
+        },
+        {
+          "question": "How has the 'gig economy' impacted career opportunities for journalists?",
+          "options": [
+            "It has eliminated all freelance writing opportunities.",
+            "It has led to more full-time, stable newsroom positions.",
+            "It has increased opportunities for freelance and contract work.",
+            "It has made journalism an exclusively volunteer profession."
+          ],
+          "correctAnswer": "It has increased opportunities for freelance and contract work.",
+          "Help": "Many journalists now work as freelancers or on short-term contracts for various outlets."
+        },
+        {
+          "question": "What does 'syndication' refer to in the business of journalism?",
+          "options": [
+            "The process of forming a labor union for journalists",
+            "The practice of selling the rights to reproduce content to multiple other news outlets",
+            "A method of government oversight for news content",
+            "A specific type of online comment section"
+          ],
+          "correctAnswer": "The practice of selling the rights to reproduce content to multiple other news outlets",
+          "Help": "Syndication allows content creators to earn revenue by licensing their work."
+        },
+        {
+          "question": "A 'beat reporter' specializes in covering what?",
+          "options": [
+            "Musical events and concerts",
+            "A specific topic, such as crime, education, or politics",
+            "Only sports statistics",
+            "General news with no specific focus"
+          ],
+          "correctAnswer": "A specific topic, such as crime, education, or politics",
+          "Help": "Beat reporters develop expertise and sources in a particular area."
+        },
+        {
+          "question": "What is the primary purpose of an internship for an aspiring journalist?",
+          "options": [
+            "To gain practical experience and make professional contacts",
+            "To avoid formal education requirements",
+            "To earn a high starting salary immediately",
+            "To solely focus on academic research"
+          ],
+          "correctAnswer": "To gain practical experience and make professional contacts",
+          "Help": "Internships are crucial for hands-on learning and networking in the industry."
+        },
+        {
+          "question": "The economic challenge of 'information overload' for news consumers on social media can lead to:",
+          "options": [
+            "Increased loyalty to a single news source",
+            "Higher engagement with long-form investigative pieces",
+            "Difficulty distinguishing credible news from misinformation",
+            "A decrease in the total amount of available news content"
+          ],
+          "correctAnswer": "Difficulty distinguishing credible news from misinformation",
+          "Help": "The sheer volume of content can make it harder for audiences to discern reliable information."
+        },
+        {
+          "question": "What is the primary role of a 'news director' in a broadcast journalism setting?",
+          "options": [
+            "Operates the studio cameras",
+            "Manages the overall news operation, including content, staff, and budget",
+            "Writes all news scripts for anchors",
+            "Is responsible for weather forecasting"
+          ],
+          "correctAnswer": "Manages the overall news operation, including content, staff, and budget",
+          "Help": "The news director is a key managerial role in broadcast journalism."
+        },
+        {
+          "question": "Which skill has become increasingly important for journalists due to the economic impacts of digital media?",
+          "options": [
+            "Proficiency in Morse code",
+            "Ability to analyze audience data and SEO principles",
+            "Expertise in ancient manuscript transcription",
+            "Mastery of mime artistry"
+          ],
+          "correctAnswer": "Ability to analyze audience data and SEO principles",
+          "Help": "Understanding analytics and search engine optimization helps journalists reach wider audiences."
+        },
+        {
+          "question": "In the modern journalism landscape, why might a local newspaper decide to invest in hosting community events?",
+          "options": [
+            "To completely replace traditional news reporting",
+            "To generate alternative revenue and foster community engagement",
+            "To only cover sports news",
+            "To minimize their online presence"
+          ],
+          "correctAnswer": "To generate alternative revenue and foster community engagement",
+          "Help": "Events can create additional income streams and strengthen local ties."
+        },
+        {
+          "question": "What is one major challenge presented by the 'platformization' of news (e.g., news consumed primarily on Facebook or Google)?",
+          "options": [
+            "Increased direct traffic to news organizations' own websites",
+            "News organizations losing direct control over distribution and revenue",
+            "A significant reduction in overall news readership",
+            "The elimination of all advertising in news content"
+          ],
+          "correctAnswer": "News organizations losing direct control over distribution and revenue",
+          "Help": "When news is consumed on third-party platforms, the news organization has less control over ads and user experience."
+        },
+        {
+          "question": "A 'data journalist' typically combines traditional reporting skills with expertise in what area?",
+          "options": [
+            "Professional cooking",
+            "Statistical analysis and visualization",
+            "Antique furniture restoration",
+            "Underwater basket weaving"
+          ],
+          "correctAnswer": "Statistical analysis and visualization",
+          "Help": "Data journalists use data to find stories and present information effectively."
+        },
+        {
+          "question": "What impact has the proliferation of 'fake news' and misinformation had on the economic model of credible news organizations?",
+          "options": [
+            "It has made it easier to attract advertisers.",
+            "It has increased the perceived value of accurate, verified journalism, leading to more subscriptions.",
+            "It has eliminated the need for fact-checking.",
+            "It has forced all news organizations to become entirely free."
+          ],
+          "correctAnswer": "It has increased the perceived value of accurate, verified journalism, leading to more subscriptions.",
+          "Help": "In a crowded and often untrustworthy information environment, reliable news becomes more valuable."
+        },
+        {
+          "question": "Which of these positions typically has the least direct involvement in daily editorial decision-making but influences the overall direction of a news organization's brand and financial health?",
+          "options": [
+            "Entry-level reporter",
+            "Copy editor",
+            "Marketing director",
+            "Publisher"
+          ],
+          "correctAnswer": "Publisher",
+          "Help": "The publisher manages the business side, including brand strategy and financial viability."
+        },
+        {
+          "question": "What is 'donor-funded journalism'?",
+          "options": [
+            "News content created solely by anonymous sources",
+            "Journalism supported by contributions from individuals or foundations",
+            "Content exclusively sponsored by political parties",
+            "News stories that report on charitable organizations only"
+          ],
+          "correctAnswer": "Journalism supported by contributions from individuals or foundations",
+          "Help": "Non-profit newsrooms often rely on donations and grants to operate."
+        },
+        {
+          "question": "What is a common strategy for news organizations to increase revenue through 'reader engagement' initiatives?",
+          "options": [
+            "Blocking all reader comments",
+            "Hosting interactive forums, events, or member-exclusive content",
+            "Selling all content rights to a single distributor",
+            "Reducing the frequency of news updates"
+          ],
+          "correctAnswer": "Hosting interactive forums, events, or member-exclusive content",
+          "Help": "Engaged readers are more likely to subscribe or donate."
+        },
+        {
+          "question": "How do legal expenses, such as potential libel lawsuits, impact the business of journalism?",
+          "options": [
+            "They significantly decrease the need for legal review.",
+            "They are a minor, negligible cost for all news organizations.",
+            "They represent a potentially substantial and unavoidable cost that requires budgeting.",
+            "They are only a concern for highly sensational tabloids."
+          ],
+          "correctAnswer": "They represent a potentially substantial and unavoidable cost that requires budgeting.",
+          "Help": "Defending against or settling libel suits can be very expensive for news organizations."
+        },
+        {
+          "question": "Which factor has contributed to the decline of classified advertising revenue for newspapers?",
+          "options": [
+            "Increased popularity of print coupons",
+            "The rise of online platforms like Craigslist and social media marketplaces",
+            "A global shortage of paper",
+            "Government regulations prohibiting classifieds"
+          ],
+          "correctAnswer": "The rise of online platforms like Craigslist and social media marketplaces",
+          "Help": "Digital alternatives have largely supplanted traditional classified sections."
+        },
+        {
+          "question": "What is a common entry-level role in broadcast journalism?",
+          "options": [
+            "Executive Producer",
+            "General Manager",
+            "Production Assistant or Reporter",
+            "Station Owner"
+          ],
+            "correctAnswer": "Production Assistant or Reporter",
+          "Help": "These roles offer foundational experience in TV or radio newsrooms."
+        },
+        {
+          "question": "The shift towards digital content has made what type of expense less significant for many news organizations?",
+          "options": [
+            "Journalist salaries",
+            "Legal fees for investigations",
+            "Printing and distribution costs",
+            "Technology infrastructure for online platforms"
+          ],
+          "correctAnswer": "Printing and distribution costs",
+          "Help": "Digital-first models reduce or eliminate the need for physical production."
+        },
+        {
+          "question": "What is the 'editorial board' primarily responsible for in a news organization?",
+          "options": [
+            "Managing the financial investments of the company",
+            "Writing the newspaper's unsigned opinion pieces and endorsements",
+            "Designing the layout of the print edition",
+            "Handling customer service complaints"
+          ],
+          "correctAnswer": "Writing the newspaper's unsigned opinion pieces and endorsements",
+          "Help": "The editorial board shapes the publication's institutional voice on policy and public affairs."
+        },
+        {
+          "question": "In the context of the business of journalism, what does 'diversification of revenue streams' mean?",
+          "options": [
+            "Focusing exclusively on one single income source",
+            "Exploring multiple ways to earn money, such as events, consulting, and grants, in addition to ads and subscriptions",
+            "Reducing the number of journalists employed",
+            "Selling only non-news related merchandise"
+          ],
+          "correctAnswer": "Exploring multiple ways to earn money, such as events, consulting, and grants, in addition to ads and subscriptions",
+          "Help": "Diversifying revenue helps news organizations become more financially stable."
+        },
+        {
+          "question": "What is a significant long-term economic effect of declining trust in news media?",
+          "options": [
+            "An increase in advertising rates",
+            "Reduced readership and subscription cancellations",
+            "Greater public funding for journalism",
+            "Simplified editorial processes"
+          ],
+          "correctAnswer": "Reduced readership and subscription cancellations",
+          "Help": "Trust is foundational; without it, audiences are less likely to consume or pay for news."
+        },
+        {
+          "question": "Which trend in journalism careers reflects the growing demand for visual storytelling?",
+          "options": [
+            "Decreased need for video editing skills",
+            "Increased opportunities for multimedia journalists and videographers",
+            "Exclusive focus on text-based reporting",
+            "Elimination of all photojournalism roles"
+          ],
+          "correctAnswer": "Increased opportunities for multimedia journalists and videographers",
+          "Help": "Modern journalism requires skills across text, photo, and video formats."
+        },
+        {
+          "question": "What is the primary goal of an investigative journalism center regarding its funding model?",
+          "options": [
+            "To maximize shareholder profits",
+            "To ensure financial independence to pursue public-interest stories without undue influence",
+            "To operate solely on government subsidies",
+            "To generate revenue primarily through sensational entertainment news"
+          ],
+          "correctAnswer": "To ensure financial independence to pursue public-interest stories without undue influence",
+          "Help": "Financial independence is key for investigative journalism's credibility."
         }
       ]
     },
     {
-      "topic": "Technology",
+      "topic": "Grammar & Format",
       "questions": [
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["budget", "profit", "procedure", "revenue"],
-          "correctAnswer": "budget",
-          "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a marketing lead, what would be the best next step?",
+          "question": "In journalistic writing, what perspective is generally preferred for objective news reporting?",
           "options": [
-            "Adjust the marketing strategy",
-            "leader",
-            "revenue",
-            "equity"
+            "First person (I, we)",
+            "Second person (you)",
+            "Third person (he, she, they, it)",
+            "Subjective person (my feelings)"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Third person (he, she, they, it)",
+          "Help": "Third-person perspective helps maintain objectivity and distance in news reporting."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["policy", "stakeholder", "ROI", "margin"],
-          "correctAnswer": "policy",
-          "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "What is the primary purpose of Technology?",
-          "options": ["liability", "budget", "leader", "inventory"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of technology is to apply scientific knowledge for practical purposes to improve processes and products."
-        },
-        {
-          "question": "(Hard) Scenario: A local company faces a problem with declining employee retention. As a manager, what would be the best next step?",
+          "question": "According to AP Style guidelines, how should acronyms like 'FBI' or 'NASA' typically be handled on first reference in a news story?",
           "options": [
-            "liability",
-            "procedure",
-            "Investigate causes and collect data",
-            "equity"
+            "Always spell out the full name, followed by the acronym in parentheses",
+            "Always use only the acronym, regardless of familiarity",
+            "Spell out the full name, then use the acronym on subsequent references",
+            "Only use the acronym if it's four letters or more"
           ],
-          "correctAnswer": "Investigate causes and collect data",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "correctAnswer": "Spell out the full name, then use the acronym on subsequent references",
+          "Help": "This ensures clarity for readers unfamiliar with the abbreviation."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["leadership", "budget", "ROI", "revenue"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["stakeholder", "budget", "liability", "communication"],
-          "correctAnswer": "communication",
-          "explanation": "communication refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a marketing lead, what would be the best next step?",
+          "question": "Which journalistic format is characterized by presenting the most crucial information first, followed by supporting details in descending order of importance?",
           "options": [
-            "Adjust the marketing strategy",
-            "budget",
-            "ROI",
-            "procedure"
+            "Narrative arc",
+            "Inverted pyramid",
+            "Chronological storytelling",
+            "Stream of consciousness"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Inverted pyramid",
+          "Help": "The inverted pyramid prioritizes critical information for quick understanding and ease of editing."
+        },
+        {
+          "question": "What literary device is present in the headline: 'Silent Sirens Sing a Sorrowful Song'?",
+          "options": [
+            "Onomatopoeia",
+            "Metaphor",
+            "Alliteration",
+            "Simile"
+          ],
+          "correctAnswer": "Alliteration",
+          "Help": "Alliteration is the repetition of initial consonant sounds in words close together."
+        },
+        {
+          "question": "When quoting a source in journalism, what is the correct way to attribute the statement, according to standard grammar and format rules?",
+          "options": [
+            "The reporter said, 'Statement.'",
+            "'Statement.' (Source name)",
+            "'Statement,' said John Smith.",
+            "John Smith stated that 'Statement.'"
+          ],
+          "correctAnswer": "'Statement,' said John Smith.",
+          "Help": "Direct quotes should be properly attributed with a verb of attribution."
+        },
+        {
+          "question": "Which of the following would generally NOT be abbreviated in standard journalistic text (outside of headlines or specific lists)?",
+          "options": [
+            "Dr.",
+            "Mr.",
+            "Street",
+            "Tuesday"
+          ],
+          "correctAnswer": "Tuesday",
+          "Help": "Days of the week are typically spelled out in body text unless used in a date sequence."
+        },
+        {
+          "question": "What is the primary purpose of using 'nut grafs' in feature-style journalism?",
+          "options": [
+            "To hide the main point of the story",
+            "To summarize the story's essence and explain its significance early on",
+            "To provide a detailed biography of the reporter",
+            "To strictly adhere to a chronological narrative"
+          ],
+          "correctAnswer": "To summarize the story's essence and explain its significance early on",
+          "Help": "A nut graf provides context and the 'so what?' for a feature story."
+        },
+        {
+          "question": "Which term describes a word that imitates the natural sound associated with it, like 'buzz' or 'hiss'?",
+          "options": [
+            "Hyperbole",
+            "Personification",
+            "Onomatopoeia",
+            "Oxymoron"
+          ],
+          "correctAnswer": "Onomatopoeia",
+          "Help": "Onomatopoeia is a common literary device used for evocative language."
+        },
+        {
+          "question": "Journalism typically avoids the use of the second-person ('you') perspective because it can:",
+          "options": [
+            "Make the writing sound more formal and academic",
+            "Create a sense of direct address that might appear to be giving advice or making assumptions about the reader",
+            "Enhance objectivity and impartiality",
+            "Shorten the length of the article significantly"
+          ],
+          "correctAnswer": "Create a sense of direct address that might appear to be giving advice or making assumptions about the reader",
+          "Help": "Using 'you' can break the objective stance generally preferred in news."
+        },
+        {
+          "question": "Which of these titles should be abbreviated when used before a full name in AP Style?",
+          "options": [
+            "Professor",
+            "Reverend",
+            "Governor",
+            "President"
+          ],
+          "correctAnswer": "Governor",
+          "Help": "Gov., Lt. Gov., Rep., Sen., Dr., and some military ranks are abbreviated when used before a full name."
+        },
+        {
+          "question": "Broadcast news writing often differs from print news writing by being more:",
+          "options": [
+            "Verbose and complex",
+            "Conversational and concise",
+            "Focused on passive voice",
+            "Laden with jargon"
+          ],
+          "correctAnswer": "Conversational and concise",
+          "Help": "Broadcast news is meant to be heard, so it prioritizes clarity, simplicity, and brevity."
+        },
+        {
+          "question": "What is a 'simile'?",
+          "options": [
+            "A direct comparison between two unlike things using 'like' or 'as'",
+            "A direct comparison between two unlike things without using 'like' or 'as'",
+            "An exaggeration for emphasis",
+            "Giving human qualities to inanimate objects"
+          ],
+          "correctAnswer": "A direct comparison between two unlike things using 'like' or 'as'",
+          "Help": "Similes are used to make writing more vivid and relatable."
+        },
+        {
+          "question": "When is it generally acceptable for a journalist to use the first-person perspective ('I' or 'we')?",
+          "options": [
+            "Never, under any circumstances",
+            "Only in news reports covering personal opinions",
+            "In columns, opinion pieces, or personal essays, with clear disclosure",
+            "As a default for all news stories"
+          ],
+          "correctAnswer": "In columns, opinion pieces, or personal essays, with clear disclosure",
+          "Help": "The first person is reserved for subjective forms of journalism where the writer's perspective is central."
+        },
+        {
+          "question": "Which of the following is typically spelled out, rather than abbreviated, in most journalistic contexts?",
+          "options": [
+            "Numbers under ten",
+            "States when standing alone",
+            "Months when used with a date",
+            "Titles such as 'President'"
+          ],
+          "correctAnswer": "Numbers under ten",
+          "Help": "AP Style dictates spelling out numbers one through nine; use figures for 10 and above."
+        },
+        {
+          "question": "A 'podcast script' would likely differ from a newspaper article in its format by including:",
+          "options": [
+            "More detailed layout instructions for a printer",
+            "Cues for sound effects, music, and pauses for spoken delivery",
+            "Fewer paragraphs and more bullet points",
+            "Strict adherence to a 500-word limit"
+          ],
+          "correctAnswer": "Cues for sound effects, music, and pauses for spoken delivery",
+          "Help": "Podcast scripts are designed for audio production and delivery."
+        },
+        {
+          "question": "What literary device is used when a journalist writes, 'The city was a concrete jungle,' to describe an urban environment?",
+          "options": [
+            "Simile",
+            "Hyperbole",
+            "Metaphor",
+            "Understatement"
+          ],
+          "correctAnswer": "Metaphor",
+          "Help": "A metaphor makes a direct comparison without 'like' or 'as'."
+        },
+        {
+          "question": "What is the common rule for capitalizing job titles in journalistic writing?",
+          "options": [
+            "Always capitalize all job titles",
+            "Capitalize titles when they precede a name, but not when they follow a name or stand alone",
+            "Never capitalize job titles",
+            "Capitalize only if the job title is a government official"
+          ],
+          "correctAnswer": "Capitalize titles when they precede a name, but not when they follow a name or stand alone",
+          "Help": "For example, 'President Joe Biden' but 'Joe Biden, president of the United States.'"
+        },
+        {
+          "question": "The use of short, punchy sentences is a characteristic often associated with which type of journalism?",
+          "options": [
+            "Academic research papers",
+            "Broadcast news and breaking news alerts",
+            "Literary non-fiction books",
+            "Long-form historical analysis"
+          ],
+          "correctAnswer": "Broadcast news and breaking news alerts",
+          "Help": "Brevity and directness are key for conveying information quickly in these formats."
+        },
+        {
+          "question": "Why is avoiding clichés important in journalistic writing?",
+          "options": [
+            "They make the writing sound more authoritative.",
+            "They help readers understand complex topics more easily.",
+            "They often lack originality and can make writing sound stale or uninspired.",
+            "They are required for all feature stories."
+          ],
+          "correctAnswer": "They often lack originality and can make writing sound stale or uninspired.",
+          "Help": "Journalists strive for fresh, impactful language."
+        },
+        {
+          "question": "When referring to streets, avenues, or roads, how does AP Style generally handle abbreviations within an address?",
+          "options": [
+            "Always spell out 'Street,' 'Avenue,' 'Road,' etc.",
+            "Abbreviate 'Street,' 'Avenue,' and 'Boulevard' only when used with a numbered address",
+            "Never abbreviate any part of an address",
+            "Only abbreviate if the address is a postal code"
+          ],
+          "correctAnswer": "Abbreviate 'Street,' 'Avenue,' and 'Boulevard' only when used with a numbered address",
+          "Help": "For example, '1600 Pennsylvania Ave.' but 'Pennsylvania Avenue.'"
         }
       ]
     },
     {
-      "topic": "Human Resources",
+      "topic": "Law & Ethics",
       "questions": [
         {
-          "question": "What is the primary purpose of Human Resources?",
-          "options": ["procedure", "leadership", "asset", "policy"],
-          "correctAnswer": "leadership",
-          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["policy", "engagement", "leader", "margin"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a marketing lead, what would be the best next step?",
+          "question": "Which U.S. Constitutional amendment most directly protects the freedom of the press?",
           "options": [
-            "Restructure department roles",
-            "inventory",
-            "procedure",
-            "revenue"
+            "Fourth Amendment",
+            "Fifth Amendment",
+            "First Amendment",
+            "Tenth Amendment"
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "First Amendment",
+          "Help": "The First Amendment guarantees freedom of speech and of the press."
         },
         {
-          "question": "(Hard) What is a key consideration when creating a budget?",
-          "options": ["procedure", "equity", "ROI", "budget"],
-          "correctAnswer": "budget",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "question": "What is 'libel' in the context of journalism?",
+          "options": [
+            "Speaking a false, damaging statement about someone",
+            "Publishing a false, damaging statement about someone",
+            "Reporting on public figures without their permission",
+            "Sharing true, but embarrassing, information"
+          ],
+          "correctAnswer": "Publishing a false, damaging statement about someone",
+          "Help": "Libel refers to written or published defamation, while slander is spoken."
         },
         {
-          "question": "What is the primary purpose of Human Resources?",
-          "options": ["profit", "procedure", "ROI", "revenue"],
-          "correctAnswer": "profit",
-          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
+          "question": "A journalist's primary ethical responsibility to their sources is often related to:",
+          "options": [
+            "Ensuring they always agree with the source's opinion",
+            "Maintaining confidentiality when promised",
+            "Paying sources for exclusive information",
+            "Revealing their names to competitors for verification"
+          ],
+          "correctAnswer": "Maintaining confidentiality when promised",
+          "Help": "Protecting confidential sources is a cornerstone of journalistic ethics."
         },
         {
-          "question": "What is the primary purpose of Human Resources?",
-          "options": ["equity", "budget", "revenue", "stakeholder"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
+          "question": "The impact of unethical journalism on society can primarily lead to:",
+          "options": [
+            "Increased public trust in media",
+            "A more informed and engaged citizenry",
+            "Erosion of public trust and spread of misinformation",
+            "Greater profits for news organizations"
+          ],
+          "correctAnswer": "Erosion of public trust and spread of misinformation",
+          "Help": "Unethical practices undermine the credibility and utility of journalism."
         },
         {
-          "question": "What is the primary purpose of Human Resources?",
-          "options": ["profit", "procedure", "margin", "stakeholder"],
-          "correctAnswer": "profit",
-          "explanation": "The primary purpose of human resources is to recruit, develop, and support employees to meet organizational needs."
+          "question": "The Pentagon Papers case in 1971 was a landmark event related to which journalistic principle?",
+          "options": [
+            "The right to advertise freely",
+            "Government censorship and freedom of the press",
+            "The ethics of paying sources",
+            "Copyright protection for journalistic works"
+          ],
+          "correctAnswer": "Government censorship and freedom of the press",
+          "Help": "It established a high bar for government attempts to block publication of sensitive material."
         },
         {
-          "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
-          "options": ["Conduct employee surveys", "margin", "ROI", "liability"],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "question": "What does 'conflict of interest' mean for a journalist?",
+          "options": [
+            "Having a strong personal opinion on a topic",
+            "Having a personal or financial stake in the outcome of a story they are covering",
+            "Disagreeing with an editor's decision",
+            "Only reporting on stories that are uncontroversial"
+          ],
+          "correctAnswer": "Having a personal or financial stake in the outcome of a story they are covering",
+          "Help": "Conflicts of interest can compromise a journalist's objectivity and credibility."
+        },
+        {
+          "question": "The Freedom of Information Act (FOIA) primarily grants the public the right to access what?",
+          "options": [
+            "Private medical records of individuals",
+            "Confidential business trade secrets",
+            "Unpublished works of fiction",
+            "Information from federal government agencies"
+          ],
+          "correctAnswer": "Information from federal government agencies",
+          "Help": "FOIA is a key tool for journalists to hold government accountable."
+        },
+        {
+          "question": "Which ethical guideline advises journalists to avoid practices that exploit a person's vulnerability or trauma?",
+          "options": [
+            "Sensationalism",
+            "Accuracy",
+            "Minimizing harm",
+            "Timeliness"
+          ],
+          "correctAnswer": "Minimizing harm",
+          "Help": "Journalists have a responsibility to consider the impact of their reporting on individuals."
+        },
+        {
+          "question": "The Jayson Blair scandal at The New York Times involved which major ethical violation?",
+          "options": [
+            "Revealing a confidential source",
+            "Plagiarism and fabrication of stories",
+            "Accepting bribes for positive coverage",
+            "Refusing to report on important news"
+          ],
+          "correctAnswer": "Plagiarism and fabrication of stories",
+          "Help": "Blair invented details and copied content from other news sources, leading to a major scandal."
+        },
+        {
+          "question": "In libel law, what is 'actual malice'?",
+          "options": [
+            "Simply disliking the subject of a story",
+            "Publishing a statement with knowledge of its falsity or with reckless disregard for the truth",
+            "Making an honest mistake in reporting",
+            "Reporting on a private individual"
+          ],
+          "correctAnswer": "Publishing a statement with knowledge of its falsity or with reckless disregard for the truth",
+          "Help": "Public figures must prove actual malice to win a libel suit, a standard set by New York Times v. Sullivan."
+        },
+        {
+          "question": "What is the ethical principle of 'fairness' in journalism?",
+          "options": [
+            "Only publishing positive news stories",
+            "Presenting all sides of an issue and providing a right of reply to those criticized",
+            "Treating all sources as equally credible",
+            "Avoiding any controversial topics"
+          ],
+          "correctAnswer": "Presenting all sides of an issue and providing a right of reply to those criticized",
+          "Help": "Fairness ensures that reporting is balanced and considers different perspectives."
+        },
+        {
+          "question": "The concept of 'prior restraint' in journalism refers to:",
+          "options": [
+            "The ability of a journalist to refuse to reveal sources",
+            "Government action to prevent material from being published",
+            "The ethical duty to review facts before publication",
+            "The right of a source to approve a story before it runs"
+          ],
+          "correctAnswer": "Government action to prevent material from being published",
+          "Help": "Prior restraint is strongly disfavored by the First Amendment, with a high legal bar."
+        },
+        {
+          "question": "What ethical challenge is posed by the rise of 'deepfakes'?",
+          "options": [
+            "The difficulty of producing high-quality visual content",
+            "The ease of creating highly realistic but fabricated audio and video content",
+            "The legal obligation to use only AI-generated images",
+            "A decrease in the demand for visual journalism"
+          ],
+          "correctAnswer": "The ease of creating highly realistic but fabricated audio and video content",
+          "Help": "Deepfakes make it easier to spread convincing false narratives, posing a major threat to truth and trust."
+        },
+        {
+          "question": "Journalists often maintain 'arm's length' relationships with subjects of their reporting to avoid the perception of:",
+          "options": [
+            "Being overly critical",
+            "Objectivity",
+            "Bias or impropriety",
+            "Timeliness"
+          ],
+          "correctAnswer": "Bias or impropriety",
+          "Help": "Maintaining a professional distance helps preserve impartiality and avoids conflicts of interest."
+        },
+        {
+          "question": "Which case established that school newspapers are subject to a lower level of First Amendment protection than professional newspapers?",
+          "options": [
+            "New York Times Co. v. Sullivan",
+            "Hazelwood School District v. Kuhlmeier",
+            "Tinker v. Des Moines",
+            "Miranda v. Arizona"
+          ],
+          "correctAnswer": "Hazelwood School District v. Kuhlmeier",
+          "Help": "This ruling allowed school administrators to exercise editorial control over school-sponsored expressive activities."
+        },
+        {
+          "question": "What is 'plagiarism' in journalism?",
+          "options": [
+            "Quoting a source without permission",
+            "Using another person's words or ideas without attribution",
+            "Making a minor factual error",
+            "Reporting on a story that someone else has already covered"
+          ],
+          "correctAnswer": "Using another person's words or ideas without attribution",
+          "Help": "Plagiarism is a severe ethical breach and professional misconduct."
+        },
+        {
+          "question": "The ethical decision to publish or withhold sensitive information, such as the identity of a minor victim, often involves balancing what two principles?",
+          "options": [
+            "Sensationalism and profit",
+            "Public's right to know and minimizing harm",
+            "Speed and brevity",
+            "Personal opinion and entertainment value"
+          ],
+          "correctAnswer": "Public's right to know and minimizing harm",
+          "Help": "Journalists constantly weigh the newsworthiness against the potential for harm to individuals."
+        },
+        {
+          "question": "What was the significance of the Janet Cooke scandal for journalism ethics?",
+          "options": [
+            "It led to stricter guidelines for source confidentiality.",
+            "It highlighted the dangers of fabricating sources and stories.",
+            "It established new laws regarding media ownership.",
+            "It resulted in the creation of the Pulitzer Prize."
+          ],
+          "correctAnswer": "It highlighted the dangers of fabricating sources and stories.",
+          "Help": "Cooke won a Pulitzer for a fabricated story, leading to widespread scrutiny of journalistic integrity."
+        },
+        {
+          "question": "Journalists often face ethical dilemmas regarding privacy when reporting on what type of individuals?",
+          "options": [
+            "Elected officials acting in their official capacity",
+            "Celebrities' public appearances",
+            "Private citizens involved in traumatic or sensitive events",
+            "Corporate CEOs making public statements"
+          ],
+          "correctAnswer": "Private citizens involved in traumatic or sensitive events",
+          "Help": "The line between public interest and private suffering is often blurred in such cases."
+        },
+        {
+          "question": "Beyond legal ramifications, what is a significant professional consequence for a journalist found guilty of a major ethical violation?",
+          "options": [
+            "Mandatory career change to a non-media field",
+            "Loss of trust and damage to reputation, potentially ending their career",
+            "A temporary suspension from social media use",
+            "A small fine with no impact on employment"
+          ],
+          "correctAnswer": "Loss of trust and damage to reputation, potentially ending their career",
+          "Help": "Journalism relies on trust, and ethical breaches destroy that trust."
         }
       ]
     },
     {
-      "topic": "Operations",
+      "topic": "Basic Journalism Principles",
       "questions": [
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["inventory", "margin", "liability", "leadership"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a manager, what would be the best next step?",
+          "question": "What is the fundamental purpose of journalism?",
           "options": [
-            "Restructure department roles",
-            "ROI",
-            "profit",
-            "liability"
+            "To entertain the public with fictional stories",
+            "To advocate for political candidates",
+            "To inform the public about events and issues, enabling informed decision-making",
+            "To create viral content for social media"
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "To inform the public about events and issues, enabling informed decision-making",
+          "Help": "Journalism serves as a crucial pillar of democracy by providing timely and relevant information."
         },
         {
-          "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a HR director, what would be the best next step?",
+          "question": "Which of the following is NOT typically considered a primary news value that determines newsworthiness?",
           "options": [
-            "inventory",
-            "Investigate causes and collect data",
-            "budget",
-            "leader"
+            "Timeliness",
+            "Proximity",
+            "Ambiguity",
+            "Impact"
           ],
-          "correctAnswer": "Investigate causes and collect data",
-          "explanation": "Investigate causes and collect data is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Ambiguity",
+          "Help": "Clarity, not ambiguity, is valued in news. Common news values include timeliness, proximity, prominence, conflict, impact, human interest, and oddity."
         },
         {
-          "question": "(Hard) Scenario: A local company faces a problem with declining customer satisfaction. As a HR director, what would be the best next step?",
-          "options": ["asset", "leader", "Conduct employee surveys", "policy"],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a project manager, what would be the best next step?",
+          "question": "How do core news values like 'timeliness' or 'prominence' remain true across different eras and societal changes?",
           "options": [
-            "revenue",
-            "leader",
-            "inventory",
-            "Restructure department roles"
+            "They are constantly redefined based on current trends.",
+            "They are inherent human interests that transcend specific technologies or cultures.",
+            "They are strictly legal requirements for news organizations.",
+            "They only apply to print journalism, not digital."
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "They are inherent human interests that transcend specific technologies or cultures.",
+          "Help": "Humans have always been interested in what's new, close by, and about important people."
         },
         {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["margin", "leader", "budget", "profit"],
-          "correctAnswer": "budget",
-          "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
+          "question": "The '5 W's and H' (Who, What, When, Where, Why, How) are essential questions used in news gathering to ensure:",
+          "options": [
+            "The story is highly opinionated",
+            "The story is as comprehensive and informative as possible",
+            "The story only appeals to a niche audience",
+            "The story contains numerous literary devices"
+          ],
+          "correctAnswer": "The story is as comprehensive and informative as possible",
+          "Help": "These questions help journalists gather all necessary facts for a complete story."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["budget", "asset", "leader", "engagement"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
+          "question": "What is the primary role of 'sources' in journalism?",
+          "options": [
+            "To provide entertainment for the audience",
+            "To offer personal opinions without factual basis",
+            "To provide information, context, and verification for a story",
+            "To distract from the main points of a report"
+          ],
+          "correctAnswer": "To provide information, context, and verification for a story",
+          "Help": "Sources are the backbone of credible journalism, providing facts and perspectives."
         },
         {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["budget", "stakeholder", "equity", "revenue"],
-          "correctAnswer": "budget",
-          "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
+          "question": "A strong 'lead' (or lede) in a news story primarily serves to:",
+          "options": [
+            "Introduce the reporter's personal biases",
+            "Hook the reader and summarize the most important information",
+            "Provide an exhaustive historical background of the topic",
+            "Conceal the main point of the story until the end"
+          ],
+          "correctAnswer": "Hook the reader and summarize the most important information",
+          "Help": "A good lead grabs attention and quickly delivers the core message of the story."
+        },
+        {
+          "question": "When assessing the newsworthiness of an event, 'impact' refers to:",
+          "options": [
+            "How loudly the news can be broadcast",
+            "The number of people affected by the event and the degree to which they are affected",
+            "The aesthetic appeal of the news presentation",
+            "How quickly the story can be written"
+          ],
+          "correctAnswer": "The number of people affected by the event and the degree to which they are affected",
+          "Help": "Stories with wide-ranging impact are often highly newsworthy."
+        },
+        {
+          "question": "Which quality is crucial for a journalist when evaluating the credibility of a source?",
+          "options": [
+            "How entertaining the source is",
+            "Whether the source agrees with the journalist's opinion",
+            "Expertise, access to information, and potential biases",
+            "The source's social media follower count"
+          ],
+          "correctAnswer": "Expertise, access to information, and potential biases",
+          "Help": "Journalists must critically assess sources to ensure accuracy and avoid misinformation."
+        },
+        {
+          "question": "Which type of lead immediately presents the most crucial information (Who, What, When, Where, Why, How) in a concise manner?",
+          "options": [
+            "Anecdotal lead",
+            "Descriptive lead",
+            "Summary lead (or straight news lead)",
+            "Question lead"
+          ],
+          "correctAnswer": "Summary lead (or straight news lead)",
+          "Help": "This is the most common lead for breaking news, following the inverted pyramid structure."
+        },
+        {
+          "question": "The principle that journalism should act as a 'watchdog' primarily implies what role for the press?",
+          "options": [
+            "To promote specific government policies",
+            "To closely monitor and scrutinize those in power, holding them accountable",
+            "To only report on positive community events",
+            "To distract the public from serious issues"
+          ],
+          "correctAnswer": "To closely monitor and scrutinize those in power, holding them accountable",
+          "Help": "The watchdog role is essential for transparency and preventing abuses of power."
         }
       ]
     },
     {
-      "topic": "Project Management",
+      "topic": "History of Journalism",
       "questions": [
         {
-          "question": "(Hard) Scenario: A local company faces a problem with declining cash flow. As a project manager, what would be the best next step?",
+          "question": "Beyond the First Amendment, which constitutional concept indirectly influenced the early development of a free press by limiting government power?",
           "options": [
-            "budget",
-            "equity",
-            "margin",
-            "Restructure department roles"
+            "The right to bear arms",
+            "Separation of powers",
+            "The electoral college",
+            "The right to a speedy trial"
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "correctAnswer": "Separation of powers",
+          "Help": "By dividing governmental authority, it made it harder for any single branch to control the press entirely."
         },
         {
-          "question": "What is the primary purpose of Project Management?",
-          "options": ["budget", "policy", "ROI", "profit"],
-          "correctAnswer": "policy",
-          "explanation": "The primary purpose of project management is to plan, execute, and close projects successfully within scope, time, and budget."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["leader", "inventory", "communication", "procedure"],
-          "correctAnswer": "communication",
-          "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["leader", "leadership", "margin", "liability"],
-          "correctAnswer": "leadership",
-          "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["procedure", "policy", "engagement", "leader"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["margin", "profit", "leader", "budget"],
-          "correctAnswer": "budget",
-          "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["revenue", "budget", "policy", "asset"],
-          "correctAnswer": "policy",
-          "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["leadership", "margin", "profit", "procedure"],
-          "correctAnswer": "leadership",
-          "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
-        }
-      ]
-    },
-    {
-      "topic": "Introduction",
-      "questions": [
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["ROI", "revenue", "asset", "leadership"],
-          "correctAnswer": "leadership",
-          "explanation": "Leadership is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining employee retention. As a project manager, what would be the best next step?",
+          "question": "Joseph Pulitzer is widely recognized for his contributions to journalism through his emphasis on:",
           "options": [
-            "revenue",
-            "inventory",
-            "Conduct employee surveys",
-            "budget"
+            "Exclusively publishing fictional stories",
+            "Investigative reporting, public service, and sensationalism (yellow journalism)",
+            "Strict government control over news content",
+            "Creating the first online newspaper"
           ],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Investigative reporting, public service, and sensationalism (yellow journalism)",
+          "Help": "Pulitzer was a pioneer in modern journalism, though his methods sometimes involved sensationalism."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["stakeholder", "revenue", "profit", "policy"],
-          "correctAnswer": "policy",
-          "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "(Hard) Scenario: A local company faces a problem with declining sales. As a HR director, what would be the best next step?",
+          "question": "What was a defining characteristic of the 'penny press' era in the 1830s?",
           "options": [
-            "budget",
-            "Adjust the marketing strategy",
-            "leader",
-            "asset"
+            "Newspapers costing a single penny, making them accessible to the masses",
+            "Only reporting on economic news",
+            "Newspapers printed on copper pennies",
+            "Exclusive focus on aristocratic readers"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "correctAnswer": "Newspapers costing a single penny, making them accessible to the masses",
+          "Help": "The penny press democratized news consumption and relied on advertising."
         },
         {
-          "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
+          "question": "Which pioneering journalist is famous for her investigative 'stunt journalism,' including feigning insanity to report on mental asylums?",
           "options": [
-            "profit",
-            "Investigate causes and collect data",
-            "equity",
-            "asset"
+            "Ida B. Wells",
+            "Katharine Graham",
+            "Nellie Bly",
+            "Dorothy Thompson"
           ],
-          "correctAnswer": "Investigate causes and collect data",
-          "explanation": "Investigate causes and collect data is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Nellie Bly",
+          "Help": "Nellie Bly's immersive reporting brought important social issues to light."
         },
         {
-          "question": "What is the primary purpose of Introduction?",
-          "options": ["asset", "margin", "budget", "ROI"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
-        },
-        {
-          "question": "What is the primary purpose of Introduction?",
-          "options": ["procedure", "asset", "stakeholder", "policy"],
-          "correctAnswer": "policy",
-          "explanation": "The primary purpose of an introduction is to provide an overview and set the context for the topic being presented."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["procedure", "inventory", "engagement", "equity"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        }
-      ]
-    },
-    {
-      "topic": "Journalism",
-      "questions": [
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["margin", "profit", "ROI", "engagement"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["profit", "procedure", "budget", "policy"],
-          "correctAnswer": "budget",
-          "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["communication", "procedure", "liability", "budget"],
-          "correctAnswer": "communication",
-          "explanation": "Communication is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a manager, what would be the best next step?",
+          "question": "During World War II, what role did Edward R. Murrow primarily play in broadcast journalism?",
           "options": [
-            "liability",
-            "procedure",
-            "leader",
-            "Conduct employee surveys"
+            "Chief propagandist for the government",
+            "War correspondent known for live radio reports from London during the Blitz",
+            "An embedded journalist reporting from the front lines",
+            "A sports commentator"
           ],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "War correspondent known for live radio reports from London during the Blitz",
+          "Help": "Murrow's vivid reports brought the war's reality into American homes."
         },
         {
-          "question": "Scenario: A local company faces a problem with declining employee retention. As a manager, what would be the best next step?",
+          "question": "The 'Yellow Journalism' era of the late 19th century was characterized by:",
           "options": [
-            "Restructure department roles",
-            "asset",
-            "liability",
-            "policy"
+            "Strict adherence to objective, factual reporting",
+            "Emphasis on in-depth analytical essays",
+            "Sensationalism, exaggerated headlines, and self-promotion, often to sell newspapers",
+            "Exclusive use of color photography in newspapers"
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Sensationalism, exaggerated headlines, and self-promotion, often to sell newspapers",
+          "Help": "This era saw intense competition between publishers like Pulitzer and Hearst, often at the expense of accuracy."
         },
         {
-          "question": "Scenario: A local company faces a problem with declining sales. As a marketing lead, what would be the best next step?",
+          "question": "What was the lasting impact of Watergate on journalism?",
           "options": [
-            "leader",
-            "revenue",
-            "profit",
-            "Restructure department roles"
+            "It led to a decrease in public interest in government affairs.",
+            "It ushered in an era of more aggressive investigative journalism and reinforced the 'watchdog' role of the press.",
+            "It resulted in the government taking over all major news outlets.",
+            "It proved that journalists should avoid political stories."
           ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "It ushered in an era of more aggressive investigative journalism and reinforced the 'watchdog' role of the press.",
+          "Help": "The reporting by Woodward and Bernstein highlighted the power of persistent investigative journalism."
         },
         {
-          "question": "(Hard) Scenario: A local company faces a problem with declining customer satisfaction. As a manager, what would be the best next step?",
+          "question": "The Pulitzer Prize is a prestigious award primarily recognizing excellence in which fields?",
           "options": [
-            "budget",
-            "ROI",
-            "Investigate causes and collect data",
-            "inventory"
+            "Automotive engineering and robotics",
+            "Journalism, literature, and music composition",
+            "Professional sports and gaming",
+            "Culinary arts and fashion design"
           ],
-          "correctAnswer": "Investigate causes and collect data",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
+          "correctAnswer": "Journalism, literature, and music composition",
+          "Help": "Established by Joseph Pulitzer, it is one of the highest honors in American journalism."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["procedure", "leadership", "leader", "asset"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        }
-      ]
-    },
-    {
-      "topic": "Leadership",
-      "questions": [
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a HR director, what would be the best next step?",
+          "question": "Which medium marked a significant transition in news delivery by offering immediate audio reports and bypassing print limitations?",
           "options": [
-            "procedure",
-            "equity",
-            "budget",
-            "Investigate causes and collect data"
+            "Telegraph",
+            "Radio",
+            "Pamphlets",
+            "Cave drawings"
           ],
-          "correctAnswer": "Investigate causes and collect data",
-          "explanation": "Investigate causes and collect data is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
+          "correctAnswer": "Radio",
+          "Help": "Radio brought news directly into homes, especially important during wartime and crises."
         },
         {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["margin", "asset", "engagement", "profit"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["profit", "equity", "leadership", "policy"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "What is the primary purpose of Leadership?",
-          "options": ["ROI", "stakeholder", "engagement", "policy"],
-          "correctAnswer": "engagement",
-          "explanation": "The primary purpose of leadership is to influence and guide individuals or groups toward achieving goals."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining cash flow. As a HR director, what would be the best next step?",
+          "question": "Ida B. Wells was a prominent investigative journalist and activist known for her courageous reporting on:",
           "options": [
-            "ROI",
-            "profit",
-            "budget",
-            "Adjust the marketing strategy"
+            "The fashion industry in New York",
+            "Lynching and racial injustice in the American South",
+            "New culinary trends",
+            "Space exploration"
           ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["stakeholder", "profit", "margin", "inventory"],
-          "correctAnswer": "profit",
-          "explanation": "profit is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a marketing lead, what would be the best next step?",
-          "options": [
-            "stakeholder",
-            "inventory",
-            "Conduct employee surveys",
-            "profit"
-          ],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": ["budget", "policy", "asset", "ROI"],
-          "correctAnswer": "policy",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        }
-      ]
-    },
-    {
-      "topic": "Finance",
-      "questions": [
-        {
-          "question": "What is the primary purpose of Finance?",
-          "options": ["equity", "profit", "stakeholder", "leader"],
-          "correctAnswer": "profit",
-          "explanation": "The primary purpose of finance is to manage money and financial resources to support organizational goals."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining employee retention. As a marketing lead, what would be the best next step?",
-          "options": [
-            "Restructure department roles",
-            "budget",
-            "profit",
-            "stakeholder"
-          ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["budget", "equity", "procedure", "revenue"],
-          "correctAnswer": "budget",
-          "explanation": "Budget is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": ["leader", "communication", "revenue", "inventory"],
-          "correctAnswer": "communication",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a manager, what would be the best next step?",
-          "options": [
-            "inventory",
-            "profit",
-            "Conduct employee surveys",
-            "policy"
-          ],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["budget", "stakeholder", "profit", "equity"],
-          "correctAnswer": "budget",
-          "explanation": "budget refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["revenue", "procedure", "budget", "communication"],
-          "correctAnswer": "communication",
-          "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining employee retention. As a project manager, what would be the best next step?",
-          "options": [
-            "policy",
-            "inventory",
-            "revenue",
-            "Conduct employee surveys"
-          ],
-          "correctAnswer": "Conduct employee surveys",
-          "explanation": "Conduct employee surveys is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        }
-      ]
-    },
-    {
-      "topic": "Ethics",
-      "questions": [
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["margin", "engagement", "procedure", "leader"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a project manager, what would be the best next step?",
-          "options": [
-            "inventory",
-            "ROI",
-            "policy",
-            "Adjust the marketing strategy"
-          ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["inventory", "leader", "policy", "budget"],
-          "correctAnswer": "policy",
-          "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a HR director, what would be the best next step?",
-          "options": [
-            "ROI",
-            "budget",
-            "inventory",
-            "Restructure department roles"
-          ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["policy", "leadership", "profit", "revenue"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "What is the primary purpose of Ethics?",
-          "options": ["liability", "budget", "revenue", "procedure"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
-        },
-        {
-          "question": "What is the primary purpose of Ethics?",
-          "options": ["policy", "profit", "budget", "asset"],
-          "correctAnswer": "budget",
-          "explanation": "The primary purpose of ethics is to provide principles and standards that guide behavior and decision-making."
-        },
-        {
-          "question": "(Hard) What is the primary purpose of Ethics?",
-          "options": ["equity", "ROI", "profit", "policy"],
-          "correctAnswer": "profit",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        }
-      ]
-    },
-    {
-      "topic": "Communication",
-      "questions": [
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["communication", "equity", "stakeholder", "policy"],
-          "correctAnswer": "communication",
-          "explanation": "communication is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "What is the primary purpose of Communication?",
-          "options": ["asset", "profit", "ROI", "liability"],
-          "correctAnswer": "profit",
-          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
-        },
-        {
-          "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": ["revenue", "asset", "equity", "communication"],
-          "correctAnswer": "communication",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a project manager, what would be the best next step?",
-          "options": [
-            "asset",
-            "profit",
-            "procedure",
-            "Restructure department roles"
-          ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "What is the primary purpose of Communication?",
-          "options": ["inventory", "leadership", "procedure", "asset"],
-          "correctAnswer": "leadership",
-          "explanation": "The primary purpose of communication is to share information and achieve mutual understanding."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["equity", "budget", "revenue", "policy"],
-          "correctAnswer": "policy",
-          "explanation": "policy refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining sales. As a manager, what would be the best next step?",
-          "options": [
-            "Restructure department roles",
-            "procedure",
-            "equity",
-            "profit"
-          ],
-          "correctAnswer": "Restructure department roles",
-          "explanation": "Restructure department roles is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["revenue", "ROI", "equity", "profit"],
-          "correctAnswer": "profit",
-          "explanation": "profit refers to funds coming into the organization; it best matches the phrase used in the question."
-        }
-      ]
-    },
-    {
-      "topic": "Marketing",
-      "questions": [
-        {
-          "question": "What is the primary purpose of Marketing?",
-          "options": ["procedure", "equity", "policy", "profit"],
-          "correctAnswer": "profit",
-          "explanation": "The primary purpose of marketing is to create, communicate, and deliver value to customers while supporting organizational goals."
-        },
-        {
-          "question": "(Hard) Which action improves employee engagement?",
-          "options": ["profit", "policy", "communication", "asset"],
-          "correctAnswer": "communication",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["policy", "budget", "inventory", "profit"],
-          "correctAnswer": "profit",
-          "explanation": "Profit is the best answer because it aligns with the concept asked for in the question."
-        },
-        {
-          "question": "Scenario: A local company faces a problem with declining customer satisfaction. As a HR director, what would be the best next step?",
-          "options": [
-            "Adjust the marketing strategy",
-            "policy",
-            "asset",
-            "budget"
-          ],
-          "correctAnswer": "Adjust the marketing strategy",
-          "explanation": "Adjust the marketing strategy is the most appropriate action in this scenario because it directly addresses the problem described and focuses on practical steps to resolve it."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["policy", "leader", "leadership", "budget"],
-          "correctAnswer": "leadership",
-          "explanation": "leadership refers to funds coming into the organization; it best matches the phrase used in the question."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["stakeholder", "budget", "engagement", "liability"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "What is a key consideration when creating a budget?",
-          "options": ["procedure", "engagement", "margin", "profit"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement is correct because it best fits the question's intent and matches the context provided."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["asset", "profit", "ROI", "communication"],
-          "correctAnswer": "communication",
-          "explanation": "communication refers to funds coming into the organization; it best matches the phrase used in the question."
-        }
-      ]
-    },
-    {
-      "topic": "Customer Service",
-      "questions": [
-        {
-          "question": "What is the primary purpose of Customer Service?",
-          "options": ["policy", "procedure", "liability", "ROI"],
-          "correctAnswer": "policy",
-          "explanation": "The primary purpose of customer service is to support customers and ensure satisfaction and retention."
-        },
-        {
-          "question": "Which action improves employee engagement?",
-          "options": ["profit", "inventory", "policy", "margin"],
-          "correctAnswer": "profit",
-          "explanation": "profit is an effective way to improve engagement because it directly influences employees' motivation, communication, or job satisfaction."
-        },
-        {
-          "question": "(Hard) Which term best describes a company's expected incoming money?",
-          "options": ["profit", "budget", "revenue", "liability"],
-          "correctAnswer": "profit",
-          "explanation": "This item requires higher-order reasoning and real-world judgment."
-        },
-        {
-          "question": "Which term best describes a company's expected incoming money?",
-          "options": ["engagement", "profit", "procedure", "equity"],
-          "correctAnswer": "engagement",
-          "explanation": "engagement refers to funds coming into the organization; it best matches the phrase used in the question."
+          "correctAnswer": "Lynching and racial injustice in the American South",
+          "Help": "Wells used her journalism to expose and fight against racial violence."
         }
       ]
     }
