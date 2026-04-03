@@ -1,0 +1,305 @@
+{
+  "testName": "Personal Financial Literacy Exam 1326",
+  "topics": [
+    {
+      "topic": "Managing Credit",
+      "questions": [
+        {
+          "question": "What is good advice to follow to avoid excessive debt?",
+          "options": [
+            "Engage in impulse buying to avoid unmanageable debt.",
+            "Use cosigners on loans so that they can be held responsible for excessive debt.",
+            "Notify creditors immediately when you know your payments will be late.",
+            "Think long term and be realistic about income and expenses."
+          ],
+          "correctAnswer": "Think long term and be realistic about income and expenses.",
+          "Help": "Avoiding debt requires planning and understanding your limits regarding future income versus spending."
+        },
+        {
+          "question": "The disadvantage to paying just the minimum amount due on your credit card each month is that you",
+          "options": [
+            "pay interest on purchases.",
+            "establish a credit rating.",
+            "earn quarterly dividends.",
+            "defer cash payments."
+          ],
+          "correctAnswer": "pay interest on purchases.",
+          "Help": "Paying only the minimum leads to accumulating interest on the remaining balance."
+        },
+        {
+          "question": "Which of the following is most likely to occur if you wait until you are middle-aged to start investing?",
+          "options": [
+            "You will not be able to retire.",
+            "You will make smarter financial decisions.",
+            "You will not risk your financial security.",
+            "You will avoid credit card debt."
+          ],
+          "correctAnswer": "You will not be able to retire.",
+          "Help": "Delaying investment significantly reduces the time for compound interest to grow your retirement funds."
+        },
+        {
+          "question": "A lower annual percentage rate (APR) means __________ monthly payments.",
+          "options": [
+            "fluctuating",
+            "lower",
+            "stable",
+            "higher"
+          ],
+          "correctAnswer": "lower",
+          "Help": "APR is the cost of borrowing; lower interest rates reduce the total cost of the debt."
+        },
+        {
+          "question": "How can a consumer find evidence of fraudulent credit accounts opened in their name?",
+          "options": [
+            "Review credit reports for the creation of unauthorized credit accounts.",
+            "Obtain their credit score from a credit bureau.",
+            "Review credit card statements for unauthorized activity.",
+            "Contact their credit card company and ask if fraud has been detected."
+          ],
+          "correctAnswer": "Review credit reports for the creation of unauthorized credit accounts.",
+          "Help": "Credit reports consolidate all accounts, making it the best place to find unauthorized new accounts."
+        }
+      ]
+    },
+    {
+      "topic": "Entrepreneurship and Career",
+      "questions": [
+        {
+          "question": "Which of the following characteristics are necessary for entrepreneurs to be successful?",
+          "options": [
+            "Determination and aggression",
+            "Creativity and innovation",
+            "Timidity and organization",
+            "Optimism and risk aversion"
+          ],
+          "correctAnswer": "Creativity and innovation",
+          "Help": "Entrepreneurs thrive by creating new value through creative and innovative ideas."
+        },
+        {
+          "question": "How does self-understanding help you choose an appropriate career?",
+          "options": [
+            "By developing your subjectivity",
+            "By identifying your aptitudes and skills",
+            "By helping you understand other people",
+            "By raising your level of self-esteem"
+          ],
+          "correctAnswer": "By identifying your aptitudes and skills",
+          "Help": "Matching job roles with personal strengths leads to greater career fit and success."
+        },
+        {
+          "question": "Participating in ongoing training and education programs often helps workers",
+          "options": [
+            "change their work ethics.",
+            "define short-term goals.",
+            "advance in their careers.",
+            "update their resumes."
+          ],
+          "correctAnswer": "advance in their careers.",
+          "Help": "Continuous learning ensures employees remain relevant and capable of taking on higher responsibilities."
+        },
+        {
+          "question": "Which of the following exemplifies the time value of money?",
+          "options": [
+            "Rachel placed $250 in a savings account and accumulated $12.50 in interest.",
+            "Sophie estimated that she uses 78% of her income to pay her bills.",
+            "Harrison paid the government $1,508 in property taxes last year.",
+            "Matthew decided to purchase a smartwatch from TeleTech.com for $199."
+          ],
+          "correctAnswer": "Rachel placed $250 in a savings account and accumulated $12.50 in interest.",
+          "Help": "The time value of money highlights that money earns more over time when invested."
+        },
+        {
+          "question": "Why is it important for employees to learn occupational skills and also to develop good interpersonal skills?",
+          "options": [
+            "To prepare for retirement",
+            "To obtain work experience",
+            "To identify a potential industry",
+            "To enhance career progression"
+          ],
+          "correctAnswer": "To enhance career progression",
+          "Help": "Technical skills allow you to do the work, while interpersonal skills allow you to lead and advance."
+        }
+      ]
+    },
+    {
+      "topic": "Insurance and Risk Management",
+      "questions": [
+        {
+          "question": "Which of the following is an expense that a typical car insurance policy will cover?",
+          "options": [
+            "Injuries you cause to someone else in a car accident",
+            "Water leaking from the roof of your garage",
+            "Personal belongings stolen from your car",
+            "Damage to the stereo system you installed in your car"
+          ],
+          "correctAnswer": "Injuries you cause to someone else in a car accident",
+          "Help": "Liability insurance is designed to cover damages or injuries caused to other parties."
+        },
+        {
+          "question": "One of the best ways to protect yourself against identity theft is to",
+          "options": [
+            "monitor your credit and bank accounts continuously.",
+            "pay for your purchases with debit cards.",
+            "pay your bills online.",
+            "use the same password for all online financial accounts."
+          ],
+          "correctAnswer": "monitor your credit and bank accounts continuously.",
+          "Help": "Vigilance is key to detecting unauthorized charges early."
+        },
+        {
+          "question": "A premium is the regular __________ for an insurance policy.",
+          "options": [
+            "limit",
+            "underwriter",
+            "cost",
+            "deductible"
+          ],
+          "correctAnswer": "cost",
+          "Help": "The premium is the price paid to keep an insurance policy active."
+        },
+        {
+          "question": "The purpose of a deductible is to",
+          "options": [
+            "deter a large volume of insignificant insurance claims.",
+            "diversify an individual’s stock portfolio or mutual fund.",
+            "increase the cost of monthly insurance premiums.",
+            "promote open communication between team members."
+          ],
+          "correctAnswer": "deter a large volume of insignificant insurance claims.",
+          "Help": "Deductibles ensure that the insured party has 'skin in the game' for minor losses."
+        },
+        {
+          "question": "When a business's insurance premiums are high, it is most often because the",
+          "options": [
+            "security is optimal.",
+            "liability is low.",
+            "threats are minimal.",
+            "risk is high."
+          ],
+          "correctAnswer": "risk is high.",
+          "Help": "Insurance companies charge more when the likelihood of a claim is higher."
+        }
+      ]
+    },
+    {
+      "topic": "Savings and Investment",
+      "questions": [
+        {
+          "question": "What is the main purpose of diversifying investments?",
+          "options": [
+            "To reduce risk",
+            "To increase liquidity",
+            "To avoid penalty fees",
+            "To eliminate income tax"
+          ],
+          "correctAnswer": "To reduce risk",
+          "Help": "Spreading investments across different assets ensures that a single loss doesn't wipe out the whole portfolio."
+        },
+        {
+          "question": "Alexander's savings account earns 1.50% in interest. Using the Rule of 72, how many years would it take for Alexander's savings to double?",
+          "options": [
+            "36 years",
+            "48 years",
+            "15 years",
+            "108 years"
+          ],
+          "correctAnswer": "48 years",
+          "Help": "The rule of 72 states: 72 / interest rate = years to double (72 / 1.5 = 48)."
+        },
+        {
+          "question": "Which of the following is often considered one of the safest types of investments?",
+          "options": [
+            "Precious metals",
+            "Commodities",
+            "Penny stocks",
+            "Government bonds"
+          ],
+          "correctAnswer": "Government bonds",
+          "Help": "Government bonds are backed by the full faith and credit of the governing entity, making them low-risk."
+        },
+        {
+          "question": "One way to obtain reliable and up-to-date information about employment trends in a certain career or field is by",
+          "options": [
+            "asking retired workers.",
+            "reading older periodicals.",
+            "visiting government websites.",
+            "speaking with a salesperson."
+          ],
+          "correctAnswer": "visiting government websites.",
+          "Help": "Government agencies provide the most objective and current data on labor markets."
+        },
+        {
+          "question": "Why is it important to start early when planning for retirement?",
+          "options": [
+            "To benefit from the time value of money",
+            "To ensure protections are in place for retirement plans",
+            "To beat inflation rates",
+            "To take advantage of compounded interest"
+          ],
+          "correctAnswer": "To take advantage of compounded interest",
+          "Help": "Compounding allows interest to grow on interest, which creates exponential growth over time."
+        }
+      ]
+    },
+    {
+      "topic": "General Financial Literacy",
+      "questions": [
+        {
+          "question": "When monies are withheld from an employee's paycheck to cover taxes and insurance, these funds are the employee's",
+          "options": [
+            "payroll deductions.",
+            "net pay.",
+            "credit expenses.",
+            "gross earnings."
+          ],
+          "correctAnswer": "payroll deductions.",
+          "Help": "Money taken out of a paycheck before it hits your bank account are payroll deductions."
+        },
+        {
+          "question": "Which of the following is a criterion for evaluating the reliability of a source?",
+          "options": [
+            "Type of source",
+            "Style",
+            "Timeliness",
+            "Length"
+          ],
+          "correctAnswer": "Timeliness",
+          "Help": "Currency or timeliness is critical because facts change over time."
+        },
+        {
+          "question": "When purchasing a durable good, consumers typically consider",
+          "options": [
+            "whether they can get a discount.",
+            "how appealing the product appears.",
+            "whether their neighbors own the product.",
+            "how long the product will last."
+          ],
+          "correctAnswer": "how long the product will last.",
+          "Help": "Durable goods are specifically meant to provide utility over a long period."
+        },
+        {
+          "question": "The single most important aspect of making a financial plan and setting goals is",
+          "options": [
+            "learning to make hard choices.",
+            "choosing a career path.",
+            "getting started now.",
+            "making enough money."
+          ],
+          "correctAnswer": "getting started now.",
+          "Help": "Procrastination is the biggest enemy of financial success."
+        },
+        {
+          "question": "Your annual income, inheritance, and money from the sale of an asset are all considered events that contribute toward",
+          "options": [
+            "tax loophole.",
+            "untaxable income.",
+            "tax liability.",
+            "sales tax."
+          ],
+          "correctAnswer": "tax liability.",
+          "Help": "These are sources of income that the government requires you to pay taxes on."
+        }
+      ]
+    }
+  ]
+}
