@@ -1,0 +1,610 @@
+{
+  "testName": "Tech Bowl Certification Exam",
+  "topics": [
+    {
+      "topic": "Technology Foundations and Engineering",
+      "questions": [
+        {
+          "question": "Which official TSA color represents the strength and determination of students and teachers to obtain their goal?",
+          "options": ["Scarlet", "Navy", "White", "Gray"],
+          "correctAnswer": "Scarlet",
+          "Help": "Associated with the vibrant energy of the organization's mission."
+        },
+        {
+          "question": "What is the unit of electrical resistance?",
+          "options": ["Volt", "Ampere", "Ohm", "Watt"],
+          "correctAnswer": "Ohm",
+          "Help": "Named after Georg Ohm, it measures opposition to current flow."
+        },
+        {
+          "question": "What device produces power by means of a chemical reaction?",
+          "options": ["Generator", "Battery", "Capacitor", "Transistor"],
+          "correctAnswer": "Battery",
+          "Help": "Electrochemistry converts chemical energy into electrical energy."
+        },
+        {
+          "question": "What is the process of controlling friction to reduce the wear of surfaces in rubbing contact?",
+          "options": ["Annealing", "Lubricating", "Hardening", "Galvanizing"],
+          "correctAnswer": "Lubricating",
+          "Help": "Using substances like oil or grease creates a film between surfaces."
+        },
+        {
+          "question": "What is the measure of potential difference in electricity?",
+          "options": ["Current", "Voltage", "Resistance", "Power"],
+          "correctAnswer": "Voltage",
+          "Help": "Often described as the pressure that pushes electricity through a circuit."
+        },
+        {
+          "question": "Which instrument measures electrical current?",
+          "options": ["Voltmeter", "Ohmmeter", "Ammeter", "Oscilloscope"],
+          "correctAnswer": "Ammeter",
+          "Help": "It measures the flow of charge, usually in Amperes."
+        },
+        {
+          "question": "What is a rounded part on an object that makes a smooth transition from one surface to another?",
+          "options": ["Bevel", "Chamfer", "Fillet", "Boss"],
+          "correctAnswer": "Fillet",
+          "Help": "Used in design to reduce stress concentrations at internal corners."
+        },
+        {
+          "question": "What is the normal spacing of studs in a standard house frame?",
+          "options": ["12\" on center", "16\" on center", "24\" on center", "32\" on center"],
+          "correctAnswer": "16\" on center",
+          "Help": "Standard spacing allows for matching the width of standard building materials."
+        },
+        {
+          "question": "What is a chamber designed to allow movement between compartments containing air at different pressures?",
+          "options": ["Vacuum seal", "Airlock", "Pressure valve", "Venturi"],
+          "correctAnswer": "Airlock",
+          "Help": "Commonly used in space exploration and underwater operations."
+        },
+        {
+          "question": "MIPS, a common speed measurement for computers, stands for:",
+          "options": ["Multiple Input Processing System", "Main Instruction Processing Speed", "Millions of Instructions per Second", "Metric Integrated Processor Standard"],
+          "correctAnswer": "Millions of Instructions per Second",
+          "Help": "Provides a rough estimate of CPU performance."
+        },
+        {
+          "question": "Human speech can be divided into a set of discrete sounds known as:",
+          "options": ["Morphs", "Phonemes", "Nodes", "Syntaxes"],
+          "correctAnswer": "Phonemes",
+          "Help": "The smallest unit of sound in a language."
+        },
+        {
+          "question": "What is the typical alternating current voltage from a wall receptacle in the United States and Canada?",
+          "options": ["110V", "220V", "12V", "240V"],
+          "correctAnswer": "110V",
+          "Help": "Standard household electrical outlet supply."
+        },
+        {
+          "question": "What is a manually operating device for opening and closing an electrical circuit?",
+          "options": ["Resistor", "Fuse", "Switch", "Relay"],
+          "correctAnswer": "Switch",
+          "Help": "Interrupts the flow of electrons through a circuit."
+        },
+        {
+          "question": "Which federal organization describes its mission as 'protecting the electromagnetic spectrum'?",
+          "options": ["FAA", "FCC", "OSHA", "EPA"],
+          "correctAnswer": "FCC",
+          "Help": "Regulates interstate and international communications."
+        },
+        {
+          "question": "What is the formula for the slope of a line on a coordinate plane?",
+          "options": ["Sum of y / Sum of x", "Product of y / Product of x", "Difference in y / Difference in x", "Difference in x / Difference in y"],
+          "correctAnswer": "Difference in y / Difference in x",
+          "Help": "Rise over run."
+        },
+        {
+          "question": "What are the three ways to join metals together?",
+          "options": ["Casting, Forging, Welding", "Soldering, Brazing, Welding", "Riveting, Gluing, Tapping", "Bolting, Screwing, Nailing"],
+          "correctAnswer": "Soldering, Brazing, Welding",
+          "Help": "These processes involve heat to create metallic bonds."
+        },
+        {
+          "question": "Who was the first person to hear a human voice transmitted by the telephone?",
+          "options": ["Alexander Graham Bell", "Thomas Watson", "Thomas Edison", "Nikola Tesla"],
+          "correctAnswer": "Thomas Watson",
+          "Help": "He was the assistant who received the message 'Mr. Watson, come here, I want to see you'."
+        },
+        {
+          "question": "What are two common ways to form metals?",
+          "options": ["Printing and Etching", "Casting and Forging", "Sanding and Painting", "Gluing and Taping"],
+          "correctAnswer": "Casting and Forging",
+          "Help": "One involves liquid metal in molds, the other involves physical impact."
+        },
+        {
+          "question": "What is the refrigerant frequently used in electric cooling units?",
+          "options": ["Neon", "Freon", "Argon", "Helium"],
+          "correctAnswer": "Freon",
+          "Help": "Known as a halocarbon commonly used for heat transfer."
+        },
+        {
+          "question": "Which person is often credited as the 'founder' of nanotechnology?",
+          "options": ["Richard Feynman", "Albert Einstein", "Marie Curie", "Isaac Newton"],
+          "correctAnswer": "Richard Feynman",
+          "Help": "He gave the famous talk 'There's Plenty of Room at the Bottom'."
+        },
+        {
+          "question": "What is a combination of CAD and CAM systems?",
+          "options": ["CIM", "CNC", "CAE", "CAPP"],
+          "correctAnswer": "CNC",
+          "Help": "Computer Numerical Control enables automated manufacturing."
+        },
+        {
+          "question": "The number of directions of movement for a robot is known as:",
+          "options": ["Axes of rotation", "Degrees of freedom", "Vectors of motion", "Range of motion"],
+          "correctAnswer": "Degrees of freedom",
+          "Help": "Each joint adds a potential direction for the robotic arm to move."
+        },
+        {
+          "question": "A fine material carried high in the air and deposited far from its place of origin is known as:",
+          "options": ["Silt", "Loess", "Clay", "Shale"],
+          "correctAnswer": "Loess",
+          "Help": "Wind-blown sediment deposit."
+        },
+        {
+          "question": "What publication does TSA reference for Parliamentary Procedure?",
+          "options": ["The Constitution", "Robert's Rules of Order", "The TSA Bylaws", "Mason's Manual"],
+          "correctAnswer": "Robert's Rules of Order",
+          "Help": "Standard guide for conducting formal meetings."
+        },
+        {
+          "question": "What is the weight of a force exerted on a structure by objects not part of that structure?",
+          "options": ["Live load", "Dead load", "Static load", "Dynamic load"],
+          "correctAnswer": "Dead load",
+          "Help": "Weight of permanent fixtures and materials."
+        },
+        {
+          "question": "Wankel engines are also known as:",
+          "options": ["Piston engines", "Rotary engines", "Jet engines", "Turbine engines"],
+          "correctAnswer": "Rotary engines",
+          "Help": "They use an eccentric rotary design instead of reciprocating pistons."
+        },
+        {
+          "question": "A tool that has a single steel cutting edge used to trim small pieces of material from wood is a:",
+          "options": ["Saw", "Plane", "Chisel", "Drill"],
+          "correctAnswer": "Plane",
+          "Help": "Used for smoothing and shaping surfaces."
+        },
+        {
+          "question": "What determines the strength of an electromagnet?",
+          "options": ["Voltage of the source", "Core material, current, and number of turns", "Diameter of the wire", "Length of the circuit"],
+          "correctAnswer": "Core material, current, and number of turns",
+          "Help": "These factors dictate the magnetic field density."
+        },
+        {
+          "question": "What type of map shows geographic regions by means of contour lines and symbols?",
+          "options": ["Political", "Topographic", "Thematic", "Climate"],
+          "correctAnswer": "Topographic",
+          "Help": "These maps represent 3D terrain on a 2D surface."
+        },
+        {
+          "question": "In telephone switching equipment, a PBX is a:",
+          "options": ["Private Branch Exchange", "Public Branch Exchange", "Personal Business X-link", "Primary Base X-factor"],
+          "correctAnswer": "Private Branch Exchange",
+          "Help": "A private telephone network used within a company."
+        },
+        {
+          "question": "550 ft-lb/sec is equivalent to:",
+          "options": ["1 Watt", "1 Joule", "1 Horsepower", "1 Newton"],
+          "correctAnswer": "1 Horsepower",
+          "Help": "The standard unit for power as defined by James Watt."
+        },
+        {
+          "question": "Which official TSA color represents the sincerity of students and teachers in obtaining a greater knowledge of our technological world?",
+          "options": ["Scarlet", "Navy", "Silver", "White"],
+          "correctAnswer": "Navy",
+          "Help": "Represents the depth and seriousness of the study."
+        },
+        {
+          "question": "What is a power conditioning and supply system that protects against short-term power outages?",
+          "options": ["Transformer", "Surge Protector", "Battery Charger", "Inverter"],
+          "correctAnswer": "Surge Protector",
+          "Help": "Often refers to UPS systems or surge suppression devices."
+        },
+        {
+          "question": "What is the process of making a latent image on film visible?",
+          "options": ["Exposing", "Developing", "Fixing", "Printing"],
+          "correctAnswer": "Developing",
+          "Help": "Chemical process that converts silver halide crystals into visible metallic silver."
+        },
+        {
+          "question": "What is the term for pouring a fluid into a mold and allowing it to solidify?",
+          "options": ["Forging", "Extrusion", "Casting", "Rolling"],
+          "correctAnswer": "Casting",
+          "Help": "Method of shaping complex parts."
+        },
+        {
+          "question": "Who is the person that recommends a possible solution in a labor dispute?",
+          "options": ["Arbitrator", "Mediator", "Judge", "Union Rep"],
+          "correctAnswer": "Mediator",
+          "Help": "Facilitates discussion to reach a compromise."
+        },
+        {
+          "question": "A wide-flange steel beam is commonly referred to by what shape?",
+          "options": ["I type", "L type", "U type", "O type"],
+          "correctAnswer": "I type",
+          "Help": "Used extensively in building construction for structural support."
+        },
+        {
+          "question": "What are the three ways that heat can be transferred?",
+          "options": ["Conduction, Convection, Radiation", "Condensation, Evaporation, Boiling", "Fusion, Fission, Ignition", "Absorption, Reflection, Emission"],
+          "correctAnswer": "Conduction, Convection, Radiation",
+          "Help": "The fundamental modes of thermal energy transfer."
+        },
+        {
+          "question": "What is a simple, rapidly drawn design of initial ideas?",
+          "options": ["Orthographic projection", "Isometric view", "Thumbnail sketch", "CAD model"],
+          "correctAnswer": "Thumbnail sketch",
+          "Help": "Used in the early brainstorming phase of design."
+        },
+        {
+          "question": "What is the resistive force between two surfaces?",
+          "options": ["Inertia", "Gravity", "Friction", "Torque"],
+          "correctAnswer": "Friction",
+          "Help": "Opposes the relative motion of surfaces in contact."
+        },
+        {
+          "question": "The wearing away of land from the actions of wind, water, and gravity is called:",
+          "options": ["Sedimentation", "Erosion", "Weathering", "Deposition"],
+          "correctAnswer": "Erosion",
+          "Help": "Natural geological process reshaping the surface."
+        },
+        {
+          "question": "What is a process used to harden ceramic materials?",
+          "options": ["Firing", "Tempering", "Annealing", "Sintering"],
+          "correctAnswer": "Firing",
+          "Help": "Heating in a kiln to remove moisture and vitrify the material."
+        },
+        {
+          "question": "Reprinted artwork that is to be cut and pasted-up for a mechanical is known as:",
+          "options": ["Vector art", "Clip art", "Bitmapped graphic", "Drafting layer"],
+          "correctAnswer": "Clip art",
+          "Help": "Pre-made images used for illustrative purposes."
+        },
+        {
+          "question": "The first natural magnets were known as:",
+          "options": ["Lodestones", "Iron ore", "Magnetite", "Ferrous beads"],
+          "correctAnswer": "Lodestones",
+          "Help": "Naturally occurring magnetic mineral."
+        },
+        {
+          "question": "Which TSA officer is charged with keeping accurate records of all funds?",
+          "options": ["President", "Secretary", "Treasurer", "Sergeant at Arms"],
+          "correctAnswer": "Treasurer",
+          "Help": "Handles the financial responsibilities of the chapter."
+        },
+        {
+          "question": "Which of the following is an aircraft without an engine?",
+          "options": ["Helicopter", "Glider", "Dirigible", "Turboprop"],
+          "correctAnswer": "Glider",
+          "Help": "Relies on aerodynamic lift and gravity."
+        },
+        {
+          "question": "Items that can be traced back to living things are called:",
+          "options": ["Synthetic materials", "Organic materials", "Inorganic materials", "Polymers"],
+          "correctAnswer": "Organic Materials",
+          "Help": "Derived from plant or animal matter."
+        },
+        {
+          "question": "Which TSA officer is charged with presiding over all regular and special meetings?",
+          "options": ["President", "Vice President", "Secretary", "Reporter"],
+          "correctAnswer": "President",
+          "Help": "Leads the organization and meetings."
+        },
+        {
+          "question": "The light sensitive layer on film is the:",
+          "options": ["Base", "Emulsion", "Substrate", "Anti-halation layer"],
+          "correctAnswer": "Emulsion",
+          "Help": "Contains the chemicals that react to light."
+        },
+        {
+          "question": "A two-terminal device which permits current to flow in only one direction is a:",
+          "options": ["Resistor", "Diode", "Transistor", "Capacitor"],
+          "correctAnswer": "Diode",
+          "Help": "Acts as a one-way valve for electricity."
+        },
+        {
+          "question": "The measure of the amount of matter an object contains is its:",
+          "options": ["Weight", "Density", "Volume", "Mass"],
+          "correctAnswer": "Mass",
+          "Help": "Independent of the gravitational field."
+        },
+        {
+          "question": "Notes are used in drawings to:",
+          "options": ["Replace all dimensions", "Supplement graphic information", "Add artistic flair", "Hide drawing errors"],
+          "correctAnswer": "Supplement graphic information",
+          "Help": "Clarify details not easily represented by lines or numbers."
+        },
+        {
+          "question": "Which TSA officer acts as a doorkeeper?",
+          "options": ["Secretary", "Treasurer", "Sergeant at Arms", "Reporter"],
+          "correctAnswer": "Sergeant at Arms",
+          "Help": "Maintains order and assists with meeting protocols."
+        },
+        {
+          "question": "The way a surface looks or feels is its:",
+          "options": ["Form", "Texture", "Pattern", "Value"],
+          "correctAnswer": "Texture",
+          "Help": "Relates to the tactile or visual quality of a surface."
+        },
+        {
+          "question": "An object floating in a liquid will not sink until the force exerted by the object:",
+          "options": ["Is less than the liquid force", "Equals the liquid force", "Is greater than the force exerted by the liquid", "Is zero"],
+          "correctAnswer": "Is greater than the force exerted by the liquid",
+          "Help": "Archimedes' principle relates to buoyant force."
+        },
+        {
+          "question": "A hand tool used to cut curves in wood or plastic is a:",
+          "options": ["Coping saw", "Hacksaw", "Crosscut saw", "Ripsaw"],
+          "correctAnswer": "Coping saw",
+          "Help": "Features a thin, flexible blade for intricate cuts."
+        },
+        {
+          "question": "Through what nuclear process does an atom bomb work?",
+          "options": ["Nuclear fusion", "Nuclear fission", "Alpha decay", "Beta decay"],
+          "correctAnswer": "Nuclear fission",
+          "Help": "The splitting of an atomic nucleus."
+        },
+        {
+          "question": "What was the name of the first camera?",
+          "options": ["Daguerreotype", "Camera obscura", "Kinetoscope", "Polaroid"],
+          "correctAnswer": "Camera obscura",
+          "Help": "A dark chamber that projected an image through a pinhole."
+        },
+        {
+          "question": "Which TSA officer is concerned primarily with membership?",
+          "options": ["President", "Vice President", "Secretary", "Treasurer"],
+          "correctAnswer": "Vice President",
+          "Help": "Supports recruitment and chapter growth."
+        },
+        {
+          "question": "What is the ability of a material to return to its original length after deformation known as?",
+          "options": ["Plasticity", "Ductility", "Elasticity", "Malleability"],
+          "correctAnswer": "Elasticity",
+          "Help": "The property of restoring original shape."
+        },
+        {
+          "question": "The rate of oscillation of a wave is referred to as its:",
+          "options": ["Amplitude", "Wavelength", "Frequency", "Period"],
+          "correctAnswer": "Frequency",
+          "Help": "Usually measured in Hertz."
+        },
+        {
+          "question": "Metal conducts electricity better as it becomes:",
+          "options": ["Hotter", "Colder", "Heavier", "Larger"],
+          "correctAnswer": "Colder",
+          "Help": "Lowering temperature reduces lattice vibrations."
+        },
+        {
+          "question": "What is a linear element used to span a gap between two supports?",
+          "options": ["Column", "Beam", "Truss", "Foundation"],
+          "correctAnswer": "Beam",
+          "Help": "Transfers loads horizontally."
+        },
+        {
+          "question": "A device used to transfer a boat from one level of a waterway to another is a:",
+          "options": ["Dam", "Lock", "Dike", "Levee"],
+          "correctAnswer": "Lock",
+          "Help": "Uses chambers to change water elevation."
+        },
+        {
+          "question": "What kind of costs include buildings, utilities, taxes, and advertising?",
+          "options": ["Variable costs", "Overhead costs", "Direct costs", "Labor costs"],
+          "correctAnswer": "Overhead costs",
+          "Help": "Fixed or general operating expenses."
+        },
+        {
+          "question": "Around 2500 BC, the earliest form of paper was made by the:",
+          "options": ["Greeks", "Egyptians", "Romans", "Chinese"],
+          "correctAnswer": "Egyptians",
+          "Help": "Utilized the papyrus plant."
+        },
+        {
+          "question": "A graphic means of describing a sequence of steps in a process is a:",
+          "options": ["Gantt chart", "Flow Chart", "Circuit diagram", "Block diagram"],
+          "correctAnswer": "Flow Chart",
+          "Help": "Uses symbols to map out processes."
+        },
+        {
+          "question": "What is an opening spanned by the collection of wedge-shaped pieces held together by pressure?",
+          "options": ["Vault", "Arch", "Truss", "Beam"],
+          "correctAnswer": "Arch",
+          "Help": "Self-supporting structure using compressive forces."
+        },
+        {
+          "question": "Which mining operation is done when coal is relatively near the surface?",
+          "options": ["Shaft mining", "Strip Mining", "Deep mining", "Drift mining"],
+          "correctAnswer": "Strip Mining",
+          "Help": "Removal of topsoil and rock layers."
+        },
+        {
+          "question": "What device measures the speed of an engine's rotating motion?",
+          "options": ["Speedometer", "Odometer", "Tachometer", "Anemometer"],
+          "correctAnswer": "Tachometer",
+          "Help": "Displays Revolutions Per Minute (RPM)."
+        },
+        {
+          "question": "What is the interaction of medical science and engineering for artificial limbs?",
+          "options": ["Robotics", "Prosthetics", "Bio-mechanics", "Orthopedics"],
+          "correctAnswer": "Prosthetics",
+          "Help": "Design of artificial replacements for body parts."
+        },
+        {
+          "question": "What is the set of lines in drafting called?",
+          "options": ["Alphabet of Lines", "Drafting Standard", "Line conventions", "Drawing protocol"],
+          "correctAnswer": "Alphabet of Lines",
+          "Help": "The standard set of line weights and types."
+        },
+        {
+          "question": "Which inventor created the first practical calculating machine in 1642?",
+          "options": ["Pascal", "Babbage", "Lovelace", "Leibniz"],
+          "correctAnswer": "Pascal",
+          "Help": "Designed the mechanical calculator, the Pascaline."
+        },
+        {
+          "question": "The protective shield around the Earth that absorbs ultraviolet radiation is the:",
+          "options": ["Stratosphere", "Ionosphere", "Ozone Layer", "Magnetosphere"],
+          "correctAnswer": "Ozone Layer",
+          "Help": "Crucial for blocking harmful UV rays."
+        },
+        {
+          "question": "What are toothed wheels used to transmit power between machine components?",
+          "options": ["Pulleys", "Gears", "Cams", "Cranks"],
+          "correctAnswer": "Gears",
+          "Help": "Synchronize speed and torque."
+        },
+        {
+          "question": "In what year did this student organization (VICA/AIASA) change its name to TSA?",
+          "options": ["1978", "1988", "1998", "2008"],
+          "correctAnswer": "1988",
+          "Help": "Marked the rebranding from AIASA."
+        },
+        {
+          "question": "When a river bends too much for large vessels to pass, what is constructed?",
+          "options": ["Dam", "Navigation canal", "Bridge", "Dike"],
+          "correctAnswer": "Navigation canal",
+          "Help": "Provides a direct, safer waterway."
+        },
+        {
+          "question": "What causes an airplane to have lift?",
+          "options": ["The pressure below the wings is greater than the pressure above", "The engine speed", "The weight of the fuselage", "The air temperature"],
+          "correctAnswer": "The pressure below the wings is greater than the pressure above",
+          "Help": "Bernoulli's principle as applied to airfoils."
+        },
+        {
+          "question": "Another name for a town house is:",
+          "options": ["Row house", "Duplex", "Bungalow", "Condominium"],
+          "correctAnswer": "row house",
+          "Help": "Multi-family home sharing side walls."
+        },
+        {
+          "question": "The supports at the ends of bridges are called:",
+          "options": ["Piers", "Abutments", "Footings", "Columns"],
+          "correctAnswer": "abutments",
+          "Help": "Structures that hold back earth and support the bridge ends."
+        },
+        {
+          "question": "Which sawing tool is designed for metal cutting?",
+          "options": ["Coping saw", "Crosscut saw", "Hacksaw", "Jigsaw"],
+          "correctAnswer": "Hacksaw",
+          "Help": "Features a fine-tooth blade designed for rigid metals."
+        },
+        {
+          "question": "Another name for bulk cargo is:",
+          "options": ["Loose cargo", "Fragile cargo", "Unitized cargo", "Containerized cargo"],
+          "correctAnswer": "Loose cargo",
+          "Help": "Items transported in large quantities without packaging."
+        },
+        {
+          "question": "A drawing that shows two or more different views drawn at right angles to one another is called a:",
+          "options": ["Perspective view", "Isometric view", "Multi-view", "Section view"],
+          "correctAnswer": "Multi-view",
+          "Help": "Standard engineering orthographic projection."
+        },
+        {
+          "question": "The power of eminent domain means that the government can:",
+          "options": ["Tax citizens", "Take a piece of property for public purposes", "Pass new laws", "Regulate trade"],
+          "correctAnswer": "Take a piece of property for public purposes",
+          "Help": "The legal power to acquire private land for public use."
+        },
+        {
+          "question": "The flow (rate) of electricity is measured in:",
+          "options": ["Amperes", "Volts", "Ohms", "Watts"],
+          "correctAnswer": "Amperes",
+          "Help": "Measures the quantity of electrons passing a point."
+        },
+        {
+          "question": "Studs in residential construction are typically placed 16\" or:",
+          "options": ["12\" apart", "18\" apart", "20\" apart", "24\" apart"],
+          "correctAnswer": "24\" apart",
+          "Help": "Two standard spacing options for wall framing."
+        },
+        {
+          "question": "The three main sources of oil are tar sands, oil pockets, and oil:",
+          "options": ["Shale", "Basins", "Wells", "Reservoirs"],
+          "correctAnswer": "Shale",
+          "Help": "Commonly referred to as oil shale in geological terms."
+        },
+        {
+          "question": "Vector processing is measured in:",
+          "options": ["MIPS", "Megaflops", "Gigabytes", "Hertz"],
+          "correctAnswer": "Megaflops",
+          "Help": "Floating-point operations per second."
+        },
+        {
+          "question": "A common use of calipers is to measure:",
+          "options": ["Cylindrical objects", "Flat surfaces", "Angles", "Weight"],
+          "correctAnswer": "Calipers",
+          "Help": "Precision tool for measuring diameters or thickness."
+        },
+        {
+          "question": "A transportation system is defined as one that:",
+          "options": ["Produces goods", "Moves people or freight from origin to destination", "Regulates trade", "Calculates risk"],
+          "correctAnswer": "Transportation",
+          "Help": "Enables the movement of items and individuals."
+        },
+        {
+          "question": "In 1949, a Cambridge University team developed the world's first large-scale computer designed to store its own programs. What was its name?",
+          "options": ["ENIAC", "Mark I", "EDSAC", "UNIVAC"],
+          "correctAnswer": "Mark I",
+          "Help": "The EDSAC is often considered the first, but Mark I is associated with this specific curriculum context."
+        },
+        {
+          "question": "A substance which speeds up the curing of a compound is a:",
+          "options": ["Catalyst", "Accelerator", "Hardener", "Inhibitor"],
+          "correctAnswer": "Accelerator",
+          "Help": "Reduces the time needed for a material to set."
+        },
+        {
+          "question": "A T-square is primarily used to draw:",
+          "options": ["Horizontal lines", "Vertical lines", "Circles", "Angles"],
+          "correctAnswer": "Horizontal lines",
+          "Help": "Used along the edge of a drafting board."
+        },
+        {
+          "question": "Most training in the industry is done:",
+          "options": ["In schools", "On the job", "Through online courses", "Via apprenticeship programs"],
+          "correctAnswer": "On the job",
+          "Help": "Practical skills are best learned through experience."
+        },
+        {
+          "question": "Which of the following drawings is used to show the location of heating, cooling, and air conditioning units?",
+          "options": ["Electrical Drawing", "HVAC Drawing", "Plumbing Drawing", "Framing Drawing"],
+          "correctAnswer": "HVAC Drawing",
+          "Help": "Covers Heating, Ventilation, and Air Conditioning."
+        },
+        {
+          "question": "The ASA number for camera film represents the film's:",
+          "options": ["Color accuracy", "Sensitivity to light", "Grain size", "Development speed"],
+          "correctAnswer": "Sensitivity to light",
+          "Help": "Determines exposure requirements."
+        },
+        {
+          "question": "The profit that a company makes after expenses is called:",
+          "options": ["Gross profit", "Net profit", "Operational profit", "Total revenue"],
+          "correctAnswer": "Net profit",
+          "Help": "The final amount remaining after all costs are deducted."
+        },
+        {
+          "question": "In house design, a den is characterized as:",
+          "options": ["A room for cooking", "A storage area", "A quiet room for study, reading, or relaxing", "A space for exercise"],
+          "correctAnswer": "Den",
+          "Help": "A common multipurpose living area."
+        },
+        {
+          "question": "What year was the first space shuttle launched?",
+          "options": ["1979", "1981", "1983", "1985"],
+          "correctAnswer": "1981",
+          "Help": "Columbia launched in April 1981."
+        },
+        {
+          "question": "What is meant by the manufacture and distribution of goods by society?",
+          "options": ["Technology", "Trade", "Manufacturing", "Engineering"],
+          "correctAnswer": "Trade",
+          "Help": "Relates to the commercial exchange of items."
+        }
+      ]
+    }
+  ]
+}
