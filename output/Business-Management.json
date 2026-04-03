@@ -1,0 +1,113 @@
+{
+  "testName": "Business Management and Administration Comprehensive Assessment",
+  "topics": [
+    {
+      "topic": "Business Law and Ethics",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a customs duty?",
+          "options": [
+            "To fund regional infrastructure projects",
+            "To manage the flow of goods across international borders",
+            "To provide a tax break for international travelers",
+            "To regulate the quality of imported souvenirs"
+          ],
+          "correctAnswer": "To manage the flow of goods across international borders",
+          "Help": "Customs duties are taxes applied to items brought across borders."
+        },
+        {
+          "question": "Which action best demonstrates ethical behavior in a business environment?",
+          "options": [
+            "Prioritizing short-term profits over long-term sustainability",
+            "Protecting the privacy of sensitive customer data",
+            "Giving employees unlimited access to all company records",
+            "Using aggressive tactics to win a negotiation"
+          ],
+          "correctAnswer": "Protecting the privacy of sensitive customer data",
+          "Help": "Ethics in information management centers on privacy and data protection."
+        }
+      ]
+    },
+    {
+      "topic": "Human Resources and Management",
+      "questions": [
+        {
+          "question": "What is the primary goal of the staffing function of management?",
+          "options": [
+            "To create organizational structure",
+            "To match individuals with necessary skills to specific jobs",
+            "To provide financial incentives for performance",
+            "To establish long-term company strategy"
+          ],
+          "correctAnswer": "To match individuals with necessary skills to specific jobs",
+          "Help": "Staffing focuses on recruitment, selection, and hiring the right talent."
+        },
+        {
+          "question": "Why are group orientation sessions beneficial for new employees?",
+          "options": [
+            "They replace the need for ongoing job training",
+            "They provide a venue for employees to voice grievances",
+            "They help motivate employees and provide organizational overview",
+            "They allow for individual salary negotiations"
+          ],
+          "correctAnswer": "They help motivate employees and provide organizational overview",
+          "Help": "Orientation is designed to welcome employees and share company culture."
+        }
+      ]
+    },
+    {
+      "topic": "Operations and Supply Chain",
+      "questions": [
+        {
+          "question": "What is a key benefit of labor specialization?",
+          "options": [
+            "Increased worker efficiency",
+            "Reduced reliance on technology",
+            "Higher levels of job variety",
+            "Elimination of the need for management"
+          ],
+          "correctAnswer": "Increased worker efficiency",
+          "Help": "Specialization allows workers to become highly skilled at specific tasks."
+        },
+        {
+          "question": "Which of the following is a primary priority for supply chain managers?",
+          "options": [
+            "Increasing the number of international vendors",
+            "Controlling costs",
+            "Eliminating the use of software",
+            "Outsourcing all production"
+          ],
+          "correctAnswer": "Controlling costs",
+          "Help": "Cost management is a central focus of supply chain operations."
+        }
+      ]
+    },
+    {
+      "topic": "Financial Management",
+      "questions": [
+        {
+          "question": "What characterizes an income statement?",
+          "options": [
+            "It lists all assets and liabilities",
+            "It summarizes expenses and revenue over a specific period",
+            "It is used to calculate the daily stock price",
+            "It reflects the owner's personal wealth"
+          ],
+          "correctAnswer": "It summarizes expenses and revenue over a specific period",
+          "Help": "The income statement shows a company's profitability over time."
+        },
+        {
+          "question": "What is the purpose of investing in a mutual fund?",
+          "options": [
+            "To select individual stocks for maximum control",
+            "To pool money with other investors to access professional management",
+            "To avoid all financial risks",
+            "To eliminate the need for diversification"
+          ],
+          "correctAnswer": "To pool money with other investors to access professional management",
+          "Help": "Mutual funds aggregate assets to be managed by professionals."
+        }
+      ]
+    }
+  ]
+}
