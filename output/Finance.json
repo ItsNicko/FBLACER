@@ -1,0 +1,1040 @@
+{
+  "testName": "Finance Career Cluster Exam",
+  "topics": [
+    {
+      "topic": "Finance and Accounting Principles",
+      "questions": [
+        {
+          "question": "A business adds automation to its assembly line to improve efficiency. This is an example of:",
+          "options": [
+            "Invention",
+            "Creativity",
+            "Innovation",
+            "Problem-solving"
+          ],
+          "correctAnswer": "Innovation",
+          "Help": "Innovation is the improvement or development of existing processes."
+        },
+        {
+          "question": "Which financial statement provides a snapshot of a company's financial condition at a specific moment in time?",
+          "options": [
+            "Income statement",
+            "Balance sheet",
+            "Cash flow statement",
+            "Sales budget"
+          ],
+          "correctAnswer": "Balance sheet",
+          "Help": "A balance sheet captures assets, liabilities, and equity on a specific date."
+        },
+        {
+          "question": "Which accounting principle suggests that accountants should remain neutral and unbiased in their reporting?",
+          "options": [
+            "Subjectivity",
+            "Objective",
+            "Resourcefulness",
+            "Intolerance"
+          ],
+          "correctAnswer": "Objective",
+          "Help": "Objectivity ensures financial data is accurate and not influenced by personal bias."
+        },
+        {
+          "question": "What is the primary purpose of an income statement?",
+          "options": [
+            "To list company assets",
+            "To show profit or loss over a period",
+            "To forecast future sales goals",
+            "To track cash paid out for inventory"
+          ],
+          "correctAnswer": "To show profit or loss over a period",
+          "Help": "The income statement summarizes revenues and expenses to determine net profit."
+        },
+        {
+          "question": "When a company calculates future value, what variable is needed in addition to present value and length of time?",
+          "options": [
+            "Interest rate",
+            "Total debt",
+            "Market capitalization",
+            "Operating expenses"
+          ],
+          "correctAnswer": "Interest rate",
+          "Help": "The time value of money formula requires the interest rate to determine growth over time."
+        },
+        {
+          "question": "Which liquidity ratio assesses a company's ability to cover immediate liabilities without selling inventory?",
+          "options": [
+            "Current ratio",
+            "Acid-test ratio",
+            "Debt-to-equity ratio",
+            "Net profit margin"
+          ],
+          "correctAnswer": "Acid-test ratio",
+          "Help": "The acid-test ratio excludes inventory, focusing only on the most liquid assets."
+        },
+        {
+          "question": "What does a 'dividend per share' of zero on a stock table indicate?",
+          "options": [
+            "The stock price fell",
+            "The company is bankrupt",
+            "The company does not currently pay dividends",
+            "The stock had zero trading volume"
+          ],
+          "correctAnswer": "The company does not currently pay dividends",
+          "Help": "A blank or zero in this column signifies no dividend payments."
+        },
+        {
+          "question": "Which type of cost in a manufacturing facility is considered an indirect cost?",
+          "options": [
+            "Raw steel",
+            "Assembly line wages",
+            "Electricity for the facility",
+            "Product packaging"
+          ],
+          "correctAnswer": "Electricity for the facility",
+          "Help": "Indirect costs are shared expenses that cannot be directly traced to a single unit."
+        },
+        {
+          "question": "What is the primary role of an investment bank?",
+          "options": [
+            "Managing personal checking accounts",
+            "Helping firms raise funds via securities",
+            "Providing insurance to homeowners",
+            "Setting interest rates for the economy"
+          ],
+          "correctAnswer": "Helping firms raise funds via securities",
+          "Help": "Investment banks specialize in underwriting and issuing stocks and bonds."
+        },
+        {
+          "question": "In which market do investors trade previously issued securities?",
+          "options": [
+            "Primary market",
+            "Secondary market",
+            "Virtual market",
+            "Tertiary market"
+          ],
+          "correctAnswer": "Secondary market",
+          "Help": "Exchanges like the NYSE are secondary markets for trading existing shares."
+        }
+      ]
+    },
+    {
+      "topic": "Management and Risk",
+      "questions": [
+        {
+          "question": "What is the primary goal of the Six Sigma model?",
+          "options": [
+            "Increase marketing spend",
+            "Improve quality by reducing inefficiencies",
+            "Promote external regulation",
+            "Eliminate all human employees"
+          ],
+          "correctAnswer": "Improve quality by reducing inefficiencies",
+          "Help": "Six Sigma aims for near-perfection in process quality."
+        },
+        {
+          "question": "Which of these is considered an external risk to a business?",
+          "options": [
+            "Employee injury",
+            "Inflation rates",
+            "Inaccurate inventory count",
+            "Management budget delays"
+          ],
+          "correctAnswer": "Inflation rates",
+          "Help": "Inflation is a macroeconomic factor outside of a company's control."
+        },
+        {
+          "question": "What is the first step in creating a risk management plan?",
+          "options": [
+            "Limiting impact of risks",
+            "Identifying known risks",
+            "Avoiding all possible risks",
+            "Determining team communication channels"
+          ],
+          "correctAnswer": "Identifying known risks",
+          "Help": "You must define the risks before you can create strategies to address them."
+        },
+        {
+          "question": "What does a business use to protect digital financial data from electrical outages?",
+          "options": [
+            "Intrusion detection systems",
+            "Manual filing",
+            "Regular data backup",
+            "Increased encryption"
+          ],
+          "correctAnswer": "Regular data backup",
+          "Help": "Backups ensure data availability after system failures or physical disasters."
+        },
+        {
+          "question": "What is the function of a 'firewall' in a business network?",
+          "options": [
+            "Removing coding errors",
+            "Compressing large files",
+            "Preventing unauthorized access",
+            "Tracking employee productivity"
+          ],
+          "correctAnswer": "Preventing unauthorized access",
+          "Help": "Firewalls act as security barriers between networks."
+        },
+        {
+          "question": "What is a common cause of disparate data structures in large corporations?",
+          "options": [
+            "Mergers and acquisitions",
+            "Stable accounting methods",
+            "Uniform distribution channels",
+            "Standardized capital structures"
+          ],
+          "correctAnswer": "Mergers and acquisitions",
+          "Help": "When companies combine, their legacy software and data systems often clash."
+        },
+        {
+          "question": "Which of these is an internal control mechanism?",
+          "options": [
+            "Government regulation",
+            "Separation of duties",
+            "Industry standards",
+            "Union contracts"
+          ],
+          "correctAnswer": "Separation of duties",
+          "Help": "Separation of duties prevents any one person from controlling an entire financial process."
+        },
+        {
+          "question": "Which of these risks is generally considered uninsurable?",
+          "options": [
+            "Natural disasters",
+            "Employee injury",
+            "Tax increases",
+            "Inventory theft"
+          ],
+          "correctAnswer": "Tax increases",
+          "Help": "Government policy changes are risks that cannot be transferred to insurance providers."
+        },
+        {
+          "question": "What is a disadvantage of enterprise risk management (ERM)?",
+          "options": [
+            "Redundant processes",
+            "Reliance on management estimates",
+            "Identification of only internal risks",
+            "Lowered employee satisfaction"
+          ],
+          "correctAnswer": "Reliance on management estimates",
+          "Help": "ERM relies on subjective projections which can be inaccurate."
+        },
+        {
+          "question": "What is the role of the Board of Directors in corporate governance?",
+          "options": [
+            "Managing day-to-day sales",
+            "Setting governance policies",
+            "Creating advertising content",
+            "Auditing individual employee bank accounts"
+          ],
+          "correctAnswer": "Setting governance policies",
+          "Help": "Boards provide oversight and establish the ethical framework for the company."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics and Professionalism",
+      "questions": [
+        {
+          "question": "Why is ethical behavior essential for entrepreneurs?",
+          "options": [
+            "Investors prefer unethical companies",
+            "Customers expect ethical standards",
+            "Unethical behavior is more profitable long-term",
+            "The public assumes all entrepreneurs are unethical"
+          ],
+          "correctAnswer": "Customers expect ethical standards",
+          "Help": "Trust is a core component of building a sustainable business brand."
+        },
+        {
+          "question": "Which action constitutes unethical employee behavior?",
+          "options": [
+            "Working four 10-hour days",
+            "Taking sick leave for recreational golf",
+            "Scheduling a planned two-week vacation",
+            "Clocking out at the end of a shift"
+          ],
+          "correctAnswer": "Taking sick leave for recreational golf",
+          "Help": "Using sick leave for unauthorized recreation is a misuse of benefits."
+        },
+        {
+          "question": "What should a job applicant do to answer interview questions effectively?",
+          "options": [
+            "Talk rapidly",
+            "Respond as quickly as possible",
+            "Listen carefully",
+            "Focus only on salary"
+          ],
+          "correctAnswer": "Listen carefully",
+          "Help": "Careful listening ensures you understand the interviewer's intent."
+        },
+        {
+          "question": "Which behavior is characterized by ignoring the rights of others to achieve goals?",
+          "options": [
+            "Assertive",
+            "Passive",
+            "Aggressive",
+            "Offensive"
+          ],
+          "correctAnswer": "Aggressive",
+          "Help": "Aggressive behavior exploits others, whereas assertive behavior is respectful."
+        },
+        {
+          "question": "What is the most effective way to build trust with a coworker?",
+          "options": [
+            "Keep your promises",
+            "Share confidential rumors",
+            "Blame others for mistakes",
+            "Avoid communication"
+          ],
+          "correctAnswer": "Keep your promises",
+          "Help": "Reliability is the foundation of professional trust."
+        },
+        {
+          "question": "What is 'insider trading'?",
+          "options": [
+            "Trading on non-public information",
+            "Selling stock at a loss",
+            "Buying stock in a competitor",
+            "Giving shares to employees"
+          ],
+          "correctAnswer": "Trading on non-public information",
+          "Help": "Using proprietary information for financial gain is illegal."
+        },
+        {
+          "question": "Which scam involves hype around a low-cap stock to drive up prices before selling?",
+          "options": [
+            "Ponzi scheme",
+            "Pump and dump",
+            "Phishing",
+            "Pyramid scheme"
+          ],
+          "correctAnswer": "Pump and dump",
+          "Help": "The scammer artificially inflates price then dumps the stock."
+        },
+        {
+          "question": "What is 'group affinity fraud'?",
+          "options": [
+            "Scamming within a social/cultural group",
+            "Investing in mutual funds",
+            "Overcharging for services",
+            "Hiding income from taxes"
+          ],
+          "correctAnswer": "Scamming within a social/cultural group",
+          "Help": "Scammers exploit trust built through shared group membership."
+        },
+        {
+          "question": "How can an HR manager ensure fairness in hiring?",
+          "options": [
+            "Screening for religion",
+            "Using a consistent process for all",
+            "Asking about marital status",
+            "Refusing specific backgrounds"
+          ],
+          "correctAnswer": "Using a consistent process for all",
+          "Help": "Standardizing the process reduces potential for discrimination."
+        },
+        {
+          "question": "What does an organization's conscience refer to in governance?",
+          "options": [
+            "Marketing department",
+            "Board of Directors",
+            "Public media",
+            "Entry-level staff"
+          ],
+          "correctAnswer": "Board of Directors",
+          "Help": "The board guides decision-making to ensure ethical mission alignment."
+        }
+      ]
+    },
+    {
+      "topic": "Technology and Data Management",
+      "questions": [
+        {
+          "question": "What information in a CRM system helps determine product preferences?",
+          "options": [
+            "Customer address",
+            "Prior purchase history",
+            "Customer name",
+            "Preferred payment method"
+          ],
+          "correctAnswer": "Prior purchase history",
+          "Help": "Past buying behavior is the best predictor of future preferences."
+        },
+        {
+          "question": "What is 'data filtering'?",
+          "options": [
+            "Creating data backups",
+            "Selecting a subset of data for analysis",
+            "Deleting all old database files",
+            "Encoding sensitive data"
+          ],
+          "correctAnswer": "Selecting a subset of data for analysis",
+          "Help": "Filtering allows analysts to isolate relevant segments of a large dataset."
+        },
+        {
+          "question": "What is the primary purpose of database normalization?",
+          "options": [
+            "Increasing data redundancy",
+            "Reducing redundancy and improving integrity",
+            "Deleting old records",
+            "Making data faster to read"
+          ],
+          "correctAnswer": "Reducing redundancy and improving integrity",
+          "Help": "Normalization structures data to prevent anomalies."
+        },
+        {
+          "question": "Which technology relies on NFC/RFID for secure payments?",
+          "options": [
+            "Wire transfer",
+            "Money order",
+            "Contactless purchasing",
+            "EFT"
+          ],
+          "correctAnswer": "Contactless purchasing",
+          "Help": "NFC and RFID power mobile wallet and card-tap technology."
+        },
+        {
+          "question": "What is a benefit of compliance technology?",
+          "options": [
+            "Replacing all human specialists",
+            "Identifying patterns and trends",
+            "Decreasing company efficiency",
+            "Increasing data breaches"
+          ],
+          "correctAnswer": "Identifying patterns and trends",
+          "Help": "Technology helps detect anomalies in complex datasets that humans might miss."
+        },
+        {
+          "question": "What is the first step in designing a multi-table query?",
+          "options": [
+            "Determine join directions",
+            "Pinpoint the specific question to answer",
+            "Locate all database tables",
+            "Run the query report"
+          ],
+          "correctAnswer": "Pinpoint the specific question to answer",
+          "Help": "You must define the goal before selecting the data sources."
+        },
+        {
+          "question": "How are spreadsheets used in financial analysis?",
+          "options": [
+            "Staff communication",
+            "Public relations",
+            "Analyzing performance and budgets",
+            "Employee recognition"
+          ],
+          "correctAnswer": "Analyzing performance and budgets",
+          "Help": "Spreadsheets allow for complex calculations and data modeling."
+        },
+        {
+          "question": "What capability is most useful in budgeting software?",
+          "options": [
+            "Automatic file deletion",
+            "Creating unlimited 'what-if' scenarios",
+            "Randomizing audit targets",
+            "Ignoring budget overages"
+          ],
+          "correctAnswer": "Creating unlimited 'what-if' scenarios",
+          "Help": "Scenario planning helps businesses prepare for various outcomes."
+        },
+        {
+          "question": "What is an advantage of CRM software?",
+          "options": [
+            "Automating inventory shipping",
+            "Storing and leveraging sales opportunities",
+            "Calculating tax returns",
+            "Managing physical facility security"
+          ],
+          "correctAnswer": "Storing and leveraging sales opportunities",
+          "Help": "CRM systems manage the pipeline of potential and existing customers."
+        },
+        {
+          "question": "Which technology tool is essential for managing enterprise-wide risk?",
+          "options": [
+            "Manual ledgers",
+            "Compliance and analytics software",
+            "Word processors",
+            "Social media platforms"
+          ],
+          "correctAnswer": "Compliance and analytics software",
+          "Help": "Modern risk management requires digital tools for monitoring and assessment."
+        }
+      ]
+    },
+    {
+      "topic": "Professional Communication and Relationships",
+      "questions": [
+        {
+          "question": "What is an effective way to demonstrate a positive attitude on a phone call?",
+          "options": [
+            "Smiling while talking",
+            "Using technical jargon",
+            "Talking very slowly",
+            "Checking emails during the call"
+          ],
+          "correctAnswer": "Smiling while talking",
+          "Help": "A smile changes the tone of voice and is audible to the receiver."
+        },
+        {
+          "question": "What is the purpose of a persuasive message in a collection letter?",
+          "options": [
+            "To explain new company policies",
+            "To encourage payment",
+            "To analyze sales data",
+            "To threaten legal action"
+          ],
+          "correctAnswer": "To encourage payment",
+          "Help": "Collection letters use persuasion to balance getting paid with maintaining the relationship."
+        },
+        {
+          "question": "What is a benefit of feedback on the job?",
+          "options": [
+            "It raises your self-esteem",
+            "It lets you know how you are performing",
+            "It forces your supervisor to like you",
+            "It is always positive"
+          ],
+          "correctAnswer": "It lets you know how you are performing",
+          "Help": "Feedback is a tool for professional growth, regardless of whether it is positive or negative."
+        },
+        {
+          "question": "What is the main goal of idea selling?",
+          "options": [
+            "Convincing another party to accept your proposal",
+            "Assigning homework to students",
+            "Providing free computer hardware",
+            "Hosting a holiday toy drive"
+          ],
+          "correctAnswer": "Convincing another party to accept your proposal",
+          "Help": "Selling ideas involves persuasion and negotiation."
+        },
+        {
+          "question": "What is the purpose of mirroring in communication?",
+          "options": [
+            "Building rapport",
+            "Tricking the customer",
+            "Being dishonest",
+            "Subduing your own personality"
+          ],
+          "correctAnswer": "Building rapport",
+          "Help": "Mirroring matches the customer's communication style to increase comfort."
+        },
+        {
+          "question": "How do you initiate a professional relationship with a vendor?",
+          "options": [
+            "Give them expensive gifts",
+            "Treat them to a professional outing/interaction",
+            "Offer jobs to their staff",
+            "Ask for confidential information"
+          ],
+          "correctAnswer": "Treat them to a professional outing/interaction",
+          "Help": "Professional networking allows for casual interaction and relationship building."
+        },
+        {
+          "question": "What should a finance professional ask to provide better service?",
+          "options": [
+            "Should I follow up with them?",
+            "What are the client's expectations?",
+            "How can I maximize my returns?",
+            "Are my goals realistic?"
+          ],
+          "correctAnswer": "What are the client's expectations?",
+          "Help": "Service must be aligned with what the client specifically values."
+        },
+        {
+          "question": "What is a 'referral' in a professional context?",
+          "options": [
+            "A written report",
+            "A recommendation from one person to another",
+            "A bill for services",
+            "A job application"
+          ],
+          "correctAnswer": "A recommendation from one person to another",
+          "Help": "Referrals are a key method for expanding professional networks."
+        },
+        {
+          "question": "Why do businesses write informational messages?",
+          "options": [
+            "To explain new policies",
+            "To get negative feedback",
+            "To hide financial data",
+            "To fire employees"
+          ],
+          "correctAnswer": "To explain new policies",
+          "Help": "Informational messages provide clear communication to stakeholders."
+        },
+        {
+          "question": "What is the key to building trust in any professional relationship?",
+          "options": [
+            "Keeping promises",
+            "Sharing personal secrets",
+            "Always agreeing with the other party",
+            "Keeping information hidden"
+          ],
+          "correctAnswer": "Keeping promises",
+          "Help": "Reliability and consistency create trust over time."
+        }
+      ]
+    },
+    {
+      "topic": "Finance Career Clusters and Institutions",
+      "questions": [
+        {
+          "question": "What finance career area covers estate and retirement planning?",
+          "options": [
+            "Corporate finance",
+            "Personal finance",
+            "Public finance",
+            "Government finance"
+          ],
+          "correctAnswer": "Personal finance",
+          "Help": "Personal finance deals with managing individual and household assets."
+        },
+        {
+          "question": "What is a 'fully integrated financial services provider'?",
+          "options": [
+            "A company offering multiple products from one capital pool",
+            "A company that only provides insurance",
+            "A branch of the government",
+            "A small local loan office"
+          ],
+          "correctAnswer": "A company offering multiple products from one capital pool",
+          "Help": "Consolidation allows firms to offer diverse products under one umbrella."
+        },
+        {
+          "question": "What function of money allows you to save wealth for future use?",
+          "options": [
+            "Incentive",
+            "Medium of exchange",
+            "Unit of measure",
+            "Store of value"
+          ],
+          "correctAnswer": "Store of value",
+          "Help": "Money retains its purchasing power over time."
+        },
+        {
+          "question": "Which of these is a decentralized currency?",
+          "options": [
+            "US Dollar",
+            "Euro",
+            "Cryptocurrency",
+            "Swiss Franc"
+          ],
+          "correctAnswer": "Cryptocurrency",
+          "Help": "Crypto is not controlled by any single country's central bank."
+        },
+        {
+          "question": "What does a 'working capital' manager focus on?",
+          "options": [
+            "Long-term bond issuance",
+            "Managing short-term assets and liabilities",
+            "Maximizing stock dividend payouts",
+            "International merger strategies"
+          ],
+          "correctAnswer": "Managing short-term assets and liabilities",
+          "Help": "Working capital involves day-to-day liquidity management."
+        },
+        {
+          "question": "What are the two major functions of management?",
+          "options": [
+            "Planning and staffing",
+            "Controlling and directing",
+            "Producing and advertising",
+            "Organizing and supervising"
+          ],
+          "correctAnswer": "Controlling and directing",
+          "Help": "These are key functions alongside planning, staffing, and organizing."
+        },
+        {
+          "question": "What does 'vertical analysis' of an income statement show?",
+          "options": [
+            "Year-over-year changes",
+            "Proportions of line items to total revenue",
+            "Comparison with competitors",
+            "Future growth projections"
+          ],
+          "correctAnswer": "Proportions of line items to total revenue",
+          "Help": "Vertical analysis looks at the percentage relationship of items to a base number."
+        },
+        {
+          "question": "What is 'stewardship' in financial management?",
+          "options": [
+            "Increasing marketing costs",
+            "Ethical management of financial resources",
+            "Ignoring customer complaints",
+            "Setting the highest possible prices"
+          ],
+          "correctAnswer": "Ethical management of financial resources",
+          "Help": "Stewardship requires ensuring resources are used to fulfill the organizational mission."
+        },
+        {
+          "question": "What happens if a company fails to comply with industry regulations?",
+          "options": [
+            "Increased protection from lawsuits",
+            "Financial penalties and audits",
+            "Automatic stock growth",
+            "Improved communication with investors"
+          ],
+          "correctAnswer": "Financial penalties and audits",
+          "Help": "Regulatory bodies impose consequences for non-compliance."
+        },
+        {
+          "question": "What defines a 'primary market'?",
+          "options": [
+            "Where investors trade existing stock",
+            "Where companies first issue securities to the public",
+            "Where daily consumer goods are sold",
+            "A market for government bonds only"
+          ],
+          "correctAnswer": "Where companies first issue securities to the public",
+          "Help": "The primary market is the initial issuance (IPO)."
+        }
+      ]
+    },
+    {
+      "topic": "Economic and Financial Context",
+      "questions": [
+        {
+          "question": "What is the primary indicator of economic expansion?",
+          "options": [
+            "High investment in new equipment",
+            "Decreased consumer spending",
+            "High unemployment rates",
+            "Shortage of raw materials"
+          ],
+          "correctAnswer": "High investment in new equipment",
+          "Help": "Businesses invest when they expect growth."
+        },
+        {
+          "question": "What is the function of 'price' in a market?",
+          "options": [
+            "Indicates value assigned by the consumer",
+            "Set only by government regulation",
+            "Used to eliminate all competition",
+            "Guarantees a fixed profit margin"
+          ],
+          "correctAnswer": "Indicates value assigned by the consumer",
+          "Help": "Prices reflect what consumers are willing to pay for perceived value."
+        },
+        {
+          "question": "What does 'herd mentality' mean in investment?",
+          "options": [
+            "Researching every stock individually",
+            "Buying and selling based on others' actions",
+            "Contrarian investing strategy",
+            "Long-term portfolio management"
+          ],
+          "correctAnswer": "Buying and selling based on others' actions",
+          "Help": "Following the crowd often leads to poor financial decision-making."
+        },
+        {
+          "question": "How does credit function in an economy?",
+          "options": [
+            "Reduces the cost of goods",
+            "Allows purchases against future income",
+            "Eliminates interest charges",
+            "Guarantees investment returns"
+          ],
+          "correctAnswer": "Allows purchases against future income",
+          "Help": "Credit creates liquidity by letting consumers spend before they earn."
+        },
+        {
+          "question": "What are luxury taxes used for?",
+          "options": [
+            "Funding essential infrastructure",
+            "Taxing high-end, non-essential goods",
+            "Reducing corporate tax burdens",
+            "Subsidizing low-income families"
+          ],
+          "correctAnswer": "Taxing high-end, non-essential goods",
+          "Help": "These taxes target items with high price points and discretionary status."
+        },
+        {
+          "question": "Which of these is a benefit of employee involvement in goals?",
+          "options": [
+            "Increased employee accomplishment/pride",
+            "Lower compensation requirements",
+            "Decreased management workload",
+            "Higher inventory turnover"
+          ],
+          "correctAnswer": "Increased employee accomplishment/pride",
+          "Help": "Ownership of goals drives engagement and performance."
+        },
+        {
+          "question": "How can businesses reduce their tax burden on investments?",
+          "options": [
+            "Increasing capital gains",
+            "Utilizing capital losses",
+            "Short-term trading only",
+            "Ignoring tax laws"
+          ],
+          "correctAnswer": "Utilizing capital losses",
+          "Help": "Capital losses can be used to offset gains, lowering tax liability."
+        },
+        {
+          "question": "What information is usually required in a Form 8-K filing?",
+          "options": [
+            "Quarterly tax estimates",
+            "Significant non-recurring corporate events",
+            "Daily stock price logs",
+            "Employee contact details"
+          ],
+          "correctAnswer": "Significant non-recurring corporate events",
+          "Help": "Form 8-K keeps investors informed of major changes like acquisitions."
+        },
+        {
+          "question": "What is the purpose of an internal audit?",
+          "options": [
+            "To prove financial statement accuracy to the public",
+            "To find areas for internal improvement",
+            "To replace external auditors",
+            "To lower tax payments"
+          ],
+          "correctAnswer": "To find areas for internal improvement",
+          "Help": "Internal audits focus on efficiency and performance within the company."
+        },
+        {
+          "question": "What is a 'conflict of interest'?",
+          "options": [
+            "A situation where personal gain interferes with professional duty",
+            "A disagreement between two employees",
+            "A dispute over budget allocations",
+            "An error in a math calculation"
+          ],
+          "correctAnswer": "A situation where personal gain interferes with professional duty",
+          "Help": "Impartiality is required in finance, and conflict of interest compromises that."
+        }
+      ]
+    },
+    {
+      "topic": "Applied Finance Concepts",
+      "questions": [
+        {
+          "question": "What is the 'open' price in a stock table?",
+          "options": [
+            "Closing price from yesterday",
+            "The price at the start of the trading day",
+            "Average price for the year",
+            "The price after all trading closes"
+          ],
+          "correctAnswer": "The price at the start of the trading day",
+          "Help": "The opening price is the first trade executed at the start of the session."
+        },
+        {
+          "question": "What is a key benefit of using Six Sigma in finance?",
+          "options": [
+            "Lowering quality standards",
+            "Reducing errors and inefficiencies",
+            "Increasing production costs",
+            "Eliminating the need for financial analysis"
+          ],
+          "correctAnswer": "Reducing errors and inefficiencies",
+          "Help": "Six Sigma seeks to eliminate defects in processes."
+        },
+        {
+          "question": "How do finance applications identify conflicts of interest?",
+          "options": [
+            "Checking employee and vendor contact data overlaps",
+            "Comparing yearly sales volume",
+            "Calculating stock inventory turnover",
+            "Reviewing purchase order formats"
+          ],
+          "correctAnswer": "Checking employee and vendor contact data overlaps",
+          "Help": "Software can flag if an employee has personal links to a business vendor."
+        },
+        {
+          "question": "What type of risk does a warehouse fire represent?",
+          "options": [
+            "Legal risk",
+            "Operational risk",
+            "Strategic risk",
+            "Compliance risk"
+          ],
+          "correctAnswer": "Operational risk",
+          "Help": "Operational risks involve the loss of physical assets required for business activity."
+        },
+        {
+          "question": "What does a 'cash flow statement' track?",
+          "options": [
+            "All assets and liabilities",
+            "Money coming in and flowing out of a company",
+            "Total annual profit",
+            "Future earnings potential"
+          ],
+          "correctAnswer": "Money coming in and flowing out of a company",
+          "Help": "It reports the actual movement of cash, not accruals."
+        },
+        {
+          "question": "Which of these is a 'hazard' risk?",
+          "options": [
+            "Market volatility",
+            "Natural disasters",
+            "Competitor pricing",
+            "Government taxation"
+          ],
+          "correctAnswer": "Natural disasters",
+          "Help": "Hazard risks include unpredictable external physical threats."
+        },
+        {
+          "question": "What is the primary responsibility of a financial planner?",
+          "options": [
+            "Maximizing client tax obligations",
+            "Providing appropriate financial guidance",
+            "Doubling investment capital overnight",
+            "Managing company payroll"
+          ],
+          "correctAnswer": "Providing appropriate financial guidance",
+          "Help": "Planners help clients reach goals through appropriate strategy and advice."
+        },
+        {
+          "question": "Why do firms perform environmental scans?",
+          "options": [
+            "To increase tax liabilities",
+            "To collect data on the surrounding business environment",
+            "To ignore political risks",
+            "To decrease consumer spending"
+          ],
+          "correctAnswer": "To collect data on the surrounding business environment",
+          "Help": "Environmental scans help identify opportunities and threats externally."
+        },
+        {
+          "question": "What is a primary goal of a good decision maker?",
+          "options": [
+            "Avoid all risk",
+            "Reach important goals despite reasonable risks",
+            "Ignore all financial data",
+            "Make decisions without information"
+          ],
+          "correctAnswer": "Reach important goals despite reasonable risks",
+          "Help": "Calculated risk-taking is essential for progress."
+        },
+        {
+          "question": "How are shareholders' equity tracked on a balance sheet?",
+          "options": [
+            "Assets minus liabilities",
+            "Revenue minus expenses",
+            "Cash minus debt",
+            "Profit plus dividends"
+          ],
+          "correctAnswer": "Assets minus liabilities",
+          "Help": "The fundamental accounting equation is Assets = Liabilities + Equity."
+        }
+      ]
+    },
+    {
+      "topic": "Synthesis and Evaluation",
+      "questions": [
+        {
+          "question": "What is the most significant impact of compliance technology?",
+          "options": [
+            "Decreasing company data privacy",
+            "Improving risk assessment through pattern recognition",
+            "Replacing all executive decision-makers",
+            "Reducing overall efficiency"
+          ],
+          "correctAnswer": "Improving risk assessment through pattern recognition",
+          "Help": "Compliance software uses data to detect potential issues early."
+        },
+        {
+          "question": "What is a key difference between internal and external audits?",
+          "options": [
+            "Internal audits check accuracy, external audits suggest improvements",
+            "Internal focus is on improvement; external focuses on financial statement accuracy",
+            "External audits are always done by employees",
+            "There is no difference in their purpose"
+          ],
+          "correctAnswer": "Internal focus is on improvement; external focuses on financial statement accuracy",
+          "Help": "External audits provide an independent verification for stakeholders."
+        },
+        {
+          "question": "How should a business manage cash register responsibilities?",
+          "options": [
+            "Give all access to one person",
+            "Divide cash-handling duties among employees",
+            "Allow only the owner to access cash",
+            "Ignore cash records"
+          ],
+          "correctAnswer": "Divide cash-handling duties among employees",
+          "Help": "Separation of duties acts as a check and balance to prevent theft."
+        },
+        {
+          "question": "What is the primary purpose of a budget?",
+          "options": [
+            "To predict bankruptcy",
+            "To serve as a management and planning tool",
+            "To list company debts only",
+            "To eliminate the need for accounting"
+          ],
+          "correctAnswer": "To serve as a management and planning tool",
+          "Help": "Budgets help map financial resources to organizational goals."
+        },
+        {
+          "question": "What is a major advantage of a strong CRM strategy?",
+          "options": [
+            "Slows down the sales process",
+            "Increases revenue by meeting customer needs",
+            "Focuses exclusively on new customers",
+            "Eliminates the need for customer service"
+          ],
+          "correctAnswer": "Increases revenue by meeting customer needs",
+          "Help": "CRM maximizes customer lifetime value."
+        },
+        {
+          "question": "What is 'data normalization' in a database?",
+          "options": [
+            "The process of cleaning data to improve integrity",
+            "The process of increasing storage",
+            "A way to encrypt passwords",
+            "A method to delete all history"
+          ],
+          "correctAnswer": "The process of cleaning data to improve integrity",
+          "Help": "It organizes data to remove redundancy and prevent data entry issues."
+        },
+        {
+          "question": "Which of these factors affects business profit?",
+          "options": [
+            "Increasing free services",
+            "Eliminating free services",
+            "Ignoring customer complaints",
+            "Decreasing marketing efficiency"
+          ],
+          "correctAnswer": "Eliminating free services",
+          "Help": "Cost management directly impacts the bottom line."
+        },
+        {
+          "question": "How do you define 'interest' in finance?",
+          "options": [
+            "A fee for the use of credit",
+            "A reward for being a customer",
+            "A mandatory tax",
+            "A government donation"
+          ],
+          "correctAnswer": "A fee for the use of credit",
+          "Help": "Interest is the cost of borrowing capital."
+        },
+        {
+          "question": "What defines a 'business cycle'?",
+          "options": [
+            "Daily stock price fluctuations",
+            "Economic expansion and contraction",
+            "The fiscal year calendar",
+            "Annual audit cycles"
+          ],
+          "correctAnswer": "Economic expansion and contraction",
+          "Help": "Cycles represent the natural rise and fall of economic activity."
+        },
+        {
+          "question": "What is the primary role of finance in business?",
+          "options": [
+            "Managing human resources",
+            "Managing working capital and investments",
+            "Designing marketing campaigns",
+            "Producing goods and services"
+          ],
+          "correctAnswer": "Managing working capital and investments",
+          "Help": "Finance optimizes the allocation of company resources for maximum value."
+        }
+      ]
+    }
+  ]
+}
