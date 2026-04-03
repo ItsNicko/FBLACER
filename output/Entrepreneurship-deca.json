@@ -1,0 +1,185 @@
+{
+  "testName": "ENTREPRENEURSHIP EXAM 2026",
+  "topics": [
+    {
+      "topic": "Marketing and Brand Management",
+      "questions": [
+        {
+          "question": "Which of the following is an example of a brand touchpoint for Smith's Candy Company?",
+          "options": [
+            "The brand's slogan",
+            "A coupon for a competitor",
+            "Internal company culture",
+            "An online ad for the brand"
+          ],
+          "correctAnswer": "An online ad for the brand",
+          "Help": "A touchpoint is any direct interaction between a brand and a potential customer."
+        },
+        {
+          "question": "One purpose of promotion is to __________ customers about a product's existence.",
+          "options": [
+            "Remind",
+            "Caution",
+            "Warn",
+            "Reassure"
+          ],
+          "correctAnswer": "Remind",
+          "Help": "Promotion serves to inform, persuade, and remind target audiences."
+        },
+        {
+          "question": "What should a startup consider when crafting its brand promise?",
+          "options": [
+            "Competitor marketing budgets",
+            "Core values and consistent delivery",
+            "Employee social media policies",
+            "Frequency of loyalty program rewards"
+          ],
+          "correctAnswer": "Core values and consistent delivery",
+          "Help": "A brand promise must align with what the company can realistically deliver to customers consistently."
+        },
+        {
+          "question": "A business identifies market segments by grouping consumers who have __________.",
+          "options": [
+            "Inconsistent values",
+            "Similar characteristics",
+            "Unusual interests",
+            "Temporary financial needs"
+          ],
+          "correctAnswer": "Similar characteristics",
+          "Help": "Segmentation divides a broad market into smaller groups based on shared traits."
+        },
+        {
+          "question": "Promotional activities focus on pointing out product differences during which stage of the product life cycle?",
+          "options": [
+            "Introduction",
+            "Growth",
+            "Maturity",
+            "Decline"
+          ],
+          "correctAnswer": "Maturity",
+          "Help": "In the maturity stage, the market is crowded, requiring differentiation to maintain sales."
+        }
+      ]
+    },
+    {
+      "topic": "Business Operations and Finance",
+      "questions": [
+        {
+          "question": "What is the economic basis for the private enterprise system?",
+          "options": [
+            "Competition",
+            "Marketplace geography",
+            "Profit motive",
+            "Supply and demand laws"
+          ],
+          "correctAnswer": "Profit motive",
+          "Help": "The desire to generate profit encourages investment and entrepreneurship."
+        },
+        {
+          "question": "Production is often called a conversion process because it __________.",
+          "options": [
+            "Creates product utility",
+            "Turns resources into products",
+            "Fixes past business failures",
+            "Converts outputs to inputs"
+          ],
+          "correctAnswer": "Turns resources into products",
+          "Help": "Conversion refers to transforming raw inputs into finished goods."
+        },
+        {
+          "question": "A business owner who finances with a secured loan risks losing __________.",
+          "options": [
+            "Collateral",
+            "Management control",
+            "Owner equity",
+            "Cash flow access"
+          ],
+          "correctAnswer": "Collateral",
+          "Help": "Secured loans are backed by assets that the lender can claim if the loan defaults."
+        },
+        {
+          "question": "What is the main goal of supply chain management?",
+          "options": [
+            "Manipulating customer perceptions",
+            "Setting prices to maximize revenue",
+            "Minimizing total customer value",
+            "Gaining competitive advantage"
+          ],
+          "correctAnswer": "Gaining competitive advantage",
+          "Help": "Efficient flow of goods provides a strategic edge over competitors."
+        },
+        {
+          "question": "Which financial statement analysis calculates liquidity and profitability ratios?",
+          "options": [
+            "Vertical analysis",
+            "Trend analysis",
+            "Horizontal analysis",
+            "Ratio analysis"
+          ],
+          "correctAnswer": "Ratio analysis",
+          "Help": "Ratio analysis uses metrics to evaluate operational performance."
+        }
+      ]
+    },
+    {
+      "topic": "Management and Leadership",
+      "questions": [
+        {
+          "question": "What is an effective persuasive technique in business communication?",
+          "options": [
+            "Speaking loudly to dominate",
+            "Criticizing coworkers",
+            "Maintaining eye contact",
+            "Crossing arms to show authority"
+          ],
+          "correctAnswer": "Maintaining eye contact",
+          "Help": "Effective persuasion relies on positive, engaging body language."
+        },
+        {
+          "question": "Why do managers supervise staff?",
+          "options": [
+            "To maintain total power",
+            "To ensure work is done effectively",
+            "To delegate all authority",
+            "To acquire personal knowledge"
+          ],
+          "correctAnswer": "To ensure work is done effectively",
+          "Help": "Supervision ensures team tasks align with company objectives."
+        },
+        {
+          "question": "What is a primary benefit of diverse perspectives in the workplace?",
+          "options": [
+            "Increased employee salaries",
+            "More sympathy among staff",
+            "Greater creativity and innovation",
+            "Higher company sales revenue"
+          ],
+          "correctAnswer": "Greater creativity and innovation",
+          "Help": "Diverse inputs lead to varied solutions and better problem-solving."
+        },
+        {
+          "question": "Which technique involves brainstorming ways to make a problem worse to find a solution?",
+          "options": [
+            "Attribute listing",
+            "Reverse brainstorming",
+            "Mind mapping",
+            "Appreciative inquiry"
+          ],
+          "correctAnswer": "Reverse brainstorming",
+          "Help": "By identifying worst-case scenarios, one can effectively pivot to solutions."
+        },
+        {
+          "question": "How can a CEO foster a culture of learning?",
+          "options": [
+            "Hiring friends for all roles",
+            "Sharing best practices with staff",
+            "Enforcing strict sales quotas",
+            "Implementing functional hierarchy"
+          ],
+          "correctAnswer": "Sharing best practices with staff",
+          "Help": "Institutionalizing successful behaviors encourages continuous improvement."
+        }
+      ]
+    }
+  ]
+}

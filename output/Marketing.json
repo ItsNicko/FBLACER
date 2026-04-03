@@ -1,0 +1,195 @@
+{
+  "testName": "Marketing Career Cluster Assessment",
+  "topics": [
+    {
+      "topic": "Marketing Fundamentals and Strategy",
+      "questions": [
+        {
+          "question": "Which of the following describes the core purpose of marketing?",
+          "options": [
+            "Creating gaps between producers and consumers",
+            "Establishing exchanges of value",
+            "Generating only advertising content",
+            "Identifying consumer needs without meeting them"
+          ],
+          "correctAnswer": "Establishing exchanges of value",
+          "Help": "Marketing is often defined as the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings."
+        },
+        {
+          "question": "A situational analysis is used to determine which of the following?",
+          "options": [
+            "Financial statements for investors",
+            "The organization's current strengths and weaknesses",
+            "The specific salary range of employees",
+            "Future product pricing strategies"
+          ],
+          "correctAnswer": "The organization's current strengths and weaknesses",
+          "Help": "A situational analysis (SWOT) evaluates the current position of the business."
+        },
+        {
+          "question": "Which market segmentation method focuses on consumers' responses to products?",
+          "options": [
+            "Demographic",
+            "Geographic",
+            "Behavioral",
+            "Psychographic"
+          ],
+          "correctAnswer": "Behavioral",
+          "Help": "Behavioral segmentation focuses on usage rates, benefits sought, and loyalty levels."
+        }
+      ]
+    },
+    {
+      "topic": "Professional Development and Communication",
+      "questions": [
+        {
+          "question": "When writing a persuasive business message, what is the most effective approach?",
+          "options": [
+            "Focusing on the writer's personal goals",
+            "Starting with the least important info",
+            "Highlighting benefits to the audience",
+            "Using technical jargon to sound expert"
+          ],
+          "correctAnswer": "Highlighting benefits to the audience",
+          "Help": "Persuasion succeeds when the audience understands the value or benefit to them."
+        },
+        {
+          "question": "Which term describes a lifelong work journey?",
+          "options": [
+            "Occupation",
+            "Career",
+            "Task",
+            "Employment"
+          ],
+          "correctAnswer": "Career",
+          "Help": "A career is the series of jobs or positions one holds over a lifetime."
+        },
+        {
+          "question": "What skill is demonstrated by someone who takes initiative?",
+          "options": [
+            "Waiting for instructions",
+            "Acting without being told",
+            "Following existing protocols",
+            "Delegating work to others"
+          ],
+          "correctAnswer": "Acting without being told",
+          "Help": "Initiative is the ability to assess and initiate things independently."
+        }
+      ]
+    },
+    {
+      "topic": "Ethics and Legal Issues",
+      "questions": [
+        {
+          "question": "Which requirement of a legally enforceable contract concerns being of legal age and sober?",
+          "options": [
+            "Capacity",
+            "Consideration",
+            "Legality of purpose",
+            "Genuineness of assent"
+          ],
+          "correctAnswer": "Capacity",
+          "Help": "Capacity refers to the legal ability of a person to enter into a binding agreement."
+        },
+        {
+          "question": "Deceptive pricing is considered illegal because it:",
+          "options": [
+            "Is competitive",
+            "Changes with demand",
+            "Misleads customers about true value",
+            "Offers discounts to loyal clients"
+          ],
+          "correctAnswer": "Misleads customers about true value",
+          "Help": "Deceptive pricing involves practices like fake markdowns to trick consumers."
+        },
+        {
+          "question": "What is the primary role of business ethics?",
+          "options": [
+            "To maximize short-term profit",
+            "To determine if actions are acceptable",
+            "To ignore environmental concerns",
+            "To replace government regulation"
+          ],
+          "correctAnswer": "To determine if actions are acceptable",
+          "Help": "Ethics provide the moral framework for organizational behavior."
+        }
+      ]
+    },
+    {
+      "topic": "Management and Administration",
+      "questions": [
+        {
+          "question": "Which level of management focuses on day-to-day supervision?",
+          "options": [
+            "Executive",
+            "First-line",
+            "Mid-level",
+            "Regional"
+          ],
+          "correctAnswer": "First-line",
+          "Help": "First-line managers deal directly with operational employees."
+        },
+        {
+          "question": "What is the primary purpose of a cash flow statement?",
+          "options": [
+            "To report asset depreciation",
+            "To show money expected into and out of the business",
+            "To calculate total annual taxes",
+            "To list competitor pricing data"
+          ],
+          "correctAnswer": "To show money expected into and out of the business",
+          "Help": "Cash flow is vital for maintaining short-term operational viability."
+        },
+        {
+          "question": "Which process involves turning facts into a useful format?",
+          "options": [
+            "Data mining",
+            "Information gathering",
+            "Data processing",
+            "Reporting"
+          ],
+          "correctAnswer": "Data processing",
+          "Help": "Processing transforms raw data into usable information."
+        }
+      ]
+    },
+    {
+      "topic": "Operations and Logistics",
+      "questions": [
+        {
+          "question": "What is the most common distribution channel for consumer goods?",
+          "options": [
+            "Producer to Consumer",
+            "Producer to Wholesaler to Retailer to Consumer",
+            "Retailer to Wholesaler to Consumer",
+            "Agent to Producer to Consumer"
+          ],
+          "correctAnswer": "Producer to Wholesaler to Retailer to Consumer",
+          "Help": "This traditional path allows for efficient mass distribution."
+        },
+        {
+          "question": "Which production process is used for steady, predictable demand?",
+          "options": [
+            "Intermittent",
+            "Batch",
+            "Unit",
+            "Continuous"
+          ],
+          "correctAnswer": "Continuous",
+          "Help": "Continuous production systems run without stopping for mass-produced items."
+        },
+        {
+          "question": "What is a benefit of technology in channel management?",
+          "options": [
+            "Increased delivery times",
+            "Decreased order accuracy",
+            "Improved efficiency",
+            "Elimination of the need for staff"
+          ],
+          "correctAnswer": "Improved efficiency",
+          "Help": "Technology, such as EDI, streamlines tracking and inventory management."
+        }
+      ]
+    }
+  ]
+}
