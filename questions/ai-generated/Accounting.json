@@ -1,0 +1,59 @@
+{
+  "testName": "AI-Generated Accounting Locked Exam",
+  "topics": [
+    {
+      "topic": "Journalizing",
+      "questions": [
+        {
+          "question": "When journalizing a transaction where a company purchases supplies on account, which of the following is the correct entry?",
+          "options": [
+            "Debit Cash, Credit Supplies",
+            "Debit Supplies, Credit Accounts Payable",
+            "Debit Supplies, Credit Cash",
+            "Debit Accounts Payable, Credit Supplies"
+          ],
+          "correctAnswer": "Debit Supplies, Credit Accounts Payable",
+          "Help": "Purchasing supplies on account increases an asset (Supplies) and increases a liability (Accounts Payable). Assets increase with debits and liabilities increase with credits."
+        },
+        {
+          "question": "What is the primary purpose of a general journal in the accounting cycle?",
+          "options": [
+            "To track the balance of a single account.",
+            "To record transactions chronologically before they are posted to the ledger.",
+            "To prepare the final balance sheet.",
+            "To reconcile bank statements."
+          ],
+          "correctAnswer": "To record transactions chronologically before they are posted to the ledger.",
+          "Help": "The general journal serves as the book of original entry, recording all transactions in the order they occur."
+        }
+      ]
+    },
+    {
+      "topic": "Account Classification",
+      "questions": [
+        {
+          "question": "Which of the following would be classified as an intangible asset?",
+          "options": [
+            "Inventory",
+            "Accounts Receivable",
+            "Copyrights",
+            "Land"
+          ],
+          "correctAnswer": "Copyrights",
+          "Help": "Intangible assets are non-physical assets that provide long-term value, such as patents, trademarks, and copyrights."
+        },
+        {
+          "question": "An unearned revenue account is classified as a:",
+          "options": [
+            "Current Asset",
+            "Long-term Liability",
+            "Current Liability",
+            "Owner's Equity"
+          ],
+          "correctAnswer": "Current Liability",
+          "Help": "Unearned revenue is money received before services are performed, creating an obligation to provide those services in the future, making it a liability."
+        }
+      ]
+    }
+  ]
+}

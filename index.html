@@ -2,507 +2,401 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>MINOT ACER</title>
-    <!-- minimal favicon so no conlosle errors -->
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23102727'/%3E%3Ctext x='8' y='11' font-size='10' text-anchor='middle' fill='%23fff' font-family='Arial,Helvetica,sans-serif'%3EFB%3C/text%3E%3C/svg%3E"
-    />
-    <!-- load font from google for a simple ui -->
+    <title>thesis | The Quizlet Killer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <!-- chart.js removed, using aleks-chart.js -now implemented into script.js -->
-    <script type="module">
-      // import firebase stuff we need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
-      import {
-        getAuth,
-        signInAnonymously,
-        onAuthStateChanged,
-        createUserWithEmailAndPassword,
-        signInWithEmailAndPassword,
-        signOut,
-      } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
-      import {
-        setPersistence,
-        browserLocalPersistence,
-      } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
-      // add other firebase sdks here if you want
-      // see firebase docs for available libs
-
-      // firebase config for this app
-      // measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyCG32qVhboeAYBGYcq9QniwBeiAVMHFvo4",
-        authDomain: "fblacer.firebaseapp.com",
-        projectId: "fblacer",
-        storageBucket: "fblacer.firebasestorage.app",
-        messagingSenderId: "410096026599",
-        appId: "1:410096026599:web:3d484f1d2d961180e7b342",
-        measurementId: "G-C79TMGDW0Q",
-      };
-
-      // initalise firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-      // firestore imports + tiny leaderboard api
-      import {
-        getFirestore,
-        collection,
-        addDoc,
-        query,
-        orderBy,
-        limit,
-        getDocs,
-        where,
-        serverTimestamp,
-        doc,
-        setDoc,
-        getDoc,
-        runTransaction,
-      } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
-
-      const db = getFirestore(app);
-
-      // initalise auth and try anonymous sign-in so rules work
-      const auth = getAuth(app);
-      // prefer persistent login across refreshes
-      try {
-        // prefer local persistence
-        setPersistence(auth, browserLocalPersistence).catch((err) => {
-          console.warn("setPersistence failed", err);
-        });
-      } catch (e) {
-        // ignore errors
-      }
-      // expose firestore helpers to window for script.js
-      window.db = db;
-      window.auth = auth;
-      window.authCreate = (email, password) =>
-        createUserWithEmailAndPassword(auth, email, password);
-      window.authSignIn = (email, password) =>
-        signInWithEmailAndPassword(auth, email, password);
-      window.authSignOut = () => signOut(auth);
-      window.getDoc = getDoc;
-      window.doc = doc;
-      window.setDoc = setDoc;
-      window.runTransaction = runTransaction;
-      window.serverTimestamp = serverTimestamp;
-      window.collection = collection;
-      window.addDoc = addDoc;
-      window.getDocs = getDocs;
-      window.query = query;
-      window.orderBy = orderBy;
-      window.limit = limit;
-      window.where = where;
-
-      // load banned words from firestore
-      window.bannedWords = [];
-
-      window.loadBannedWords = async () => {
-        try {
-          const snap = await getDoc(doc(window.db, "config", "bannedWords"));
-          window.bannedWords = snap.exists() ? snap.data().words || [] : [];
-          console.info("Loaded banned words:", window.bannedWords);
-        } catch (err) {
-          console.warn("Failed to load banned words:", err);
-          window.bannedWords = [];
-        }
-      };
-
-      // promise that resolves when auth is ready
-      let authReadyResolve;
-      window.leaderboardAuthReady = new Promise((res) => {
-        authReadyResolve = res;
-      });
-
-      onAuthStateChanged(auth, (user) => {
-        console.info(user ? `Signed in uid=${user.uid}` : "Not signed in");
-        // Only sign in anonymously if user is not already authenticated
-        if (!user) {
-          signInAnonymously(auth)
-            .then(() => {
-              console.info("Anonymous sign-in fallback activated");
-            })
-            .catch((err) => {
-              console.warn("Anonymous sign-in failed:", err);
-              try {
-                window.anonymousSignInError =
-                  err && err.message ? String(err.message) : String(err);
-              } catch (e) {
-                window.anonymousSignInError = "Anonymous sign-in failed";
-              }
-            });
-        }
-        if (authReadyResolve) {
-          authReadyResolve();
-          authReadyResolve = null;
-        }
-      });
-
-      // after auth is ready, load banned words
-      window.leaderboardAuthReady
-        .then(() => {
-          window
-            .loadBannedWords?.()
-            .catch((err) => console.warn("loadBannedWords failed", err));
-        })
-        .catch(() => {});
-
-      // when dom ready, show anon sign-in errors if any
-      document.addEventListener("DOMContentLoaded", () => {
-        if (window.anonymousSignInError) {
-          const el =
-            document.getElementById("authStatus") ||
-            document.getElementById("reportStatus");
-          if (el) {
-            el.textContent =
-              "Anonymous sign-in unavailable for this project. Enable it in Firebase Console.";
-            el.style.color = "crimson";
-          } else {
-            console.warn(
-              "Anonymous sign-in unavailable:",
-              window.anonymousSignInError,
-            );
-          }
-        }
-      });
-
-      // submit and fetch scores from firestore
-      window.leaderboardApi = {
-        async submitScore(testId, name, points) {
-          if (!testId) throw new Error("missing testId");
-          const finalScore = Math.floor(Number(points) || 0);
-
-          try {
-            const col = collection(db, "leaderboards", testId, "scores");
-
-            const docData = {
-              name: name || "Anonymous",
-              score: finalScore,
-              timestamp: serverTimestamp(),
-            };
-
-            const docRef = await addDoc(col, docData);
-            return docRef;
-          } catch (error) {
-            console.error("[leaderboardApi.submitScore]", error);
-            throw error;
-          }
-        },
-        async fetchTopScores(testId, limitNum = 15) {
-          if (!testId) throw new Error("missing testId");
-          const col = collection(db, "leaderboards", testId, "scores");
-          const q = query(col, orderBy("score", "desc"), limit(limitNum));
-          const snap = await getDocs(q);
-          const out = [];
-          snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
-          return out;
-        },
-        async fetchScoresByName(testId, name) {
-          if (!testId) throw new Error("missing testId");
-          if (!name) throw new Error("missing name");
-          const col = collection(db, "leaderboards", testId, "scores");
-          const q = query(col, where("name", "==", name));
-          const snap = await getDocs(q);
-          const out = [];
-          snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
-          return out;
-        },
-        async setScoreDoc(testId, docId, data) {
-          if (!testId) throw new Error("missing testId");
-          if (!docId) throw new Error("missing docId");
-          const finalData = { ...data, uid: data.uid || auth.currentUser?.uid };
-          await setDoc(
-            doc(db, "leaderboards", testId, "scores", docId),
-            finalData,
-          );
-          return true;
-        },
-        async fetchUserScoresForTest(testId, uid) {
-          if (!testId) throw new Error("missing testId");
-          if (!uid) throw new Error("missing uid");
-          try {
-            const col = collection(db, "users", uid, "scores");
-            const q = query(col, where("testId", "==", testId));
-            const snap = await getDocs(q);
-            const out = [];
-            snap.forEach((d) => out.push({ id: d.id, ...d.data() }));
-            return out;
-          } catch (e) {
-            console.warn("fetchUserScoresForTest error", e);
-            return [];
-          }
-        },
-        async fetchTestAverages(testId) {
-          if (!testId) throw new Error("missing testId");
-          try {
-            const scores = await this.fetchTopScores(testId, 100);
-            if (!scores || !scores.length) return null;
-            const sum = scores.reduce((s, e) => s + (Number(e.score) || 0), 0);
-            const averagePoints = Math.round(sum / scores.length);
-            return { averagePoints, topicAverages: null };
-          } catch (e) {
-            console.warn("fetchTestAverages error", e);
-            return null;
-          }
-        },
-      };
-
-      // send issues to firestore
-      window.reportApi = {
-        async sendIssue({ message, email, page }) {
-          if (!message) throw new Error("missing message");
-          if (window.leaderboardAuthReady) await window.leaderboardAuthReady;
-
-          const col = collection(db, "reports");
-          const docRef = await addDoc(col, {
-            message: String(message).slice(0, 2000),
-            email: email ? String(email).slice(0, 256) : null,
-            page: page || location.pathname || "unknown",
-            userAgent: navigator.userAgent || null,
-            createdAt: serverTimestamp(),
-          });
-          return docRef;
-        },
-      };
-
-      // read/write accounts/{uid}
-      window.accounts = {
-        async get(uid) {
-          if (!uid) throw new Error("missing uid");
-          const snap = await getDoc(doc(db, "accounts", uid));
-          return snap?.exists() ? snap.data() : null;
-        },
-        async set(uid, data, options = { merge: true }) {
-          if (!uid) throw new Error("missing uid");
-          const dref = doc(db, "accounts", uid);
-          await setDoc(
-            dref,
-            data,
-            options?.merge ? { merge: true } : undefined,
-          );
-          return true;
-        },
-      };
-
-      // write logs to firestore
-      window.writeLog = async function (action, context) {
-        if (!action) throw new Error("missing action");
-        const id = `${Date.now()}_${Math.random().toString(36).slice(2, 9)}`;
-        const dref = doc(db, "logs", id);
-        await setDoc(dref, {
-          action,
-          context: context || {},
-          timestamp: serverTimestamp(),
-        });
-        return true;
-      };
-    </script>
   </head>
-  <body>
-    <h1>MINOT ACER</h1>
-    <!-- settings cog opens settings modal -->
-    <button
-      id="settingsBtn"
-      aria-label="Open settings"
-      title="Settings"
-      class="settings-btn"
-    >
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <circle cx="12" cy="12" r="3"></circle>
-        <path
-          d="M12 1v6m0 6v6M4.22 4.22l4.24 4.24m5.08 5.08l4.24 4.24M1 12h6m6 0h6M4.22 19.78l4.24-4.24m5.08-5.08l4.24-4.24"
-        ></path>
-      </svg>
-    </button>
+  <body class="landing-page">
+    <nav class="landing-nav">
+      <div class="nav-container">
+        <div class="nav-logo"><svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;"><rect x="8" y="8" width="24" height="24" rx="6" fill="var(--accent-primary)"/><path d="M14 20L20 14L26 20" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>thesis</div>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#science" class="nav-link">Science</a>
+          <a href="#future" class="nav-link">AI Future</a>
+          <a href="#focus-test" class="nav-link">Focus Test</a>
+          <a href="#games" class="nav-link">Games</a>
+          <a href="auth.html" id="auth-btn" class="btn-primary nav-btn"
+            >Enter</a
+          >
+        </div>
+      </div>
+    </nav>
 
-    <!-- settings modal hidden by default -->
-    <div
-      id="settingsModal"
-      class="settings-modal"
-      aria-hidden="true"
-      style="
-        display: none;
-        position: fixed;
-        inset: 0;
-        align-items: center;
-        justify-content: center;
-        background: rgba(0, 0, 0, 0.45);
-        z-index: 99998;
-      "
-    >
-      <div
-        class="settings-panel"
-        style="
-          background: var(--surface, #fff);
-          color: var(--text-color, #102027);
-          padding: 18px;
-          border-radius: 12px;
-          min-width: 280px;
-          max-width: 520px;
-          width: 92%;
-          max-height: 90vh;
-          overflow-y: auto;
-          box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-          position: relative;
-        "
-      >
-        <button
-          id="settingsClose"
-          class="settings-close"
-          aria-label="Close"
-          style="
-            position: absolute;
-            right: 20px;
-            top: 12px;
-            background: none;
-            border: none;
-            font-size: 20px;
-          "
-        >
-          X
-        </button>
-        <h3 style="margin-top: 0">Settings</h3>
-        <div
-          class="settings-section"
-          style="
-            margin-bottom: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-          "
-        >
-          <div style="display: flex; align-items: center; gap: 12px">
-            <span id="settingsThemeLabel" style="font-weight: 600"
-              >dark/light</span
+    <main class="main-content">
+      <section class="hero">
+        <div class="spotlight-zone">
+          <canvas id="spotlightCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+          <h1 class="hero-title">The Quizlet Killer</h1>
+          <p class="hero-subtitle">
+            Precision learning. Zero distractions. Pure efficiency. Engineered
+            for those who demand mastery over mere memorization.
+          </p>
+          <div class="hero-actions">
+            <a href="auth.html" id="hero-auth-btn" class="btn-primary hero-btn"
+              >Get Started</a
             >
-            <small style="color: var(--muted, #6b7280)">toggle</small>
-          </div>
-          <label
-            class="theme-switch"
-            style="display: inline-flex; align-items: center"
-          >
-            <input
-              type="checkbox"
-              id="settingsDarkToggle"
-              aria-label="Toggle dark mode from settings"
-            />
-            <span class="slider"></span>
-          </label>
-        </div>
-
-        <div class="report-section" style="margin-bottom: 6px">
-          <h4 style="margin: 6px 0 8px 0">Report an issue</h4>
-          <textarea
-            id="issueText"
-            placeholder="Describe the problem..."
-            rows="4"
-            class="report-input"
-          ></textarea>
-          <input
-            id="issueEmail"
-            placeholder="Email (optional)"
-            class="report-input"
-          />
-          <div class="report-actions">
-            <button id="sendIssueBtn">Send report</button>
-            <div
-              id="reportStatus"
-              aria-live="polite"
-              class="report-status"
-            ></div>
+            <a
+              href="dashboard/index.html?view=practice"
+              id="try-now-link"
+              class="hero-link"
+              >Try now, no login &rarr;</a
+            >
           </div>
         </div>
-        <!-- login / signup ui -->
-        <div
-          class="auth-section"
-          style="
-            margin-top: 12px;
-            border-top: 1px dashed rgba(0, 0, 0, 0.06);
-            padding-top: 12px;
-          "
-        >
-          <h4 style="margin: 6px 0 8px 0">Login</h4>
-          <form
-            style="display: flex; flex-direction: column; gap: 8px"
-            onsubmit="return false;"
-          >
-            <input
-              id="username"
-              type="text"
-              placeholder="Username"
-              class="report-input"
-              autocomplete="username"
-            />
-            <input
-              id="password"
-              type="password"
-              placeholder="Password"
-              class="report-input"
-              autocomplete="current-password"
-            />
-          </form>
-          <div style="display: flex; gap: 8px; margin-top: 8px">
-            <button id="signupBtn">Sign Up</button>
-            <button id="loginBtn">Log In</button>
-            <button id="logoutBtn" style="display: none">Log Out</button>
-          </div>
-          <div style="margin-top: 12px">
-            <button id="viewProfileBtn">View Public Profile</button>
-          </div>
-          <div
-            id="authStatus"
-            style="margin-top: 8px; color: var(--muted, #6b7280)"
-          ></div>
+      </section>
 
-          <!-- legal links -->
-          <div
-            class="legal-section"
+      <section id="about" class="about-section">
+        <div style="text-align: center; margin-bottom: var(--spacing-4)">
+          <h2>Engineered for Mastery</h2>
+          <p
             style="
-              margin-top: 14px;
-              border-top: 1px dashed rgba(0, 0, 0, 0.06);
-              padding-top: 12px;
+              color: var(--text-secondary);
+              max-width: 600px;
+              margin: 0 auto;
             "
           >
-            <h4 style="margin: 6px 0 8px 0">Legal</h4>
-            <div style="display: flex; gap: 8px; align-items: center">
-              <button id="openPrivacyBtn">Privacy Policy</button>
-              <button id="openTosBtn">Terms of Service</button>
+            We believe that studying should be a scientific process. MINOT ACER
+            removes the fluff and focuses on the data that actually drives
+            learning.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Adaptive Testing</h3>
+            <p>
+              Our engine identifies your weak points in real-time and adjusts
+              the difficulty to ensure you're always learning, never just
+              guessing.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Deep Analytics</h3>
+            <p>
+              Don't just study. Track your progress with granular timing and
+              topic-based performance metrics.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Minimalist Focus</h3>
+            <p>
+              No ads, no clutter, no distractions. Just you and the material,
+              designed for high-intensity cognitive work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="science" class="feature-section">
+        <div class="feature-content">
+          <div class="feature-text">
+            <h2>The Science of Focus</h2>
+            <p>
+              Our methodology is grounded in cognitive psychology. By utilizing
+              spaced repetition and active recall, we optimize the brain's
+              ability to retain complex information. Studies show that removing
+              visual clutter increases deep work capacity by up to 40%.
+            </p>
+            <ul class="feature-list">
+              <li>Cognitive Load Reduction</li>
+              <li>Neural Path Strengthening</li>
+              <li>Optimized Retrieval Intervals</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="visual-placeholder">Focus Matrix</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="future" class="feature-section alt-bg">
+        <div class="feature-content reverse">
+          <div class="feature-text">
+            <h2>Next-Gen Intelligence</h2>
+            <p>
+              Coming Soon: Neural-Link Integration. Our upcoming AI engine will
+              analyze your biometric stress levels in real-time, adjusting the
+              pace of your study sessions to maintain a state of flow. Predict
+              exactly when you'll forget a concept before it happens.
+            </p>
+            <ul class="feature-list">
+              <li>Biometric Pacing</li>
+              <li>Predictive Forgetting Curves</li>
+              <li>AI-Generated Synthesis</li>
+            </ul>
+          </div>
+          <div class="feature-visual">
+            <div class="visual-placeholder">AI Core</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="focus-test" class="focus-test-section">
+        <div style="text-align: center; margin-bottom: var(--spacing-4)">
+          <h2>Scroll-to-Study Flow</h2>
+          <p
+            style="
+              color: var(--text-secondary);
+              max-width: 600px;
+              margin: 0 auto;
+            "
+          >
+            A study loop built for the part of your brain that wants to keep
+            scrolling. Answer a quick question, earn the next swipe, and stay
+            engaged while you half-study your way into real recall.
+          </p>
+        </div>
+        <div class="focus-test-container">
+          <div class="scroll-demo">
+            <div class="scroll-item">Question Break</div>
+            <div class="scroll-item">Reward Swipe</div>
+            <div class="scroll-item">Quick Recall</div>
+            <div class="scroll-item">Keep Scrolling</div>
+            <div class="scroll-item">One More Rep</div>
+          </div>
+          <div class="focus-info">
+            <h3>Doomscroll Study Mode</h3>
+            <p>
+              A continuous feed where every few swipes asks for one
+              active-recall answer before the stream keeps moving.
+            </p>
+            <a href="auth.html" class="btn-primary">Test Your Focus</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="games-section">
+        <div style="text-align: center; margin-bottom: var(--spacing-4)">
+          <h2>Gamified Mastery</h2>
+          <p
+            style="
+              color: var(--text-secondary);
+              max-width: 600px;
+              margin: 0 auto;
+            "
+          >
+            Study isn't a chore; it's a conquest. Climb the global leaderboards,
+            unlock academic achievements, and turn your syllabus into a campaign
+            for dominance.
+          </p>
+        </div>
+        <div class="games-grid">
+            <div class="game-card">
+              <div class="game-icon">Trophy</div>
+              <h3>Global Ranks</h3>
+              <p>
+                Compete with the brightest minds across the globe in real-time
+                recall sprints.
+              </p>
             </div>
+            <div class="game-card">
+              <div class="game-icon">Bolt</div>
+              <h3>Speed Runs</h3>
+              <p>
+                Challenge yourself to clear an entire set in record time without a
+                single error.
+              </p>
+            </div>
+            <div class="game-card">
+              <div class="game-icon">Diamond</div>
+              <h3>Knowledge Gems</h3>
+              <p>
+                Unlock rare achievements by mastering the most difficult topics in
+                your field.
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="how-it-works">
+        <div style="text-align: center; margin-bottom: var(--spacing-4)">
+          <h2>How It Works</h2>
+        </div>
+        <div class="how-grid">
+          <div class="how-step">
+            <div class="step-number">1</div>
+            <h3>Select Your Set</h3>
+            <p>
+              Choose a specialized test set or import your own study materials.
+            </p>
+          </div>
+          <div class="how-step">
+            <div class="step-number">2</div>
+            <h3>Active Recall</h3>
+            <p>
+              Face high-pressure questions that force your brain to retrieve
+              information, strengthening neural paths.
+            </p>
+          </div>
+          <div class="how-step">
+            <div class="step-number">3</div>
+            <h3>Analyze & Optimize</h3>
+            <p>
+              Review your topic-based heatmaps to see exactly where you need
+              more focus.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="landing-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo"><svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;"><rect x="8" y="8" width="24" height="24" rx="6" fill="var(--accent-primary)"/><path d="M14 20L20 14L26 20" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>thesis</div>
+          <p>Precision Academic Software.</p>
+        </div>
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Product</h4>
+            <a href="dashboard/index.html">Dashboard</a>
+            <a href="#about">About</a>
+          </div>
+          <div class="link-group">
+            <h4>Legal</h4>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
           </div>
         </div>
       </div>
-    </div>
+      <div class="footer-bottom">&copy; 2026 thesis. All rights reserved.</div>
+    </footer>
+    <script type="module">
+      import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
+      import { auth } from "./firebase-config.js";
 
-    <select id="testSelect"></select>
-    <button id="startBtn" onclick="startTest()">Start Test</button>
-    <button id="endBtn" style="display: none">End Test Now</button>
+      const authBtn = document.getElementById("auth-btn");
+      const heroAuthBtn = document.getElementById("hero-auth-btn");
+      const tryNowLink = document.getElementById("try-now-link");
+      const focusBtn = document.querySelector(".focus-info a");
 
-    <div id="flashcard-container"></div>
-    <div id="chart-container" style="display: none">
-      <canvas id="topicChart"></canvas>
-      <div id="topicLegend" class="chart-legend" aria-hidden="false"></div>
-    </div>
+      onAuthStateChanged(auth, (user) => {
+        const signedIn = Boolean(user && !user.isAnonymous);
+        const destination = signedIn ? "dashboard/index.html" : "auth.html";
+        if (authBtn) {
+          authBtn.textContent = signedIn ? "Enter" : "Join";
+          authBtn.href = destination;
+        }
+        if (heroAuthBtn) {
+          heroAuthBtn.textContent = signedIn
+            ? "Dashboard \u2192"
+            : "Get Started";
+          heroAuthBtn.href = destination;
+          heroAuthBtn.style.display = "inline-flex";
+        }
+        if (tryNowLink) {
+          tryNowLink.style.display = signedIn ? "none" : "inline-flex";
+        }
+        if (focusBtn) {
+          focusBtn.href = signedIn
+            ? "dashboard/index.html?view=practice"
+            : "auth.html";
+        }
+      });
 
-    <!-- floating indicators -->
-    <div id="floating-container" aria-hidden="true"></div>
+      // Spotlight Effect Logic
+      const spotlightZone = document.querySelector(".spotlight-zone");
+      const canvas = document.getElementById("spotlightCanvas");
+      if (spotlightZone && canvas) {
+        const ctx = canvas.getContext("2d");
+        let width, height;
+        let mouse = { x: -1000, y: -1000 };
+        const dots = [];
+        const spacing = 30;
+        const baseRadius = 1.5;
+        const maxRadius = 6;
+        const influenceRadius = 120;
+        const colors = ["#0d1b6b", "#2a0e63", "#003d33", "#1a1f24"];
 
-    <script src="script.js"></script>
+        function resize() {
+          width = spotlightZone.clientWidth;
+          height = spotlightZone.clientHeight;
+          if (width === 0 || height === 0) return;
+          canvas.width = width;
+          canvas.height = height;
+
+          dots.length = 0;
+          const cols = Math.floor(width / spacing);
+          const rows = Math.floor(height / spacing);
+          const offsetX = (width - (cols - 1) * spacing) / 2;
+          const offsetY = (height - (rows - 1) * spacing) / 2;
+
+          for (let i = 0; i < cols; i++) {
+            for (let j = 0; j < rows; j++) {
+              const x = offsetX + i * spacing;
+              const y = offsetY + j * spacing;
+              dots.push({
+                x,
+                y,
+                baseX: x,
+                baseY: y,
+                radius: baseRadius,
+                color: colors[Math.floor(Math.random() * colors.length)],
+              });
+            }
+          }
+        }
+
+        function animate() {
+          if (!width || !height) return;
+          ctx.clearRect(0, 0, width, height);
+
+          dots.forEach((dot) => {
+            const dx = mouse.x - dot.x;
+            const dy = mouse.y - dot.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < influenceRadius) {
+              const force = (influenceRadius - dist) / influenceRadius;
+              dot.radius +=
+                (baseRadius + force * (maxRadius - baseRadius) - dot.radius) *
+                0.2;
+              dot.x += dx * 0.02 * force;
+              dot.y += dy * 0.02 * force;
+            } else {
+              dot.radius += (baseRadius - dot.radius) * 0.1;
+              dot.x += (dot.baseX - dot.x) * 0.1;
+              dot.y += (dot.baseY - dot.y) * 0.1;
+            }
+
+            ctx.beginPath();
+            ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
+            ctx.fillStyle = dist < influenceRadius ? dot.color : "#B0B0B0";
+            ctx.fill();
+          });
+
+          requestAnimationFrame(animate);
+        }
+
+        spotlightZone.addEventListener("mousemove", (e) => {
+          const rect = spotlightZone.getBoundingClientRect();
+          mouse.x = e.clientX - rect.left;
+          mouse.y = e.clientY - rect.top;
+        });
+
+        spotlightZone.addEventListener("mouseleave", () => {
+          mouse.x = -1000;
+          mouse.y = -1000;
+        });
+
+        window.addEventListener("resize", resize);
+
+        // Use a more robust init sequence
+        setTimeout(() => {
+          resize();
+          animate();
+        }, 100);
+      }
+    </script>
   </body>
 </html>
+
+

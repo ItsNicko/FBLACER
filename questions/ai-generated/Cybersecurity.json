@@ -1,0 +1,59 @@
+{
+  "testName": "AI-Generated Cybersecurity Locked Exam",
+  "topics": [
+    {
+      "topic": "Security Fundamentals",
+      "questions": [
+        {
+          "question": "In the CIA triad, what does 'Integrity' refer to?",
+          "options": [
+            "Ensuring that only authorized users can access data.",
+            "Ensuring that data is accurate and has not been tampered with.",
+            "Ensuring that systems are available when needed.",
+            "Ensuring that data is encrypted at rest."
+          ],
+          "correctAnswer": "Ensuring that data is accurate and has not been tampered with.",
+          "Help": "Integrity ensures that information is trustworthy and hasn't been modified by unauthorized parties."
+        },
+        {
+          "question": "Which principle states that a user should only have the minimum levels of access—or permissions—needed to perform their job functions?",
+          "options": [
+            "Zero Trust",
+            "Least Privilege",
+            "Non-repudiation",
+            "Defense in Depth"
+          ],
+          "correctAnswer": "Least Privilege",
+          "Help": "The principle of least privilege (PoLP) minimizes the attack surface by limiting user access to only what is absolutely necessary."
+        }
+      ]
+    },
+    {
+      "topic": "Cyber Threats and Vulnerabilities",
+      "questions": [
+        {
+          "question": "What is a 'Zero-Day' vulnerability?",
+          "options": [
+            "A vulnerability that takes zero days to fix.",
+            "A security flaw that is unknown to the software vendor and has no available patch.",
+            "A virus that deletes all files on the zero-th day of infection.",
+            "A vulnerability that only affects zero-trust networks."
+          ],
+          "correctAnswer": "A security flaw that is unknown to the software vendor and has no available patch.",
+          "Help": "Zero-day vulnerabilities are particularly dangerous because the developer is unaware of them, leaving systems exposed until a patch is created."
+        },
+        {
+          "question": "Which type of social engineering attack involves sending fraudulent emails that appear to come from a legitimate source to steal sensitive information?",
+          "options": [
+            "Slamming",
+            "Phishing",
+            "Tailgating",
+            "Juice Jacking"
+          ],
+          "correctAnswer": "Phishing",
+          "Help": "Phishing uses deceptive emails or messages to trick users into revealing passwords, credit card numbers, or other private data."
+        }
+      ]
+    }
+  ]
+}

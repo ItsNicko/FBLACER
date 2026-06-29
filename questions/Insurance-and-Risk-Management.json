@@ -333,9 +333,120 @@
             "It automatically assigns financial values to all identified risks without further analysis"
           ],
           "correctAnswer": "It helps prioritize risks by providing a clear visual representation of their potential impact and likelihood",
-          "Help": "Risk mapping is an effective tool for quickly identifying the most critical risks that warrant immediate attention and resource allocation."
-        }
-      ]
+            "Help": "Risk mapping is an effective tool for quickly identifying the most critical risks that warrant immediate attention and resource allocation."
+          },
+          {
+            "question": "In the context of risk management, how does the concept of 'risk enhancement' differ from 'risk prevention'?",
+            "options": [
+              "Risk enhancement aims to eliminate risks, while prevention aims to increase them",
+              "Risk enhancement seeks to improve the positive outcomes of a risk, while prevention seeks to stop a negative event from occurring",
+              "Risk enhancement is only for financial risks, while prevention is for physical risks",
+              "There is no difference; they are interchangeable terms"
+            ],
+            "correctAnswer": "Risk enhancement seeks to improve the positive outcomes of a risk, while prevention seeks to stop a negative event from occurring",
+            "Help": "Prevention is about stopping loss. Enhancement is about maximizing the gain from a strategic risk that has been accepted."
+          },
+          {
+            "question": "Which of the following is a primary difference between an emergency response plan and a business continuity plan?",
+            "options": [
+              "Emergency response plans are long-term, while continuity plans are immediate",
+              "Emergency response focuses on immediate safety and stabilization, while continuity focuses on maintaining essential operations over time",
+              "Continuity plans are only for natural disasters, while response plans are for all crises",
+              "There is no difference; both serve the exact same purpose"
+            ],
+            "correctAnswer": "Emergency response focuses on immediate safety and stabilization, while continuity focuses on maintaining essential operations over time",
+            "Help": "Response is about 'stopping the bleed' (immediate safety); Continuity is about 'keeping the heart beating' (business operations)."
+          },
+          {
+            "question": "A company decides to set aside a specific fund of money to pay for small, predictable losses instead of buying insurance. This is an example of:",
+            "options": [
+              "Risk avoidance",
+              "Risk transfer",
+              "Risk retention (Active/Planned)",
+              "Risk reduction"
+            ],
+            "correctAnswer": "Risk retention (Active/Planned)",
+            "Help": "Active risk retention occurs when a company consciously decides to bear the risk and budgets for it, often through a self-insurance fund."
+          },
+          {
+            "question": "What is the main purpose of a 'risk financing transfer' in a risk management strategy?",
+            "options": [
+              "To eliminate the hazard entirely",
+              "To shift the financial consequence of a loss to another party, such as an insurance company",
+              "To reduce the likelihood of a loss occurring",
+              "To retain the loss within the organization's own budget"
+            ],
+            "correctAnswer": "To shift the financial consequence of a loss to another party, such as an insurance company",
+            "Help": "Transferring risk means you are still exposed to the event, but you pay a premium to ensure someone else pays for the financial impact."
+          },
+          {
+            "question": "When preparing a risk management report for senior leadership, which of the following is the most critical information to include?",
+            "options": [
+              "A list of every single employee's daily tasks",
+              "The history of the company's founding",
+              "A summary of the top prioritized risks, their potential impact, and the status of mitigation efforts",
+              "A detailed list of all insurance agents' contact information"
+            ],
+            "correctAnswer": "A summary of the top prioritized risks, their potential impact, and the status of mitigation efforts",
+            "Help": "Executive reports should be high-level and focused on the most critical risks and the effectiveness of the controls in place."
+          },
+          {
+            "question": "Which legal principle requires that a party act with reasonable care to avoid causing foreseeable harm to others, forming the basis of liability insurance?",
+            "options": [
+              "The principle of indemnity",
+              "The duty of care",
+              "The contract of adhesion",
+              "The principle of subrogation"
+            ],
+            "correctAnswer": "The duty of care",
+            "Help": "Duty of care is the legal obligation to adhere to a standard of reasonable care while performing acts that could foreseeably harm others."
+          },
+          {
+            "question": "For a young adult starting their first professional job, which of the following insurance combinations is typically most recommended for basic financial protection?",
+            "options": [
+              "Only pet insurance and travel insurance",
+              "Health insurance, renters insurance, and basic auto liability",
+              "Only a high-limit life insurance policy",
+              "No insurance is needed until age 30"
+            ],
+            "correctAnswer": "Health insurance, renters insurance, and basic auto liability",
+            "Help": "These three provide a foundational layer of protection against the most common and devastating financial risks for young adults."
+          },
+          {
+            "question": "In risk forecasting, what is the danger of relying solely on historical data (quantitative analysis) without considering expert intuition (qualitative analysis)?",
+            "options": [
+              "The forecast becomes too accurate",
+              "It may fail to account for 'Black Swan' events or unprecedented structural changes in the environment",
+              "It makes the process too slow",
+              "It eliminates the need for any risk controls"
+            ],
+            "correctAnswer": "It may fail to account for 'Black Swan' events or unprecedented structural changes in the environment",
+            "Help": "Historical data predicts the future based on the past. Qualitative analysis is needed to identify new, emerging risks that have never happened before."
+          },
+          {
+            "question": "How does a company's 'risk appetite' influence its choice of control measures?",
+            "options": [
+              "A low risk appetite leads to more risk retention",
+              "A high risk appetite leads to more risk avoidance",
+              "A low risk appetite leads to more risk avoidance and transfer, while a high risk appetite allows for more retention and enablement",
+              "Risk appetite has no impact on the choice of control measures"
+            ],
+            "correctAnswer": "A low risk appetite leads to more risk avoidance and transfer, while a high risk appetite allows for more retention and enablement",
+            "Help": "Risk appetite defines how much risk an organization is willing to accept. Those with low appetite seek total safety; those with high appetite accept risk for growth."
+          },
+          {
+            "question": "Which of the following is an example of 'risk creating value' in a corporate strategy?",
+            "options": [
+              "Buying insurance to avoid any possible loss",
+              "Investing in a high-risk R&D project that could disrupt an entire industry if successful",
+              "Closing down a profitable but slightly risky branch of the business",
+              "Implementing strict rules that prevent any changes to existing processes"
+            ],
+            "correctAnswer": "Investing in a high-risk R&D project that could disrupt an entire industry if successful",
+            "Help": "Taking strategic risks can lead to innovation and competitive advantages that far outweigh the potential for loss, creating immense value."
+          }
+        ]
+
     },
     {
       "topic": "Property & Liability Insurance",
@@ -559,9 +670,120 @@
           ],
           "correctAnswer": "Subrogation",
           "Help": "Subrogation allows the insurance company to step into the shoes of the insured to recover the money paid out for a claim from the party legally responsible for the loss."
+        },
+        {
+          "question": "Why is it often recommended to carry liability limits significantly higher than the state-mandated legal minimums?",
+          "options": [
+            "To lower the monthly premium cost",
+            "Because legal minimums are usually sufficient for most major accidents",
+            "To protect personal assets from being seized in a lawsuit if damages exceed the minimum limits",
+            "To ensure the insurance company pays for your own car's repairs"
+          ],
+          "correctAnswer": "To protect personal assets from being seized in a lawsuit if damages exceed the minimum limits",
+          "Help": "Legal minimums are often very low. If you are at fault in a major accident causing $100k in injuries but only have $25k in coverage, you are personally liable for the remaining $75k."
+        },
+        {
+          "question": "An insurance policy has a 'collision exclusion' for any accidents occurring while the vehicle is used for commercial ride-sharing. If a driver has an accident while transporting a paid passenger, what happens to the claim?",
+          "options": [
+            "The company pays the full amount regardless",
+            "The company pays only 50% of the claim",
+            "The claim is denied because it falls under a policy exclusion",
+            "The deductible is waived"
+          ],
+          "correctAnswer": "The claim is denied because it falls under a policy exclusion",
+          "Help": "An exclusion is a specific hazard or situation that the insurance company refuses to cover. Using a personal car for business without a commercial rider is a common exclusion."
+        },
+        {
+          "question": "Compare two auto policies: Policy A has a $250 deductible and $50k liability. Policy B has a $1,000 deductible and $100k liability. Which statement is generally true?",
+          "options": [
+            "Policy A will always have a lower annual premium than Policy B",
+            "Policy B will likely have a lower annual premium than Policy A, but provides more liability protection",
+            "Policy B is riskier because of the higher liability limit",
+            "Policy A provides better protection against catastrophic lawsuits"
+          ],
+          "correctAnswer": "Policy B will likely have a lower annual premium than Policy A, but provides more liability protection",
+          "Help": "Higher deductibles lower premiums. However, Policy B provides much higher protection ($100k vs $50k) against lawsuits, making it a more robust policy despite the higher out-of-pocket cost per claim."
+        },
+        {
+          "question": "Which of the following is typically NOT covered by a standard renter's insurance policy?",
+          "options": [
+            "The renter's laptop stolen from the apartment",
+            "The renter's clothing damaged in a fire",
+            "Structural damage to the walls and roof of the building",
+            "Liability if a guest slips and falls inside the apartment"
+          ],
+          "correctAnswer": "Structural damage to the walls and roof of the building",
+          "Help": "Renter's insurance covers personal property and liability. The building structure is the responsibility of the landlord and is covered by the landlord's insurance."
+        },
+        {
+          "question": "How does the 'exclusive remedy' provision of worker's compensation typically function in most states?",
+          "options": [
+            "It allows employees to sue their employers for any amount of damages",
+            "It prevents employees from suing their employers for negligence in exchange for guaranteed medical and wage benefits",
+            "It requires employers to pay all health insurance for the employee's entire life",
+            "It removes the requirement for the employee to prove the injury happened at work"
+          ],
+          "correctAnswer": "It prevents employees from suing their employers for negligence in exchange for guaranteed medical and wage benefits",
+          "Help": "Worker's comp is a 'grand bargain': employees get fast, guaranteed benefits regardless of fault, and in exchange, they give up the right to sue the employer in civil court."
+        },
+        {
+          "question": "What is the primary difference between General Liability insurance and Professional Liability (Errors & Omissions) insurance?",
+          "options": [
+            "General liability covers professional mistakes; Professional liability covers slip-and-falls",
+            "General liability covers physical injury/property damage; Professional liability covers financial loss due to professional negligence",
+            "General liability is only for doctors; Professional liability is for everyone else",
+            "There is no difference; they are the same coverage"
+          ],
+          "correctAnswer": "General liability covers physical injury/property damage; Professional liability covers financial loss due to professional negligence",
+          "Help": "General liability is for 'slips and trips'. Professional liability is for 'bad advice' or 'errors' that cause a client financial harm."
+        },
+        {
+          "question": "A homeowner has 'Replacement Cost' coverage for their furniture. If a 5-year-old sofa costing $1,000 new is destroyed, but its current market value is $400, how much will the insurer pay?",
+          "options": [
+            "$400",
+            "$1,000",
+            "$700",
+            "$0"
+          ],
+          "correctAnswer": "$1,000",
+          "Help": "Replacement Cost coverage pays the amount needed to buy a new, similar item today, regardless of depreciation. Actual Cash Value (ACV) would have paid $400."
+        },
+        {
+          "question": "In a 'comparative negligence' state, if a driver is found to be 30% at fault for an accident that caused $10,000 in damages to their own car, how much would they typically recover from the other party's insurance?",
+          "options": [
+            "$10,000",
+            "$0",
+            "$7,000",
+            "$3,000"
+          ],
+          "correctAnswer": "$7,000",
+          "Help": "Comparative negligence reduces the recovery by the percentage of the insured's own fault. $10,000 - (30% of $10,000) = $7,000."
+        },
+        {
+          "question": "What is the purpose of 'GAP insurance' when financing a new vehicle?",
+          "options": [
+            "To cover the gap between two different insurance companies",
+            "To cover the difference between the vehicle's actual cash value and the remaining loan balance if the car is totaled",
+            "To fill the gap in coverage when switching from one state to another",
+            "To cover the cost of a rental car while the vehicle is being repaired"
+          ],
+          "correctAnswer": "To cover the difference between the vehicle's actual cash value and the remaining loan balance if the car is totaled",
+          "Help": "Cars depreciate faster than loans are paid. If you owe $20k but the car is only worth $15k when totaled, GAP insurance pays the $5k difference."
+        },
+        {
+          "question": "What is the primary function of a 'co-insurance' clause in a property insurance policy?",
+          "options": [
+            "To require the insured to have two different insurance companies",
+            "To penalize the insured for under-insuring their property relative to its total value",
+            "To allow the insured to share the premium cost with a partner",
+            "To ensure the insurance company pays for 100% of all losses regardless of the policy limit"
+          ],
+          "correctAnswer": "To penalize the insured for under-insuring their property relative to its total value",
+          "Help": "Co-insurance clauses (e.g., 80% rule) require the owner to insure the property for a certain percentage of its value. If they insure it for too little, the insurer will only pay a proportional amount of any partial loss."
         }
       ]
     },
+
     {
       "topic": "Health, Disability, & Life Insurance",
       "questions": [
@@ -784,9 +1006,120 @@
           ],
           "correctAnswer": "Medicare is primarily for individuals 65 and older or with certain disabilities, while Medicaid is for low-income individuals and families",
           "Help": "Medicare is age and disability-based, while Medicaid is income and resource-based, serving different populations with healthcare needs."
+        },
+        {
+          "question": "Which of the following best describes the difference between an HMO (Health Maintenance Organization) and a PPO (Preferred Provider Organization)?",
+          "options": [
+            "HMOs allow you to see any doctor without a referral, while PPOs require one",
+            "PPOs generally offer more flexibility in choosing doctors and allow out-of-network care, while HMOs typically require a primary care physician (PCP) and referrals",
+            "HMOs are always more expensive than PPOs",
+            "PPOs do not have premiums, whereas HMOs do"
+          ],
+          "correctAnswer": "PPOs generally offer more flexibility in choosing doctors and allow out-of-network care, while HMOs typically require a primary care physician (PCP) and referrals",
+          "Help": "PPOs provide more choice but often higher costs. HMOs are more restrictive but often more affordable and coordinated."
+        },
+        {
+          "question": "What is typically a 'trigger' for long-term care insurance benefits to begin paying out?",
+          "options": [
+            "A diagnosis of a common cold",
+            "The inability to perform a certain number of 'activities of daily living' (ADLs), such as bathing or eating",
+            "Reaching the age of 65, regardless of health",
+            "The loss of a primary source of income"
+          ],
+          "correctAnswer": "The inability to perform a certain number of 'activities of daily living' (ADLs), such as bathing or eating",
+          "Help": "Long-term care policies usually trigger when a person can no longer perform 2 or 3 ADLs independently or has severe cognitive impairment."
+        },
+        {
+          "question": "In financial planning, why is the 'Wealth Accumulation' stage typically characterized by a shift toward growth-oriented investments like stocks?",
+          "options": [
+            "Because the individual has no need for insurance during this stage",
+            "Because they have a longer time horizon before retirement, allowing them to weather short-term market volatility for higher long-term gains",
+            "Because stocks are guaranteed to never lose value",
+            "Because the government mandates stock ownership during this stage"
+          ],
+          "correctAnswer": "Because they have a longer time horizon before retirement, allowing them to weather short-term market volatility for higher long-term gains",
+          "Help": "Younger individuals can afford more risk because they have decades to recover from market dips, making growth assets more attractive."
+        },
+        {
+          "question": "What is a primary feature of 'Universal Life' insurance that distinguishes it from traditional 'Whole Life' insurance?",
+          "options": [
+            "It provides no death benefit",
+            "It allows the policyholder to adjust the premium payments and the death benefit amount over time",
+            "It is only available to people under age 30",
+            "It does not build any cash value"
+          ],
+          "correctAnswer": "It allows the policyholder to adjust the premium payments and the death benefit amount over time",
+          "Help": "Universal Life is more flexible than Whole Life, giving the owner control over how much they pay into the policy and how much coverage they have."
+        },
+        {
+          "question": "What is the primary difference between Short-Term Disability (STD) and Long-Term Disability (LTD) insurance?",
+          "options": [
+            "STD covers only accidents; LTD covers only illnesses",
+            "STD typically covers a few weeks to a few months, while LTD covers several years or until retirement age",
+            "LTD is always free, while STD is expensive",
+            "STD is provided by the government, while LTD is always private"
+          ],
+          "correctAnswer": "STD typically covers a few weeks to a few months, while LTD covers several years or until retirement age",
+          "Help": "Short-term disability is for temporary recoveries. Long-term disability is for permanent or prolonged incapacity."
+        },
+        {
+          "question": "In health insurance, what is the difference between a 'co-payment' and 'co-insurance'?",
+          "options": [
+            "They are exactly the same thing",
+            "A co-payment is a fixed dollar amount paid per visit, while co-insurance is a percentage of the total cost of the service",
+            "A co-payment is paid by the insurer, while co-insurance is paid by the patient",
+            "Co-insurance only applies to emergency room visits"
+          ],
+          "correctAnswer": "A co-payment is a fixed dollar amount paid per visit, while co-insurance is a percentage of the total cost of the service",
+          "Help": "Co-pay: '$20 for a doctor visit'. Co-insurance: 'Patient pays 20% of the surgery cost'."
+        },
+        {
+          "question": "What is the 'contestability period' in a life insurance policy?",
+          "options": [
+            "The time the insurer has to contest the death benefit if they discover material misrepresentations on the original application",
+            "The period during which the policyholder can cancel the policy without penalty",
+            "The time it takes for the company to pay the death benefit",
+            "The period when premiums are frozen"
+          ],
+          "correctAnswer": "The time the insurer has to contest the death benefit if they discover material misrepresentations on the original application",
+          "Help": "Usually lasting two years, the contestability period allows the insurer to investigate the truthfulness of the application if the insured dies shortly after the policy starts."
+        },
+        {
+          "question": "What is the difference between 'Own-Occupation' and 'Any-Occupation' definitions in a disability insurance policy?",
+          "options": [
+            "Own-Occupation pays benefits if you cannot work in your specific trained profession; Any-Occupation pays only if you cannot work any job for which you are qualified",
+            "Any-Occupation is much more generous than Own-Occupation",
+            "Own-Occupation only covers office workers",
+            "There is no difference in how benefits are paid"
+          ],
+          "correctAnswer": "Own-Occupation pays benefits if you cannot work in your specific trained profession; Any-Occupation pays only if you cannot work any job for which you are qualified",
+          "Help": "Own-Occupation is the 'gold standard' for professionals (like surgeons) who may be able to do a basic desk job but can no longer perform their specialized role."
+        },
+        {
+          "question": "What is the primary tax advantage of a Health Savings Account (HSA) paired with a High Deductible Health Plan (HDHP)?",
+          "options": [
+            "Contributions are made with after-tax dollars and withdrawals are taxed",
+            "Contributions are tax-deductible, growth is tax-deferred, and withdrawals for qualified medical expenses are tax-free",
+            "The government pays all contributions for the user",
+            "HSA funds can only be used for cosmetic surgery"
+          ],
+          "correctAnswer": "Contributions are tax-deductible, growth is tax-deferred, and withdrawals for qualified medical expenses are tax-free",
+          "Help": "HSAs offer a 'triple tax advantage', making them powerful tools for saving for healthcare costs in retirement."
+        },
+        {
+          "question": "If a person is in the 'Estate Planning' stage of their financial life cycle, which insurance product becomes most important for minimizing taxes for heirs?",
+          "options": [
+            "Short-term disability insurance",
+            "Life insurance held in an Irrevocable Life Insurance Trust (ILIT)",
+            "Basic renter's insurance",
+            "A high-deductible health plan"
+          ],
+          "correctAnswer": "Life insurance held in an Irrevocable Life Insurance Trust (ILIT)",
+          "Help": "Estate planning focuses on the efficient transfer of wealth. ILITs can remove life insurance proceeds from the taxable estate, reducing the tax burden on heirs."
         }
       ]
     },
+
     {
       "topic": "Insurance Knowledge",
       "questions": [
@@ -899,9 +1232,65 @@
           ],
           "correctAnswer": "Indemnity",
           "Help": "The principle of indemnity states that the purpose of insurance is to compensate the insured for the amount of their loss, up to the policy limit, but not to allow them to gain financially from the loss."
+        },
+        {
+          "question": "How does the 'global insurance market' affect the availability and pricing of specialized coverage, such as aviation or marine insurance?",
+          "options": [
+            "Global markets have no impact because insurance is purely local",
+            "Reinsurance companies operate globally, spreading massive risks across different countries to maintain solvency",
+            "Global markets make specialized insurance cheaper by eliminating all risk",
+            "Specialized insurance is only available in one single country"
+          ],
+          "correctAnswer": "Reinsurance companies operate globally, spreading massive risks across different countries to maintain solvency",
+          "Help": "Reinsurance (insurance for insurance companies) allows primary insurers to transfer large portions of their risk to global reinsurers, enabling them to cover huge assets like aircraft or cargo ships."
+        },
+        {
+          "question": "In insurance pricing, what is 'risk aversion' and how does it influence the premiums a customer is willing to pay?",
+          "options": [
+            "Risk aversion is the desire to take more risks for more money",
+            "Risk aversion is a preference for certainty over uncertainty, leading risk-averse individuals to pay a premium to transfer risk to an insurer",
+            "Risk aversion means the customer refuses to buy any insurance",
+            "Risk aversion leads to lower premiums because the customer takes no risks"
+          ],
+          "correctAnswer": "Risk aversion is a preference for certainty over uncertainty, leading risk-averse individuals to pay a premium to transfer risk to an insurer",
+          "Help": "Insurance exists because people are generally risk-averse; they would rather pay a small, certain amount (premium) than face a large, uncertain loss."
+        },
+        {
+          "question": "What is a critical step during the 'renewal' phase of an insurance contract to ensure continued adequate coverage?",
+          "options": [
+            "Simply paying the bill without looking at the terms",
+            "Conducting a review of any changes in the insured's risk profile (e.g., new equipment, new employees) to update the policy",
+            "Switching companies every single year regardless of price",
+            "Canceling the policy and starting over from scratch"
+          ],
+          "correctAnswer": "Conducting a review of any changes in the insured's risk profile (e.g., new equipment, new employees) to update the policy",
+          "Help": "Risks change over time. A business that grew significantly since the last renewal may be under-insured if the policy isn't updated to reflect current assets and operations."
+        },
+        {
+          "question": "Which of the following is a primary goal of insurance industry regulation at the state level?",
+          "options": [
+            "To ensure that insurance companies can charge any price they want",
+            "To protect consumers from unfair practices and ensure the solvency of insurance companies so they can pay claims",
+            "To eliminate the need for insurance agents",
+            "To make insurance illegal for high-risk individuals"
+          ],
+          "correctAnswer": "To protect consumers from unfair practices and ensure the solvency of insurance companies so they can pay claims",
+          "Help": "Regulation ensures that insurers maintain enough reserves (solvency) to pay claims and that they treat policyholders fairly."
+        },
+        {
+          "question": "Under the Employee Retirement Income Security Act (ERISA), what is the primary focus regarding employee benefit plans?",
+          "options": [
+            "To mandate that all employees must have life insurance",
+            "To set minimum standards for pensions and health plans to protect employees from mismanagement",
+            "To eliminate all private pensions in favor of government ones",
+            "To prevent employers from offering health insurance"
+          ],
+          "correctAnswer": "To set minimum standards for pensions and health plans to protect employees from mismanagement",
+          "Help": "ERISA protects employees by requiring transparency and fiduciary responsibility from those managing employee benefit plans."
         }
       ]
     },
+
     {
       "topic": "Decision Making",
       "questions": [
@@ -1014,9 +1403,43 @@
           ],
           "correctAnswer": "Prioritizing the client's best interest and disclosing the conflict",
           "Help": "Ethical decision-making, particularly in a fiduciary role, requires agents to act transparently and always put the client's well-being ahead of personal gain."
+        },
+        {
+          "question": "An insurance company uses 'benchmarking' to analyze its claims processing time. If they find their average settlement time is 30 days while the industry leader is at 15 days, what is the most logical next step in their decision-making process?",
+          "options": [
+            "Assume their process is perfect and ignore the data",
+            "Lower their premiums to attract more clients",
+            "Analyze the industry leader's processes to identify inefficiencies in their own workflow and implement improvements",
+            "Fire all claims adjusters immediately"
+          ],
+          "correctAnswer": "Analyze the industry leader's processes to identify inefficiencies in their own workflow and implement improvements",
+          "Help": "Benchmarking identifies a performance gap. The goal is to understand *why* the gap exists and how to close it by adopting best practices."
+        },
+        {
+          "question": "An underwriter is evaluating a business application for liability insurance. The business has a history of frequent safety violations and refuses to implement recommended safety controls. What is the most appropriate decision?",
+          "options": [
+            "Approve the policy but charge a very low premium to be helpful",
+            "Deny the application because the risk is unacceptably high and the client is unwilling to mitigate it",
+            "Approve the policy without any conditions",
+            "Wait for the business to go bankrupt before making a decision"
+          ],
+          "correctAnswer": "Deny the application because the risk is unacceptably high and the client is unwilling to mitigate it",
+          "Help": "Underwriters must balance the company's risk exposure. A client who is both high-risk and unwilling to improve safety represents an unsustainable loss probability."
+        },
+        {
+          "question": "A financial advisor suggests a high-commission insurance product to a client that is slightly more expensive and provides less coverage than a competing product they know of. This action is a violation of which fiduciary principle?",
+          "options": [
+            "The principle of indemnity",
+            "The duty of care (specifically, the duty of loyalty to act in the client's best interest)",
+            "The contract of adhesion",
+            "The principle of subrogation"
+          ],
+          "correctAnswer": "The duty of care (specifically, the duty of loyalty to act in the client's best interest)",
+          "Help": "Fiduciary duty requires the advisor to put the client's interests above their own commission. Recommending an inferior product for personal gain is a breach of this trust."
         }
       ]
     },
+
     {
       "topic": "Ethics",
       "questions": [
@@ -1074,9 +1497,43 @@
           ],
           "correctAnswer": "Having a smartwatch visible during the event, even if turned off",
           "Help": "The FBLA guidelines explicitly state that 'Visible devices during the event will be considered a violation of the FBLA Honor Code,' unless approved as an accommodation, regardless of whether they are on or off."
+        },
+        {
+          "question": "Beyond encryption, which of the following is a critical technical measure for preventing unauthorized access to confidential insurance records in a digital environment?",
+          "options": [
+            "Allowing all employees to share a single master password",
+            "Implementing Multi-Factor Authentication (MFA) and Role-Based Access Control (RBAC)",
+            "Disabling the firewall to allow faster data retrieval",
+            "Storing passwords in a public text file on the company server"
+          ],
+          "correctAnswer": "Implementing Multi-Factor Authentication (MFA) and Role-Based Access Control (RBAC)",
+          "Help": "MFA adds a layer of security beyond passwords, and RBAC ensures employees only access the specific data necessary for their job role, minimizing the risk of internal breaches."
+        },
+        {
+          "question": "An insurance company is asked for a client's records by a journalist investigating a public interest story. The company has no legal subpoena. What is the most ethical course of action?",
+          "options": [
+            "Release all records immediately to be transparent with the public",
+            "Refuse to release the records to protect the client's privacy, unless required by law",
+            "Charge the journalist a fee to release the records",
+            "Delete the records so they cannot be leaked"
+          ],
+          "correctAnswer": "Refuse to release the records to protect the client's privacy, unless required by law",
+          "Help": "Confidentiality is a core ethical and legal obligation in insurance. Without a legal mandate (like a subpoena), client privacy must be protected."
+        },
+        {
+          "question": "An insurance adjuster discovers a technicality in a policy that would allow the company to deny a legitimate, devastating claim to a family in need, even though the intent of the policy was to cover such events. What ethical dilemma does this present?",
+          "options": [
+            "The dilemma between following the strict letter of the contract versus the spirit of the agreement and the duty of fairness",
+            "The dilemma of whether to charge the family more money",
+            "The dilemma of whether to give the claim to another company",
+            "There is no dilemma; the adjuster should always deny the claim to save money"
+          ],
+          "correctAnswer": "The dilemma between following the strict letter of the contract versus the spirit of the agreement and the duty of fairness",
+          "Help": "Professional ethics often involve balancing strict contractual obligations with the principle of fair dealing and the overarching purpose of providing security to the insured."
         }
       ]
     },
+
     {
       "topic": "Careers",
       "questions": [
@@ -1134,8 +1591,31 @@
           ],
           "correctAnswer": "Completion of a state-issued licensing exam and obtaining a license",
           "Help": "Insurance is a regulated industry, and agents must pass state-specific exams and obtain a license to ensure they have the necessary knowledge and ethical standing."
+        },
+        {
+          "question": "What is the primary responsibility of a 'Loss Control Specialist' within an insurance company?",
+          "options": [
+            "To sell more policies to high-risk clients",
+            "To visit clients' sites, identify potential hazards, and recommend safety improvements to reduce the likelihood and severity of losses",
+            "To process the final payment of a claim",
+            "To manage the company's internal payroll"
+          ],
+          "correctAnswer": "To visit clients' sites, identify potential hazards, and recommend safety improvements to reduce the likelihood and severity of losses",
+          "Help": "Loss control specialists are proactive; they help the insured prevent accidents, which in turn reduces the amount of claims the insurance company has to pay."
+        },
+        {
+          "question": "Which of the following is a recognized professional certification that demonstrates advanced expertise and commitment to the insurance profession?",
+          "options": [
+            "A basic high school diploma",
+            "Designations such as CPCU (Chartered Property Casualty Underwriter) or CLU (Chartered Life Underwriter)",
+            "Membership in a local sports league",
+            "A certificate of attendance from a one-hour webinar"
+          ],
+          "correctAnswer": "Designations such as CPCU (Chartered Property Casualty Underwriter) or CLU (Chartered Life Underwriter)",
+          "Help": "Professional designations like CPCU require extensive study and exams, marking a high level of professional competency and dedication to the field."
         }
       ]
     }
   ]
 }
+

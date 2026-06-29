@@ -1,46 +1,50 @@
 # FBLACER
 
-Lightweight client-side flashcards / quiz app with Firebase for leaderboards.
+Lightweight client-side flashcards / quiz app with Firebase for leaderboards and a comprehensive study dashboard.
 
 ## Features
 
-- Instant quizzes from local JSON
-- Clean UI with light/dark mode
-- Firebase auth (username-style)
-- Leaderboards and public profiles
-- Saved scores, topics, analytics
-- Anonymous reports and logs
+- **Instant Quizzes**: Run tests from local JSON banks.
+- **Study Dashboard**: Analytics, study sets, and progress tracking.
+- **AI-Powered Learning**: AI Tutor and specialized AI context for various business subjects.
+- **Secure Exam Mode**: Dedicated environment for focused testing.
+- **Competitive Edge**: Firebase-backed leaderboards and public profiles.
+- **Theming**: Clean UI with light/dark mode support.
+- **Backend Utilities**: Server-side scripts for content fetching.
 
 ## Structure
 
-- `index.html` — start up
-- `script.js` — logic + UI
-- `style.css` — styles + themes
-- `tests.json` — test index file
-- `questions/` — test question files
-- `legal/` — privacy + terms (not formated)
-- `firebase.rules` — Firestore rules (hack me)
+- `index.html` — Landing page
+- `auth.html` — Authentication and login
+- `exam.html` — Exam interface
+- `dashboard/` — User dashboard (stats, study sets, AI tutor, games, etc.)
+- `questions/` — JSON test question banks
+- `AI-Context/` — Subject-specific context for AI features
+- `server/` — Backend utility scripts (e.g., YouTube fetcher)
+- `firebase-config.js` — Firebase configuration
+- `style.css` — Global styles and themes
+- `privacy.html` / `terms.html` — Legal documentation
+- `learn.md` — Educational resources
 
 ## Firebase
 
-- Auth
-- `leaderboards/{testId}` — public scores
-- `users/{uid}` — private data
-- `usernames/{username}` — profile lookup
-- `reports/` & `logs/` — anonymous feedback + telemetry
-- Config lives in `index.html` (demo project)
+- **Auth**: User authentication.
+- **Firestore**:
+  - `leaderboards/{testId}` — Public scores.
+  - `users/{uid}` — Private user data and progress.
+  - `usernames/{username}` — Profile lookups.
+  - `reports/` & `logs/` — Feedback and telemetry.
 
 ## Editing Tests
 
-- Add a JSON file in `questions/`
-- Add it to `tests.json`
-- The app pulls it automatically
+- Add a JSON file in `questions/`.
+- The app pulls available tests dynamically or via `dashboard/tests.json`.
 
 ## Notes
 
-- Use HTTPS or localhost
-- Review Firestore rules before production
-- PRs welcome
+- Use HTTPS or localhost for Firebase Auth to work.
+- Review Firestore rules in `firebase.rules` before production.
+- PRs welcome.
 
 ## Want to learn more?
 

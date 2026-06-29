@@ -1,4 +1,3 @@
-
 {
   "testName": "Data Science & AI Competitive Exam",
   "topics": [
@@ -7,45 +6,25 @@
       "questions": [
         {
           "question": "A dataset contains the values: 5, 8, 12, 15, 20. What is the median of this dataset?",
-          "options": [
-            "8",
-            "12",
-            "15",
-            "20"
-          ],
+          "options": ["8", "12", "15", "20"],
           "correctAnswer": "12",
           "Help": "The median is the middle value in a sorted dataset. For 5, 8, 12, 15, 20, the middle value is 12."
         },
         {
           "question": "What is the mode of the following dataset: 3, 7, 5, 3, 9, 5, 3, 10?",
-          "options": [
-            "5",
-            "7",
-            "3",
-            "10"
-          ],
+          "options": ["5", "7", "3", "10"],
           "correctAnswer": "3",
           "Help": "The mode is the value that appears most frequently in a dataset. In this set, 3 appears three times, which is more than any other number."
         },
         {
           "question": "A dataset has a minimum value of 10 and a maximum value of 90. What is the range of this dataset?",
-          "options": [
-            "10",
-            "80",
-            "90",
-            "100"
-          ],
+          "options": ["10", "80", "90", "100"],
           "correctAnswer": "80",
           "Help": "The range is calculated as the difference between the maximum and minimum values in a dataset. 90 - 10 = 80."
         },
         {
           "question": "Which of the following measures describes the typical distance between data points and the mean?",
-          "options": [
-            "Variance",
-            "Covariance",
-            "Standard Deviation",
-            "Range"
-          ],
+          "options": ["Variance", "Covariance", "Standard Deviation", "Range"],
           "correctAnswer": "Standard Deviation",
           "Help": "Standard deviation measures the average amount of variability or dispersion around the mean."
         },
@@ -84,12 +63,7 @@
         },
         {
           "question": "In a perfectly normal distribution, what percentage of data falls within one standard deviation of the mean?",
-          "options": [
-            "34%",
-            "68%",
-            "95%",
-            "99.7%"
-          ],
+          "options": ["34%", "68%", "95%", "99.7%"],
           "correctAnswer": "68%",
           "Help": "According to the empirical rule, approximately 68% of data in a normal distribution falls within one standard deviation of the mean."
         },
@@ -106,23 +80,13 @@
         },
         {
           "question": "A coin is tossed three times. What is the expected number of heads?",
-          "options": [
-            "0.5",
-            "1",
-            "1.5",
-            "2"
-          ],
+          "options": ["0.5", "1", "1.5", "2"],
           "correctAnswer": "1.5",
           "Help": "For a fair coin, the probability of heads is 0.5. The expected number of heads for n tosses is n * P(Heads). So, 3 * 0.5 = 1.5."
         },
         {
           "question": "A fair six-sided die is rolled. What is the expected value of the outcome?",
-          "options": [
-            "3.0",
-            "3.5",
-            "4.0",
-            "4.5"
-          ],
+          "options": ["3.0", "3.5", "4.0", "4.5"],
           "correctAnswer": "3.5",
           "Help": "The expected value is the sum of (value * probability). For a fair die, each outcome (1 to 6) has a probability of 1/6. E(X) = (1 * 1/6) + (2 * 1/6) + ... + (6 * 1/6) = (1+2+3+4+5+6)/6 = 21/6 = 3.5."
         },
@@ -139,12 +103,7 @@
         },
         {
           "question": "The number of cars passing a certain point on a road in an hour is an example of what type of variable?",
-          "options": [
-            "Continuous",
-            "Categorical",
-            "Ordinal",
-            "Discrete"
-          ],
+          "options": ["Continuous", "Categorical", "Ordinal", "Discrete"],
           "correctAnswer": "Discrete",
           "Help": "A discrete variable can only take specific, distinct values, often whole numbers, usually resulting from counting."
         },
@@ -161,14 +120,75 @@
         },
         {
           "question": "Which measure of central tendency is most affected by outliers?",
-          "options": [
-            "Median",
-            "Mode",
-            "Mean",
-            "Range"
-          ],
+          "options": ["Median", "Mode", "Mean", "Range"],
           "correctAnswer": "Mean",
           "Help": "The mean is calculated by summing all values and dividing by the count. Outliers, being extreme values, can significantly pull the mean towards them."
+        },
+        {
+          "question": "How is the probability of two independent events both occurring calculated?",
+          "options": [
+            "By adding their individual probabilities",
+            "By multiplying their individual probabilities",
+            "By subtracting the smaller probability from the larger one",
+            "By dividing one probability by the other"
+          ],
+          "correctAnswer": "By multiplying their individual probabilities",
+          "Help": "For independent events A and B, the probability of both occurring is P(A and B) = P(A) * P(B)."
+        },
+        {
+          "question": "In probability, what does the complement of an event A represent?",
+          "options": [
+            "The probability that event A will definitely occur",
+            "The probability that event A will NOT occur",
+            "The probability of another independent event B occurring",
+            "The average probability of event A over multiple trials"
+          ],
+          "correctAnswer": "The probability that event A will NOT occur",
+          "Help": "The complement of event A is the event that A does not occur. Its probability is calculated as P(A') = 1 - P(A)."
+        },
+        {
+          "question": "In statistics, what is the primary use of a p-value?",
+          "options": [
+            "To determine the mean of a population",
+            "To decide if the results of an experiment are statistically significant",
+            "To calculate the standard deviation of a sample",
+            "To identify the mode of a dataset"
+          ],
+          "correctAnswer": "To decide if the results of an experiment are statistically significant",
+          "Help": "A p-value helps researchers determine if the observed effect is likely due to chance or if there is a statistically significant effect."
+        },
+        {
+          "question": "Which measure is most appropriate for comparing the spread of two datasets that have different units or vastly different means?",
+          "options": [
+            "Standard Deviation",
+            "Range",
+            "Coefficient of Variation",
+            "Variance"
+          ],
+          "correctAnswer": "Coefficient of Variation",
+          "Help": "The Coefficient of Variation (CV) is the ratio of the standard deviation to the mean (CV = sigma / mu), making it a dimensionless measure of relative variability."
+        },
+        {
+          "question": "A correlation coefficient of -0.85 between two variables suggests:",
+          "options": [
+            "A weak positive linear relationship",
+            "A strong negative linear relationship",
+            "No linear relationship",
+            "A perfect positive linear relationship"
+          ],
+          "correctAnswer": "A strong negative linear relationship",
+          "Help": "A correlation coefficient ranges from -1 to 1. A value of -0.85 indicates a strong inverse (negative) linear relationship between the variables."
+        },
+        {
+          "question": "Which parameters are used to define a normal distribution?",
+          "options": [
+            "Mean and Mode",
+            "Median and Variance",
+            "Mean and Standard Deviation",
+            "Range and Interquartile Range"
+          ],
+          "correctAnswer": "Mean and Standard Deviation",
+          "Help": "A normal distribution is completely defined by its mean (which determines the center of the peak) and its standard deviation (which determines the spread or width of the bell curve)."
         }
       ]
     },
@@ -177,34 +197,19 @@
       "questions": [
         {
           "question": "Which visual medium is best suited for showing the distribution of a single continuous variable?",
-          "options": [
-            "Scatterplot",
-            "Bar chart",
-            "Histogram",
-            "Pie chart"
-          ],
+          "options": ["Scatterplot", "Bar chart", "Histogram", "Pie chart"],
           "correctAnswer": "Histogram",
           "Help": "A histogram displays the frequency distribution of a continuous variable by dividing the data into bins and showing the count of observations in each bin."
         },
         {
           "question": "To visualize the relationship between two continuous variables, which diagram is most appropriate?",
-          "options": [
-            "Boxplot",
-            "Heatmap",
-            "Scatterplot",
-            "Line graph"
-          ],
+          "options": ["Boxplot", "Heatmap", "Scatterplot", "Line graph"],
           "correctAnswer": "Scatterplot",
           "Help": "A scatterplot is ideal for observing the correlation or relationship between two continuous variables."
         },
         {
           "question": "Which diagram is effective for showing the distribution of a dataset and highlighting potential outliers through quartiles?",
-          "options": [
-            "Histogram",
-            "Boxplot",
-            "Pie chart",
-            "Line chart"
-          ],
+          "options": ["Histogram", "Boxplot", "Pie chart", "Line chart"],
           "correctAnswer": "Boxplot",
           "Help": "Boxplots (box-and-whisker plots) display the five-number summary (minimum, first quartile, median, third quartile, maximum) and can clearly show outliers."
         },
@@ -339,6 +344,17 @@
           ],
           "correctAnswer": "They are highly interpretable and can mimic human decision-making.",
           "Help": "Decision trees are praised for their interpretability, as their tree-like structure makes it easy to understand the decision rules they generate, closely resembling human thought processes."
+        },
+        {
+          "question": "What is the primary purpose of data normalization in AI and machine learning?",
+          "options": [
+            "To increase the number of features in the dataset",
+            "To scale numerical features to a common range to prevent certain features from dominating",
+            "To remove all outliers from the dataset",
+            "To convert categorical data into numerical data"
+          ],
+          "correctAnswer": "To scale numerical features to a common range to prevent certain features from dominating",
+          "Help": "Normalization (e.g., Min-Max scaling) ensures that features with larger magnitudes do not disproportionately influence the model's learning process."
         }
       ]
     },
@@ -347,34 +363,19 @@
       "questions": [
         {
           "question": "Which SQL keyword is used to retrieve data from a database?",
-          "options": [
-            "INSERT",
-            "UPDATE",
-            "SELECT",
-            "DELETE"
-          ],
+          "options": ["INSERT", "UPDATE", "SELECT", "DELETE"],
           "correctAnswer": "SELECT",
           "Help": "The SELECT statement is used to fetch rows from a database table."
         },
         {
           "question": "Which of the following SQL clauses is used to filter records based on specified conditions?",
-          "options": [
-            "GROUP BY",
-            "ORDER BY",
-            "WHERE",
-            "HAVING"
-          ],
+          "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
           "correctAnswer": "WHERE",
           "Help": "The WHERE clause is used to extract only those records that fulfill a specified condition."
         },
         {
           "question": "Which Python library is fundamental for numerical computing and provides powerful array objects?",
-          "options": [
-            "Pandas",
-            "Matplotlib",
-            "Scikit-learn",
-            "NumPy"
-          ],
+          "options": ["Pandas", "Matplotlib", "Scikit-learn", "NumPy"],
           "correctAnswer": "NumPy",
           "Help": "NumPy (Numerical Python) is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays."
         },
@@ -391,23 +392,13 @@
         },
         {
           "question": "Which deep learning framework is known for its dynamic computational graph and flexibility, often favored in research?",
-          "options": [
-            "TensorFlow",
-            "Keras",
-            "PyTorch",
-            "Scikit-learn"
-          ],
+          "options": ["TensorFlow", "Keras", "PyTorch", "Scikit-learn"],
           "correctAnswer": "PyTorch",
           "Help": "PyTorch is an open-source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing. It's known for its flexibility and dynamic computational graph."
         },
         {
           "question": "When cleaning a dataset in Python, which Pandas function is commonly used to handle missing values?",
-          "options": [
-            "df.drop()",
-            "df.fillna()",
-            "df.merge()",
-            "df.groupby()"
-          ],
+          "options": ["df.drop()", "df.fillna()", "df.merge()", "df.groupby()"],
           "correctAnswer": "df.fillna()",
           "Help": "The `fillna()` method in Pandas is used to replace null (NaN) values with a specified value or method (e.g., mean, median, previous value)."
         },
@@ -457,12 +448,7 @@
         },
         {
           "question": "Which SQL command is used to add new rows of data into a table?",
-          "options": [
-            "ALTER TABLE",
-            "INSERT INTO",
-            "ADD ROW",
-            "CREATE ROW"
-          ],
+          "options": ["ALTER TABLE", "INSERT INTO", "ADD ROW", "CREATE ROW"],
           "correctAnswer": "INSERT INTO",
           "Help": "The `INSERT INTO` statement is used to add new records to an existing table in a database."
         },
@@ -490,12 +476,7 @@
         },
         {
           "question": "In SQL, which keyword is used to modify existing records in a table?",
-          "options": [
-            "ADD",
-            "CHANGE",
-            "UPDATE",
-            "ALTER"
-          ],
+          "options": ["ADD", "CHANGE", "UPDATE", "ALTER"],
           "correctAnswer": "UPDATE",
           "Help": "The `UPDATE` statement is used to modify the existing records in a table."
         },
@@ -739,6 +720,28 @@
           ],
           "correctAnswer": "Test set",
           "Help": "The test set is a dataset used to provide an unbiased evaluation of a final model fit on the training dataset."
+        },
+        {
+          "question": "What is the primary purpose of a confusion matrix in evaluating a classification model?",
+          "options": [
+            "To visualize the training loss over time",
+            "To show the breakdown of correct and incorrect predictions for each class",
+            "To determine the optimal number of clusters in unsupervised learning",
+            "To calculate the linear correlation between two variables"
+          ],
+          "correctAnswer": "To show the breakdown of correct and incorrect predictions for each class",
+          "Help": "A confusion matrix summarizes the performance of a classification algorithm by displaying the counts of true positives, true negatives, false positives, and false negatives."
+        },
+        {
+          "question": "When dealing with highly imbalanced datasets, why is the F1-Score often preferred over simple Accuracy?",
+          "options": [
+            "Because F1-Score is easier to calculate",
+            "Because accuracy can be misleadingly high if the model simply predicts the majority class",
+            "Because F1-Score ignores false negatives",
+            "Because accuracy only works for regression tasks"
+          ],
+          "correctAnswer": "Because accuracy can be misleadingly high if the model simply predicts the majority class",
+          "Help": "In imbalanced datasets, a model can achieve high accuracy by always predicting the majority class, but it will fail to detect the minority class. The F1-Score provides a harmonic mean of precision and recall, offering a more balanced measure of performance."
         }
       ]
     },
@@ -769,12 +772,7 @@
         },
         {
           "question": "Consider the statement: `Likes(John, Mary)`. In predicate logic, 'Likes' is an example of a:",
-          "options": [
-            "Constant",
-            "Variable",
-            "Function",
-            "Predicate"
-          ],
+          "options": ["Constant", "Variable", "Function", "Predicate"],
           "correctAnswer": "Predicate",
           "Help": "A predicate is a property or relationship that describes one or more arguments (e.g., John, Mary). Here, 'Likes' describes the relationship between John and Mary."
         },
@@ -1032,34 +1030,19 @@
         },
         {
           "question": "Convert the decimal number 10 to its binary equivalent.",
-          "options": [
-            "1010",
-            "1100",
-            "1001",
-            "0101"
-          ],
+          "options": ["1010", "1100", "1001", "0101"],
           "correctAnswer": "1010",
           "Help": "To convert 10 to binary: 10/2=5 R0, 5/2=2 R1, 2/2=1 R0, 1/2=0 R1. Reading remainders from bottom up gives 1010."
         },
         {
           "question": "What is the decimal equivalent of the binary number 1101?",
-          "options": [
-            "11",
-            "13",
-            "15",
-            "10"
-          ],
+          "options": ["11", "13", "15", "10"],
           "correctAnswer": "13",
           "Help": "1*2^3 + 1*2^2 + 0*2^1 + 1*2^0 = 8 + 4 + 0 + 1 = 13."
         },
         {
           "question": "Convert the decimal number 255 to its hexadecimal equivalent.",
-          "options": [
-            "FF",
-            "FE",
-            "EF",
-            "AF"
-          ],
+          "options": ["FF", "FE", "EF", "AF"],
           "correctAnswer": "FF",
           "Help": "255 in decimal is 1111 1111 in binary. Grouping by 4 bits from right gives 1111 (F) and 1111 (F). So, FF in hexadecimal."
         },
@@ -1120,12 +1103,7 @@
         },
         {
           "question": "What is the hexadecimal representation of the binary number 10110010?",
-          "options": [
-            "A2",
-            "B2",
-            "B1",
-            "C2"
-          ],
+          "options": ["A2", "B2", "B1", "C2"],
           "correctAnswer": "B2",
           "Help": "Group the binary into nibbles (4 bits): 1011 (B in hex) and 0010 (2 in hex). So, 10110010 is B2 in hexadecimal."
         },
@@ -1164,12 +1142,7 @@
         },
         {
           "question": "What is the decimal value of the hexadecimal number 1A?",
-          "options": [
-            "16",
-            "26",
-            "10",
-            "17"
-          ],
+          "options": ["16", "26", "10", "17"],
           "correctAnswer": "26",
           "Help": "1A in hexadecimal is (1 * 16^1) + (10 * 16^0) = 16 + 10 = 26 in decimal."
         },
@@ -1194,6 +1167,28 @@
           ],
           "correctAnswer": "The ability to understand, work with, analyze, and communicate with data.",
           "Help": "Data literacy refers to the ability to read, understand, create, and communicate data as information. It involves understanding data sources, methods, and implications."
+        },
+        {
+          "question": "What is metadata?",
+          "options": [
+            "Data that has been encrypted for security",
+            "Data that provides information about other data",
+            "The process of cleaning raw data",
+            "A type of unstructured data like a video file"
+          ],
+          "correctAnswer": "Data that provides information about other data",
+          "Help": "Metadata is often described as 'data about data'. Examples include the date a file was created, the author of a document, or the resolution of an image."
+        },
+        {
+          "question": "Which of the following is NOT typically a step in the standard data analysis process?",
+          "options": [
+            "Defining the problem and objectives",
+            "Collecting and cleaning the data",
+            "Hard-coding the results to match expectations",
+            "Analyzing the data and interpreting results"
+          ],
+          "correctAnswer": "Hard-coding the results to match expectations",
+          "Help": "The data analysis process involves objective steps: defining goals, gathering data, cleaning it, analyzing it, and communicating findings. Manipulating results to fit expectations is unethical and scientifically invalid."
         }
       ]
     }

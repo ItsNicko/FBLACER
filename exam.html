@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Exam Mode | FBLACER</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="exam-app">
+    <!-- Setup Screen -->
+    <div id="exam-setup" class="exam-setup-container">
+      <div class="exam-setup-panel">
+        <h1>Locked Exam Mode</h1>
+        <p>Prepare yourself for a distraction-free assessment environment. Please configure your exam below.</p>
+        
+        <div class="setup-group">
+          <label for="exam-topic">Topic</label>
+          <div class="custom-dropdown" id="exam-topic-selector">
+            <div class="dropdown-header">Select Topic</div>
+            <div class="dropdown-menu">
+              <!-- Topics will be injected here -->
+              <div class="dropdown-item" data-value="custom" style="border-top: 1px solid var(--border-color); margin-top: 4px; font-weight: 700;">Custom Topic...</div>
+            </div>
+          </div>
+          <input type="text" id="exam-custom-topic" placeholder="Enter custom topic" style="display: none; margin-top: 8px; padding: 12px; border: 1px solid var(--border-color); background: var(--surface-1); color: var(--text-primary); font-family: inherit; font-size: 14px; border-radius: 0; outline: none;">
+        </div>
+        
+        <div class="setup-group">
+          <label for="exam-difficulty">Difficulty</label>
+          <div class="custom-dropdown" id="exam-diff-selector">
+            <div class="dropdown-header">Select Difficulty</div>
+            <div class="dropdown-menu">
+              <div class="dropdown-item" data-value="easy">Easy</div>
+              <div class="dropdown-item" data-value="balanced">Balanced</div>
+              <div class="dropdown-item" data-value="hard">Hard</div>
+              <div class="dropdown-item" data-value="exam">Exam</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="setup-group">
+          <label for="exam-count">Number of Questions</label>
+          <input type="number" id="exam-count" value="10" min="1" max="50">
+        </div>
+        
+        <div class="setup-group">
+          <label>
+            <input type="checkbox" id="exam-strict"> Enable Strict Lockdown
+          </label>
+          <small>Auto-submit on multiple violations</small>
+        </div>
+        
+        <button id="begin-exam-btn" class="btn-primary">Start Exam</button>
+      </div>
+    </div>
+
+    <!-- Exam Interface -->
+    <div id="exam-interface" class="exam-interface" style="display: none;">
+      <header class="exam-header">
+        <div class="exam-info">
+          <span id="exam-progress-text">Question 1/10</span>
+        </div>
+        <div id="exam-timer" class="exam-timer">00:00</div>
+        <button id="submit-exam-btn" class="btn-secondary">Submit Exam</button>
+      </header>
+
+      <main class="exam-main">
+        <div id="question-container" class="exam-question-card">
+          <!-- Question and options will be injected here -->
+        </div>
+
+        <div class="exam-navigation">
+          <button id="prev-question-btn" class="btn-secondary">← Previous</button>
+          <button id="next-question-btn" class="btn-secondary">Next →</button>
+        </div>
+      </main>
+    </div>
+
+    <!-- Final Report -->
+    <div id="exam-report" class="exam-report-container" style="display: none;">
+      <div class="exam-report-panel">
+        <h1>Exam Completed</h1>
+        <div class="report-score-circle">
+          <span id="final-score">0%</span>
+          <small>Integrity Score</small>
+        </div>
+        
+        <div class="report-details">
+          <h3>Integrity Summary</h3>
+          <ul id="integrity-list">
+            <!-- Integrity events injected here -->
+          </ul>
+        </div>
+        
+        <button id="exit-exam-btn" class="btn-primary">Return to Dashboard</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="dashboard/exam-manager.js"></script>
+</body>
+</html>

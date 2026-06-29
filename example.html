@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ME³ AI MCQs</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          sans-serif;
+        background: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .app {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      /* Full Screen Video Background */
+      .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .video-background iframe {
+        width: 100vw;
+        height: 56.25vw;
+        min-height: 100vh;
+        min-width: 177.77vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .ui-layer {
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.8) 0%,
+          transparent 50%,
+          rgba(0, 0, 0, 0.4) 100%
+        );
+      }
+
+      /* TikTok Style Start Screen */
+      .start-screen {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 24px;
+        backdrop-filter: blur(15px);
+        background: rgba(0, 0, 0, 0.6);
+      }
+      .title {
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        letter-spacing: -2px;
+      }
+      .start-screen input,
+      .start-screen textarea {
+        width: 100%;
+        max-width: 350px;
+        padding: 16px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        font-size: 16px;
+      }
+      .start-btn {
+        width: 100%;
+        max-width: 350px;
+        padding: 16px;
+        border-radius: 12px;
+        border: none;
+        background: #fe2c55;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+      .start-btn:active {
+        transform: scale(0.95);
+      }
+
+      /* Vertical Feed */
+      .question-feed {
+        height: 100%;
+        overflow-y: hidden; /* LOCKED */
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+      }
+      .question-slide {
+        height: 100vh;
+        width: 100%;
+        scroll-snap-align: start;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 60px;
+      }
+
+      .question-inner {
+        width: 100%;
+        padding: 24px;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.5s ease;
+      }
+      .question-inner.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .question-text {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px #000;
+      }
+      .choices {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .choice-btn {
+        width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        color: #fff;
+        text-align: left;
+        font-size: 16px;
+        transition: 0.2s;
+      }
+      .choice-btn.correct {
+        background: #25f4ee;
+        color: #000;
+        border-color: #25f4ee;
+        font-weight: bold;
+      }
+      .choice-btn.incorrect {
+        background: #fe2c55;
+        color: #fff;
+        border-color: #fe2c55;
+      }
+
+      #scoreBox {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-weight: bold;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+      #loadingOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        color: #fff;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <div class="app">
+      <div class="video-background">
+        <iframe
+          src="https://player.vimeo.com/video/996450002?autoplay=1&muted=1&loop=1&background=1#t=0,40"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+        ></iframe>
+      </div>
+
+      <div class="ui-layer">
+        <div id="scoreBox" style="display: none">Score: 0 / 0</div>
+
+        <div id="startScreen" class="start-screen">
+          <div class="title">ME³ AI</div>
+          <input id="accessKey" type="password" placeholder="Access Key" />
+          <input id="subject" placeholder="AP World History" />
+          <textarea
+            id="miniPrompt"
+            placeholder="Content covered between 1250-2000 and make sure it helps with contextualization"
+          ></textarea>
+          <button class="start-btn" onclick="startQuiz()">Get Started</button>
+        </div>
+
+        <div
+          id="questionFeed"
+          class="question-feed"
+          style="display: none"
+        ></div>
+      </div>
+    </div>
+
+    <div id="loadingOverlay">Generating Questions...</div>
+
+    <script>
+      const WEBHOOK_URL =
+        "https://n8n-nicko.onrender.com/webhook/9dd13490-a566-4166-9b22-4f0109aecf5c";
+      let correctCount = 0,
+        totalCount = 0,
+        currentIndex = 0;
+      let questionsQueue = [],
+        previousQuestions = [],
+        loadingBatch = false;
+
+      function showLoading() {
+        document.getElementById("loadingOverlay").style.display = "flex";
+      }
+      function hideLoading() {
+        document.getElementById("loadingOverlay").style.display = "none";
+      }
+
+      async function fetchBatch() {
+        loadingBatch = true;
+        const payload = {
+          subject:
+            document.getElementById("subject").value ||
+            document.getElementById("subject").placeholder,
+          miniPrompt:
+            document.getElementById("miniPrompt").value ||
+            document.getElementById("miniPrompt").placeholder,
+          previousQuestions,
+          accessKey: document.getElementById("accessKey").value,
+        };
+
+        try {
+          const res = await fetch(WEBHOOK_URL, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+          });
+
+          const data = await res.json();
+
+          if (data.error === "INCORRECT KEY") {
+            alert("Access Denied: Incorrect Key.");
+            location.reload(); // Hard reset
+            return false;
+          }
+
+          data.questions.forEach((q) => {
+            previousQuestions.push(q.question);
+            appendSlide(q, questionsQueue.length);
+            questionsQueue.push(q);
+          });
+          return true;
+        } catch (err) {
+          alert("Connection Error.");
+          return false;
+        } finally {
+          loadingBatch = false;
+        }
+      }
+
+      function appendSlide(q, idx) {
+        const slide = document.createElement("div");
+        slide.className = "question-slide";
+        slide.dataset.index = idx;
+        slide.innerHTML = `
+          <div class="question-inner">
+            <div class="question-text">${q.question}</div>
+            <div class="choices">
+              ${q.choices.map((c, i) => `<button class="choice-btn" onclick="handleChoice(${i})">${c}</button>`).join("")}
+            </div>
+          </div>`;
+        document.getElementById("questionFeed").appendChild(slide);
+      }
+
+      async function startQuiz() {
+        showLoading();
+        const success = await fetchBatch();
+        hideLoading();
+
+        if (success) {
+          document.getElementById("startScreen").style.display = "none";
+          document.getElementById("scoreBox").style.display = "block";
+          document.getElementById("questionFeed").style.display = "block";
+          updateVisibleSlide();
+        }
+      }
+
+      function handleChoice(choiceIdx) {
+        const q = questionsQueue[currentIndex];
+        const slide = document.querySelector(
+          `.question-slide[data-index="${currentIndex}"]`,
+        );
+        const btns = slide.querySelectorAll(".choice-btn");
+
+        btns.forEach((b) => (b.disabled = true));
+
+        if (choiceIdx === q.correct_index) {
+          correctCount++;
+          btns[choiceIdx].classList.add("correct");
+          confetti({ particleCount: 100, spread: 70, origin: { y: 0.8 } });
+        } else {
+          btns[choiceIdx].classList.add("incorrect");
+          btns[q.correct_index].classList.add("correct");
+        }
+
+        totalCount++;
+        document.getElementById("scoreBox").textContent =
+          `Score: ${correctCount} / ${totalCount}`;
+
+        // Wait and Auto-Scroll
+        setTimeout(() => {
+          if (currentIndex < questionsQueue.length - 1) {
+            currentIndex++;
+            const nextSlide = document.querySelector(
+              `.question-slide[data-index="${currentIndex}"]`,
+            );
+            document
+              .getElementById("questionFeed")
+              .scrollTo({ top: nextSlide.offsetTop, behavior: "smooth" });
+            updateVisibleSlide();
+          } else {
+            showLoading();
+            fetchBatch().then(() => hideLoading());
+          }
+        }, 1500);
+
+        if (currentIndex % 10 === 7 && !loadingBatch) fetchBatch();
+      }
+
+      function updateVisibleSlide() {
+        const inners = document.querySelectorAll(".question-inner");
+        inners.forEach((el, idx) => {
+          el.classList.toggle("visible", idx === currentIndex);
+        });
+      }
+    </script>
+  </body>
+</html>
