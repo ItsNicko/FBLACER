@@ -12,7 +12,16 @@ import {
   getDoc, 
   runTransaction 
 } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+import { 
+  getStorage, 
+  ref, 
+  uploadBytes, 
+  getDownloadURL 
+} from "https://www.gstatic.com/firebasejs/12.3.0/firebase-storage.js";
 import { db } from "../firebase-config.js";
+import { app } from "../firebase-config.js";
+
+const storage = getStorage(app);
 
 export const dbApi = {
   async submitScore(testId, uid, username, points, topicScores = {}) {
@@ -308,6 +317,16 @@ export const dbApi = {
   async isSetSaved(uid, setId) {
     const snap = await getDoc(doc(db, "users", uid, "saves", setId));
     return snap.exists();
+  },
+
+  async uploadAvatar(uid, file) {
+    if (!uid || !file) throw new Error("missing uid or file");
+    
+    // Path: avatars/{uid}
+    const storageRef = ref(storage, `avatars/${uid}`);
+    await uploadBytes(storageRef, file);
+    const url = await getDownloadURL(storageRef);
+    return url;
   },
 
   async fetchChatSessions(uid) {

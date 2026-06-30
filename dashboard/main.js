@@ -177,12 +177,20 @@ document.addEventListener("DOMContentLoaded", async () => {
       const file = e.target.files?.[0];
       if (!file) return;
 
-      // Simple simulation of avatar upload as Storage is not initialized in dbApi
-      uiApi.showPopup(
-        "Avatar upload is currently simulated. Please use a URL in the database.",
-      );
-      document.getElementById("avatarStatus").textContent =
-        "Upload failed (Storage not configured)";
+      try {
+        const statusEl = document.getElementById("avatarStatus");
+        if (statusEl) statusEl.textContent = "Uploading...";
+        
+        const avatarUrl = await dbApi.uploadAvatar(user.uid, file);
+        await dbApi.updateUserProfile(user.uid, { avatarUrl });
+        
+        uiApi.showPopup("Avatar updated successfully!");
+        handleAuthStateChange(user);
+      } catch (e) {
+        console.error("Avatar upload failed:", e);
+        document.getElementById("avatarStatus").textContent = `Upload failed: ${e.message}`;
+        uiApi.showPopup("Error uploading avatar.");
+      }
     });
 
   document.addEventListener("click", (e) => {
