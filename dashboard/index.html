@@ -106,16 +106,25 @@
            </svg>
            <span>AI Tutor</span>
          </a>
+        <a href="#" class="nav-item" data-view="exam-view">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="11" width="18" height="11" rx="2" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+          </svg>
+          <span>Locked Exam</span>
+        </a>
+        <a href="#" class="nav-item" data-view="games-view">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M8 21h8" />
+            <path d="M12 17v4" />
+            <path d="M7 4h10v5a5 5 0 0 1-10 0V4z" />
+            <path d="M5 6H3v2a4 4 0 0 0 4 4" />
+            <path d="M19 6h2v2a4 4 0 0 1-4 4" />
+          </svg>
+          <span>Games</span>
+        </a>
         <div class="nav-section-label">Coming Soon</div>
-          <a href="#" class="nav-item" data-view="exam-view">
-            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="3" y="11" width="18" height="11" rx="2" />
-              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-            </svg>
-            <span>Locked Exam</span>
-          </a>
-          <button
-
+        <button
           type="button"
           class="nav-item nav-disabled"
           disabled
@@ -132,25 +141,15 @@
           <span>AI Future</span>
           <small>Soon</small>
         </button>
-          <a href="#" class="nav-item" data-view="doomscroll-view">
-            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="6" y="3" width="12" height="18" rx="2" />
-              <path d="M12 18h.01" />
-              <path d="M9 12h6" />
-              <path d="M9 15h6" />
-            </svg>
-            <span>Doomscroll</span>
-          </a>
-          <a href="#" class="nav-item" data-view="games-view">
-            <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M8 21h8" />
-              <path d="M12 17v4" />
-              <path d="M7 4h10v5a5 5 0 0 1-10 0V4z" />
-              <path d="M5 6H3v2a4 4 0 0 0 4 4" />
-              <path d="M19 6h2v2a4 4 0 0 1-4 4" />
-            </svg>
-            <span>Games</span>
-          </a>
+        <a href="#" class="nav-item" data-view="doomscroll-view">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="6" y="3" width="12" height="18" rx="2" />
+            <path d="M12 18h.01" />
+            <path d="M9 12h6" />
+            <path d="M9 15h6" />
+          </svg>
+          <span>Doomscroll</span>
+        </a>
         <button
           type="button"
           class="nav-item nav-disabled"
@@ -566,7 +565,8 @@
      </section>
 
      <section id="doomscroll-view" class="view" style="display: none">
-       <div id="doomscroll-container" style="height: 100vh; width: 100%; position: relative; overflow: hidden; background: black;">
+        <div id="doomscroll-container" style="height: 100vh; width: 100%; position: relative; overflow: hidden; background: #5A5A5A;">
+
          <div class="scroll-demo"></div>
          <div id="topic-selector-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 100; color: white; padding: 20px; text-align: center;">
            <h2 style="font-size: 32px; margin-bottom: 12px;">Doomscroll Study</h2>
