@@ -1,0 +1,262 @@
+{
+  "Accounting": {
+    "context": "/AI-Context/Accounting.txt",
+    "test": "/questions/Accounting.json",
+    "tag": "fbla"
+  },
+  "Finance": {
+    "context": "/AI-Context/Finance.txt",
+    "test": "/questions/Finance.json",
+    "tag": "fbla"
+  },
+  "Entrepreneurship-deca": {
+    "context": "/AI-Context/Entrepreneurship-deca.txt",
+    "test": "/questions/Entrepreneurship-deca.json",
+    "tag": "deca"
+  },
+  "Marketing-deca": {
+    "context": "/AI-Context/Marketing-deca.txt",
+    "test": "/questions/Marketing-deca.json",
+    "tag": "deca"
+  },
+  "Business-Management-deca": {
+    "context": "/AI-Context/Business-Management-deca.txt",
+    "test": "/questions/Business-Management-deca.json",
+    "tag": "deca"
+  },
+  "Personal-Financial-Literacy": {
+    "context": "/AI-Context/Personal-Financial-Literacy.txt",
+    "test": "/questions/Personal-Financial-Literacy.json",
+    "tag": "fbla"
+  },
+  "Buisness-Administration": {
+    "context": "/AI-Context/Buisness-Administration.txt",
+    "test": "/questions/Buisness-Administration.json",
+    "tag": "fbla"
+  },
+  "Techbowl": {
+    "context": "/AI-Context/Techbowl.txt",
+    "test": "/questions/Techbowl.json",
+    "tag": "fbla"
+  },
+  "Technology-Support-and-Services": {
+    "context": "/AI-Context/Technology-Support-and-Services.txt",
+    "test": "/questions/Technology-Support-and-Services.json",
+    "tag": "fbla"
+  },
+  "Sports-and-Entertainment-Management": {
+    "context": "/AI-Context/Sports-and-Entertainment-Management.txt",
+    "test": "/questions/Sports-and-Entertainment-Management.json",
+    "tag": "fbla"
+  },
+  "Securities-and-Investments": {
+    "context": "/AI-Context/Securities-and-Investments.txt",
+    "test": "/questions/Securities-and-Investments.json",
+    "tag": "fbla"
+  },
+  "Retail-Management": {
+    "context": "/AI-Context/Retail-Management.txt",
+    "test": "/questions/Retail-Management.json",
+    "tag": "fbla"
+  },
+  "Real-Estate": {
+    "context": "/AI-Context/Real-Estate.txt",
+    "test": "/questions/Real-Estate.json",
+    "tag": "fbla"
+  },
+  "Public-Administration-and-Management": {
+    "context": "/AI-Context/Public-Administration-and-Management.txt",
+    "test": "/questions/Public-Administration-and-Management.json",
+    "tag": "fbla"
+  },
+  "Project-Management": {
+    "context": "/AI-Context/Project-Management.txt",
+    "test": "/questions/Project-Management.json",
+    "tag": "fbla"
+  },
+  "Personal-Finance": {
+    "context": "/AI-Context/Personal-Finance.txt",
+    "test": "/questions/Personal-Finance.json",
+    "tag": "fbla"
+  },
+  "Parliamentary-Procedure": {
+    "context": "/AI-Context/Parliamentary-Procedure.txt",
+    "test": "/questions/Parliamentary-Procedure.json",
+    "tag": "fbla"
+  },
+  "Organizational-Leadership": {
+    "context": "/AI-Context/Organizational-Leadership.txt",
+    "test": "/questions/Organizational-Leadership.json",
+    "tag": "fbla"
+  },
+  "Networking-Infrastructures": {
+    "context": "/AI-Context/Networking-Infrastructures.txt",
+    "test": "/questions/Networking-Infrastructures.json",
+    "tag": "fbla"
+  },
+  "Network-Design": {
+    "context": "/AI-Context/Network-Design.txt",
+    "test": "/questions/Network-Design.json",
+    "tag": "fbla"
+  },
+  "Marketing": {
+    "context": "/AI-Context/Marketing.txt",
+    "test": "/questions/Marketing.json",
+    "tag": "fbla"
+  },
+  "Management-Information-Systems": {
+    "context": "/AI-Context/Management-Information-Systems.txt",
+    "test": "/questions/Management-Information-Systems.json",
+    "tag": "fbla"
+  },
+  "Journalism": {
+    "context": "/AI-Context/Journalism.txt",
+    "test": "/questions/Journalism.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Supply-Chain-Management": {
+    "context": "/AI-Context/Introduction-to-Supply-Chain-Management.txt",
+    "test": "/questions/Introduction-to-Supply-Chain-Management.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Retail-and-Merchandising": {
+    "context": "/AI-Context/Introduction-to-Retail-and-Merchandising.txt",
+    "test": "/questions/Introduction-to-Retail-and-Merchandising.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Parliamentary-Procedure": {
+    "context": "/AI-Context/Introduction-to-Parliamentary-Procedure.txt",
+    "test": "/questions/Introduction-to-Parliamentary-Procedure.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Marketing-Concepts": {
+    "context": "/AI-Context/Introduction-to-Marketing-Concepts.txt",
+    "test": "/questions/Introduction-to-Marketing-Concepts.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Information-Technology": {
+    "context": "/AI-Context/Introduction-to-Information-Technology.txt",
+    "test": "/questions/Introduction-to-Information-Technology.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-FBLA": {
+    "context": "/AI-Context/Introduction-to-FBLA.txt",
+    "test": "/questions/Introduction-to-FBLA.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Business-Procedures": {
+    "context": "/AI-Context/Introduction-to-Business-Procedures.txt",
+    "test": "/questions/Introduction-to-Business-Procedures.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Business-Concepts": {
+    "context": "/AI-Context/Introduction-to-Business-Concepts.txt",
+    "test": "/questions/Introduction-to-Business-Concepts.json",
+    "tag": "fbla"
+  },
+  "Introduction-to-Business-Communication": {
+    "context": "/AI-Context/Introduction-to-Business-Communication.txt",
+    "test": "/questions/Introduction-to-Business-Communication.json",
+    "tag": "fbla"
+  },
+  "International-Business": {
+    "context": "/AI-Context/International-Business.txt",
+    "test": "/questions/International-Business.json",
+    "tag": "fbla"
+  },
+  "Insurance-and-Risk-Management": {
+    "context": "/AI-Context/Insurance-and-Risk-Management.txt",
+    "test": "/questions/Insurance-and-Risk-Management.json",
+    "tag": "fbla"
+  },
+  "Human-Resource-Management": {
+    "context": "/AI-Context/Human-Resource-Management.txt",
+    "test": "/questions/Human-Resource-Management.json",
+    "tag": "fbla"
+  },
+  "Hospitality-and-Event-Management": {
+    "context": "/AI-Context/Hospitality-and-Event-Management.txt",
+    "test": "/questions/Hospitality-and-Event-Management.json",
+    "tag": "fbla"
+  },
+  "Healthcare-Administration": {
+    "context": "/AI-Context/Healthcare-Administration.txt",
+    "test": "/questions/Healthcare-Administration.json",
+    "tag": "fbla"
+  },
+  "Future-Business-Leader": {
+    "context": "/AI-Context/Future-Business-Leader.txt",
+    "test": "/questions/Future-Business-Leader.json",
+    "tag": "fbla"
+  },
+  "Entrepreneurship": {
+    "context": "/AI-Context/Entrepreneurship.txt",
+    "test": "/questions/Entrepreneurship.json",
+    "tag": "fbla"
+  },
+  "Economics": {
+    "context": "/AI-Context/Economics.txt",
+    "test": "/questions/Economics.json",
+    "tag": "fbla"
+  },
+  "Data-Science-and-AI": {
+    "context": "/AI-Context/Data-Science-and-AI.txt",
+    "test": "/questions/Data-Science-and-AI.json",
+    "tag": "fbla"
+  },
+  "Cybersecurity": {
+    "context": "/AI-Context/Cybersecurity.txt",
+    "test": "/questions/Cybersecurity.json",
+    "tag": "fbla"
+  },
+  "Customer-Service": {
+    "context": "/AI-Context/Customer-Service.txt",
+    "test": "/questions/Customer-Service.json",
+    "tag": "fbla"
+  },
+  "Computer-Problem-Solving": {
+    "context": "/AI-Context/Computer-Problem-Solving.txt",
+    "test": "/questions/Computer-Problem-Solving.json",
+    "tag": "fbla"
+  },
+  "Computer-Applications": {
+    "context": "/AI-Context/Computer-Applications.txt",
+    "test": "/questions/Computer-Applications.json",
+    "tag": "fbla"
+  },
+  "Business-Management": {
+    "context": "/AI-Context/Business-Management.txt",
+    "test": "/questions/Business-Management.json",
+    "tag": "fbla"
+  },
+  "Business-Law": {
+    "context": "/AI-Context/Business-Law.txt",
+    "test": "/questions/Business-Law.json",
+    "tag": "fbla"
+  },
+  "Business-Ethics": {
+    "context": "/AI-Context/Business-Ethics.txt",
+    "test": "/questions/Business-Ethics.json",
+    "tag": "fbla"
+  },
+  "Banking-and-Financial-Systems": {
+    "context": "/AI-Context/Banking-and-Financial-Systems.txt",
+    "test": "/questions/Banking-and-Financial-Systems.json",
+    "tag": "fbla"
+  },
+  "Agribusiness": {
+    "context": "/AI-Context/Agribusiness.txt",
+    "test": "/questions/Agribusiness.json",
+    "tag": "fbla"
+  },
+  "Advertising": {
+    "context": "/AI-Context/Advertising.txt",
+    "test": "/questions/Advertising.json",
+    "tag": "fbla"
+  },
+  "Advanced-Accounting": {
+    "context": "/AI-Context/Advanced-Accounting.txt",
+    "test": "/questions/Advanced-Accounting.json",
+    "tag": "fbla"
+  }
+}

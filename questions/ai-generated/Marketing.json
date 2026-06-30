@@ -1,0 +1,59 @@
+{
+  "testName": "AI-Generated Marketing Locked Exam",
+  "topics": [
+    {
+      "topic": "Marketing Fundamentals",
+      "questions": [
+        {
+          "question": "In a global economy, what is the primary goal of market research?",
+          "options": [
+            "To eliminate all competition.",
+            "To understand customer needs and preferences to better tailor products/services.",
+            "To set the highest possible price for a product.",
+            "To replace the need for branding."
+          ],
+          "correctAnswer": "To understand customer needs and preferences to better tailor products/services.",
+          "Help": "Market research provides the data necessary to make informed decisions about target markets, product development, and promotional strategies."
+        },
+        {
+          "question": "Which of the following best describes 'consumer buying behavior'?",
+          "options": [
+            "The process of manufacturing a product.",
+            "The actions and decision-making processes of individuals when purchasing goods.",
+            "The method of distributing products to retailers.",
+            "The process of setting corporate ethical standards."
+          ],
+          "correctAnswer": "The actions and decision-making processes of individuals when purchasing goods.",
+          "Help": "Consumer buying behavior explores the psychological and social factors that influence why and how consumers make purchase decisions."
+        }
+      ]
+    },
+    {
+      "topic": "Market Planning",
+      "questions": [
+        {
+          "question": "A SWOT analysis is a key component of a situation analysis. What does 'SWOT' stand for?",
+          "options": [
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Sales, Wages, Operations, Targets",
+            "Strategy, Workload, Objectives, Timing",
+            "Sustainability, Wealth, Organization, Tactics"
+          ],
+          "correctAnswer": "Strengths, Weaknesses, Opportunities, Threats",
+          "Help": "SWOT analysis evaluates internal factors (Strengths, Weaknesses) and external factors (Opportunities, Threats) to inform marketing strategy."
+        },
+        {
+          "question": "What is the purpose of 'market identification' in the planning process?",
+          "options": [
+            "To find a physical location for a store.",
+            "To define the specific group of potential customers (target market) most likely to buy the product.",
+            "To identify the company's internal payroll costs.",
+            "To name the company's primary competitors."
+          ],
+          "correctAnswer": "To define the specific group of potential customers (target market) most likely to buy the product.",
+          "Help": "Market identification involves segmenting the population to find the target audience that best fits the product's value proposition."
+        }
+      ]
+    }
+  ]
+}

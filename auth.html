@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Join thesis</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-card">
+        <div class="auth-header">
+          <h1>Join thesis</h1>
+          <p>Start mastering your material today.</p>
+        </div>
+
+        <form id="authForm" class="auth-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password"
+              required
+            />
+          </div>
+          <div class="auth-actions">
+            <button type="submit" id="signupBtn" class="btn-primary">
+              Create Account
+            </button>
+            <button type="button" id="loginBtn" class="btn-secondary">
+              Log In
+            </button>
+          </div>
+        </form>
+
+        <div class="auth-footer">
+          <a href="dashboard/index.html">Try now without an account &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="dashboard/main.js"></script>
+  </body>
+</html>

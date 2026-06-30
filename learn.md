@@ -2,7 +2,7 @@
 
 _aka “so you wanna poke the code?”_
 
-This is a **simple**, guide to how FBLACER works and how you can improve it, break it, or duct-tape new stuff into it.
+This is a **simple** guide to how FBLACER works and how you can improve it, break it, or duct-tape new stuff into it.
 
 ---
 
@@ -16,9 +16,11 @@ This is a **simple**, guide to how FBLACER works and how you can improve it, bre
 
 ## What you'll learn (short + painless)
 
-- How HTML, CSS, and JavaScript all tag-team to make the page work
-- How the app loads questions, checks answers, and counts points
-- How Firebase can save scores + power leaderboards (optional but cool)
+- How HTML, CSS, and JavaScript tag-team to make the app work
+- How the app handles authentication and the user dashboard
+- How the test engine loads questions, checks answers, and counts points
+- How Firebase powers leaderboards and user progress
+- How the AI Tutor uses subject-specific context to help you learn
 
 ---
 
@@ -27,193 +29,93 @@ This is a **simple**, guide to how FBLACER works and how you can improve it, bre
 - **Fetch** -> basically “yo browser, grab that file.”
 - **DOM** -> the live Lego version of your webpage. JS rearranges the bricks.
 - **Event listener** -> code that waits for you to _do something_ and then reacts.
-- **LocalStorage** -> tiny browser memory so the app remembers stuff like your username and if your logged in.
-- **Firebase** -> Cloud database that saves your scores, logs, profiles, etc.
-- **HTML** -> the skeleton for the rest of the app.
-- **CSS** -> the drip / outfit. (_Remove it and the site looks like its straight out of 2004._)
+- **LocalStorage** -> tiny browser memory so the app remembers you.
+- **Firebase** -> Cloud database that saves your scores, profiles, and logs.
+- **HTML** -> the skeleton.
+- **CSS** -> the drip / outfit. (_Remove it and the site looks like it's straight out of 2004._)
 - **JavaScript** -> the nervous system controlling everything.
+- **AI Context** -> "Cheat sheets" in text format that tell the AI how to act for a specific subject.
 
 ---
 
 ## What happens when you open the app?
 
-1. Browser loads `index.html`. (the skeleton)
-2. Loads `style.css`. (the fit)
-3. Loads `script.js`. (the brain)
-4. JS reads `tests.json` to see what quizzes exist
-5. You pick a test -> the app fetches that quiz’s file from `questions/`
-6. It shows you one flashcard at a time.
-7. You click an answer (or press **1–4** because you’re fast like that)
-8. Score updates -> streak changes -> dopamine increases
-9. End of test -> you get a summary + chart + bragging rights
+1. **Landing**: Browser loads `index.html`.
+2. **Entry**: You head to `auth.html` to sign in or create a profile.
+3. **The Hub**: You land on `dashboard/index.html`. This is where the magic happens.
+4. **Loading**: The dashboard pulls in several JS modules (UI, DB, Auth, Main) to set everything up.
+5. **Studying**: You pick a test -> `dashboard/test-engine.js` fetches the JSON file from `questions/`.
+6. **Testing**: You answer questions (or press **1–4** because you’re fast) and the engine tracks your streak.
+7. **Victory**: End of test -> your score is sent to Firebase -> you get bragging rights on the leaderboard.
 
 ---
 
 ## Files you should know
 
-- **`index.html`** -> main page structure
-- **`style.css`** -> themes + vibe
-- **`script.js`** -> everything that makes the app actually _work_
-- **`tests.json`** -> list of available tests
-- **`questions/*.json`** -> actual test content
-- **`firebase.rules`** -> rules that stop you from hacking me (go ahead anyway)
+- **`index.html` / `auth.html` / `exam.html`** -> The different "views" of the app.
+- **`style.css`** -> themes + vibe.
+- **`firebase-config.js`** -> The keys to the kingdom (Firebase connection).
+- **`dashboard/`** -> The heart of the app.
+    - `main.js` -> The conductor; wires everything together.
+    - `ui.js` -> Manages the visuals and buttons of the dashboard.
+    - `db.js` -> The bridge to Firestore (saving/loading data).
+    - `auth.js` -> Handles login, logout, and session checks.
+    - `test-engine.js` -> The logic for running quizzes and calculating scores.
+- **`questions/*.json`** -> The actual test content.
+- **`AI-Context/*.txt`** -> Knowledge bases for the AI Tutor.
+- **`firebase.rules`** -> Rules that stop you from hacking me (go ahead anyway).
 
 ---
 
-## Important parts of `script.js` (quick tour)
+## The Modular Brain (The Dashboard)
 
-### 1. Global state
+Unlike the old version, FBLACER is now modular. Instead of one giant `script.js`, the work is split up:
 
-_The app’s temporary memory._  
-Variables like `questions`, `progress`, `streak`, `scores`, etc. Changing these = changing how the game behaves.
+### 1. The UI Manager (`ui.js`)
+Handles all the DOM manipulation. Want to change how a button looks when clicked? Look here.
 
-### 2. Username checks
+### 2. The Data Bridge (`db.js`)
+Everything that touches Firebase (writing scores, reading profiles) happens here. It uses `async/await` because the internet is slower than your brain.
 
-- `isCleanUsername()` -> blocks bad words
-- `isValidFormat()` -> makes sure the name isn’t “xX\_{malicious-code}\_Xx”
-- `isUsernameTaken()` -> optional Firebase check
+### 3. The Test Engine (`test-engine.js`)
+This is where the game logic lives:
+- `startTest()` -> Resets the state and loads questions.
+- `generateFlashcard()` -> Builds the card UI.
+- `handleAnswer()` -> Checks if you're right, updates streaks, and gives dopamine.
 
-### 3. Auth UI helpers
+### 4. AI Tutor & Context
+The AI doesn't just "know" everything—it's fed context from the `AI-Context/` folder. When you study "Accounting," the app sends the contents of `Accounting.txt` to the AI so it doesn't start talking about baking cakes.
 
-UI updates when you sign in / out.  
-Want to spy on it? Add this in `setAuthStatus()`:
+---
 
-```javascript
-console.log("auth updated", msg);
-```
+## Simple edits (starter hacks)
 
-### 4. Logging + profile lookup
+### 1. Change the "Vibe"
+In `style.css`, find the CSS variables (like `--accent`). Change the hex code to your favorite color. Just don't pick neon green unless you hate your eyes.
 
-Stores logs in Firestore and console.
-When you click someone in the leaderboard, it tries to find their profile.
+### 2. Add a new Quiz
+1. Create a JSON file in `questions/` (e.g., `my-quiz.json`).
+2. Follow the format: `question`, `options` (array), and `correctAnswer`.
+3. Add it to `dashboard/tests.json` so the app knows it exists.
 
-### 5. DOM wiring + settings
+### 3. Teach the AI something new
+Open any file in `AI-Context/`. Add new facts, common pitfalls, or a specific way of explaining things. The AI Tutor will pick it up immediately.
 
-Handles dark mode, settings menu, report button, etc.
-Dark mode is just a .dark class toggled on <html> you can change the colors.
+### 4. Create a "Secure Exam"
+Check out `exam.html` and `dashboard/secure-exam.js`. This is a stripped-down version of the engine meant for focused testing without the dashboard distractions.
 
-### 6. Test list system
+---
 
-Loads tests.json -> builds dropdown -> creates a custom searchable selector.
+## Mini Project Challenge: Build a Subject
 
-### 7. The Test Lifecycle (the good stuff)
+1. **The Content**: Create `questions/your-subject.json` with 10 questions.
+2. **The Brain**: Create `AI-Context/your-subject.txt` with a summary of the key concepts.
+3. **The Registration**: Add your subject to `dashboard/tests.json`.
+4. **The Test**: Open the app, find your subject, and see if the AI Tutor can help you pass your own test.
 
-This is where the magic happens:
+---
 
-`startTest()` -> loads questions + resets everything
-
-`shuffleArray()` -> randomizes stuff
-
-`generateFlashcard()` -> builds the card UI
-
-Shows answers
-
-Handles clicks
-
-Gives points, fixes your streak
-
-Moves on to the next card
-
-Very dopamine
-
-### 8. Scoring
-
-`handleCorrect()` and `handleWrong()` do all the logic.
-
-### 9. Keyboard shortcuts
-
-1–4 = answer the corresponding option. Faster than clicking.
-
-### 10. Ending tests
-
-endTest() -> summary page
-saveScoreToFirestore() -> leaderboard + analytics saving.
-
-### 11. Leaderboard UI
-
-Modal overlay that shows top scores and lets you submit your name.
-
-### 12. Analytics + charts
-
-Draws a radial chart using canvas.
-Looks fancy. Feels legit.
-
-Simple edits (starter hacks)
-
-#### 1. Change the title
-
-Open index.html -> edit:
-
-```html
-<h1>FBLACER</h1>
-```
-
-Make it “I hate math” or whatever.
-
-#### 2. Change button colors
-
-In `style.css`, find:
-
-```css
---accent: #ff5722;
-```
-
-Replace with your favorite color don't pick neon green unless you hate your eyes.
-
-#### 3. Add a question
-
-Open any quiz file in `questions/`.
-Add:
-
-```json
-{
-  "question": "Why is JavaScript like this?",
-  "options": ["Because", "It just is", "Ask Brendan Eich", "Yes"],
-  "correctAnswer": "Yes"
-}
-```
-
-#### 4. Keyboard answers
-
-Already built in. Just flex with 1–4.
-
-### Mini Project Challenge
-
-Make your first quiz.
-
-1. Copy any quiz file
-
-2. Name it my-first-quiz.json
-
-3. Add it to tests.json
-
-4. Fill with 5 questions
-
-5. Profit
-
-Extra ideas (easy -> hard)
-
-Add images to questions
-
-Add timers
-
-Add local-only leaderboards
-
-Tiny code example: add image support
-
-```javascript
-if (q.image) {
-  const img = document.createElement("img");
-  img.src = q.image;
-  img.style.maxWidth = "100%";
-  img.style.marginTop = "10px";
-  card.insertBefore(img, optionsList);
-}
-```
-
-Final tips
-Use `console.log()` feels like a flashlight when you’re lost
-
-Make one small change -> refresh -> repeat
-
-If something breaks, check DevTools
+## Final tips
+- Use `console.log()`—it's like a flashlight when you're lost in the code.
+- Make one small change -> refresh -> repeat.
+- If something breaks, **Right Click -> Inspect -> Console** is your best friend.

@@ -1,0 +1,267 @@
+{
+  "tests": [
+    {
+      "testName": "Acalympics",
+      "path": "../questions/Acalympics.json"
+    },
+    {
+      "testName": "Accounting",
+      "path": "../questions/Accounting.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Advanced Accounting",
+      "path": "../questions/Advanced-Accounting.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Advertising",
+      "path": "../questions/Advertising.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Agribusiness",
+      "path": "../questions/Agribusiness.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Banking and Financial Systems",
+      "path": "../questions/Banking-and-Financial-Systems.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Business Ethics",
+      "path": "../questions/Business-Ethics.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Business Law",
+      "path": "../questions/Business-Law.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Business Management",
+      "path": "../questions/Business-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Computer Applications",
+      "path": "../questions/Computer-Applications.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Computer Problem Solving",
+      "path": "../questions/Computer-Problem-Solving.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Customer Service",
+      "path": "../questions/Customer-Service.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Cybersecurity",
+      "path": "../questions/Cybersecurity.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Data Science and AI",
+      "path": "../questions/Data-Science-and-AI.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Economics",
+      "path": "../questions/Economics.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Entrepreneurship",
+      "path": "../questions/Entrepreneurship.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Future Business Leader",
+      "path": "../questions/Future-Business-Leader.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Healthcare Administration",
+      "path": "../questions/Healthcare-Administration.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Hospitality and Event Management",
+      "path": "../questions/Hospitality-and-Event-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Human Resource Management",
+      "path": "../questions/Human-Resource-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Insurance and Risk Management",
+      "path": "../questions/Insurance-and-Risk-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "International Business",
+      "path": "../questions/International-Business.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Business Communication",
+      "path": "../questions/Introduction-to-Business-Communication.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Business Concepts",
+      "path": "../questions/Introduction-to-Business-Concepts.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Business Procedures",
+      "path": "../questions/Introduction-to-Business-Procedures.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to FBLA",
+      "path": "../questions/Introduction-to-FBLA.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Information Technology",
+      "path": "../questions/Introduction-to-Information-Technology.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Marketing Concepts",
+      "path": "../questions/Introduction-to-Marketing-Concepts.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Parliamentary Procedure",
+      "path": "../questions/Introduction-to-Parliamentary-Procedure.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Retail and Merchandising",
+      "path": "../questions/Introduction-to-Retail-and-Merchandising.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Introduction to Supply Chain Management",
+      "path": "../questions/Introduction-to-Supply-Chain-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Journalism",
+      "path": "../questions/Journalism.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Management Information Systems",
+      "path": "../questions/Management-Information-Systems.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Marketing",
+      "path": "../questions/Marketing.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Network Design",
+      "path": "../questions/Network-Design.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Networking Infrastructures",
+      "path": "../questions/Networking-Infrastructures.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Organizational Leadership",
+      "path": "../questions/Organizational-Leadership.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Parliamentary Procedure",
+      "path": "../questions/Parliamentary-Procedure.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Personal Finance",
+      "path": "../questions/Personal-Finance.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Project Management",
+      "path": "../questions/Project-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Public Administration and Management",
+      "path": "../questions/Public-Administration-and-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Real Estate",
+      "path": "../questions/Real-Estate.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Retail Management",
+      "path": "../questions/Retail-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Securities and Investments",
+      "path": "../questions/Securities-and-Investments.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Sports and Entertainment Management",
+      "path": "../questions/Sports-and-Entertainment-Management.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Technology Support and Services",
+      "path": "../questions/Technology-Support-and-Services.json",
+      "tag": "fbla"
+    },
+    {
+      "testName": "Techbowl - TSA",
+      "path": "../questions/Techbowl.json"
+    },
+    {
+      "testName": "Personal Financial Literacy",
+      "path": "../questions/Personal-Financial-Literacy.json",
+      "tag": "deca"
+    },
+    {
+      "testName": "Marketing",
+      "path": "../questions/Marketing-deca.json",
+      "tag": "deca"
+    },
+    {
+      "testName": "Finance",
+      "path": "../questions/Finance.json",
+      "tag": "deca"
+    },
+    {
+      "testName": "Entrepreneurship",
+      "path": "../questions/Entrepreneurship-deca.json",
+      "tag": "deca"
+    },
+    {
+      "testName": "Business Management and Administration Comprehensive Assessment",
+      "path": "../questions/Business-Management-deca.json",
+      "tag": "deca"
+    },
+    {
+      "testName": "Business Administration",
+      "path": "../questions/Buisness-Administration.json",
+      "tag": "deca"
+    }
+  ]
+}
